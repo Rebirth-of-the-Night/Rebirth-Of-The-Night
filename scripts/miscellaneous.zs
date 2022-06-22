@@ -15,6 +15,28 @@ recipes.addShapedMirrored("transsocks2", <owo:owolegs>, [
     [wovenCotten, <ore:dyeCyan>, wovenCotten]
 ]);
 
+// Tapestry
+recipes.addShapedMirrored("red_tapestry", <contenttweaker:tapestry_red>*4, [
+    [null, <ore:woolRed>, null],
+	[<ore:woolRed>, null, <ore:woolRed>],
+    [null, <ore:woolRed>, null]
+]);
+recipes.addShapedMirrored("green_tapestry", <contenttweaker:tapestry_green>*4, [
+    [null, <ore:woolGreen>, null],
+	[<ore:woolGreen>, null, <ore:woolGreen>],
+    [null, <ore:woolGreen>, null]
+]);
+recipes.addShapedMirrored("purple_tapestry", <contenttweaker:tapestry_purple>*4, [
+    [null, <ore:woolPurple>, null],
+	[<ore:woolPurple>, null, <ore:woolPurple>],
+    [null, <ore:woolPurple>, null]
+]);
+recipes.addShapedMirrored("cyan_tapestry", <contenttweaker:tapestry_cyan>*4, [
+    [null, <ore:woolCyan>, null],
+	[<ore:woolCyan>, null, <ore:woolCyan>],
+    [null, <ore:woolCyan>, null]
+]);
+
 JEI.removeAndHide(<bountiful:bounty>);
 JEI.removeAndHide(<customdisc:sussy>);
 JEI.removeAndHide(<customdisc:alvae>);

@@ -127,6 +127,15 @@ Crucible.addStoked(
 );
 Crucible.addStoked(
     [
+        <dungeontactics:steel_ingot>,
+        <ore:gemZanite>
+    ],
+    [
+        <contenttweaker:zanite_ingot>
+    ]
+);
+Crucible.addStoked(
+    [
         <endreborn:item_ingot_endorium>,
         <rotn_blocks:exorite_crystal>
     ],

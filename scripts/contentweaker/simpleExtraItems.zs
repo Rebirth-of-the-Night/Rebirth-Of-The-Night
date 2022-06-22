@@ -206,6 +206,8 @@ val ruby = VanillaFactory.createItem("ruby_ingot");
 ruby.register();
 val peridot = VanillaFactory.createItem("peridot_ingot");
 peridot.register();
+val zanite = VanillaFactory.createItem("zanite_ingot");
+zanite.register();
 val exorite = VanillaFactory.createItem("exorite_ingot");
 exorite.register();
 

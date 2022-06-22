@@ -1337,7 +1337,8 @@ ingotableGem.add(
   <minecraft:diamond>,
   <biomesoplenty:gem:2>,
   <biomesoplenty:gem:6>,
-  <biomesoplenty:gem:1>
+  <biomesoplenty:gem:1>,
+  <aether_legacy:zanite_gemstone>
 );
 
 val gemIngot = <ore:gemIngot>;
@@ -1345,7 +1346,8 @@ gemIngot.add(
   <betterwithmods:material:45>,
   <contenttweaker:sapphire_ingot>,
   <contenttweaker:ruby_ingot>,
-  <contenttweaker:peridot_ingot>
+  <contenttweaker:peridot_ingot>,
+  <contenttweaker:zanite_ingot>
 );
 
 val stoneWOHolystone = <ore:stoneWithoutHolystone>;
@@ -2533,7 +2535,6 @@ recipes.addShapeless("broken_stick", <contenttweaker:broken_stick> * 2, [<minecr
 recipes.addShapeless("broken_stick_to_stick", <minecraft:stick>, [<contenttweaker:broken_stick>, <contenttweaker:broken_stick>, <ore:glue> | <ore:slimeball>]);
 recipes.addShapeless("crassula_stem", <contenttweaker:greasy_stem>,[<contenttweaker:perforata>]);
 recipes.addShapeless("crassula_stem_to_stick", <minecraft:stick> * 2,[<contenttweaker:greasy_stem>]);
-recipes.addShapeless("bloodied_demonic_eye", <netherex:wither_bone>,[<aether_legacy:vampire_blade>, <netherex:wither_dust>]);
 
 // Random Portals hiding
 JEI.removeAndHide(<randomportals:vertical_end_portal_frame>);

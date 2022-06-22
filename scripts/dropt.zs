@@ -668,7 +668,7 @@ Dropt.list("slaked_lime")
       .matchBlocks(["minecraft:clay","minecraft:gravel","undergroundbiomes:igneous_gravel:*","undergroundbiomes:sedimentary_gravel:*","undergroundbiomes:metamorphic_gravel:*"])
       .replaceStrategy("REPLACE_ALL_IF_SELECTED")
       .addDrop(Dropt.drop()
-          .selector(Dropt.weight(16000)) // drops nothing if selected
+          .selector(Dropt.weight(24000)) // drops nothing if selected
       )
       .addDrop(Dropt.drop()
           .selector(Dropt.weight(1600)) // slaked lime (rich slag)

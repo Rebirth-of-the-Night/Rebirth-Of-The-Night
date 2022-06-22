@@ -17,8 +17,8 @@ JEI.removeAndHide(<netherex:dull_mirror>);
 JEI.removeAndHide(<netherex:worn_iron>);
 
 LootTable.removeGlobalItem("netherex:wither_bone");
-JEI.removeAndHide(<netherex:wither_bone>);
-JEI.removeAndHide(<netherex:wither_dust>);
+recipes.remove(<netherex:wither_bone>);
+recipes.remove(<netherex:wither_dust>);
 
 LootTable.removeGlobalItem("netherex:rime_crystal");
 furnace.remove(<netherex:rime_crystal>);
@@ -35,11 +35,11 @@ JEI.removeAndHide(<netherex:withered_amedian_hoe>);
 JEI.removeAndHide(<netherex:withered_amedian_hammer>);
 JEI.removeAndHide(<netherex:rime_and_steel>);
 
- JEI.removeAndHide(<netherex:frosted_amedian_sword>);
- JEI.removeAndHide(<netherex:frosted_amedian_pickaxe>);
- JEI.removeAndHide(<netherex:frosted_amedian_shovel>);
- JEI.removeAndHide(<netherex:frosted_amedian_axe>);
- JEI.removeAndHide(<netherex:frosted_amedian_hoe>);
+JEI.removeAndHide(<netherex:frosted_amedian_sword>);
+JEI.removeAndHide(<netherex:frosted_amedian_pickaxe>);
+JEI.removeAndHide(<netherex:frosted_amedian_shovel>);
+JEI.removeAndHide(<netherex:frosted_amedian_axe>);
+JEI.removeAndHide(<netherex:frosted_amedian_hoe>);
 
 JEI.removeAndHide(<netherex:blazed_amedian_sword>);
 JEI.removeAndHide(<netherex:blazed_amedian_pickaxe>);

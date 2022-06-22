@@ -12,7 +12,8 @@ val diamond = <betterwithmods:material:45>;
 val ruby = <contenttweaker:ruby_ingot>;
 val sapphire = <contenttweaker:sapphire_ingot>;
 val peridot = <contenttweaker:peridot_ingot>;
-val exorite =<contenttweaker:exorite_ingot>;
+val zanite = <contenttweaker:zanite_ingot>;
+val exorite = <contenttweaker:exorite_ingot>;
 val dheart = <quark:diamond_heart>;
 val stick = <ore:stickWood>;
 val handle = <spartanweaponry:material>;
@@ -76,6 +77,34 @@ val gemAll = [
   <atop:amethyst_chestplate>,
   <atop:amethyst_leggings>,
   <atop:amethyst_boots>,
+  <spartancompat:dagger_zanite>,
+  <spartancompat:longsword_zanite>,
+  <spartancompat:halberd_zanite>,
+  <spartancompat:saber_zanite>,
+  <spartancompat:rapier_zanite>,
+  <spartancompat:greatsword_zanite>,
+  <spartancompat:hammer_zanite>,
+  <spartancompat:warhammer_zanite>,
+  <spartancompat:spear_zanite>,
+  <spartancompat:pike_zanite>,
+  <spartancompat:katana_zanite>,
+  <spartancompat:lance_zanite>,
+  <spartancompat:longbow_zanite>,
+  <spartancompat:throwing_knife_zanite>,
+  <spartancompat:throwing_axe_zanite>,
+  <spartancompat:javelin_zanite>,
+  <spartancompat:boomerang_zanite>,
+  <spartancompat:battleaxe_zanite>,
+  <spartancompat:mace_zanite>,
+  <spartancompat:glaive_zanite>,
+  <spartancompat:staff_zanite>,
+  <aether_legacy:zanite_pickaxe>,
+  <aether_legacy:zanite_axe>,
+  <aether_legacy:zanite_shovel>,
+  <aether_legacy:zanite_helmet>,
+  <aether_legacy:zanite_chestplate>,
+  <aether_legacy:zanite_leggings>,
+  <aether_legacy:zanite_boots>
 ] as IIngredient[];
 
 
@@ -426,3 +455,108 @@ recipes.remove(<atop:amethyst_boots>);
 // recipes.addShaped("exorite_boots", <atop:amethyst_boots>,
 //  [[exorite,null,exorite],
 //   [exorite,null,exorite]]);*/
+
+// Zanite
+recipes.addShaped("zanite_helmet", <aether_legacy:zanite_helmet>,
+ [[zanite,zanite,zanite],
+  [zanite,null,zanite]]);  
+recipes.addShaped("zanite_chestplate", <aether_legacy:zanite_chestplate>,
+ [[zanite,null,zanite],
+  [zanite,zanite,zanite],
+  [zanite,zanite,zanite]]);   
+recipes.addShaped("zanite_leggings", <aether_legacy:zanite_leggings>,
+ [[zanite,zanite,zanite],
+  [zanite,null,zanite],
+  [zanite,null,zanite]]);   
+recipes.addShaped("zanite_boots", <aether_legacy:zanite_boots>,
+ [[zanite,null,zanite],
+  [zanite,null,zanite]]); 
+
+recipes.addShapedMirrored("zanite_shovel", <aether_legacy:zanite_shovel>,
+ [[null,zanite,null],
+  [null,stick,null],
+  [null,stick,null]]); 
+
+recipes.addShapedMirrored("zanite_axe", <aether_legacy:zanite_axe>,
+ [[zanite,zanite],
+  [zanite,stick],
+  [null,stick]]); 
+
+recipes.addShaped("zanite_pickaxe", <aether_legacy:zanite_pickaxe>,
+ [[zanite,zanite,zanite],
+  [null,stick,null],
+  [null,stick,null]]);
+  
+// Zanite Spartan Weapons
+recipes.addShaped("zanite_dagger", <spartancompat:dagger_zanite>,
+ [[zanite],
+  [handle]]);
+recipes.addShaped("zanite_katana", <spartancompat:katana_zanite>,
+ [[null,null,zanite],
+  [null,zanite,null],
+  [handle,null,null]]);
+recipes.addShaped("zanite_saber", <spartancompat:saber_zanite>,
+ [[null,zanite],
+  [null,zanite],
+  [zanite,handle]]);
+//recipes.addShaped("zanite_rapier", <spartancompat:rapier_zanite>,
+// [[null,null,zanite],
+//  [zanite,zanite,null],
+//  [handle,zanite,null]]);
+//recipes.addShaped("zanite_greatsword", <spartancompat:greatsword_zanite>,
+// [[null,zanite,null],
+//  [zanite,zanite,zanite],
+//  [zanite,handle,zanite]]);
+//recipes.addShaped("zanite_war_mallet", <spartancompat:hammer_zanite>,
+// [[zanite,zanite,zanite],
+//  [zanite,zanite,zanite],
+//  [null,handle,null]]);
+recipes.addShaped("zanite_warhammer", <spartancompat:warhammer_zanite>,
+ [[null,zanite],
+  [zanite,zanite],
+  [null,handle]]);
+recipes.addShaped("zanite_spear", <spartancompat:spear_zanite>,
+ [[zanite],
+  [pole]]);
+//recipes.addShaped("zanite_halberd", <spartancompat:halberd_zanite>,
+// [[null,zanite],
+//  [zanite,zanite],
+//  [zanite,handle]]);
+recipes.addShaped("zanite_pike", <spartancompat:pike_zanite>,
+ [[zanite],
+  [pole],
+  [pole]]);
+//recipes.addShaped("zanite_lance", <spartancompat:lance_zanite>,
+// [[zanite],
+//  [pole],
+//  [handle]]);
+recipes.addShaped("zanite_longbow", <spartancompat:longbow_zanite>,
+ [[handle,stick,zanite],
+  [stick,null,twine],
+  [zanite,twine,twine]]);
+//recipes.addShaped("zanite_throwing_knife", <spartancompat:throwing_knife_zanite>,
+// [[handle,zanite]]);
+//recipes.addShaped("zanite_throwing_axe", <spartancompat:throwing_axe_zanite>,
+// [[handle,zanite],
+//  [null,zanite]]);
+//recipes.addShaped("zanite_javelin", <spartancompat:javelin_zanite>,
+// [[pole,zanite]]);
+//recipes.addShaped("zanite_boomerang", <spartancompat:boomerang_zanite>,
+// [[zanite,wood,wood],
+//  [wood,null,null],
+//  [wood,null,null]]);
+recipes.addShaped("zanite_battleaxe", <spartancompat:battleaxe_zanite>,
+ [[zanite,zanite,zanite],
+  [zanite,stick,zanite],
+  [null,handle,null]]);
+//recipes.addShaped("zanite_mace", <spartancompat:mace_zanite>,
+// [[null,zanite,zanite],
+//  [null,stick,zanite],
+//  [handle,null,null]]);
+recipes.addShaped("zanite_glaive", <spartancompat:glaive_zanite>,
+ [[null,zanite],
+  [null,zanite],
+  [zanite,pole]]);
+//recipes.addShaped("zanite_staff", <spartancompat:staff_zanite>,
+// [[pole],
+//  [zanite]]);

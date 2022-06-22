@@ -1381,6 +1381,18 @@ tapestry_red.setBlockSoundType(<soundtype:cloth>);
 tapestry_red.setBlockHardness(0.8);
 tapestry_red.setBlockResistance(0.8);
 tapestry_red.register();
+var tapestry_green = VanillaFactory.createBlock("tapestry_green", <blockmaterial:Ground>);
+tapestry_green.setCreativeTab(<creativetab:rotn_blocks>);
+tapestry_green.setBlockSoundType(<soundtype:cloth>);
+tapestry_green.setBlockHardness(0.8);
+tapestry_green.setBlockResistance(0.8);
+tapestry_green.register();
+var tapestry_cyan = VanillaFactory.createBlock("tapestry_cyan", <blockmaterial:Ground>);
+tapestry_cyan.setCreativeTab(<creativetab:rotn_blocks>);
+tapestry_cyan.setBlockSoundType(<soundtype:cloth>);
+tapestry_cyan.setBlockHardness(0.8);
+tapestry_cyan.setBlockResistance(0.8);
+tapestry_cyan.register();
 
 var egg_block = VanillaFactory.createBlock("egg_block", <blockmaterial:Dragon_Egg>);
 egg_block.setCreativeTab(<creativetab:decorations>);

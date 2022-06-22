@@ -49,7 +49,7 @@ recipes.addShapeless("blastem_fruit_blazing",<defiledlands:blastem_fruit_blazing
 //Scarlite Razor
 recipes.remove(<defiledlands:scarlite_razor>);
 Infuser.addShaped(<defiledlands:scarlite_razor>,[
-[null,null,<aether_legacy:zanite_gemstone>],
+[null,null,<contenttweaker:zanite_ingot>],
 [null,<aether_legacy:skyroot_stick>,null],
 [<biomesoplenty:gem:1>,null,null]], 31);
 

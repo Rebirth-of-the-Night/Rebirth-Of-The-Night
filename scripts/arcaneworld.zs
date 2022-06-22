@@ -47,7 +47,7 @@ ArcaneWorld.removeAll();
 recipes.remove(<arcaneworld:levitator>);
 recipes.remove(<arcaneworld:ritual_table>);
 
-//Ritual Table
+// Ritual Table
 RecipeBuilder.get("mage")
   .setShaped([
     [<ore:ingotElectrum>.firstItem, <contenttweaker:vis_shard>, <ore:ingotElectrum>.firstItem],
@@ -59,14 +59,23 @@ RecipeBuilder.get("mage")
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
+// Bloodied Demon Eye
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<netherex:wither_dust>],
+    [<aether_legacy:vampire_blade>]])
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .addOutput(<netherex:wither_bone>)
+  .create();
 
-//Mob summoning
-//ArcaneWorld.createRitualSummon(String name, String displayName, String entity, IIngredient... inputs)
+// Mob summoning
+// ArcaneWorld.createRitualSummon(String name, String displayName, String entity, IIngredient... inputs)
 ArcaneWorld.createRitualSummon("pixie", "Pixie Calling", "iceandfire:if_pixie", [<contenttweaker:fae_rune>.anyDamage().transformDamage(),<ore:Gem_highQuality>]).build();
 ArcaneWorld.createRitualSummon("mogus", "Mogus Calling", "netherex:mogus", [<contenttweaker:nature_quintessence>,<ore:mushroomAny>]).build();
 ArcaneWorld.createRitualSummon("grovesprite", "Grove Sprite Calling", "primitivemobs:grovesprite", [<contenttweaker:life_quintessence>,<ore:mundaneSapling>]).build();
-//Item summoning
-//ArcaneWorld.createRitualCreateItem(String name, String displayName, IItemStack result, IIngredient... inputs)
+// Item summoning
+// ArcaneWorld.createRitualCreateItem(String name, String displayName, IItemStack result, IIngredient... inputs)
 ArcaneWorld.createRitualCreateItem("undying_heart", "Heart Curse", <mod_lavacow:undyingheart>, [<contenttweaker:plague_rune>.anyDamage().transformDamage(),<defiledlands:black_heart>]).build();
 ArcaneWorld.createRitualCreateItem("black_heart", "Heart Defilement", <defiledlands:black_heart>, [<defiledlands:defilement_powder>,<mod_lavacow:undyingheart>]).build();
 ArcaneWorld.createRitualCreateItem("demon_eye", "Eye Possesion", <netherex:wither_dust>, [<minecraft:ender_pearl>,<contenttweaker:shard_of_night>]).build();

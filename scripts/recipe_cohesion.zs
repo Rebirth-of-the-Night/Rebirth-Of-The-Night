@@ -21,10 +21,6 @@ recipes.remove(<iceandfire:myrmex_jungle_sword_venom>);
 recipes.remove(<iceandfire:amphithere_macuahuitl>);
 recipes.remove(<twilightforest:giant_sword>);
 
-recipes.addShaped("Bronze_Dagger_Stymph", <spartanweaponry:dagger_bronze>,
- [[symphalianbirdfeather],
-  [handle]]);
-
 //Addition of weapon recipes that involve stick > handle + crossbow
 
 val wood = <ore:plankWood>;
@@ -40,7 +36,7 @@ val stone = <ore:rock>;
 val gold = <ore:ingotGold>;
 val skyroot = <aether_legacy:skyroot_plank>;
 val holystone = <aether_legacy:holystone>;
-val zanite = <aether_legacy:zanite_gemstone>;
+val zanite = <contenttweaker:zanite_ingot>;
 val egravitite = <ore:ingotGravitite>;
 val diamond = <betterwithmods:material:45>;
 val obsidian = <minecraft:obsidian>;
@@ -77,7 +73,9 @@ val flint = <minecraft:flint>;
 val stick = <ore:stickWood>;
 val pole = <spartanweaponry:material:1>;
 
-
+recipes.addShaped("bronze_dagger_stymph", <spartanweaponry:dagger_bronze>,
+ [[symphalianbirdfeather],
+  [handle]]);
 recipes.remove(<minecraft:stone_axe>);
 recipes.addShapedMirrored("stone_axe", <minecraft:stone_axe>,[
     [stone, stone, null],
