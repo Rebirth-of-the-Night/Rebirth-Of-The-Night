@@ -31,7 +31,31 @@
       ],
       "staged": [
         {
+          "complete": 0.75,
+          "commands": [
+            "/ostop @p"
+          ]
+        },
+        {
           "complete": 0.8,
+          "commands": [
+            "/ostop @p"
+          ]
+        },
+        {
+          "complete": 0.85,
+          "commands": [
+            "/ostop @p"
+          ]
+        },
+        {
+          "complete": 0.9,
+          "commands": [
+            "/ostop @p"
+          ]
+        },
+        {
+          "complete": 0.95,
           "commands": [
             "/ostop @p"
           ]
@@ -56,7 +80,7 @@
             "mobs": [
               {
                 "id": "giantmobs.fighter",
-                "count": [ 14, 16 ],
+                "count": [ 10, 12 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -92,7 +116,7 @@
               },
               {
                 "id": "giantmobs.bomber",
-                "count": [ 3, 4 ],
+                "count": [ 1, 2 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -110,7 +134,7 @@
               },
               {
                 "id": "giantmobs.skeleton",
-                "count": [ 6, 8 ],
+                "count": [ 4, 6 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -128,7 +152,7 @@
               },
               {
                 "id": "giantmobs.spider",
-                "count": [ 4, 5 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -155,7 +179,7 @@
             "mobs": [
               {
                 "id": "giantmobs.fighter",
-                "count": [ 6, 8 ],
+                "count": [ 4, 6 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -173,7 +197,7 @@
               },
               {
                 "id": "giantmobs.miner",
-                "count": [ 12, 14 ],
+                "count": [ 8, 10 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -191,7 +215,7 @@
               },
               {
                 "id": "giantmobs.bomber",
-                "count": [ 6, 8 ],
+                "count": [ 4, 6 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -218,7 +242,7 @@
             "mobs": [
               {
                 "id": "giantmobs.spitfireskeleton",
-                "count": [ 6, 8 ],
+                "count": [ 4, 6 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -236,7 +260,7 @@
               },
               {
                 "id": "giantmobs.skeleton",
-                "count": [ 8, 10 ],
+                "count": [ 6, 8 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -254,7 +278,7 @@
               },
               {
                 "id": "giantmobs.spider",
-                "count": [ 8, 10 ],
+                "count": [ 6, 8 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -281,7 +305,7 @@
             "mobs": [
               {
                 "id": "giantmobs.spider",
-                "count": [ 6, 8 ],
+                "count": [ 4, 6 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -299,7 +323,7 @@
               },
               {
                 "id": "giantmobs.fighter",
-                "count": [ 14, 16 ],
+                "count": [ 10, 12 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -317,7 +341,7 @@
               },
               {
                 "id": "giantmobs.bomber",
-                "count": [ 6, 8 ],
+                "count": [ 1, 2 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -344,60 +368,6 @@
             "mobs": [
               {
                 "id": "giantmobs.fighter",
-                "count": [ 12, 14 ],
-                "spawn": {
-                  "type": "ground",
-                  "light": [
-                    0,
-                    7
-                  ],
-                  "rangeXZ": [
-                    8,
-                    32
-                  ],
-                  "rangeY": 8,
-                  "stepRadius": 2,
-                  "sampleDistance": 4
-                }
-              },
-              {
-                "id": "giantmobs.miner",
-                "count": [ 6, 8 ],
-                "spawn": {
-                  "type": "ground",
-                  "light": [
-                    0,
-                    7
-                  ],
-                  "rangeXZ": [
-                    8,
-                    32
-                  ],
-                  "rangeY": 8,
-                  "stepRadius": 2,
-                  "sampleDistance": 4
-                }
-              },
-              {
-                "id": "giantmobs.bomber",
-                "count": [ 6, 8 ],
-                "spawn": {
-                  "type": "ground",
-                  "light": [
-                    0,
-                    7
-                  ],
-                  "rangeXZ": [
-                    8,
-                    32
-                  ],
-                  "rangeY": 8,
-                  "stepRadius": 2,
-                  "sampleDistance": 4
-                }
-              },
-              {
-                "id": "giantmobs.skeleton",
                 "count": [ 8, 10 ],
                 "spawn": {
                   "type": "ground",
@@ -415,8 +385,62 @@
                 }
               },
               {
+                "id": "giantmobs.miner",
+                "count": [ 4, 6 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "giantmobs.bomber",
+                "count": [ 2, 3 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "giantmobs.skeleton",
+                "count": [ 4, 6 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
                 "id": "giantmobs.spider",
-                "count": [ 6, 8 ],
+                "count": [ 4, 6 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -461,7 +485,7 @@
               },
               {
                 "id": "giantmobs.skeleton",
-                "count": [ 14, 16 ],
+                "count": [ 4, 6 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -479,7 +503,7 @@
               },
               {
                 "id": "giantmobs.spider",
-                "count": [ 8, 10 ],
+                "count": [ 4, 6 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -506,7 +530,7 @@
             "mobs": [
               {
                 "id": "giantmobs.spider",
-                "count": [ 16, 18 ],
+                "count": [ 10, 12 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -533,7 +557,7 @@
             "mobs": [
               {
                 "id": "giantmobs.fighter",
-                "count": [ 14, 16 ],
+                "count": [ 8, 10 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -551,7 +575,7 @@
               },
               {
                 "id": "giantmobs.miner",
-                "count": [ 8, 10 ],
+                "count": [ 4, 6 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -569,7 +593,7 @@
               },
               {
                 "id": "giantmobs.bomber",
-                "count": [ 6, 8 ],
+                "count": [ 1, 2 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -587,7 +611,7 @@
               },
               {
                 "id": "giantmobs.skeleton",
-                "count": [ 8, 10 ],
+                "count": [ 6, 8 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -605,7 +629,7 @@
               },
               {
                 "id": "giantmobs.spider",
-                "count": [ 6, 8 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -632,7 +656,7 @@
             "mobs": [
               {
                 "id": "giantmobs.spitfireskeleton",
-                "count": [ 6, 8 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -650,7 +674,7 @@
               },
               {
                 "id": "giantmobs.miner",
-                "count": [ 14, 16 ],
+                "count": [ 8, 10 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -668,7 +692,7 @@
               },
               {
                 "id": "giantmobs.bomber",
-                "count": [ 6, 8 ],
+                "count": [ 2, 3 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -686,7 +710,7 @@
               },
               {
                 "id": "giantmobs.skeleton",
-                "count": [ 6, 8 ],
+                "count": [ 4, 6 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -749,7 +773,7 @@
               },
               {
                 "id": "giantmobs.skeleton",
-                "count": [ 8, 10 ],
+                "count": [ 6, 8 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -767,7 +791,7 @@
               },
               {
                 "id": "giantmobs.spitfireskeleton",
-                "count": [ 6, 8 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -785,7 +809,7 @@
               },
               {
                 "id": "giantmobs.fighter",
-                "count": [ 12, 14 ],
+                "count": [ 4, 6 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -803,7 +827,7 @@
               },
               {
                 "id": "giantmobs.spider",
-                "count": [ 6, 8 ],
+                "count": [ 2, 3 ],
                 "spawn": {
                   "type": "ground",
                   "light": [

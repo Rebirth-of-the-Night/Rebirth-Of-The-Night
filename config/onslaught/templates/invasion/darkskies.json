@@ -30,7 +30,31 @@
       ],
       "staged": [
         {
+          "complete": 0.75,
+          "commands": [
+            "/ostop @p"
+          ]
+        },
+        {
           "complete": 0.8,
+          "commands": [
+            "/ostop @p"
+          ]
+        },
+        {
+          "complete": 0.85,
+          "commands": [
+            "/ostop @p"
+          ]
+        },
+        {
+          "complete": 0.9,
+          "commands": [
+            "/ostop @p"
+          ]
+        },
+        {
+          "complete": 0.95,
           "commands": [
             "/ostop @p"
           ]
@@ -136,7 +160,7 @@
             "mobs": [
               {
                 "id": "darkskies.bat",
-                "count": [ 16, 18 ],
+                "count": [ 10, 12 ],
                 "spawn": {
                   "type": "air",
                   "light": [
@@ -298,7 +322,7 @@
             "mobs": [
               {
                 "id": "darkskies.ptera",
-                "count": [ 12, 14 ],
+                "count": [ 8, 10 ],
                 "spawn": {
                   "type": "air",
                   "light": [
@@ -325,7 +349,7 @@
             "mobs": [
               {
                 "id": "darkskies.ptera",
-                "count": [ 8, 10 ],
+                "count": [ 4, 6 ],
                 "spawn": {
                   "type": "air",
                   "light": [
@@ -496,7 +520,7 @@
             "mobs": [
               {
                 "id": "darkskies.ptera",
-                "count": [ 12, 14 ],
+                "count": [ 8, 10 ],
                 "spawn": {
                   "type": "air",
                   "light": [
@@ -541,7 +565,7 @@
             "mobs": [
               {
                 "id": "darkskies.ptera",
-                "count": [ 16, 18 ],
+                "count": [ 10, 12 ],
                 "spawn": {
                   "type": "air",
                   "light": [
@@ -568,7 +592,7 @@
             "mobs": [
               {
                 "id": "darkskies.vespa",
-                "count": [ 5, 6 ],
+                "count": [ 2, 3 ],
                 "spawn": {
                   "type": "air",
                   "light": [
@@ -685,24 +709,6 @@
               },
               {
                 "id": "darkskies.ptera",
-                "count": [ 6, 8 ],
-                "spawn": {
-                  "type": "air",
-                  "light": [
-                    0,
-                    7
-                  ],
-                  "rangeXZ": [
-                    8,
-                    32
-                  ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
-                  "sampleDistance": 4
-                }
-              },
-              {
-                "id": "darkskies.frost",
                 "count": [ 3, 4 ],
                 "spawn": {
                   "type": "air",
@@ -720,8 +726,26 @@
                 }
               },
               {
+                "id": "darkskies.frost",
+                "count": [ 1, 2 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 4
+                }
+              },
+              {
                 "id": "darkskies.skydrake",
-                "count": [ 2 ],
+                "count": [ 1 ],
                 "spawn": {
                   "type": "air",
                   "light": [
@@ -820,7 +844,7 @@
               },
               {
                 "id": "darkskies.frost",
-                "count": [ 3, 4 ],
+                "count": [ 2, 3 ],
                 "spawn": {
                   "type": "air",
                   "light": [
@@ -838,7 +862,7 @@
               },
               {
                 "id": "darkskies.skydrake",
-                "count": [ 2 ],
+                "count": [ 1 ],
                 "spawn": {
                   "type": "air",
                   "light": [
