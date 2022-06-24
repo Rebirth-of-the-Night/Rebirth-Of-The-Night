@@ -215,7 +215,8 @@
           "CustomAI": {
             "Mining": {
               "Range": 4,
-              "SpeedModifier": 1.05
+              "SpeedModifier": 1.05,
+              "Priority": -20
             }
           }
         }
@@ -405,7 +406,7 @@
           "CustomAI": {
             "CounterAttack": { "Chance": 0.3 },
             "Lunge": { "Range": 6, "SpeedModifier": 0.3 },
-            "Mining": { "Range": 4, "SpeedModifier": 2 },
+            "Mining": { "Range": 4, "SpeedModifier": 2, "Priority": -20 },
             "OffscreenTeleport": { }
           }
         }

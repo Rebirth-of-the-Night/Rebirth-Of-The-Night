@@ -320,11 +320,11 @@
             "mobs": [
               {
                 "id": "pandemic.miner",
-                "count": [ 8, 10 ]
+                "count": [ 6, 8 ]
               },
               {
                 "id": "pandemic.archer",
-                "count": [ 4, 6 ]
+                "count": [ 2, 3 ]
               },
               {
                 "id": "pandemic.plaguebeast",
@@ -332,11 +332,11 @@
               },
               {
                 "id": "pandemic.dreadswine",
-                "count": [ 2 ]
+                "count": [ 1 ]
               },
               {
                 "id": "pandemic.grunt",
-                "count": [ 8, 10 ]
+                "count": [ 4, 6 ]
               }
             ]
           }

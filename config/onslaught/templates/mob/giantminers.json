@@ -40,7 +40,8 @@
           "CustomAI": {
             "Mining": {
               "Range": 12,
-              "SpeedModifier": 1.5
+              "SpeedModifier": 1.5,
+              "Priority": -20
             }
           }
         }

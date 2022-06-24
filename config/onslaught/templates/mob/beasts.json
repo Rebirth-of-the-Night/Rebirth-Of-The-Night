@@ -40,7 +40,8 @@
           "CustomAI": {
             "Mining": {
               "Range": 4,
-              "SpeedModifier": 1.5
+              "SpeedModifier": 1.5,
+              "Priority": -20
             }
           }
         }
@@ -103,7 +104,8 @@
           "CustomAI": {
             "Mining": {
               "Range": 4,
-              "SpeedModifier": 3
+              "SpeedModifier": 3,
+              "Priority": -20
             }
           }
         }
@@ -141,7 +143,8 @@
           "CustomAI": {
             "Mining": {
               "Range": 4,
-              "SpeedModifier": 3
+              "SpeedModifier": 3,
+              "Priority": -20
             }
           }
         }
@@ -186,7 +189,8 @@
           "CustomAI": {
             "Mining": {
               "Range": 4,
-              "SpeedModifier": 3
+              "SpeedModifier": 3,
+              "Priority": -20
             }
           }
         }
