@@ -1,0 +1,11 @@
+addParent("triumph:advancements/progression/root")
+
+addRewardFunction("triumph:nether_reminder")
+
+criteria = addCriteria("obtain obsidian", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:obsidian>)
+
+setShowToast(false)
+setAnnounceToChat(false)
+hideLines()
+alwaysHidden()

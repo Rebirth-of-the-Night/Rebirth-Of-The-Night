@@ -1,0 +1,3 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+tellraw @p ["",{"text":"A powerful harvesting spirit is blocking my path to the Nether... maybe I ought to slay it first?","color":"yellow","italic":true}]

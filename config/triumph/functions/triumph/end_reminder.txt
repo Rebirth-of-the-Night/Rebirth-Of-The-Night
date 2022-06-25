@@ -1,0 +1,3 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+tellraw @p ["",{"text":"A powerful arcane force is emanating from the Beneath... something tells me I should go release it.","color":"blue","italic":true}]

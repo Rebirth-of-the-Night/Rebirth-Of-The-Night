@@ -1,0 +1,11 @@
+addParent("triumph:advancements/progression/root")
+
+addRewardFunction("triumph:end_reminder")
+
+criteria = addCriteria("obtain eye of ender", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:ender_eye>)
+
+setShowToast(false)
+setAnnounceToChat(false)
+hideLines()
+alwaysHidden()
