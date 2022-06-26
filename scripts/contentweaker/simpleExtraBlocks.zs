@@ -408,6 +408,7 @@ unfired_adobe_brick.setFullBlock(false);
 unfired_adobe_brick.setLightOpacity(0);
 unfired_adobe_brick.setBlockLayer("TRANSLUCENT");
 unfired_adobe_brick.setBlockHardness(1.0);
+unfired_adobe_brick.setToolLevel(0);
 unfired_adobe_brick.setToolClass("shovel");
 unfired_adobe_brick.register();
 
@@ -428,6 +429,7 @@ unfired_mud_brick.setFullBlock(false);
 unfired_mud_brick.setLightOpacity(0);
 unfired_mud_brick.setBlockLayer("TRANSLUCENT");
 unfired_mud_brick.setBlockHardness(1.0);
+unfired_mud_brick.setToolLevel(0);
 unfired_mud_brick.setToolClass("shovel");
 unfired_mud_brick.register();
 
@@ -448,6 +450,7 @@ unfired_porcelain_brick.setFullBlock(false);
 unfired_porcelain_brick.setLightOpacity(0);
 unfired_porcelain_brick.setBlockLayer("TRANSLUCENT");
 unfired_porcelain_brick.setBlockHardness(1.0);
+unfired_porcelain_brick.setToolLevel(0);
 unfired_porcelain_brick.setToolClass("shovel");
 unfired_porcelain_brick.register();
 
@@ -468,6 +471,7 @@ unfired_fiery_brick.setFullBlock(false);
 unfired_fiery_brick.setLightOpacity(0);
 unfired_fiery_brick.setBlockLayer("TRANSLUCENT");
 unfired_fiery_brick.setBlockHardness(1.0);
+unfired_fiery_brick.setToolLevel(0);
 unfired_fiery_brick.setToolClass("shovel");
 unfired_fiery_brick.register();
 
@@ -488,6 +492,7 @@ unfired_refractory_brick.setFullBlock(false);
 unfired_refractory_brick.setLightOpacity(0);
 unfired_refractory_brick.setBlockLayer("TRANSLUCENT");
 unfired_refractory_brick.setBlockHardness(1.0);
+unfired_refractory_brick.setToolLevel(0);
 unfired_refractory_brick.setToolClass("shovel");
 unfired_refractory_brick.register();
 
