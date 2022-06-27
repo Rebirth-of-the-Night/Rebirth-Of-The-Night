@@ -97,12 +97,12 @@
 			"biome": {
 				"restriction": "whitelist",
 				"value": "minecraft:ocean"
-			}
+			},
 			"retrogen": true,
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
-					0,
+					0
 				]
 			}
 		},

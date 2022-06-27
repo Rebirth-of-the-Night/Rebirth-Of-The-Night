@@ -34,6 +34,10 @@ var ironBerry = <rustic:ironberries>;
 
 JEI.removeAndHide(<rustic:lantern_wood>);
 
+JEI.removeAndHide(<rustic:apple_seeds>);
+JEI.removeAndHide(<rustic:leaves_apple>);
+JEI.removeAndHide(<rustic:sapling_apple>);
+
 JEI.removeAndHide(<rustic:grape_stem>);
 JEI.removeAndHide(<rustic:grapes>);
 JEI.removeAndHide(<rustic:sapling>);
@@ -91,6 +95,9 @@ alcHerb.add(
     <rustic:ironberries>,
     <rustic:chili_pepper>
 );
+
+// Chili pepper to chili seed recipe
+recipes.addShapeless("chili_seed", <rustic:chili_pepper_seeds>, [<rustic:chili_pepper>]);
 
 // Iron and Gold Lanterns
 recipes.remove(<rustic:golden_lantern>);

@@ -111,6 +111,7 @@ id~="*:blastem_fruit*" -> 128
 id="contenttweaker:*", !isBlock -> 256
 id~="contenttweaker:*rune" -> 1
 id="contenttweaker:mythril_masonpick" -> 1
+id="contenttweaker:sfs_masonpick" -> 1
 id="contenttweaker:steel_crowbar" -> 1
 id="quark:chain" -> 256
 id="animania:hamster_food" -> 256
@@ -188,3 +189,4 @@ id="extraalchemy:vial_break" -> 64
 id="aether_legacy:blue_berry" -> 64
 id="contenttweaker:cooking_kit" -> 1
 id="dynamictrees:dirtbucket" -> 1
+

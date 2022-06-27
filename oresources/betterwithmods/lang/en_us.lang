@@ -319,7 +319,7 @@ tile.bwm:deadweight.intact.name=Deadweight
 tile.bwm:deadweight.slightDamaged.name=Slightly Damaged Deadweight
 tile.bwm:deadweight.veryDamaged.name=Very Damaged Deadweight
 
-item.bwm:material.gear.name=Wooden Gear
+item.bwm:material.gear.name=Broken Wooden Gear
 item.bwm:material.nethercoal.name=Nethercoal
 item.bwm:material.hemp.name=Hemp
 item.bwm:material.dung.name=Dung

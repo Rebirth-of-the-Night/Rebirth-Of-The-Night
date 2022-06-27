@@ -24,6 +24,7 @@ JEI.removeAndHide(<futuremc:beehive>);
 
 recipes.removeByRecipeName("futuremc:nether_brick_fence");
 recipes.removeByRecipeName("futuremc:else/smooth_stonerecipe");
+recipes.removeByRecipeName("futuremc:else/scaffolding");
 recipes.removeByRecipeName("futuremc:else/stone_slabs_from_smooth_stone");
 recipes.addShaped("futuremc_else/smooth_stonerecipe", <minecraft:stone_slab:0>*6, [
   [<futuremc:smooth_stone>,<futuremc:smooth_stone>,<futuremc:smooth_stone>]

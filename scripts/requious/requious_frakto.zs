@@ -188,5 +188,15 @@ JEI.removeAndHide(<requious:cell>.withTag({fluidContent: {FluidName: "iron", Amo
 JEI.removeAndHide(<requious:cell>.withTag({fluidContent: {FluidName: "gold", Amount: 1000}}));
 JEI.removeAndHide(<requious:cell>.withTag({fluidContent: {FluidName: "silver", Amount: 1000}}));
 JEI.removeAndHide(<requious:cell>.withTag({fluidContent: {FluidName: "steel", Amount: 1000}}));
+JEI.removeAndHide(<requious:cell>.withTag({fluidContent: {FluidName: "concentrated_bioflow", Amount: 1000}}));
+JEI.removeAndHide(<requious:cell>.withTag({fluidContent: {FluidName: "ironwood", Amount: 1000}}));
+JEI.removeAndHide(<requious:cell>.withTag({fluidContent: {FluidName: "steeleaf", Amount: 1000}}));
+JEI.removeAndHide(<requious:cell>.withTag({fluidContent: {FluidName: "fiery", Amount: 1000}}));
+JEI.removeAndHide(<requious:cell>.withTag({fluidContent: {FluidName: "unstable_spiritfire", Amount: 1000}}));
+JEI.removeAndHide(<requious:cell>.withTag({fluidContent: {FluidName: "methanol", Amount: 1000}}));
+JEI.removeAndHide(<requious:cell>.withTag({fluidContent: {FluidName: "dread_cold", Amount: 1000}}));
+
+JEI.removeAndHide(<requious:laser>);
+JEI.removeAndHide(<requious:splosher>);
 
 GCT.addRecipe("dryer", <requious:dryer>, [<ore:blockGlassColorless>, <chutes:chute_wood>, <pyrotech:drying_rack:1>, <betterwithmods:material:17>*2,<betterwithmods:material:27>]);

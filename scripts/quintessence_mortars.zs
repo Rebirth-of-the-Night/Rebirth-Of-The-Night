@@ -225,7 +225,6 @@ mindQuintessenceB.add(
     <minecraft:written_book>,
     <aether_legacy:lore_book>,
     <animania:animania_manual>,
-    <betterwithmods:manual>,
     <patchouli:guide_book>,
     <dungeontactics:dungeonpedia_volume_8>,
     <dungeontactics:dungeonpedia_volume_7>,
@@ -435,7 +434,6 @@ knowledgeQuintessenceB.add(
     <twilightforest:ore_map_empty>,
     <defiledlands:book_wyrm_analyzer>,
     <rustic:book>,
-    <betterwithmods:manual>,
     <contenttweaker:slayers_tattered_journal>
 );
 // Disintegration A - Catalysts of disintegration (fire, acid, etc)
@@ -478,13 +476,13 @@ strengthQuintessenceA.add(
 val strengthQuintessenceB = <ore:strengthQuintessenceB>;
 
 strengthQuintessenceB.add(
-    <betterwithmods:material>,
     <dungeontactics:steel_ingot>,
 	<contenttweaker:material_part:49>,
     <iceandfire:dragonsteel_fire_ingot>,
     <iceandfire:dragonsteel_ice_ingot>,
     <simpleores:onyx_gem>,
-    <rustic:ironberries>
+    <rustic:ironberries>,
+    <pyrotech:cog_bone>
 );
 
 // Poison A - Plant poisons

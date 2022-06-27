@@ -322,7 +322,6 @@ recipes.removeByRecipeName("dungeontactics:misc/mithril_nugget");
 recipes.removeByRecipeName("dungeontactics:misc/convenience/clayball_from_clay");
 recipes.removeByRecipeName("dungeontactics:misc/convenience/flint_from_gravel");
 JEI.removeAndHide(<dungeontactics:mithril_cluster>);
-JEI.removeAndHide(<dungeontactics:mithril_block>);
 JEI.removeAndHide(<dungeontactics:mithril_ore>);
 JEI.removeAndHide(<dungeontactics:mithril_ingot>);
 JEI.removeAndHide(<dungeontactics:mithril_nugget>);

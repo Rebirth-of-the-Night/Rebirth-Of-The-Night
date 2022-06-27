@@ -161,11 +161,12 @@ val kaolin_quartz = <pyrotech:material:37>;
 val expertly_crafted_arrow_head = <betterwithaddons:japanmat:17>;
 val ground_nether_dust = <ore:dustNetherrack>;
 
-JEI.addDescription(windmillBlade, "Can be crafted using any wooden slab, or cheaper using wooden siding once you build a Saw!");
+JEI.addDescription(windmillBlade,"Can be crafted using any wooden slab, or cheaper using wooden siding once you build a Saw!");
 JEI.addDescription(millstone,"A necessary machine for every starting mechanist! Needs mechanical power from the top or bottom.");
 JEI.addDescription(<betterwithmods:saw>,["Requires continuous mechanical power to work. A windmill or waterwheel will suffice.","","The saw can also be used to obtain heads from creatures that die to it if the creature is standing on a stone chopping block."]);
 JEI.addDescription(<harvestcraft:well>,"Wells drill deep into the earth in search of renewable water. Stressing these delicate components by destroying this block means it cannot be retrieved if broken - only some of the parts will be returned.");
 JEI.addDescription(<betterwithmods:wooden_gearbox>, ["One input and multiple outputs; insert a powered axle on the side marked with arrows to redirect rotatory energy to the other sides.","","Remember, wooden axles can only transfer energy up to three blocks of distance (unless they act as a frame for a vertical windmill).","Can be turned off by giving it a redstone signal; attaching a chime will output a redstone signal if it is raining."]);
+JEI.addDescription(<betterwithmods:material>,"Broken gears result from overstressed or damaged machinery. Luckily, they can be repaired fairly easily.");
 
 JEI.addDescription(<pyrotech:drying_rack:1>, "This device may hold 4 items at a time. Drying time is heavily reduced by nearby fire, but all the fire in the world won't dry something exposed to rain.");
 JEI.addDescription(<pyrotech:chopping_block>, "A chopping block enables the harvesting of both bark and wood chips, which can be used in the advanced crafting of tanned leather or tar and charcoal production.");

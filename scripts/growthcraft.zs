@@ -1,4 +1,10 @@
 import mods.jei.JEI;
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
+import mods.ltt.LootTable;
+
 //Input (Liquid) Input (Item) Output Amount Byproduct 
 //Water iconitemWheat.pngWheat Ale (No-hops) 40 0.30 
 //Ale (No-hops) iconitemHops.pngHops Ale 40 0.30 
@@ -104,6 +110,47 @@ JEI.removeAndHide(<growthcraft_milk:cheese_press>);
 JEI.removeAndHide(<growthcraft_rice:cultivator>);
 JEI.removeAndHide(<growthcraft_rice:rice_ball>);
 JEI.removeAndHide(<growthcraft_fishtrap:fishtrap>);
+
+JEI.removeAndHide(<growthcraft_apples:apple_door_item>);
+JEI.removeAndHide(<growthcraft_apples:apple_fence>);
+JEI.removeAndHide(<growthcraft_apples:apple_fence_gate>);
+JEI.removeAndHide(<growthcraft_apples:apple_log>);
+JEI.removeAndHide(<growthcraft_apples:apple_planks>);
+JEI.removeAndHide(<growthcraft_apples:apple_sapling>);
+JEI.removeAndHide(<growthcraft_apples:apple_slab_half>);
+JEI.removeAndHide(<growthcraft_apples:apple_stairs>);
+JEI.removeAndHide(<growthcraft_apples:rope_knot_apple>);
+JEI.removeAndHide(<growthcraft_bamboo:bamboo_stick>);
+JEI.removeAndHide(<growthcraft_bamboo:bamboo_coal>);
+JEI.removeAndHide(<growthcraft_bamboo:bamboo_door_item>);
+JEI.removeAndHide(<growthcraft_bamboo:bamboo_plank>);
+JEI.removeAndHide(<growthcraft_bamboo:bamboo_slab_half>);
+JEI.removeAndHide(<growthcraft_bamboo:bamboo_stairs>);
+JEI.removeAndHide(<growthcraft_bamboo:bamboo_fence>);
+JEI.removeAndHide(<growthcraft_bamboo:bamboo_fence_gate>);
+JEI.removeAndHide(<growthcraft_bamboo:bamboo_stalk>);
+JEI.removeAndHide(<growthcraft_bamboo:rope_knot_bamboo>);
+JEI.removeAndHide(<growthcraft_bees:honey_comb_empty>);
+JEI.removeAndHide(<growthcraft_bees:honey_comb_filled>);
+JEI.removeAndHide(<growthcraft_bees:honey_jar>);
+JEI.removeAndHide(<growthcraft_bees:bee>);
+JEI.removeAndHide(<growthcraft_bees:beebox>);
+JEI.removeAndHide(<growthcraft_bees:beehive>);
+JEI.removeAndHide(<growthcraft_cellar:brew_kettle>);
+JEI.removeAndHide(<growthcraft_cellar:cork_log>);
+JEI.removeAndHide(<growthcraft_cellar:cork_log_stripped>);
+JEI.removeAndHide(<growthcraft_cellar:brew_kettle_lid>);
+JEI.removeAndHide(<growthcraft_cellar:barrel_tap>);
+JEI.removeAndHide(<growthcraft_fishtrap:fishtrap_oak>);
+JEI.removeAndHide(<growthcraft_fishtrap:fishtrap_darkoak>);
+JEI.removeAndHide(<growthcraft_fishtrap:fishtrap_birch>);
+JEI.removeAndHide(<growthcraft_fishtrap:fishtrap_spruce>);
+JEI.removeAndHide(<growthcraft_fishtrap:fishtrap_acacia>);
+JEI.removeAndHide(<growthcraft_fishtrap:fishtrap_jungle>);
+JEI.removeAndHide(<growthcraft_fishtrap:fishtrap_apple>);
+JEI.removeAndHide(<growthcraft_fishtrap:fishtrap_bamboo>);
+
+LootTable.removeGlobalItem("growthcraft_bees:bee");
 
 // Rigid Rope
 // Conceptualized to act similar to iron lattice from Rustic, used in growing grapes and hops

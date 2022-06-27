@@ -1,0 +1,33 @@
+item.minecraft.trident.name=Trident
+
+entity.minecraft.trident=Trident
+
+enchantment.minecraft.loyalty=Loyalty
+enchantment.minecraft.impaling=Impaling
+enchantment.minecraft.riptide=Riptide
+enchantment.minecraft.channeling=Channeling
+
+subtitles.item.trident.hit=Trident stabs
+subtitles.item.trident.hit_ground=Trident vibrates
+subtitles.item.trident.return=Trident returns
+subtitles.item.trident.riptide=Trident zooms
+subtitles.item.trident.throw=Trident clangs
+subtitles.item.trident.thunder=Trident thunder cracks
+
+enchantment.trident.channeling.desc=When thrown, strikes target with ligtning if there is a current thunderstorm.
+enchantment.trident.impaling.desc=Deals extra damage to aquatic mobs.
+enchantment.trident.loyalty.desc=Returns weapon after thrown.
+enchantment.trident.riptide.desc=Allows player to ride thrown weapon on water or snow.
+
+death.attack.trident=%1$s was impaled by %2$s
+death.attack.trident.item=%1$s was impaled by %2$s with %3$s
+
+advancements.adventure.throw_trident.description=Throw a trident at something. Note: Throwing away your only weapon is not a good idea.
+advancements.adventure.throw_trident.title=A Throwaway Joke
+advancements.adventure.very_very_frightening.description=Strike a Villager with lightning
+advancements.adventure.very_very_frightening.title=Very Very Frightening
+
+config.trident.general.zombie_drop=Zombie Drop Trident
+config.trident.general.trident_zombie=Spawn Trident Zombie
+config.trident.general.trident_drop=Spawn Trident Probability
+config.trident.general.trident_recipe=Trident Crafting

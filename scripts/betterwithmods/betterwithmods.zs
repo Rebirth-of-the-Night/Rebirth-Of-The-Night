@@ -38,6 +38,7 @@ recipes.removeByRecipeName("betterwithmods:items/material/material.padding");
 recipes.addShapeless("betterwithmods_items/material/material_padding_feather", <betterwithmods:material:41>, [<ore:feather>,<betterwithmods:material:4>]);
 recipes.addShapeless("betterwithmods_items/material/material_padding_wool", <betterwithmods:material:41>, [<ore:woolBlock>,<betterwithmods:material:4>]);
 
+JEI.removeAndHide(<betterwithmods:manual>);
 JEI.removeAndHide(<betterwithmods:bark:*>);
 JEI.removeAndHide(<betterwithmods:nether_growth>);
 JEI.removeAndHide(<betterwithmods:steel_saw>);
@@ -53,7 +54,6 @@ JEI.removeAndHide(<betterwithmods:leather_tanned_pants>);
 JEI.removeAndHide(<betterwithmods:creative_generator>);
 
 JEI.removeAndHide(<betterwithmods:shaft>);
-JEI.removeAndHide(<betterwithmods:material>);
 JEI.removeAndHide(<betterwithmods:material:48>);
 JEI.removeAndHide(<betterwithmods:material:44>);
 
@@ -105,6 +105,7 @@ JEI.removeAndHide(<betterwithmods:donut>);
 Cauldron.remove([<betterwithmods:donut>]);
 recipes.removeByRecipeName("betterwithmods:blocks/blood_plank");
 recipes.removeByRecipeName("betterwithmods:piles/sand_1");
+recipes.removeByRecipeName("betterwithmods:items/material/material.gear");
 
 recipes.removeByRecipeName("betterwithmods:piles/dirt_slab_0");
 JEI.removeAndHide(<betterwithmods:infernal_enchanter>);
@@ -207,10 +208,7 @@ val bark_strips = <primallib:bark_strips_generic>;
 
 // guide
 recipes.remove(<betterwithmods:manual>);
-recipes.addShaped("the_book_of_single", <betterwithmods:manual>, [
-    [paper, paper],
-    [paper, gear_wood]
-]);
+
 // gear wood
 recipes.remove(gear_wood);
 recipes.addShaped("gear_wood_block", gear_wood*6, [
@@ -223,6 +221,8 @@ recipes.addShaped("gear_wood_corner", gear_wood*4, [
     [corner_wood, null, corner_wood],
 	[stick, corner_wood, stick]
 ]);
+// unused bwm gear to pyrotech gear recipe
+recipes.addShapeless("gear_fixing", gear_wood, [stick, <betterwithmods:material>]);
 // pulley
 recipes.remove(<betterwithmods:single_machine:1>);
 recipes.addShaped("pulley_block", <betterwithmods:single_machine:1>, [

@@ -658,3 +658,16 @@ Crucible.addStoked([<betterwithmods:steel_chest:*>],[soulforgedSteel*12]);
 Crucible.addStoked([<simpleores:adamantium_chestplate:*>],[viridium*12]);
 Crucible.addStoked([<simpleores:mythril_chestplate:*>],[mythril*12]);
 Crucible.addStoked([<spartanshields:shield_basic_lead:*>],[mythril*10]); //mythril shield
+
+Crucible.addStoked([<contenttweaker:steel_artifact>],[steel*1]);
+
+// Crowbar and Mason Pick recycling
+Crucible.addStoked(
+    [
+        <contenttweaker:steel_crowbar>
+    ],
+    [
+        <contenttweaker:material_part:51>*6,
+        <dungeontactics:steel_nugget>*5
+    ]
+);

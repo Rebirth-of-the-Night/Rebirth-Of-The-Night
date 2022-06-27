@@ -21,8 +21,6 @@ JEI.removeAndHide(<eplus:decorative_book:4>);
 JEI.removeAndHide(<eplus:decorative_book:5>);
 JEI.removeAndHide(<eplus:decorative_book:6>);
 
-
-
 recipes.remove(<eplus:advanced_table>);
 recipes.remove(<eplus:table_upgrade>);
 

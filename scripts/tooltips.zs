@@ -426,7 +426,6 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <antiqueatlas:empty_antique_atlas:*>.addTooltip("Antique Map");
 <golems:golem_head:*>.addTooltip("Used for summoning Golems");
 <ore:plankWood>.addShiftTooltip("Can only be crafted in a crafting table, saw, or by chopping logs with an axe", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
-<betternether:cincinnasite_forge:*>.addTooltip("Smelts everything much faster than a regular furnace.");
 <wards:enchanted_paper:*>.addTooltip("Used to power Wards.");
 <aether_legacy:notch_hammer:*>.addTooltip("From the #1 princess in the world.");
 <aether_legacy:healing_stone:*>.addTooltip("Restores max HP lost from dying to the Plague.");
@@ -465,6 +464,25 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <ironfurnaces:diamond_furnace_idle>.addShiftTooltip(format.gold("Input Capacity:") + "" + format.yellow(" full stack; 1 at a time."), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <ironfurnaces:diamond_furnace_idle>.addShiftTooltip(format.gold("Fuel Capacity:") + format.yellow(" full stack; 1 at a time."));
 <ironfurnaces:diamond_furnace_idle>.addShiftTooltip(format.gold("Fuel Modifier:") + format.yellow(" 175%"));
+
+<betternether:netherrack_furnace>.addShiftTooltip(format.gold("Input Capacity:") + "" + format.yellow(" full stack; 1 at a time."), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<betternether:netherrack_furnace>.addShiftTooltip(format.gold("Fuel Capacity:") + format.yellow(" full stack; 1 at a time."));
+<betternether:netherrack_furnace>.addShiftTooltip(format.gold("Fuel Modifier:") + format.yellow(" 100%"));
+
+<betternether:cincinnasite_forge:*>.addTooltip("Smelts everything much faster than a regular furnace.");
+<betternether:cincinnasite_forge:*>.addShiftTooltip(format.gold("Input Capacity:") + "" + format.yellow(" full stack; 1 at a time."), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<betternether:cincinnasite_forge:*>.addShiftTooltip(format.gold("Fuel Capacity:") + format.yellow(" full stack; 1 at a time."));
+<betternether:cincinnasite_forge:*>.addShiftTooltip(format.gold("Fuel Modifier:") + format.yellow(" 200%"));
+
+<futuremc:blast_furnace>.addTooltip("Smelts (raw) ores at twice the speed, but the same fuel efficiency.");
+<futuremc:blast_furnace>.addShiftTooltip(format.gold("Input Capacity:") + "" + format.yellow(" full stack; 1 at a time."), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<futuremc:blast_furnace>.addShiftTooltip(format.gold("Fuel Capacity:") + format.yellow(" full stack; 1 at a time."));
+<futuremc:blast_furnace>.addShiftTooltip(format.gold("Fuel Modifier:") + format.yellow(" 100%; 2x cooking speed"));
+
+<futuremc:smoker>.addTooltip("Cooks food at twice the speed, but the same fuel efficiency.");
+<futuremc:smoker>.addShiftTooltip(format.gold("Input Capacity:") + "" + format.yellow(" full stack; 1 at a time."), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<futuremc:smoker>.addShiftTooltip(format.gold("Fuel Capacity:") + format.yellow(" full stack; 1 at a time."));
+<futuremc:smoker>.addShiftTooltip(format.gold("Fuel Modifier:") + format.yellow(" 100%; 2x cooking speed"));
 
 <exsartagine:pan>.addShiftTooltip(format.white("Can be heated by:") + "" + format.yellow(" CAMPFIRE, FURNACE, SMOKER, BLAST FURNACE, COOKING RANGE, STOKED FLAME"), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <exsartagine:pot>.addShiftTooltip(format.white("Can be heated by:") + "" + format.yellow(" CAMPFIRE, FURNACE, SMOKER, BLAST FURNACE, COOKING RANGE, STOKED FLAME"), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));

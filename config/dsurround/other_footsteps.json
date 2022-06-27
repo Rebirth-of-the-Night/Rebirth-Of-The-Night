@@ -216,6 +216,17 @@
 		"ironfurnaces:iron_furnace_active": "sandstone",
 		"multiblockmobs:soul_chassis": "metalbar",
 		"adpother:iron_filter": "metalbar",
-		"pollutantpump:pipe": "metalbar"
+		"pollutantpump:pipe": "metalbar",
+		"growthcraft:rope_knot_oak+bigger": "bluntwood",
+		"growthcraft:rope_knot_dark_oak+bigger": "bluntwood",
+		"growthcraft:rope_knot_acacia+bigger": "bluntwood",
+		"growthcraft:rope_knot_spruce+bigger": "bluntwood",
+		"growthcraft:rope_knot_birch+bigger": "bluntwood",
+		"growthcraft:rope_knot_jungle+bigger": "bluntwood",
+		"growthcraft:rope_knot_nether_brick+bigger": "brickstone",
+		"growthcraft:rope_fence": "rug",
+		"rustic:chili_crop": "bluntwood",
+		"rustic:tomato_crop": "bluntwood",
+		"rustic:stake_tied": "bluntwood"
 	}
 }
