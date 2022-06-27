@@ -35,7 +35,7 @@ $MODPACK_VERSION = "3.1.1"
 # Last Version Of The Modpack
 # Needed For Changelog Parsing
 # Should be "$null" if this is the first release
-$LAST_MODPACK_VERSION = "3.1.0"
+$LAST_MODPACK_VERSION = "3.1.1"
 
 # Which modloader the modpack uses
 # Can be "forge" or "fabric"
