@@ -21,35 +21,13 @@ val newRP = RecipeMap("mechanical_processor") as RecipeMap;
 RecipeMap.register(newRP);
 mechproc.recipeMap = newRP;
 
+/*
 newRP.start()
 .duration(600)
 .inputItems(<simpleores:adamantium_block>)
 .inputItems(<minecraft:glass_bottle>)
 .inputFluids(<fluid:concentrated_bioflow> * 2000)
-.outputItems(<minecraft:potion>.withTag({CustomPotionEffects:[{Id:1,Amplifier:2,Duration:100},{Id:6},{Id:8,Amplifier:1,Duration:100},{Id:10,Amplifier:3,Duration:100},{Id:11,Amplifier:1,Duration:100},{Id:18,Amplifier:99,Duration:200},{Ambient: 0 as byte, CurativeItems: [{id: "minecraft:milk_bucket", Count: 1, Damage: 0 as short}], ShowParticles: 0 as byte, Duration: 200, Id: 206, Amplifier: 0 as byte}, {Ambient: 0 as byte, CurativeItems: [{id: "minecraft:milk_bucket", Count: 1, Damage: 0 as short}], ShowParticles: 1 as byte, Duration: 200, Id: 145, Amplifier: 100 as byte}, {Ambient: 0 as byte, CurativeItems: [{id: "minecraft:milk_bucket", Count: 1, Damage: 0 as short}], ShowParticles: 1 as byte, Duration: 200, Id: 138, Amplifier: 100 as byte}],CustomPotionColor:720683,display:{Name:"Potion of Withdrawing",Lore:["A handy brew that extends your life for just a bit longer."]}}))
-.buildAndRegister();
-
-newRP.start()
-.duration(100)
-.inputItems(<contenttweaker:viridea_biomatter>)
-.outputFluids(<fluid:concentrated_bioflow> * 1000)
-.buildAndRegister();
-
-newRP.start()
-.duration(300)
-.inputItems(<contenttweaker:electrified_zanite>)
-.inputItems(<minecraft:glass_bottle>)
-.inputFluids(<fluid:concentrated_bioflow> * 2000)
-.outputItems(<minecraft:potion>.withTag({Potion: "potioncore:bless"}))
-.buildAndRegister();
-
-newRP.start()
-.duration(600)
-.inputItems(<contenttweaker:electrified_zanite> * 2)
-.inputItems(<minecraft:glowstone>)
-.inputItems(<minecraft:glass_bottle>)
-.inputFluids(<fluid:concentrated_bioflow> * 2000)
-.outputItems(<minecraft:potion>.withTag({Potion: "potioncore:strong_bless"}))
+.outputItems(<minecraft:potion>.withTag({CustomPotionEffects:[{Id:1,Amplifier:2,Duration:100},{Id:6},{Id:8,Amplifier:1,Duration:100},{Id:10,Amplifier:3,Duration:100},{Id:11,Amplifier:1,Duration:100},{Id:18,Amplifier:100,Duration:200},{Ambient: 0 as byte, CurativeItems: [{id: "minecraft:milk_bucket", Count: 1, Damage: 0 as short}], ShowParticles: 0 as byte, Duration: 200, Id: 207, Amplifier: 0 as byte}, {Ambient: 0 as byte, CurativeItems: [{id: "minecraft:milk_bucket", Count: 1, Damage: 0 as short}], ShowParticles: 1 as byte, Duration: 200, Id: 146, Amplifier: 100 as byte}, {Ambient: 0 as byte, CurativeItems: [{id: "minecraft:milk_bucket", Count: 1, Damage: 0 as short}], ShowParticles: 1 as byte, Duration: 200, Id: 139, Amplifier: 100 as byte}],CustomPotionColor:720683,display:{Name:"Potion of Withdrawing",Lore:["A handy brew that extends your life for just a bit longer."]}}))
 .buildAndRegister();
 
 newRP.start()
@@ -103,6 +81,29 @@ newRP.start()
 .inputItems(<minecraft:glowstone_dust>)
 .inputFluids(<fluid:dread_cold> * 2000)
 .outputItems(<minecraft:potion>.withTag({CustomPotionColor: 5500122, CustomPotionEffects: [{Ambient: 0 as byte, CurativeItems: [{id: "minecraft:milk_bucket", Count: 1, Damage: 0 as short}], ShowParticles: 1 as byte, Duration: 1800, Id: 251, Amplifier: 3 as byte}], display: {Lore: ["A handy brew that converts physical damage", "to magical damage."], Name: "Potion of Arcanic Conversion II"}}))
+.buildAndRegister();
+*/
+newRP.start()
+.duration(100)
+.inputItems(<contenttweaker:viridea_biomatter>)
+.outputFluids(<fluid:concentrated_bioflow> * 1000)
+.buildAndRegister();
+
+newRP.start()
+.duration(300)
+.inputItems(<contenttweaker:electrified_zanite>)
+.inputItems(<minecraft:glass_bottle>)
+.inputFluids(<fluid:concentrated_bioflow> * 2000)
+.outputItems(<minecraft:potion>.withTag({Potion: "potioncore:bless"}))
+.buildAndRegister();
+
+newRP.start()
+.duration(600)
+.inputItems(<contenttweaker:electrified_zanite> * 2)
+.inputItems(<minecraft:glowstone>)
+.inputItems(<minecraft:glass_bottle>)
+.inputFluids(<fluid:concentrated_bioflow> * 2000)
+.outputItems(<minecraft:potion>.withTag({Potion: "potioncore:strong_bless"}))
 .buildAndRegister();
 
 newRP.start()
