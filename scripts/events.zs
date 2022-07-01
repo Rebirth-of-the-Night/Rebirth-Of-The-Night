@@ -223,12 +223,12 @@ events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteract
 		var mhItem = event.player.mainHandHeldItem;
 		var ohItem = event.player.offHandHeldItem;
 		
-		if (!isNull(mhItem) && <pyrotech:bucket_stone>.matches(mhItem)) {
+		if (!isNull(mhItem) && (<pyrotech:bucket_stone>.matches(mhItem) || <pyrotech:bucket_wood>.matches(mhItem) || <pyrotech:bucket_clay>.matches(mhItem) || <aether_legacy:skyroot_bucket>.matches(mhItem))) {
 			event.player.setItemToSlot(IEntityEquipmentSlot.mainHand(), mhItem.amount == 1 ? null : mhItem.withAmount(mhItem.amount - 1));
 			event.player.give(mhItem.withAmount(1).updateTag({fluids: {FluidName: "water", Amount: 1000}}));
 			event.cancel();
 		} else {
-			if (!isNull(ohItem) && <pyrotech:bucket_stone>.matches(ohItem)) {
+			if (!isNull(ohItem) && (<pyrotech:bucket_stone>.matches(ohItem) || <pyrotech:bucket_wood>.matches(ohItem) || <pyrotech:bucket_clay>.matches(ohItem) || <aether_legacy:skyroot_bucket>.matches(ohItem))) {
 				event.player.setItemToSlot(IEntityEquipmentSlot.offhand(), ohItem.amount == 1 ? null : ohItem.withAmount(ohItem.amount - 1));
 				event.player.give(ohItem.withAmount(1).updateTag({fluids: {FluidName: "water", Amount: 1000}}));
 				event.cancel();
