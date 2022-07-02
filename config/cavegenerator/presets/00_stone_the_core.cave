@@ -1,0 +1,29 @@
+{
+  dimensions: [ 999 ]
+  layers: [
+    {
+      state: foundry:iron
+      height: [ 0, 60 ]
+    }
+    {
+      state: air
+      height: [ 61, 130 ]
+    }
+    {
+      state: undergroundbiomes:sedimentary_sandstone:6
+      height: [ 0, 190 ]
+      ceiling: {
+        frequency: 0.015
+        range: [ -1, 3 ]
+      }
+    }
+    {
+      state: undergroundbiomes:sedimentary_sand:6
+      height: [ 0, 255 ]
+      ceiling: {
+        frequency: 0.015
+        range: [ -1, 1 ]
+      }
+    }
+  ]
+}

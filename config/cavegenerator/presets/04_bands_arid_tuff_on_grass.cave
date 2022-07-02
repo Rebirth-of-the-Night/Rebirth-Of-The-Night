@@ -1,0 +1,45 @@
+{
+  enabled: true
+  biomes: {
+    names: [ "biomesoplenty:brushland" ]
+    IDs: []
+    types: []
+  }
+  burrows: {
+    stretch: 3
+    height: [ 0, 250 ]
+    offset: {
+      dummy: true
+      dummyOutput: 64
+    }
+    replaceableBlocks: biomesoplenty:grass:3
+    caveBlocks: [
+      {
+        states: contenttweaker:salty_crust
+        height: [ 0, 250 ]
+        integrity: 0.8
+      }
+      {
+        states: osv:clay_deposits_biomesoplenty_dirt_1
+        height: [ 0, 250 ]
+        integrity: 0.2
+      }
+      {
+        states: biomesoplenty:dirt:1
+        height: [ 0, 250 ]
+      }
+    ]
+    map: {
+      warp: simplex2
+      warpFrequency: 0.05
+      warpAmplitude: 50
+    }
+    floor: {
+      dummy: true
+    }
+    ceiling: {
+      dummy: true
+      dummyOutput: 200
+    }
+  }
+}

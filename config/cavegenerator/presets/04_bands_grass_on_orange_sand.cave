@@ -1,0 +1,34 @@
+{
+  biomes: {
+    names: [ "biomesoplenty:lush_desert" ]
+    IDs: []
+    types: []
+  }
+  enabled: true
+  burrows: {
+    height: [ 0, 250 ]
+    offset: {
+      dummy: true
+      dummyOutput: 100
+    }
+    replaceableBlocks: undergroundbiomes:igneous_sand:0
+    caveBlocks: [
+      {
+        states: biomesoplenty:grass:3
+        height: [ 0, 240 ]
+        integrity: 0.3
+      }
+      {
+        states: undergroundbiomes:igneous_sand:0
+        height: [ 0, 250 ]
+      }
+    ]
+    floor: {
+      dummy: true
+    }
+    ceiling: {
+      dummy: true
+      dummyOutput: 200
+    }
+  }
+}

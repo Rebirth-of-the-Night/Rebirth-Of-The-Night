@@ -1,0 +1,23 @@
+{
+  "variationBelow": 8.0,
+  "variationAbove": 40.0,
+  "averageHeight": 63.0,
+  "topBlock": {
+    "block": "undergroundbiomes:igneous_sand",
+    "properties": {
+		"type": "red_granite"
+	}
+  },
+  "generators": {
+    "sand": {
+      "with": {
+        "block": "undergroundbiomes:igneous_sand",
+        "properties": {
+          "type": "red_granite"
+        }
+      },
+      "maxRadius": 7,
+      "amountPerChunk": 5.0,
+      "enable": true
+    }
+}

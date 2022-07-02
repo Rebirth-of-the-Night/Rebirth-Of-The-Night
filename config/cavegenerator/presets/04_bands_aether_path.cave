@@ -1,0 +1,23 @@
+{
+  dimensions: [ 9 ]
+  enabled: true
+  burrows: {
+    height: [ 0, 250 ]
+    offset: {
+      dummy: true
+      dummyOutput: 100
+    }
+    replaceableBlocks: air
+    caveBlocks: {
+      states: biomesoplenty:leaves_2:10
+      height: [ 0, 250 ]
+    }
+    floor: {
+      dummy: true
+    }
+    ceiling: {
+      dummy: true
+      dummyOutput: 200
+    }
+  }
+}

@@ -1,5 +1,4 @@
 [
-	[
 	{ "select" : { "name": "biomesoplenty:flower_island"	}, "apply" : { "blacklist": true } },
 	{ "select" : { "name": "biomesoplenty:sacred_springs"	}, "apply" : { "blacklist": true } },
 	{ "select" : { "name": "biomesoplenty:origin_island"	}, "apply" : { "blacklist": true } },
@@ -17,6 +16,34 @@
 			"species" : "dead",
 			"chance": 0.2
 		} 
+	},
+	{
+		"select": { "name": "biomesoplenty:lush_desert" },
+		"apply": {
+			"species" : {
+				"random" : {
+					"dynamictreesbop:decayed" : 1,
+					"dynamictreesbop:oaktwiglet" : 5,
+					"dynamictreesbop:acacia" : 3,
+					"dynamictreesbop:acaciabush" : 3,
+					"dynamictrees:cactus" : 4
+				}
+			},
+			"density" : [ 0.4 ],
+			"chance" : 0.9
+		}
+	},
+	{
+		"select": { "name": "biomesoplenty:land_of_lakes" },
+		"apply": {
+			"species" : {
+				"random" : {
+					"dynamictrees:spruce" : 3,
+					"dynamictrees:birch" : 1,
+					"dynamictrees:oak" : 5
+				}
+			}
+		}
 	},
 	{
 		"__comment" : "Vanilla swamps now have actual willows in them",
@@ -40,6 +67,19 @@
 		"apply": {
 			"species": "skyroot",
 			"chance": 0.3
+		}
+	},
+	{
+		"__comment" : "Mountain base covered in alpine trees",
+		"select": { "name": "biometweaker:mountain_base" },
+		"apply": {
+			"species": {
+				"random": {
+					"pine": 5,
+					"birch": 3
+				}
+			},
+			"chance": 1.0
 		}
 	}
 ]

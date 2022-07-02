@@ -1,0 +1,75 @@
+{
+    "dimensions": [
+		{
+            "dim": 9,
+            "normal_biomes": true,
+            "dimensiontype": {
+                "id": 9,
+                "name": "Skylands",
+                "suffix": "_dim9",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED",
+                "require_exact_match": true
+            },
+            "worldinfo_onetime": {
+                "generatorName": "flat",
+                "generatorOptions": "3;minecraft:air;1;",
+                "SpawnX": 256,
+                "SpawnY": 32,
+                "SpawnZ": 256,
+                "GameRules": {
+                    "spawnRadius": "0"
+                }
+            },
+            "jed": {
+                "SkyColor": "89b6ff",
+                "CloudHeight": -80
+            }
+        },
+        {
+            "dim": 27,
+            "dimensiontype": {
+                "id": 27,
+                "name": "The Underneath",
+                "suffix": "_dim27",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED",
+                "require_exact_match": true
+            },
+            "chunkgenerator": "com.noobanidus.superflatcaves.gen.ChunkGeneratorFlatCaves",
+            "jed": {
+                "SkyRenderType": 1,
+                "SkyColor": "000000",
+                "FogColor": "000000",
+                "SkyDisableFlags": 7
+            },
+            "worldinfo": {
+                "generatorName": "flat",
+                "generatorOptions": "3;1*minecraft:bedrock,254*minecraft:stone,1*minecraft:bedrock;1;caves,ravines,decoration,mineshaft"
+            }
+        },
+        {
+            "dim": 999,
+            "biome": "minecraft:hell",
+            "chunkgenerator": "com.shinoow.beneath.common.world.gen.ChunkProviderDeepDank",
+            "dimensiontype": {
+                "id": 999,
+                "name": "The Core",
+                "suffix": "_dim999",
+                "keeploaded": false,
+                "require_exact_match": true,
+                "worldprovider": "WorldProviderHellJED"
+            },
+            "worldinfo_onetime": {
+                "RandomSeed": ""
+            },
+            "jed": {
+                "CanRespawnHere": false,
+                "FogColor": "000000",
+                "SkyColor": "000000",
+                "HasXZFog": true,
+                "IsSurfaceWorld": false
+            }
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+  imports: common_values.cave::NATURAL_STONE
+  dimensions: [ 0 ]
+  biomes: {
+    names: [
+      minecraft:ice_mountains
+    ]
+  }
+  blacklistBiomes: true
+  replaceableBlocks: $NATURAL_STONE
+  replaceDecorators: true
+  caverns: {
+    height: [ 210, 255 ]
+    ceiling: { dummy: true } // just cut the top off
+    floor: { range: [ -1, 2 ] }
+    generators: {
+      frequency: 0.2 // not sure if this is good
+      stretch: 3
+    }
+  }
+  # Whether the preset is enabled globally.
+  enabled: true
+}

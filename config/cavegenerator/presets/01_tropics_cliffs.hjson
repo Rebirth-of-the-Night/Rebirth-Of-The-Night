@@ -4,7 +4,7 @@
   replaceableBlocks: [ "air", "gravel", "water" ]
   blacklistBiomes: false
   biomes: {
-    names: biomesoplenty:coral_reef
+    names: biometweaker:tropical_islets
     types: []
   }
   caverns: [ {

@@ -48,6 +48,58 @@
 					"minecraft:mesa_clear_rock"
 				]
 			}
+		},
+		"desert_grass": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "biomesoplenty:plant_1",
+						"weight": 6,
+						"properties": {
+							"variant" : "dunegrass"
+						}
+					},
+					{
+						"name": "biomesoplenty:plant_0",
+						"weight": 3,
+						"properties": {
+							"variant" : "desertgrass"
+						}
+					},
+					{
+						"name": "rustic:aloe_vera",
+						"weight": 3,
+						"properties": {
+							"age" : "3"
+						}
+					},
+					{
+						"name": "biomesoplenty:plant_0",
+						"weight": 1,
+						"properties": {
+							"variant" : "bromeliad"
+						}
+					}
+				],
+				"surface": [
+					"minecraft:sand"
+				],
+				"cluster-size": 3
+			},
+			"material": [
+				"minecraft:sand"
+			],
+			"cluster-count": 6,
+			"chunk-chance": 1,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"biometweaker:lush_beach"
+				]
+			}
 		}
 	}
 }

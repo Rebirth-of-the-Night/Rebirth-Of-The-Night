@@ -166,7 +166,7 @@ Dropt.list("rock_coade")
 Dropt.list("rock_red_granite")
 
   .add(Dropt.rule()
-      .matchBlocks(["undergroundbiomes:igneous_cobble", "undergroundbiomes:igneous_stone"])
+      .matchBlocks(["undergroundbiomes:igneous_cobble", "undergroundbiomes:igneous_stone", "contenttweaker:columnar_jointing_red_granite"])
 	  .matchHarvester(Dropt.harvester()
           .type("PLAYER")
 		  .mainHand("BLACKLIST", [], "pickaxe;1;-1")
@@ -176,6 +176,15 @@ Dropt.list("rock_red_granite")
        	   .items([<pyrotech_compat:rock_igneous>], Dropt.range(4))
       )
   );
+Dropt.list("columnar_jointing_red_granite")
+
+  .add(Dropt.rule()
+      .matchBlocks(["contenttweaker:columnar_jointing_red_granite"])
+  	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(1))
+       	   .items([<undergroundbiomes:igneous_cobble>])
+      )
+  ); 
 Dropt.list("rock_black_granite")
 
   .add(Dropt.rule()

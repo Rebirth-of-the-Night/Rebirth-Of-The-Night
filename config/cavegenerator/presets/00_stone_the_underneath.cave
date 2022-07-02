@@ -1,0 +1,13 @@
+{
+  dimensions: [ 27 ]
+  layers: [
+    {
+      state: undergroundbiomes:igneous_cobble_mossy:2
+      height: [ 0, 20 ]
+    }
+    {
+      state: stone
+      height: [ 0, 256 ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "key": {
+    "id": "tutorial",
+    "category": "global"
+  },
+  "content": {
+    "title": "Tutorials are fun!",
+    "body": "Greetings Minecrafter!\nThis appears to be your first time using the Lore Expansion mod and have turned to the tutorial package for some guidance. You came to the right place. Seeing as you have made it this far, you aren’t completely incompetent. Let’s begin shall we?\nFirst, let me explain what Lore Expansion is and what it is meant to do for you. This mod was designed to help adventure map makers with the addition of a narrative. It also works quite well alongside the Hardcore Questing Mode mod. Players can be awarded or given lore pages that will be automatically added to their journals. The journal can be accessed by right clicking the book in hand or pressing the configurable hotkey (default L) to bring up the GUI.\nThe boxes shown on the left will highlight how many pages are able to be found and as pages are collected they will fill their numerical slots. For example, if the player find the first few pages but happens to miss a page in between, there will be an empty box showing you that one of the pages was missed. Lore can be replayed at any time by clicking a page icon on the left and clicking the play button. You are free to close the journal and roam about, the audio will continue to play. Give it a try now.\nSee! Look at you! Listening to me while free of GUI elements. But that’s enough… come back.\nTo stop the audio, you can click the stop button. But let’s not do that just yet otherwise you will be forced to listen to me all over again.\nCreating your own lore is easy and made fully customizable through the use of JSON files. This allows players to have complete control over how their story progresses. Change everything from the title, body text to page numbers and even dimension specificity.\nRecord your audio, place the .ogg file in the chosen folder and link the filename (without the extension) to the sound variable in the JSON file. Players can also specify the optional dimension specific tags to fit with your theme; leaving out the tag will label the lore as global and can be received by all players in all dimensions.\nIf you run into trouble, take a look at the tutorial lore to see how it is set up.\nGood luck and have fun creating your own immersive narrative!",
+    "audio": "tutorial",
+    "autoplay": true
+  },
+  "sortingIndex": 0,
+  "requirements": [],
+  "autoAdd": true,
+  "defaultLore": false,
+  "trigger": null,
+  "action": null
+}

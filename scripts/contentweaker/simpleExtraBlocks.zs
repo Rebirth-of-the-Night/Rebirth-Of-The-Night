@@ -232,6 +232,29 @@ void_block.setPassable(true);
 void_block.setCreativeTab(<creativetab:rotn_blocks>);
 void_block.register();
 
+// dimensional_vortex
+var dimensional_vortex = VanillaFactory.createBlock("dimensional_vortex", <blockmaterial:Fire>);
+dimensional_vortex.axisAlignedBB = AxisAlignedBB.create(
+     0.0 / 16.0,
+     0.0 / 16.0,
+     0.0 / 16.0,
+	16.0 / 16.0,
+    0.5 / 16.0,
+    16.0 / 16.0
+	);
+dimensional_vortex.setBlockSoundType(<soundtype:sand>);
+dimensional_vortex.setFullBlock(false);
+dimensional_vortex.setBlockHardness(350.0);
+dimensional_vortex.setBlockResistance(3600000.0);
+dimensional_vortex.setLightOpacity(0);
+dimensional_vortex.setLightValue(1);
+dimensional_vortex.setBlockLayer("TRANSLUCENT");
+dimensional_vortex.setPassable(true);
+dimensional_vortex.setCreativeTab(<creativetab:rotn_blocks>);
+dimensional_vortex.setToolClass("pickaxe");
+dimensional_vortex.setToolLevel(99);
+dimensional_vortex.register();
+
 // venerable_stump
 var venerable_stump = VanillaFactory.createBlock("venerable_stump", <blockmaterial:Wood>);
 venerable_stump.axisAlignedBB = AxisAlignedBB.create(
@@ -1507,6 +1530,12 @@ serpentinite_cobblestone.setBlockHardness(15.0);
 serpentinite_cobblestone.setBlockResistance(20.0);
 serpentinite_cobblestone.setToolLevel(2);
 serpentinite_cobblestone.register();
+
+var columnar_jointing_red_granite = VanillaFactory.createBlock("columnar_jointing_red_granite", <blockmaterial:Rock>);
+columnar_jointing_red_granite.setCreativeTab(<creativetab:rotn_blocks>);
+columnar_jointing_red_granite.setBlockHardness(17.0);
+columnar_jointing_red_granite.setToolLevel(0);
+columnar_jointing_red_granite.register();
 
 // sandstone native copper
 var n_copper_sandstone = VanillaFactory.createBlock("n_copper_sandstone", <blockmaterial:Rock>);

@@ -562,6 +562,20 @@ Dropt.list("cave_grass_drops")
           .items([<pyrotech:strange_tuber>])
       )
   );
+  
+Dropt.list("cave_root_drops")
+
+  .add(Dropt.rule()
+      .matchBlocks(["contenttweaker:cave_grass:8"])
+      .replaceStrategy("REPLACE_ALL_IF_SELECTED")
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(20)) // drops nothing if selected
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(1))
+          .items([<quark:root>])
+      )
+  );
 
 Dropt.list("nether_grass")
 

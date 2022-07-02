@@ -7,7 +7,7 @@ VERSION = 18;
 chunk_load_time = 30.0;
 !maximum time in seconds a chunk can be kept continously loaded via portal requests without a player, spawnarea or modded chunkloader nearby.
 !This is to prevent players from buiding exploit contraptions to keep chunks loaded indefinitely
-cont_load_time = 300.0;
+cont_load_time = 100.0;
 
 !set to true to disable creation of nether portals (through obsidian ignition)
 disable_nether_portal = false;
@@ -38,11 +38,14 @@ dim_ceiling = 255; !default height at which ceiling portals are generated
 PRE_INIT() {
 	!stacking dimensions on top of each other so they get connected via portals (order bottom to top):
 	!add("dimstack", [<dimId>...]#);
-	add("dimstack", [10, 0]#); !overworld on top of beneath
+	add("dimstack", [999, -1, 10, 27, 0, 9, 4]#); !core < nether < beneath < underneath < overworld < skylands < aether
 	
 	!dimension data for automatic transition layer generation:
 	!dim_transitions:<dimId> = [<botMaterial>, <botLayerSize>, <topMaterial>, <topLayerSize>];
 	dim_transitions:0 = ["minecraft:stone", 4, "minecraft:air", 0]; !Overworld has stone at floor and air at ceiling
+	
+	add("dimstack", [1, 1]#);
+    !loops The End into itself (so when you fall out the bottom you enter back through the top)
 	
 	!lower the portal ceiling height in the nether
 	!dim_ceiling:-1 = 127;
@@ -50,8 +53,9 @@ PRE_INIT() {
 	!prevent bedrock from being generated in ...
 	rem_block_gen:0 = "minecraft:bedrock"; !the Overworld
 	rem_block_gen:10 = "minecraft:bedrock"; !the Beneath
-	!rem_block_gen:-1 = "minecraft:bedrock"; !the Nether
-	!rem_block_gen:-1 = "minecraft:bedrock"; !the Nether
+	rem_block_gen:-1 = "minecraft:bedrock"; !the Nether
+	rem_block_gen:27 = "minecraft:bedrock"; !the Underneath
+	rem_block_gen:999 = "minecraft:bedrock"; !the Core
 	
 	!register a new noise field
 	!add("noiseField", <name>, <genIdx>, <horGrid>, <vertGrid>, <horScale>, <vertScale>);
