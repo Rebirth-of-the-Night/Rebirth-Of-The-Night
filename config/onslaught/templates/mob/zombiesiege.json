@@ -16,7 +16,7 @@
       },
       {
         "id": "potioncore:teleport_surface",
-        "duration": 1,
+        "duration": 20,
         "amplifier": 0,
         "showParticles": false
       }
@@ -61,7 +61,7 @@
       },
       {
         "id": "potioncore:teleport_surface",
-        "duration": 1,
+        "duration": 20,
         "amplifier": 0,
         "showParticles": false
       }
@@ -110,7 +110,7 @@
       },
       {
         "id": "potioncore:teleport_surface",
-        "duration": 1,
+        "duration": 20,
         "amplifier": 0,
         "showParticles": false
       }
