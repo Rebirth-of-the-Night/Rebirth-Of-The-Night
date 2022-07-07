@@ -1961,7 +1961,7 @@ ExSartagine.addKettleRecipe([sugar,egg],null,waterBottle,[<harvestcraft:marshmel
 Mortar.addRecipe(["stone"], <pyrotech:marshmallow>*2, 4, [<harvestcraft:marshmellowsitem>*2,<contenttweaker:perforata>]);
 //Donut
 recipes.removeByRecipeName("harvestcraft:donutitem");
-ExSartagine.addKettleRecipe([dough,cookingOil],null,waterBottle,[donut],80);
+ExSartagine.addKettleRecipe([dough,cookingOil],null,null,[donut],80);
 // Chocolate donut -&C
 RecipeBuilder.get("chef")
   .setName("chocolate_donut")
