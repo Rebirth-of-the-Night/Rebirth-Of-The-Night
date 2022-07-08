@@ -1686,9 +1686,59 @@ glareshaft.axisAlignedBB = AxisAlignedBB.create(
 glareshaft.setFullBlock(false);
 glareshaft.setLightOpacity(0);
 glareshaft.setBlockLayer("CUTOUT");
-glareshaft.setCreativeTab(<creativetab:decorations>);
+glareshaft.setCreativeTab(<creativetab:rotn_blocks>);
 glareshaft.setToolLevel(0);
 glareshaft.register();
+
+// dry stone building blocks
+// coade
+var rock_big = VanillaFactory.createBlock("rock_big", <blockmaterial:Rock>);
+rock_big.axisAlignedBB = AxisAlignedBB.create(
+     1.0 / 16.0,
+     0.0 / 16.0,
+     2.0 / 16.0,
+	15.0 / 16.0,
+    3.0 / 16.0,
+    14.0 / 16.0
+	);
+rock_big.setCreativeTab(<creativetab:rotn_blocks>);
+rock_big.setBlockSoundType(<soundtype:stone>);
+rock_big.setFullBlock(false);
+rock_big.setLightOpacity(128);
+rock_big.setBlockLayer("CUTOUT");
+rock_big.setToolLevel(0);
+rock_big.setBlockHardness(2);
+rock_big.setBlockResistance(5.0);
+rock_big.register();
+
+var dry_slab_rock = VanillaFactory.createBlock("dry_slab_rock", <blockmaterial:Rock>);
+dry_slab_rock.axisAlignedBB = AxisAlignedBB.create(
+     0.0 / 16.0,
+     0.0 / 16.0,
+     0.0 / 16.0,
+	16.0 / 16.0,
+    11.0 / 16.0,
+    16.0 / 16.0
+	);
+dry_slab_rock.setCreativeTab(<creativetab:rotn_blocks>);
+dry_slab_rock.setBlockSoundType(<soundtype:stone>);
+dry_slab_rock.setFullBlock(false);
+dry_slab_rock.setLightOpacity(64);
+dry_slab_rock.setBlockLayer("CUTOUT");
+dry_slab_rock.setToolLevel(1);
+dry_slab_rock.setBlockHardness(18);
+dry_slab_rock.setBlockResistance(9.0);
+dry_slab_rock.register();
+
+var dry_block_rock = VanillaFactory.createBlock("dry_block_rock", <blockmaterial:Rock>);
+dry_block_rock.setCreativeTab(<creativetab:rotn_blocks>);
+dry_block_rock.setBlockSoundType(<soundtype:stone>);
+dry_block_rock.setFullBlock(false);
+dry_block_rock.setBlockLayer("CUTOUT");
+dry_block_rock.setToolLevel(1);
+dry_block_rock.setBlockHardness(25);
+dry_block_rock.setBlockResistance(15.0);
+dry_block_rock.register();
 
 //Liquids
 var ender_slag = VanillaFactory.createFluid("ender_slag", Color.fromHex("fffdd0"));

@@ -120,6 +120,9 @@ tile.contenttweaker.willow_boards.name=Willow Nailed Boards
 tile.contenttweaker.witheredblock.name=Block of Wither Ashes
 tile.contenttweaker.wyrmwood_boards.name=Wyrmwood Nailed Boards
 tile.contenttweaker.codex_junk.name=Discarded Codex
+tile.contenttweaker.rock_big.name=Big Rock
+tile.contenttweaker.dry_slab_rock.name=Dry Fitted Stone Slab With A Big Rock 
+tile.contenttweaker.codex_junk.name=Dry Fitted Stone Block (Not Quite There)
 
 #------------------------------------------------------------------------------
 # Unorganized items A-Z
