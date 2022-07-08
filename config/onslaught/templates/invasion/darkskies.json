@@ -97,7 +97,7 @@
               },
               {
                 "id": "darkskies.bat",
-                "count": [ 6, 8 ],
+                "count": [ 4, 6 ],
                 "spawn": {
                   "type": "air",
                   "light": [
@@ -115,7 +115,7 @@
               },
               {
                 "id": "darkskies.ptera",
-                "count": [ 2, 3 ],
+                "count": [ 1, 2 ],
                 "spawn": {
                   "type": "air",
                   "light": [
@@ -160,7 +160,7 @@
             "mobs": [
               {
                 "id": "darkskies.bat",
-                "count": [ 10, 12 ],
+                "count": [ 6, 8 ],
                 "spawn": {
                   "type": "air",
                   "light": [
@@ -178,7 +178,7 @@
               },
               {
                 "id": "darkskies.ptera",
-                "count": [ 2, 3 ],
+                "count": [ 1, 2 ],
                 "spawn": {
                   "type": "air",
                   "light": [
@@ -241,7 +241,7 @@
               },
               {
                 "id": "darkskies.bat",
-                "count": [ 6, 8 ],
+                "count": [ 4, 6 ],
                 "spawn": {
                   "type": "air",
                   "light": [
@@ -277,7 +277,7 @@
               },
               {
                 "id": "darkskies.vespa",
-                "count": [ 3 ],
+                "count": [ 1 ],
                 "spawn": {
                   "type": "air",
                   "light": [
@@ -322,7 +322,7 @@
             "mobs": [
               {
                 "id": "darkskies.ptera",
-                "count": [ 4, 6 ],
+                "count": [ 2, 3 ],
                 "spawn": {
                   "type": "air",
                   "light": [
@@ -367,7 +367,7 @@
               },
               {
                 "id": "darkskies.vespa",
-                "count": [ 2 ],
+                "count": [ 1 ],
                 "spawn": {
                   "type": "air",
                   "light": [
@@ -493,7 +493,7 @@
             "mobs": [
               {
                 "id": "darkskies.skydrake",
-                "count": [ 2 ],
+                "count": [ 1 ],
                 "spawn": {
                   "type": "air",
                   "light": [
@@ -520,7 +520,7 @@
             "mobs": [
               {
                 "id": "darkskies.ptera",
-                "count": [ 4, 6 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "air",
                   "light": [
@@ -538,7 +538,7 @@
               },
               {
                 "id": "darkskies.bat",
-                "count": [ 6, 8 ],
+                "count": [ 4, 6 ],
                 "spawn": {
                   "type": "air",
                   "light": [
@@ -565,7 +565,7 @@
             "mobs": [
               {
                 "id": "darkskies.ptera",
-                "count": [ 6, 8 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "air",
                   "light": [
@@ -592,7 +592,7 @@
             "mobs": [
               {
                 "id": "darkskies.vespa",
-                "count": [ 2, 3 ],
+                "count": [ 1, 2 ],
                 "spawn": {
                   "type": "air",
                   "light": [
@@ -610,7 +610,7 @@
               },
               {
                 "id": "darkskies.bat",
-                "count": [ 3, 4 ],
+                "count": [ 2, 3 ],
                 "spawn": {
                   "type": "air",
                   "light": [
@@ -655,7 +655,7 @@
             "mobs": [
               {
                 "id": "darkskies.vespa",
-                "count": [ 2, 3 ],
+                "count": [ 1, 2 ],
                 "spawn": {
                   "type": "air",
                   "light": [
@@ -673,7 +673,7 @@
               },
               {
                 "id": "darkskies.bat",
-                "count": [ 3, 4 ],
+                "count": [ 2, 3 ],
                 "spawn": {
                   "type": "air",
                   "light": [
@@ -709,7 +709,7 @@
               },
               {
                 "id": "darkskies.ptera",
-                "count": [ 3, 4 ],
+                "count": [ 2, 3 ],
                 "spawn": {
                   "type": "air",
                   "light": [
@@ -772,7 +772,7 @@
             "mobs": [
               {
                 "id": "darkskies.vespa",
-                "count": [ 2, 3 ],
+                "count": [ 1, 2 ],
                 "spawn": {
                   "type": "air",
                   "light": [
@@ -790,7 +790,7 @@
               },
               {
                 "id": "darkskies.bat",
-                "count": [ 3, 4 ],
+                "count": [ 2, 3 ],
                 "spawn": {
                   "type": "air",
                   "light": [
@@ -826,7 +826,7 @@
               },
               {
                 "id": "darkskies.ptera",
-                "count": [ 4, 6 ],
+                "count": [ 2, 3 ],
                 "spawn": {
                   "type": "air",
                   "light": [
