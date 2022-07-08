@@ -1,0 +1,16 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+  	"textures": {
+  	  "texture": "earthworks:blocks/dry_stone3",
+  	  "particle": "earthworks:blocks/dry_stone3"
+  	},
+  	"model": "contenttweaker:rock_big/dry_block_rock_c",
+  	"uvlock": false,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}
