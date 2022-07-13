@@ -1,6 +1,7 @@
 #modloaded aether_legacy
 
 import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
 import mods.artisanworktables.builder.RecipeBuilder;
 import mods.jei.JEI;
 import mods.ltt.LootTable;
@@ -8,6 +9,14 @@ import crafttweaker.block.IBlockDefinition;
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IItemCondition;
 import mods.betterwithaddons.Infuser;
+import mods.vanillaanvilrepair.addRepairEntry;
+
+var zaniteItems = <aether_legacy:zanite_helmet> | <aether_legacy:zanite_chestplate> | <aether_legacy:zanite_leggings> | <aether_legacy:zanite_boots> | <aether_legacy:zanite_pickaxe> | <aether_legacy:zanite_shovel> | <aether_legacy:zanite_axe> | <spartancompat:battleaxe_zanite> | <spartancompat:dagger_zanite> | <spartancompat:glaive_zanite> | <spartancompat:katana_zanite> | <spartancompat:longbow_zanite> | <spartancompat:pike_zanite> | <spartancompat:saber_zanite> | <spartancompat:spear_zanite> | <spartancompat:warhammer_zanite> | <defiledlands:scarlite_razor>;
+addRepairEntry(zaniteItems, <contenttweaker:zanite_ingot>);
+
+var gravititeItems = <aether_legacy:gravitite_helmet> | <aether_legacy:gravitite_chestplate> | <aether_legacy:gravitite_leggings> | <aether_legacy:gravitite_boots> | <aether_legacy:gravitite_sword> | <atop:amber_pickaxe> |  <atop:amber_shovel> | <atop:amber_axe> | <spartancompat:battleaxe_gravitite> | <spartancompat:boomerang_gravitite> | <spartancompat:dagger_gravitite> | <spartancompat:glaive_gravitite> | <spartancompat:greatsword_gravitite> | <spartancompat:halberd_gravitite> | <spartancompat:hammer_gravitite> | <spartancompat:javelin_gravitite> | <spartancompat:katana_gravitite> | <spartancompat:lance_gravitite> | <spartancompat:longbow_gravitite> | <spartancompat:longsword_gravitite> | <spartancompat:mace_gravitite> | <spartancompat:pike_gravitite> | <spartancompat:rapier_gravitite> | <spartancompat:saber_gravitite> | <spartancompat:spear_gravitite> | <spartancompat:staff_gravitite> | <spartancompat:throwing_axe_gravitite> | <spartancompat:throwing_knife_gravitite> | <spartancompat:warhammer_gravitite>;
+addRepairEntry(gravititeItems, <contenttweaker:material_part:40>);
+
 
 JEI.removeAndHide(<aether_legacy:locked_dungeon_block>);
 JEI.removeAndHide(<aether_legacy:locked_dungeon_block:1>);
