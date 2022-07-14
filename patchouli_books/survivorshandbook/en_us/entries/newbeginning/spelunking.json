@@ -1,7 +1,7 @@
 {
   "name": "Spelunking",
   "icon": "minecraft:iron_pickaxe",
-  "category": "survival_newbeginning",
+  "category": "newbeginning",
   "sortnum": 9,
   "pages": [
     {

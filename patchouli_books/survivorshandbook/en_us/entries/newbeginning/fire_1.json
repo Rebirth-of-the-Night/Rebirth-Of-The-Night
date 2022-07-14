@@ -1,7 +1,7 @@
 {
   "name": "Fire: Igniting",
   "icon": "contenttweaker:fire_block",
-  "category": "survival_newbeginning",
+  "category": "newbeginning",
   "sortnum": 7,
   "pages": [
     {

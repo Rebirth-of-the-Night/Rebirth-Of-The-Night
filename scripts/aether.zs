@@ -198,6 +198,9 @@ recipes.addShaped("quicksoil", quicks*8,[
     [sand, sand, sand]
 ]);
 
+recipes.remove(<aether_legacy:holystone_button>);
+recipes.addShapeless("holystone_button",<aether_legacy:holystone_button>,[<pyrotech_compat:rock_sedimentary_sand:15>]);
+
 // Consistency with stone tools for holystone tools
 recipes.remove(<aether_legacy:holystone_axe>);
 recipes.addShapedMirrored("holystone_axe", <aether_legacy:holystone_axe>,

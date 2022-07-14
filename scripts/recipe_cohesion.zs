@@ -134,9 +134,6 @@ recipes.addShaped("flintstone_sledgehammer", <pyrotech:stone_hammer>,
   [flint,stick,flint],
   [null,stick,null]]);
 
-recipes.remove(<minecraft:stone_button>);
-recipes.addShapeless("stone_button",<minecraft:stone_button>,[stone]);
-
 // Crossbow Tweaks
 recipes.remove(<spartanweaponry:crossbow_wood>);
 recipes.addShaped("SteelCrossbow", <spartanweaponry:crossbow_wood>.withTag({display: {Name: "§5Steel Crossbow"}}),

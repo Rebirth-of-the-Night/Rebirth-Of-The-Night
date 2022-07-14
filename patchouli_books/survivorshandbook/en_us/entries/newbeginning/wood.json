@@ -1,7 +1,7 @@
 {
   "name": "Wood and Crafting",
   "icon": "pyrotech:crude_axe",
-  "category": "survival_newbeginning",
+  "category": "newbeginning",
   "sortnum": 3,
   "pages": [
     {
