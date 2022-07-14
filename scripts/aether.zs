@@ -6,7 +6,6 @@ import mods.artisanworktables.builder.RecipeBuilder;
 import mods.jei.JEI;
 import mods.ltt.LootTable;
 import crafttweaker.block.IBlockDefinition;
-import crafttweaker.item.IItemStack;
 import crafttweaker.item.IItemCondition;
 import mods.betterwithaddons.Infuser;
 import mods.vanillaanvilrepair.addRepairEntry;
