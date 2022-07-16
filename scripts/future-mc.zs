@@ -441,6 +441,10 @@ var ores as IItemStack[string] = {
 	"simpleores_tin_ore" : <simpleores:tin_ingot>
 } as IItemStack[string];
 
+for ore, result in ores {
+	BlastFurnace.removeRecipeForInput(result);
+}
+
 var stones as string[] = [
 	"undergroundbiomes_igneous_stone",
 	"undergroundbiomes_metamorphic_stone",
@@ -453,10 +457,18 @@ var stones as string[] = [
 	"quark_biome_cobblestone_1",
 	"quark_biome_cobblestone_2",
 	"sandstone",
-	"red_sandstone"
+	"red_sandstone",
+	"undergroundbiomes_igneous_stone_4",
+	"undergroundbiomes_metamorphic_stone_4",
 ] as string[];
 
-for i in 1 to 8 {
+for i in 1 to 4 {
+	stones += "undergroundbiomes_igneous_stone_"~i;
+	stones += "undergroundbiomes_metamorphic_stone_"~i;
+	stones += "undergroundbiomes_sedimentary_stone_"~i;
+}
+
+for i in 5 to 8 {
 	stones += "undergroundbiomes_igneous_stone_"~i;
 	stones += "undergroundbiomes_metamorphic_stone_"~i;
 	stones += "undergroundbiomes_sedimentary_stone_"~i;

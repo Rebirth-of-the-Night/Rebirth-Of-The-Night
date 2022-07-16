@@ -1,0 +1,4 @@
+harvestcraft:tomatoitem
+harvestcraft:chilipepperitem
+harvestcraft:chilipepperseeditem
+harvestcraft:tomatoseeditem

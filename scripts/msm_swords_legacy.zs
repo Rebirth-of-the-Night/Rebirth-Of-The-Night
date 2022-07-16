@@ -12,7 +12,7 @@ val enchantments0 as IEnchantmentDefinition[] = [<enchantment:msmlegacy:absorb>]
 
 var enchantmentMap0 as IData = {};
 
-enchantmentMap0 += enchantments0[0].makeEnchantment(1).makeTag();
+enchantmentMap0 += enchantments0[0].makeEnchantment(2).makeTag();
 
 JEI.removeAndHide(<msmlegacy:relic_infinity>);
 JEI.removeAndHide(<msmlegacy:relic_keyblade>);
