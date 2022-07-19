@@ -21,7 +21,7 @@ JEI.removeAndHide(<msmlegacy:relic_molten>);
 JEI.removeAndHide(<msmlegacy:relic_pie>);
 
 recipes.remove(<msmlegacy:gladiolus>);
-recipes.addShaped("Gladiolus", <msmlegacy:gladiolus>.withTag(enchantmentMap0),[
+recipes.addShaped("Gladiolus", <msmlegacy:gladiolus>.withTag({ench: [{lvl: 2 as short, id: 92}]}),[
    [null, <ore:treeLeaves>, <ore:vine>],
    [<ore:treeSapling>, <ore:blockMossy>, <ore:treeLeaves>],
    [<spartanweaponry:material>, <ore:treeSapling>, null]
