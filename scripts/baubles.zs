@@ -29,47 +29,6 @@ LootTable.removeGlobalItem("bountifulbaubles:phantomprism");
 LootTable.removeGlobalItem("bountifulbaubles:reforger");
 LootTable.removeGlobalItem("bountifulbaubles:ringiron");
 
-// Remove everlasting food
-LootTable.removeGlobalItem("artifacts:everlasting_porkchop");
-LootTable.removeGlobalItem("artifacts:everlasting_porkchop");
-LootTable.removeGlobalItem("artifacts:everlasting_cooked_porkchop");
-LootTable.removeGlobalItem("artifacts:everlasting_beef");
-LootTable.removeGlobalItem("artifacts:everlasting_cooked_beef");
-LootTable.removeGlobalItem("artifacts:everlasting_chicken");
-LootTable.removeGlobalItem("artifacts:everlasting_cooked_chicken");
-LootTable.removeGlobalItem("artifacts:everlasting_rotten_flesh");
-LootTable.removeGlobalItem("artifacts:everlasting_spider_eye");
-LootTable.removeGlobalItem("artifacts:everlasting_rabbit");
-LootTable.removeGlobalItem("artifacts:everlasting_cooked_rabbit");
-LootTable.removeGlobalItem("artifacts:everlasting_mutton");
-LootTable.removeGlobalItem("artifacts:everlasting_cooked_mutton");
-LootTable.removeGlobalItem("artifacts:everlasting_rabbit_stew");
-LootTable.removeGlobalItem("artifacts:everlasting_cod");
-LootTable.removeGlobalItem("artifacts:everlasting_cooked_cod");
-LootTable.removeGlobalItem("artifacts:everlasting_salmon");
-LootTable.removeGlobalItem("artifacts:everlasting_cooked_salmon");
-LootTable.removeGlobalItem("artifacts:everlasting_clownfish");
-LootTable.removeGlobalItem("artifacts:everlasting_porkchop");
-JEI.removeAndHide(<bountifulbaubles:spectralsilt>);
-JEI.removeAndHide(<artifacts:everlasting_porkchop>);
-JEI.removeAndHide(<artifacts:everlasting_cooked_porkchop>);
-JEI.removeAndHide(<artifacts:everlasting_beef>);
-JEI.removeAndHide(<artifacts:everlasting_cooked_beef>);
-JEI.removeAndHide(<artifacts:everlasting_chicken>);
-JEI.removeAndHide(<artifacts:everlasting_cooked_chicken>);
-JEI.removeAndHide(<artifacts:everlasting_rotten_flesh>);
-JEI.removeAndHide(<artifacts:everlasting_spider_eye>);
-JEI.removeAndHide(<artifacts:everlasting_rabbit>);
-JEI.removeAndHide(<artifacts:everlasting_cooked_rabbit>);
-JEI.removeAndHide(<artifacts:everlasting_mutton>);
-JEI.removeAndHide(<artifacts:everlasting_cooked_mutton>);
-JEI.removeAndHide(<artifacts:everlasting_rabbit_stew>);
-JEI.removeAndHide(<artifacts:everlasting_cod>);
-JEI.removeAndHide(<artifacts:everlasting_cooked_cod>);
-JEI.removeAndHide(<artifacts:everlasting_salmon>);
-JEI.removeAndHide(<artifacts:everlasting_cooked_salmon>);
-JEI.removeAndHide(<artifacts:everlasting_clownfish>);
-
 JEI.removeAndHide(<artifacts:ultimate_pendant>);
 LootTable.removeGlobalItem("artifacts:ultimate_pendant");
 
