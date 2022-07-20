@@ -567,6 +567,16 @@ var smokerRecipes as IItemStack[IItemStack] = {
 	<harvestcraft:rawtofenisonitem> : <harvestcraft:cookedtofenisonitem>,
 	<harvestcraft:rawtofuduckitem> : <harvestcraft:cookedtofuduckitem>,
 
+	/****** DT Potion Fish ******/
+
+	<dungeontactics:fish_swift> : <dungeontactics:fish_swift_cooked>,
+	<dungeontactics:fish_flying> : <dungeontactics:fish_flying_cooked>,
+	<dungeontactics:fish_lava> : <dungeontactics:fish_lava_cooked>,
+	<dungeontactics:fish_muscle> : <dungeontactics:fish_muscle_cooked>,
+	<dungeontactics:fish_lung> : <dungeontactics:fish_lung_cooked>,
+	<dungeontactics:fish_obsidian> : <dungeontactics:fish_obsidian_cooked>,
+	<dungeontactics:fish_tunnel> : <dungeontactics:fish_tunnel_cooked>,
+
 	/****** LAVACOWWW ******/
 
 	<mod_lavacow:piranha> : <mod_lavacow:piranha_cooked>,
@@ -675,6 +685,16 @@ var campfireRecipes600 as IItemStack[IItemStack] = {
 	<harvestcraft:rawtofenisonitem> : <harvestcraft:cookedtofenisonitem>,
 	<harvestcraft:rawtofuduckitem> : <harvestcraft:cookedtofuduckitem>,
 	<harvestcraft:sweetpotatoitem> : <harvestcraft:bakedsweetpotatoitem>,
+
+	/****** DT Potion Fish ******/
+
+	<dungeontactics:fish_swift> : <dungeontactics:fish_swift_cooked>,
+	<dungeontactics:fish_flying> : <dungeontactics:fish_flying_cooked>,
+	<dungeontactics:fish_lava> : <dungeontactics:fish_lava_cooked>,
+	<dungeontactics:fish_muscle> : <dungeontactics:fish_muscle_cooked>,
+	<dungeontactics:fish_lung> : <dungeontactics:fish_lung_cooked>,
+	<dungeontactics:fish_obsidian> : <dungeontactics:fish_obsidian_cooked>,
+	<dungeontactics:fish_tunnel> : <dungeontactics:fish_tunnel_cooked>,
 
 	/****** LAVACOWWW ******/
 

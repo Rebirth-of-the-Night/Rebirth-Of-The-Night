@@ -15,7 +15,7 @@ JEI.removeAndHide(<pyrotech:bucket_clay>.withTag({fluids: {FluidName: "polluted_
 JEI.removeAndHide(<pyrotech:bucket_stone>.withTag({fluids: {FluidName: "polluted_water", Amount: 1000}}));
 JEI.removeAndHide(<adpother:polluted_water>);
 
-/* val mats as string[] = [
+val mats as string[] = [
     "iron",
     "gold",
     "diamond"
@@ -30,7 +30,12 @@ for mat in mats {
     for item in hiddenItems {
         JEI.removeAndHide(itemUtils.getItem("adpother:"~mat~"_"~item));
     }
-} */
+}
+
+JEI.removeAndHide(<adpother:diamond_filter>);
+JEI.removeAndHide(<adpother:gold_filter>);
+JEI.removeAndHide(<adpother:diamond_respirator>);
+JEI.removeAndHide(<adpother:gold_respirator>);
 
 recipes.addShaped(<adpother:iron_filter>, [
     [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>],

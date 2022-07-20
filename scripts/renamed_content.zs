@@ -117,6 +117,9 @@ import mods.jei.JEI;
 <biomesoplenty:mud_brick_stairs:0>.displayName = "Mud Brick Stairs";
 <biomesoplenty:other_slab:0>.displayName = "Mud Brick Slab";
 
+// Spartan Weapony
+<spartanweaponry:arrow_explosive>.displayName = "Destructive Arrow";
+
 var potionMap = {
     "Collapse" : "randomthings:collapse",
     "Collapse" : "randomthings:long_collapse",

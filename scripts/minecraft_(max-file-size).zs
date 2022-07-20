@@ -71,6 +71,9 @@ JEI.removeAndHide(<rats:feral_bagh_nakhs>);
 
 JEI.removeAndHide(<iceandfire:stymphalian_bird_dagger>);
 
+recipes.remove(<spartanweaponry:arrow_explosive>);
+JEI.removeAndHide(<spartanweaponry:arrow_explosive>);
+
 recipes.remove(<minecraft:minecart>);
 recipes.addShaped("minecart", <minecraft:minecart>, [
     [null, null, null],
@@ -936,11 +939,92 @@ JEI.removeAndHide(<quark:custom_chest_trap:4>);
 
 // Basket Case hiding
 JEI.removeAndHide(<basketcase:twig_acacia>);
+JEI.removeAndHide(<basketcase:bark_strips_acacia>);
+JEI.removeAndHide(<basketcase:wicker_small_bark_acacia>);
+JEI.removeAndHide(<basketcase:wicker_medium_bark_acacia>);
+JEI.removeAndHide(<basketcase:wicker_large_bark_acacia>);
+JEI.removeAndHide(<basketcase:wicker_small_twig_acacia>);
+JEI.removeAndHide(<basketcase:wicker_medium_twig_acacia>);
+JEI.removeAndHide(<basketcase:wicker_large_twig_acacia>);
 JEI.removeAndHide(<basketcase:twig_birch>);
+JEI.removeAndHide(<basketcase:bark_strips_birch>);
+JEI.removeAndHide(<basketcase:wicker_small_bark_birch>);
+JEI.removeAndHide(<basketcase:wicker_medium_bark_birch>);
+JEI.removeAndHide(<basketcase:wicker_large_bark_birch>);
+JEI.removeAndHide(<basketcase:wicker_small_twig_birch>);
+JEI.removeAndHide(<basketcase:wicker_medium_twig_birch>);
+JEI.removeAndHide(<basketcase:wicker_large_twig_birch>);
 JEI.removeAndHide(<basketcase:twig_dark_oak>);
+JEI.removeAndHide(<basketcase:bark_strips_dark_oak>);
+JEI.removeAndHide(<basketcase:wicker_small_bark_dark_oak>);
+JEI.removeAndHide(<basketcase:wicker_medium_bark_dark_oak>);
+JEI.removeAndHide(<basketcase:wicker_large_bark_dark_oak>);
+JEI.removeAndHide(<basketcase:wicker_small_twig_dark_oak>);
+JEI.removeAndHide(<basketcase:wicker_medium_twig_dark_oak>);
+JEI.removeAndHide(<basketcase:wicker_large_twig_dark_oak>);
 JEI.removeAndHide(<basketcase:twig_jungle>);
+JEI.removeAndHide(<basketcase:bark_strips_jungle>);
+JEI.removeAndHide(<basketcase:wicker_small_bark_jungle>);
+JEI.removeAndHide(<basketcase:wicker_medium_bark_jungle>);
+JEI.removeAndHide(<basketcase:wicker_large_bark_jungle>);
+JEI.removeAndHide(<basketcase:wicker_small_twig_jungle>);
+JEI.removeAndHide(<basketcase:wicker_medium_twig_jungle>);
+JEI.removeAndHide(<basketcase:wicker_large_twig_jungle>);
 JEI.removeAndHide(<basketcase:twig_oak>);
+JEI.removeAndHide(<basketcase:bark_strips_oak>);
+JEI.removeAndHide(<basketcase:wicker_small_bark_oak>);
+JEI.removeAndHide(<basketcase:wicker_medium_bark_oak>);
+JEI.removeAndHide(<basketcase:wicker_large_bark_oak>);
+JEI.removeAndHide(<basketcase:wicker_small_twig_oak>);
+JEI.removeAndHide(<basketcase:wicker_medium_twig_oak>);
+JEI.removeAndHide(<basketcase:wicker_large_twig_oak>);
 JEI.removeAndHide(<basketcase:twig_spruce>);
+JEI.removeAndHide(<basketcase:bark_strips_spruce>);
+JEI.removeAndHide(<basketcase:wicker_small_bark_spruce>);
+JEI.removeAndHide(<basketcase:wicker_medium_bark_spruce>);
+JEI.removeAndHide(<basketcase:wicker_large_bark_spruce>);
+JEI.removeAndHide(<basketcase:wicker_small_twig_spruce>);
+JEI.removeAndHide(<basketcase:wicker_medium_twig_spruce>);
+JEI.removeAndHide(<basketcase:wicker_large_twig_spruce>);
+JEI.removeAndHide(<basketcase:wicker_small_generic>);
+JEI.removeAndHide(<basketcase:wicker_medium_generic>);
+JEI.removeAndHide(<basketcase:wicker_large_generic>);
+JEI.removeAndHide(<basketcase:basket_small_bark_acacia>);
+JEI.removeAndHide(<basketcase:basket_medium_bark_acacia>);
+JEI.removeAndHide(<basketcase:basket_large_bark_acacia>);
+JEI.removeAndHide(<basketcase:basket_small_bark_birch>);
+JEI.removeAndHide(<basketcase:basket_medium_bark_birch>);
+JEI.removeAndHide(<basketcase:basket_large_bark_birch>);
+JEI.removeAndHide(<basketcase:basket_small_bark_dark_oak>);
+JEI.removeAndHide(<basketcase:basket_medium_bark_dark_oak>);
+JEI.removeAndHide(<basketcase:basket_large_bark_dark_oak>);
+JEI.removeAndHide(<basketcase:basket_small_bark_jungle>);
+JEI.removeAndHide(<basketcase:basket_medium_bark_jungle>);
+JEI.removeAndHide(<basketcase:basket_large_bark_jungle>);
+JEI.removeAndHide(<basketcase:basket_small_bark_oak>);
+JEI.removeAndHide(<basketcase:basket_medium_bark_oak>);
+JEI.removeAndHide(<basketcase:basket_large_bark_oak>);
+JEI.removeAndHide(<basketcase:basket_small_bark_spruce>);
+JEI.removeAndHide(<basketcase:basket_medium_bark_spruce>);
+JEI.removeAndHide(<basketcase:basket_large_bark_spruce>);
+JEI.removeAndHide(<basketcase:basket_small_twig_acacia>);
+JEI.removeAndHide(<basketcase:basket_medium_twig_acacia>);
+JEI.removeAndHide(<basketcase:basket_large_twig_acacia>);
+JEI.removeAndHide(<basketcase:basket_small_twig_birch>);
+JEI.removeAndHide(<basketcase:basket_medium_twig_birch>);
+JEI.removeAndHide(<basketcase:basket_large_twig_birch>);
+JEI.removeAndHide(<basketcase:basket_small_twig_dark_oak>);
+JEI.removeAndHide(<basketcase:basket_medium_twig_dark_oak>);
+JEI.removeAndHide(<basketcase:basket_large_twig_dark_oak>);
+JEI.removeAndHide(<basketcase:basket_small_twig_jungle>);
+JEI.removeAndHide(<basketcase:basket_medium_twig_jungle>);
+JEI.removeAndHide(<basketcase:basket_large_twig_jungle>);
+JEI.removeAndHide(<basketcase:basket_small_twig_oak>);
+JEI.removeAndHide(<basketcase:basket_medium_twig_oak>);
+JEI.removeAndHide(<basketcase:basket_large_twig_oak>);
+JEI.removeAndHide(<basketcase:basket_small_twig_spruce>);
+JEI.removeAndHide(<basketcase:basket_medium_twig_spruce>);
+JEI.removeAndHide(<basketcase:basket_large_twig_spruce>);
 
 // PrimalLib Hiding
 JEI.removeAndHide(<primallib:plant_fiber>);
@@ -954,6 +1038,12 @@ JEI.removeAndHide(<primallib:bark_dark_oak>);
 JEI.removeAndHide(<primallib:wooden_shaft>);
 JEI.removeAndHide(<primallib:twig_generic>);
 JEI.removeAndHide(<primallib:branch>);
+JEI.removeAndHide(<primallib:log_stripped_oak>);
+JEI.removeAndHide(<primallib:log_stripped_spruce>);
+JEI.removeAndHide(<primallib:log_stripped_birch>);
+JEI.removeAndHide(<primallib:log_stripped_jungle>);
+JEI.removeAndHide(<primallib:log_stripped_acacia>);
+JEI.removeAndHide(<primallib:log_stripped_dark_oak>);
 JEI.removeAndHide(<primallib:twine>);
 
 // Iron Furnaces Hiding

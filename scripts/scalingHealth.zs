@@ -3,6 +3,7 @@ import crafttweaker.item.IItemStack;
 import mods.jei.JEI;
 
 JEI.removeAndHide(<scalinghealth:crystalore>);
+JEI.removeAndHide(<scalinghealth:difficultychanger:*>);
 
 recipes.remove(<scalinghealth:healingitem:1>);
 
