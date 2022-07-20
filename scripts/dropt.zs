@@ -963,15 +963,6 @@ Dropt.list("animania_seeds")
         .addDrop(Dropt.drop())
       );
 
-Dropt.list("harvestcraft_chili")
-
-  .add(Dropt.rule()
-      .matchBlocks(["harvestcraft:garden"])
-      .matchDrops([<harvestcraft:chilipepperitem>])
-      .replaceStrategy("REPLACE_ITEMS")
-        .addDrop(Dropt.drop())
-      );
-
 Dropt.list("grape_seed_begone")
 
   .add(Dropt.rule()

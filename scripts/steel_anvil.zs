@@ -1230,10 +1230,10 @@ JEI.removeAndHide(<simpleores:onyx_bow>);
 Anvil.removeShaped(<betterwithaddons:greatbow>);
 <betterwithaddons:greatbow>.maxDamage = 1000;
 
-val enchantments1 as IEnchantmentDefinition[] = [<enchantment:minecraft:fire_aspect>, <enchantment:randomenchantments:quickdraw>];
+val enchantments1 as IEnchantmentDefinition[] = [<enchantment:minecraft:flame>, <enchantment:randomenchantments:quickdraw>];
 var enchantmentMap1 as IData = {};
 
-enchantmentMap1 += enchantments1[0].makeEnchantment(2).makeTag();
+enchantmentMap1 += enchantments1[0].makeEnchantment(1).makeTag();
 enchantmentMap1 += enchantments1[1].makeEnchantment(1).makeTag();
 
 Anvil.addShaped(<betterwithaddons:greatbow>.withTag(enchantmentMap1), [

@@ -249,3 +249,11 @@ var crystals = metaArray("quark:crystal", 0, 8) as IItemStack[];
 for i in crystals {
 	oreMagicite.add(i);
 }
+
+// cheaper buttons
+
+recipes.remove(<quark:iron_button>);
+recipes.addShapeless("iron_button",<quark:iron_button>, [<ore:buttonStone>,<minecraft:iron_nugget>]);
+
+recipes.remove(<quark:gold_button>);
+recipes.addShapeless("gold_button",<quark:gold_button>, [<ore:buttonStone>,<minecraft:gold_nugget>]);

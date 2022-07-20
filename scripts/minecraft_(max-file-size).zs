@@ -815,10 +815,10 @@ recipes.addShaped("tincompass", <minecraft:compass>,[
     [null, <ore:ingotTin>, null]
 ]);
 
-recipes.addShaped("seasonclock1", <sereneseasons:season_clock>, [
-    [<minecraft:quartz>, <ore:ingotTin>, <minecraft:quartz>],
-    [<ore:ingotTin>, <minecraft:redstone>, <ore:ingotTin>],
-    [<minecraft:quartz>, <ore:ingotTin>, <minecraft:quartz>]
+recipes.addShaped("seasonclock", <sereneseasons:season_clock>, [
+    [<ore:genericMetalNuggets>],
+    [<ore:listAllSeed>],
+    [<minecraft:paper>]
 ]);
 
 // new bucket recipe

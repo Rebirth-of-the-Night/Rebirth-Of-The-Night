@@ -1,7 +1,7 @@
 {
   "name": "A New World",
   "icon": "harvestcraft:artichokeseeditem",
-  "category": "survival_newbeginning",
+  "category": "newbeginning",
   "sortnum": 2,
   "pages": [
     {

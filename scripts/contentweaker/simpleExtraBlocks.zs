@@ -297,41 +297,49 @@ seasoned_stump.register();
 // raw_tin
 var raw_tin = VanillaFactory.createBlock("raw_tin_block", <blockmaterial:Iron>);
 raw_tin.setCreativeTab(<creativetab:rotn_blocks>);
+raw_tin.setToolLevel(0);
 raw_tin.register();
 
 // raw_copper
 var raw_copper = VanillaFactory.createBlock("raw_copper_block", <blockmaterial:Iron>);
 raw_copper.setCreativeTab(<creativetab:rotn_blocks>);
+raw_copper.setToolLevel(0);
 raw_copper.register();
 
 // raw_iron
 var raw_iron = VanillaFactory.createBlock("raw_iron_block", <blockmaterial:Iron>);
 raw_iron.setCreativeTab(<creativetab:rotn_blocks>);
+raw_iron.setToolLevel(0);
 raw_iron.register();
 
 // raw_wrought_iron
 var raw_wrought_iron = VanillaFactory.createBlock("raw_wrought_iron", <blockmaterial:Iron>);
 raw_wrought_iron.setCreativeTab(<creativetab:rotn_blocks>);
+raw_wrought_iron.setToolLevel(1);
 raw_wrought_iron.register();
 
 // raw_silver
 var raw_silver = VanillaFactory.createBlock("raw_silver_block", <blockmaterial:Iron>);
 raw_silver.setCreativeTab(<creativetab:rotn_blocks>);
+raw_silver.setToolLevel(1);
 raw_silver.register();
 
 // raw_gold
 var raw_gold = VanillaFactory.createBlock("raw_gold_block", <blockmaterial:Iron>);
 raw_gold.setCreativeTab(<creativetab:rotn_blocks>);
+raw_gold.setToolLevel(1);
 raw_gold.register();
 
 // raw_gravitite
 var raw_gravitite = VanillaFactory.createBlock("raw_gravitite_block", <blockmaterial:Iron>);
 raw_gravitite.setCreativeTab(<creativetab:rotn_blocks>);
+raw_gravitite.setToolLevel(1);
 raw_gravitite.register();
 
 // raw_viridium_block
 var raw_viridium_block = VanillaFactory.createBlock("raw_viridium_block", <blockmaterial:Iron>);
 raw_viridium_block.setCreativeTab(<creativetab:rotn_blocks>);
+raw_viridium_block.setToolLevel(2);
 raw_viridium_block.register();
 
 // raw_viridium_vein
@@ -345,6 +353,7 @@ raw_viridium_vein.register();
 // raw_mythril
 var raw_mythril = VanillaFactory.createBlock("raw_mythril_block", <blockmaterial:Iron>);
 raw_mythril.setCreativeTab(<creativetab:rotn_blocks>);
+raw_mythril.setToolLevel(2);
 raw_mythril.register();
 
 // Unfired Refractory Crucible

@@ -12,7 +12,7 @@ val enchantments0 as IEnchantmentDefinition[] = [<enchantment:msmlegacy:absorb>]
 
 var enchantmentMap0 as IData = {};
 
-enchantmentMap0 += enchantments0[0].makeEnchantment(1).makeTag();
+enchantmentMap0 += enchantments0[0].makeEnchantment(2).makeTag();
 
 JEI.removeAndHide(<msmlegacy:relic_infinity>);
 JEI.removeAndHide(<msmlegacy:relic_keyblade>);
@@ -21,7 +21,7 @@ JEI.removeAndHide(<msmlegacy:relic_molten>);
 JEI.removeAndHide(<msmlegacy:relic_pie>);
 
 recipes.remove(<msmlegacy:gladiolus>);
-recipes.addShaped("Gladiolus", <msmlegacy:gladiolus>.withTag(enchantmentMap0),[
+recipes.addShaped("Gladiolus", <msmlegacy:gladiolus>.withTag({ench: [{lvl: 2 as short, id: 92}]}),[
    [null, <ore:treeLeaves>, <ore:vine>],
    [<ore:treeSapling>, <ore:blockMossy>, <ore:treeLeaves>],
    [<spartanweaponry:material>, <ore:treeSapling>, null]

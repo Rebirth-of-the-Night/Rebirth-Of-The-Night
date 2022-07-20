@@ -1,7 +1,7 @@
 {
   "name": "Basic Tools & Weapons",
   "icon": "minecraft:stone_pickaxe",
-  "category": "survival_newbeginning",
+  "category": "newbeginning",
   "sortnum": 4,
   "pages": [
     {

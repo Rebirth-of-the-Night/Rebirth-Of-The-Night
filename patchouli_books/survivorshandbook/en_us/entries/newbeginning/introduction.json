@@ -1,7 +1,7 @@
 {
   "name": "Introduction",
   "icon": "contenttweaker:info",
-  "category": "survival_newbeginning",
+  "category": "newbeginning",
   "sortnum": 1,
   "pages": [
     {

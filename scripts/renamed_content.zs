@@ -56,6 +56,7 @@ import mods.jei.JEI;
 <minecraft:cooked_fish>.displayName = "Cooked Cod";
 <minecraft:brick>.displayName = "Clay Brick";
 <minecraft:furnace>.displayName = "Rock Furnace";
+<minecraft:stone_button>.displayName = "Coade Stone Button";
 
 // Requious Frakto
 <requious:dryer>.displayName = "Hell Dryer";
