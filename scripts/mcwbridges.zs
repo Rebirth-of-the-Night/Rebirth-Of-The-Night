@@ -28,8 +28,8 @@ recipes.addShaped("mossyStoneBrick_Bridge", <mcwbridges:mossy_stone_brick_bridge
 
 recipes.remove(<mcwbridges:stone_brick_bridge>*4);
 recipes.addShaped("genericStoneSlabBridge", <mcwbridges:stone_brick_bridge>, [
-	[<ore:genericWoodSlabs>, null, <ore:genericWoodSlabs>],
-	[<ore:genericWoodSlabs>, <ore:genericWoodSlabs>, <ore:genericWoodSlabs>]
+	[<ore:genericStoneSlabs>, null, <ore:genericStoneSlabs>],
+	[<ore:genericStoneSlabs>, <ore:genericStoneSlabs>, <ore:genericStoneSlabs>]
 ]);
 
 // Metal bridge recipes
@@ -77,11 +77,11 @@ recipes.addShaped("bridgeEnd_generic", <mcwbridges:rope_oak_bridge_end>*4,[
 
 recipes.addShaped("bridgeStack_birch", <mcwbridges:rope_birch_bridge>*32,[
 	[<quark:rope>, null, <quark:rope>],
-	[<minecraft:log:1>, <minecraft:log:1>, <minecraft:log:1>]
+	[<minecraft:log:2>, <minecraft:log:2>, <minecraft:log:2>]
 ]);
 recipes.addShaped("bridgeStack_spruce", <mcwbridges:rope_spruce_bridge>*32,[
 	[<quark:rope>, null, <quark:rope>],
-	[<minecraft:log:2>, <minecraft:log:2>, <minecraft:log:2>]
+	[<minecraft:log:1>, <minecraft:log:1>, <minecraft:log:1>]
 ]);
 recipes.addShaped("bridgeStack_jungle", <mcwbridges:rope_jungle_bridge>*32,[
 	[<quark:rope>, null, <quark:rope>],
@@ -108,3 +108,4 @@ recipes.addShaped("bridge_dry_bamboo", <mcwbridges:dry_bamboo_bridge>*2,[
 	[<minecraft:stick>, <ore:durableFiber>, <minecraft:stick>],
 	[<ore:cropBamboo>, <ore:cropBamboo>, <ore:cropBamboo>]
 ]);
+
