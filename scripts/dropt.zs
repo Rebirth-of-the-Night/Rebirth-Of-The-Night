@@ -156,15 +156,6 @@ Dropt.list("dimstack_bedrock")
       )
   );
 
-Dropt.list("sun_altar")
-
-  .add(Dropt.rule()
-      .matchBlocks(["aether_legacy:sun_altar"])
-      .addDrop(Dropt.drop()
-          .force() // Disabled, drop nothing
-      )
-  );
-
 Dropt.list("dormant_onyx")
 
   .add(Dropt.rule()

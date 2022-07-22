@@ -9,7 +9,6 @@ import mods.horsepower.Press;
 //Removed items
 JEI.removeAndHide(<horsepower:chopper>);
 furnace.setFuel(<horsepower:chopper>, 0);
-JEI.removeAndHide(<horsepower:hand_grindstone>);
 
 // Crafting table recipes
 recipes.remove(<horsepower:press>);
