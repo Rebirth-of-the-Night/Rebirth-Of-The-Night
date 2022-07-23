@@ -639,7 +639,6 @@ mundaneSapling.add(
     <dynamictreesttf:canopyseed>,
     <dynamictreesttf:mangroveseed>,
     <dynamictreesttf:darkwoodseed>,
-    <growthcraft_cellar:cork_sapling>,
     <harvestcraft:date_sapling>,
     <harvestcraft:papaya_sapling>,
     <harvestcraft:cherry_sapling>,

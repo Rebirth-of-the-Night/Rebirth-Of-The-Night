@@ -113,7 +113,6 @@ lunarQuintessence.add(
     <biomesoplenty:flower_0:3>,
     <biomesoplenty:coral:3>,
     <mowziesmobs:glowing_jelly>,
-    <dungeontactics:fish_tunnel>,
     <dynamictreesdefiledlands:tenebraseed>,
     <defiledlands:tenebra_sapling>,
     <defiledlands:tenebra_leaves>,
@@ -226,14 +225,6 @@ mindQuintessenceB.add(
     <aether_legacy:lore_book>,
     <animania:animania_manual>,
     <patchouli:guide_book>,
-    <dungeontactics:dungeonpedia_volume_8>,
-    <dungeontactics:dungeonpedia_volume_7>,
-    <dungeontactics:dungeonpedia_volume_6>,
-    <dungeontactics:dungeonpedia_volume_5>,
-    <dungeontactics:dungeonpedia_volume_4>,
-    <dungeontactics:dungeonpedia_volume_3>,
-    <dungeontactics:dungeonpedia_volume_2>,
-    <dungeontactics:dungeonpedia_volume_1>,
     <cyclicmagic:tool_trade>,
     <rustic:book>
 );
@@ -372,8 +363,7 @@ illusionQuintessenceB.add(
     <minecraft:lingering_potion>.withTag({Potion: "minecraft:invisibility"}),
     <minecraft:lingering_potion>.withTag({Potion: "minecraft:long_invisibility"}),
     <minecraft:splash_potion>.withTag({Potion: "minecraft:invisibility"}),
-    <minecraft:splash_potion>.withTag({Potion: "minecraft:long_invisibility"}),
-    <aether_legacy:invisibility_cape>
+    <minecraft:splash_potion>.withTag({Potion: "minecraft:long_invisibility"})
 );
 
 // Transformation A - Things that tranform other things
