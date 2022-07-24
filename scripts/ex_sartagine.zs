@@ -74,7 +74,7 @@ recipes.addShapeless("cooking_kit", <contenttweaker:cooking_kit>, [
 
 //Beet Soup --> Beetroot Soup conversion removal - Nyagi
 recipes.remove(<minecraft:beetroot_soup>);
-//Crafting for Potato Soup Removal for inspirations and pam's - Nyagi
+//Crafting for Potato Soup Removal for inspirations and pams - Nyagi
 recipes.remove(<inspirations:potato_soup>);
 recipes.remove(<harvestcraft:potatosoupitem>);
 
@@ -102,54 +102,19 @@ JEI.hideCategory("artisanworktables_chef_worktable");
 JEI.hideCategory("artisanworkstumps_chef");
 JEI.removeAndHide(<harvestcraft:potatosoupitem>);
 
-ExSartagine.addHeatSource(<blockstate:betterwithmods:stoked_flame:age=15>);
-ExSartagine.addPlaceable(<blockstate:betterwithmods:stoked_flame:age=15>);
-ExSartagine.addHeatSource(<blockstate:betterwithmods:stoked_flame:age=14>);
-ExSartagine.addPlaceable(<blockstate:betterwithmods:stoked_flame:age=14>);
-ExSartagine.addHeatSource(<blockstate:betterwithmods:stoked_flame:age=13>);
-ExSartagine.addPlaceable(<blockstate:betterwithmods:stoked_flame:age=13>);
-ExSartagine.addHeatSource(<blockstate:betterwithmods:stoked_flame:age=12>);
-ExSartagine.addPlaceable(<blockstate:betterwithmods:stoked_flame:age=12>);
-ExSartagine.addHeatSource(<blockstate:betterwithmods:stoked_flame:age=11>);
-ExSartagine.addPlaceable(<blockstate:betterwithmods:stoked_flame:age=11>);
-ExSartagine.addHeatSource(<blockstate:betterwithmods:stoked_flame:age=10>);
-ExSartagine.addPlaceable(<blockstate:betterwithmods:stoked_flame:age=10>);
-ExSartagine.addHeatSource(<blockstate:betterwithmods:stoked_flame:age=9>);
-ExSartagine.addPlaceable(<blockstate:betterwithmods:stoked_flame:age=9>);
-ExSartagine.addHeatSource(<blockstate:betterwithmods:stoked_flame:age=8>);
-ExSartagine.addPlaceable(<blockstate:betterwithmods:stoked_flame:age=8>);
-ExSartagine.addHeatSource(<blockstate:betterwithmods:stoked_flame:age=7>);
-ExSartagine.addPlaceable(<blockstate:betterwithmods:stoked_flame:age=7>);
-ExSartagine.addHeatSource(<blockstate:betterwithmods:stoked_flame:age=6>);
-ExSartagine.addPlaceable(<blockstate:betterwithmods:stoked_flame:age=6>);
-ExSartagine.addHeatSource(<blockstate:betterwithmods:stoked_flame:age=5>);
-ExSartagine.addPlaceable(<blockstate:betterwithmods:stoked_flame:age=5>);
-ExSartagine.addHeatSource(<blockstate:betterwithmods:stoked_flame:age=4>);
-ExSartagine.addPlaceable(<blockstate:betterwithmods:stoked_flame:age=4>);
-ExSartagine.addHeatSource(<blockstate:betterwithmods:stoked_flame:age=3>);
-ExSartagine.addPlaceable(<blockstate:betterwithmods:stoked_flame:age=3>);
-ExSartagine.addHeatSource(<blockstate:betterwithmods:stoked_flame:age=2>);
-ExSartagine.addPlaceable(<blockstate:betterwithmods:stoked_flame:age=2>);
-ExSartagine.addHeatSource(<blockstate:betterwithmods:stoked_flame:age=1>);
-ExSartagine.addPlaceable(<blockstate:betterwithmods:stoked_flame:age=1>);
-ExSartagine.addHeatSource(<blockstate:betterwithmods:stoked_flame:age=0>);
-ExSartagine.addPlaceable(<blockstate:betterwithmods:stoked_flame:age=0>);
+ExSartagine.addPlaceable(<blockstate:betterwithmods:stoked_flame>.getBlock());
+ExSartagine.addHeatSource(<blockstate:betterwithmods:stoked_flame>.getBlock());
+ExSartagine.addPlaceable(<blockstate:futuremc:blast_furnace>.getBlock());
 ExSartagine.addHeatSource(<blockstate:futuremc:blast_furnace:facing=east,lit=true>);
 ExSartagine.addHeatSource(<blockstate:futuremc:blast_furnace:facing=west,lit=true>);
 ExSartagine.addHeatSource(<blockstate:futuremc:blast_furnace:facing=north,lit=true>);
 ExSartagine.addHeatSource(<blockstate:futuremc:blast_furnace:facing=south,lit=true>);
-ExSartagine.addPlaceable(<blockstate:futuremc:blast_furnace:facing=east,lit=true>);
-ExSartagine.addPlaceable(<blockstate:futuremc:blast_furnace:facing=west,lit=true>);
-ExSartagine.addPlaceable(<blockstate:futuremc:blast_furnace:facing=north,lit=true>);
-ExSartagine.addPlaceable(<blockstate:futuremc:blast_furnace:facing=south,lit=true>);
+ExSartagine.addPlaceable(<blockstate:futuremc:smoker>.getBlock());
 ExSartagine.addHeatSource(<blockstate:futuremc:smoker:facing=north,lit=true>);
 ExSartagine.addHeatSource(<blockstate:futuremc:smoker:facing=south,lit=true>);
 ExSartagine.addHeatSource(<blockstate:futuremc:smoker:facing=west,lit=true>);
 ExSartagine.addHeatSource(<blockstate:futuremc:smoker:facing=east,lit=true>);
-ExSartagine.addPlaceable(<blockstate:futuremc:smoker:facing=north,lit=true>);
-ExSartagine.addPlaceable(<blockstate:futuremc:smoker:facing=south,lit=true>);
-ExSartagine.addPlaceable(<blockstate:futuremc:smoker:facing=west,lit=true>);
-ExSartagine.addPlaceable(<blockstate:futuremc:smoker:facing=east,lit=true>);
+ExSartagine.addPlaceable(<blockstate:pyrotech:campfire>.getBlock());
 ExSartagine.addHeatSource(<blockstate:pyrotech:campfire:ash=0,variant=lit>);
 ExSartagine.addHeatSource(<blockstate:pyrotech:campfire:ash=1,variant=lit>);
 ExSartagine.addHeatSource(<blockstate:pyrotech:campfire:ash=2,variant=lit>);
@@ -159,15 +124,6 @@ ExSartagine.addHeatSource(<blockstate:pyrotech:campfire:ash=5,variant=lit>);
 ExSartagine.addHeatSource(<blockstate:pyrotech:campfire:ash=6,variant=lit>);
 ExSartagine.addHeatSource(<blockstate:pyrotech:campfire:ash=7,variant=lit>);
 ExSartagine.addHeatSource(<blockstate:pyrotech:campfire:ash=8,variant=lit>);
-ExSartagine.addPlaceable(<blockstate:pyrotech:campfire:ash=0,variant=lit>);
-ExSartagine.addPlaceable(<blockstate:pyrotech:campfire:ash=1,variant=lit>);
-ExSartagine.addPlaceable(<blockstate:pyrotech:campfire:ash=2,variant=lit>);
-ExSartagine.addPlaceable(<blockstate:pyrotech:campfire:ash=3,variant=lit>);
-ExSartagine.addPlaceable(<blockstate:pyrotech:campfire:ash=4,variant=lit>);
-ExSartagine.addPlaceable(<blockstate:pyrotech:campfire:ash=5,variant=lit>);
-ExSartagine.addPlaceable(<blockstate:pyrotech:campfire:ash=6,variant=lit>);
-ExSartagine.addPlaceable(<blockstate:pyrotech:campfire:ash=7,variant=lit>);
-ExSartagine.addPlaceable(<blockstate:pyrotech:campfire:ash=8,variant=lit>);
 
 
 /*
