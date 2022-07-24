@@ -525,7 +525,8 @@
         "osv:simpleores_adamantium_ore_undergroundbiomes_sedimentary_stone_4",
         "osv:simpleores_adamantium_ore_undergroundbiomes_sedimentary_stone_5",
         "osv:simpleores_adamantium_ore_undergroundbiomes_sedimentary_stone_6",
-        "osv:simpleores_adamantium_ore_undergroundbiomes_sedimentary_stone_7"
+        "osv:simpleores_adamantium_ore_undergroundbiomes_sedimentary_stone_7",
+	"contenttweaker:raw_viridium_vein"
     ],
     "maxcount": {
         "amount": 10,
