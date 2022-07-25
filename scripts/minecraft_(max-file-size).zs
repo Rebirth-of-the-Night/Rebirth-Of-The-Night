@@ -186,7 +186,7 @@ var rtb as IItemStack[IItemStack] = {
   <contenttweaker:raw_wrought_iron> : <contenttweaker:material_part:52> //wrought iron
 } as IItemStack[IItemStack];
 
-// sedimentary cobble to smooth stones (feel like this isn't the best place to put these but idk where else)
+// sedimentary cobble to smooth stones (feel like this isnt the best place to put these but idk where else)
 furnace.addRecipe(<undergroundbiomes:sedimentary_stone>, <contenttweaker:limestone_cobble>);
 furnace.addRecipe(<undergroundbiomes:sedimentary_stone:1>, <contenttweaker:chalk_cobble>);
 furnace.addRecipe(<undergroundbiomes:sedimentary_stone:2>, <contenttweaker:shale_cobble>);
@@ -971,6 +971,10 @@ JEI.removeAndHide(<elenaidodge:iron_feather>);
 
 recipes.remove(<elenaidodge:iron_feather>);
 recipes.remove(<elenaidodge:golden_feather>);
+
+val logsWithoutMagic = <ore:logWoodWithoutMagic>;
+logsWithoutMagic.mirror(<ore:logWood>);
+logsWithoutMagic.remove(<biomesoplenty:log_1:5>);
 
 var chestMat = <biomesoplenty:planks_0>|<biomesoplenty:planks_0:1>|<biomesoplenty:planks_0:2>|<biomesoplenty:planks_0:3>|<biomesoplenty:planks_0:4>|<biomesoplenty:planks_0:5>|<biomesoplenty:planks_0:7>|<biomesoplenty:planks_0:8>|<biomesoplenty:planks_0:9>|<biomesoplenty:planks_0:10>|<biomesoplenty:planks_0:11>|<biomesoplenty:planks_0:12>|<biomesoplenty:planks_0:13>|<biomesoplenty:planks_0:15>|<rustic:planks>|<rustic:planks:1>|<quark:vertical_planks:*>|<quark:vertical_stained_planks:*>;
 
