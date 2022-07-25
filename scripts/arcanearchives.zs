@@ -19,7 +19,7 @@ recipes.addShaped("radiant_resonator", <arcanearchives:radiant_resonator>,[
 	[<ore:arcaneWood>, <ore:ingotMythril>, <ore:arcaneWood>]
 ]);
 
-//Gemcutter's Table
+//Gemcutters Table
 val magicgoldPaneOredict = <ore:otherworldlyGoldPane>;	
 magicgoldPaneOredict.addItems([<betternether:quartz_glass_framed_pane>,<aether_legacy:quicksoil_glass_pane>]);	
 
@@ -56,7 +56,7 @@ recipes.addShapeless("tome_arcana", <arcanearchives:tome_arcana>.withTag({Book: 
 
 
 //dumbass magic wood brewing recipe until transmutation rune is done
-brewing.addBrew(<ore:logWood>, <contenttweaker:magic_blend>, <biomesoplenty:log_1:5>);
+brewing.addBrew(<ore:logWoodWithoutMagic>, <contenttweaker:magic_blend>, <biomesoplenty:log_1:5>);
 
 
 //////////Gemcutter Table Recipes
