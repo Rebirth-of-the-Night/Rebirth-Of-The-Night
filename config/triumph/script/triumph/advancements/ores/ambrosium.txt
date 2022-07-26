@@ -5,7 +5,7 @@ setDescription("Mine ambrosium ore")
 addParent("triumph:advancements/ores/root")
 
 criteria = addCriteria("Ambrosium", "triumph:player_harvest_block")
-criteria.setBlock(<ore:gemAmbrosium>)
+criteria.setBlock(<ore:oreAmbrosium>)
 
 alwaysVisible()
 setPos(-409,-129)

@@ -1,6 +1,6 @@
 setIcon(<contenttweaker:material_part:12>)
 setTitle("Pale Gold")
-setDescription("Obtain Electrum")
+setDescription("Obtain electrum")
 
 addParent("triumph:advancements/ores/gold")
 addParent("triumph:advancements/ores/silver")
