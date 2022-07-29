@@ -2,30 +2,30 @@
 addParent("triumph:advancements/setbonuses/root")
 
 criteria = addCriteria("ahellofaduo", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:advancements/setbonuses/weapons/ahellofaduo")
+criteria.setAdvancement("triumph:advancements/setbonuses/weaponschallenge/ahellofaduo")
 
 criteria = addCriteria("amethystswordandscythe", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:advancements/setbonuses/weapons/amethystswordandscythe")
+criteria.setAdvancement("triumph:advancements/setbonuses/weaponschallenge/amethystswordandscythe")
 
 criteria = addCriteria("darksedge", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:advancements/setbonuses/weapons/darksedge")
+criteria.setAdvancement("triumph:advancements/setbonuses/weaponschallenge/darksedge")
 
 criteria = addCriteria("dragonsbane", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:advancements/setbonuses/weapons/dragonsbane")
+criteria.setAdvancement("triumph:advancements/setbonuses/weaponschallenge/dragonsbane")
 
 criteria = addCriteria("interdimensionalblade", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:advancements/setbonuses/weapons/interdimensionalblade")
+criteria.setAdvancement("triumph:advancements/setbonuses/weaponschallenge/interdimensionalblade")
 
 criteria = addCriteria("lightsedge", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:advancements/setbonuses/weapons/lightsedge")
+criteria.setAdvancement("triumph:advancements/setbonuses/weaponschallenge/lightsedge")
 
 criteria = addCriteria("truedarksedge", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:advancements/setbonuses/weapons/truedarksedge")
+criteria.setAdvancement("triumph:advancements/setbonuses/weaponschallenge/truedarksedge")
 
 criteria = addCriteria("truelightsedge", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:advancements/setbonuses/weapons/truelightsedge")
+criteria.setAdvancement("triumph:advancements/setbonuses/weaponschallenge/truelightsedge")
 
 criteria = addCriteria("defiledlands", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:advancements/setbonuses/weapons/defiledlands")
+criteria.setAdvancement("triumph:advancements/setbonuses/weaponschallenge/defiledlands")
 
 alwaysHidden()

@@ -2,7 +2,7 @@ setIcon(<mowziesmobs:wrought_axe>)
 setTitle("Broken Vanguard")
 setDescription("Defeat a forgotten iron titan.")
 
-addRewardFunction("triumph:killedwraughtnaut")
+addRewardFunction("triumph:killferrouswroughtnaut")
 
 addParent("triumph:advancements/bosskills/root")
 
