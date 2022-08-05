@@ -196,10 +196,20 @@ recipes.addShaped("potion_vaporizer", <randomthings:potionvaporizer>, [
 ]);
 
 // contact blocks
+// contact blocks
 recipes.remove(<randomthings:contactlever>);
+recipes.addShaped(<randomthings:contactlever>, [
+    [<ore:Stone>, <minecraft:iron_bars>, <ore:Stone>],
+    [<ore:Stone>, <ore:lever>, <ore:Stone>], 
+    [<ore:Stone>, <betterwithmods:detector>, <ore:Stone>]
+]);
+
 recipes.remove(<randomthings:contactbutton>);
-recipes.addShaped(<randomthings:contactlever>, [[<ore:Stone>, <minecraft:iron_bars>, <ore:Stone>],[<ore:Stone>, <minecraft:lever>, <ore:Stone>], [<ore:Stone>, <betterwithmods:detector>, <ore:Stone>]]);
-recipes.addShaped(<randomthings:contactbutton>, [[<ore:Stone>, <minecraft:iron_bars>, <ore:Stone>],[<ore:Stone>, <minecraft:stone_button>, <ore:Stone>], [<ore:Stone>, <betterwithmods:detector>, <ore:Stone>]]);
+recipes.addShaped(<randomthings:contactbutton>, [
+    [<ore:Stone>, <minecraft:iron_bars>, <ore:Stone>],
+    [<ore:Stone>, <ore:buttonStone>, <ore:Stone>],
+    [<ore:Stone>, <betterwithmods:detector>, <ore:Stone>]
+]);
 
 //quartz / dusk lamp
 recipes.remove(<randomthings:quartzlamp>);

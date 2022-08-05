@@ -50,6 +50,12 @@ Mill.builder()
 .setGrindType("minecraft:entity.ghast.death")
 .build();
 
+Mill.builder()
+.buildRecipe([<pyrotech_compat:rock_netherrack>], [<betterwithmods:material:15>])
+.setPriority(1)
+.setGrindType("minecraft:entity.ghast.death")
+.build();
+
 // Coke Powder
 Mill.addRecipe([<pyrotech:material:1>],[<pyrotech:material:32>]);
 //Soul Powder
