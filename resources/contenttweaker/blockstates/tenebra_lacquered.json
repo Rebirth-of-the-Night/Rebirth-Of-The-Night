@@ -1,0 +1,17 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "plank": "defiledlands:blocks/planks_tenebra",
+	  "particle": "defiledlands:blocks/planks_tenebra",
+	  "lacquer": "contenttweaker:blocks/lacquer"
+    },
+    "model": "contenttweaker:lacquered_wood",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

@@ -1,35 +1,36 @@
 {
+  enabled: true
   biomes: {
     names: [ "biometweaker:shield_volcano" ]
     IDs: []
     types: []
   }
-  enabled: true
-  replaceableBlocks: [ "grass" ]
-  replaceDecorators: true
-  caverns: {
-    ceiling: {
-      frequency: 0.02
-      range: [ 2, 2 ]
+  burrows: {
+    stretch: 3
+    height: [ 0, 250 ]
+    offset: {
+      dummy: true
+      dummyOutput: 128
+    }
+    replaceableBlocks: biomesoplenty:grass:4
+    caveBlocks: [
+      {
+        states: undergroundbiomes:igneous_stone:5
+        height: [ 0, 250 ]
+        integrity: 1
+      }
+    ]
+    map: {
+      warp: simplex2
+      warpFrequency: 0.05
+      warpAmplitude: 50
     }
     floor: {
       dummy: true
     }
-    height: [ 64, 128 ]
-    generators: [
-      {
-        seed: 99
-        threshold: [ -0.2, 0.2 ]
-        frequency: 0.015
-        warp: Simplex2
-        warpAmplitude: 2
-        warpFrequency: 0.07
-        fractal: FBM
-        stretch: 2
-      }
-    ]
+    ceiling: {
+      dummy: true
+      dummyOutput: 200
+    }
   }
-  caveBlocks: [
-    { states: "undergroundbiomes:igneous_stone:5", height: [ 0, 240 ] }
-  ]
 }

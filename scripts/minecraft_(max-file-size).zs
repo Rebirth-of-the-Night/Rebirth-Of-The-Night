@@ -2504,7 +2504,7 @@ JEI.removeAndHide(<quark:biome_brick>);
 JEI.removeAndHide(<quark:biome_brick:1>);
 JEI.removeAndHide(<minecraft:brick_block>);
 JEI.removeAndHide(<quark:sandy_bricks>);
-JEI.removeAndHide(<pyrotech:stone_bricks>);
+JEI.removeAndHide(<pyrotech:masonry_brick_block>);
 JEI.removeAndHide(<minecraft:nether_brick>);
 JEI.removeAndHide(<netherex:fiery_nether_brick>);
 JEI.removeAndHide(<minecraft:end_bricks>);

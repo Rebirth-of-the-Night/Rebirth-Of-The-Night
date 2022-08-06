@@ -1,0 +1,17 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "plank": "minecraft:blocks/planks_birch",
+	  "particle": "minecraft:blocks/planks_birch",
+	  "lacquer": "contenttweaker:blocks/lacquer"
+    },
+    "model": "contenttweaker:lacquered_wood",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

@@ -853,198 +853,452 @@ refracotta_white.register();
 var oak_boards = VanillaFactory.createBlock("oak_boards", <blockmaterial:Wood>);
 oak_boards.setCreativeTab(<creativetab:rotn_blocks>);
 oak_boards.setToolClass("pickaxe");
-oak_boards.setBlockHardness(7.0);
+oak_boards.setBlockHardness(20.0);
 oak_boards.setToolLevel(1);
 oak_boards.register();
 // spruce
 var spruce_boards = VanillaFactory.createBlock("spruce_boards", <blockmaterial:Wood>);
 spruce_boards.setCreativeTab(<creativetab:rotn_blocks>);
 spruce_boards.setToolClass("pickaxe");
-spruce_boards.setBlockHardness(7.0);
+spruce_boards.setBlockHardness(20.0);
 spruce_boards.setToolLevel(1);
 spruce_boards.register();
 // birch
 var birch_boards = VanillaFactory.createBlock("birch_boards", <blockmaterial:Wood>);
 birch_boards.setCreativeTab(<creativetab:rotn_blocks>);
 birch_boards.setToolClass("pickaxe");
-birch_boards.setBlockHardness(7.0);
+birch_boards.setBlockHardness(20.0);
 birch_boards.setToolLevel(1);
 birch_boards.register();
 // jungle
 var jungle_boards = VanillaFactory.createBlock("jungle_boards", <blockmaterial:Wood>);
 jungle_boards.setCreativeTab(<creativetab:rotn_blocks>);
 jungle_boards.setToolClass("pickaxe");
-jungle_boards.setBlockHardness(7.0);
+jungle_boards.setBlockHardness(20.0);
 jungle_boards.setToolLevel(1);
 jungle_boards.register();
 // acacia
 var acacia_boards = VanillaFactory.createBlock("acacia_boards", <blockmaterial:Wood>);
 acacia_boards.setCreativeTab(<creativetab:rotn_blocks>);
 acacia_boards.setToolClass("pickaxe");
-acacia_boards.setBlockHardness(7.0);
+acacia_boards.setBlockHardness(20.0);
 acacia_boards.setToolLevel(1);
 acacia_boards.register();
 // dark oak
 var dark_oak_boards = VanillaFactory.createBlock("dark_oak_boards", <blockmaterial:Wood>);
 dark_oak_boards.setCreativeTab(<creativetab:rotn_blocks>);
 dark_oak_boards.setToolClass("pickaxe");
-dark_oak_boards.setBlockHardness(7.0);
+dark_oak_boards.setBlockHardness(20.0);
 dark_oak_boards.setToolLevel(1);
 dark_oak_boards.register();
 // stalagnate
 var stalagnate_boards = VanillaFactory.createBlock("stalagnate_boards", <blockmaterial:Wood>);
 stalagnate_boards.setCreativeTab(<creativetab:rotn_blocks>);
 stalagnate_boards.setToolClass("pickaxe");
-stalagnate_boards.setBlockHardness(7.0);
+stalagnate_boards.setBlockHardness(20.0);
 stalagnate_boards.setToolLevel(1);
 stalagnate_boards.register();
 // sacred oak
 var sacred_oak_boards = VanillaFactory.createBlock("sacred_oak_boards", <blockmaterial:Wood>);
 sacred_oak_boards.setCreativeTab(<creativetab:rotn_blocks>);
 sacred_oak_boards.setToolClass("pickaxe");
-sacred_oak_boards.setBlockHardness(7.0);
+sacred_oak_boards.setBlockHardness(20.0);
 sacred_oak_boards.setToolLevel(1);
 sacred_oak_boards.register();
 // cherry
 var cherry_boards = VanillaFactory.createBlock("cherry_boards", <blockmaterial:Wood>);
 cherry_boards.setCreativeTab(<creativetab:rotn_blocks>);
 cherry_boards.setToolClass("pickaxe");
-cherry_boards.setBlockHardness(7.0);
+cherry_boards.setBlockHardness(20.0);
 cherry_boards.setToolLevel(1);
 cherry_boards.register();
 // umbran
 var umbran_boards = VanillaFactory.createBlock("umbran_boards", <blockmaterial:Wood>);
 umbran_boards.setCreativeTab(<creativetab:rotn_blocks>);
 umbran_boards.setToolClass("pickaxe");
-umbran_boards.setBlockHardness(7.0);
+umbran_boards.setBlockHardness(20.0);
 umbran_boards.setToolLevel(1);
 umbran_boards.register();
 // fir
 var fir_boards = VanillaFactory.createBlock("fir_boards", <blockmaterial:Wood>);
 fir_boards.setCreativeTab(<creativetab:rotn_blocks>);
 fir_boards.setToolClass("pickaxe");
-fir_boards.setBlockHardness(7.0);
+fir_boards.setBlockHardness(20.0);
 fir_boards.setToolLevel(1);
 fir_boards.register();
 // magic
 var magic_boards = VanillaFactory.createBlock("magic_boards", <blockmaterial:Wood>);
 magic_boards.setCreativeTab(<creativetab:rotn_blocks>);
 magic_boards.setToolClass("pickaxe");
-magic_boards.setBlockHardness(7.0);
+magic_boards.setBlockHardness(20.0);
 magic_boards.setToolLevel(1);
 magic_boards.register();
 // mangrove
 var mangrove_boards = VanillaFactory.createBlock("mangrove_boards", <blockmaterial:Wood>);
 mangrove_boards.setCreativeTab(<creativetab:rotn_blocks>);
 mangrove_boards.setToolClass("pickaxe");
-mangrove_boards.setBlockHardness(7.0);
+mangrove_boards.setBlockHardness(20.0);
 mangrove_boards.setToolLevel(1);
 mangrove_boards.register();
 // palm
 var palm_boards = VanillaFactory.createBlock("palm_boards", <blockmaterial:Wood>);
 palm_boards.setCreativeTab(<creativetab:rotn_blocks>);
 palm_boards.setToolClass("pickaxe");
-palm_boards.setBlockHardness(7.0);
+palm_boards.setBlockHardness(20.0);
 palm_boards.setToolLevel(1);
 palm_boards.register();
 // redwood
 var redwood_boards = VanillaFactory.createBlock("redwood_boards", <blockmaterial:Wood>);
 redwood_boards.setCreativeTab(<creativetab:rotn_blocks>);
 redwood_boards.setToolClass("pickaxe");
-redwood_boards.setBlockHardness(7.0);
+redwood_boards.setBlockHardness(20.0);
 redwood_boards.setToolLevel(1);
 redwood_boards.register();
 // willow
 var willow_boards = VanillaFactory.createBlock("willow_boards", <blockmaterial:Wood>);
 willow_boards.setCreativeTab(<creativetab:rotn_blocks>);
 willow_boards.setToolClass("pickaxe");
-willow_boards.setBlockHardness(7.0);
+willow_boards.setBlockHardness(20.0);
 willow_boards.setToolLevel(1);
 willow_boards.register();
 // pine
 var pine_boards = VanillaFactory.createBlock("pine_boards", <blockmaterial:Wood>);
 pine_boards.setCreativeTab(<creativetab:rotn_blocks>);
 pine_boards.setToolClass("pickaxe");
-pine_boards.setBlockHardness(7.0);
+pine_boards.setBlockHardness(20.0);
 pine_boards.setToolLevel(1);
 pine_boards.register();
 // hellbark
 var hellbark_boards = VanillaFactory.createBlock("hellbark_boards", <blockmaterial:Wood>);
 hellbark_boards.setCreativeTab(<creativetab:rotn_blocks>);
 hellbark_boards.setToolClass("pickaxe");
-hellbark_boards.setBlockHardness(7.0);
+hellbark_boards.setBlockHardness(20.0);
 hellbark_boards.setToolLevel(1);
 hellbark_boards.register();
 // jacaranda
 var jacaranda_boards = VanillaFactory.createBlock("jacaranda_boards", <blockmaterial:Wood>);
 jacaranda_boards.setCreativeTab(<creativetab:rotn_blocks>);
 jacaranda_boards.setToolClass("pickaxe");
-jacaranda_boards.setBlockHardness(7.0);
+jacaranda_boards.setBlockHardness(20.0);
 jacaranda_boards.setToolLevel(1);
 jacaranda_boards.register();
 // mahogany
 var mahogany_boards = VanillaFactory.createBlock("mahogany_boards", <blockmaterial:Wood>);
 mahogany_boards.setCreativeTab(<creativetab:rotn_blocks>);
 mahogany_boards.setToolClass("pickaxe");
-mahogany_boards.setBlockHardness(7.0);
+mahogany_boards.setBlockHardness(20.0);
 mahogany_boards.setToolLevel(1);
 mahogany_boards.register();
 // ebony
 var ebony_boards = VanillaFactory.createBlock("ebony_boards", <blockmaterial:Wood>);
 ebony_boards.setCreativeTab(<creativetab:rotn_blocks>);
 ebony_boards.setToolClass("pickaxe");
-ebony_boards.setBlockHardness(7.0);
+ebony_boards.setBlockHardness(20.0);
 ebony_boards.setToolLevel(1);
 ebony_boards.register();
 // eucalyptus
 var eucalyptus_boards = VanillaFactory.createBlock("eucalyptus_boards", <blockmaterial:Wood>);
 eucalyptus_boards.setCreativeTab(<creativetab:rotn_blocks>);
 eucalyptus_boards.setToolClass("pickaxe");
-eucalyptus_boards.setBlockHardness(7.0);
+eucalyptus_boards.setBlockHardness(20.0);
 eucalyptus_boards.setToolLevel(1);
 eucalyptus_boards.register();
 // tenebra
 var tenebra_boards = VanillaFactory.createBlock("tenebra_boards", <blockmaterial:Wood>);
 tenebra_boards.setCreativeTab(<creativetab:rotn_blocks>);
 tenebra_boards.setToolClass("pickaxe");
-tenebra_boards.setBlockHardness(7.0);
+tenebra_boards.setBlockHardness(20.0);
 tenebra_boards.setToolLevel(1);
 tenebra_boards.register();
 // dreadwood
 var dreadwood_boards = VanillaFactory.createBlock("dreadwood_boards", <blockmaterial:Wood>);
 dreadwood_boards.setCreativeTab(<creativetab:rotn_blocks>);
 dreadwood_boards.setToolClass("pickaxe");
-dreadwood_boards.setBlockHardness(7.0);
+dreadwood_boards.setBlockHardness(20.0);
 dreadwood_boards.setToolLevel(1);
 dreadwood_boards.register();
 // olive
 var olive_boards = VanillaFactory.createBlock("olive_boards", <blockmaterial:Wood>);
 olive_boards.setCreativeTab(<creativetab:rotn_blocks>);
 olive_boards.setToolClass("pickaxe");
-olive_boards.setBlockHardness(7.0);
+olive_boards.setBlockHardness(20.0);
 olive_boards.setToolLevel(1);
 olive_boards.register();
 // ironwood
 var ironwood_boards = VanillaFactory.createBlock("ironwood_boards", <blockmaterial:Wood>);
 ironwood_boards.setCreativeTab(<creativetab:rotn_blocks>);
 ironwood_boards.setToolClass("pickaxe");
-ironwood_boards.setBlockHardness(7.0);
+ironwood_boards.setBlockHardness(20.0);
 ironwood_boards.setToolLevel(1);
 ironwood_boards.register();
 // wyrmwood
 var wyrmwood_boards = VanillaFactory.createBlock("wyrmwood_boards", <blockmaterial:Wood>);
 wyrmwood_boards.setCreativeTab(<creativetab:rotn_blocks>);
 wyrmwood_boards.setToolClass("pickaxe");
-wyrmwood_boards.setBlockHardness(7.0);
+wyrmwood_boards.setBlockHardness(20.0);
 wyrmwood_boards.setToolLevel(1);
 wyrmwood_boards.register();
 // skywood
 var skywood_boards = VanillaFactory.createBlock("skywood_boards", <blockmaterial:Wood>);
 skywood_boards.setCreativeTab(<creativetab:rotn_blocks>);
 skywood_boards.setToolClass("pickaxe");
-skywood_boards.setBlockHardness(7.0);
+skywood_boards.setBlockHardness(20.0);
 skywood_boards.setToolLevel(1);
 skywood_boards.register();
+
+// Wood lacquered
+// oak
+var oak_lacquered = VanillaFactory.createBlock("oak_lacquered", <blockmaterial:Rock>);
+oak_lacquered.setBlockSoundType(<soundtype:wood>);
+oak_lacquered.setCreativeTab(<creativetab:rotn_blocks>);
+oak_lacquered.setBlockLayer("TRANSLUCENT");
+oak_lacquered.setToolClass("pickaxe");
+oak_lacquered.setBlockHardness(29.5);
+oak_lacquered.setToolLevel(1);
+oak_lacquered.register();
+// spruce
+var spruce_lacquered = VanillaFactory.createBlock("spruce_lacquered", <blockmaterial:Rock>);
+spruce_lacquered.setBlockSoundType(<soundtype:wood>);
+spruce_lacquered.setCreativeTab(<creativetab:rotn_blocks>);
+spruce_lacquered.setBlockLayer("TRANSLUCENT");
+spruce_lacquered.setToolClass("pickaxe");
+spruce_lacquered.setBlockHardness(29.5);
+spruce_lacquered.setToolLevel(1);
+spruce_lacquered.register();
+// birch
+var birch_lacquered = VanillaFactory.createBlock("birch_lacquered", <blockmaterial:Rock>);
+birch_lacquered.setBlockSoundType(<soundtype:wood>);
+birch_lacquered.setCreativeTab(<creativetab:rotn_blocks>);
+birch_lacquered.setBlockLayer("TRANSLUCENT");
+birch_lacquered.setToolClass("pickaxe");
+birch_lacquered.setBlockHardness(29.5);
+birch_lacquered.setToolLevel(1);
+birch_lacquered.register();
+// jungle
+var jungle_lacquered = VanillaFactory.createBlock("jungle_lacquered", <blockmaterial:Rock>);
+jungle_lacquered.setBlockSoundType(<soundtype:wood>);
+jungle_lacquered.setCreativeTab(<creativetab:rotn_blocks>);
+jungle_lacquered.setBlockLayer("TRANSLUCENT");
+jungle_lacquered.setToolClass("pickaxe");
+jungle_lacquered.setBlockHardness(29.5);
+jungle_lacquered.setToolLevel(1);
+jungle_lacquered.register();
+// acacia
+var acacia_lacquered = VanillaFactory.createBlock("acacia_lacquered", <blockmaterial:Rock>);
+acacia_lacquered.setBlockSoundType(<soundtype:wood>);
+acacia_lacquered.setCreativeTab(<creativetab:rotn_blocks>);
+acacia_lacquered.setBlockLayer("TRANSLUCENT");
+acacia_lacquered.setToolClass("pickaxe");
+acacia_lacquered.setBlockHardness(29.5);
+acacia_lacquered.setToolLevel(1);
+acacia_lacquered.register();
+// dark oak
+var dark_oak_lacquered = VanillaFactory.createBlock("dark_oak_lacquered", <blockmaterial:Rock>);
+dark_oak_lacquered.setBlockSoundType(<soundtype:wood>);
+dark_oak_lacquered.setCreativeTab(<creativetab:rotn_blocks>);
+dark_oak_lacquered.setBlockLayer("TRANSLUCENT");
+dark_oak_lacquered.setToolClass("pickaxe");
+dark_oak_lacquered.setBlockHardness(29.5);
+dark_oak_lacquered.setToolLevel(1);
+dark_oak_lacquered.register();
+// stalagnate
+var stalagnate_lacquered = VanillaFactory.createBlock("stalagnate_lacquered", <blockmaterial:Rock>);
+stalagnate_lacquered.setBlockSoundType(<soundtype:wood>);
+stalagnate_lacquered.setCreativeTab(<creativetab:rotn_blocks>);
+stalagnate_lacquered.setBlockLayer("TRANSLUCENT");
+stalagnate_lacquered.setToolClass("pickaxe");
+stalagnate_lacquered.setBlockHardness(29.5);
+stalagnate_lacquered.setToolLevel(1);
+stalagnate_lacquered.register();
+// sacred oak
+var sacred_oak_lacquered = VanillaFactory.createBlock("sacred_oak_lacquered", <blockmaterial:Rock>);
+sacred_oak_lacquered.setBlockSoundType(<soundtype:wood>);
+sacred_oak_lacquered.setCreativeTab(<creativetab:rotn_blocks>);
+sacred_oak_lacquered.setBlockLayer("TRANSLUCENT");
+sacred_oak_lacquered.setToolClass("pickaxe");
+sacred_oak_lacquered.setBlockHardness(29.5);
+sacred_oak_lacquered.setToolLevel(1);
+sacred_oak_lacquered.register();
+// cherry
+var cherry_lacquered = VanillaFactory.createBlock("cherry_lacquered", <blockmaterial:Rock>);
+cherry_lacquered.setBlockSoundType(<soundtype:wood>);
+cherry_lacquered.setCreativeTab(<creativetab:rotn_blocks>);
+cherry_lacquered.setBlockLayer("TRANSLUCENT");
+cherry_lacquered.setToolClass("pickaxe");
+cherry_lacquered.setBlockHardness(29.5);
+cherry_lacquered.setToolLevel(1);
+cherry_lacquered.register();
+// umbran
+var umbran_lacquered = VanillaFactory.createBlock("umbran_lacquered", <blockmaterial:Rock>);
+umbran_lacquered.setBlockSoundType(<soundtype:wood>);
+umbran_lacquered.setCreativeTab(<creativetab:rotn_blocks>);
+umbran_lacquered.setBlockLayer("TRANSLUCENT");
+umbran_lacquered.setToolClass("pickaxe");
+umbran_lacquered.setBlockHardness(29.5);
+umbran_lacquered.setToolLevel(1);
+umbran_lacquered.register();
+// fir
+var fir_lacquered = VanillaFactory.createBlock("fir_lacquered", <blockmaterial:Rock>);
+fir_lacquered.setBlockSoundType(<soundtype:wood>);
+fir_lacquered.setCreativeTab(<creativetab:rotn_blocks>);
+fir_lacquered.setBlockLayer("TRANSLUCENT");
+fir_lacquered.setToolClass("pickaxe");
+fir_lacquered.setBlockHardness(29.5);
+fir_lacquered.setToolLevel(1);
+fir_lacquered.register();
+// magic
+var magic_lacquered = VanillaFactory.createBlock("magic_lacquered", <blockmaterial:Rock>);
+magic_lacquered.setBlockSoundType(<soundtype:wood>);
+magic_lacquered.setCreativeTab(<creativetab:rotn_blocks>);
+magic_lacquered.setBlockLayer("TRANSLUCENT");
+magic_lacquered.setToolClass("pickaxe");
+magic_lacquered.setBlockHardness(29.5);
+magic_lacquered.setToolLevel(1);
+magic_lacquered.register();
+// mangrove
+var mangrove_lacquered = VanillaFactory.createBlock("mangrove_lacquered", <blockmaterial:Rock>);
+mangrove_lacquered.setBlockSoundType(<soundtype:wood>);
+mangrove_lacquered.setCreativeTab(<creativetab:rotn_blocks>);
+mangrove_lacquered.setBlockLayer("TRANSLUCENT");
+mangrove_lacquered.setToolClass("pickaxe");
+mangrove_lacquered.setBlockHardness(29.5);
+mangrove_lacquered.setToolLevel(1);
+mangrove_lacquered.register();
+// palm
+var palm_lacquered = VanillaFactory.createBlock("palm_lacquered", <blockmaterial:Rock>);
+palm_lacquered.setBlockSoundType(<soundtype:wood>);
+palm_lacquered.setCreativeTab(<creativetab:rotn_blocks>);
+palm_lacquered.setBlockLayer("TRANSLUCENT");
+palm_lacquered.setToolClass("pickaxe");
+palm_lacquered.setBlockHardness(29.5);
+palm_lacquered.setToolLevel(1);
+palm_lacquered.register();
+// redwood
+var redwood_lacquered = VanillaFactory.createBlock("redwood_lacquered", <blockmaterial:Rock>);
+redwood_lacquered.setBlockSoundType(<soundtype:wood>);
+redwood_lacquered.setCreativeTab(<creativetab:rotn_blocks>);
+redwood_lacquered.setBlockLayer("TRANSLUCENT");
+redwood_lacquered.setToolClass("pickaxe");
+redwood_lacquered.setBlockHardness(29.5);
+redwood_lacquered.setToolLevel(1);
+redwood_lacquered.register();
+// willow
+var willow_lacquered = VanillaFactory.createBlock("willow_lacquered", <blockmaterial:Rock>);
+willow_lacquered.setBlockSoundType(<soundtype:wood>);
+willow_lacquered.setCreativeTab(<creativetab:rotn_blocks>);
+willow_lacquered.setBlockLayer("TRANSLUCENT");
+willow_lacquered.setToolClass("pickaxe");
+willow_lacquered.setBlockHardness(29.5);
+willow_lacquered.setToolLevel(1);
+willow_lacquered.register();
+// pine
+var pine_lacquered = VanillaFactory.createBlock("pine_lacquered", <blockmaterial:Rock>);
+pine_lacquered.setBlockSoundType(<soundtype:wood>);
+pine_lacquered.setCreativeTab(<creativetab:rotn_blocks>);
+pine_lacquered.setBlockLayer("TRANSLUCENT");
+pine_lacquered.setToolClass("pickaxe");
+pine_lacquered.setBlockHardness(29.5);
+pine_lacquered.setToolLevel(1);
+pine_lacquered.register();
+// hellbark
+var hellbark_lacquered = VanillaFactory.createBlock("hellbark_lacquered", <blockmaterial:Rock>);
+hellbark_lacquered.setBlockSoundType(<soundtype:wood>);
+hellbark_lacquered.setCreativeTab(<creativetab:rotn_blocks>);
+hellbark_lacquered.setBlockLayer("TRANSLUCENT");
+hellbark_lacquered.setToolClass("pickaxe");
+hellbark_lacquered.setBlockHardness(29.5);
+hellbark_lacquered.setToolLevel(1);
+hellbark_lacquered.register();
+// jacaranda
+var jacaranda_lacquered = VanillaFactory.createBlock("jacaranda_lacquered", <blockmaterial:Rock>);
+jacaranda_lacquered.setBlockSoundType(<soundtype:wood>);
+jacaranda_lacquered.setCreativeTab(<creativetab:rotn_blocks>);
+jacaranda_lacquered.setBlockLayer("TRANSLUCENT");
+jacaranda_lacquered.setToolClass("pickaxe");
+jacaranda_lacquered.setBlockHardness(29.5);
+jacaranda_lacquered.setToolLevel(1);
+jacaranda_lacquered.register();
+// mahogany
+var mahogany_lacquered = VanillaFactory.createBlock("mahogany_lacquered", <blockmaterial:Rock>);
+mahogany_lacquered.setBlockSoundType(<soundtype:wood>);
+mahogany_lacquered.setCreativeTab(<creativetab:rotn_blocks>);
+mahogany_lacquered.setBlockLayer("TRANSLUCENT");
+mahogany_lacquered.setToolClass("pickaxe");
+mahogany_lacquered.setBlockHardness(29.5);
+mahogany_lacquered.setToolLevel(1);
+mahogany_lacquered.register();
+// ebony
+var ebony_lacquered = VanillaFactory.createBlock("ebony_lacquered", <blockmaterial:Rock>);
+ebony_lacquered.setBlockSoundType(<soundtype:wood>);
+ebony_lacquered.setCreativeTab(<creativetab:rotn_blocks>);
+ebony_lacquered.setBlockLayer("TRANSLUCENT");
+ebony_lacquered.setToolClass("pickaxe");
+ebony_lacquered.setBlockHardness(29.5);
+ebony_lacquered.setToolLevel(1);
+ebony_lacquered.register();
+// eucalyptus
+var eucalyptus_lacquered = VanillaFactory.createBlock("eucalyptus_lacquered", <blockmaterial:Rock>);
+eucalyptus_lacquered.setBlockSoundType(<soundtype:wood>);
+eucalyptus_lacquered.setCreativeTab(<creativetab:rotn_blocks>);
+eucalyptus_lacquered.setBlockLayer("TRANSLUCENT");
+eucalyptus_lacquered.setToolClass("pickaxe");
+eucalyptus_lacquered.setBlockHardness(29.5);
+eucalyptus_lacquered.setToolLevel(1);
+eucalyptus_lacquered.register();
+// tenebra
+var tenebra_lacquered = VanillaFactory.createBlock("tenebra_lacquered", <blockmaterial:Rock>);
+tenebra_lacquered.setBlockSoundType(<soundtype:wood>);
+tenebra_lacquered.setCreativeTab(<creativetab:rotn_blocks>);
+tenebra_lacquered.setBlockLayer("TRANSLUCENT");
+tenebra_lacquered.setToolClass("pickaxe");
+tenebra_lacquered.setBlockHardness(29.5);
+tenebra_lacquered.setToolLevel(1);
+tenebra_lacquered.register();
+// dreadwood
+var dreadwood_lacquered = VanillaFactory.createBlock("dreadwood_lacquered", <blockmaterial:Rock>);
+dreadwood_lacquered.setBlockSoundType(<soundtype:wood>);
+dreadwood_lacquered.setCreativeTab(<creativetab:rotn_blocks>);
+dreadwood_lacquered.setBlockLayer("TRANSLUCENT");
+dreadwood_lacquered.setToolClass("pickaxe");
+dreadwood_lacquered.setBlockHardness(29.5);
+dreadwood_lacquered.setToolLevel(1);
+dreadwood_lacquered.register();
+// olive
+var olive_lacquered = VanillaFactory.createBlock("olive_lacquered", <blockmaterial:Rock>);
+olive_lacquered.setBlockSoundType(<soundtype:wood>);
+olive_lacquered.setCreativeTab(<creativetab:rotn_blocks>);
+olive_lacquered.setBlockLayer("TRANSLUCENT");
+olive_lacquered.setToolClass("pickaxe");
+olive_lacquered.setBlockHardness(29.5);
+olive_lacquered.setToolLevel(1);
+olive_lacquered.register();
+// ironwood
+var ironwood_lacquered = VanillaFactory.createBlock("ironwood_lacquered", <blockmaterial:Rock>);
+ironwood_lacquered.setBlockSoundType(<soundtype:wood>);
+ironwood_lacquered.setCreativeTab(<creativetab:rotn_blocks>);
+ironwood_lacquered.setBlockLayer("TRANSLUCENT");
+ironwood_lacquered.setToolClass("pickaxe");
+ironwood_lacquered.setBlockHardness(32.5);
+ironwood_lacquered.setToolLevel(1);
+ironwood_lacquered.register();
+// wyrmwood
+var wyrmwood_lacquered = VanillaFactory.createBlock("wyrmwood_lacquered", <blockmaterial:Rock>);
+wyrmwood_lacquered.setBlockSoundType(<soundtype:wood>);
+wyrmwood_lacquered.setCreativeTab(<creativetab:rotn_blocks>);
+wyrmwood_lacquered.setBlockLayer("TRANSLUCENT");
+wyrmwood_lacquered.setToolClass("pickaxe");
+wyrmwood_lacquered.setBlockHardness(29.5);
+wyrmwood_lacquered.setToolLevel(1);
+wyrmwood_lacquered.register();
+// skywood
+var skywood_lacquered = VanillaFactory.createBlock("skywood_lacquered", <blockmaterial:Rock>);
+skywood_lacquered.setBlockSoundType(<soundtype:wood>);
+skywood_lacquered.setCreativeTab(<creativetab:rotn_blocks>);
+skywood_lacquered.setBlockLayer("TRANSLUCENT");
+skywood_lacquered.setToolClass("pickaxe");
+skywood_lacquered.setBlockHardness(29.5);
+skywood_lacquered.setToolLevel(1);
+skywood_lacquered.register();
 
 // Loose Bricks
 // Mud

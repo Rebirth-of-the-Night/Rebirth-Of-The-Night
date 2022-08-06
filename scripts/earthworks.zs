@@ -106,6 +106,7 @@ val silty_slab = <quark:stone_granite_bricks_slab>;
 val sandPile = <ore:pileSand>;
 val timber = <earthworks:item_timber>;
 val wattle = <earthworks:block_wattle>;
+val wicker_pane = <betterwithmods:wicker>;
 val wicker = <betterwithmods:aesthetic:12>;
 val wicker_slab = <earthworks:itemslab_wicker>;
 val wicker_stair = <earthworks:stair_wicker>;
@@ -147,12 +148,12 @@ recipes.removeByRecipeName("earthworks:block_wattle");
 recipes.removeByRecipeName("earthworks:block_wattle_alt");
 recipes.addShaped("wattle_a",wattle*8,[
     [cob,cob,cob],
-	[cob,wicker,cob],
+	[cob,wicker_pane,cob],
 	[cob,cob,cob]
 ]);
 recipes.addShaped("wattle_b",wattle*2,[
     [cob_item,cob_item,cob_item],
-	[cob_item,wicker,cob_item],
+	[cob_item,wicker_pane,cob_item],
 	[cob_item,cob_item,cob_item]
 ]);
 
@@ -277,7 +278,7 @@ JEI.removeAndHide(<earthworks:itemslab_mud>);
 JEI.removeAndHide(<earthworks:block_mud>);
 recipes.removeByRecipeName("earthworks:block_cob_alt_alt");
 recipes.remove(<earthworks:item_cob>);
-recipes.addShapeless("cob_ball",<earthworks:item_cob>*8,[clay, clay, clay, clay, binder, mud, mud, mud, mud]);
+recipes.addShapeless("cob_ball",<earthworks:item_cob>*8,[sandPile, clay, sandPile, sandPile, binder, sandPile, mud, clay, mud]);
 
 // chalk: remove because ubc
 JEI.removeAndHide(<earthworks:item_chalk>);

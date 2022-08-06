@@ -736,7 +736,7 @@ if (!isNull(<randomthings:luminousstainedbrick:14>)) {<randomthings:luminousstai
 if (!isNull(<randomthings:luminousstainedbrick:15>)) {<randomthings:luminousstainedbrick:15>.hardness = 36;}
 if (!isNull(<biomesoplenty:mud_brick_block:0>)) {<biomesoplenty:mud_brick_block:0>.hardness = 29.8;}
 if (!isNull(<biomesoplenty:mud_brick_stairs:0>)) {<biomesoplenty:mud_brick_stairs:0>.hardness = 22.35;}
-if (!isNull(<pyrotech:stone_bricks:0>)) {<pyrotech:stone_bricks:0>.hardness = 38;}
+if (!isNull(<pyrotech:masonry_brick_block:0>)) {<pyrotech:masonry_brick_block:0>.hardness = 38;}
 if (!isNull(<pyrotech:refractory_brick_block:0>)) {<pyrotech:refractory_brick_block:0>.hardness = 39;}
 if (!isNull(<ceramics:clay_hard:0>)) {<ceramics:clay_hard:0>.hardness = 55;}
 if (!isNull(<ceramics:clay_hard:2>)) {<ceramics:clay_hard:2>.hardness = 55;}
