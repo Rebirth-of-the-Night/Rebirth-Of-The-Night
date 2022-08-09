@@ -116,6 +116,8 @@ recipes.removeByRecipeName("betterwithmods:decompress/wicker_decompress");
 recipes.remove(<betterwithmods:metal_chime:*>);
 recipes.remove(<betterwithmods:bamboo_chime:*>);
 
+JEI.removeAndHide(<betterwithmods:unfired_pottery>);
+
 // Table Removal (rustic adds better tables with BOP woods)
 JEI.removeAndHide(<betterwithmods:wood_table>);
 JEI.removeAndHide(<betterwithmods:wood_table:1>);

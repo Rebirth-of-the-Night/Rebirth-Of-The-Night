@@ -21,6 +21,8 @@ JEI.removeAndHide(<futuremc:honeycomb>);
 JEI.removeAndHide(<futuremc:honey_bottle>);
 JEI.removeAndHide(<futuremc:beehive>);
 
+JEI.removeAndHide(<futuremc:suspicious_stew>);
+
 
 recipes.removeByRecipeName("futuremc:nether_brick_fence");
 recipes.removeByRecipeName("futuremc:else/smooth_stonerecipe");
@@ -70,8 +72,6 @@ recipes.addShaped("brazier", <futuremc:campfire>*4,[
 ]);
 
 recipes.remove(<futuremc:suspicious_stew>);
-recipes.addShapeless("futuremc_stew/sustew", <futuremc:suspicious_stew>, 
-[<ore:mushroomAny>, <ore:mushroomAny>, <minecraft:bowl>, <ore:flower>]);
 
 recipes.addShaped("bamboo_to_stick", <minecraft:stick>, [
 	[<futuremc:bamboo>],
