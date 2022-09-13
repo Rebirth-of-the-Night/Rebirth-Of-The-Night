@@ -243,6 +243,7 @@ msmlegacy:dawn_star
 msmlegacy:vampiric_blade
 msmlegacy:gladiolus
 msmlegacy:draconic_blade
+pyrotech:redstone_sword
 msmlegacy:eye_end_blade
 msmlegacy:crystaline_blade
 msmlegacy:glacial_blade

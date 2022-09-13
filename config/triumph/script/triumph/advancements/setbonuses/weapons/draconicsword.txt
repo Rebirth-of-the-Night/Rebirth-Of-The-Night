@@ -1,11 +1,11 @@
-setIcon("msmlegacy:draconic_blade")
+setIcon("pyrotech:redstone_sword")
 setTitle("Arcane Energy")
 setDescription("Craft a Draconic Sword")
 
 addParent("triumph:advancements/setbonuses/root")
 
 criteria = addCriteria("Draconic Sword", "minecraft:inventory_changed")
-criteria.addItem("msmlegacy:draconic_blade")
+criteria.addItem("pyrotech:redstone_sword")
 
 hideLines()
 alwaysVisible()
