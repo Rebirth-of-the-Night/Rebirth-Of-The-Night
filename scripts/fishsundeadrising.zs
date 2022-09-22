@@ -78,6 +78,7 @@ recipes.remove(<mod_lavacow:swinearmor_boots>);
 <entity:mod_lavacow:zombiemushroom>.addPlayerOnlyDrop(<rustic:mooncap_mushroom> %50, 1, 2);
 <entity:mod_lavacow:zombiemushroom>.addPlayerOnlyDrop(<mod_lavacow:glowshroom> %70, 1, 2);
 <entity:mod_lavacow:undertaker>.addPlayerOnlyDrop(<contenttweaker:necromantic_brain> %100, 1);
+<entity:mod_lavacow:ghostray>.addDrop(<betterwithmods:material:7>,3,5);
 
 // new oredict
 val salahideOredict = <ore:salamanderhide>;

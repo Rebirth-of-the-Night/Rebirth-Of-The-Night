@@ -157,10 +157,10 @@ recipes.addShapeless("recycle_devchest",<betterwithmods:material:31>,[<betterwit
 recipes.addShapeless("recycle_devlegs",<betterwithmods:material:31>,[<betterwithmods:wool_pants>.anyDamage()]);
 recipes.addShapeless("recycle_devboots",<betterwithmods:material:31>,[<betterwithmods:wool_boots>.anyDamage()]);
 
-recipes.addShapeless("devhelm",<minecraft:chainmail_helmet>.withTag({display: {Lore: ["Rename to a developer's IGN to get their headwear item!"], Name: "Developer Helmet"}}),[<betterwithmods:wool_helmet>.anyDamage(),<betterwithmods:material:32>]);
-recipes.addShapeless("devchest",<minecraft:chainmail_chestplate>.withTag({display: {Lore: ["Rename to a developer's IGN to get their bodywear item!"], Name: "Developer Chestplate"}}),[<betterwithmods:wool_chest>.anyDamage(),<betterwithmods:material:32>]);
-recipes.addShapeless("devlegs",<minecraft:chainmail_leggings>.withTag({display: {Lore: ["Rename to a developer's IGN to get their legwear item!"], Name: "Developer Leggings"}}),[<betterwithmods:wool_pants>.anyDamage(),<betterwithmods:material:32>]);
-recipes.addShapeless("devboots",<minecraft:chainmail_boots>.withTag({display: {Lore: ["Rename to a developer's IGN to get their footwear item!"], Name: "Developer Boots"}}),[<betterwithmods:wool_boots>.anyDamage(),<betterwithmods:material:32>]);
+recipes.addShapeless("devhelm",<minecraft:chainmail_helmet>.withTag({display: {Lore: ["Rename to a developer's IGN to get their headwear item!"], Name: "Developer Helmet"}}),[<betterwithmods:wool_helmet>.anyDamage(),<pyrotech:material:38>]);
+recipes.addShapeless("devchest",<minecraft:chainmail_chestplate>.withTag({display: {Lore: ["Rename to a developer's IGN to get their bodywear item!"], Name: "Developer Chestplate"}}),[<betterwithmods:wool_chest>.anyDamage(),<pyrotech:material:38>]);
+recipes.addShapeless("devlegs",<minecraft:chainmail_leggings>.withTag({display: {Lore: ["Rename to a developer's IGN to get their legwear item!"], Name: "Developer Leggings"}}),[<betterwithmods:wool_pants>.anyDamage(),<pyrotech:material:38>]);
+recipes.addShapeless("devboots",<minecraft:chainmail_boots>.withTag({display: {Lore: ["Rename to a developer's IGN to get their footwear item!"], Name: "Developer Boots"}}),[<betterwithmods:wool_boots>.anyDamage(),<pyrotech:material:38>]);
 
 <minecraft:chainmail_helmet:*>.withTag({display: {Lore: ["Rename to a developer's IGN to get their headwear item!"], Name: "Foreck"}}).addTooltip(format.aqua("No way! I want something cooler."));
 <minecraft:chainmail_chestplate:*>.withTag({display: {Lore: ["Rename to a developer's IGN to get their bodywear item!"], Name: "Foreck"}}).addTooltip(format.aqua("Just don't say you're going to the moon, okay?!"));

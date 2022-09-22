@@ -20,7 +20,7 @@ val handle = <spartanweaponry:material>;
 val pole = <spartanweaponry:material:1>;
 val wood = <ore:plankWood>;
 val twine = <ore:twine>;
-val leather = <ore:hideTanned>;
+val leather_sheet = <pyrotech:material:38>;
 val arrow = <ore:itemArrow>;
 val bolt = <ore:itemBolt>;
 val flint = <minecraft:flint>;
@@ -233,12 +233,12 @@ recipes.addShaped("diamond_staff", <spartanweaponry:staff_diamond>,
  [[pole],
   [diamond]]);
 recipes.addShaped("diamond_arrow_quiver", <spartanweaponry:quiver_arrow_heavy>,
- [[leather,twine,leather],
-  [leather,arrow,leather],
+ [[leather_sheet,twine,leather_sheet],
+  [leather_sheet,arrow,leather_sheet],
   [twine,diamond,twine]]);
 recipes.addShaped("diamond_bolt_quiver", <spartanweaponry:quiver_bolt_heavy>,
- [[leather,twine,leather],
-  [leather,bolt,leather],
+ [[leather_sheet,twine,leather_sheet],
+  [leather_sheet,bolt,leather_sheet],
   [twine,diamond,twine]]);
   */
   

@@ -101,6 +101,32 @@ JEI.removeAndHide(<pyrotech:marshmallow_stick_empty>);
 JEI.removeAndHide(<pyrotech:chopping_block>);
 JEI.removeAndHide(<pyrotech:material:9>);
 JEI.removeAndHide(<pyrotech:igniter>);
+JEI.removeAndHide(<pyrotech:bone_hunters_knife>);
+JEI.removeAndHide(<pyrotech:flint_hunters_knife>);
+JEI.removeAndHide(<pyrotech:stone_hunters_knife>);
+JEI.removeAndHide(<pyrotech:iron_hunters_knife>);
+JEI.removeAndHide(<pyrotech:gold_hunters_knife>);
+JEI.removeAndHide(<pyrotech:diamond_hunters_knife>);
+JEI.removeAndHide(<pyrotech:obsidian_hunters_knife>);
+JEI.removeAndHide(<pyrotech:bone_butchers_knife>);
+JEI.removeAndHide(<pyrotech:flint_butchers_knife>);
+JEI.removeAndHide(<pyrotech:stone_butchers_knife>);
+JEI.removeAndHide(<pyrotech:iron_butchers_knife>);
+JEI.removeAndHide(<pyrotech:gold_butchers_knife>);
+JEI.removeAndHide(<pyrotech:diamond_butchers_knife>);
+JEI.removeAndHide(<pyrotech:obsidian_butchers_knife>);
+JEI.removeAndHide(<pyrotech:flint_arrow>);
+JEI.removeAndHide(<pyrotech:bone_arrow>);
+JEI.removeAndHide(<pyrotech:crude_spear>);
+JEI.removeAndHide(<pyrotech:flint_spear>);
+JEI.removeAndHide(<pyrotech:bone_spear>);
+JEI.removeAndHide(<pyrotech:barrel_lid>);
+JEI.removeAndHide(<pyrotech:material:48>);
+JEI.removeAndHide(<pyrotech:material:49>);
+JEI.removeAndHide(<pyrotech:material:50>);
+JEI.removeAndHide(<pyrotech:material:51>);
+JEI.removeAndHide(<pyrotech:material:52>);
+JEI.removeAndHide(<pyrotech:material:53>);
 
 // disableItem(<pyrotech:apple_baked>);
 
@@ -119,11 +145,19 @@ val timber = <earthworks:item_timber>;
 val fiber = <pyrotech:material:12>;
 val hay_bale = <pyrotech:thatch>;
 val pit_kiln = <pyrotech:kiln_pit>;
+val leather_sheet = <pyrotech:material:38>;
+val leather_strip = <pyrotech:material:39>;
+val stick = <ore:stickWood>;
+val durable_fiber = <betterwithmods:material:3>;
+val durable_twine = <pyrotech:material:26>;
+val iron_ingot = <ore:ingotIron>;
+val brass_ingot = <contenttweaker:material_part:45>;
+val handle = <spartanweaponry:material>;
 
 recipes.addShapeless("pyro_matchstick_broken_stick",<pyrotech:matchstick>,
 [<pyrotech:tinder>,<contenttweaker:broken_stick>,<contenttweaker:broken_stick>]);
 recipes.addShapeless("pyro_matchstick_sticks",<pyrotech:matchstick>,
-[<pyrotech:tinder>,<ore:stickWood>,<ore:stickWood>]);
+[<pyrotech:tinder>,stick,stick]);
 recipes.addShaped("dry_to_twine", twine*3,
 [[dry,dry,dry]]);
 recipes.addShaped("dry_to_hay_bale", hay_bale,
@@ -232,11 +266,11 @@ recipes.addShaped("soaking_pot", <pyrotech:soaking_pot>,
   [<ore:twine>,rock,<ore:twine>],
   [<ore:plankWood>,twine,<ore:plankWood>]]);
 recipes.addShaped("pyro_crude_axe", <pyrotech:crude_axe>,
- [[rock|<minecraft:flint>,<ore:stickWood>],
-  [<ore:stickWood>,null]]);  
+ [[rock|<minecraft:flint>,stick],
+  [stick,null]]);  
 recipes.addShaped("crude_fishing_pole", <pyrotech:crude_fishing_rod>,
- [[null,<ore:stickWood>],
-  [<ore:stickWood>,<ore:twine>]]);
+ [[null,stick],
+  [stick,<ore:twine>]]);
 recipes.addShaped("quilting_sail", <betterwithmods:material:4>,
  [[<pyrotech:material:26>,null,<pyrotech:material:26>],
   [null,<pyrotech:material:26>,null],
@@ -263,17 +297,222 @@ recipes.addShaped("coalcoke_block", <pyrotech:coal_coke_block>,
 [<pyrotech:material:1>,<pyrotech:material:1>,<pyrotech:material:1>],
 [<pyrotech:material:1>,<pyrotech:material:1>,<pyrotech:material:1>]]);
 recipes.addShapeless("coalcoke_from_block", <pyrotech:material:1>*9,[<pyrotech:coal_coke_block>]);
-  
-//hammers
+
+// Leather rework
+<ore:shagreen>.addItems([<betterwithmods:material:33>,<betterwithmods:material:7>]);
+recipes.removeByRecipeName("betteranimalsplus:wolf_pelt_snowy_wool");
+recipes.removeByRecipeName("betteranimalsplus:wolf_pelt_timber_wool");
+recipes.removeByRecipeName("betteranimalsplus:wolf_pelt_black_wool");
+recipes.removeByRecipeName("betteranimalsplus:wolf_pelt_arctic_wool");
+recipes.removeByRecipeName("betteranimalsplus:wolf_pelt_brown_wool");
+recipes.removeByRecipeName("betteranimalsplus:wolf_pelt_red_wool");
+recipes.removeByRecipeName("betteranimalsplus:bear_skin_brown_wool");
+recipes.removeByRecipeName("betteranimalsplus:bear_skin_black_wool");
+recipes.removeByRecipeName("betteranimalsplus:bear_skin_kermode_wool");
+
+recipes.removeByRecipeName("betteranimalsplus:wolf_pelt_snowy_leather");
+recipes.removeByRecipeName("betteranimalsplus:wolf_pelt_timber_leather");
+recipes.removeByRecipeName("betteranimalsplus:wolf_pelt_black_leather");
+recipes.removeByRecipeName("betteranimalsplus:wolf_pelt_arctic_leather");
+recipes.removeByRecipeName("betteranimalsplus:wolf_pelt_brown_leather");
+recipes.removeByRecipeName("betteranimalsplus:wolf_pelt_red_leather");
+recipes.removeByRecipeName("betteranimalsplus:bear_skin_brown_leather");
+recipes.removeByRecipeName("betteranimalsplus:bear_skin_black_leather");
+recipes.removeByRecipeName("betteranimalsplus:bear_skin_kermode_leather");
+recipes.removeByRecipeName("rats:rat_pelt_to_leather");
+recipes.removeByRecipeName("minecraft:leather");
+recipes.removeByRecipeName("toroquest:toro_leather_scrap");
+
+// scrapped leather
+val hideScraping as IItemStack[IIngredient] = {
+  <pyrotech:pelt_cow>                  :     <pyrotech:hide_scraped>,
+  <pyrotech:pelt_mooshroom>            :     <pyrotech:hide_scraped>,
+  <pyrotech:hide_llama>                :     <pyrotech:hide_scraped>,
+  <pyrotech:pelt_polar_bear>           :     <pyrotech:hide_scraped>,
+  <betteranimalsplus:bear_skin_brown>  :     <pyrotech:hide_scraped>,
+  <betteranimalsplus:bear_skin_black>  :     <pyrotech:hide_scraped>,
+  <betteranimalsplus:bear_skin_kermode>:     <pyrotech:hide_scraped>,
+  <pyrotech:pelt_horse>                :     <pyrotech:hide_scraped>,
+  <mod_lavacow:pigboarhide>            :     <pyrotech:hide_scraped>,
+  <netherex:orange_salamander_hide>    :     <pyrotech:hide_scraped>,
+  <netherex:black_salamander_hide>     :     <pyrotech:hide_scraped>,
+  <betteranimalsplus:wolf_pelt_snowy>  :     <pyrotech:hide_scraped>,
+  <betteranimalsplus:wolf_pelt_timber> :     <pyrotech:hide_scraped>,
+  <betteranimalsplus:wolf_pelt_black>  :     <pyrotech:hide_scraped>,
+  <betteranimalsplus:wolf_pelt_arctic> :     <pyrotech:hide_scraped>,
+  <betteranimalsplus:wolf_pelt_brown>  :     <pyrotech:hide_scraped>,
+  <betteranimalsplus:wolf_pelt_red>    :     <pyrotech:hide_scraped>,
+  <pyrotech:hide_pig>                  :     <pyrotech:hide_small_scraped>,
+  <pyrotech:hide_sheep_sheared>        :     <pyrotech:hide_small_scraped>,
+  <pyrotech:pelt_wolf>                 :     <pyrotech:hide_small_scraped>,
+  <contenttweaker:monster_hide>        :     <pyrotech:hide_small_scraped>,
+  <minecraft:rabbit_hide>              :     <contenttweaker:hide_tiny_scraped>,
+  <pyrotech:pelt_bat>                  :     <contenttweaker:hide_tiny_scraped>,
+  <rats:rat_pelt>                      :     <contenttweaker:hide_tiny_scraped>
+} as IItemStack[IIngredient];
+
+for i, entry in hideScraping.entrySet {
+  recipes.addShapeless("hideScraping"~i, entry.value, [
+    entry.key,
+    <ore:smallKnife>.transformDamage()
+  ]);
+}
+
+// scrapped sheep leather
+val sheepHideScraping as IItemStack[IIngredient] = {
+  <pyrotech:pelt_sheep_yellow>		:	<minecraft:wool:4>,
+  <pyrotech:pelt_sheep_white>		:	<minecraft:wool>,
+  <pyrotech:pelt_sheep_gray_light>	:	<minecraft:wool:8>,
+  <pyrotech:pelt_sheep_red>			:	<minecraft:wool:14>,
+  <pyrotech:pelt_sheep_purple>		:	<minecraft:wool:10>,
+  <pyrotech:pelt_sheep_pink>		:	<minecraft:wool:6>,
+  <pyrotech:pelt_sheep_orange>		:	<minecraft:wool:1>,
+  <pyrotech:pelt_sheep_magenta>		:	<minecraft:wool:2>,
+  <pyrotech:pelt_sheep_lime>		:	<minecraft:wool:5>,
+  <pyrotech:pelt_sheep_blue_light>	:	<minecraft:wool:3>,
+  <pyrotech:pelt_sheep_green>		:	<minecraft:wool:13>,
+  <pyrotech:pelt_sheep_gray>		:	<minecraft:wool:7>,
+  <pyrotech:pelt_sheep_cyan>		:	<minecraft:wool:9>,
+  <pyrotech:pelt_sheep_brown>		:	<minecraft:wool:12>,
+  <pyrotech:pelt_sheep_blue>		:	<minecraft:wool:11>,
+  <pyrotech:pelt_sheep_black>		:	<minecraft:wool:15>,
+  <pyrotech:pelt_llama_white>		:	<minecraft:wool>,
+  <pyrotech:pelt_llama_creamy>		:	<minecraft:wool>,
+  <pyrotech:pelt_llama_gray>		:	<minecraft:wool>,
+  <pyrotech:pelt_llama_brown>		:	<minecraft:wool:12>
+} as IItemStack[IIngredient];
+
+for i, entry in sheepHideScraping.entrySet {
+  recipes.addShapeless("hideScraping"~i, entry.value, [
+    entry.key.transformReplace(<pyrotech:hide_scraped>),
+    <ore:smallKnife>.transformDamage()
+  ]);
+}
+
+// leather sheets
+recipes.addShapeless("leather_sheet", leather_sheet*3, [<minecraft:leather>, <ore:shears>.transformDamage()]);
+recipes.addShapeless("leather_sheet_small", leather_sheet*2, [<pyrotech:material:45>, <ore:shears>.transformDamage()]);
+recipes.addShapeless("leather_sheet_tiny", leather_sheet*1, [<contenttweaker:leather_tiny>, <ore:shears>.transformDamage()]);
+
+// leather replacements
+val pelt = <ore:pelt>;
+pelt.addAll(<ore:peltWolf>);
+pelt.addAll(<ore:peltBear>);
+pelt.addItems([<pyrotech:pelt_cow>,<pyrotech:pelt_mooshroom>,<pyrotech:pelt_polar_bear>,<pyrotech:pelt_bat>,<pyrotech:pelt_horse>,<pyrotech:pelt_wolf>,<pyrotech:pelt_sheep_yellow>,<pyrotech:pelt_sheep_white>,<pyrotech:pelt_sheep_gray_light>,<pyrotech:pelt_sheep_red>,<pyrotech:pelt_sheep_purple>,<pyrotech:pelt_sheep_pink>,<pyrotech:pelt_sheep_orange>,<pyrotech:pelt_sheep_magenta>,<pyrotech:pelt_sheep_lime>,<pyrotech:pelt_sheep_blue_light>,<pyrotech:pelt_sheep_green>,<pyrotech:pelt_sheep_gray>,<pyrotech:pelt_sheep_cyan>,<pyrotech:pelt_sheep_brown>,<pyrotech:pelt_sheep_blue>,<pyrotech:pelt_sheep_black>,<pyrotech:pelt_llama_white>,<pyrotech:pelt_llama_creamy>,<pyrotech:pelt_llama_gray>,<pyrotech:pelt_llama_brown>,<rats:rat_pelt>,<minecraft:rabbit_hide>,<contenttweaker:monster_hide>,<mod_lavacow:pigboarhide>,<netherex:orange_salamander_hide>,<netherex:black_salamander_hide>]);
+recipes.remove(<minecraft:leather_helmet>);
+recipes.remove(<minecraft:leather_chestplate>);
+recipes.remove(<minecraft:leather_leggings>);
+recipes.remove(<minecraft:leather_boots>);
+recipes.remove(<minecraft:item_frame>);
+recipes.remove(<minecraft:book>);
+recipes.remove(<minecraft:lead>);
+recipes.remove(<betterwithmods:material:31>);
+recipes.remove(<doggytalents:treat_bag>);
+recipes.remove(<doggytalents:leather_jacket>);
+recipes.remove(<doggytalents:cape_coloured>);
+recipes.remove(<doggytalents:cape>);
+recipes.remove(<dungeontactics:magic_pouch>);
+recipes.removeByRecipeName("endreborn:items/elytra");
+recipes.remove(<iceandfire:blindfold>);
+recipes.remove(<rats:rat_sack>);
+recipes.remove(<spartanweaponry:quiver_bolt>);
+recipes.remove(<spartanweaponry:quiver_arrow>);
+recipes.remove(<spartanweaponry:longbow_leather>);
+recipes.remove(handle);
+recipes.remove(<spartanweaponry:caestus>);
+recipes.remove(<toroquest:toro_leather>);
+recipes.remove(<spartanweaponry:quiver_bolt_moderate>);
+recipes.remove(<spartanweaponry:quiver_arrow_moderate>);
+
+recipes.addShapeless("spartanweaponry:handle", handle*4, [stick,stick,stick,stick,leather_strip]);
+recipes.addShaped("leather_helmet", <minecraft:leather_helmet>,
+ [[leather_sheet,leather_sheet,leather_sheet],
+  [leather_sheet,null,leather_sheet]]);
+recipes.addShaped("leather_chestplate", <minecraft:leather_chestplate>,
+ [[leather_sheet,null,leather_sheet],
+  [leather_sheet,leather_sheet,leather_sheet],
+  [leather_sheet,leather_sheet,leather_sheet]]);
+recipes.addShaped("leather_leggings", <minecraft:leather_leggings>,
+ [[leather_sheet,leather_sheet,leather_sheet],
+  [leather_sheet,null,leather_sheet],
+  [leather_sheet,null,leather_sheet]]);
+recipes.addShaped("leather_boots", <minecraft:leather_boots>,
+ [[leather_sheet,null,leather_sheet],
+  [leather_sheet,null,leather_sheet]]);
+recipes.addShaped("item_frame", <minecraft:item_frame>,
+ [[stick,stick,stick],
+  [stick,leather_sheet,stick],
+  [stick,stick,stick]]);
+recipes.addShaped("book_a", <minecraft:book>,
+ [[<ore:paper>,<ore:paper>,<ore:paper>],
+  [<ore:paper>,<ore:paper>,leather_sheet]]);
+recipes.addShaped("book_b", <minecraft:book>,
+ [[<ore:paper>,<ore:paper>,<ore:paper>],
+  [<ore:paper>,<ore:paper>,<pyrotech:material:20>]]);
+recipes.addShaped("lead", <minecraft:lead>,
+ [[durable_fiber|durable_twine|leather_sheet,durable_fiber|durable_twine|leather_sheet,null],
+  [durable_fiber|durable_twine|leather_sheet,durable_fiber|durable_twine|leather_sheet,null],
+  [null,null,durable_fiber|durable_twine|leather_sheet]]);
+recipes.addShaped("spartanweaponry:caestus_a", <spartanweaponry:caestus>,
+ [[<ore:pelt>],
+  [<ore:pelt>]]);  
+recipes.addShaped("spartanweaponry:caestus_b", <spartanweaponry:caestus>,
+ [[<contenttweaker:tattered_hide>],
+  [<contenttweaker:tattered_hide>]]);
+recipes.addShaped("doggytalents:treat_bag", <doggytalents:treat_bag>,
+ [[leather_sheet,<doggytalents:chew_stick>,leather_sheet],
+  [null,leather_sheet,null]]);
+recipes.addShaped("doggytalents:leather_jacket", <doggytalents:leather_jacket>,
+ [[leather_sheet,null,leather_sheet],
+  [leather_sheet,<minecraft:wool>,leather_sheet],
+  [leather_sheet,<minecraft:wool>,leather_sheet]]);
+recipes.addShaped("doggytalents:cape_coloured", <doggytalents:cape_coloured>,
+ [[<ore:string>,null,<ore:string>],
+  [leather_sheet,leather_sheet,leather_sheet],
+  [leather_sheet,leather_sheet,leather_sheet]]);
+recipes.addShaped("doggytalents:cape", <doggytalents:cape>,
+ [[<ore:string>,null,<ore:string>],
+  [leather_sheet,<minecraft:wool>,leather_sheet],
+  [<minecraft:wool>,leather_sheet,<minecraft:wool>]]);
+recipes.addShaped("dungeontactics:magic_pouch", <dungeontactics:magic_pouch:639>,
+ [[<ore:string>,leather_sheet,<ore:string>],
+  [leather_sheet,<dungeontactics:magic_powder>,leather_sheet],
+  [leather_sheet,leather_sheet,leather_sheet]]);
+recipes.addShaped("rats:rat_sack", <rats:rat_sack>,
+ [[<ore:string>,leather_sheet,<ore:string>],
+  [leather_sheet,<ore:foodCheese>,leather_sheet],
+  [leather_sheet,leather_sheet,leather_sheet]]);
+recipes.addShaped("iceandfire:blindfold", <iceandfire:blindfold>,
+ [[leather_strip,leather_strip,leather_strip]]);
+recipes.addShaped("spartanweaponry:longbow_leather", <spartanweaponry:longbow_leather>,
+ [[handle,stick,leather_sheet],
+  [stick,null,<ore:string>],
+  [leather_sheet,<ore:string>,<ore:string>]]);
+recipes.addShaped("spartanweaponry:quiver_bolt", <spartanweaponry:quiver_bolt>,
+ [[leather_sheet,<ore:string>,leather_sheet],
+  [leather_sheet,<ore:itemBolt>,leather_sheet],
+  [iron_ingot,iron_ingot,iron_ingot]]);
+recipes.addShaped("spartanweaponry:quiver_arrow", <spartanweaponry:quiver_arrow>,
+ [[leather_sheet,<ore:string>,leather_sheet],
+  [leather_sheet,<ore:itemArrow>,leather_sheet],
+  [iron_ingot,iron_ingot,iron_ingot]]);
+recipes.addShaped("spartanweaponry:quiver_bolt_moderate", <spartanweaponry:quiver_bolt_moderate>,
+ [[leather_sheet,<spartanweaponry:quiver_bolt>,leather_sheet],
+  [brass_ingot,brass_ingot,brass_ingot]]);
+recipes.addShaped("spartanweaponry:quiver_arrow_moderate", <spartanweaponry:quiver_arrow_moderate>,
+ [[leather_sheet,<spartanweaponry:quiver_arrow>,leather_sheet],
+  [brass_ingot,brass_ingot,brass_ingot]]);
+
+// hammers
 // Stone hammer in minecraft.zs along other stone tools
 recipes.addShaped("iron_sledgehammer", <pyrotech:iron_hammer>,
- [[<ore:ingotIron>,<ore:stickWood>,<ore:ingotIron>],
-  [<ore:ingotIron>,<ore:stickWood>,<ore:ingotIron>],
-  [null,<ore:stickWood>,null]]);
+ [[iron_ingot,stick,iron_ingot],
+  [iron_ingot,stick,iron_ingot],
+  [null,stick,null]]);
 recipes.addShaped("steel_sledgehammer", <pyrotech:flint_hammer>,
- [[<ore:ingotSteel>,<ore:stickWood>,<ore:ingotSteel>],
-  [<ore:ingotSteel>,<ore:stickWood>,<ore:ingotSteel>],
-  [null,<ore:stickWood>,null]]);
+ [[<ore:ingotSteel>,stick,<ore:ingotSteel>],
+  [<ore:ingotSteel>,stick,<ore:ingotSteel>],
+  [null,stick,null]]);
 recipes.addShaped("mythril_sledgehammer", <pyrotech:bone_hammer>,
  [[<simpleores:mythril_rod>,<pyrotech:diamond_hammer>,<simpleores:mythril_rod>]]);
 recipes.addShaped("onyx_sledgehammer", <pyrotech:obsidian_hammer>,

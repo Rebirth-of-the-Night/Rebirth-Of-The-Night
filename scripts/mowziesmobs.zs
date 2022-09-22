@@ -14,7 +14,7 @@ JEI.removeAndHide(<mowziesmobs:captured_grottol>);
 //<entity:mowziesmobs:foliaath>.addPlayerOnlyDrop(<mowziesmobs:foliaath_seed> %80, 1, 2);
 //
 <entity:mowziesmobs:frostmaw>.addDrop(<mod_lavacow:sharptooth>,1,4);
-<entity:mowziesmobs:frostmaw>.addDrop(<betterwithmods:material:6>,5,9);
+<entity:mowziesmobs:frostmaw>.addDrop(<iceandfire:troll_leather_frost>,2,3);
 //
 <entity:mowziesmobs:naga>.addDrop(<mod_lavacow:sharptooth>,2,6);
 

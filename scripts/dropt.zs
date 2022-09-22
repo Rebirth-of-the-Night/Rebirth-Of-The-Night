@@ -101,6 +101,15 @@ Dropt.list("halite")
       )
   );
 
+Dropt.list("cattail")
+
+  .add(Dropt.rule()
+      .matchBlocks(["biomesoplenty:double_plant:1"])
+      .addDrop(Dropt.drop()
+          .items([<contenttweaker:cattail_root_raw>], Dropt.range(1))
+      )
+  );
+
 Dropt.list("bop_honey_block")
 
   .add(Dropt.rule()

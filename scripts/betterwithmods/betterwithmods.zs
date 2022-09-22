@@ -196,17 +196,20 @@ var generic_metal = <ore:genericMetal>;
 var archimedes = <betterwithmods:material:24>;
 var glue = <ore:glue>;
 var blade = <pyrotech:sawmill_blade_iron>;
-var belt = <ore:hideBelt>;
+var belt = <pyrotech:material:40>;
 var stone = <ore:stone>;
 var timber = <earthworks:item_timber>;
 var dense_redstone = <pyrotech:material:36>;
 var cobblestone = <ore:cobblestone>;
 var stick = <ore:stickWood>;
 var durable_fiber = <ore:durableFiber>;
-var tanned_hide = <ore:hideTanned>;
+var leather_sheet = <pyrotech:material:38>;
 var paper = <ore:paper>;
 var spring = <betterwithmods:material:49>;
 val bark_strips = <primallib:bark_strips_generic>;
+
+<ore:hideScoured>.remove(<betterwithmods:material:7>);
+<ore:leather>.remove(<betterwithmods:material:31>);
 
 // guide
 recipes.remove(<betterwithmods:manual>);
@@ -315,12 +318,12 @@ recipes.addShaped("mech_booster_rail_32", <betterwithmods:booster>*32, [
 recipes.remove(<betterwithmods:bellows>);
 recipes.addShaped("bellows_block", <betterwithmods:bellows>, [
     [plank_wood, plank_wood, plank_wood],
-    [tanned_hide, tanned_hide, tanned_hide],
+    [leather_sheet, leather_sheet, leather_sheet],
 	[belt, gear_wood, belt]
 ]);
 recipes.addShaped("bellows_siding", <betterwithmods:bellows>, [
     [siding_wood, siding_wood, siding_wood],
-    [tanned_hide, tanned_hide, tanned_hide],
+    [leather_sheet, leather_sheet, leather_sheet],
 	[belt, gear_wood, belt]
 ]);
 recipes.remove(<betterwithmods:bellows:1>);
@@ -505,18 +508,20 @@ val woodMoulding =MiniBlocks.getMiniBlock("moulding", <ore:plankWood>);
 
 recipes.remove(haft);
 recipes.addShaped("glued_haft",haft*2,[
-    [<betterwithmods:material:8>],
+    [leather_sheet],
     [<ore:slimeball>],
 	[woodMoulding]
 ]);
 recipes.addShaped("sewed_haft",haft*2,[
-    [<betterwithmods:material:8>],
+    [leather_sheet],
     [durable_fiber],
 	[woodMoulding]
 ]);
 
 recipes.removeShapeless(<betterwithmods:candle:*>,[<quark:candle:*>]);
 
+Cauldron.remove([<betterwithmods:material:12>]);
+Cauldron.addStoked([<ore:pelt>],[<betterwithmods:material:12>]);
 Cauldron.remove([<minecraft:mushroom_stew>]);
 Cauldron.remove([<minecraft:rabbit_stew>]);
 Cauldron.addUnstoked([<minecraft:cooked_rabbit>|<animania:cooked_prime_rabbit>,<ore:cookedCarrot>,<ore:cookedPotato>,<ore:foodFlour>,<ore:listAllmushroom>*3,<minecraft:bowl>*5],[<minecraft:rabbit_stew>*5]);
@@ -571,11 +576,7 @@ FilteredHopper.addSoulUrnRecipe(<quark:soul_bead>,[<betterwithmods:material:38>]
 FilteredHopper.addFilterRecipe("betterwithmods:soul_sand",<contenttweaker:ardicite>,[<betterwithmods:material:16>*3],[<betterwithmods:material:15>]); 
 
 Cauldron.remove([<betterwithmods:material:6>]); // remove default BWM bark-tanned leather recipe as well as dung variants
-Cauldron.addUnstoked([<ore:barkWood>*4,<betterwithmods:material:7>],[<betterwithmods:material:6>]); // tanned leather
-Cauldron.addUnstoked([<ore:dung>,<betterwithmods:material:7>],[<betterwithmods:material:6>]);
 Cauldron.remove([<betterwithmods:material:32>]); // remove default BWM bark-cut tanned leather recipe as well as dung variants
-Cauldron.addUnstoked([<ore:barkWood>*4,<betterwithmods:material:33>*2],[<betterwithmods:material:32>*2]); // tanned cut leather
-Cauldron.addUnstoked([<ore:dung>,<betterwithmods:material:33>*2],[<betterwithmods:material:32>*2]);
 
 recipes.remove(<betterwithmods:material:45>); // diamond ingot
 

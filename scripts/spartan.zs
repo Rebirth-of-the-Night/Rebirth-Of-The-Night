@@ -159,9 +159,11 @@ recipes.addShapedMirrored("high_grade_bolt", <spartanweaponry:bolt_diamond> * 4,
 // Shapeless handle and pole recipes
 recipes.removeByRecipeName("spartanweaponry:handle_string");
 recipes.addShapeless("string_twine_handle",<spartanweaponry:material:0>,[<ore:stickWood>,<minecraft:string>|<pyrotech:material:14>]);
+recipes.addShapeless("shagreen_handle",<spartanweaponry:material:0>,[<ore:stickWood>,<ore:shagreen>]);
 
 recipes.remove(<spartanweaponry:material:1>);
 recipes.addShapeless("wool_leather_pole",<spartanweaponry:material:1>*4,[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<ore:wool>|<ore:leather>]);
+recipes.addShapeless("shagreen_pole",<spartanweaponry:material:1>*4,[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<ore:shagreen>]);
 recipes.addShapeless("string_twine_pole",<spartanweaponry:material:1>,[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<minecraft:string>|<pyrotech:material:14>]);
 
 //Mythril

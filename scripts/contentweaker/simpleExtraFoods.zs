@@ -11,6 +11,14 @@ var rat = VanillaFactory.createItemFood("ratatouille", 10);
 rat.setSaturation(9.5);
 rat.register();
 
+var cattail_root_raw = VanillaFactory.createItemFood("cattail_root_raw", 1);
+cattail_root_raw.setSaturation(0.5);
+cattail_root_raw.register();
+
+var cattail_root_cooked = VanillaFactory.createItemFood("cattail_root_cooked", 3);
+cattail_root_cooked.setSaturation(3);
+cattail_root_cooked.register();
+
 val sprinkles = VanillaFactory.createItem("sprinkles");
 sprinkles.setCreativeTab(<creativetab:harvestCraft>);
 sprinkles.register();

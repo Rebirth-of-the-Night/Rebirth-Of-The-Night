@@ -1781,16 +1781,16 @@ ofuda.register();
 var serpentinite = VanillaFactory.createBlock("serpentinite", <blockmaterial:Rock>);
 serpentinite.setCreativeTab(<creativetab:rotn_blocks>);
 serpentinite.setBlockSoundType(<soundtype:stone>);
-serpentinite.setBlockHardness(20.0);
-serpentinite.setBlockResistance(20.0);
+serpentinite.setBlockHardness(18.0);
+serpentinite.setBlockResistance(15.0);
 serpentinite.setToolLevel(2);
 serpentinite.register();
 
 var serpentinite_cobblestone = VanillaFactory.createBlock("serpentinite_cobblestone", <blockmaterial:Rock>);
 serpentinite_cobblestone.setCreativeTab(<creativetab:rotn_blocks>);
 serpentinite_cobblestone.setBlockSoundType(<soundtype:stone>);
-serpentinite_cobblestone.setBlockHardness(15.0);
-serpentinite_cobblestone.setBlockResistance(20.0);
+serpentinite_cobblestone.setBlockHardness(13.0);
+serpentinite_cobblestone.setBlockResistance(15.0);
 serpentinite_cobblestone.setToolLevel(2);
 serpentinite_cobblestone.register();
 
@@ -2031,6 +2031,13 @@ dry_block_rock.setToolLevel(1);
 dry_block_rock.setBlockHardness(25);
 dry_block_rock.setBlockResistance(15.0);
 dry_block_rock.register();
+
+//Dhvarā blocks
+var dhvara_knot = VanillaFactory.createBlock("dhvara_knot", <blockmaterial:Iron>);
+dhvara_knot.setCreativeTab(<creativetab:rotn_blocks>);
+dhvara_knot.setToolLevel(2);
+dhvara_knot.setBlockHardness(25);
+dhvara_knot.register();
 
 //Liquids
 var ender_slag = VanillaFactory.createFluid("ender_slag", Color.fromHex("fffdd0"));

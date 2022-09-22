@@ -1129,8 +1129,9 @@ recipes.addShaped("monster_leather", <betterwithmods:material:31>,
 [[<contenttweaker:monster_hide>, <contenttweaker:monster_hide>, <contenttweaker:monster_hide>],
 [<contenttweaker:monster_hide>, <contenttweaker:monster_hide>, <contenttweaker:monster_hide>]]);
 
-recipes.addShaped("scrapped_leather", <betterwithmods:material:31>, 
+recipes.addShaped("scrapped_leather", <pyrotech:hide_small_scraped>, 
 [[<contenttweaker:tattered_hide>, <contenttweaker:tattered_hide>, <contenttweaker:tattered_hide>],
+[<contenttweaker:tattered_hide>, <betterwithmods:material:3>, <contenttweaker:tattered_hide>],
 [<contenttweaker:tattered_hide>, <contenttweaker:tattered_hide>, <contenttweaker:tattered_hide>]]);
 
 recipes.addShapeless("fiery_nether_brick_sludge",<contenttweaker:unfired_fiery_brick>,[<contenttweaker:fiery_sludge>]);

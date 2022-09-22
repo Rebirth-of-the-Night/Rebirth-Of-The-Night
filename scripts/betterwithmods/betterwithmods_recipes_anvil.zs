@@ -19,7 +19,7 @@ recipes.addShaped("Steel Anvil", <betterwithmods:steel_anvil>,[
 
 <ore:gearSteel>.add(<pyrotech:cog_bone>);
 
-var leatherBelt = <betterwithmods:material:9>;
+var leatherCord = <pyrotech:material:40>;
 var cSteelNugget = <ore:nuggetSteel>;
 var cSteelIngot = <ore:ingotSteel>;
 var redstoneLatch = <ore:latchRedstone>;
@@ -33,8 +33,8 @@ Anvil.removeShaped(<betterwithaddons:steel_masonpick>); // replaced with content
 Anvil.removeShaped(<betterwithmods:steel_axle>);
 Anvil.addShaped(<betterwithmods:steel_axle>, [
    [null, null, cSteelNugget, steelGear],
-   [null, cSteelNugget, leatherBelt, cSteelNugget],
-   [cSteelNugget, leatherBelt, cSteelNugget, null],
+   [null, cSteelNugget, leatherCord, cSteelNugget],
+   [cSteelNugget, leatherCord, cSteelNugget, null],
    [steelGear, cSteelNugget, null, null]
 ]);
 

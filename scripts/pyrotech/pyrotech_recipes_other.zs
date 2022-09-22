@@ -10,6 +10,8 @@ import mods.pyrotech.DryingRack;
 import mods.pyrotech.Campfire;
 import mods.pyrotech.SoakingPot;
 import mods.pyrotech.Burn;
+import mods.pyrotech.TanningRack;
+import mods.pyrotech.Barrel;
 
 JEI.removeAndHide(<pyrotech:crate>);
 JEI.removeAndHide(<pyrotech:material:16>);
@@ -18,6 +20,9 @@ JEI.removeAndHide(<pyrotech:quartz_hoe>);
 JEI.removeAndHide(<pyrotech:quartz_pickaxe>);
 JEI.removeAndHide(<pyrotech:quartz_shovel>);
 JEI.removeAndHide(<pyrotech:quartz_sword>);
+JEI.removeAndHide(<pyrotech:rock:11>);
+JEI.removeAndHide(<pyrotech:mud>);
+JEI.removeAndHide(<pyrotech:mud_layer>);
 
 CompactingBin.removeAllRecipes();
 MechanicalCompactor.removeAllRecipes();
@@ -137,6 +142,21 @@ SoakingPot.removeRecipes(<pyrotech:material:3>);
 SoakingPot.removeRecipes(<pyrotech:wood_tar_block>);
 SoakingPot.removeRecipes(<minecraft:stonebrick:1>);
 SoakingPot.removeRecipes(<pyrotech:material:26>);
+SoakingPot.removeRecipes(<pyrotech:material:54>);
+SoakingPot.removeRecipes(<pyrotech:material:50>);
+SoakingPot.removeRecipes(<pyrotech:material:41>);
+SoakingPot.removeRecipes(<pyrotech:material:42>);
+SoakingPot.removeRecipes(<pyrotech:material:43>);
+SoakingPot.removeRecipes(<pyrotech:material:44>);
+SoakingPot.removeRecipes(<pyrotech:hide_washed>);
+SoakingPot.removeRecipes(<pyrotech:hide_small_washed>);
+SoakingPot.removeRecipes(<pyrotech:hide_tanned>);
+SoakingPot.removeRecipes(<pyrotech:hide_small_tanned>);
+SoakingPot.removeRecipes(<pyrotech:rock:11>);
+SoakingPot.removeRecipes(<pyrotech:mud>);
+SoakingPot.addRecipe("tanned_normal_hide", <pyrotech:hide_tanned>, <liquid:tannin>*750, <pyrotech:hide_scraped>, false, 5 * 60 * 20);
+SoakingPot.addRecipe("tanned_small_hide", <pyrotech:hide_small_tanned>, <liquid:tannin>*500, <pyrotech:hide_small_scraped>, false, 5 * 60 * 20);
+SoakingPot.addRecipe("tanned_tiny_hide", <contenttweaker:hide_tiny_tanned>, <liquid:tannin>*250, <contenttweaker:hide_tiny_scraped>, false, 5 * 60 * 20);
 SoakingPot.addRecipe("easy_durable_twine", <pyrotech:material:26>*3, <liquid:wood_tar>*125, <pyrotech:material:14>, false, 1);
 SoakingPot.addRecipe("rotten_flesh_dissolve", <quark:tallow>, <liquid:methanol>*1, <ore:meatRotten>, true, 5 * 60 * 20);
 SoakingPot.addRecipe("mossy_stone_bricks", <minecraft:stonebrick:1>, <liquid:water>*500, <contenttweaker:brick_minecraft_stone>, 7 * 60 * 20);
@@ -158,6 +178,16 @@ SoakingPot.addRecipe("unliving_tar", <pyrotech:living_tar>*1, <liquid:coal_tar>*
 SoakingPot.addRecipe("sloth_tar", <pyrotech:living_tar>*1, <liquid:coal_tar>*500, <biomesoplenty:flesh>, 28 * 60 * 20);
 SoakingPot.addRecipe("mossy_white_stone_bricks", <betterwithaddons:whitebrick:1>, <liquid:water>*250, <contenttweaker:brick_betterwithaddons_whitebrick>, 7 * 60 * 20);
 SoakingPot.addRecipe("wet_soap", <betterwithaddons:wet_soap>, <liquid:water>*250, <betterwithmods:aesthetic:10>, 20 * 20);
+
+// Tanning Rack recipes
+Barrel.removeAllRecipes();
+TanningRack.addRecipe(
+  "tiny_leather",
+  <contenttweaker:leather_tiny>,
+  <contenttweaker:hide_tiny_tanned>,
+  <contenttweaker:leather_tiny>,
+  10 * 60 * 20
+);
 
 // Campfire recipes
 // remove non roasted recipes
@@ -187,6 +217,7 @@ Campfire.addRecipe("roasted_egg_o", <pyrotech:egg_roasted>, <aether_legacy:moa_e
 Campfire.addRecipe("roasted_egg_p", <pyrotech:egg_roasted>, <aether_legacy:moa_egg>.withTag({typeId: 1}));
 Campfire.addRecipe("roasted_egg_q", <pyrotech:egg_roasted>, <aether_legacy:moa_egg>.withTag({typeId: 2}));
 Campfire.addRecipe("roasted_egg_r", <pyrotech:egg_roasted>, <aether_legacy:moa_egg>.withTag({typeId: 3}));
+Campfire.addRecipe("cattail_root", <contenttweaker:cattail_root_cooked>, <contenttweaker:cattail_root_raw>);
 
 // concrete
 for i in 0 to 16 {

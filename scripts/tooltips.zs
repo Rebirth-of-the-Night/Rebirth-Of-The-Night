@@ -360,6 +360,8 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <pyrotech:cog_wood:*>.addTooltip("Can power a Mechanical Compactor");
 <pyrotech:cog_bone>.removeTooltip("Indestructible");
 <pyrotech:cog_bone:*>.addTooltip("Can power a Mechanical Compactor");
+<pyrotech:hide_scraped>.removeTooltip("Scraped Hides can be washed by placing them in water for");
+<pyrotech:hide_small_scraped>.removeTooltip("Scraped Hides can be washed by placing them in water for");
 
 <pyrotech:bucket_stone>.removeTooltip("Uses:");
 <pyrotech:bucket_stone>.removeTooltip("Can hold hot fluids.");

@@ -15,6 +15,8 @@ import crafttweaker.oredict.IOreDictEntry;
 import mods.jei.JEI;
 import mods.artisanworktables.builder.RecipeBuilder;
 
+val leather_sheet = <pyrotech:material:38>;
+
 	// removes various types of stone walls
 var sWalls = [
 	"brick", 
@@ -73,9 +75,9 @@ recipes.addShaped("iron plate", <quark:iron_plate>*24,
   [<ore:ingotIron>,<ore:ingotIron>,<ore:ingotIron>]]);
 
 recipes.addShaped("Quark Backpack", <quark:backpack>.withTag({Quality: {}}),[
-	[<ore:hideTanned>, <ore:hideTanned>, <ore:hideTanned>],
+	[leather_sheet, leather_sheet, leather_sheet],
     [<betterwithmods:material:8>, <ore:chestWood>, <betterwithmods:material:8>],
-   	[<ore:hideTanned>, <ore:hideTanned>, <ore:hideTanned>]
+   	[leather_sheet, leather_sheet, leather_sheet]
 ]);
 
 recipes.addShaped("Tin Ladder", <quark:iron_ladder>*12,[

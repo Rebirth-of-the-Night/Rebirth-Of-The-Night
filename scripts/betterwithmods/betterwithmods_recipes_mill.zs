@@ -29,6 +29,46 @@ Mill.remove([<betterwithaddons:brick_stained:12>]);
 Mill.remove([<betterwithaddons:brick_stained:13>]);
 Mill.remove([<betterwithaddons:brick_stained:14>]);
 Mill.remove([<betterwithaddons:brick_stained:15>]);
+Mill.remove([<betterwithmods:material:7>]);
+Mill.remove([<betterwithmods:material:33>]);
+
+// scrapped hide
+
+val hideScraping as IItemStack[IIngredient] = {
+  <pyrotech:pelt_cow>                  :     <pyrotech:hide_scraped>,
+  <pyrotech:pelt_mooshroom>            :     <pyrotech:hide_scraped>,
+  <pyrotech:hide_llama>                :     <pyrotech:hide_scraped>,
+  <pyrotech:pelt_polar_bear>           :     <pyrotech:hide_scraped>,
+  <betteranimalsplus:bear_skin_brown>  :     <pyrotech:hide_scraped>,
+  <betteranimalsplus:bear_skin_black>  :     <pyrotech:hide_scraped>,
+  <betteranimalsplus:bear_skin_kermode>:     <pyrotech:hide_scraped>,
+  <pyrotech:pelt_horse>                :     <pyrotech:hide_scraped>,
+  <mod_lavacow:pigboarhide>            :     <pyrotech:hide_scraped>,
+  <netherex:orange_salamander_hide>    :     <pyrotech:hide_scraped>,
+  <netherex:black_salamander_hide>     :     <pyrotech:hide_scraped>,
+  <betteranimalsplus:wolf_pelt_snowy>  :     <pyrotech:hide_scraped>,
+  <betteranimalsplus:wolf_pelt_timber> :     <pyrotech:hide_scraped>,
+  <betteranimalsplus:wolf_pelt_black>  :     <pyrotech:hide_scraped>,
+  <betteranimalsplus:wolf_pelt_arctic> :     <pyrotech:hide_scraped>,
+  <betteranimalsplus:wolf_pelt_brown>  :     <pyrotech:hide_scraped>,
+  <betteranimalsplus:wolf_pelt_red>    :     <pyrotech:hide_scraped>,
+  <pyrotech:hide_pig>                  :     <pyrotech:hide_small_scraped>,
+  <pyrotech:hide_sheep_sheared>        :     <pyrotech:hide_small_scraped>,
+  <pyrotech:pelt_wolf>                 :     <pyrotech:hide_small_scraped>,
+  <contenttweaker:monster_hide>        :     <pyrotech:hide_small_scraped>,
+  <minecraft:rabbit_hide>              :     <contenttweaker:hide_tiny_scraped>,
+  <pyrotech:pelt_bat>                  :     <contenttweaker:hide_tiny_scraped>,
+  <rats:rat_pelt>                      :     <contenttweaker:hide_tiny_scraped>
+} as IItemStack[IIngredient];
+
+for pelt, scraped in hideScraping {
+  Mill.builder()
+  .buildRecipe([pelt], [scraped])
+  .setPriority(1)
+  .setTicks(40)
+  .setGrindType("fairylights:cord.stretch")
+  .build();
+}
 
 // Dread Slate Processing
 Mill.builder()

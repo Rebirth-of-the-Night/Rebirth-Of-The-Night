@@ -216,6 +216,12 @@ val rags_l = VanillaFactory.createItem("tattered_hide");
 rags_l.register();
 val hide_m = VanillaFactory.createItem("monster_hide");
 hide_m.register();
+val hide_tiny_scraped = VanillaFactory.createItem("hide_tiny_scraped");
+hide_tiny_scraped.register();
+val hide_tiny_tanned = VanillaFactory.createItem("hide_tiny_tanned");
+hide_tiny_tanned.register();
+val leather_tiny = VanillaFactory.createItem("leather_tiny");
+leather_tiny.register();
 
 val cooking_kit = VanillaFactory.createItem("cooking_kit");
 cooking_kit.maxDamage = 420;
@@ -324,6 +330,9 @@ cutcarminite.register();
 
 val cutcarminite2 = VanillaFactory.createItem("faerite");
 cutcarminite2.register();
+
+val pyrite = VanillaFactory.createItem("pyrite");
+pyrite.register();
 
 // Bricks
 VanillaFactory.createItem("brick_coade").register();

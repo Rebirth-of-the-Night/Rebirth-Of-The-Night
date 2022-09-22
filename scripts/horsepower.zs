@@ -79,7 +79,6 @@ Grindstone.add(<harvestcraft:cottonitem>, <minecraft:string>, 14,false, <betterw
 Grindstone.add(<harvestcraft:sisalitem>, <betterwithmods:material:3>*2, 14,false, <minecraft:string>*5, 80);
 Grindstone.add(<biomesoplenty:mushroom>, <biomesoplenty:shroompowder>*2, 12);
 
-Grindstone.add(<minecraft:leather>, <betterwithmods:material:7>, 80);
 Grindstone.add(<minecraft:coal>, <betterwithmods:material:18>, 80);
 Grindstone.add(<minecraft:coal:1>, <betterwithmods:material:37>, 80);
 
