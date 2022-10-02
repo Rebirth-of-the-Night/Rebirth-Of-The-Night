@@ -8,6 +8,7 @@ uniform sampler2D colortex1;
 uniform sampler2D depthtex0;
 
 uniform float far;
+uniform float rainStrength;
 
 uniform mat4 gbufferProjectionInverse;
 
@@ -30,9 +31,13 @@ void main() {
 
 	#ifdef FOG_ENABLED
 		#ifdef EXPONENTIAL_FOG
-			float expFogFactor = blockDistance / renderDistance;
-			expFogFactor = 1.0 - exp(-expFogFactor);
-			color.rgb = mix(color.rgb, max(fogColor.rgb, vec3(0.0)), expFogFactor);
+			float expFogFactor = blockDistance / 256.0;
+
+			float expFogDensity = 0.25;
+			expFogDensity = mix(expFogDensity, 5.0, rainStrength);
+
+			expFogFactor = 1.0 - exp(-expFogFactor * expFogDensity);
+			color.rgb = mix(color.rgb, max(fogColor.rgb, vec3(0.0)), expFogFactor * (1.0 - floor(depth)));
 		#endif
 
 		float fogStart = max(renderDistance * 0.8, renderDistance - 48.0);
