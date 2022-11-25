@@ -1,0 +1,4 @@
+[submodule "mods"]
+	path = mods
+	url = git@github.com:Rebirth-of-the-Night/RotN-Mods
+	branch = stable
