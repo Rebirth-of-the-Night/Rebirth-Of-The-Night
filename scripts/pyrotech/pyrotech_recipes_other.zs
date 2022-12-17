@@ -154,9 +154,9 @@ SoakingPot.removeRecipes(<pyrotech:hide_tanned>);
 SoakingPot.removeRecipes(<pyrotech:hide_small_tanned>);
 SoakingPot.removeRecipes(<pyrotech:rock:11>);
 SoakingPot.removeRecipes(<pyrotech:mud>);
-SoakingPot.addRecipe("tanned_normal_hide", <pyrotech:hide_tanned>, <liquid:tannin>*750, <pyrotech:hide_scraped>, false, 5 * 60 * 20);
-SoakingPot.addRecipe("tanned_small_hide", <pyrotech:hide_small_tanned>, <liquid:tannin>*500, <pyrotech:hide_small_scraped>, false, 5 * 60 * 20);
 SoakingPot.addRecipe("tanned_tiny_hide", <contenttweaker:hide_tiny_tanned>, <liquid:tannin>*250, <contenttweaker:hide_tiny_scraped>, false, 5 * 60 * 20);
+SoakingPot.addRecipe("tanned_small_hide", <pyrotech:hide_small_tanned>, <liquid:tannin>*500, <pyrotech:hide_small_scraped>, false, 5 * 60 * 20);
+SoakingPot.addRecipe("tanned_normal_hide", <pyrotech:hide_tanned>, <liquid:tannin>*750, <pyrotech:hide_scraped>, false, 5 * 60 * 20);
 SoakingPot.addRecipe("easy_durable_twine", <pyrotech:material:26>*3, <liquid:wood_tar>*125, <pyrotech:material:14>, false, 1);
 SoakingPot.addRecipe("rotten_flesh_dissolve", <quark:tallow>, <liquid:methanol>*1, <ore:meatRotten>, true, 5 * 60 * 20);
 SoakingPot.addRecipe("mossy_stone_bricks", <minecraft:stonebrick:1>, <liquid:water>*500, <contenttweaker:brick_minecraft_stone>, 7 * 60 * 20);
@@ -197,6 +197,7 @@ Campfire.blacklistSmeltingRecipes([<minecraft:rotten_flesh>]);
 Campfire.blacklistSmeltingRecipes([<netherex:ghast_meat_cooked>]);
 Campfire.blacklistSmeltingRecipes([<pyrotech:book>]);
 
+Campfire.addRecipe("cattail_root", <contenttweaker:cattail_root_cooked>, <contenttweaker:cattail_root_raw>);
 Campfire.addRecipe("traditional_marshmallow", <pyrotech:marshmallow_roasted>.withTag({}), <pyrotech:marshmallow>);
 Campfire.addRecipe("burned_marshmallow", <pyrotech:marshmallow_burned>, <pyrotech:marshmallow_roasted>.withTag({}));
 Campfire.addRecipe("roasted_egg_a", <pyrotech:egg_roasted>, <minecraft:egg>);
@@ -217,7 +218,6 @@ Campfire.addRecipe("roasted_egg_o", <pyrotech:egg_roasted>, <aether_legacy:moa_e
 Campfire.addRecipe("roasted_egg_p", <pyrotech:egg_roasted>, <aether_legacy:moa_egg>.withTag({typeId: 1}));
 Campfire.addRecipe("roasted_egg_q", <pyrotech:egg_roasted>, <aether_legacy:moa_egg>.withTag({typeId: 2}));
 Campfire.addRecipe("roasted_egg_r", <pyrotech:egg_roasted>, <aether_legacy:moa_egg>.withTag({typeId: 3}));
-Campfire.addRecipe("cattail_root", <contenttweaker:cattail_root_cooked>, <contenttweaker:cattail_root_raw>);
 
 // concrete
 for i in 0 to 16 {
@@ -236,6 +236,7 @@ for i in 0 to 8 {
 }
 
 furnace.remove(<pyrotech:material:22>);
+furnace.setFuel(<contenttweaker:coke_pieces>, 400);
 
 Burn.removeRecipes(<pyrotech:material:23>);
 

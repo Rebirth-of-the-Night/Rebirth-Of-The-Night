@@ -257,5 +257,3 @@ brick_ceramics_porcelain.setToolLevel(2);
 brick_ceramics_porcelain.setBlockHardness(160);
 brick_ceramics_porcelain.setBlockResistance(40.0);
 brick_ceramics_porcelain.register();
-
-//]

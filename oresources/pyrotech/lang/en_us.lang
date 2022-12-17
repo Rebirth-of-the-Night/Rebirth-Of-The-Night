@@ -523,3 +523,10 @@ gui.pyrotech.disconnect.module.mismatch=The client-side modules enabled in Pyrot
 gui.pyrotech.restart=[Pyrotech] Please restart the game.
 gui.pyrotech.missing.wood.compat=[Pyrotech] Generated wood recipes will load the next time the game is launched.
 gui.pyrotech.missing.ore.compat=[Pyrotech] Generated ore recipes will load the next time the game is launched.
+
+fluid.freckleberry_wine=Grauberry Wine
+tile.fluid.freckleberry_wine.name=Grauberry Wine
+item.pyrotech.freckleberry.seeds.name=Grauberry Seeds
+item.pyrotech.freckleberries.name=Grauberries
+item.pyrotech.freckleberry.wine.name=Grauberry Wine
+tile.pyrotech.freckleberry_plant.name=Grauberry Plant

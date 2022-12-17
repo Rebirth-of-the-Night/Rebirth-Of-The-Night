@@ -174,6 +174,8 @@ val crafting_tools = VanillaFactory.createItem("crafting_tools");
 crafting_tools.register();
 val greasy_stem = VanillaFactory.createItem("greasy_stem");
 greasy_stem.register();
+val coke_pieces = VanillaFactory.createItem("coke_pieces");
+coke_pieces.register();
 
 // Soul Forged Steel artifacts
 val sfs1 = VanillaFactory.createItem("sfs_artifact");

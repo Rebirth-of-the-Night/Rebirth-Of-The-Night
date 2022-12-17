@@ -424,6 +424,9 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <dungeontactics:toast:*>.addTooltip("Why did you make this?");
 <contenttweaker:baguettebrick>.addShiftTooltip("'this shit look like ancient debris with poop smeared on it' -elite meats");
 
+// Warding effect https://en.wikipedia.org/wiki/Apotropaic_magic
+<contenttweaker:ofuda>.addTooltip(format.gray("Apotropaic"));
+
 // Misc.
 <antiqueatlas:empty_antique_atlas:*>.addTooltip("Antique Map");
 <golems:golem_head:*>.addTooltip("Used for summoning Golems");
@@ -511,6 +514,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <dungeontactics:magic_pouch:*>.addTooltip("Right-click to open.");
 <pyrotech:material:12>.addTooltip("Used for dried fiber.");
 <pyrotech:material:12>.addShiftTooltip("Obtained from breaking grass or as a byproduct of fibrous plants", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<pyrotech:drying_rack:1>.addTooltip("Much less effective than a Standing Drying Rack. Second-rate itemframe.");
 <pyrotech:refractory_door>.addShiftTooltip("Needs to be facing the inside of the structure.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <betterwithmods:dirt_pile:*>.addTooltip("Additive. Can create a rice paddy");
 <betterwithmods:dirt_pile>.addShiftTooltip("Right click on farmland to create a rice paddy.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));

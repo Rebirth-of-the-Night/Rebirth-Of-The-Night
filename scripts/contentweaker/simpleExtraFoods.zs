@@ -20,39 +20,31 @@ cattail_root_cooked.setSaturation(3);
 cattail_root_cooked.register();
 
 val sprinkles = VanillaFactory.createItem("sprinkles");
-sprinkles.setCreativeTab(<creativetab:harvestCraft>);
 sprinkles.register();
 
 val raw_fries = VanillaFactory.createItemFood("raw_fries", 1);
 raw_fries.setSaturation(2.5);
-raw_fries.setCreativeTab(<creativetab:harvestCraft>);
 raw_fries.register();
 
 val ground_beef = VanillaFactory.createItemFood("ground_beef", 2);
 ground_beef.setSaturation(2.5);
-ground_beef.setCreativeTab(<creativetab:harvestCraft>);
 ground_beef.register();
 
 val wiener = VanillaFactory.createItem("wiener");
-wiener.setCreativeTab(<creativetab:harvestCraft>);
 wiener.register();
 
 val sheep_intestines = VanillaFactory.createItem("sheep_intestines");
-sheep_intestines.setCreativeTab(<creativetab:harvestCraft>);
 sheep_intestines.register();
 
 val patty = VanillaFactory.createItem("patty");
-patty.setCreativeTab(<creativetab:harvestCraft>);
 patty.register();
 
 val hydraco = VanillaFactory.createItemFood("hydraco", 24);
 hydraco.setSaturation(44.0);
-hydraco.setCreativeTab(<creativetab:harvestCraft>);
 hydraco.register();
 
 val abyss_pizza_item = VanillaFactory.createItemFood("abyss_pizza", 1);
 abyss_pizza_item.setSaturation(120.0);
-abyss_pizza_item.setCreativeTab(<creativetab:harvestCraft>);
 abyss_pizza_item.register();
 
 //BLOCKS
@@ -69,7 +61,6 @@ yeast_flour.axisAlignedBB = AxisAlignedBB.create(
 yeast_flour.setFullBlock(false);
 yeast_flour.setLightOpacity(0);
 yeast_flour.setBlockLayer("TRANSLUCENT");
-yeast_flour.setCreativeTab(<creativetab:harvestCraft>);
 yeast_flour.setBlockSoundType(<soundtype:cloth>);
 yeast_flour.setBlockHardness(1.0);
 yeast_flour.setToolClass("shovel");
@@ -96,7 +87,6 @@ yeast.axisAlignedBB = AxisAlignedBB.create(
 yeast.setFullBlock(false);
 yeast.setLightOpacity(0);
 yeast.setBlockLayer("TRANSLUCENT");
-yeast.setCreativeTab(<creativetab:harvestCraft>);
 yeast.setBlockSoundType(<soundtype:cloth>);
 yeast.setBlockHardness(1.0);
 yeast.setToolClass("shovel");
@@ -118,7 +108,6 @@ plain_pizza_block.axisAlignedBB = AxisAlignedBB.create(
 plain_pizza_block.setFullBlock(false);
 plain_pizza_block.setLightOpacity(0);
 plain_pizza_block.setBlockLayer("TRANSLUCENT");
-plain_pizza_block.setCreativeTab(<creativetab:harvestCraft>);
 plain_pizza_block.setBlockSoundType(<soundtype:cloth>);
 plain_pizza_block.setBlockHardness(1.0);
 plain_pizza_block.setToolClass("shovel");
@@ -137,7 +126,6 @@ chicken_pizza_block.axisAlignedBB = AxisAlignedBB.create(
 chicken_pizza_block.setFullBlock(false);
 chicken_pizza_block.setLightOpacity(0);
 chicken_pizza_block.setBlockLayer("TRANSLUCENT");
-chicken_pizza_block.setCreativeTab(<creativetab:harvestCraft>);
 chicken_pizza_block.setBlockSoundType(<soundtype:cloth>);
 chicken_pizza_block.setBlockHardness(1.0);
 chicken_pizza_block.setToolClass("shovel");
@@ -156,7 +144,6 @@ abyss_pizza_block.axisAlignedBB = AxisAlignedBB.create(
 abyss_pizza_block.setFullBlock(false);
 abyss_pizza_block.setLightOpacity(0);
 abyss_pizza_block.setBlockLayer("TRANSLUCENT");
-abyss_pizza_block.setCreativeTab(<creativetab:harvestCraft>);
 abyss_pizza_block.setBlockSoundType(<soundtype:cloth>);
 abyss_pizza_block.setBlockHardness(1.0);
 abyss_pizza_block.setToolClass("shovel");

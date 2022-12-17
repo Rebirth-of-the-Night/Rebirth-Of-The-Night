@@ -883,6 +883,7 @@ acacia_boards.setCreativeTab(<creativetab:rotn_blocks>);
 acacia_boards.setToolClass("pickaxe");
 acacia_boards.setBlockHardness(20.0);
 acacia_boards.setToolLevel(1);
+acacia_boards.setBlockLayer("CUTOUT");
 acacia_boards.register();
 // dark oak
 var dark_oak_boards = VanillaFactory.createBlock("dark_oak_boards", <blockmaterial:Wood>);
@@ -1684,6 +1685,12 @@ tapestry_cyan.setBlockSoundType(<soundtype:cloth>);
 tapestry_cyan.setBlockHardness(0.8);
 tapestry_cyan.setBlockResistance(0.8);
 tapestry_cyan.register();
+var tapestry_white = VanillaFactory.createBlock("tapestry_white", <blockmaterial:Ground>);
+tapestry_white.setCreativeTab(<creativetab:rotn_blocks>);
+tapestry_white.setBlockSoundType(<soundtype:cloth>);
+tapestry_white.setBlockHardness(0.8);
+tapestry_white.setBlockResistance(0.8);
+tapestry_white.register();
 
 var egg_block = VanillaFactory.createBlock("egg_block", <blockmaterial:Dragon_Egg>);
 egg_block.setCreativeTab(<creativetab:decorations>);
@@ -2032,14 +2039,47 @@ dry_block_rock.setBlockHardness(25);
 dry_block_rock.setBlockResistance(15.0);
 dry_block_rock.register();
 
-//Dhvarā blocks
+// Dhvarā blocks
 var dhvara_knot = VanillaFactory.createBlock("dhvara_knot", <blockmaterial:Iron>);
 dhvara_knot.setCreativeTab(<creativetab:rotn_blocks>);
 dhvara_knot.setToolLevel(2);
 dhvara_knot.setBlockHardness(25);
 dhvara_knot.register();
 
-//Liquids
+// Sunstone
+var sunstone_block = VanillaFactory.createBlock("sunstone_block", <blockmaterial:Iron>);
+sunstone_block.setCreativeTab(<creativetab:rotn_blocks>);
+sunstone_block.setToolLevel(1);
+sunstone_block.setBlockHardness(10.0);
+sunstone_block.setLightValue(1.0);
+sunstone_block.register();
+
+// Blendrein
+var blendrein_block = VanillaFactory.createBlock("blendrein_block", <blockmaterial:Iron>);
+blendrein_block.setCreativeTab(<creativetab:rotn_blocks>);
+blendrein_block.setToolLevel(3);
+blendrein_block.setBlockHardness(80.0);
+blendrein_block.setLightValue(0.1);
+blendrein_block.register();
+var blendrein_chiseled = VanillaFactory.createBlock("blendrein_chiseled", <blockmaterial:Iron>);
+blendrein_chiseled.setCreativeTab(<creativetab:rotn_blocks>);
+blendrein_chiseled.setToolLevel(3);
+blendrein_chiseled.setBlockHardness(80.0);
+blendrein_chiseled.setLightValue(0.2);
+blendrein_chiseled.register();
+var blendrein_nourished = VanillaFactory.createBlock("blendrein_nourished", <blockmaterial:Iron>);
+blendrein_nourished.setCreativeTab(<creativetab:rotn_blocks>);
+blendrein_nourished.setToolLevel(3);
+blendrein_nourished.setBlockHardness(90.0);
+blendrein_nourished.setLightValue(0.1);
+blendrein_nourished.register();
+var blendrein_reinforced = VanillaFactory.createBlock("blendrein_reinforced", <blockmaterial:Iron>);
+blendrein_reinforced.setCreativeTab(<creativetab:rotn_blocks>);
+blendrein_reinforced.setToolLevel(3);
+blendrein_reinforced.setBlockHardness(300.0);
+blendrein_reinforced.register();
+
+// Liquids
 var ender_slag = VanillaFactory.createFluid("ender_slag", Color.fromHex("fffdd0"));
 ender_slag.density = 1900;
 ender_slag.temperature = 500;

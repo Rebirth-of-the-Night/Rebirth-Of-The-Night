@@ -119,7 +119,8 @@ lunarQuintessence.add(
     <aether_legacy:purple_flower>,
     <defiledlands:scuttler_eye>,
     <defiledlands:scuronotte>,
-    <rustic:mooncap_mushroom>
+    <rustic:mooncap_mushroom>,
+    <pyrotech:gloamberries>
 );
 
 // Solar
