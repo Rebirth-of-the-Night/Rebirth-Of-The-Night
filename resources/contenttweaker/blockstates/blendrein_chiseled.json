@@ -2,8 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "all": "base:blocks/ferrought",
-      "particle": "base:blocks/ferrought"
+      "all": "contenttweaker:blocks/blendrein_chiseled",
+      "particle": "contenttweaker:blocks/blendrein_chiseled"
     },
     "model": "contenttweaker:base_block",
     "uvlock": true,
