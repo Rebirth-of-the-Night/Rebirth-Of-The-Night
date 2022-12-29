@@ -256,6 +256,11 @@ events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteract
 			event.cancel();
 		}
 	}
+
+	// Disable wrought axe 
+	if (!isNull(event.item) && event.item.matches(<mowziesmobs:wrought_axe>)) {
+		event.cancel();
+	}
 });
 /*
 events.onPlayerInteractEntity(function(event as crafttweaker.event.PlayerInteractEntityEvent) {

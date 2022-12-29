@@ -60,8 +60,7 @@
       "ArmorItems": [
         { "Count": 1, "id": "minecraft:iron_boots" },
         { "Count": 1, "id": "dungeontactics:steel_leggings"},
-        { "Count": 1, "id": "atop:mud_chestplate" },
-        { "Count": 1, "id": "contenttweaker:fire_block" }
+        { "Count": 1, "id": "atop:mud_chestplate" }
       ],
       "HandDropChances": [ 1.0, 1.0 ],
       "ForgeData": {
