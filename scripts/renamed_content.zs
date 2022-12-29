@@ -281,6 +281,8 @@ for potion in potionMap{
 <spartancompat:javelin_mythril:*>.addTooltip(format.darkPurple("Epic Weapon"));
 <spartanshields:shield_basic_lead:*>.addTooltip(format.darkPurple("Epic Shield"));
 
+<msmlegacy:relic_keyblade:*>.addTooltip(format.darkPurple("Epic Weapon"));
+<msmlegacy:relic_infinity:*>.addTooltip(format.darkPurple("Epic Weapon"));
 
 <mod_lavacow:war:*>.addTooltip(format.darkPurple("Epic Weapon"));
 <mod_lavacow:sludge_wand:*>.addTooltip(format.darkPurple("Epic Weapon"));
