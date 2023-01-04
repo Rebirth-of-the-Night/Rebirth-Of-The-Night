@@ -56,4 +56,3 @@ JEI.removeAndHide(<customdisc:sussy>);
 JEI.removeAndHide(<customdisc:alvae>);
 JEI.removeAndHide(<customdisc:alpha>);
 JEI.removeAndHide(<customdisc:aceltictale>);
-JEI.removeAndHide(<customdisc:signal>);

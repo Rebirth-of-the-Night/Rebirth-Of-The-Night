@@ -418,7 +418,6 @@ var m_shard = <nyx:meteor_shard>;
 var gem_water = <contenttweaker:waterlogged_sapphire>;
 var gem_fire = <contenttweaker:earthen_ruby>;
 var v_shard = <contenttweaker:material_part:10>;
-var steel = <dungeontactics:steel_ingot>;
 
 mods.betterwithmods.Anvil.addShapedFixed(<msmlegacy:relic_infinity>, 
 [
