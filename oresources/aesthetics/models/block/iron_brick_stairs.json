@@ -3,21 +3,21 @@
 	"parent": "block/block",
 	"texture_size": [32, 32],
 	"textures": {
-		"1": "aesthetics:blocks/steel_beam"
+		"1": "aesthetics:blocks/steel_beam",
+		"particle": "aesthetics:blocks/steel_beam"
 	},
 	"elements": [
 		{
 			"name": "binder",
-			"from": [9.29541, -7.7339, 0.01],
-			"to": [13.27541, 2.2461, 15.99],
-			"rotation": {"angle": 45, "axis": "z", "origin": [0, 0, 0]},
+			"from": [9.20361, -7.00216, 0.01],
+			"to": [13.18361, 2.97784, 15.99],
+			"rotation": {"angle": 45, "axis": "z", "origin": [-0.0918, 0.73174, -0.03]},
 			"faces": {
-				"north": {"uv": [1.5, 14, 6.5, 16], "rotation": 90, "texture": "#1"},
+				"north": {"uv": [0, 14, 5, 16], "rotation": 90, "texture": "#1"},
 				"east": {"uv": [8, 0, 16, 5], "texture": "#1"},
-				"south": {"uv": [1.5, 14, 6.5, 16], "rotation": 90, "texture": "#1"},
+				"south": {"uv": [0, 14, 5, 16], "rotation": 90, "texture": "#1"},
 				"west": {"uv": [8, 0, 16, 5], "texture": "#1"},
-				"up": {"uv": [0, 14, 8, 16], "rotation": 90, "texture": "#1"},
-				"down": {"uv": [0, 0, 2, 16], "texture": "#1"}
+				"up": {"uv": [0, 8, 2, 16], "texture": "#1"}
 			}
 		},
 		{
@@ -67,7 +67,7 @@
 				"north": {"uv": [0, 15, 1, 16], "texture": "#1"},
 				"east": {"uv": [0, 12, 16, 16], "texture": "#1"},
 				"south": {"uv": [0, 15, 1, 16], "texture": "#1"},
-				"west": {"uv": [0, 15, 8, 16], "texture": "#1"},
+				"west": {"uv": [0, 15, 8, 16], "rotation": 180, "texture": "#1"},
 				"up": {"uv": [0, 8, 1, 16], "texture": "#1"},
 				"down": {"uv": [0, 7.5, 8, 8.5], "rotation": 90, "texture": "#1"}
 			}
@@ -182,6 +182,31 @@
 					"origin": [8, 9, -4.42893],
 					"color": 0,
 					"children": [9, 10]
+				},
+				{
+					"name": "block",
+					"origin": [4.17193, 3.6364, 5],
+					"color": 0,
+					"children": [
+						{
+							"name": "mid_beam",
+							"origin": [10.87939, 10.34244, 8],
+							"color": 0,
+							"children": []
+						},
+						{
+							"name": "right_beam",
+							"origin": [8, 9, -4.42893],
+							"color": 0,
+							"children": []
+						},
+						{
+							"name": "left_beam",
+							"origin": [8, 9, -4.42893],
+							"color": 0,
+							"children": []
+						}
+					]
 				}
 			]
 		}
