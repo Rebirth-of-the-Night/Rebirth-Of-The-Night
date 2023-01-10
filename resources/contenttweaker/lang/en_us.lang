@@ -160,6 +160,11 @@ tile.contenttweaker.willow_lacquered.name=Willow Lacquered Boards
 tile.contenttweaker.witheredblock.name=Block of Wither Ashes
 tile.contenttweaker.wyrmwood_boards.name=Wyrmwood Nailed Boards
 tile.contenttweaker.wyrmwood_lacquered.name=Wyrmwood lacquered Boards
+tile.contenttweaker.raw_ferrought_block.name=Raw Ferrought Block
+tile.contenttweaker.ferrought_plate.name=Ferrought Plate
+tile.contenttweaker.ferrought_corrugated.name=Corrugated Ferrought Block
+tile.contenttweaker.ferrought_hammered.name=Hammered Ferrought Block
+tile.contenttweaker.nether_flower.name=Crossroads Radiata
 
 #------------------------------------------------------------------------------
 # Unorganized items A-Z

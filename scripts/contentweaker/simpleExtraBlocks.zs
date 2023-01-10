@@ -336,6 +336,12 @@ raw_gravitite.setCreativeTab(<creativetab:rotn_blocks>);
 raw_gravitite.setToolLevel(1);
 raw_gravitite.register();
 
+// raw_ferrought
+var raw_ferrought_block = VanillaFactory.createBlock("raw_ferrought_block", <blockmaterial:Iron>);
+raw_ferrought_block.setCreativeTab(<creativetab:rotn_blocks>);
+raw_ferrought_block.setToolLevel(1);
+raw_ferrought_block.register();
+
 // raw_viridium_block
 var raw_viridium_block = VanillaFactory.createBlock("raw_viridium_block", <blockmaterial:Iron>);
 raw_viridium_block.setCreativeTab(<creativetab:rotn_blocks>);
@@ -2053,6 +2059,23 @@ sunstone_block.setToolLevel(1);
 sunstone_block.setBlockHardness(10.0);
 sunstone_block.setLightValue(1.0);
 sunstone_block.register();
+
+// Ferrought blocks
+var ferrought_plate = VanillaFactory.createBlock("ferrought_plate", <blockmaterial:Iron>);
+ferrought_plate.setCreativeTab(<creativetab:rotn_blocks>);
+ferrought_plate.setToolLevel(2);
+ferrought_plate.setBlockHardness(25);
+ferrought_plate.register();
+var ferrought_corrugated = VanillaFactory.createBlock("ferrought_corrugated", <blockmaterial:Iron>);
+ferrought_corrugated.setCreativeTab(<creativetab:rotn_blocks>);
+ferrought_corrugated.setToolLevel(2);
+ferrought_corrugated.setBlockHardness(25);
+ferrought_corrugated.register();
+var ferrought_hammered = VanillaFactory.createBlock("ferrought_hammered", <blockmaterial:Iron>);
+ferrought_hammered.setCreativeTab(<creativetab:rotn_blocks>);
+ferrought_hammered.setToolLevel(2);
+ferrought_hammered.setBlockHardness(25);
+ferrought_hammered.register();
 
 // Blendrein
 var blendrein_block = VanillaFactory.createBlock("blendrein_block", <blockmaterial:Iron>);
