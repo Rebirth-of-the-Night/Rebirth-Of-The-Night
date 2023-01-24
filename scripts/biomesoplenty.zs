@@ -42,6 +42,9 @@ JEI.removeAndHide(<pyrotech:bucket_wood>.withTag({fluids: {FluidName: "honey", A
 JEI.removeAndHide(<pyrotech:bucket_clay>.withTag({fluids: {FluidName: "honey", Amount: 1000}}));
 JEI.removeAndHide(<pyrotech:bucket_stone>.withTag({fluids: {FluidName: "honey", Amount: 1000}}));
 
+JEI.removeAndHide(<biomesoplenty:mushroom:5>);
+JEI.removeAndHide(<biomesoplenty:grass>);
+
 <ore:foodFilledhoneycomb>.remove(<biomesoplenty:filled_honeycomb>);
 
 recipes.remove(<biomesoplenty:hive:1>);
