@@ -92,12 +92,15 @@ Dropt.list("codex_junk")
       )
   );
   
-Dropt.list("halite")
+Dropt.list("halolite")
 
   .add(Dropt.rule()
-      .matchBlocks(["contenttweaker:halite"])
+      .matchBlocks(["contenttweaker:halolite"])
       .addDrop(Dropt.drop()
-          .items([<animania:salt>], Dropt.range(1, 3))
+          .items([<animania:salt>], Dropt.range(1))
+      )
+	  .addDrop(Dropt.drop()
+          .items([<contenttweaker:halolite>], Dropt.range(3))
       )
   );
 

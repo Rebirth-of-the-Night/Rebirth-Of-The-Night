@@ -176,6 +176,22 @@ val greasy_stem = VanillaFactory.createItem("greasy_stem");
 greasy_stem.register();
 val coke_pieces = VanillaFactory.createItem("coke_pieces");
 coke_pieces.register();
+val halolite_shard = VanillaFactory.createItem("halolite_shard");
+halolite_shard.register();
+val sunstone_shard = VanillaFactory.createItem("sunstone_shard");
+sunstone_shard.register();
+val sunstone_shard_ag = VanillaFactory.createItem("sunstone_shard_ag");
+sunstone_shard_ag.register();
+val still_gale = VanillaFactory.createItem("still_gale");
+still_gale.register(); 
+val solid_ember = VanillaFactory.createItem("solid_ember");
+solid_ember.register();
+val unspoken_ripple = VanillaFactory.createItem("unspoken_ripple");
+unspoken_ripple.register();
+val withering_bone = VanillaFactory.createItem("withering_bone");
+withering_bone.register();
+val scapula = VanillaFactory.createItem("scapula");
+scapula.register();
 
 // Soul Forged Steel artifacts
 val sfs1 = VanillaFactory.createItem("sfs_artifact");
@@ -200,6 +216,9 @@ sfs9.register();
 // Steel artifacts
 val sa1 = VanillaFactory.createItem("steel_artifact");
 sa1.register();
+
+val ferrought_jewelbox = VanillaFactory.createItem("ferrought_jewelbox");
+ferrought_jewelbox.register();
 
 // non-ingot ingots
 val sapphire = VanillaFactory.createItem("sapphire_ingot");

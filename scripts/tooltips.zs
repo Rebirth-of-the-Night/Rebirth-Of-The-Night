@@ -266,6 +266,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <quark:horse_whistle:*>.addTooltip("Summons your trusty steed, even from a great distance away.");
 <quark:grate:*>.addTooltip("Most animals are afraid of walking on metal grates.");
 <quark:iron_ladder:*>.addTooltip("Right click on a tin ladder to place another ladder below which doesn't require a standing block.");
+<quark:witch_hat:*>.addTooltip("Protects you from spectres.");
 
 // Quark Hoes
 <minecraft:stone_hoe:*>.addTooltip("Breaks grass and crops in a 3x3 area.");
