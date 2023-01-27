@@ -180,6 +180,8 @@ val halolite_shard = VanillaFactory.createItem("halolite_shard");
 halolite_shard.register();
 val sunstone_shard = VanillaFactory.createItem("sunstone_shard");
 sunstone_shard.register();
+val sunstone_shard_ga = VanillaFactory.createItem("sunstone_shard_ga");
+sunstone_shard_ga.register();
 val sunstone_shard_ag = VanillaFactory.createItem("sunstone_shard_ag");
 sunstone_shard_ag.register();
 val still_gale = VanillaFactory.createItem("still_gale");

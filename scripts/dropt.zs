@@ -96,11 +96,14 @@ Dropt.list("halolite")
 
   .add(Dropt.rule()
       .matchBlocks(["contenttweaker:halolite"])
+	  .dropStrategy("UNIQUE")
       .addDrop(Dropt.drop()
+	      .force()
           .items([<animania:salt>], Dropt.range(1))
       )
 	  .addDrop(Dropt.drop()
-          .items([<contenttweaker:halolite>], Dropt.range(3))
+	      .force()
+          .items([<contenttweaker:halolite_shard>], Dropt.range(3))
       )
   );
 
