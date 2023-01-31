@@ -3,14 +3,16 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 
-val dung = [<ore:dung>] as IIngredient[];
+val dung = <betterwithmods:material:5>;
 val coal_dust = [<ore:dustCoal>] as IIngredient[];
-val charcoal_dust = [<ore:dustCharcoal>] as IIngredient[];
+//val charcoal_dust = [<ore:dustCharcoal>] as IIngredient[];
+//val slimeball = [<ore:slimeball>] as IIngredient[];
+//val sugar = [<ore:listAllsugar>] as IIngredient[];
 
-/*mods.primal.Cauldron.addRecipe("dung_tannin_tiny", 3, <liquid:water>, <liquid:tannin>, 
-    [dung], 
+mods.primal.Cauldron.addRecipe("dung_tannin_tiny", 3, <liquid:water>*250, <liquid:tannin>*250, 
+    [<betterwithmods:material:5>], 
     [null]
-);*/
+);
 
 mods.primal.Cauldron.addRecipe("awkward_potion", 3, <liquid:water>, null, 
     [<betterwithmods:material:26>,<minecraft:glass_bottle>], 
@@ -31,6 +33,19 @@ mods.primal.Cauldron.addRecipe("methanol", 3, <liquid:water>, <liquid:methanol>,
     [<pyrotech:rock:7>], 
     [null]
 );
+
+mods.primal.Cauldron.addRecipe("horse_upgrade_variant", 2, <liquid:water>*1000, null, 
+    [<biomesoplenty:berries>,<biomesoplenty:berries>,<biomesoplenty:berries>,<primitivemobs:camouflage_dye>], 
+    [<cyclicmagic:horse_upgrade_variant>]
+);
+/*mods.primal.Cauldron.addRecipe("horse_upgrade_jump", 2, <liquid:water>*1000, null, 
+    [<biomesoplenty:berries>,<biomesoplenty:berries>,<biomesoplenty:berries>,sugar], 
+    [<cyclicmagic:horse_upgrade_jump>]
+);
+mods.primal.Cauldron.addRecipe("horse_upgrade_speed", 2, <liquid:water>*1000, null, 
+    [<biomesoplenty:berries>,<biomesoplenty:berries>,<biomesoplenty:berries>,slimeball], 
+    [<cyclicmagic:horse_upgrade_speed>]
+);*/
 
 //val copperDust = <contenttweaker:material_part:20>;
 //val tinDust = <contenttweaker:material_part:21>;

@@ -270,6 +270,12 @@
 		"isCreative": false
     },
 	{
+        "motive": "i_was_regent",
+        "width": 2,
+        "height": 2,
+		"isCreative": false
+    },
+	{
         "motive": "banner_drake",
         "width": 1,
         "height": 3,

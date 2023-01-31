@@ -41,9 +41,6 @@ LootTable.removeGlobalItem("artifacts:shock_pendant");
 JEI.removeAndHide(<artifacts:thorn_pendant>);
 LootTable.removeGlobalItem("artifacts:thorn_pendant");
 
-JEI.removeAndHide(<artifacts:obsidian_skull>);
-LootTable.removeGlobalItem("artifacts:obsidian_skull");
-
 JEI.removeAndHide(<bountifulbaubles:enderdragonscale>);
 LootTable.removeGlobalItem("bountifulbaubles:enderdragonscale");
 
@@ -55,8 +52,6 @@ LootTable.removeGlobalItem("bountifulbaubles:ringflywheel");
 LootTable.removeGlobalItem("bountifulbaubles:ringflywheeladvanced");
 
 // Remove baubles
-LootTable.removeGlobalItem("artifacts:tiny_shirt");
-JEI.removeAndHide(<artifacts:tiny_shirt>);
 
 LootTable.removeGlobalItem("bountifulbaubles:trinketankhcharm");
 JEI.removeAndHide(<bountifulbaubles:trinketankhcharm>);

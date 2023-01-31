@@ -48,18 +48,7 @@ mods.primal.Blade.removeAll();
 
 mods.primal.BrickMold.removeAll();
 
-mods.primal.DryingRack.removeRecipe("primal:adobe_brick");
-mods.primal.DryingRack.removeRecipe("primal:potato");
-mods.primal.DryingRack.removeRecipe("primal:block_clay");
-mods.primal.DryingRack.removeRecipe("primal:terra_brick");
-mods.primal.DryingRack.removeRecipe("primal:cinis_brick");
-mods.primal.DryingRack.removeRecipe("primal:mud_brick");
-mods.primal.DryingRack.removeRecipe("primal:nether_fiber_pulp");
-mods.primal.DryingRack.removeRecipe("primal:plant_fiber_pulp");
-mods.primal.DryingRack.removeRecipe("primal:valus_stalk");
-mods.primal.DryingRack.removeRecipe("primal:corn_stalk");
-mods.primal.DryingRack.removeRecipe("primal:thatching");
-mods.primal.DryingRack.removeRecipe("primal:daucus_murn_fronds");
+mods.primal.DryingRack.removeAll();
 
 mods.primal.Smelter.removeRecipe("primal:obsidian_shard");
 mods.primal.Smelter.removeRecipe("primal:charcoal_stripped");

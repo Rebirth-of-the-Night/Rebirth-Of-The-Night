@@ -11,22 +11,16 @@
 					"name": "minecraft:grass"
 					},
 					{
-					"name": "minecraft:dirt"
-					},
-					{
 					"name": "biomesoplenty:mud"
 					},
 					{
 					"name": "biomesoplenty:grass"
-					},
-					{
-					"name": "biomesoplenty:dirt"
 					}
 				],
-				"cluster-size": 26
+				"cluster-size": 20
 			},
-			"cluster-count": 2,
-			"chunk-chance": 6,
+			"cluster-count": 3,
+			"chunk-chance": 5,
 			"biome": {
 				"restriction": "whitelist",
 				"value": [

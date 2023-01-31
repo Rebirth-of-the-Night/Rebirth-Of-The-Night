@@ -1,0 +1,36 @@
+{
+	"populate": 
+	{
+		"codices": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": "contenttweaker:codex_junk",
+				"surface": [
+					"minecraft:grass",
+					"minecraft:dirt",
+					"minecraft:gravel",
+					"minecraft:sand",
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone",
+					"biomesoplenty:grass"
+				],
+				"cluster-size": 1
+			},
+			"material": [
+					"minecraft:grass",
+					"minecraft:dirt",
+					"minecraft:gravel",
+					"minecraft:sand",
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone",
+					"biomesoplenty:grass"
+				],
+			"cluster-count": 1,
+			"chunk-chance": 3,
+			"retrogen": "true",
+		}
+	}
+}
