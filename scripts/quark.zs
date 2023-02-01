@@ -16,6 +16,8 @@ import mods.jei.JEI;
 import mods.artisanworktables.builder.RecipeBuilder;
 
 val leather_sheet = <pyrotech:material:38>;
+var flimsywaterbucket = <pyrotech:bucket_stone>.withTag({durability: 32767, fluids: {FluidName: "water", Amount: 1000}}).transformReplace(<pyrotech:bucket_stone>);
+var qualitybucket = <minecraft:water_bucket>.transformReplace(<minecraft:bucket>);
 
 	// removes various types of stone walls
 var sWalls = [
@@ -85,9 +87,9 @@ recipes.addShaped("iron_plate_2_1",<quark:iron_plate:1>*8,[
     [<quark:iron_plate>,<quark:iron_plate>,<quark:iron_plate>]
 ]);
 recipes.addShaped("iron_plate", <contenttweaker:iron_plate>*24, [
-	[<ore:ingotIron>,<ore:ingotIron>,<ore:ingotIron>],
-	[<ore:ingotIron>,<minetraps:nails:*>,<ore:ingotIron>],
-	[<ore:ingotIron>,<ore:ingotIron>,<ore:ingotIron>]
+	[<minecraft:iron_ingot>,<minecraft:iron_ingot>,<minecraft:iron_ingot>],
+	[<minecraft:iron_ingot>,<minetraps:nails:*>,<minecraft:iron_ingot>],
+	[<minecraft:iron_ingot>,<minecraft:iron_ingot>,<minecraft:iron_ingot>]
 ]);
 recipes.addShaped("brass_plate", <contenttweaker:brass_plate>*24, [
 	[<ore:ingotBrass>,<ore:ingotBrass>,<ore:ingotBrass>],
@@ -98,6 +100,11 @@ recipes.addShaped("tin_plate", <contenttweaker:tin_plate>*24, [
 	[<ore:ingotTin>,<ore:ingotTin>,<ore:ingotTin>],
 	[<ore:ingotTin>,<minetraps:nails:*>,<ore:ingotTin>],
 	[<ore:ingotTin>,<ore:ingotTin>,<ore:ingotTin>]
+]);
+recipes.addShaped("sfs_plate", <netherex:worn_iron>*24, [
+	[<ore:ingotSoulforgedSteel>,<ore:ingotSoulforgedSteel>,<ore:ingotSoulforgedSteel>],
+	[<ore:ingotSoulforgedSteel>,<minetraps:nails:*>,<ore:ingotSoulforgedSteel>],
+	[<ore:ingotSoulforgedSteel>,<ore:ingotSoulforgedSteel>,<ore:ingotSoulforgedSteel>]
 ]);
 
 

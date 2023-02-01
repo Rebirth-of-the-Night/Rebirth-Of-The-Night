@@ -291,6 +291,7 @@ Infuser.addShapeless(<cyclicmagic:wand_hypno>,
 Infuser.addShapeless(<spartancompat:katana_onyx>.withTag({"Quark:RuneColor": 0, ench: [{lvl: 5 as short, id: 25 as short}], RepairCost: 1, Quality: {}, display: {Name: "§4Unlabored §o§6Flawlessness"}, "Quark:RuneAttached": 1 as byte}),[<spartanweaponry:katana_wood>, <simpleores:onyx_rod>], 27);
 
 Infuser.removeAllTransmutation();
+Infuser.addTransmutation(<contenttweaker:ofuda>,<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 267}]}), 44); //if this break, the enchantment is cursebreak from RLtweaker
 Infuser.addTransmutation(<betternether:gray_mold>,<contenttweaker:koji_mold>, 1);
 Infuser.addTransmutation(<dynamictrees:oakseed>,<dynamictreesbop:whitecherryseed>, 1);
 Infuser.addTransmutation(<dynamictreesbop:orangeautumnseed>,<dynamictreesbop:whitecherryseed>, 1);

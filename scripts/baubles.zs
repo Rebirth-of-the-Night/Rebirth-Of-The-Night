@@ -62,7 +62,6 @@ JEI.removeAndHide(<bountifulbaubles:flare_red>);
 LootTable.removeGlobalItem("bountifulbaubles:flare_red");
 
 JEI.removeAndHide(<bountifulbaubles:shieldcobalt>);
-JEI.removeAndHide(<bountifulbaubles:trinketballoon>);
 JEI.removeAndHide(<bountifulbaubles:shieldobsidian>);
 JEI.removeAndHide(<bountifulbaubles:trinketluckyhorseshoe>);
 
@@ -156,9 +155,9 @@ val inertRing = itemUtils.getItemsByRegexRegistryName("behgameon:ring_.*$(?<!53|
 val baubleCurio = <ore:baubleCurio>;
 baubleCurio.add(
   <minecraft:totem_of_undying>,
-  <artifacts:shiny_red_balloon>,
-  <artifacts:lucky_horseshoe>,
-  <artifacts:cobalt_shield>,
+  <bountifulbaubles:trinketballoon>,
+  <bountifulbaubles:trinketluckyhorseshoe>,
+  <bountifulbaubles:shieldcobalt>,
   <behgameon:accessory_33>,
   <behgameon:accessory_34>,
   <behgameon:accessory_35>,
@@ -189,7 +188,6 @@ baubleCurio.add(
 
 val baubleHead = <ore:baubleHead>;
 baubleHead.add(
-  <artifacts:snorkel>,
   <artifacts:drinking_hat>,
   <artifacts:night_vision_goggles>,
   <bountifulbaubles:trinketmagiclenses>
@@ -541,20 +539,6 @@ RecipeBuilder.get("mage")
   .setMaximumTier(1)
   .create();
 
-// Snorkel
-
-RecipeBuilder.get("mage")
-  .setShaped([
-    [<contenttweaker:vis_sliver>, <cyclicmagic:fluid_pipe>, <contenttweaker:vis_sliver>],
-    [<contenttweaker:magicked_lens>, <betterwithmods:material:3>, <contenttweaker:magicked_lens>],
-    [<contenttweaker:vis_sliver>, <contenttweaker:waterlogged_sapphire>, <contenttweaker:vis_sliver>]])
-  .addTool(<contenttweaker:water_rune>, 1)
-  .addTool(<contenttweaker:order_rune>, 1)
-  .addOutput(<artifacts:snorkel>)
-  .setMinimumTier(1)
-  .setMaximumTier(1)
-  .create();
-
 // Ender dragon drops cracked scales AND scale fragments. Use fragments to craft into cracked scales. Use cracked scales to craft into the scale bauble.
 
 // Cracked Ender Dragon Scale
@@ -573,7 +557,7 @@ recipes.addShaped(<artifacts:whoopie_cushion>,
 
 // Balloon
 
-recipes.remove(<artifacts:shiny_red_balloon>);
+recipes.remove(<bountifulbaubles:trinketballoon>);
 
 RecipeBuilder.get("mage")
   .setShaped([
@@ -581,7 +565,7 @@ RecipeBuilder.get("mage")
     [<ore:cloudAny>, <minecraft:wool:14>, <ore:cloudAny>],
     [<contenttweaker:vis_speck>, <minecraft:string>, <contenttweaker:vis_speck>]])
   .addTool(<contenttweaker:air_rune>, 1)
-  .addOutput(<artifacts:shiny_red_balloon>)
+  .addOutput(<bountifulbaubles:trinketballoon>)
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
@@ -697,7 +681,7 @@ RecipeBuilder.get("mage")
   .setMaximumTier(1)
   .create();
 
-// Obsidian Skull (Artifacts)
+/*// Obsidian Skull (Artifacts)
 
 RecipeBuilder.get("mage")
   .setShaped([
@@ -709,7 +693,7 @@ RecipeBuilder.get("mage")
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
-
+*/
 // Obsidian Skull (BB)
 
 recipes.remove(<bountifulbaubles:trinketobsidianskull>);
@@ -742,7 +726,7 @@ RecipeBuilder.get("mage")
 
 // Cobalt Shield
 
-recipes.remove(<artifacts:cobalt_shield>);
+recipes.remove(<bountifulbaubles:shieldcobalt>);
 
 RecipeBuilder.get("mage")
   .setShaped([
@@ -751,7 +735,7 @@ RecipeBuilder.get("mage")
     [<contenttweaker:vis_shard>, <twilightforest:knightmetal_ingot>, <contenttweaker:vis_shard>]])
   .addTool(<contenttweaker:draconic_rune>, 1)
   .addTool(<contenttweaker:strength_rune>, 1)
-  .addOutput(<artifacts:cobalt_shield>)
+  .addOutput(<bountifulbaubles:shieldcobalt>)
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
@@ -855,7 +839,7 @@ RecipeBuilder.get("mage")
 
 // Lucky Horseshoe
 
-recipes.remove(<artifacts:lucky_horseshoe>);
+recipes.remove(<bountifulbaubles:trinketluckyhorseshoe>);
 
 RecipeBuilder.get("mage")
   .setShaped([
@@ -864,7 +848,7 @@ RecipeBuilder.get("mage")
     [<ore:ingotElectrum>.firstItem, <ore:ingotGravitite>, <ore:ingotElectrum>.firstItem]])
   .addTool(<contenttweaker:aether_rune>, 1)
   .addTool(<contenttweaker:air_rune>, 1)
-  .addOutput(<artifacts:lucky_horseshoe>)
+  .addOutput(<bountifulbaubles:trinketluckyhorseshoe>)
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();

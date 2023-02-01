@@ -165,7 +165,7 @@ for potion in potionMap{
 <bountifulbaubles:amuletsinempty:*>.addTooltip(format.gray("Inert"));
 <artifacts:whoopie_cushion:*>.addTooltip(format.gray("Inert"));
 
-<artifacts:shiny_red_balloon:*>.addTooltip(format.darkGreen("Mundane"));
+<bountifulbaubles:trinketballoon:*>.addTooltip(format.darkGreen("Mundane"));
 <artifacts:drinking_hat:*>.addTooltip(format.darkGreen("Mundane"));
 <artifacts:obsidian_skull:*>.addTooltip(format.darkGreen("Mundane"));
 <iceandfire:lich_staff:*>.addTooltip(format.darkGreen("Mundane"));
@@ -176,7 +176,6 @@ for potion in potionMap{
 <bountifulbaubles:amuletsinpride:*>.addTooltip(format.aqua("Arcane"));
 <bountifulbaubles:amuletsinwrath:*>.addTooltip(format.aqua("Arcane"));
 <bountifulbaubles:amuletcross:*>.addTooltip(format.aqua("Arcane"));
-<artifacts:snorkel:*>.addTooltip(format.aqua("Arcane"));
 <artifacts:shock_pendant:*>.addTooltip(format.aqua("Arcane"));
 <artifacts:flame_pendant:*>.addTooltip(format.aqua("Arcane"));
 <artifacts:thorn_pendant:*>.addTooltip(format.aqua("Arcane"));
@@ -189,16 +188,16 @@ for potion in potionMap{
 <artifacts:panic_necklace:*>.addTooltip(format.aqua("Arcane"));
 <deadmanssatchel:deadmanssatchel:*>.addTooltip(format.aqua("Arcane"));
 <artifacts:magma_stone:*>.addTooltip(format.aqua("Arcane"));
-<randomthings:obsidianskullring:*>.addTooltip(format.aqua("Arcane"));
+//<randomthings:obsidianskullring:*>.addTooltip(format.aqua("Arcane"));
 
 <bountifulbaubles:trinketobsidianskull:*>.addTooltip(format.darkPurple("Mystical"));
-<artifacts:cobalt_shield:*>.addTooltip(format.darkPurple("Mystical"));
+<bountifulbaubles:shieldcobalt:*>.addTooltip(format.darkPurple("Mystical"));
 <bountifulbaubles:trinketmagiclenses:*>.addTooltip(format.darkPurple("Mystical"));
 <bountifulbaubles:ringoverclocking:*>.addTooltip(format.darkPurple("Mystical"));
 <bountifulbaubles:trinketshulkerheart:*>.addTooltip(format.darkPurple("Mystical"));
 <bountifulbaubles:trinketbezoar:*>.addTooltip(format.darkPurple("Mystical"));
 <bountifulbaubles:trinketblackdragonscale:*>.addTooltip(format.darkPurple("Mystical"));
-<artifacts:lucky_horseshoe:*>.addTooltip(format.darkPurple("Mystical"));
+<bountifulbaubles:trinketluckyhorseshoe:*>.addTooltip(format.darkPurple("Mystical"));
 <bountifulbaubles:trinketbrokenheart:*>.addTooltip(format.darkPurple("Mystical"));
 <artifacts:ultimate_pendant:*>.addTooltip(format.darkPurple("Mystical"));
 <artifacts:fire_gauntlet:*>.addTooltip(format.darkPurple("Mystical"));
@@ -207,7 +206,7 @@ for potion in potionMap{
 <bountifulbaubles:trinketapple:*>.addTooltip(format.gold("Ascended"));
 <bountifulbaubles:trinketvitamins:*>.addTooltip(format.gold("Ascended"));
 <bountifulbaubles:ringfreeaction:*>.addTooltip(format.gold("Ascended"));
-<artifacts:night_vision_goggles:*>.addTooltip(format.gold("Ascended"));
+//<artifacts:night_vision_goggles:*>.addTooltip(format.gold("Ascended"));
 
 <bountifulbaubles:trinketobsidianskull>.displayName = "§bDraconic Skull";
 <randomthings:lavacharm>.displayName = "§bLava Ring";
