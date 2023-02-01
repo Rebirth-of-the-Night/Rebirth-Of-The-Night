@@ -190,6 +190,7 @@ RecipeBuilder.get("mage")
   .addOutput(<quark:soul_bead>)
   .create();
 
+recipes.removeByRecipeName("quark:wheat");
 recipes.removeByRecipeName("quark:color_slime_4");
 recipes.removeByRecipeName("quark:slime");
 
