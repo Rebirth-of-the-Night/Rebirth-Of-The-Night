@@ -61,7 +61,7 @@ StoneKiln.addRecipe("bwmpumpkinpie", <minecraft:pumpkin_pie>, <betterwithmods:ra
 StoneKiln.addRecipe("bwmcookie", <minecraft:cookie>*8, <betterwithmods:raw_pastry:2>, 20*60, true);
 StoneKiln.addRecipe("bwmbread", <minecraft:bread>, <betterwithmods:raw_pastry:3>,20*60, true);
 //PitKiln.addRecipe("bwmapplepie", <betterwithmods:apple_pie>, <betterwithmods:raw_pastry:4>,200, true);
-PitKiln.addRecipe("raw_salt_from_sandstone", <contenttweaker:halolite>, <ore:sandstone>, 20*210, true);
+PitKiln.addRecipe("raw_salt_from_sandstone", <primal:ore_salt:1>, <ore:sandstone>, 20*210, true);
 //Misc
 //PitKiln.addRecipe("coral_lime", <pyrotech:material:35>*5, <coralreef:reef>,20*210, true);
 //note:add BOP coral here for slightly less return (easily harvestable item versus thick block of reef)
@@ -87,7 +87,8 @@ StoneKiln.addRecipe("sedimentary_cobble_to_stone6", <undergroundbiomes:sedimenta
 StoneKiln.addRecipe("sedimentary_cobble_to_stone7", <undergroundbiomes:sedimentary_stone:7>, <contenttweaker:chert_cobble>, 20*320, true);
 StoneKiln.addRecipe("metamorphic_cobble_to_stone_extra0", <contenttweaker:serpentinite>, <contenttweaker:serpentinite_cobblestone>, 20*320, true);
 
-StoneKiln.addRecipe("sand_to_glass", <minecraft:glass>, <ore:sand>, 20*320, true);
+StoneKiln.addRecipe("sand_to_glass", <minecraft:glass>, <ore:sand>, 12*320, true);
+StoneKiln.addRecipe("soulsand_to_soulglass", <netherex:soul_glass>, <ore:soulsand>, 12*320, true);
 
 //Unified kiln recipes
 

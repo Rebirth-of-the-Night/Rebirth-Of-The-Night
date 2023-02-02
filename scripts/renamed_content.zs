@@ -167,7 +167,6 @@ for potion in potionMap{
 
 <bountifulbaubles:trinketballoon:*>.addTooltip(format.darkGreen("Mundane"));
 <artifacts:drinking_hat:*>.addTooltip(format.darkGreen("Mundane"));
-<artifacts:obsidian_skull:*>.addTooltip(format.darkGreen("Mundane"));
 <iceandfire:lich_staff:*>.addTooltip(format.darkGreen("Mundane"));
 <aether_legacy:cloud_staff:*>.addTooltip(format.darkGreen("Mundane"));
 <defiledlands:tears_flame:*>.addTooltip(format.darkGreen("Mundane"));
@@ -188,7 +187,7 @@ for potion in potionMap{
 <artifacts:panic_necklace:*>.addTooltip(format.aqua("Arcane"));
 <deadmanssatchel:deadmanssatchel:*>.addTooltip(format.aqua("Arcane"));
 <artifacts:magma_stone:*>.addTooltip(format.aqua("Arcane"));
-//<randomthings:obsidianskullring:*>.addTooltip(format.aqua("Arcane"));
+<randomthings:obsidianskullring:*>.addTooltip(format.aqua("Arcane"));
 
 <bountifulbaubles:trinketobsidianskull:*>.addTooltip(format.darkPurple("Mystical"));
 <bountifulbaubles:shieldcobalt:*>.addTooltip(format.darkPurple("Mystical"));

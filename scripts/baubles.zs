@@ -189,7 +189,6 @@ baubleCurio.add(
 val baubleHead = <ore:baubleHead>;
 baubleHead.add(
   <artifacts:drinking_hat>,
-  <artifacts:night_vision_goggles>,
   <bountifulbaubles:trinketmagiclenses>
 );
 

@@ -99,16 +99,6 @@ charmpeat.setToolLevel(0);
 charmpeat.setBlockHardness(3.7);
 charmpeat.register();
 
-// Halolite /salt ore/
-var halolite = VanillaFactory.createBlock("halolite", <blockmaterial:Rock>);
-halolite.setCreativeTab(<creativetab:rotn_blocks>);
-halolite.setFullBlock(false);
-halolite.setBlockSoundType(<soundtype:glass>);
-halolite.setTranslucent(true);
-halolite.setLightValue(1);
-halolite.setToolLevel(0);
-halolite.register();
-
 // Salt pan
 var salt_pan = VanillaFactory.createBlock("salt_pan", <blockmaterial:Grass>);
 salt_pan.axisAlignedBB = AxisAlignedBB.create(
