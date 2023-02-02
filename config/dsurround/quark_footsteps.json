@@ -46,9 +46,36 @@
 		"quark:midori_pillar": "brickstone",
 		"quark:sturdy_stone": "stoneutility",
 		"quark:monster_box": "metalbar",
+
+		"contenttweaker:loose_big_brimstone_bricks": "brickstone,fire",
 		"quark:biome_brick[variant=fire_stone_brick]": "brickstone,fire",
+		"quark:fire_stone_brick_slab": "brickstone,fire",
+		"quark:fire_stone_brick_slab_double[prop=blarg]": "brickstone,fire",
+		"quark:fire_stone_brick_stairs[facing=north]": "brickstone,fire",
+		"quark:fire_stone_brick_stairs[facing=east]": "brickstone,fire",
+		"quark:fire_stone_brick_stairs[facing=south]": "brickstone,fire",
+		"quark:fire_stone_brick_stairs[facing=west]": "brickstone,fire",
+		"quark:fire_stone_brick_wall+bigger": "brickstone,fire",
+
+		"quark:biome_cobblestone[variant=fire_stone]": "stone,fire",
+		"quark:fire_stone_slab": "stone,fire",
+		"quark:fire_stone_slab_double[prop=blarg]": "stone,fire",
+		"quark:fire_stone_stairs[facing=north]": "stone,fire",
+		"quark:fire_stone_stairs[facing=east]": "stone,fire",
+		"quark:fire_stone_stairs[facing=south]": "stone,fire",
+		"quark:fire_stone_stairs[facing=west]": "stone,fire",
+		"quark:fire_stone_wall+bigger": "stone,fire",
+
+
 		"quark:biome_brick[variant=icy_stone_brick]": "brickstone,snow",
+
+
 		"quark:sandy_bricks": "sandstone",
+		"quark:sandy_bricks_stairs": "sandstone",
+		"quark:sandy_bricks_slab": "sandstone",
+		"quark:sandy_bricks_wall+bigger": "sandstone",
+		"quark:sandy_bricks_slab_double": "sandstone",
+
 		"quark:iron_rod": "metalbar"
 	}
 }

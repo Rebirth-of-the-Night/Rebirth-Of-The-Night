@@ -214,7 +214,6 @@ wards:effect_sonicboom
 wards:effect_clustered
 wards:effect_explosive
 wards:effect_debilitating
-wards:effect_smelting
 wards:effect_berserking
 wards:effect_mage_affinity
 wards:effect_restoration
