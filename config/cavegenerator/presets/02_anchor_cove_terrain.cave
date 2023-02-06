@@ -1,0 +1,45 @@
+{
+  dimensions: [ 0, 9 ]
+  enabled: true
+  replaceableBlocks: [ "air", "water" ]
+  caveBlocks: [ {
+      states: aether_legacy:holystone
+      height: [ 0, 255 ]
+    } ]
+  biomes: {
+    names: [ "biometweaker:anchor_cove" ]
+    IDs: []
+    types: []
+  }
+  caverns: [ {
+      height: [ 90, 160 ]
+      ceiling: {
+        seed: 99
+        type: perlin
+        frequency: 0.0053
+        range: [ 0, 10 ]
+      }
+      floor: {
+        seed: 99
+        type: perlin
+        frequency: 0.0053
+        range: [ 0, 160 ]
+      }
+      generators: {
+        seed: 99
+        stretch: 0
+        invert: true
+      }
+    } ]
+  wallDecorators: [ {
+      states: grass
+      integrity: 1
+      height: [ 0, 255 ]
+      matchers: air
+      placement: overlay
+      directions: up
+      generators: {
+        seed: 99
+      }
+    } ]
+}

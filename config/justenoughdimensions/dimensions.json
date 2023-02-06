@@ -2,7 +2,6 @@
     "dimensions": [
 		{
             "dim": 9,
-            "normal_biomes": true,
             "dimensiontype": {
                 "id": 9,
                 "name": "Skylands",
@@ -11,9 +10,12 @@
                 "worldprovider": "WorldProviderSurfaceJED",
                 "require_exact_match": true
             },
-            "worldinfo_onetime": {
+            "chunkgenerator": "com.noobanidus.superflatcaves.ChunkGeneratorFlatCaves",
+            "worldinfo": {
                 "generatorName": "flat",
-                "generatorOptions": "3;minecraft:air;1;",
+                "generatorOptions": "3;256*minecraft:air;1;caves,ravines,decoration"
+            },
+            "worldinfo_onetime": {
                 "SpawnX": 256,
                 "SpawnY": 32,
                 "SpawnZ": 256,

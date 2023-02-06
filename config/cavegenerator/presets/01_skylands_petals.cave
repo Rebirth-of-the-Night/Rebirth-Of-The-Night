@@ -1,0 +1,42 @@
+{
+  dimensions: [ 0, 9 ]
+  enabled: true
+  biomes: {
+    names: [ "biometweaker:blossoming_lands", "biometweaker:anchor_cove" ]
+    IDs: []
+    types: []
+  }
+  burrows: {
+    // This makes them tall
+    stretch: 1.1
+    height: [ 180, 215 ]
+    // This makes them flat
+    offset: {
+      range: [ 180, 215 ]
+      frequency: 0.0025
+    }
+    target: 0.04
+    replaceableBlocks: air
+    replaceDecorators: true
+    caveBlocks: [
+      {
+        states: quark:variant_leaves:1
+        height: [ 180, 215 ]
+        integrity: 0.7
+      }
+    ]
+    map: {
+      perturb: true
+      perturbAmp: 1.1
+      perturbFreq: 0.05
+      frequency: 0.0028
+    }
+    floor: {
+      dummy: true
+    }
+    ceiling: {
+      dummy: true
+      dummyOutput: 213
+    }
+  }
+}
