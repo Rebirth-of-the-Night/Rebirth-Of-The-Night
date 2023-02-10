@@ -873,13 +873,15 @@ customdisc:alvae
 customdisc:alpha
 customdisc:sussy
 customdisc:aceltictale
-customdisc:signal
 customdisc:sheep
 defiledlands:book_wyrm.idle
 defiledlands:book_wyrm.hurt
 defiledlands:book_wyrm.death
 doggytalents:whistle_short
 doggytalents:whistle_long
+dynamictrees:entities.tree.crack_small
+dynamictrees:entities.tree.crack_large
+dynamictrees:entities.tree.landing
 fairylights:cord.stretch
 fairylights:cord.connect
 fairylights:cord.disconnect

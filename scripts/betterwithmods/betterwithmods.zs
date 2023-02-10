@@ -435,7 +435,7 @@ recipes.addShaped("vine_garland", <fairylights:garland>,
 
 recipes.remove(<betterwithmods:raw_pastry:0>);
 recipes.addShaped("cake_batter",<betterwithmods:raw_pastry:0>,[
-  [<ore:listAllsugar>,<ore:listAllsugar>,<ore:listAllsugar>],
+  [null,null,null],
   [<ore:listAllmilk>,<ore:listAllegg>,<ore:listAllmilk>],
   [<ore:foodFlour>,<ore:foodFlour>,<ore:foodFlour>]
 ]);

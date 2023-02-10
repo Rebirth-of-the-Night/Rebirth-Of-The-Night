@@ -370,7 +370,6 @@ ExSartagine.addKettleRecipe([<quark:arrow_ender>,<minecraft:glass_bottle>],null,
 recipes.removeByRecipeName("harvestcraft:minecraft_pumpkinpie");
 recipes.removeByRecipeName("harvestcraft:minecraft_cookie");
 
-
 // Vanilla MC Cake
 recipes.removeByRecipeName("harvestcraft:cake");
 ExSartagine.addKettleRecipe([cakeBatter,sugar],null,waterBottle,[<minecraft:cake>],200);
