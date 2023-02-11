@@ -1,18 +1,18 @@
 {
-  dimensions: [ 0, 9 ]
+  dimensions: [ 9 ]
   enabled: true
   biomes: {
-    names: [ "biometweaker:blossoming_lands", "biometweaker:anchor_cove" ]
+    names: [ "biometweaker:blossoming_lands", "biometweaker:anchor_cove", "biometweaker:rocky_skylands", "minecraft:river", "minecraft:beaches" ]
     IDs: []
     types: []
   }
   burrows: {
     // This makes them tall
     stretch: 1.1
-    height: [ 180, 215 ]
+    height: [ 170, 215 ]
     // This makes them flat
     offset: {
-      range: [ 180, 215 ]
+      range: [ 170, 215 ]
       frequency: 0.0025
     }
     target: 0.04
@@ -21,13 +21,13 @@
     caveBlocks: [
       {
         states: quark:variant_leaves:1
-        height: [ 180, 215 ]
-        integrity: 0.7
+        height: [ 170, 215 ]
+        integrity: 0.85
       }
     ]
     map: {
       perturb: true
-      perturbAmp: 1.1
+      perturbAmp: 1.5
       perturbFreq: 0.05
       frequency: 0.0028
     }

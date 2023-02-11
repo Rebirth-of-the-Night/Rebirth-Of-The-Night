@@ -20,7 +20,7 @@
                 "SpawnY": 32,
                 "SpawnZ": 256,
                 "GameRules": {
-                    "spawnRadius": "0"
+                    "doWeatherCycle": "false"
                 }
             },
             "jed": {
@@ -63,14 +63,74 @@
                 "worldprovider": "WorldProviderHellJED"
             },
             "worldinfo_onetime": {
-                "RandomSeed": ""
+                "RandomSeed": "",
+                "GameRules": {
+                    "doMobSpawning": "false"
+                },
+				"generatorName": "customized",
+                "generatorOptions": "{\"useRavines\":false,\"useDungeons\":false}"
             },
             "jed": {
                 "CanRespawnHere": false,
                 "FogColor": "000000",
                 "SkyColor": "000000",
                 "HasXZFog": true,
-                "IsSurfaceWorld": false
+                "IsSurfaceWorld": false,
+                "CanSpawnHostiles": false,
+                "CanSpawnPeacefulMobs": false,
+				"MovementFactor": 1
+            }
+        },
+		{
+            "dim": 666,
+            "normal_biomes": true,
+            "dimensiontype": {
+                "id": 666,
+                "name": "The End Citadel",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderEndJED",
+                "require_exact_match": true
+            },
+            "spawn_structure": {
+                "name": "end_citadel.nbt",
+                "centered": true,
+                "offset": [8, -3, 0]
+            },
+            "worldinfo_onetime": {
+                "generatorName": "flat",
+                "generatorOptions": "3;minecraft:air;1;",
+                "SpawnX": 256,
+                "SpawnY": 32,
+                "SpawnZ": 256,
+                "GameRules": {
+                    "spawnRadius": "0"
+                },
+				"BorderSize": 1024,
+                "BorderSizeLerpTarget": 1024,
+				"GameType": 2
+            },
+			"jed": {
+                "WorldBorderCenteredOnSpawn": true,
+				"ForceGameMode": true
+            }
+        },
+		{
+            "dim": -343800852,
+            "unregister": true,
+            "disable_teleporting_to": true
+        },
+		{
+            "dim": 28,
+            "dimensiontype": {
+                "id": 28,
+                "name": "Water World",
+                "suffix": "_dim28",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "generatorOptions": "{\"coordinateScale\":684.412,\"heightScale\":684.412,\"lowerLimitScale\":512.0,\"upperLimitScale\":512.0,\"depthNoiseScaleX\":200.0,\"depthNoiseScaleZ\":200.0,\"depthNoiseScaleExponent\":0.5,\"mainNoiseScaleX\":80.0,\"mainNoiseScaleY\":160.0,\"mainNoiseScaleZ\":80.0,\"baseSize\":8.5,\"stretchY\":12.0,\"biomeDepthWeight\":1.0,\"biomeDepthOffset\":0.0,\"biomeScaleWeight\":1.0,\"biomeScaleOffset\":0.0,\"seaLevel\":99,\"useCaves\":true,\"useDungeons\":true,\"dungeonChance\":8,\"useStrongholds\":true,\"useVillages\":true,\"useMineShafts\":true,\"useTemples\":true,\"useMonuments\":true,\"useRavines\":true,\"useWaterLakes\":true,\"waterLakeChance\":4,\"useLavaLakes\":true,\"lavaLakeChance\":80,\"useLavaOceans\":false,\"fixedBiome\":-1,\"biomeSize\":4,\"riverSize\":4,\"dirtSize\":33,\"dirtCount\":10,\"dirtMinHeight\":0,\"dirtMaxHeight\":256,\"gravelSize\":33,\"gravelCount\":8,\"gravelMinHeight\":0,\"gravelMaxHeight\":256,\"graniteSize\":33,\"graniteCount\":10,\"graniteMinHeight\":0,\"graniteMaxHeight\":80,\"dioriteSize\":33,\"dioriteCount\":10,\"dioriteMinHeight\":0,\"dioriteMaxHeight\":80,\"andesiteSize\":33,\"andesiteCount\":10,\"andesiteMinHeight\":0,\"andesiteMaxHeight\":80,\"coalSize\":17,\"coalCount\":20,\"coalMinHeight\":0,\"coalMaxHeight\":128,\"ironSize\":9,\"ironCount\":20,\"ironMinHeight\":0,\"ironMaxHeight\":64,\"goldSize\":9,\"goldCount\":2,\"goldMinHeight\":0,\"goldMaxHeight\":32,\"redstoneSize\":8,\"redstoneCount\":8,\"redstoneMinHeight\":0,\"redstoneMaxHeight\":16,\"diamondSize\":8,\"diamondCount\":1,\"diamondMinHeight\":0,\"diamondMaxHeight\":16,\"lapisSize\":7,\"lapisCount\":1,\"lapisCenterHeight\":16,\"lapisSpread\":16}"
             }
         }
     ]
