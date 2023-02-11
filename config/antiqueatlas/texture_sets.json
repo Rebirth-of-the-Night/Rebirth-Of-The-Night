@@ -161,6 +161,9 @@
     ],
     "NC_WASTELAND": [
       "golrithsaa:textures/bop_outback1.png"
+    ],
+    "BT_BLOSSOMING": [
+      "rotn_atlas:textures/bt_blossoming1.png"
     ]
   }
 }
