@@ -565,10 +565,21 @@ var mead_d = AssemblyRecipe.create(function(container) {
 .requireItem("input",<growthcraft_bees:mead>)
 .requireItem("added",<ore:dustRedstone>)
 .requireItem("barrel",<growthcraft_cellar:ferment_barrel>)
-.requireFluid("inputFluid",<liquid:fluid_booze_mead_young>)
+.requireFluid("inputFluid",<liquid:fluid_booze_mead_fermented>)
 .requireFluid("outputFluid",<liquid:fluid_booze_mead_extended>)
 .requireDuration("duration",24000);
 growth_ferment.addJEIRecipe(mead_d);
+
+var mead_dd = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<growthcraft_bees:mead:3>);
+})
+.requireItem("input",<growthcraft_bees:mead:2>)
+.requireItem("added",<minecraft:glowstone_dust>)
+.requireItem("barrel",<growthcraft_cellar:ferment_barrel>)
+.requireFluid("inputFluid",<liquid:fluid_booze_mead_fermented>)
+.requireFluid("outputFluid",<liquid:fluid_booze_mead_potent>)
+.requireDuration("duration",24000);
+growth_ferment.addJEIRecipe(mead_dd);
 
 var mead_e = AssemblyRecipe.create(function(container) {
     container.addItemOutput("output",<growthcraft_bees:mead:8>);
