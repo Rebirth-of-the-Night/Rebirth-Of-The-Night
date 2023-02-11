@@ -4,7 +4,7 @@ block: {
   location: simpleores:onyx_ore
   hardness: 30
   level: 5
-  resistance: 10.0
+  resistance: 15.0
 }
 loot: [
   {
