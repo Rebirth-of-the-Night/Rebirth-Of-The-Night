@@ -703,3 +703,9 @@ item.contenttweaker.condensed_vilemist.name=Condensed Vilemist
 item.contenttweaker.viridea_biomatter.name=Viridea Biomatter
 item.contenttweaker.viridea_seed.name=Viridea Seed
 tile.contenttweaker.viridea.name=Viridea
+
+#------------------------------------------------------------------------------
+# Baubles
+#------------------------------------------------------------------------------
+
+item.contenttweaker.stream_crown.name=Soul of Blue Fire
