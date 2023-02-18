@@ -4,7 +4,7 @@
   replaceableBlocks: [ "air", "grass", "water" ]
   blacklistBiomes: false
   biomes: {
-    names: biometweaker:atacamian_desert
+    names: biometweaker:atacamian_desert_rocky
     types: []
   }
   caverns: [ {
