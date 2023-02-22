@@ -50,9 +50,14 @@ removeRecipeNameArray(["quark:chest_minecart", "quark:gold_button", "quark:hoppe
 
 //recipes.addShapeless("sandy_bricks",<quark:sandy_bricks>,[<contenttweaker:brick_minecraft_clay>,<ore:sand>]); Brick replacement
 
+val leather_sheet = <pyrotech:material:38>;
+var flimsywaterbucket = <pyrotech:bucket_stone>.withTag({durability: 32767, fluids: {FluidName: "water", Amount: 1000}}).transformReplace(<pyrotech:bucket_stone>);
+var qualitybucket = <minecraft:water_bucket>.transformReplace(<minecraft:bucket>);
+
 recipes.remove(<quark:backpack>);
 recipes.remove(<quark:pipe>);
 recipes.remove(<quark:iron_plate>);
+recipes.removeByRecipeName("quark:iron_plate_2");
 
 recipes.addShaped("midori_block",<quark:midori_block>,[
 	[<betterwithaddons:material:2>,<betterwithaddons:material:2>],
@@ -67,18 +72,44 @@ recipes.addShaped("paper_wall",<quark:paper_wall>,[
 ]);
 
 //Immersive plating
-recipes.addShaped("iron plate", <quark:iron_plate>*24,
- [[<ore:ingotIron>,<ore:ingotIron>,<ore:ingotIron>],
-  [<ore:ingotIron>,<minetraps:nails:*>,<ore:ingotIron>],
-  [<ore:ingotIron>,<ore:ingotIron>,<ore:ingotIron>]]);
-
-recipes.addShaped("Quark Backpack", <quark:backpack>.withTag({Quality: {}}),[
-	[<ore:hideTanned>, <ore:hideTanned>, <ore:hideTanned>],
-    [<betterwithmods:material:8>, <ore:chestWood>, <betterwithmods:material:8>],
-   	[<ore:hideTanned>, <ore:hideTanned>, <ore:hideTanned>]
+recipes.addShaped("steel_plate", <quark:iron_plate>*24,
+ [[<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>],
+  [<ore:ingotSteel>,<minetraps:nails:*>,<ore:ingotSteel>],
+  [<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>]]);
+recipes.addShaped("iron_plate_2_0",<quark:iron_plate:1>*8,[
+   [<quark:iron_plate>,<quark:iron_plate>,<quark:iron_plate>],
+    [<quark:iron_plate>,flimsywaterbucket,<quark:iron_plate>],
+    [<quark:iron_plate>,<quark:iron_plate>,<quark:iron_plate>]
+]);
+recipes.addShaped("iron_plate_2_1",<quark:iron_plate:1>*8,[
+   [<quark:iron_plate>,<quark:iron_plate>,<quark:iron_plate>],
+    [<quark:iron_plate>,qualitybucket,<quark:iron_plate>],
+    [<quark:iron_plate>,<quark:iron_plate>,<quark:iron_plate>]
+]);
+recipes.addShaped("iron_plate", <contenttweaker:iron_plate>*24, [
+	[<ore:ingotIron>,<ore:ingotIron>,<ore:ingotIron>],
+	[<ore:ingotIron>,<minetraps:nails:*>,<ore:ingotIron>],
+	[<ore:ingotIron>,<ore:ingotIron>,<ore:ingotIron>]
+]);
+recipes.addShaped("brass_plate", <contenttweaker:brass_plate>*24, [
+	[<ore:ingotBrass>,<ore:ingotBrass>,<ore:ingotBrass>],
+	[<ore:ingotBrass>,<minetraps:nails:*>,<ore:ingotBrass>],
+	[<ore:ingotBrass>,<ore:ingotBrass>,<ore:ingotBrass>]
+]);
+recipes.addShaped("tin_plate", <contenttweaker:tin_plate>*24, [
+	[<ore:ingotTin>,<ore:ingotTin>,<ore:ingotTin>],
+	[<ore:ingotTin>,<minetraps:nails:*>,<ore:ingotTin>],
+	[<ore:ingotTin>,<ore:ingotTin>,<ore:ingotTin>]
 ]);
 
-recipes.addShaped("Tin Ladder", <quark:iron_ladder>*12,[
+
+recipes.addShaped("quark_backpack", <quark:backpack>.withTag({Quality: {}}),[
+	[leather_sheet, leather_sheet, leather_sheet],
+    [<betterwithmods:material:8>, <ore:chestWood>, <betterwithmods:material:8>],
+   	[leather_sheet, leather_sheet, leather_sheet]
+]);
+
+recipes.addShaped("tin_ladder", <quark:iron_ladder>*12,[
 	[<ore:ingotTin>, null, <ore:ingotTin>],
    	[<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>],
     [<ore:ingotTin>, null, <ore:ingotTin>]
@@ -100,7 +131,7 @@ recipes.remove(<quark:bark:*>);
 val logs as IItemStack[] = [<minecraft:log:0>, <minecraft:log:1>, <minecraft:log:2>, <minecraft:log:3>, <minecraft:log2:0>, <minecraft:log2:1>] as IItemStack[];
 
 for i, log in logs {
-	recipes.addShapeless("Quark Bark"~i, <quark:bark>.definition.makeStack(i) * 6,
+	recipes.addShapeless("quark_bark"~i, <quark:bark>.definition.makeStack(i) * 6,
 		[log, log, log, log, log, log]
 	);
 }

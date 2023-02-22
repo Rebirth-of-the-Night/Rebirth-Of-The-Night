@@ -585,6 +585,16 @@ unfired_clay_drain.setToolLevel(0);
 unfired_clay_drain.setToolClass("shovel");
 unfired_clay_drain.register();
 
+//Tin Plate
+var tin_plate = VanillaFactory.createBlock("tin_plate", <blockmaterial:Iron>);
+tin_plate.setCreativeTab(<creativetab:buildingBlocks>);
+tin_plate.register();
+
+//Iron Plate
+var iron_plate = VanillaFactory.createBlock("iron_plate", <blockmaterial:Iron>);
+iron_plate.setCreativeTab(<creativetab:buildingBlocks>);
+iron_plate.register();
+
 //Electrum Plate
 var electrum_plate = VanillaFactory.createBlock("electrum_plate", <blockmaterial:Iron>);
 electrum_plate.setCreativeTab(<creativetab:buildingBlocks>);
@@ -601,6 +611,11 @@ brass_plate.setCreativeTab(<creativetab:buildingBlocks>);
 brass_plate.register();
 
 // Lunarin blocks
+// Iron pillar
+var lunarinironpillar = VanillaFactory.createBlock("lunarinironpillar", <blockmaterial:Iron>);
+lunarinironpillar.setCreativeTab(<creativetab:buildingBlocks>);
+lunarinironpillar.setBlockHardness(15);
+lunarinironpillar.register();
 // Bronze
 var lunarin = VanillaFactory.createBlock("lunarinbronzebrick", <blockmaterial:Iron>);
 lunarin.setCreativeTab(<creativetab:buildingBlocks>);

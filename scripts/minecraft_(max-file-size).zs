@@ -595,24 +595,6 @@ recipes.addShapeless("sand_from_dried_sand_wooden",<minecraft:sand>,[
     <biomesoplenty:dried_sand>, woodbucket
 ]);
 
-recipes.removeByRecipeName("quark:iron_plate_2");
-recipes.addShaped("iron_plate_2_0",<quark:iron_plate:1>*8,[
-   [<quark:iron_plate>,<quark:iron_plate>,<quark:iron_plate>],
-    [<quark:iron_plate>,flimsywaterbucket,<quark:iron_plate>],
-    [<quark:iron_plate>,<quark:iron_plate>,<quark:iron_plate>]
-]);
-recipes.addShaped("iron_plate_2_1",<quark:iron_plate:1>*8,[
-   [<quark:iron_plate>,<quark:iron_plate>,<quark:iron_plate>],
-    [<quark:iron_plate>,qualitybucket,<quark:iron_plate>],
-    [<quark:iron_plate>,<quark:iron_plate>,<quark:iron_plate>]
-]);
-
-recipes.addShaped("brass_plate", <contenttweaker:brass_plate>*24, [
-	[<ore:ingotBrass>,<ore:ingotBrass>,<ore:ingotBrass>],
-	[<ore:ingotBrass>,<minetraps:nails:*>,<ore:ingotBrass>],
-	[<ore:ingotBrass>,<ore:ingotBrass>,<ore:ingotBrass>]
-]);
-
 recipes.removeByRecipeName("cyclicmagic:item.bucketfilled");
 recipes.addShapeless("bucket_poison_0",<pyrotech:bucket_stone>.withTag({fluids: {FluidName: "poison", Amount: 1000}}),[
     flimsywaterbucket,<ore:poisonQuintessenceA>,<ore:poisonQuintessenceB>,<ore:listAllsugar>
