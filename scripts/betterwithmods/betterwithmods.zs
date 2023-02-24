@@ -468,7 +468,7 @@ recipes.addShaped("nether_chime", <betterwithmods:bamboo_chime:4>, [
     [<ore:durableFiber>,<betternether:cincinnasite>,<ore:durableFiber>],
     [<betternether:nether_reed>,<betternether:nether_reed>,<betternether:nether_reed>]
 ]);
-recipes.addShaped("jelly_chime", <betterwithmods:bamboo_chime:4>, [
+recipes.addShaped("jelly_chime", <betterwithmods:bamboo_chime:5>, [
     [null,<minecraft:string>,null],
     [<harvestcraft:jellyfishrawitem>,<harvestcraft:jellyfishrawitem>,<harvestcraft:jellyfishrawitem>],
 	[<rats:rat_tube_white>,<rats:rat_tube_white>,<rats:rat_tube_white>]
