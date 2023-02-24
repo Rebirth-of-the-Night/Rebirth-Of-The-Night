@@ -370,6 +370,24 @@ MoldStation.removeRecipe([//Stairs
 4,4,4,4,4,4
 ]);
 //Molds //moldStation.addRecipe(IItemStack output, int width, int height, int[] grid)
+MoldStation.addRecipe(<contenttweaker:mattock_mold>, 6, 6, [
+1,2,2,2,2,0,
+1,0,1,0,0,0,
+0,0,1,0,0,0,
+0,0,1,0,0,0,
+0,0,1,0,0,0,
+0,0,0,0,0,0
+]);
+
+MoldStation.addRecipe(<contenttweaker:mason_pick_mold>, 6, 6, [
+0,3,3,3,2,0,
+2,0,1,2,1,0,
+0,0,1,0,0,0,
+0,0,1,0,0,0,
+0,0,1,0,0,0,
+0,0,0,0,0,0
+]);
+
 MoldStation.addRecipe(<contenttweaker:dagger_mold>, 6, 6, [
 0,0,0,0,0,0,
 0,0,0,0,0,0,
