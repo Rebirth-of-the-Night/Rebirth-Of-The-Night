@@ -443,49 +443,54 @@ recipes.addShaped("cake_batter",<betterwithmods:raw_pastry:0>,[
 recipes.remove(<betterwithmods:raw_pastry:1>);
 recipes.addShapeless("oven_ready_pumpkin_pie",<betterwithmods:raw_pastry:1>,[<minecraft:pumpkin>,<ore:listAllsugar>,<ore:listAllegg>,<ore:foodFlour>]);
 
-val arrayMoulding = [
-    MiniBlocks.getMiniBlock("moulding", <ore:genericPlanks>),
-    MiniBlocks.getMiniBlock("moulding", <minecraft:planks>),
-    MiniBlocks.getMiniBlock("moulding", <minecraft:planks:1>),
-    MiniBlocks.getMiniBlock("moulding", <minecraft:planks:2>),
-    MiniBlocks.getMiniBlock("moulding", <minecraft:planks:3>),
-    MiniBlocks.getMiniBlock("moulding", <minecraft:planks:4>),
-    MiniBlocks.getMiniBlock("moulding", <minecraft:planks:5>)
-] as IIngredient[];
-
-val arrayWindChime = [
+recipes.addShaped("bamboo_chime", <betterwithmods:bamboo_chime:0>, [
+    [null,<minecraft:string>,null],
+    [<minecraft:string>,<ore:barkWood>,<minecraft:string>],
+    [<biomesoplenty:bamboo>,<biomesoplenty:bamboo>,<biomesoplenty:bamboo>]
+]);
+recipes.addShaped("reed_chime", <betterwithmods:bamboo_chime:1>, [
+    [null,<minecraft:string>,null],
+    [<minecraft:string>,<ore:rock>,<minecraft:string>],
+    [<biomesoplenty:plant_1:8>,<biomesoplenty:plant_1:8>,<biomesoplenty:plant_1:8>]
+]);
+recipes.addShaped("sugar_chime", <betterwithmods:bamboo_chime:2>, [
+    [null,<pyrotech:tinder>,null],
+    [<pyrotech:tinder>,<betterwithmods:wicker>,<pyrotech:tinder>],
+    [<minecraft:reeds>,<minecraft:reeds>,<minecraft:reeds>]
+]);
+recipes.addShaped("river_chime", <betterwithmods:bamboo_chime:3>, [
+    [null,<minecraft:brown_mushroom>,null],
+    [<pyrotech:tinder>,<ore:barkWood>,<pyrotech:tinder>],
+    [<biomesoplenty:plant_1:5>,<biomesoplenty:plant_1:5>,<biomesoplenty:plant_1:5>]
+]);
+recipes.addShaped("nether_chime", <betterwithmods:bamboo_chime:4>, [
+    [null,<ore:durableFiber>,null],
+    [<ore:durableFiber>,<betternether:cincinnasite>,<ore:durableFiber>],
+    [<betternether:nether_reed>,<betternether:nether_reed>,<betternether:nether_reed>]
+]);
+recipes.addShaped("jelly_chime", <betterwithmods:bamboo_chime:4>, [
+    [null,<minecraft:string>,null],
+    [<harvestcraft:jellyfishrawitem>,<harvestcraft:jellyfishrawitem>,<harvestcraft:jellyfishrawitem>],
+	[<rats:rat_tube_white>,<rats:rat_tube_white>,<rats:rat_tube_white>]
+]);
+recipes.addShaped("brass_chime", <betterwithmods:metal_chime:0>, [
+    [null,<ore:durableFiber>,null],
+    [<ore:durableFiber>,<iceandfire:silver_ingot>,<ore:durableFiber>],
+    [<contenttweaker:material_part:45>,<contenttweaker:material_part:45>,<contenttweaker:material_part:45>]
+]);
+recipes.addShaped("copper_chime", <betterwithmods:metal_chime:1>, [
+    [null,<ore:durableFiber>,null],
+    [<ore:durableFiber>,<contenttweaker:blank_charm>,<ore:durableFiber>],
+    [<simpleores:copper_ingot>,<simpleores:copper_ingot>,<simpleores:copper_ingot>]
+]);
+/*
     <betterwithmods:metal_chime:0>,
     <betterwithmods:metal_chime:1>,
     <betterwithmods:metal_chime:2>,
     <betterwithmods:metal_chime:3>,
     <betterwithmods:metal_chime:4>,
     <betterwithmods:metal_chime:5>
-] as IItemStack[];
-
-val arrayBambooChime = [
-    <betterwithmods:bamboo_chime:0>,
-    <betterwithmods:bamboo_chime:1>,
-    <betterwithmods:bamboo_chime:2>,
-    <betterwithmods:bamboo_chime:3>,
-    <betterwithmods:bamboo_chime:4>,
-    <betterwithmods:bamboo_chime:5>
-] as IItemStack[];
-
-for i, output in arrayWindChime{
-    recipes.addShaped(output,[
-        [null,<minecraft:string>,null],
-        [<minecraft:string>,<ore:pressurePlateWood>,<minecraft:string>],
-        [<ore:genericMetal>,arrayMoulding[i],<ore:genericMetal>]
-    ]);
-}
-
-for i, output in arrayBambooChime{
-    recipes.addShaped(output,[
-        [null,<minecraft:string>,null],
-        [<minecraft:string>,<ore:pressurePlateWood>,<minecraft:string>],
-        [<ore:hollowReed>,arrayMoulding[i],<ore:hollowReed>]
-    ]);
-}
+*/
 
 recipes.remove(<betterwithmods:broadhead_arrow>);
 recipes.addShaped("broadhead_arrow", <betterwithmods:broadhead_arrow>, [
