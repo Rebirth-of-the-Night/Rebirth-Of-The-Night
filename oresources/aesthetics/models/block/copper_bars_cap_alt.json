@@ -1,0 +1,26 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "aesthetics:blocks/copper_bars",
+		"edge": "aesthetics:blocks/copper_bars"
+	},
+	"elements": [
+		{
+			"from": [8, 0, 7],
+			"to": [8, 16, 8],
+			"faces": {
+				"east": {"uv": [16, 0, 15, 16], "texture": "#edge"},
+				"west": {"uv": [15, 0, 16, 16], "texture": "#edge"}
+			}
+		},
+		{
+			"from": [7, 0, 7],
+			"to": [9, 16, 7],
+			"faces": {
+				"north": {"uv": [2, 0, 4, 16], "texture": "#edge"},
+				"south": {"uv": [4, 0, 2, 16], "texture": "#edge"}
+			}
+		}
+	]
+}

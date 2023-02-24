@@ -149,6 +149,7 @@ val redRose = <minecraft:dye:1>;
 var waterBottle = <liquid:water>*333;
 var waterBottle2 = <liquid:water>*666;
 var waterBucket = <liquid:water>*1000;
+var acid250 = <liquid:endacid>*250;
 var waterBottleItem = <minecraft:potion>.withTag({Potion: "minecraft:water"}).giveBack(<minecraft:glass_bottle>);
 var milkBottle = <animania:milk_bottle>.giveBack(<minecraft:glass_bottle>);
 val coconutMilk = <harvestcraft:coconutmilkitem>;
@@ -3591,6 +3592,14 @@ ExSartagine.addKettleRecipe([<harvestcraft:tortillaitem>,cheese],cookKitKettle,n
 //Miso Paste (not organized, move once other items are done)
 recipes.remove(misoPaste);
 ExSartagine.addKettleRecipe([soybean,soybean,soybean,koji_mold,salt],null,waterBottle2,[misoPaste*3],80);
+//Raw End Pizza
+RecipeBuilder.get("chef")
+  .setName("abysspizza")
+  .setShapeless([<contenttweaker:blendrein_block>,<endreborn:food_ender_flesh>])
+  .setFluid(acid250)
+  .addOutput(<contenttweaker:abyss_pizza_block>)
+  .create();
+
 //hiding of various items not needed
 val hiddenFoods as IItemStack[] = [
   <harvestcraft:raspberrymilkshakeitem>,

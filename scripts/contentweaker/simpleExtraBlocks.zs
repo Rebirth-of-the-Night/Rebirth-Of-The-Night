@@ -125,6 +125,14 @@ marmatite.setBlockSoundType(<soundtype:stone>);
 marmatite.setToolLevel(1);
 marmatite.register();
 
+// Pumice
+var pumice = VanillaFactory.createBlock("pumice", <blockmaterial:Rock>);
+pumice.setCreativeTab(<creativetab:rotn_blocks>);
+pumice.setBlockSoundType(<soundtype:stone>);
+pumice.setToolLevel(1);
+pumice.setBlockHardness(1.0);
+pumice.register();
+
 // Codex junk
 var codex_junk = VanillaFactory.createBlock("codex_junk", <blockmaterial:Grass>);
 codex_junk.axisAlignedBB = AxisAlignedBB.create(
@@ -629,6 +637,11 @@ brass_plate.setCreativeTab(<creativetab:buildingBlocks>);
 brass_plate.register();
 
 // Lunarin blocks
+// Iron pillar
+var lunarinironpillar = VanillaFactory.createBlock("lunarinironpillar", <blockmaterial:Iron>);
+lunarinironpillar.setCreativeTab(<creativetab:buildingBlocks>);
+lunarinironpillar.setBlockHardness(15);
+lunarinironpillar.register();
 // Bronze
 var lunarin = VanillaFactory.createBlock("lunarinbronzebrick", <blockmaterial:Iron>);
 lunarin.setCreativeTab(<creativetab:buildingBlocks>);

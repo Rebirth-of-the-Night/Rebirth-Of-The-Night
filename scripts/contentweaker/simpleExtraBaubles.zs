@@ -83,17 +83,17 @@ var stream_crown = VanillaFactory.createBaubleItem("stream_crown");
 stream_crown.onWornTick = function(bauble, wearer) {
     if(wearer instanceof IPlayer) {
         var player as IPlayer = wearer;
-        if (!player.world.isRemote() && player.world.getWorldTime() % 10 == 0 as long) {
+        if (!player.world.isRemote() && player.world.getWorldTime() % 8 == 0 as long) {
             var x = player.x;
             var y = player.y - 3;
             var z = player.z - 1; // necessary
             val block = player.world.getBlock(x as int, y as int, z as int) as IBlock;
             if (block.definition.id in "quark:variant_leaves" && (block.meta == 1 as int || block.meta == 9 as int)) {
                 // First parameter is time in ticks, second is strength, can duplicate this line for any number of potions
-                player.addPotionEffect(<potion:cyclicmagic:potion.bounce>.makePotionEffect(100, 1));
-                player.addPotionEffect(<potion:minecraft:speed>.makePotionEffect(100, 2));
-                player.addPotionEffect(<potion:minecraft:jump_boost>.makePotionEffect(100, 2));
-                player.addPotionEffect(<potion:potioncore:step_up>.makePotionEffect(100, 1));
+                player.addPotionEffect(<potion:cyclicmagic:potion.bounce>.makePotionEffect(300, 1));
+                player.addPotionEffect(<potion:minecraft:speed>.makePotionEffect(200, 2));
+                player.addPotionEffect(<potion:minecraft:jump_boost>.makePotionEffect(200, 2));
+                player.addPotionEffect(<potion:potioncore:step_up>.makePotionEffect(200, 1));
             }
         }
     }
