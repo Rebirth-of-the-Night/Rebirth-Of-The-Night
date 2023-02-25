@@ -1304,9 +1304,6 @@ farmland.add(
 val dirt = <ore:dirt>;
 dirt.addItems([<biomesoplenty:dirt:1>,<biomesoplenty:dirt:2>,<aether_legacy:aether_dirt>,<minecraft:dirt:1>,<biomesoplenty:dirt:8>,<biomesoplenty:dirt:10>,<biomesoplenty:dirt:9>]);
 
-val wool = <ore:wool>;
-wool.remove(<minecraft:wool>);
-
 val brown = <ore:dyeBrown>;
 brown.remove(<betterwithmods:material:5>);
 
