@@ -1,2 +1,6 @@
 rotnfmm.mainmenu.title.mainmenu = Main Menu
 rotnfmm.mainmenu.title.newsticker = News Ticker
+rotnfmm.mainmenu.button.singleplayer = Start Your Journey
+rotnfmm.mainmenu.button.multiplayer = Play With Friends
+rotnfmm.mainmenu.tooltip.options = Options
+rotnfmm.mainmenu.tooltip.quitgame = Quit Game

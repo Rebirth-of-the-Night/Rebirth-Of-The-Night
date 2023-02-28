@@ -22,11 +22,16 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   orientation = element
   orientation_element = db2979a4-18a8-46c6-ac96-95ecd44bdc591677531627037
-  x = 16
+  x = 194
   action = movebutton
-  y = 138
+  y = 126
 }
 
 customization {
@@ -63,11 +68,23 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
   backgroundhovered = resources/fancymainmenu/menu_buttons/settings_h.png
   backgroundnormal = resources/fancymainmenu/menu_buttons/settings_n.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = setbuttondescription
+  description = {"placeholder":"local","values":{"key":"rotnfmm.mainmenu.tooltip.options"}}
 }
 
 customization {
@@ -88,6 +105,12 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
@@ -96,12 +119,23 @@ customization {
 }
 
 customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = setbuttondescription
+  description = {"placeholder":"local","values":{"key":"rotnfmm.mainmenu.tooltip.quitgame"}}
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = hidebutton
+}
+
+customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   orientation = element
   orientation_element = db2979a4-18a8-46c6-ac96-95ecd44bdc591677531627037
-  x = 16
+  x = 194
   action = movebutton
-  y = 105
+  y = 93
 }
 
 customization {
@@ -211,5 +245,130 @@ customization {
   action = addtexture
   y = 1
   height = 350
+}
+
+customization {
+  advanced_height = 12
+  orientation = element
+  enable_scrolling = false
+  shadow = true
+  scale = 1.0
+  source = {"placeholder":"local","values":{"key":"rotnfmm.mainmenu.title.newsticker"}}
+  text_border = 0
+  case_mode = normal
+  advanced_width = 57
+  source_mode = direct
+  line_spacing = 1
+  orientation_element = db2979a4-18a8-46c6-ac96-95ecd44bdc591677531627037
+  x = 52
+  width = 57
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = b9b9b6e6-9f6b-4c66-b051-c98233cc43631677596908974
+  y = 228
+  alignment = centered
+  height = 12
+}
+
+customization {
+  orientation = element
+  enable_scrolling = false
+  shadow = true
+  scale = 1.0
+  source = {"placeholder":"local","values":{"key":"rotnfmm.mainmenu.title.mainmenu"}}
+  text_border = 0
+  case_mode = normal
+  advanced_width = 57
+  source_mode = direct
+  line_spacing = 1
+  orientation_element = db2979a4-18a8-46c6-ac96-95ecd44bdc591677531627037
+  x = 52
+  width = 57
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 0078528e-e5a8-47ae-a0f5-31a5712231de1677596910624
+  y = 95
+  alignment = centered
+  height = 12
+}
+
+customization {
+  advanced_height = 33
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = opengui
+  backgroundhovered = resources/fancymainmenu/menu_buttons/button_mp_h.png
+  label = 
+  advanced_width = 130
+  loopbackgroundanimations = true
+  orientation_element = db2979a4-18a8-46c6-ac96-95ecd44bdc591677531627037
+  x = 16
+  width = 130
+  actionid = e46e10ae-ad1e-444d-a0b4-346e0d537a321677596913924
+  action = addbutton
+  y = 138
+  backgroundnormal = resources/fancymainmenu/menu_buttons/button_mp_n.png
+  value = net.minecraft.client.gui.GuiMultiplayer
+  height = 33
+}
+
+customization {
+  advanced_height = 16
+  orientation = element
+  enable_scrolling = false
+  shadow = true
+  scale = 1.0
+  source = {"placeholder":"local","values":{"key":"rotnfmm.mainmenu.button.multiplayer"}}
+  text_border = 0
+  case_mode = normal
+  advanced_width = 122
+  source_mode = direct
+  line_spacing = 1
+  orientation_element = e46e10ae-ad1e-444d-a0b4-346e0d537a321677596913924
+  x = 4
+  width = 122
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 3cb6b898-d6e7-4284-b55e-e58a8d2b08321677596911475
+  y = 10
+  alignment = centered
+  height = 16
+}
+
+customization {
+  advanced_height = 33
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = opengui
+  backgroundhovered = resources/fancymainmenu/menu_buttons/button_play_h.png
+  label = 
+  advanced_width = 130
+  loopbackgroundanimations = true
+  orientation_element = db2979a4-18a8-46c6-ac96-95ecd44bdc591677531627037
+  x = 16
+  width = 130
+  actionid = 8af556c5-2962-4466-abf0-6cbdf23ede181677596920474
+  action = addbutton
+  y = 105
+  backgroundnormal = resources/fancymainmenu/menu_buttons/button_play_n.png
+  value = net.minecraft.client.gui.GuiWorldSelection
+  height = 33
+}
+
+customization {
+  orientation = element
+  enable_scrolling = false
+  shadow = true
+  scale = 1.0
+  source = {"placeholder":"local","values":{"key":"rotnfmm.mainmenu.button.singleplayer"}}
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  orientation_element = 8af556c5-2962-4466-abf0-6cbdf23ede181677596920474
+  x = 4
+  width = 122
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 8f538599-c748-497b-8556-bd179e131a9b1677596912075
+  y = 11
+  alignment = centered
+  height = 16
 }
 
