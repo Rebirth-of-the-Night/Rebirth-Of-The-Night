@@ -212,3 +212,23 @@ customization {
   height = 470
 }
 
+customization {
+  orientation = element
+  enable_scrolling = false
+  shadow = true
+  scale = 1.2
+  source = {"placeholder":"local","values":{"key":"rotnfmm.mainmenu.title.mainmenu"}}
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  orientation_element = db2979a4-18a8-46c6-ac96-95ecd44bdc591677531627037
+  x = 70
+  width = 583
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 2a79033b-1416-4eb8-b6b7-c52e2d1145951677543659740
+  y = 129
+  alignment = centered
+  height = 12
+}
+
