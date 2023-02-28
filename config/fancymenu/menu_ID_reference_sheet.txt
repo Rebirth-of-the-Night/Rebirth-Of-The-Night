@@ -1,0 +1,13 @@
+List of menu IDs for Fancy Main Menu
+
+Main Menu:
+net.minecraft.client.gui.GuiMainMenu
+
+World Select (Singleplayer Worlds):
+net.minecraft.client.gui.GuiWorldSelection
+
+Multiplayer (Server List):
+net.minecraft.client.gui.GuiMultiplayer
+
+Options:
+net.minecraft.client.gui.GuiOptions

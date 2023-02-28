@@ -310,7 +310,7 @@ customization {
 customization {
   orientation = element
   restartbackgroundanimations = true
-  buttonaction = openlink
+  buttonaction = opengui
   backgroundhovered = resources/fancymainmenu/menu_buttons/button_mp_h.png
   label = 
   loopbackgroundanimations = true
@@ -321,14 +321,14 @@ customization {
   action = addbutton
   y = 136
   backgroundnormal = resources/fancymainmenu/menu_buttons/button_mp_n.png
-  value = 
+  value = net.minecraft.client.gui.GuiMultiplayer
   height = 33
 }
 
 customization {
   orientation = element
   restartbackgroundanimations = true
-  buttonaction = openlink
+  buttonaction = opengui
   backgroundhovered = resources/fancymainmenu/menu_buttons/button_play_h.png
   label = 
   loopbackgroundanimations = true
@@ -339,7 +339,7 @@ customization {
   action = addbutton
   y = 103
   backgroundnormal = resources/fancymainmenu/menu_buttons/button_play_n.png
-  value = 
+  value = net.minecraft.client.gui.GuiWorldSelection
   height = 33
 }
 
