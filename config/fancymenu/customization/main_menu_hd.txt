@@ -3,13 +3,11 @@ type = menu
 customization-meta {
   identifier = net.minecraft.client.gui.GuiMainMenu
   randomgroup = 1
+  biggerthanwidth = 1279
   renderorder = background
   randommode = false
-  vr:showif:windowwidth = true
-  vr:value:windowwidth = 1920
-  vr:value:windowheight = 1057
   randomonlyfirsttime = false
-  vr:showif:windowheight = true
+  smallerthanwidth = 2560
 }
 
 customization {
