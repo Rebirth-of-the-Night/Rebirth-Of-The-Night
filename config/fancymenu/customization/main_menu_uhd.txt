@@ -53,16 +53,18 @@ customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   orientation = element
   orientation_element = db2979a4-18a8-46c6-ac96-95ecd44bdc591677531627037
-  x = 104
+  x = 108
   action = movebutton
   y = 228
 }
 
 customization {
+  advanced_height = 44
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
-  width = 46
+  width = 50
   action = resizebutton
-  height = 44
+  advanced_width = 44
+  height = 50
 }
 
 customization {
@@ -90,16 +92,18 @@ customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   orientation = element
   orientation_element = db2979a4-18a8-46c6-ac96-95ecd44bdc591677531627037
-  x = 149
+  x = 151
   action = movebutton
   y = 228
 }
 
 customization {
+  advanced_height = 44
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
-  width = 46
+  width = 50
   action = resizebutton
-  height = 44
+  advanced_width = 44
+  height = 50
 }
 
 customization {
@@ -377,5 +381,45 @@ customization {
   y = 13
   alignment = centered
   height = 20
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = resources/fancymainmenu/menu_buttons/discord_h.png
+  description = {"placeholder":"local","values":{"key":"rotnfmm.mainmenu.tooltip.discord"}}
+  label = 
+  loopbackgroundanimations = true
+  orientation_element = db2979a4-18a8-46c6-ac96-95ecd44bdc591677531627037
+  x = 20
+  width = 44
+  actionid = 21404668-f685-4ce2-a82e-1ee6ec8898ea1677629265391
+  action = addbutton
+  y = 228
+  backgroundnormal = resources/fancymainmenu/menu_buttons/discord_n.png
+  value = https://discord.gg/rotn
+  height = 44
+}
+
+customization {
+  advanced_height = 44
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = resources/fancymainmenu/menu_buttons/wiki_h.png
+  description = {"placeholder":"local","values":{"key":"rotnfmm.mainmenu.tooltip.info"}}
+  label = 
+  advanced_width = 44
+  loopbackgroundanimations = true
+  orientation_element = db2979a4-18a8-46c6-ac96-95ecd44bdc591677531627037
+  x = 64
+  width = 44
+  actionid = 52b2230a-d95d-45ad-86eb-96faea1874e91677629576082
+  action = addbutton
+  y = 228
+  backgroundnormal = resources/fancymainmenu/menu_buttons/wiki_n.png
+  value = 
+  height = 44
 }
 

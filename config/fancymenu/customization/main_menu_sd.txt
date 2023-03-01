@@ -59,10 +59,12 @@ customization {
 }
 
 customization {
+  advanced_height = 33
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
-  width = 33
+  width = 50
   action = resizebutton
-  height = 32
+  advanced_width = 33
+  height = 50
 }
 
 customization {
@@ -96,10 +98,12 @@ customization {
 }
 
 customization {
+  advanced_height = 33
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
-  width = 33
+  width = 50
   action = resizebutton
-  height = 32
+  advanced_width = 33
+  height = 50
 }
 
 customization {
@@ -381,5 +385,47 @@ customization {
   y = 11
   alignment = centered
   height = 22
+}
+
+customization {
+  advanced_height = 33
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = resources/fancymainmenu/menu_buttons/discord_h.png
+  description = {"placeholder":"local","values":{"key":"rotnfmm.mainmenu.tooltip.discord"}}
+  label = 
+  advanced_width = 33
+  loopbackgroundanimations = true
+  orientation_element = 24086b9a-f91c-4221-b6fe-572bda2017f81677538734632
+  x = 15
+  width = 33
+  actionid = a3b0d16f-71b9-4141-9f13-87a997dcf57b1677630303635
+  action = addbutton
+  y = 168
+  backgroundnormal = resources/fancymainmenu/menu_buttons/discord_n.png
+  value = https://discord.gg/rotn
+  height = 33
+}
+
+customization {
+  advanced_height = 33
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = resources/fancymainmenu/menu_buttons/wiki_h.png
+  description = {"placeholder":"local","values":{"key":"rotnfmm.mainmenu.tooltip.info"}}
+  label = 
+  advanced_width = 33
+  loopbackgroundanimations = true
+  orientation_element = 24086b9a-f91c-4221-b6fe-572bda2017f81677538734632
+  x = 47
+  width = 33
+  actionid = 3e30245b-9c0b-4af7-a4fe-b94c72b886d01677630309935
+  action = addbutton
+  y = 168
+  backgroundnormal = resources/fancymainmenu/menu_buttons/wiki_n.png
+  value = 
+  height = 33
 }
 

@@ -60,10 +60,12 @@ customization {
 }
 
 customization {
+  advanced_height = 33
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
-  width = 33
+  width = 50
   action = resizebutton
-  height = 32
+  advanced_width = 33
+  height = 50
 }
 
 customization {
@@ -97,10 +99,12 @@ customization {
 }
 
 customization {
+  advanced_height = 33
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
-  width = 33
+  width = 50
   action = resizebutton
-  height = 32
+  advanced_width = 33
+  height = 50
 }
 
 customization {
@@ -291,13 +295,11 @@ customization {
 }
 
 customization {
-  advanced_height = 33
   orientation = element
   restartbackgroundanimations = true
   buttonaction = opengui
   backgroundhovered = resources/fancymainmenu/menu_buttons/button_mp_h.png
   label = 
-  advanced_width = 130
   loopbackgroundanimations = true
   orientation_element = db2979a4-18a8-46c6-ac96-95ecd44bdc591677531627037
   x = 16
@@ -333,13 +335,11 @@ customization {
 }
 
 customization {
-  advanced_height = 33
   orientation = element
   restartbackgroundanimations = true
   buttonaction = opengui
   backgroundhovered = resources/fancymainmenu/menu_buttons/button_play_h.png
   label = 
-  advanced_width = 130
   loopbackgroundanimations = true
   orientation_element = db2979a4-18a8-46c6-ac96-95ecd44bdc591677531627037
   x = 16
@@ -370,5 +370,43 @@ customization {
   y = 11
   alignment = centered
   height = 16
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = resources/fancymainmenu/menu_buttons/discord_h.png
+  description = {"placeholder":"local","values":{"key":"rotnfmm.mainmenu.tooltip.discord"}}
+  label = 
+  loopbackgroundanimations = true
+  orientation_element = db2979a4-18a8-46c6-ac96-95ecd44bdc591677531627037
+  x = 16
+  width = 33
+  actionid = 1c05570f-97c3-49ae-8c4e-3bc4455306ac1677630563735
+  action = addbutton
+  y = 171
+  backgroundnormal = resources/fancymainmenu/menu_buttons/discord_n.png
+  value = https://discord.gg/rotn
+  height = 33
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = resources/fancymainmenu/menu_buttons/wiki_h.png
+  description = {"placeholder":"local","values":{"key":"rotnfmm.mainmenu.tooltip.info"}}
+  label = 
+  loopbackgroundanimations = true
+  orientation_element = db2979a4-18a8-46c6-ac96-95ecd44bdc591677531627037
+  x = 48
+  width = 33
+  actionid = d1f453cf-44e2-4999-98ed-2860acb324531677630567935
+  action = addbutton
+  y = 171
+  backgroundnormal = resources/fancymainmenu/menu_buttons/wiki_n.png
+  value = 
+  height = 33
 }
 
