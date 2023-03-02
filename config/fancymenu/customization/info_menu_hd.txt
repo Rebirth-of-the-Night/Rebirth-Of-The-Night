@@ -1,0 +1,177 @@
+type = menu
+
+customization-meta {
+  identifier = rotn.client.gui.GuiInfoResources
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = screenshots
+  action = setbackgroundslideshow
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  advanced_height = 198
+  path = resources/fancymainmenu/menu_assets/info_menu_book.png
+  orientation = top-centered
+  x = -150
+  width = 50
+  actionid = dd5c40e7-e284-4913-9e17-98d6b1cfe39e1677769705242
+  action = addtexture
+  y = 77
+  advanced_width = 300
+  height = 50
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = resources/fancymainmenu/menu_buttons/button_300w_h.png
+  label = {"placeholder":"local","values":{"key":"rotnfmm.infomenu.button.wikivisit"}}
+  loopbackgroundanimations = true
+  orientation_element = dd5c40e7-e284-4913-9e17-98d6b1cfe39e1677769705242
+  x = 22
+  width = 116
+  actionid = 404c8cf9-6787-42bd-8c90-161e2101ab301677771356542
+  action = addbutton
+  y = 15
+  backgroundnormal = resources/fancymainmenu/menu_buttons/button_300w_n.png
+  value = 
+  height = 18
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = resources/fancymainmenu/menu_buttons/button_300w_h.png
+  label = {"placeholder":"local","values":{"key":"rotnfmm.infomenu.button.joindiscord"}}
+  loopbackgroundanimations = true
+  orientation_element = dd5c40e7-e284-4913-9e17-98d6b1cfe39e1677769705242
+  x = 22
+  width = 116
+  actionid = 7910a739-48b6-48ff-9b97-b6b9c2a7c6b81677771378992
+  action = addbutton
+  y = 36
+  backgroundnormal = resources/fancymainmenu/menu_buttons/button_300w_n.png
+  value = 
+  height = 18
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = resources/fancymainmenu/menu_buttons/button_300w_h.png
+  label = {"placeholder":"local","values":{"key":"rotnfmm.infomenu.button.modlist"}}
+  loopbackgroundanimations = true
+  orientation_element = dd5c40e7-e284-4913-9e17-98d6b1cfe39e1677769705242
+  x = 22
+  width = 116
+  actionid = ca799af5-af5d-48f9-9c3e-ca7ed9457ec91677771401242
+  action = addbutton
+  y = 57
+  backgroundnormal = resources/fancymainmenu/menu_buttons/button_300w_n.png
+  value = 
+  height = 18
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = resources/fancymainmenu/menu_buttons/button_300w_h.png
+  label = {"placeholder":"local","values":{"key":"rotnfmm.infomenu.button.kofi"}}
+  loopbackgroundanimations = true
+  orientation_element = dd5c40e7-e284-4913-9e17-98d6b1cfe39e1677769705242
+  x = 22
+  width = 116
+  actionid = c85a2fd6-9571-4055-90f7-1749aa21d2a41677771425743
+  action = addbutton
+  y = 78
+  backgroundnormal = resources/fancymainmenu/menu_buttons/button_300w_n.png
+  value = 
+  height = 18
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = resources/fancymainmenu/menu_buttons/button_300w_h.png
+  label = {"placeholder":"local","values":{"key":"rotnfmm.infomenu.button.meetdevs"}}
+  loopbackgroundanimations = true
+  orientation_element = dd5c40e7-e284-4913-9e17-98d6b1cfe39e1677769705242
+  x = 22
+  width = 116
+  actionid = 48d7d596-c69b-4ab8-b4d5-7c6584b502041677771444893
+  action = addbutton
+  y = 100
+  backgroundnormal = resources/fancymainmenu/menu_buttons/button_300w_n.png
+  value = 
+  height = 18
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = resources/fancymainmenu/menu_buttons/button_300w_h.png
+  label = {"placeholder":"local","values":{"key":"rotnfmm.infomenu.button.supporters"}}
+  loopbackgroundanimations = true
+  orientation_element = dd5c40e7-e284-4913-9e17-98d6b1cfe39e1677769705242
+  x = 22
+  width = 116
+  actionid = badd518e-e78f-4a23-9ac1-c02a06f641c11677771464943
+  action = addbutton
+  y = 122
+  backgroundnormal = resources/fancymainmenu/menu_buttons/button_300w_n.png
+  value = 
+  height = 18
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = resources/fancymainmenu/menu_buttons/button_300w_h.png
+  label = {"placeholder":"local","values":{"key":"rotnfmm.infomenu.button.credits"}}
+  loopbackgroundanimations = true
+  orientation_element = dd5c40e7-e284-4913-9e17-98d6b1cfe39e1677769705242
+  x = 22
+  width = 116
+  actionid = 5a90c172-d1ba-427b-ac90-6a4658e59c9c1677771483143
+  action = addbutton
+  y = 144
+  backgroundnormal = resources/fancymainmenu/menu_buttons/button_300w_n.png
+  value = 
+  height = 18
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = closegui
+  backgroundhovered = resources/fancymainmenu/menu_buttons/button_160w_h.png
+  label = {"placeholder":"local","values":{"key":"rotnfmm.infomenu.button.exit"}}
+  loopbackgroundanimations = true
+  orientation_element = dd5c40e7-e284-4913-9e17-98d6b1cfe39e1677769705242
+  x = 50
+  width = 60
+  actionid = f789cdaa-99b4-4ac8-ad06-c877303883651677771502894
+  action = addbutton
+  y = 166
+  backgroundnormal = resources/fancymainmenu/menu_buttons/button_160w_n.png
+  value = null
+  height = 18
+}
+

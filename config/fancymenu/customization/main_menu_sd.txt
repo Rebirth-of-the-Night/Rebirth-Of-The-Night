@@ -409,7 +409,7 @@ customization {
 customization {
   orientation = element
   restartbackgroundanimations = true
-  buttonaction = openlink
+  buttonaction = opencustomgui
   backgroundhovered = resources/fancymainmenu/menu_buttons/wiki_h.png
   description = {"placeholder":"local","values":{"key":"rotnfmm.mainmenu.tooltip.info"}}
   label = 
@@ -421,7 +421,7 @@ customization {
   action = addbutton
   y = 168
   backgroundnormal = resources/fancymainmenu/menu_buttons/wiki_n.png
-  value = 
+  value = rotn.client.gui.GuiInfoResources
   height = 33
 }
 
