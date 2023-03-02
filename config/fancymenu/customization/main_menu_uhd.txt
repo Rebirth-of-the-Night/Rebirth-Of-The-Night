@@ -441,7 +441,7 @@ customization {
   enable_scrolling = false
   shadow = true
   scale = 0.8
-  source = https://raw.githubusercontent.com/Rebirth-of-the-Night/Main_Menu/master/main_menu_live/news_ticker/ticker_1.txt
+  source = https://raw.githubusercontent.com/Rebirth-of-the-Night/Main_Menu/master/main_menu_live/news_ticker/ticker_1_en_us.txt
   text_border = 0
   case_mode = normal
   advanced_width = 132
@@ -463,7 +463,7 @@ customization {
   enable_scrolling = false
   shadow = true
   scale = 0.8
-  source = https://raw.githubusercontent.com/Rebirth-of-the-Night/Main_Menu/master/main_menu_live/news_ticker/ticker_4.txt
+  source = https://raw.githubusercontent.com/Rebirth-of-the-Night/Main_Menu/master/main_menu_live/news_ticker/ticker_4_en_us.txt
   text_border = 0
   case_mode = normal
   advanced_width = 132
@@ -485,7 +485,7 @@ customization {
   enable_scrolling = false
   shadow = true
   scale = 0.8
-  source = https://raw.githubusercontent.com/Rebirth-of-the-Night/Main_Menu/master/main_menu_live/news_ticker/ticker_3.txt
+  source = https://raw.githubusercontent.com/Rebirth-of-the-Night/Main_Menu/master/main_menu_live/news_ticker/ticker_3_en_us.txt
   text_border = 0
   case_mode = normal
   advanced_width = 132
@@ -507,7 +507,7 @@ customization {
   enable_scrolling = false
   shadow = true
   scale = 0.8
-  source = https://raw.githubusercontent.com/Rebirth-of-the-Night/Main_Menu/master/main_menu_live/news_ticker/ticker_2.txt
+  source = https://raw.githubusercontent.com/Rebirth-of-the-Night/Main_Menu/master/main_menu_live/news_ticker/ticker_2_en_us.txt
   text_border = 0
   case_mode = normal
   advanced_width = 132
@@ -566,13 +566,11 @@ customization {
 }
 
 customization {
-  advanced_height = 32
   orientation = element
   restartbackgroundanimations = true
   buttonaction = openlink
   backgroundhovered = resources/fancymainmenu/menu_buttons/ticker_bar_h.png
   label = 
-  advanced_width = 172
   loopbackgroundanimations = true
   orientation_element = db2979a4-18a8-46c6-ac96-95ecd44bdc591677531627037
   x = 22
@@ -586,13 +584,11 @@ customization {
 }
 
 customization {
-  advanced_height = 32
   orientation = element
   restartbackgroundanimations = true
   buttonaction = openlink
   backgroundhovered = resources/fancymainmenu/menu_buttons/ticker_bar_h.png
   label = 
-  advanced_width = 172
   loopbackgroundanimations = true
   orientation_element = db2979a4-18a8-46c6-ac96-95ecd44bdc591677531627037
   x = 22
@@ -606,13 +602,11 @@ customization {
 }
 
 customization {
-  advanced_height = 32
   orientation = element
   restartbackgroundanimations = true
   buttonaction = openlink
   backgroundhovered = resources/fancymainmenu/menu_buttons/ticker_bar_h.png
   label = 
-  advanced_width = 172
   loopbackgroundanimations = true
   orientation_element = db2979a4-18a8-46c6-ac96-95ecd44bdc591677531627037
   x = 22
@@ -626,13 +620,11 @@ customization {
 }
 
 customization {
-  advanced_height = 32
   orientation = element
   restartbackgroundanimations = true
   buttonaction = openlink
   backgroundhovered = resources/fancymainmenu/menu_buttons/ticker_bar_h.png
   label = 
-  advanced_width = 172
   loopbackgroundanimations = true
   orientation_element = db2979a4-18a8-46c6-ac96-95ecd44bdc591677531627037
   x = 22
