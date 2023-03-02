@@ -574,6 +574,7 @@ customization {
   restartbackgroundanimations = true
   buttonaction = openlink
   backgroundhovered = resources/fancymainmenu/menu_buttons/ticker_bar_h.png
+  description = {"placeholder":"local","values":{"key":"rotnfmm.mainmenu.tooltip.newsticker"}}
   label = 
   loopbackgroundanimations = true
   orientation_element = 546051eb-1533-446f-9988-6352678401901677539210884
@@ -592,6 +593,7 @@ customization {
   restartbackgroundanimations = true
   buttonaction = openlink
   backgroundhovered = resources/fancymainmenu/menu_buttons/ticker_bar_h.png
+  description = {"placeholder":"local","values":{"key":"rotnfmm.mainmenu.tooltip.newsticker"}}
   label = 
   loopbackgroundanimations = true
   orientation_element = 546051eb-1533-446f-9988-6352678401901677539210884
@@ -610,6 +612,7 @@ customization {
   restartbackgroundanimations = true
   buttonaction = openlink
   backgroundhovered = resources/fancymainmenu/menu_buttons/ticker_bar_h.png
+  description = {"placeholder":"local","values":{"key":"rotnfmm.mainmenu.tooltip.newsticker"}}
   label = 
   loopbackgroundanimations = true
   orientation_element = 546051eb-1533-446f-9988-6352678401901677539210884
@@ -628,6 +631,7 @@ customization {
   restartbackgroundanimations = true
   buttonaction = openlink
   backgroundhovered = resources/fancymainmenu/menu_buttons/ticker_bar_h.png
+  description = {"placeholder":"local","values":{"key":"rotnfmm.mainmenu.tooltip.newsticker"}}
   label = 
   loopbackgroundanimations = true
   orientation_element = 546051eb-1533-446f-9988-6352678401901677539210884
