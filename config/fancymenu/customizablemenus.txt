@@ -6,6 +6,9 @@ net.minecraft.client.gui.GuiWorldSelection {
 net.minecraft.client.gui.GuiMultiplayer {
 }
 
+net.minecraftforge.fml.client.GuiModList {
+}
+
 net.minecraft.client.gui.GuiMainMenu {
 }
 

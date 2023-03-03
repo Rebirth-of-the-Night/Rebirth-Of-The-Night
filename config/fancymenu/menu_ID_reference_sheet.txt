@@ -1,5 +1,7 @@
 List of menu IDs for Fancy Main Menu
 
+Vanilla:
+
 Main Menu:
 net.minecraft.client.gui.GuiMainMenu
 
@@ -11,3 +13,12 @@ net.minecraft.client.gui.GuiMultiplayer
 
 Options:
 net.minecraft.client.gui.GuiOptions
+
+Mod List:
+net.minecraftforge.fml.client.GuiModList
+
+Custom:
+
+Information & Resources:
+rotn.client.gui.GuiInfoResources
+

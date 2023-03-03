@@ -45,7 +45,7 @@ customization {
   action = addbutton
   y = 15
   backgroundnormal = resources/fancymainmenu/menu_buttons/button_300w_n.png
-  value = 
+  value = https://wiki.rebirthofthenight.com/wiki/Main_Page
   height = 18
 }
 
@@ -63,14 +63,14 @@ customization {
   action = addbutton
   y = 36
   backgroundnormal = resources/fancymainmenu/menu_buttons/button_300w_n.png
-  value = 
+  value = https:/discord.gg/rotn
   height = 18
 }
 
 customization {
   orientation = element
   restartbackgroundanimations = true
-  buttonaction = openlink
+  buttonaction = opengui
   backgroundhovered = resources/fancymainmenu/menu_buttons/button_300w_h.png
   label = {"placeholder":"local","values":{"key":"rotnfmm.infomenu.button.modlist"}}
   loopbackgroundanimations = true
@@ -81,7 +81,7 @@ customization {
   action = addbutton
   y = 57
   backgroundnormal = resources/fancymainmenu/menu_buttons/button_300w_n.png
-  value = 
+  value = net.minecraftforge.fml.client.GuiModList
   height = 18
 }
 
@@ -99,7 +99,7 @@ customization {
   action = addbutton
   y = 78
   backgroundnormal = resources/fancymainmenu/menu_buttons/button_300w_n.png
-  value = 
+  value = https://ko-fi.com/rebirthofthenight
   height = 18
 }
 
@@ -173,5 +173,113 @@ customization {
   backgroundnormal = resources/fancymainmenu/menu_buttons/button_160w_n.png
   value = null
   height = 18
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = resources/fancymainmenu/menu_buttons/wiki_weapons_hover.png
+  label = 
+  loopbackgroundanimations = true
+  orientation_element = dd5c40e7-e284-4913-9e17-98d6b1cfe39e1677769705242
+  x = 223
+  width = 60
+  actionid = ac199295-4de2-4aa7-8378-2f9dd3aec7d31677876371375
+  action = addbutton
+  y = 129
+  backgroundnormal = resources/fancymainmenu/menu_buttons/wiki_weapons_normal.png
+  value = https://wiki.rebirthofthenight.com/wiki/Weapons
+  height = 60
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = resources/fancymainmenu/menu_buttons/wiki_tools_hover.png
+  label = 
+  loopbackgroundanimations = true
+  orientation_element = dd5c40e7-e284-4913-9e17-98d6b1cfe39e1677769705242
+  x = 155
+  width = 60
+  actionid = f661ac65-bfdf-4967-be13-3e460faa9bb71677876375175
+  action = addbutton
+  y = 129
+  backgroundnormal = resources/fancymainmenu/menu_buttons/wiki_tools_normal.png
+  value = https://wiki.rebirthofthenight.com/wiki/Category:Tools
+  height = 60
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = resources/fancymainmenu/menu_buttons/wiki_mobs_hover.png
+  label = 
+  loopbackgroundanimations = true
+  orientation_element = dd5c40e7-e284-4913-9e17-98d6b1cfe39e1677769705242
+  x = 223
+  width = 60
+  actionid = 264e042d-763d-4efa-998f-f119b95ab6121677876377926
+  action = addbutton
+  y = 70
+  backgroundnormal = resources/fancymainmenu/menu_buttons/wiki_mobs_normal.png
+  value = https://wiki.rebirthofthenight.com/wiki/Category:Mob
+  height = 60
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = resources/fancymainmenu/menu_buttons/wiki_blocks_hover.png
+  label = 
+  loopbackgroundanimations = true
+  orientation_element = dd5c40e7-e284-4913-9e17-98d6b1cfe39e1677769705242
+  x = 155
+  width = 60
+  actionid = d9f70883-df1f-4421-ad84-b1accb5f6f9f1677876381276
+  action = addbutton
+  y = 70
+  backgroundnormal = resources/fancymainmenu/menu_buttons/wiki_blocks_normal.png
+  value = https://wiki.rebirthofthenight.com/wiki/Category:Blocks
+  height = 60
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = resources/fancymainmenu/menu_buttons/wiki_prog_hover.png
+  label = 
+  loopbackgroundanimations = true
+  orientation_element = dd5c40e7-e284-4913-9e17-98d6b1cfe39e1677769705242
+  x = 223
+  width = 60
+  actionid = 2d31d5cf-a28a-4329-8ec0-811ed977f4e91677876393173
+  action = addbutton
+  y = 11
+  backgroundnormal = resources/fancymainmenu/menu_buttons/wiki_prog_normal.png
+  value = https://wiki.rebirthofthenight.com/wiki/Progression_Stages
+  height = 60
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = resources/fancymainmenu/menu_buttons/wiki_start_hover.png
+  label = 
+  loopbackgroundanimations = true
+  orientation_element = dd5c40e7-e284-4913-9e17-98d6b1cfe39e1677769705242
+  x = 154
+  width = 60
+  actionid = 93baa0ed-5a8e-492b-80b4-fc5e21c8ac471677876400072
+  action = addbutton
+  y = 11
+  backgroundnormal = resources/fancymainmenu/menu_buttons/wiki_start_normal.png
+  value = https://wiki.rebirthofthenight.com/wiki/Getting_Started
+  height = 60
 }
 
