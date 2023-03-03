@@ -3,6 +3,7 @@ type = menu
 customization-meta {
   identifier = net.minecraft.client.gui.GuiMainMenu
   randomgroup = 1
+  biggerthanwidth = 1
   renderorder = background
   randommode = false
   randomonlyfirsttime = false
