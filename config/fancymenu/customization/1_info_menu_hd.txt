@@ -3,11 +3,11 @@ type = menu
 customization-meta {
   identifier = rotn.client.gui.GuiInfoResources
   randomgroup = 1
-  biggerthanwidth = 1279
-  renderorder = foreground
+  biggerthanwidth = 1920
+  renderorder = background
   randommode = false
   randomonlyfirsttime = false
-  smallerthanwidth = 2560
+  smallerthanwidth = 2550
 }
 
 customization {

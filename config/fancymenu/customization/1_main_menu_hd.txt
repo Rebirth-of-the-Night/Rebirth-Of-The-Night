@@ -7,7 +7,7 @@ customization-meta {
   renderorder = background
   randommode = false
   randomonlyfirsttime = false
-  smallerthanwidth = 2560
+  smallerthanwidth = 2550
 }
 
 customization {
