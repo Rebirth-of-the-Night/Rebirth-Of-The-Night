@@ -3,7 +3,7 @@ type = menu
 customization-meta {
   identifier = net.minecraft.client.gui.GuiMainMenu
   randomgroup = 1
-  biggerthanwidth = 1279
+  biggerthanwidth = 1920
   renderorder = background
   randommode = false
   randomonlyfirsttime = false
@@ -13,6 +13,11 @@ customization-meta {
 customization {
   path = resources/fancymainmenu/backgrounds/menu_main/placeholder.png
   action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 3
 }
 
 customization {
@@ -126,6 +131,11 @@ customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   action = setbuttondescription
   description = {"placeholder":"local","values":{"key":"rotnfmm.mainmenu.tooltip.quitgame"}}
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
 }
 
 customization {

@@ -17,7 +17,7 @@ customization {
 
 customization {
   action = setscale
-  scale = 2
+  scale = 3
 }
 
 customization {
