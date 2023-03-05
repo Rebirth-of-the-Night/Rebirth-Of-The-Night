@@ -9,9 +9,9 @@ net.minecraft.client.gui.GuiMultiplayer {
 net.minecraftforge.fml.client.GuiModList {
 }
 
-net.minecraft.client.gui.GuiMainMenu {
+net.minecraft.client.gui.GuiOptions {
 }
 
-net.minecraft.client.gui.GuiOptions {
+net.minecraft.client.gui.GuiMainMenu {
 }
 

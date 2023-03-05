@@ -668,9 +668,10 @@ customization {
   basecolor = #ffff00
   shadow = true
   splashfilepath = oresources/minecraft/texts/splashes.txt
+  vr_custom:value:fancymenu_visibility_requirement_is_text = ["mode":"equals","text":"04/03/2023","compare_with":"{"placeholder":"webtext","values":{"link":"https://violetmoon.org/rotn/today/"}}"]$
   rotation = -2.5
   scale = 1.5
-  refresh = true
+  refresh = false
   bouncing = true
   vanilla-like = false
   orientation_element = 2b773da4-337a-4550-aed8-622c72a779741677979183582
@@ -678,5 +679,39 @@ customization {
   actionid = 5327b630-b4fb-4c47-bf54-ef670bac51621677979535432
   action = addsplash
   y = 8
+  vr_custom:showif:fancymenu_visibility_requirement_is_text = false
+}
+
+customization {
+  path = resources/fancymainmenu/menu_assets/splash_rat_birthday.png
+  orientation = element
+  vr_custom:value:fancymenu_visibility_requirement_is_text = ["mode":"equals","text":"04/03/2023","compare_with":"{"placeholder":"webtext","values":{"link":"https://violetmoon.org/rotn/today/"}}"]$
+  orientation_element = 2b773da4-337a-4550-aed8-622c72a779741677979183582
+  x = 10
+  width = 31
+  actionid = 9aba71e5-7523-4edb-a2be-9c9e9fe43bf11677991020091
+  action = addtexture
+  y = 6
+  vr_custom:showif:fancymenu_visibility_requirement_is_text = true
+  height = 26
+}
+
+customization {
+  orientation = element
+  basecolor = #ffff00
+  shadow = true
+  vr_custom:value:fancymenu_visibility_requirement_is_text = ["mode":"equals","text":"04/03/2023","compare_with":"{"placeholder":"webtext","values":{"link":"https://violetmoon.org/rotn/today/"}}"]$
+  rotation = -2.5
+  scale = 1.2
+  refresh = false
+  bouncing = true
+  vanilla-like = false
+  orientation_element = 2b773da4-337a-4550-aed8-622c72a779741677979183582
+  x = 107
+  actionid = 5caab8d8-046d-409c-996a-4e841a3e623a1677991230587
+  action = addsplash
+  y = 11
+  vr_custom:showif:fancymenu_visibility_requirement_is_text = true
+  text = Today is my birthday!
 }
 
