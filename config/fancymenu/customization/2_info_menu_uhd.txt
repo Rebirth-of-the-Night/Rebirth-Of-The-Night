@@ -112,7 +112,7 @@ customization {
 customization {
   orientation = element
   restartbackgroundanimations = true
-  buttonaction = openlink
+  buttonaction = opencustomgui
   backgroundhovered = resources/fancymainmenu/menu_buttons/button_300w_h.png
   label = {"placeholder":"local","values":{"key":"rotnfmm.infomenu.button.meetdevs"}}
   loopbackgroundanimations = true
@@ -123,14 +123,14 @@ customization {
   action = addbutton
   y = 133
   backgroundnormal = resources/fancymainmenu/menu_buttons/button_300w_n.png
-  value = 
+  value = rotn.client.gui.GuiWIP
   height = 26
 }
 
 customization {
   orientation = element
   restartbackgroundanimations = true
-  buttonaction = openlink
+  buttonaction = opencustomgui
   backgroundhovered = resources/fancymainmenu/menu_buttons/button_300w_h.png
   label = {"placeholder":"local","values":{"key":"rotnfmm.infomenu.button.supporters"}}
   loopbackgroundanimations = true
@@ -141,14 +141,14 @@ customization {
   action = addbutton
   y = 162
   backgroundnormal = resources/fancymainmenu/menu_buttons/button_300w_n.png
-  value = 
+  value = rotn.client.gui.GuiWIP
   height = 26
 }
 
 customization {
   orientation = element
   restartbackgroundanimations = true
-  buttonaction = openlink
+  buttonaction = opencustomgui
   backgroundhovered = resources/fancymainmenu/menu_buttons/button_300w_h.png
   label = {"placeholder":"local","values":{"key":"rotnfmm.infomenu.button.credits"}}
   loopbackgroundanimations = true
@@ -159,7 +159,7 @@ customization {
   action = addbutton
   y = 191
   backgroundnormal = resources/fancymainmenu/menu_buttons/button_300w_n.png
-  value = 
+  value = rotn.client.gui.GuiWIP
   height = 26
 }
 

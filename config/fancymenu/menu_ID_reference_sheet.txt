@@ -17,8 +17,13 @@ net.minecraft.client.gui.GuiOptions
 Mod List:
 net.minecraftforge.fml.client.GuiModList
 
+Add Server:
+net.minecraft.client.gui.GuiScreenAddServer
+
 Custom:
 
 Information & Resources:
 rotn.client.gui.GuiInfoResources
 
+Work In Progress:
+rotn.client.gui.GuiWIP

@@ -15,3 +15,21 @@ net.minecraft.client.gui.GuiOptions {
 net.minecraft.client.gui.GuiMainMenu {
 }
 
+net.minecraft.client.gui.GuiCreateWorld {
+}
+
+net.minecraft.client.gui.GuiWorldEdit {
+}
+
+net.minecraft.client.gui.GuiCustomizeSkin {
+}
+
+net.minecraftforge.fml.client.FMLConfigGuiFactory$FMLConfigGuiScreen {
+}
+
+net.minecraft.client.gui.GuiScreenAddServer {
+}
+
+net.minecraft.client.gui.GuiScreenServerList {
+}
+
