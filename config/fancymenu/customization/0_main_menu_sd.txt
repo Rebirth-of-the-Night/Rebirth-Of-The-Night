@@ -247,7 +247,7 @@ customization {
 customization {
   orientation = original
   splash_color = #ffff00
-  hidden = false
+  hidden = true
   x = 0
   width = 60
   splash_rotation = -20
@@ -653,5 +653,45 @@ customization {
   backgroundnormal = resources/fancymainmenu/menu_buttons/ticker_bar_blank.png
   value = {"placeholder":"json","values":{"source":"https://raw.githubusercontent.com/Rebirth-of-the-Night/Main_Menu/master/main_menu_live/news_ticker/ticker_3.json","json_path":"$.url"}}
   height = 24
+}
+
+customization {
+  path = 
+  orientation = top-left
+  x = 0
+  width = 0
+  actionid = 6c916fde-fb7b-4d8d-8514-fd0321b601f91677982467831
+  action = addtexture
+  y = 6
+  height = 100
+}
+
+customization {
+  path = resources/fancymainmenu/menu_assets/splash_rat.png
+  orientation = element
+  orientation_element = 24086b9a-f91c-4221-b6fe-572bda2017f81677538734632
+  x = 119
+  width = 104
+  actionid = afa6f400-3abd-4d6c-ae54-46f5bc0764171677982503289
+  action = addtexture
+  y = 53
+  height = 50
+}
+
+customization {
+  orientation = element
+  basecolor = #ffff00
+  shadow = true
+  splashfilepath = oresources/minecraft/texts/splashes.txt
+  rotation = -2.5
+  scale = 1.1
+  refresh = false
+  bouncing = true
+  vanilla-like = false
+  orientation_element = afa6f400-3abd-4d6c-ae54-46f5bc0764171677982503289
+  x = 97
+  actionid = 69458b6f-d869-4cf6-946f-0431d5405b6f1677982478382
+  action = addsplash
+  y = 4
 }
 

@@ -243,15 +243,15 @@ customization {
 }
 
 customization {
-  orientation = original
-  splash_color = #ffff00
-  hidden = false
-  x = 0
+  orientation = top-centered
+  splash_color = #ffffff
+  hidden = true
+  x = -124
   width = 60
-  splash_rotation = -20
+  splash_rotation = -3
   action = deep_customization_element:title_screen_splash
   actionid = f8e70b8e-7a3b-4d88-8355-ba32070db5051677531054891
-  y = 0
+  y = 79
   height = 30
 }
 
@@ -649,5 +649,34 @@ customization {
   backgroundnormal = resources/fancymainmenu/menu_buttons/ticker_bar_blank.png
   value = {"placeholder":"json","values":{"source":"https://raw.githubusercontent.com/Rebirth-of-the-Night/Main_Menu/master/main_menu_live/news_ticker/ticker_4.json","json_path":"$.url"}}
   height = 32
+}
+
+customization {
+  path = resources/fancymainmenu/menu_assets/splash_rat.png
+  orientation = element
+  orientation_element = db2979a4-18a8-46c6-ac96-95ecd44bdc591677531627037
+  x = 160
+  width = 155
+  actionid = 2b773da4-337a-4550-aed8-622c72a779741677979183582
+  action = addtexture
+  y = 68
+  height = 74
+}
+
+customization {
+  orientation = element
+  basecolor = #ffff00
+  shadow = true
+  splashfilepath = oresources/minecraft/texts/splashes.txt
+  rotation = -2.5
+  scale = 1.5
+  refresh = true
+  bouncing = true
+  vanilla-like = false
+  orientation_element = 2b773da4-337a-4550-aed8-622c72a779741677979183582
+  x = 132
+  actionid = 5327b630-b4fb-4c47-bf54-ef670bac51621677979535432
+  action = addsplash
+  y = 8
 }
 
