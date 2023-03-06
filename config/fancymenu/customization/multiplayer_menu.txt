@@ -9,7 +9,7 @@ customization-meta {
 }
 
 customization {
-  name = screenshots
+  name = multiplayer
   action = setbackgroundslideshow
 }
 

@@ -33,3 +33,9 @@ net.minecraft.client.gui.GuiScreenAddServer {
 net.minecraft.client.gui.GuiScreenServerList {
 }
 
+net.minecraft.client.gui.GuiYesNo {
+}
+
+com.bloodnbonesgaming.loadingscreens.client.gui.override.GuiConnectingWrapper {
+}
+
