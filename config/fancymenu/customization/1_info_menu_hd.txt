@@ -11,7 +11,7 @@ customization-meta {
 }
 
 customization {
-  name = screenshots
+  name = inforesources
   action = setbackgroundslideshow
 }
 

@@ -1,0 +1,11 @@
+type = slideshow
+
+slideshow-meta {
+   name = inforesources
+   width = 1920
+   height = 1080
+   x = 0
+   y = 0
+   duration = 7.0
+   fadespeed = 12.0
+}

@@ -9,7 +9,7 @@ customization-meta {
 }
 
 customization {
-  name = screenshots
+  name = options
   action = setbackgroundslideshow
 }
 

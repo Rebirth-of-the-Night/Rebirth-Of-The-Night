@@ -39,3 +39,27 @@ net.minecraft.client.gui.GuiYesNo {
 com.bloodnbonesgaming.loadingscreens.client.gui.override.GuiConnectingWrapper {
 }
 
+net.optifine.gui.GuiScreenCapeOF {
+}
+
+net.minecraft.client.gui.GuiVideoSettings {
+}
+
+net.minecraft.client.gui.GuiLanguage {
+}
+
+net.minecraft.client.gui.GuiScreenResourcePacks {
+}
+
+ichttt.mods.moresoundconfig.gui.GuiSound {
+}
+
+us.getfluxed.controlsearch.client.gui.GuiNewControls {
+}
+
+net.minecraft.client.gui.ScreenChatOptions {
+}
+
+net.minecraft.client.gui.GuiSnooper {
+}
+
