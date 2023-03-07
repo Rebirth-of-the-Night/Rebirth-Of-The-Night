@@ -31,6 +31,28 @@ customization {
 }
 
 customization {
+  path = resources/fancymainmenu/menu_assets/resourcemenu_fix_top.png
+  orientation = top-centered
+  x = -428
+  width = 855
+  actionid = 2f4044f4-cff1-4890-a37f-a7f08f860d4b1678200574963
+  action = addtexture
+  y = -8
+  height = 50
+}
+
+customization {
+  path = resources/fancymainmenu/menu_assets/resourcemenu_fix_bottom.png
+  orientation = bottom-centered
+  x = -426
+  width = 855
+  actionid = 04f8540c-d4e3-4657-8e4f-f00e77b6a61e1678201088213
+  action = addtexture
+  y = -61
+  height = 61
+}
+
+customization {
   identifier = %id=346952%
   loopbackgroundanimations = true
   restartbackgroundanimations = true

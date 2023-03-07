@@ -63,3 +63,6 @@ net.minecraft.client.gui.ScreenChatOptions {
 net.minecraft.client.gui.GuiSnooper {
 }
 
+guichaguri.betterfps.gui.GuiBetterFpsConfig {
+}
+
