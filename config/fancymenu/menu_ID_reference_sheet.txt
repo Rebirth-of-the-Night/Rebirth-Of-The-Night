@@ -20,6 +20,9 @@ net.minecraftforge.fml.client.GuiModList
 Add Server:
 net.minecraft.client.gui.GuiScreenAddServer
 
+Direct Connect:
+net.minecraft.client.gui.GuiScreenServerList
+
 Custom:
 
 Information & Resources:
@@ -27,3 +30,6 @@ rotn.client.gui.GuiInfoResources
 
 Work In Progress:
 rotn.client.gui.GuiWIP
+
+Supporters:
+rotn.client.gui.GuiSupporters

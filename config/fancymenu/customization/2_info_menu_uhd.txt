@@ -141,7 +141,7 @@ customization {
   action = addbutton
   y = 162
   backgroundnormal = resources/fancymainmenu/menu_buttons/button_300w_n.png
-  value = rotn.client.gui.GuiWIP
+  value = rotn.client.gui.GuiSupporters
   height = 26
 }
 
