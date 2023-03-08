@@ -103,46 +103,6 @@ customization {
 }
 
 customization {
-  orientation = element
-  enable_scrolling = true
-  shadow = true
-  scale = 1.0
-  source = {"placeholder":"local","values":{"key":"rotnfmm.supportermenu.text.username"}}
-  text_border = 0
-  case_mode = normal
-  source_mode = direct
-  line_spacing = 1
-  orientation_element = 4915f700-bb7f-4d98-bbad-bba109a646831678248653648
-  x = 28
-  width = 121
-  action = custom_layout_element:fancymenu_customization_item_text
-  actionid = 1e29289a-88df-4acf-a1a7-8d86a7c93e911678249526389
-  y = 119
-  alignment = left
-  height = 40
-}
-
-customization {
-  orientation = element
-  enable_scrolling = true
-  shadow = true
-  scale = 1.0
-  source = {"placeholder":"local","values":{"key":"rotnfmm.supportermenu.text.supportersince"}}
-  text_border = 0
-  case_mode = normal
-  source_mode = direct
-  line_spacing = 1
-  orientation_element = 4915f700-bb7f-4d98-bbad-bba109a646831678248653648
-  x = 99
-  width = 119
-  action = custom_layout_element:fancymenu_customization_item_text
-  actionid = 7c84049b-9e5d-4903-b8cd-a14dc7595adf1678249554537
-  y = 119
-  alignment = right
-  height = 40
-}
-
-customization {
   path = resources/fancymainmenu/menu_assets/kofi_icon.png
   orientation = element
   orientation_element = ed32766a-5f49-449d-b3f6-ce1bbf2361071678249399913
@@ -267,7 +227,7 @@ customization {
 
 customization {
   orientation = top-left
-  grabber_texture_normal = resources/fancymainmenu/menu_buttons/scroll_grabber_n.png
+  grabber_texture_normal = oresources/minecraft/textures/gui/options_background.png
   enable_scrolling = true
   shadow = true
   scale = 1.0
@@ -284,5 +244,45 @@ customization {
   y = 149
   alignment = left
   height = 175
+}
+
+customization {
+  orientation = element
+  enable_scrolling = false
+  shadow = true
+  scale = 1.0
+  source = {"placeholder":"local","values":{"key":"rotnfmm.supportermenu.text.username"}}
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  orientation_element = 4915f700-bb7f-4d98-bbad-bba109a646831678248653648
+  x = 28
+  width = 121
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 1e29289a-88df-4acf-a1a7-8d86a7c93e911678249526389
+  y = 119
+  alignment = left
+  height = 15
+}
+
+customization {
+  orientation = element
+  enable_scrolling = false
+  shadow = true
+  scale = 1.0
+  source = {"placeholder":"local","values":{"key":"rotnfmm.supportermenu.text.supportersince"}}
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  orientation_element = 4915f700-bb7f-4d98-bbad-bba109a646831678248653648
+  x = 99
+  width = 119
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 7c84049b-9e5d-4903-b8cd-a14dc7595adf1678249554537
+  y = 119
+  alignment = right
+  height = 15
 }
 
