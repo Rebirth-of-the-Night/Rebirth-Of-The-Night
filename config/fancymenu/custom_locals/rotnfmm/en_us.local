@@ -17,6 +17,6 @@ rotnfmm.infomenu.button.credits = Credits
 rotnfmm.infomenu.button.exit = Done
 rotnfmm.supportermenu.button.gemsubscribe = Subscribe for $5 per month
 rotnfmm.supportermenu.button.viridiumsubscribe = Subscribe for $10 per month
-rotnfmm.supportermenu.text.supporterinfo = Thank you current patrons for helping fund Rebirth of the Night! 100% of your donations are used for development, web hosting, commissions, and more. Every dollar matters!
+rotnfmm.supportermenu.text.supporterinfo = Thank you current patrons for helping fund Rebirth of the Night! %n% 100% of your donations are used for development, web hosting, commissions, and more. %n% Every dollar matters! Donate for perks and rewards =)
 rotnfmm.supportermenu.text.username = Username:
 rotnfmm.supportermenu.text.supportersince = Supporter Since:

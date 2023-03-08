@@ -226,27 +226,6 @@ customization {
 }
 
 customization {
-  orientation = top-left
-  grabber_texture_normal = oresources/minecraft/textures/gui/options_background.png
-  enable_scrolling = true
-  shadow = true
-  scale = 1.0
-  source = resources/fancymainmenu/gemsupporters.txt
-  grabber_texture_hover = resources/fancymainmenu/menu_buttons/scroll_grabber_h.png
-  text_border = 4
-  case_mode = normal
-  source_mode = local
-  line_spacing = 1
-  x = 203
-  width = 189
-  action = custom_layout_element:fancymenu_customization_item_text
-  actionid = ba731e5c-cae2-4cd0-850d-b7ad8be6899a1678292146087
-  y = 149
-  alignment = left
-  height = 175
-}
-
-customization {
   orientation = element
   enable_scrolling = false
   shadow = true
@@ -261,7 +240,7 @@ customization {
   width = 121
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = 1e29289a-88df-4acf-a1a7-8d86a7c93e911678249526389
-  y = 119
+  y = 120
   alignment = left
   height = 15
 }
@@ -277,12 +256,34 @@ customization {
   source_mode = direct
   line_spacing = 1
   orientation_element = 4915f700-bb7f-4d98-bbad-bba109a646831678248653648
-  x = 99
+  x = 90
   width = 119
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = 7c84049b-9e5d-4903-b8cd-a14dc7595adf1678249554537
-  y = 119
+  y = 120
   alignment = right
   height = 15
+}
+
+customization {
+  orientation = element
+  grabber_texture_normal = resources/fancymainmenu/menu_buttons/scroll_grabber_n.png
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = https://raw.githubusercontent.com/Rebirth-of-the-Night/Main_Menu/master/main_menu_live/kofi_supporters/gemsupporters.txt
+  grabber_texture_hover = resources/fancymainmenu/menu_buttons/scroll_grabber_h.png
+  text_border = 4
+  case_mode = normal
+  source_mode = web
+  line_spacing = 1
+  orientation_element = 948d4938-08aa-497f-9a73-089262c9a7c11678298305337
+  x = 25
+  width = 193
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = ba731e5c-cae2-4cd0-850d-b7ad8be6899a1678292146087
+  y = 134
+  alignment = left
+  height = 175
 }
 
