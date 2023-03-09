@@ -1,0 +1,379 @@
+type = menu
+
+customization-meta {
+  identifier = rotn.client.gui.GuiSupporters
+  randomgroup = 1
+  biggerthanwidth = 2560
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = inforesources
+  action = setbackgroundslideshow
+}
+
+customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = resources/fancymainmenu/menu_assets/supporter_tiers_bg.png
+  orientation = top-centered
+  x = -255
+  width = 250
+  actionid = dfcb031b-3510-48b9-be2e-91f184a02f861678248633107
+  action = addtexture
+  y = 15
+  height = 357
+}
+
+customization {
+  path = resources/fancymainmenu/menu_assets/supporter_tiers_bg.png
+  orientation = top-centered
+  x = 5
+  width = 250
+  actionid = 618e52d0-2681-4c3c-b529-39b43e9f8ed31678248642198
+  action = addtexture
+  y = 15
+  height = 357
+}
+
+customization {
+  path = resources/fancymainmenu/menu_assets/gem_supporter.png
+  orientation = element
+  orientation_element = dfcb031b-3510-48b9-be2e-91f184a02f861678248633107
+  x = 0
+  width = 250
+  actionid = 4915f700-bb7f-4d98-bbad-bba109a646831678248653648
+  action = addtexture
+  y = -1
+  height = 357
+}
+
+customization {
+  path = resources/fancymainmenu/menu_assets/viridium_supporter.png
+  orientation = element
+  orientation_element = 618e52d0-2681-4c3c-b529-39b43e9f8ed31678248642198
+  x = 0
+  width = 250
+  actionid = 422f8591-812b-41bc-a475-6e5712dc54e21678248665195
+  action = addtexture
+  y = 0
+  height = 357
+}
+
+customization {
+  path = resources/fancymainmenu/menu_assets/resourcemenu_fix_bottom.png
+  orientation = bottom-centered
+  x = -713
+  width = 1421
+  actionid = a9a7352c-7081-4b2a-9841-e31646a289331678289150395
+  action = addtexture
+  y = -99
+  height = 100
+}
+
+customization {
+  path = 
+  orientation = top-left
+  x = 0
+  width = 0
+  actionid = 125c8347-0a86-4469-b1cb-a04947d34fb61678289191340
+  action = addtexture
+  y = 6
+  height = 100
+}
+
+customization {
+  orientation = element
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = {"placeholder":"local","values":{"key":"rotnfmm.supportermenu.text.supporterinfo"}}
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  orientation_element = a9a7352c-7081-4b2a-9841-e31646a289331678289150395
+  x = 466
+  width = 494
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 41e4226b-2674-444f-980c-51cf5ccfec901678289195348
+  y = 20
+  alignment = centered
+  height = 50
+}
+
+customization {
+  orientation = bottom-centered
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui
+  backgroundhovered = resources/fancymainmenu/menu_buttons/button_300w_h.png
+  label = {"placeholder":"local","values":{"key":"rotnfmm.infomenu.button.exit"}}
+  loopbackgroundanimations = true
+  x = -75
+  width = 150
+  actionid = b1c44a33-fdb5-4c29-b63c-2b27a583d4e91678289720891
+  action = addbutton
+  y = -29
+  backgroundnormal = resources/fancymainmenu/menu_buttons/button_300w_n.png
+  value = rotn.client.gui.GuiInfoResources
+  height = 20
+}
+
+customization {
+  orientation = element
+  enable_scrolling = false
+  shadow = true
+  scale = 1.0
+  source = {"placeholder":"local","values":{"key":"rotnfmm.supportermenu.text.username"}}
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  orientation_element = 618e52d0-2681-4c3c-b529-39b43e9f8ed31678248642198
+  x = 27
+  width = 121
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = ad965fa5-da8c-47c8-8fd2-157e9bcd04a91678291247493
+  y = 119
+  alignment = left
+  height = 15
+}
+
+customization {
+  orientation = element
+  enable_scrolling = false
+  shadow = true
+  scale = 1.0
+  source = {"placeholder":"local","values":{"key":"rotnfmm.supportermenu.text.supportersince"}}
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  orientation_element = 618e52d0-2681-4c3c-b529-39b43e9f8ed31678248642198
+  x = 89
+  width = 119
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 1f368704-4559-482e-8090-31c2fea9caeb1678291269340
+  y = 119
+  alignment = right
+  height = 15
+}
+
+customization {
+  path = resources/fancymainmenu/menu_assets/supporter_scroll_bar.png
+  orientation = element
+  orientation_element = dfcb031b-3510-48b9-be2e-91f184a02f861678248633107
+  x = -1
+  width = 250
+  actionid = 948d4938-08aa-497f-9a73-089262c9a7c11678298305337
+  action = addtexture
+  y = 0
+  height = 357
+}
+
+customization {
+  orientation = element
+  enable_scrolling = false
+  shadow = true
+  scale = 1.0
+  source = {"placeholder":"local","values":{"key":"rotnfmm.supportermenu.text.username"}}
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  orientation_element = 4915f700-bb7f-4d98-bbad-bba109a646831678248653648
+  x = 28
+  width = 121
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 1e29289a-88df-4acf-a1a7-8d86a7c93e911678249526389
+  y = 120
+  alignment = left
+  height = 15
+}
+
+customization {
+  orientation = element
+  enable_scrolling = false
+  shadow = true
+  scale = 1.0
+  source = {"placeholder":"local","values":{"key":"rotnfmm.supportermenu.text.supportersince"}}
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  orientation_element = 4915f700-bb7f-4d98-bbad-bba109a646831678248653648
+  x = 90
+  width = 119
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 7c84049b-9e5d-4903-b8cd-a14dc7595adf1678249554537
+  y = 120
+  alignment = right
+  height = 15
+}
+
+customization {
+  orientation = element
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  grabber_color_normal = #d68212
+  source = https://raw.githubusercontent.com/Rebirth-of-the-Night/Main_Menu/master/main_menu_live/kofi_supporters/gemsupporters.txt
+  text_border = 4
+  case_mode = normal
+  grabber_color_hover = #ebab46
+  source_mode = web
+  line_spacing = 1
+  orientation_element = 948d4938-08aa-497f-9a73-089262c9a7c11678298305337
+  x = 25
+  width = 193
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = ba731e5c-cae2-4cd0-850d-b7ad8be6899a1678292146087
+  y = 134
+  alignment = left
+  height = 175
+}
+
+customization {
+  path = resources/fancymainmenu/menu_assets/supporter_scroll_bar.png
+  orientation = element
+  orientation_element = 618e52d0-2681-4c3c-b529-39b43e9f8ed31678248642198
+  x = -1
+  width = 250
+  actionid = 32a37d06-86d7-417a-b3e7-532b1b4ef0d11678319346981
+  action = addtexture
+  y = 0
+  height = 357
+}
+
+customization {
+  orientation = element
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  grabber_color_normal = #d68212
+  source = https://raw.githubusercontent.com/Rebirth-of-the-Night/Main_Menu/master/main_menu_live/kofi_supporters/viridiumsupporters.txt
+  text_border = 4
+  case_mode = normal
+  grabber_color_hover = #ebab46
+  source_mode = web
+  line_spacing = 1
+  orientation_element = 618e52d0-2681-4c3c-b529-39b43e9f8ed31678248642198
+  x = 24
+  width = 193
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = c64c6e35-f4eb-410a-99b0-0f0d982b1bd81678319319383
+  y = 134
+  alignment = left
+  height = 175
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = resources/fancymainmenu/menu_buttons/button_450w_h.png
+  label = 
+  loopbackgroundanimations = true
+  orientation_element = 618e52d0-2681-4c3c-b529-39b43e9f8ed31678248642198
+  x = 50
+  width = 150
+  actionid = 6c25dc9e-e9de-491a-b5a2-3ca6f5ec37761678319773834
+  action = addbutton
+  y = 313
+  backgroundnormal = resources/fancymainmenu/menu_buttons/button_450w_n.png
+  value = https://ko-fi.com/rebirthofthenight/tiers
+  height = 20
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = resources/fancymainmenu/menu_buttons/button_450w_h.png
+  label = 
+  loopbackgroundanimations = true
+  orientation_element = 4915f700-bb7f-4d98-bbad-bba109a646831678248653648
+  x = 49
+  width = 150
+  actionid = ed32766a-5f49-449d-b3f6-ce1bbf2361071678249399913
+  action = addbutton
+  y = 314
+  backgroundnormal = resources/fancymainmenu/menu_buttons/button_450w_n.png
+  value = https://ko-fi.com/rebirthofthenight/tiers
+  height = 20
+}
+
+customization {
+  path = resources/fancymainmenu/menu_assets/kofi_icon.png
+  orientation = element
+  orientation_element = ed32766a-5f49-449d-b3f6-ce1bbf2361071678249399913
+  x = 2
+  width = 25
+  actionid = 46c471ef-a0c8-4350-b72e-c4e6268ceafa1678249771493
+  action = addtexture
+  y = -4
+  height = 25
+}
+
+customization {
+  orientation = element
+  enable_scrolling = false
+  shadow = true
+  scale = 1.0
+  source = {"placeholder":"local","values":{"key":"rotnfmm.supportermenu.button.gemsubscribe"}}
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  orientation_element = ed32766a-5f49-449d-b3f6-ce1bbf2361071678249399913
+  x = 26
+  width = 125
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = d862185e-740c-4c69-abc1-e73218ae9f8b1678249509935
+  y = 4
+  alignment = left
+  height = 15
+}
+
+customization {
+  path = resources/fancymainmenu/menu_assets/kofi_icon.png
+  orientation = element
+  orientation_element = 6c25dc9e-e9de-491a-b5a2-3ca6f5ec37761678319773834
+  x = 2
+  width = 25
+  actionid = 349bfff0-3e10-4fed-8dcb-05dae117f1631678319821232
+  action = addtexture
+  y = -4
+  height = 25
+}
+
+customization {
+  orientation = element
+  enable_scrolling = false
+  shadow = true
+  scale = 1.0
+  source = {"placeholder":"local","values":{"key":"rotnfmm.supportermenu.button.viridiumsubscribe"}}
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  orientation_element = 6c25dc9e-e9de-491a-b5a2-3ca6f5ec37761678319773834
+  x = 26
+  width = 125
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = f8d36c99-dfa7-4a65-b1ed-cbfe1618c7441678319824982
+  y = 4
+  alignment = left
+  height = 15
+}
+
