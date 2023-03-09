@@ -33,3 +33,6 @@ rotn.client.gui.GuiWIP
 
 Supporters:
 rotn.client.gui.GuiSupporters
+
+Credits:
+rotn.client.gui.GuiCredits

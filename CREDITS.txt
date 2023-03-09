@@ -1,0 +1,159 @@
+
+
+§l§nCREDITS
+
+
+§r~ ~ ~ §nSoundtracks & Music§r ~ ~ ~
+
+By Pixelsphere:
+GlacierNight1 - "Seven and Eight"
+GlacierNight2 - "One Through Five"
+VillageDayNight1 - "A New Town"
+VillageNight1 - Climbing Higher
+GlacierNight3 - Rotating Worlds
+VillageNight2 - Tale of Grandeur
+AetherNight9 - Imprint on Another World
+EdgeofWorlds - To the Shores of Beyond
+IcyNight - song18_0
+
+By Haeldb:
+End2 - "ambientmain"
+ElytraFlight - "magic space"
+Nether3 - "Searching"
+
+By Sam Haynes:
+Underground2 - Darkness
+Underground1 - Sinister
+Fort3 - Ghost Voices
+
+By Midnight Society Paradox:
+End1 - Abyss
+Nether2 - Danger
+
+By Vindsvept:
+SunChief - Grave of the Goblins
+Tforest 5 - Swamplands
+
+By DavidFeliyan:
+Hirschgeist
+BlackDeath1
+EndBattle2
+
+By Myuu:
+Night1 - Unspoken
+Beneath1 - Cornered
+Beneath2 - Growing Shadows
+Beneath3 - The Unknown
+EndCity1 - Discovery
+TForest1 - Down the Rabbit Hole
+TFNight1 - Grotesque Fantasia
+TFNight 2 - Identity Crisis
+TFNight 3 - Lake of Memories
+SnowQueen - Krampus is Here
+GlacierDay1 - Snow Wonders
+Underground4 - Facing Darkness
+Underground5 - Haunted by Screams
+Underground6- Lights Out
+Underground7 - Living in the Dark
+Underground8 - Misconception
+Underground9 - Nightmares
+Underground10 - Obsessions
+Underground11 - Troubled Waves
+DeepUnder1 - Bad Encounter
+DeepUnder 2 - Nebula
+DeepUnder 3 - Twilight
+Fort1 - Poltergeist
+Fort2 - The End is Always Near
+Dungeon4 - Fatal Shrine
+NFortress1 - Cold Shivers
+NFortress2 - Forgotten Factory
+Nether1 - Ground Noises
+NetherDepths - Into the Depths
+Nether4 - The Crypt
+SpookyScary
+
+By Kole Audio Solutions:
+DesertDay1 - Gathering Omens
+
+By Sidereal Sacraments:
+Nether6 - Tamulgahr, the Antimatter Ghost
+EndCity2 - Sanguis Divinorum
+
+By Zach Heyde:
+GlacierDay2 - Gates of Frostfell
+IcyDay1 - The Dream
+IcyDay2 - Plotting a Course
+IcyNight2 - Icy Caves
+
+By COAG Music:
+Fort5 - About to Fall
+Beneath4 - She is In the Woods
+Beneath5 - Dreams
+Beneath6 - Beyond Darkness
+Beneath7 - Dark Encounters
+Beneath8 - Wake Up in the Dark
+Beneath9 - Jack the Ripper
+Beneath10 - The Infected
+Nether6 - Waiting in the Dark
+Nether7 - Omen
+Nether8 - Deep Distress
+NFortress3 - Oscuro
+End3 - Witches Among Us
+End4 - Prometheus
+End5 - You Have Doubts 
+End6 - The Sky is On Fire
+TForest6 - The Rake
+
+By Kevin Macleod:
+TForest2
+
+Magic Forest
+Link: https://incompetech.filmmusic.io/song/4012-magic-forest
+License: http://creativecommons.org/licenses/by/4.0/
+
+ElderFrostmaw
+Mountain Emperor
+Link: https://incompetech.filmmusic.io/song/4085-mountain-emperor
+License: http://creativecommons.org/licenses/by/4.0/
+
+Others:
+ForestNight - "ForestTheme" by The Cynic Project
+WitherIntense - "Epic Boss Battle" by Juhani Junkala
+VillageDay1 - The Bard's Tale by RandomMind
+VillageDay2 by RandomMind
+Underground1 - "Haunted Woods" by Michael Klier
+TForest 3 - The Forbidden Forest by Alexander Hoff
+TForest 4 - Mystical way of the lone traveler by Alexander Nakarada
+Quazar - Boom Kitty
+
+From RoyaltyFreeZone:
+Wroughtnaut
+The Harvester
+
+
+§r~ ~ ~ §nTexture Artists§r ~ ~ ~
+
+Magicked Stone - Vazkii (Botania, Livingrock)
+Loose Underground Biomes Bricks - Zeno410 (UndergroundBiomes)
+Loose Adobe bricks - Alsender (Earthworks, Adobe Bricks)
+Furnace - Alsender (Earthworks, Dry Fitted Stone)
+Fire - PureBDCraft 16x
+Weathered Dirt - https://opengameart.org/content/lots-of-free-2d-tiles-and-sprites-by-hyptosis
+Valkyrien Plate - Japes#8538
+Electrum Core - Japes#8538
+Animated Brain - Ozymandias#6988 (Texture) & Japes#8538 (Animation)
+Inventory Food - SoulRacer65#3745
+
+§r~ ~ ~ §nMod Contributions & Credits§r ~ ~ ~
+
+§r~ ~ ~ §nInterface§r ~ ~ ~
+
+§r~ ~ ~ §nAnimation§r ~ ~ ~
+
+§r~ ~ ~ §n...And Everything Else!§r ~ ~ ~
+
+Thank you artists, composers, creators, coders, developers and contributors!
+Your contributions and hard work help make Rebirth of the Night possible.
+
+If your credit is missing from this list, please contact us:
+rotn.modpack@gmail.com
