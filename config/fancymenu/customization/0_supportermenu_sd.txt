@@ -3,11 +3,10 @@ type = menu
 customization-meta {
   identifier = rotn.client.gui.GuiSupporters
   randomgroup = 1
-  biggerthanwidth = 1920
   renderorder = foreground
   randommode = false
   randomonlyfirsttime = false
-  smallerthanwidth = 2550
+  smallerthanwidth = 1900
 }
 
 customization {
@@ -27,23 +26,23 @@ customization {
 
 customization {
   path = resources/fancymainmenu/menu_assets/supporter_tiers_bg.png
-  orientation = top-centered
+  orientation = mid-centered
   x = -182
   width = 175
   actionid = dfcb031b-3510-48b9-be2e-91f184a02f861678248633107
   action = addtexture
-  y = 10
+  y = -124
   height = 249
 }
 
 customization {
   path = resources/fancymainmenu/menu_assets/supporter_tiers_bg.png
-  orientation = top-centered
+  orientation = mid-centered
   x = 6
   width = 175
   actionid = 618e52d0-2681-4c3c-b529-39b43e9f8ed31678248642198
   action = addtexture
-  y = 10
+  y = -124
   height = 249
 }
 
@@ -69,17 +68,6 @@ customization {
   action = addtexture
   y = 0
   height = 249
-}
-
-customization {
-  path = resources/fancymainmenu/menu_assets/resourcemenu_fix_bottom.png
-  orientation = bottom-centered
-  x = -713
-  width = 1421
-  actionid = a9a7352c-7081-4b2a-9841-e31646a289331678289150395
-  action = addtexture
-  y = -99
-  height = 100
 }
 
 customization {
@@ -114,20 +102,21 @@ customization {
 }
 
 customization {
-  orientation = bottom-centered
+  orientation = top-right
   restartbackgroundanimations = true
   buttonaction = opencustomgui
-  backgroundhovered = resources/fancymainmenu/menu_buttons/button_300w_h.png
-  label = {"placeholder":"local","values":{"key":"rotnfmm.infomenu.button.exit"}}
+  backgroundhovered = resources/fancymainmenu/menu_buttons/exit_s_h.png
+  description = {"placeholder":"local","values":{"key":"rotnfmm.infomenu.button.exit"}}
+  label = 
   loopbackgroundanimations = true
-  x = -75
-  width = 150
+  x = -35
+  width = 35
   actionid = b1c44a33-fdb5-4c29-b63c-2b27a583d4e91678289720891
   action = addbutton
-  y = -29
-  backgroundnormal = resources/fancymainmenu/menu_buttons/button_300w_n.png
+  y = 0
+  backgroundnormal = resources/fancymainmenu/menu_buttons/exit_s_n.png
   value = rotn.client.gui.GuiInfoResources
-  height = 20
+  height = 35
 }
 
 customization {
