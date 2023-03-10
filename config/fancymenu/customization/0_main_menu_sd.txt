@@ -21,7 +21,7 @@ customization {
 }
 
 customization {
-  keepaspectratio = true
+  keepaspectratio = false
   action = backgroundoptions
 }
 
@@ -729,5 +729,18 @@ customization {
   y = 5
   vr_custom:showif:fancymenu_visibility_requirement_is_text = true
   text = Today is my birthday!
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}/1","decimal":"true"}}
+  orientation = top-centered
+  name = guidebook
+  x = -210
+  width = 50
+  actionid = 804b01fb-3acf-4fce-96aa-6a7b028b59db1678471528825
+  action = addslideshow
+  y = 2
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}/1","decimal":"true"}}
+  height = 50
 }
 

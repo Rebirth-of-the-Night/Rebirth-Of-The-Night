@@ -716,3 +716,16 @@ customization {
   text = Today is my birthday!
 }
 
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}/1","decimal":"true"}}
+  orientation = top-left
+  name = guidebook
+  x = 0
+  width = 50
+  actionid = 26633884-8be1-4578-aa82-93e1b1efc6de1678468870742
+  action = addslideshow
+  y = 0
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}/1","decimal":"true"}}
+  height = 50
+}
+
