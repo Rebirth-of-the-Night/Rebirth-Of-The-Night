@@ -11,8 +11,9 @@ customization-meta {
 }
 
 customization {
-  path = resources/fancymainmenu/backgrounds/menu_main/placeholder.png
-  action = texturizebackground
+  restart_on_load = false
+  name = identifier_42e30368386c40bc
+  action = animatebackground
 }
 
 customization {
