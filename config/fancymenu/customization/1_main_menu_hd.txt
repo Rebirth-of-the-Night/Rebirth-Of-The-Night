@@ -713,7 +713,8 @@ customization {
   actionid = decde337-33a0-4e7a-8f38-c598338a22dc1678469814126
   action = addslideshow
   y = 0
-  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}/1","decimal":"true"}}
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} /2-{"placeholder":"elementwidth","values":{"id":"decde337-33a0-4e7a-8f38-c598338a22dc1678469814126"}}/2","decimal":"true"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}*1.8","decimal":"true"}}
   height = 50
 }
 
