@@ -12,7 +12,7 @@ customization-meta {
 
 customization {
   restart_on_load = false
-  name = identifier_42e30368386c40bc
+  name = identifier_44ce99a861f1445c
   action = animatebackground
 }
 
