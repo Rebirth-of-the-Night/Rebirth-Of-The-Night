@@ -193,13 +193,13 @@ customization {
 customization {
   advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}/1","decimal":"true"}}
   orientation = top-left
-  name = guidebook
+  name = maps
   x = 0
   width = 50
-  actionid = 804b01fb-3acf-4fce-96aa-6a7b028b59db1678471528825
+  actionid = fd51b99a-2a5e-4fe1-9e04-944accef1f5d1678574714451
   action = addslideshow
   y = 0
-  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} /2-{"placeholder":"elementwidth","values":{"id":"804b01fb-3acf-4fce-96aa-6a7b028b59db1678471528825"}}/2","decimal":"true"}}
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} /2-{"placeholder":"elementwidth","values":{"id":"fd51b99a-2a5e-4fe1-9e04-944accef1f5d1678574714451"}}/2","decimal":"true"}}
   advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}*1.8","decimal":"true"}}
   height = 50
 }
@@ -270,6 +270,20 @@ customization {
   actionid = f8e70b8e-7a3b-4d88-8355-ba32070db5051677531054891
   y = 0
   height = 30
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}/1","decimal":"true"}}
+  orientation = top-left
+  name = guidebook
+  x = 0
+  width = 50
+  actionid = 804b01fb-3acf-4fce-96aa-6a7b028b59db1678471528825
+  action = addslideshow
+  y = 0
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} /2-{"placeholder":"elementwidth","values":{"id":"804b01fb-3acf-4fce-96aa-6a7b028b59db1678471528825"}}/2","decimal":"true"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}*1.8","decimal":"true"}}
+  height = 50
 }
 
 customization {

@@ -189,6 +189,20 @@ customization {
 }
 
 customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}/1","decimal":"true"}}
+  orientation = top-left
+  name = maps
+  x = 0
+  width = 50
+  actionid = 44699c82-68aa-4fa4-924c-8607c6ff81391678557915921
+  action = addslideshow
+  y = 0
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} /2-{"placeholder":"elementwidth","values":{"id":"44699c82-68aa-4fa4-924c-8607c6ff81391678557915921"}}/2","decimal":"true"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}*1.8","decimal":"true"}}
+  height = 50
+}
+
+customization {
   orientation = top-left
   hidden = true
   x = 104
