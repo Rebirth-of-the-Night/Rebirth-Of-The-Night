@@ -24,7 +24,7 @@
 # the most common sedimentary stone fond in hills, downland, caves and eroded landscapes is limestone (plains, grassland, gravel beach)
 # 	Dolomite is similarly common, but used here for higher altitudes based on resistance to erosion (plains, grassland, gravel beach)
 #	Chalk is a common rock to Europe (pockets in limestone)
-#	Shale is a kind of sedimentary mud-stone (swamp, water)
+#	Shale is a kind of sedimentary mud-stone (removed)
 #	Siltstone is a kind of sedimentary mud-stone (swamp, water)
 #	Greywacke is a hard sandstone (wasteland, dead, spooky)
 #	Chert occurs in limestone, chalk, and dolomite (pockets)
@@ -80,6 +80,7 @@
       }
     }
     {
+      #gneiss
       state: undergroundbiomes:metamorphic_stone
       height: [ 0, 52 ]
       ceiling: {
@@ -89,7 +90,7 @@
     {
       #limestone
       state: undergroundbiomes:sedimentary_stone
-      height: [ 0, 100 ]
+      height: [ 0, 70 ]
       ceiling: {
         frequency: 0.015
         range: [ 0, 4 ]
@@ -98,7 +99,7 @@
     {
       #dolomite
       state: undergroundbiomes:sedimentary_stone:5
-      height: [ 0, 128 ]
+      height: [ 0, 80 ]
       ceiling: {
         frequency: 0.015
         range: [ 0, 8 ]
@@ -107,7 +108,7 @@
     {
       #green schist
       state: undergroundbiomes:metamorphic_stone:5
-      height: [ 0, 190 ]
+      height: [ 0, 110 ]
       ceiling: {
         frequency: 0.3
         range: [ 0, 8 ]

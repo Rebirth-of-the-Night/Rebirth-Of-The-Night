@@ -301,11 +301,11 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <undergroundbiomes:igneous_stone:*>.addTooltip("Very slow to break.");
 <undergroundbiomes:igneous_cobble:*>.addTooltip("Igneous stone formed from cooled magma.");
 <undergroundbiomes:igneous_cobble:*>.addTooltip("Very slow to break.");
-<minecraft:stone:0>.addTooltip("Igneous stone formed from cooled down molten stone."); //vanilla (coade) stone
-<minecraft:stone:0>.addTooltip("Slow to break.");
 <minecraft:cobblestone:*>.addTooltip("Igneous stone formed from cooled down molten stone."); //vanilla (coade) cobblestone
 <minecraft:cobblestone:*>.addTooltip("Slow to break.");
 // Metamorphic
+<minecraft:stone:0>.addTooltip("Metamorphic stone crystalized under high pressures and temperature."); //vanilla (coade) stone
+<minecraft:stone:0>.addTooltip("Slow to break.");
 <undergroundbiomes:metamorphic_stone:*>.addTooltip("Metamorphic stone formed under high pressures.");
 <undergroundbiomes:metamorphic_stone:*>.addTooltip("Slow to break.");
 <undergroundbiomes:metamorphic_cobble:*>.addTooltip("Metamorphic stone formed under high pressures.");

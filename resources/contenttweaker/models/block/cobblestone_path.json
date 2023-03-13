@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "minecraft:blocks/cobblestone",
-		"1": "contenttweaker:blocks/cobblestone_path_coade",
+		"1": "contenttweaker:blocks/cobblestone_path_quartzite",
 		"particle": "minecraft:blocks/cobblestone"
 	},
 	"elements": [

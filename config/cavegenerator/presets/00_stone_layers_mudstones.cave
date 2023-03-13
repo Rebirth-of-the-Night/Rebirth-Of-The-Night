@@ -36,7 +36,8 @@
       }
     }
     {
-      state: undergroundbiomes:sedimentary_stone:2
+      #limestone
+      state: undergroundbiomes:sedimentary_stone
       height: [ 0, 60 ]
       ceiling: {
         frequency: 0.015

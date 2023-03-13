@@ -1412,12 +1412,12 @@ loose_porcelain_bricks.setGravity(true);
 loose_porcelain_bricks.setToolLevel(1);
 loose_porcelain_bricks.setBlockLayer("CUTOUT_MIPPED");
 loose_porcelain_bricks.register();
-// Coade
-var loose_big_coade_bricks = VanillaFactory.createBlock("loose_big_coade_bricks", <blockmaterial:Rock>);
-loose_big_coade_bricks.setCreativeTab(<creativetab:rotn_blocks>);
-loose_big_coade_bricks.setGravity(true);
-loose_big_coade_bricks.setToolLevel(1);
-loose_big_coade_bricks.register();
+// Quartzite
+var loose_big_quartzite_bricks = VanillaFactory.createBlock("loose_big_quartzite_bricks", <blockmaterial:Rock>);
+loose_big_quartzite_bricks.setCreativeTab(<creativetab:rotn_blocks>);
+loose_big_quartzite_bricks.setGravity(true);
+loose_big_quartzite_bricks.setToolLevel(1);
+loose_big_quartzite_bricks.register();
 // End
 var loose_big_end_bricks = VanillaFactory.createBlock("loose_big_end_bricks", <blockmaterial:Rock>);
 loose_big_end_bricks.setCreativeTab(<creativetab:rotn_blocks>);
@@ -1503,12 +1503,6 @@ loose_big_marble_bricks.setCreativeTab(<creativetab:rotn_blocks>);
 loose_big_marble_bricks.setGravity(true);
 loose_big_marble_bricks.setToolLevel(1);
 loose_big_marble_bricks.register();
-// Quartzite
-var loose_big_quartzite_bricks = VanillaFactory.createBlock("loose_big_quartzite_bricks", <blockmaterial:Rock>);
-loose_big_quartzite_bricks.setCreativeTab(<creativetab:rotn_blocks>);
-loose_big_quartzite_bricks.setGravity(true);
-loose_big_quartzite_bricks.setToolLevel(1);
-loose_big_quartzite_bricks.register();
 // Blueschist
 var loose_big_blueschist_bricks = VanillaFactory.createBlock("loose_big_blueschist_bricks", <blockmaterial:Rock>);
 loose_big_blueschist_bricks.setCreativeTab(<creativetab:rotn_blocks>);
@@ -1845,9 +1839,9 @@ n_copper_sandstone_red.setToolLevel(0);
 n_copper_sandstone_red.register();
 
 // cobblestone paths
-// Coade
-var cobblestone_path_coade = VanillaFactory.createBlock("cobblestone_path_coade", <blockmaterial:Rock>);
-cobblestone_path_coade.axisAlignedBB = AxisAlignedBB.create(
+// Quartzite
+var cobblestone_path_quartzite = VanillaFactory.createBlock("cobblestone_path_quartzite", <blockmaterial:Rock>);
+cobblestone_path_quartzite.axisAlignedBB = AxisAlignedBB.create(
      0.0 / 16.0,
      0.0 / 16.0,
      0.0 / 16.0,
@@ -1855,12 +1849,12 @@ cobblestone_path_coade.axisAlignedBB = AxisAlignedBB.create(
     15.0 / 16.0,
     16.0 / 16.0
 	);
-cobblestone_path_coade.setFullBlock(false);
-cobblestone_path_coade.setLightOpacity(254);
-cobblestone_path_coade.setSlipperiness(0.75f);
-cobblestone_path_coade.setCreativeTab(<creativetab:rotn_blocks>);
-cobblestone_path_coade.setToolLevel(0);
-cobblestone_path_coade.register();
+cobblestone_path_quartzite.setFullBlock(false);
+cobblestone_path_quartzite.setLightOpacity(254);
+cobblestone_path_quartzite.setSlipperiness(0.75f);
+cobblestone_path_quartzite.setCreativeTab(<creativetab:rotn_blocks>);
+cobblestone_path_quartzite.setToolLevel(0);
+cobblestone_path_quartzite.register();
 // Red Granite
 var cobblestone_path_red_granite = VanillaFactory.createBlock("cobblestone_path_red_granite", <blockmaterial:Rock>);
 cobblestone_path_red_granite.axisAlignedBB = AxisAlignedBB.create(
@@ -2008,7 +2002,7 @@ glareshaft.setToolLevel(0);
 glareshaft.register();
 
 // dry stone building blocks
-// coade
+// conglomerate
 var rock_big = VanillaFactory.createBlock("rock_big", <blockmaterial:Rock>);
 rock_big.axisAlignedBB = AxisAlignedBB.create(
      1.0 / 16.0,

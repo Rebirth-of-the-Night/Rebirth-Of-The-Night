@@ -98,13 +98,13 @@ rammed_earth_silty_dirt.setBlockHardness(33);
 rammed_earth_silty_dirt.setBlockResistance(10.0);
 rammed_earth_silty_dirt.register();
 
-var dry_fitted_coade_stone = VanillaFactory.createBlock("dry_fitted_coade_stone", <blockmaterial:Rock>);
-dry_fitted_coade_stone.setCreativeTab(<creativetab:rotn_blocks>);
-dry_fitted_coade_stone.setBlockSoundType(<soundtype:stone>);
-dry_fitted_coade_stone.setToolLevel(1);
-dry_fitted_coade_stone.setBlockHardness(34);
-dry_fitted_coade_stone.setBlockResistance(18.0);
-dry_fitted_coade_stone.register();
+var dry_fitted_conglomerate_stone = VanillaFactory.createBlock("dry_fitted_conglomerate_stone", <blockmaterial:Rock>);
+dry_fitted_conglomerate_stone.setCreativeTab(<creativetab:rotn_blocks>);
+dry_fitted_conglomerate_stone.setBlockSoundType(<soundtype:stone>);
+dry_fitted_conglomerate_stone.setToolLevel(1);
+dry_fitted_conglomerate_stone.setBlockHardness(34);
+dry_fitted_conglomerate_stone.setBlockResistance(18.0);
+dry_fitted_conglomerate_stone.register();
 
 var dry_fitted_mixed_stone = VanillaFactory.createBlock("dry_fitted_mixed_stone", <blockmaterial:Rock>);
 dry_fitted_mixed_stone.setCreativeTab(<creativetab:rotn_blocks>);

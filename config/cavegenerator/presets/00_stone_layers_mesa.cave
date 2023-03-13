@@ -26,28 +26,18 @@
     {
       #limestone
       state: undergroundbiomes:sedimentary_stone
-      height: [ 0, 58 ]
+      height: [ 0, 64 ]
       ceiling: {
         frequency: 0.015
         range: [ 0, 4 ]
       }
     }
     {
-      #shale
-      state: undergroundbiomes:sedimentary_stone:2
-      height: [ 0, 204 ]
-      ceiling: {
-        frequency: 0.9
-        range: [ -16, 16 ]
-      }
-    }
-    {
-      #shale sandstone
-      state: undergroundbiomes:sedimentary_sandstone:2
+      #terracotta
+      state: minecraft:hardened_clay
       height: [ 0, 255 ]
       ceiling: {
-        frequency: 0.9
-        range: [ 2, 16 ]
+        frequency: 0
       }
     }
   ]

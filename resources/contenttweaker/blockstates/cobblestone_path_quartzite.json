@@ -3,7 +3,7 @@
   "defaults": {
     "textures": {
       "0": "minecraft:blocks/cobblestone",
-	  "1": "contenttweaker:blocks/cobbled_path/cobblestone_path_coade",
+	  "1": "contenttweaker:blocks/cobbled_path/cobblestone_path_quartzite",
 	  "particle": "minecraft:blocks/cobblestone"
     },
     "model": "contenttweaker:cobblestone_path",

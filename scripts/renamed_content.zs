@@ -56,7 +56,7 @@ import mods.jei.JEI;
 <minecraft:cooked_fish>.displayName = "Cooked Cod";
 <minecraft:brick>.displayName = "Clay Brick";
 <minecraft:furnace>.displayName = "Rock Furnace";
-<minecraft:stone_button>.displayName = "Coade Stone Button";
+<minecraft:stone_button>.displayName = "Quartzite Stone Button";
 
 // Requious Frakto
 <requious:dryer>.displayName = "Hell Dryer";
@@ -87,7 +87,7 @@ import mods.jei.JEI;
 <quark:chain:*>.addTooltip("Can be used to link minecarts or boats");
 
 // Earthworks
-<earthworks:block_dry_stone>.displayName = "Coade Dry Fitted Stone"; 
+<earthworks:block_dry_stone>.displayName = "Quartzite Dry Fitted Stone"; 
 
 // Cyclic
 <cyclicmagic:tool_spelunker>.displayName = "Prospecting Set";

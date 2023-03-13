@@ -298,7 +298,7 @@ tile.pyrotech.dense_redstone_ore.name=Dense Redstone Crystal
 tile.pyrotech.dense_quartz_ore.name=Dense Quartz Crystal
 tile.pyrotech.straw_bed.name=Straw Bed
 
-tile.pyrotech.rock_stone.name=Coade Stone Rock
+tile.pyrotech.rock_stone.name=Quartzite Rock
 tile.pyrotech.rock_andesite.name=Zinc Bits
 tile.pyrotech.rock_diorite.name=Au'Ag Pebbles
 tile.pyrotech.rock_granite.name=Copperons 

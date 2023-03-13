@@ -37,7 +37,7 @@ lvl 10(9) = 108
 	dragonsteel
 */
 GraniteAnvil.addRecipe("break_clay_brick", <minecraft:brick>*4, <contenttweaker:brick_minecraft_clay>, 4, "pickaxe", true);
-GraniteAnvil.addRecipe("break_coade_brick", <contenttweaker:brick_coade>*4, <contenttweaker:brick_minecraft_stone>, 4, "pickaxe", true);
+GraniteAnvil.addRecipe("break_quartzite_brick", <contenttweaker:brick_quartzite>*4, <contenttweaker:brick_minecraft_stone>, 4, "pickaxe", true);
 GraniteAnvil.addRecipe("break_masonry_brick", <contenttweaker:masonry_brick>*4, <contenttweaker:brick_pyrotech_masonry>, 4, "pickaxe", true);
 GraniteAnvil.addRecipe("break_nether_brick", <minecraft:netherbrick>*4, <contenttweaker:brick_minecraft_nether>, 4, "pickaxe", true);
 GraniteAnvil.addRecipe("break_fiery_nether_brick", <netherex:fiery_netherbrick>*4, <contenttweaker:brick_netherex_fiery>, 4, "pickaxe", true);

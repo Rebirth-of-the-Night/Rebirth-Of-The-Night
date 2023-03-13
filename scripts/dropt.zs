@@ -867,10 +867,10 @@ Dropt.list("fruit_silk")
   ); 
 
 // Cobbled Path blocks
-Dropt.list("cobblestone_path_coade")
+Dropt.list("cobblestone_path_quartzite")
 
   .add(Dropt.rule()
-      .matchBlocks(["contenttweaker:cobblestone_path_coade"])
+      .matchBlocks(["contenttweaker:cobblestone_path_quartzite"])
   	  .addDrop(Dropt.drop()
           .selector(Dropt.weight(1))
        	   .items([<minecraft:cobblestone>])

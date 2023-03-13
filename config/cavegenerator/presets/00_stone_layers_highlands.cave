@@ -60,9 +60,9 @@
       }
     }
     {
-      #shale
-      state: undergroundbiomes:sedimentary_stone:2
-      height: [ 0, 126 ]
+      #vanilla quartzite
+      state: minecraft:stone
+      height: [ 0, 117 ]
       ceiling: {
         frequency: 0.015
         range: [ 0, 8 ]
@@ -79,7 +79,7 @@
     }
     {
       #quartzite peaks
-      state: undergroundbiomes:metamorphic_stone:3
+      state: minecraft:stone
       height: [ 0, 255 ]
       ceiling: {
         frequency: 0.3

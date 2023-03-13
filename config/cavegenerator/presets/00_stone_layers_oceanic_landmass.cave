@@ -9,7 +9,7 @@
     {
       #red granite
       state: undergroundbiomes:igneous_stone
-      height: [ 0, 48 ]
+      height: [ 0, 16 ]
       ceiling: {
         frequency: 0.015
         range: [ -7, 4 ]
@@ -25,28 +25,10 @@
     {
       #limestone
       state: undergroundbiomes:sedimentary_stone
-      height: [ 0, 58 ]
+      height: [ 0, 255 ]
       ceiling: {
         frequency: 0.015
         range: [ 0, 4 ]
-      }
-    }
-    {
-      #shale
-      state: undergroundbiomes:sedimentary_stone:2
-      height: [ 0, 61 ]
-      ceiling: {
-        frequency: 0.9
-        range: [ -16, 16 ]
-      }
-    }
-    {
-      #shale sandstone
-      state: undergroundbiomes:metamorphic_sandstone
-      height: [ 0, 250 ]
-      ceiling: {
-        frequency: 0.9
-        range: [ 2, 16 ]
       }
     }
   ]

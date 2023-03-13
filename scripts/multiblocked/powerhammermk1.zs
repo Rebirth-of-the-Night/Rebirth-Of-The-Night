@@ -23,7 +23,7 @@ pwrhmrmk1.recipeMap = newRP;
 
 val PowerHammerRecipeNames = [
     "1break_clay_brick", 
-    "1break_coade_brick", 
+    "1break_quartzite_brick", 
     "1break_masonry_brick", 
     "1break_nether_brick", 
     "1break_fiery_nether_brick", 
@@ -76,7 +76,7 @@ val PowerHammerRecipeNames = [
 
 val PowerHammerItemOutputs = [
     <minecraft:brick>*4, 
-    <contenttweaker:brick_coade>*4, 
+    <contenttweaker:brick_quartzite>*4, 
     <contenttweaker:masonry_brick>*4, 
     <minecraft:netherbrick>*4, 
     <netherex:fiery_netherbrick>*4, 

@@ -358,7 +358,7 @@ val pyrite = VanillaFactory.createItem("pyrite");
 pyrite.register();
 
 // Bricks
-VanillaFactory.createItem("brick_coade").register();
+VanillaFactory.createItem("brick_quartzite").register();
 VanillaFactory.createItem("brick_end").register();
 VanillaFactory.createItem("brick_white").register();
 VanillaFactory.createItem("brick_red_granite").register();
