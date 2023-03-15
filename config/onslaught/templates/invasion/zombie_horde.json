@@ -1,0 +1,334 @@
+{
+  "zombie_horde": {
+    "selector": {
+      "gamestages": {
+        "and": ["slayersjournal"]
+      },
+      "weight": 3,
+      "dimension": {
+        "type": "include",
+        "dimensions": [ 0 ]
+      }
+    },
+    "commands": {
+      "start": [
+        "/weather clear",
+        "/gamestage silentadd @p invasionongoing",
+        "/gamerule maxEntityCramming 50",
+        "/gamerule doWeatherCycle false"
+      ],
+      "end": [
+        "/xp 400 @p",
+        "/give @p betterwithmods:material 12 31",
+        "/give @p pyrotech:material 32 4",
+        "/gamestage silentremove @p invasionongoing",
+        "/gamerule maxEntityCramming 24"
+      ],
+      "staged": [
+        {
+          "complete": 0.8,
+          "commands": [
+            "/ostop @p"
+          ]
+        }
+
+      ]
+    },
+    "name": "Wandering Undead Horde",
+    "messages": {
+      "start": "\u00A7cThe undead horde is coming from every shadow!",
+      "end": "\u00A7aThe necrotic beasts have been driven away... for now.",
+      "warn": {
+        "ticks": 12000,
+        "message": "\u00A7eThe faint smell of flesh hangs in the air... (THEY WILL COME TO YOU IN 10 MINUTES!)"
+      }
+    },
+    "waves": [
+      {
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zed",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "zed.miner",
+                "count": [ 3 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+	  {
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zed",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "zed.miner",
+                "count": [ 3 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+		"delayTicks": [ 1000 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zed",
+                "count": [ 4, 6 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+		"delayTicks": [ 2000 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zed.boss.huntsman",
+                "count": [ 1 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "zed",
+                "count": [ 6, 8 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          },
+          {
+            "mobs": [
+              {
+                "id": "zed.boss.wasman",
+                "count": [ 1 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "zed",
+                "count": [ 6, 8 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          },
+          {
+            "mobs": [
+              {
+                "id": "zed.boss.cook",
+                "count": [ 1 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "zed",
+                "count": [ 6, 8 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 3000 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zed",
+                "count": [ 9, 12 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "zed.miner",
+                "count": [ 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

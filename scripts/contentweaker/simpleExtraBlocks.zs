@@ -168,6 +168,23 @@ dolomite_straws.setBlockSoundType(<soundtype:stone>);
 dolomite_straws.setToolLevel(0);
 dolomite_straws.register();
 
+// Wolf Statue
+var wolf_statue = VanillaFactory.createBlock("wolf_statue", <blockmaterial:Rock>);
+wolf_statue.axisAlignedBB = AxisAlignedBB.create(
+     2.0 / 16.0,
+     0.0 / 16.0,
+     2.0 / 16.0,
+	14.0 / 16.0,
+    15.0 / 16.0,
+    14.0 / 16.0
+	);
+wolf_statue.setFullBlock(false);
+wolf_statue.setLightOpacity(0);
+wolf_statue.setCreativeTab(<creativetab:decorations>);
+wolf_statue.setBlockSoundType(<soundtype:stone>);
+wolf_statue.setToolLevel(0);
+wolf_statue.register();
+
 // block_electrum
 var block_electrum = VanillaFactory.createBlock("block_electrum", <blockmaterial:Iron>);
 block_electrum.setCreativeTab(<creativetab:rotn_blocks>);

@@ -424,24 +424,6 @@ Dropt.list("non-resource_drops")
       .matchBlocks(["contenttweaker:dolomite_straws","rotn_blocks:verribyne_0","rotn_blocks:verribyne_1"])
       .addDrop(Dropt.drop())
   );
-
-Dropt.list("clovers")
-
-  .add(Dropt.rule()
-      .matchBlocks(["biomesoplenty:plant_0:10"])
-      .replaceStrategy("REPLACE_ALL_IF_SELECTED")
-      .addDrop(Dropt.drop()
-          .selector(Dropt.weight(20000)) // drops nothing if selected
-      )
-      .addDrop(Dropt.drop()
-          .selector(Dropt.weight(100)) // lucky clover
-          .items([<contenttweaker:4leaf_clover>])
-      )
-      .addDrop(Dropt.drop()
-           .selector(Dropt.weight(10)) // unlucky clover
-           .items([<contenttweaker:5leaf_clover>])
-      )
-  );
   
 Dropt.list("radiant_extra_quartz")
 
@@ -680,6 +662,24 @@ Dropt.list("double_tall_grass_base_drops")
           .selector(Dropt.weight(8)) // Strange flower
           .items([<dungeontactics:flower_ailment>])
 	  )
+  );
+
+Dropt.list("clovers")
+
+  .add(Dropt.rule()
+      .matchBlocks(["biomesoplenty:plant_0:10"])
+      .replaceStrategy("REPLACE_ALL_IF_SELECTED")
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(20000)) // drops nothing if selected
+      )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(100)) // lucky clover
+          .items([<contenttweaker:4leaf_clover>])
+      )
+      .addDrop(Dropt.drop()
+           .selector(Dropt.weight(10)) // unlucky clover
+           .items([<contenttweaker:5leaf_clover>])
+      )
   );
 
 Dropt.list("slaked_lime")

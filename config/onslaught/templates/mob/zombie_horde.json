@@ -1,0 +1,304 @@
+{
+  "skel": {
+    "id": "minecraft:skeleton",
+    "effects":[
+      {
+        "id": "cyclicmagic:potion.swimspeed",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      },
+      {
+        "id": "potioncore:teleport_surface",
+        "duration": 20,
+        "amplifier": 0,
+        "showParticles": false
+      }
+    ],
+    "nbt": {
+      "CustomName": "\u00A76Invading Skeleton",
+      "ArmorItems": [
+        {},
+        {},
+        {},
+        { "Count": 1, "id": "minecraft:leather_helmet" }
+      ],
+      "ArmorDropChances": [ 0.0, 0.0, 0.0, 0.0 ]
+    }
+  },
+  "skel.boss.slimed": {
+    "id": "primitivemobs:skeleton_warrior",
+    "effects":[
+      {
+        "id": "cyclicmagic:potion.swimspeed",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      },
+      {
+        "id": "potioncore:teleport_surface",
+        "duration": 20,
+        "amplifier": 0,
+        "showParticles": false
+      }
+      
+    ],
+    "nbt": {
+      "CustomName": "\u00A74Dissolved Bandit",
+      "Attributes": [
+        { "Name": "generic.maxHealth", "Base": 40 }
+      ],
+      "Health": 40,
+      "HandItems": [
+        { "Count": 1, "id": "spartanweaponry:battleaxe_iron" },
+        { "Count": 1, "id": "spartanweaponry:dagger_copper" }
+      ],
+      "ArmorItems": [
+        { "Count": 1, "id": "minecraft:leather_boots" },
+        { "Count": 1, "id": "minecraft:chainmail_leggings"},
+        { "Count": 1, "id": "simpleores:copper_chestplate" },
+        { "Count": 1, "id": "minecraft:slime" }
+      ],
+      "ArmorDropChances": [ 0.0, 0.0, 0.0, 0.0 ],
+      "HandDropChances": [ 1.0, 1.0 ],
+      "ForgeData": {
+        "Onslaught": {
+          "CustomAI": {
+            "CounterAttack": {
+              "Priority": -2,
+              "LeapMotionXZ": -1.4,
+              "LeapMotionY": 0.6,
+              "Chance": 0.25,
+              "RangeMin": 0,
+              "RangeMax": 4
+            },
+            "OffscreenTeleport": { }
+          }
+        }
+      }
+    }
+  },
+  "zed": {
+    "id": "minecraft:zombie",
+    "nbt": {
+      "ArmorItems": [
+        {},
+        {}, 
+        {},
+		{ "Count": 1, "id": "dungeontactics:studded_helmet" }
+      ],
+      "ArmorDropChances": [ 0.0, 0.0, 0.0, 0.0 ],
+	  "Attributes": [
+        { "Name": "generic.maxHealth", "Base": 9 },
+        { "Name": "generic.movementSpeed", "Base": 0.2 }
+      ],
+	  "DeathLootTable": "minecraft:empty",
+      "CustomName": "\u00A76Decrepit Zombie",
+      "ForgeData": {
+        "Onslaught": {
+          "CustomAI": {
+			  "Lunge": {
+              "Priority": -15,
+              "Range": 2,
+              "SpeedModifier": 0.04
+            },
+            "OffscreenTeleport": {
+              "TeleportDistance": 48,
+              "TeleportFactor": 1.5,
+              "DimensionHopping": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "zed.miner": {
+    "id": "minecraft:zombie",
+    "nbt": {
+      "CustomName": "\u00A76Invading Miner",
+      "HandItems": [
+        { "Count": 1, "id": "minecraft:diamond_pickaxe" },
+        { "Count": 1, "id": "minecraft:diamond_pickaxe" }
+      ],
+      "ArmorItems": [
+        { },
+        { "Count": 1, "id": "minecraft:leather_leggings" },
+        { },
+        { }
+      ],
+	  "HandDropChances": [0.0, 0.0],
+      "ArmorDropChances": [ 0.0, 0.0, 0.0, 0.0 ],
+	  "Attributes": [
+        { "Name": "generic.maxHealth", "Base": 25 },
+        { "Name": "generic.movementSpeed", "Base": 0.2 }
+      ],
+	  "DeathLootTable": "minecraft:empty",
+      "ForgeData": {
+        "Onslaught": {
+          "CustomAI": {
+            "Mining": {
+              "Range": 5,
+              "SpeedModifier": 0.5,
+              "Priority": 1
+            },
+            "OffscreenTeleport": {
+              "TeleportDistance": 48,
+              "TeleportFactor": 1.5,
+              "DimensionHopping": true
+            }			
+          }
+        }
+      }
+    }
+  },
+  "zed.boss.huntsman": {
+    "id": "minecraft:husk",
+    "effects": [
+      {
+        "id": "minecraft:strength",
+        "duration": 4800,
+        "amplifier": 0,
+        "showParticles": false
+      },
+      {
+        "id": "minecraft:glowing",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      }
+      
+    ],
+    "nbt": {
+      "Attributes": [
+        { "Name": "generic.maxHealth", "Base": 72 },
+        { "Name": "generic.movementSpeed", "Base": 0.35 }
+      ],
+      "Health": 100,
+      "CustomName": "\u00A74The Huntsman",
+      "CustomNameVisible": 1,
+      "HandItems": [
+        { "Count": 1, "id": "simpleores:copper_axe" },
+        { "Count": 1, "id": "minecraft:skull", "tag": { "Damage": 3 } }
+      ],
+      "HandDropChances": [ 0.0, 0.0 ],
+      "ArmorItems": [
+        { "Count": 1, "id": "minecraft:leather_boots" },
+        { "Count": 1, "id": "minecraft:leather_leggings" },
+        { "Count": 1, "id": "dungeontactics:studded_chestplate" },
+        { "Count": 1, "id": "atop:mud_helmet" }
+      ],
+      "ArmorDropChances": [ 0.0, 0.0, 0.0, 0.0 ],
+	  "DeathLootTable": "minecraft:empty",
+      "ForgeData": {
+        "Onslaught": {
+          "CustomAI": {
+            "CounterAttack": { "Chance": 0.2 },
+            "Lunge": { "Range": 6, "SpeedModifier": 0.3 },
+            "OffscreenTeleport": {
+              "TeleportDistance": 48,
+              "TeleportFactor": 1.5,
+              "DimensionHopping": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "zed.boss.wasman": {
+    "id": "minecraft:zombie",
+    "effects": [
+      {
+        "id": "minecraft:strength",
+        "duration": 4800,
+        "amplifier": 0,
+        "showParticles": false
+      },
+      {
+        "id": "minecraft:glowing",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      }
+      
+    ],
+    "nbt": {
+      "ArmorItems": [
+        { "Count": 1, "id": "atop:mud_boots" },
+        {},
+        {},
+        { "Count": 1, "id": "minecraft:leather_helmet" }
+      ],
+      "ArmorDropChances": [ 0.0, 0.0, 0.0, 0.0 ],
+	  "DeathLootTable": "minecraft:empty",
+      "Attributes": [ { "Name": "generic.maxHealth", "Base": 76 } ],
+      "Health": 100,
+      "CustomName": "\u00A74The Was Man",
+      "CustomNameVisible": 1,
+      "ForgeData": {
+        "Onslaught": {
+          "CustomAI": {
+            "CounterAttack": { "Chance": 0.3 },
+            "Lunge": { "Range": 6, "SpeedModifier": 0.3 },
+            "Mining": { "Range": 4, "SpeedModifier": 2, "Priority": -20 },
+            "OffscreenTeleport": {
+              "TeleportDistance": 48,
+              "TeleportFactor": 1.5,
+              "DimensionHopping": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "zed.boss.cook": {
+    "id": "minecraft:zombie",
+    "effects": [
+      {
+        "id": "wards:effect_knockback",
+        "duration": 4800,
+        "amplifier": 1,
+        "showParticles": false
+      },
+      {
+        "id": "minecraft:glowing",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      }
+      
+    ],
+    "nbt": {
+      "HandItems": [
+        { },
+        {"Count": 1, "id": "contenttweaker:cooking_kit_master", "tag": { "Enchantments":  [{ "id": "minecraft:knockback", "lvl": 5 }]}}
+      ],
+      "HandDropChances": [ 0.5, 0.5 ],
+      "ArmorItems": [
+        { },
+        { },
+        { },
+        { "Count": 1, "id": "rats:chef_toque" }
+      ],
+      "ArmorDropChances": [ 0.0, 0.0, 0.0, 0.0 ],
+	  "DeathLootTable": "minecraft:empty",
+      "Attributes": [ { "Name": "generic.maxHealth", "Base": 76 } ],
+      "Health": 100,
+      "CustomName": "\u00A74The Cook",
+      "CustomNameVisible": 127,
+      "ForgeData": {
+        "Onslaught": {
+          "CustomAI": {
+            "CounterAttack": { "Chance": 0.1 },
+            "Lunge": { "Range": 5, "SpeedModifier": 0.7 },
+            "OffscreenTeleport": {
+              "TeleportDistance": 48,
+              "TeleportFactor": 1.5,
+              "DimensionHopping": true
+            }
+          }
+        }
+      }
+    }
+  }
+}
+  

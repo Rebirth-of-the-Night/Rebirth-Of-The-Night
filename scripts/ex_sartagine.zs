@@ -72,6 +72,20 @@ recipes.addShapeless("cooking_kit", <contenttweaker:cooking_kit>, [
     tempKnives
 ]);
 
+recipes.addShapeless("quality_cooking_kit", <contenttweaker:cooking_kit_quality>, [
+    <animania:carving_knife:*>.anyDamage().noReturn(),
+    <iceandfire:silver_ingot>|<contenttweaker:material_part>,
+    <pyrotech:bucket_clay>,
+    tempKnives
+]);
+
+recipes.addShapeless("premium_cooking_kit", <contenttweaker:cooking_kit_premium>, [
+    <spartancompat:dagger_adamantium:*>.anyDamage().noReturn(),
+    <betternether:quartz_glass_pane>|<netherex:soul_glass_pane>,
+    <advancedmortars:mortar:1>,
+    tempKnives
+]);
+
 //Beet Soup --> Beetroot Soup conversion removal - Nyagi
 recipes.remove(<minecraft:beetroot_soup>);
 //Crafting for Potato Soup Removal for inspirations and pams - Nyagi
@@ -141,8 +155,8 @@ Here goes every reworked recipe for every single food item, RIP Foreck.
 
 */
 
-var cookKitBad = <contenttweaker:cooking_kit>.anyDamage().transformDamage(3);
-var cookKit = <contenttweaker:cooking_kit>.anyDamage();
+var cookKitBad = <contenttweaker:cooking_kit>.anyDamage().transformDamage(3)|<contenttweaker:cooking_kit_quality>.anyDamage().transformDamage(3)|<contenttweaker:cooking_kit_premium>.anyDamage().transformDamage(3)|<contenttweaker:cooking_kit_master>.anyDamage().transformDamage(3);
+var cookKit = <contenttweaker:cooking_kit>.anyDamage()|<contenttweaker:cooking_kit_quality>.anyDamage()|<contenttweaker:cooking_kit_premium>.anyDamage()|<contenttweaker:cooking_kit_master>.anyDamage();
 
 val redRose = <minecraft:dye:1>;
 

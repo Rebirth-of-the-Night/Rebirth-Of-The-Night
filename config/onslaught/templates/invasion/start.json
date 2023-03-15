@@ -109,7 +109,7 @@
         ]
       },
       {
-        "delayTicks": [ 1800, 2100 ],
+        "delayTicks": [ 1200 ],
         "groups": [
           {
             "mobs": [
@@ -138,7 +138,7 @@
         ]
       },
       {
-        "delayTicks": [ 3600, 3900 ],
+        "delayTicks": [ 1200 ],
         "groups": [
           {
             "mobs": [
@@ -175,7 +175,7 @@
         ]
       },
       {
-        "delayTicks": [ 5400, 5700 ],
+        "delayTicks": [ 1200 ],
         "groups": [
           {
             "mobs": [
@@ -200,7 +200,7 @@
         ]
       },
       {
-        "delayTicks": [ 7200, 7500 ],
+        "delayTicks": [ 1200 ],
         "groups": [
           {
             "mobs": [
