@@ -375,13 +375,6 @@
 				"block": [
 					{
 						"name": "pyrotech_compat:rock_sedimentary",
-						"weight": 3,
-						"properties": {
-							"variant" : "rock_shale"
-						}
-					},
-					{
-						"name": "pyrotech_compat:rock_sedimentary",
 						"weight": 5,
 						"properties": {
 							"variant" : "rock_dolomite"
@@ -926,20 +919,6 @@
 						}
 					},
 					{
-						"name": "pyrotech_compat:rock_sedimentary_sand",
-						"weight": 2,
-						"properties": {
-							"variant" : "rock_shale_sandstone"
-						}
-					},
-					{
-						"name": "pyrotech_compat:rock_sedimentary",
-						"weight": 3,
-						"properties": {
-							"variant" : "rock_shale"
-						}
-					},
-					{
 						"name": "pyrotech:rock",
 						"weight": 3,
 						"properties": {
@@ -1018,23 +997,9 @@
 					},
 					{
 						"name": "pyrotech_compat:rock_sedimentary_sand",
-						"weight": 2,
-						"properties": {
-							"variant" : "rock_shale_sandstone"
-						}
-					},
-					{
-						"name": "pyrotech_compat:rock_sedimentary_sand",
 						"weight": 1,
 						"properties": {
 							"variant" : "rock_limestone_sandstone"
-						}
-					},
-					{
-						"name": "pyrotech_compat:rock_sedimentary",
-						"weight": 3,
-						"properties": {
-							"variant" : "rock_shale"
 						}
 					},
 					{
@@ -1120,13 +1085,6 @@
 						"weight": 2
 					},
 					{
-						"name": "pyrotech_compat:rock_sedimentary",
-						"weight": 6,
-						"properties": {
-							"variant" : "rock_shale"
-						}
-					},
-					{
 						"name": "pyrotech:rock",
 						"weight": 6,
 						"properties": {
@@ -1195,13 +1153,6 @@
 			"generator": {
 				"type": "decoration",
 				"block": [
-					{
-						"name": "pyrotech_compat:rock_sedimentary",
-						"weight": 2,
-						"properties": {
-							"variant" : "rock_shale"
-						}
-					},
 					{
 						"name": "pyrotech:rock",
 						"weight": 3,
@@ -1273,13 +1224,6 @@
 						"weight": 2,
 						"properties": {
 							"variant" : "rock_siltstone"
-						}
-					},
-					{
-						"name": "pyrotech_compat:rock_sedimentary",
-						"weight": 3,
-						"properties": {
-							"variant" : "rock_shale"
 						}
 					},
 					{
@@ -1363,13 +1307,6 @@
 						"weight": 2,
 						"properties": {
 							"variant" : "rock_siltstone"
-						}
-					},
-					{
-						"name": "pyrotech_compat:rock_sedimentary",
-						"weight": 3,
-						"properties": {
-							"variant" : "rock_shale"
 						}
 					},
 					{
@@ -1467,13 +1404,6 @@
 				"type": "decoration",
 				"block": [
 					{
-						"name": "pyrotech_compat:rock_sedimentary",
-						"weight": 6,
-						"properties": {
-							"variant" : "rock_shale"
-						}
-					},
-					{
 						"name": "pyrotech_compat:rock_igneous",
 						"weight": 2,
 						"properties": {
@@ -1526,13 +1456,6 @@
 						"weight": 2,
 						"properties": {
 							"variant" : "rock_gneiss_sandstone"
-						}
-					},
-					{
-						"name": "pyrotech_compat:rock_sedimentary",
-						"weight": 2,
-						"properties": {
-							"variant" : "rock_shale"
 						}
 					},
 					{
@@ -1612,13 +1535,6 @@
 						"weight": 1,
 						"properties": {
 							"variant" : "rock_gneiss_sandstone"
-						}
-					},
-					{
-						"name": "pyrotech_compat:rock_sedimentary",
-						"weight": 1,
-						"properties": {
-							"variant" : "rock_shale"
 						}
 					},
 					{
