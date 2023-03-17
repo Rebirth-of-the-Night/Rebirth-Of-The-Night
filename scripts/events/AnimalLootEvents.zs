@@ -147,6 +147,13 @@ function addDrops(entities as IItemStack[][IEntityDefinition], event as crafttwe
     for entity, items in entities {
         if (!isNull(event.entity.definition) && event.entity.definition.name == entity.name) {
             if (removeDrops) event.drops = [];
+
+            // Do not drop anything when killed by a mob.
+            if (event.damageSource.damageType == "mob") {
+                event.drops = [];
+                return;
+            }
+
             for item in items event.addItem(item);
         }
         entity.removeDrop(<minecraft:leather>);
@@ -166,6 +173,12 @@ function dropColoredPelt(pelts as IItemStack[IItemStack], drop as IItemStack, ev
 function addDropsSheep(entities as IItemStack[][IEntityDefinition], pelts as IItemStack[IItemStack], event as crafttweaker.event.EntityLivingDeathDropsEvent) as void {
     for entity, items in entities {
         if (!isNull(event.entity.definition) && event.entity.definition.name == entity.name) {
+
+	    // Do not drop anything when killed by a mob.
+            if (event.damageSource.damageType == "mob") {
+                event.drops = [];
+                return;
+            }
 
             // Store drops for later use.
             val storedDrops = event.drops;
