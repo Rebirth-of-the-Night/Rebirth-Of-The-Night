@@ -456,7 +456,7 @@ customization {
   action = addwebtexture
   y = 323
   advanced_width = 24
-  url = {"placeholder":"json","values":{"source":"https://raw.githubusercontent.com/Rebirth-of-the-Night/Main_Menu/master/main_menu_live/news_ticker/ticker_1.json","json_path":"$.icon"}}
+  url = {"placeholder":"json","values":{"source":"https://rotn-webflow-menu-news-sync.s3.us-east-2.amazonaws.com/ticker_live/ticker_1.json","json_path":"$.icon"}}
   height = 50
 }
 
@@ -466,7 +466,7 @@ customization {
   enable_scrolling = false
   shadow = true
   scale = 0.8
-  source = https://raw.githubusercontent.com/Rebirth-of-the-Night/Main_Menu/master/main_menu_live/news_ticker/ticker_1_en_us.txt
+  source = https://rotn-webflow-menu-news-sync.s3.us-east-2.amazonaws.com/ticker_live/ticker_1_en_us.txt
   text_border = 0
   case_mode = normal
   advanced_width = 132
@@ -488,7 +488,7 @@ customization {
   enable_scrolling = false
   shadow = true
   scale = 0.8
-  source = https://raw.githubusercontent.com/Rebirth-of-the-Night/Main_Menu/master/main_menu_live/news_ticker/ticker_4_en_us.txt
+  source = https://rotn-webflow-menu-news-sync.s3.us-east-2.amazonaws.com/ticker_live/ticker_4_en_us.txt
   text_border = 0
   case_mode = normal
   advanced_width = 132
@@ -510,7 +510,7 @@ customization {
   enable_scrolling = false
   shadow = true
   scale = 0.8
-  source = https://raw.githubusercontent.com/Rebirth-of-the-Night/Main_Menu/master/main_menu_live/news_ticker/ticker_3_en_us.txt
+  source = https://rotn-webflow-menu-news-sync.s3.us-east-2.amazonaws.com/ticker_live/ticker_3_en_us.txt
   text_border = 0
   case_mode = normal
   advanced_width = 132
@@ -532,7 +532,7 @@ customization {
   enable_scrolling = false
   shadow = true
   scale = 0.8
-  source = https://raw.githubusercontent.com/Rebirth-of-the-Night/Main_Menu/master/main_menu_live/news_ticker/ticker_2_en_us.txt
+  source = https://rotn-webflow-menu-news-sync.s3.us-east-2.amazonaws.com/ticker_live/ticker_2_en_us.txt
   text_border = 0
   case_mode = normal
   advanced_width = 132
@@ -558,7 +558,7 @@ customization {
   action = addwebtexture
   y = 355
   advanced_width = 24
-  url = {"placeholder":"json","values":{"source":"https://raw.githubusercontent.com/Rebirth-of-the-Night/Main_Menu/master/main_menu_live/news_ticker/ticker_2.json","json_path":"$.icon"}}
+  url = {"placeholder":"json","values":{"source":"https://rotn-webflow-menu-news-sync.s3.us-east-2.amazonaws.com/ticker_live/ticker_2.json","json_path":"$.icon"}}
   height = 50
 }
 
@@ -572,7 +572,7 @@ customization {
   action = addwebtexture
   y = 388
   advanced_width = 24
-  url = {"placeholder":"json","values":{"source":"https://raw.githubusercontent.com/Rebirth-of-the-Night/Main_Menu/master/main_menu_live/news_ticker/ticker_3.json","json_path":"$.icon"}}
+  url = {"placeholder":"json","values":{"source":"https://rotn-webflow-menu-news-sync.s3.us-east-2.amazonaws.com/ticker_live/ticker_3.json","json_path":"$.icon"}}
   height = 50
 }
 
@@ -586,7 +586,7 @@ customization {
   action = addwebtexture
   y = 420
   advanced_width = 24
-  url = {"placeholder":"json","values":{"source":"https://raw.githubusercontent.com/Rebirth-of-the-Night/Main_Menu/master/main_menu_live/news_ticker/ticker_4.json","json_path":"$.icon"}}
+  url = {"placeholder":"json","values":{"source":"https://rotn-webflow-menu-news-sync.s3.us-east-2.amazonaws.com/ticker_live/ticker_4.json","json_path":"$.icon"}}
   height = 50
 }
 
@@ -605,7 +605,7 @@ customization {
   action = addbutton
   y = 319
   backgroundnormal = resources/fancymainmenu/menu_buttons/ticker_bar_blank.png
-  value = {"placeholder":"json","values":{"source":"https://raw.githubusercontent.com/Rebirth-of-the-Night/Main_Menu/master/main_menu_live/news_ticker/ticker_1.json","json_path":"$.url"}}
+  value = {"placeholder":"json","values":{"source":"https://rotn-webflow-menu-news-sync.s3.us-east-2.amazonaws.com/ticker_live/ticker_1.json","json_path":"$.url"}}
   height = 32
 }
 
@@ -624,7 +624,7 @@ customization {
   action = addbutton
   y = 351
   backgroundnormal = resources/fancymainmenu/menu_buttons/ticker_bar_blank.png
-  value = {"placeholder":"json","values":{"source":"https://raw.githubusercontent.com/Rebirth-of-the-Night/Main_Menu/master/main_menu_live/news_ticker/ticker_2.json","json_path":"$.url"}}
+  value = {"placeholder":"json","values":{"source":"https://rotn-webflow-menu-news-sync.s3.us-east-2.amazonaws.com/ticker_live/ticker_2.json","json_path":"$.url"}}
   height = 32
 }
 
@@ -643,7 +643,7 @@ customization {
   action = addbutton
   y = 384
   backgroundnormal = resources/fancymainmenu/menu_buttons/ticker_bar_blank.png
-  value = {"placeholder":"json","values":{"source":"https://raw.githubusercontent.com/Rebirth-of-the-Night/Main_Menu/master/main_menu_live/news_ticker/ticker_3.json","json_path":"$.url"}}
+  value = {"placeholder":"json","values":{"source":"https://rotn-webflow-menu-news-sync.s3.us-east-2.amazonaws.com/ticker_live/ticker_3.json","json_path":"$.url"}}
   height = 32
 }
 
@@ -662,7 +662,7 @@ customization {
   action = addbutton
   y = 416
   backgroundnormal = resources/fancymainmenu/menu_buttons/ticker_bar_blank.png
-  value = {"placeholder":"json","values":{"source":"https://raw.githubusercontent.com/Rebirth-of-the-Night/Main_Menu/master/main_menu_live/news_ticker/ticker_4.json","json_path":"$.url"}}
+  value = {"placeholder":"json","values":{"source":"https://rotn-webflow-menu-news-sync.s3.us-east-2.amazonaws.com/ticker_live/ticker_4.json","json_path":"$.url"}}
   height = 32
 }
 
