@@ -1,0 +1,47 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiScreenAddServer
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = multiplayer
+  action = setbackgroundslideshow
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400388%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/fancymainmenu/menu_buttons/button_450w_h.png
+  backgroundnormal = resources/fancymainmenu/menu_buttons/button_450w_n.png
+}
+
+customization {
+  identifier = %id=400322%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/fancymainmenu/menu_buttons/button_450w_h.png
+  backgroundnormal = resources/fancymainmenu/menu_buttons/button_450w_n.png
+}
+
+customization {
+  identifier = %id=400364%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/fancymainmenu/menu_buttons/button_450w_h.png
+  backgroundnormal = resources/fancymainmenu/menu_buttons/button_450w_n.png
+}
+

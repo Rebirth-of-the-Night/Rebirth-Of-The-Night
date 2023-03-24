@@ -1,0 +1,734 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMainMenu
+  randomgroup = 1
+  biggerthanwidth = 1920
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+  smallerthanwidth = 2550
+}
+
+customization {
+  restart_on_load = false
+  name = identifier_44ce99a861f1445c
+  action = animatebackground
+}
+
+customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
+  keepaspectratio = true
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = element
+  orientation_element = db2979a4-18a8-46c6-ac96-95ecd44bdc591677531627037
+  x = 194
+  action = movebutton
+  y = 126
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 130
+  action = resizebutton
+  height = 33
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/fancymainmenu/menu_buttons/button_mp_h.png
+  backgroundnormal = resources/fancymainmenu/menu_buttons/button_mp_n.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = element
+  orientation_element = db2979a4-18a8-46c6-ac96-95ecd44bdc591677531627037
+  x = 80
+  action = movebutton
+  y = 171
+}
+
+customization {
+  advanced_height = 33
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 50
+  action = resizebutton
+  advanced_width = 33
+  height = 50
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/fancymainmenu/menu_buttons/settings_h.png
+  backgroundnormal = resources/fancymainmenu/menu_buttons/settings_n.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = setbuttondescription
+  description = {"placeholder":"local","values":{"key":"rotnfmm.mainmenu.tooltip.options"}}
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = element
+  orientation_element = db2979a4-18a8-46c6-ac96-95ecd44bdc591677531627037
+  x = 113
+  action = movebutton
+  y = 171
+}
+
+customization {
+  advanced_height = 33
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 50
+  action = resizebutton
+  advanced_width = 33
+  height = 50
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/fancymainmenu/menu_buttons/exit_h.png
+  backgroundnormal = resources/fancymainmenu/menu_buttons/exit_n.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = setbuttondescription
+  description = {"placeholder":"local","values":{"key":"rotnfmm.mainmenu.tooltip.quitgame"}}
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = element
+  orientation_element = db2979a4-18a8-46c6-ac96-95ecd44bdc591677531627037
+  x = 194
+  action = movebutton
+  y = 93
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 130
+  action = resizebutton
+  height = 33
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/fancymainmenu/menu_buttons/button_play_h.png
+  backgroundnormal = resources/fancymainmenu/menu_buttons/button_play_n.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = element
+  orientation_element = db2979a4-18a8-46c6-ac96-95ecd44bdc591677531627037
+  x = 192
+  action = movebutton
+  y = 146
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}/1","decimal":"true"}}
+  orientation = top-left
+  name = maps
+  x = 0
+  width = 50
+  actionid = d562fb2e-07da-4edb-80ee-c875fc1ab7991678574631096
+  action = addslideshow
+  y = 0
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} /2-{"placeholder":"elementwidth","values":{"id":"d562fb2e-07da-4edb-80ee-c875fc1ab7991678574631096"}}/2","decimal":"true"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}*1.8","decimal":"true"}}
+  height = 50
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 104
+  width = 218
+  action = deep_customization_element:title_screen_forge_top
+  actionid = d45bd9ff-f49e-48bc-aeec-763dc938b1e91677531054857
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 165
+  action = deep_customization_element:title_screen_branding
+  actionid = 04d7f858-f8d3-4bc0-af04-454e105e710b1677531054889
+  y = 178
+  height = 60
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 238
+  width = 188
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = d71eb65f-8e7c-461a-9dde-92106303c61e1677531054890
+  y = 220
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 423
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 9e23b4f6-dcb8-408a-a59f-2233b9a1bc3c1677531054890
+  y = 188
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 76
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 766dd39f-0d21-4263-8472-d4b0a6e6121c1677531054891
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = f8e70b8e-7a3b-4d88-8355-ba32070db5051677531054891
+  y = 0
+  height = 30
+}
+
+customization {
+  path = resources/fancymainmenu/menu_assets/main_menu_base.png
+  orientation = top-left
+  x = 0
+  width = 161
+  actionid = db2979a4-18a8-46c6-ac96-95ecd44bdc591677531627037
+  action = addtexture
+  y = 1
+  height = 350
+}
+
+customization {
+  advanced_height = 12
+  orientation = element
+  enable_scrolling = false
+  shadow = true
+  scale = 1.0
+  source = {"placeholder":"local","values":{"key":"rotnfmm.mainmenu.title.newsticker"}}
+  text_border = 0
+  case_mode = normal
+  advanced_width = 57
+  source_mode = direct
+  line_spacing = 1
+  orientation_element = db2979a4-18a8-46c6-ac96-95ecd44bdc591677531627037
+  x = 52
+  width = 57
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = b9b9b6e6-9f6b-4c66-b051-c98233cc43631677596908974
+  y = 228
+  alignment = centered
+  height = 12
+}
+
+customization {
+  orientation = element
+  enable_scrolling = false
+  shadow = true
+  scale = 1.0
+  source = {"placeholder":"local","values":{"key":"rotnfmm.mainmenu.title.mainmenu"}}
+  text_border = 0
+  case_mode = normal
+  advanced_width = 57
+  source_mode = direct
+  line_spacing = 1
+  orientation_element = db2979a4-18a8-46c6-ac96-95ecd44bdc591677531627037
+  x = 52
+  width = 57
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 0078528e-e5a8-47ae-a0f5-31a5712231de1677596910624
+  y = 95
+  alignment = centered
+  height = 12
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = opengui
+  backgroundhovered = resources/fancymainmenu/menu_buttons/button_mp_h.png
+  label = 
+  loopbackgroundanimations = true
+  orientation_element = db2979a4-18a8-46c6-ac96-95ecd44bdc591677531627037
+  x = 16
+  width = 130
+  actionid = e46e10ae-ad1e-444d-a0b4-346e0d537a321677596913924
+  action = addbutton
+  y = 138
+  backgroundnormal = resources/fancymainmenu/menu_buttons/button_mp_n.png
+  value = net.minecraft.client.gui.GuiMultiplayer
+  height = 33
+}
+
+customization {
+  advanced_height = 16
+  orientation = element
+  enable_scrolling = false
+  shadow = true
+  scale = 1.0
+  source = {"placeholder":"local","values":{"key":"rotnfmm.mainmenu.button.multiplayer"}}
+  text_border = 0
+  case_mode = normal
+  advanced_width = 122
+  source_mode = direct
+  line_spacing = 1
+  orientation_element = e46e10ae-ad1e-444d-a0b4-346e0d537a321677596913924
+  x = 4
+  width = 122
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 3cb6b898-d6e7-4284-b55e-e58a8d2b08321677596911475
+  y = 10
+  alignment = centered
+  height = 16
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = opengui
+  backgroundhovered = resources/fancymainmenu/menu_buttons/button_play_h.png
+  label = 
+  loopbackgroundanimations = true
+  orientation_element = db2979a4-18a8-46c6-ac96-95ecd44bdc591677531627037
+  x = 16
+  width = 130
+  actionid = 8af556c5-2962-4466-abf0-6cbdf23ede181677596920474
+  action = addbutton
+  y = 105
+  backgroundnormal = resources/fancymainmenu/menu_buttons/button_play_n.png
+  value = net.minecraft.client.gui.GuiWorldSelection
+  height = 33
+}
+
+customization {
+  orientation = element
+  enable_scrolling = false
+  shadow = true
+  scale = 1.0
+  source = {"placeholder":"local","values":{"key":"rotnfmm.mainmenu.button.singleplayer"}}
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  orientation_element = 8af556c5-2962-4466-abf0-6cbdf23ede181677596920474
+  x = 4
+  width = 122
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 8f538599-c748-497b-8556-bd179e131a9b1677596912075
+  y = 11
+  alignment = centered
+  height = 16
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = resources/fancymainmenu/menu_buttons/discord_h.png
+  description = {"placeholder":"local","values":{"key":"rotnfmm.mainmenu.tooltip.discord"}}
+  label = 
+  loopbackgroundanimations = true
+  orientation_element = db2979a4-18a8-46c6-ac96-95ecd44bdc591677531627037
+  x = 16
+  width = 33
+  actionid = 1c05570f-97c3-49ae-8c4e-3bc4455306ac1677630563735
+  action = addbutton
+  y = 171
+  backgroundnormal = resources/fancymainmenu/menu_buttons/discord_n.png
+  value = https://discord.gg/rotn
+  height = 33
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui
+  backgroundhovered = resources/fancymainmenu/menu_buttons/wiki_h.png
+  description = {"placeholder":"local","values":{"key":"rotnfmm.mainmenu.tooltip.info"}}
+  label = 
+  loopbackgroundanimations = true
+  orientation_element = db2979a4-18a8-46c6-ac96-95ecd44bdc591677531627037
+  x = 48
+  width = 33
+  actionid = d1f453cf-44e2-4999-98ed-2860acb324531677630567935
+  action = addbutton
+  y = 171
+  backgroundnormal = resources/fancymainmenu/menu_buttons/wiki_n.png
+  value = rotn.client.gui.GuiInfoResources
+  height = 33
+}
+
+customization {
+  advanced_height = 20
+  orientation = element
+  enable_scrolling = false
+  shadow = true
+  scale = 0.6
+  source = https://rotn-webflow-menu-news-sync.s3.us-east-2.amazonaws.com/ticker_live/ticker_1_en_us.txt
+  text_border = 0
+  case_mode = normal
+  advanced_width = 98
+  source_mode = web
+  line_spacing = 1
+  orientation_element = db2979a4-18a8-46c6-ac96-95ecd44bdc591677531627037
+  x = 45
+  width = 98
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 663b2274-60fc-4463-a606-8768bb1a09d41677713596297
+  y = 241
+  alignment = left
+  height = 20
+}
+
+customization {
+  advanced_height = 20
+  orientation = element
+  enable_scrolling = false
+  shadow = true
+  scale = 0.6
+  source = https://rotn-webflow-menu-news-sync.s3.us-east-2.amazonaws.com/ticker_live/ticker_2_en_us.txt
+  text_border = 0
+  case_mode = normal
+  advanced_width = 98
+  source_mode = web
+  line_spacing = 1
+  orientation_element = db2979a4-18a8-46c6-ac96-95ecd44bdc591677531627037
+  x = 45
+  width = 98
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 4899d2f9-f57b-4a97-9050-2e971677fbb01677713596997
+  y = 266
+  alignment = left
+  height = 20
+}
+
+customization {
+  advanced_height = 20
+  orientation = element
+  enable_scrolling = false
+  shadow = true
+  scale = 0.6
+  source = https://rotn-webflow-menu-news-sync.s3.us-east-2.amazonaws.com/ticker_live/ticker_3_en_us.txt
+  text_border = 0
+  case_mode = normal
+  advanced_width = 98
+  source_mode = web
+  line_spacing = 1
+  orientation_element = db2979a4-18a8-46c6-ac96-95ecd44bdc591677531627037
+  x = 45
+  width = 98
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 6c384717-c30e-48cf-9b04-449694d3c3711677713597597
+  y = 290
+  alignment = left
+  height = 20
+}
+
+customization {
+  orientation = element
+  enable_scrolling = false
+  shadow = true
+  scale = 0.6
+  source = https://rotn-webflow-menu-news-sync.s3.us-east-2.amazonaws.com/ticker_live/ticker_4_en_us.txt
+  text_border = 0
+  case_mode = normal
+  advanced_width = 98
+  source_mode = web
+  line_spacing = 1
+  orientation_element = db2979a4-18a8-46c6-ac96-95ecd44bdc591677531627037
+  x = 45
+  width = 98
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 2c3af3f6-e4ac-4dbd-99f9-7e14f442750e1677713598097
+  y = 314
+  alignment = left
+  height = 20
+}
+
+customization {
+  advanced_height = 18
+  orientation = element
+  orientation_element = db2979a4-18a8-46c6-ac96-95ecd44bdc591677531627037
+  x = 23
+  width = 50
+  actionid = b620b826-cde2-4cc4-a1cb-3f178ed445bd1677714171091
+  action = addwebtexture
+  y = 264
+  advanced_width = 18
+  url = {"placeholder":"json","values":{"source":"https://rotn-webflow-menu-news-sync.s3.us-east-2.amazonaws.com/ticker_live/ticker_2.json","json_path":"$.icon"}}
+  height = 50
+}
+
+customization {
+  advanced_height = 18
+  orientation = element
+  orientation_element = db2979a4-18a8-46c6-ac96-95ecd44bdc591677531627037
+  x = 23
+  width = 50
+  actionid = 7d86217f-094a-417a-b497-e149dd04395b1677714205397
+  action = addwebtexture
+  y = 240
+  advanced_width = 18
+  url = {"placeholder":"json","values":{"source":"https://rotn-webflow-menu-news-sync.s3.us-east-2.amazonaws.com/ticker_live/ticker_1.json","json_path":"$.icon"}}
+  height = 50
+}
+
+customization {
+  advanced_height = 18
+  orientation = element
+  orientation_element = db2979a4-18a8-46c6-ac96-95ecd44bdc591677531627037
+  x = 23
+  width = 50
+  actionid = ba961a72-d43a-4593-bd81-48a9f542f91e1677714212447
+  action = addwebtexture
+  y = 288
+  advanced_width = 18
+  url = {"placeholder":"json","values":{"source":"https://rotn-webflow-menu-news-sync.s3.us-east-2.amazonaws.com/ticker_live/ticker_3.json","json_path":"$.icon"}}
+  height = 50
+}
+
+customization {
+  advanced_height = 18
+  orientation = element
+  orientation_element = db2979a4-18a8-46c6-ac96-95ecd44bdc591677531627037
+  x = 23
+  width = 50
+  actionid = b6c19294-725a-4991-bcfd-ff8403aa08461677714220648
+  action = addwebtexture
+  y = 312
+  advanced_width = 18
+  url = {"placeholder":"json","values":{"source":"https://rotn-webflow-menu-news-sync.s3.us-east-2.amazonaws.com/ticker_live/ticker_4.json","json_path":"$.icon"}}
+  height = 50
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = resources/fancymainmenu/menu_buttons/ticker_bar_h.png
+  description = {"placeholder":"local","values":{"key":"rotnfmm.mainmenu.tooltip.newsticker"}}
+  label = 
+  loopbackgroundanimations = true
+  orientation_element = db2979a4-18a8-46c6-ac96-95ecd44bdc591677531627037
+  x = 16
+  width = 129
+  actionid = 22f0c6ed-b5db-41c1-9bef-33e2fdba390e1677713606798
+  action = addbutton
+  y = 309
+  backgroundnormal = resources/fancymainmenu/menu_buttons/ticker_bar_blank.png
+  value = {"placeholder":"json","values":{"source":"https://rotn-webflow-menu-news-sync.s3.us-east-2.amazonaws.com/ticker_live/ticker_4.json","json_path":"$.url"}}
+  height = 25
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = resources/fancymainmenu/menu_buttons/ticker_bar_h.png
+  description = {"placeholder":"local","values":{"key":"rotnfmm.mainmenu.tooltip.newsticker"}}
+  label = 
+  loopbackgroundanimations = true
+  orientation_element = db2979a4-18a8-46c6-ac96-95ecd44bdc591677531627037
+  x = 16
+  width = 129
+  actionid = 89c043c0-f401-4582-8451-b56fecaa2c411677713616798
+  action = addbutton
+  y = 237
+  backgroundnormal = resources/fancymainmenu/menu_buttons/ticker_bar_blank.png
+  value = {"placeholder":"json","values":{"source":"https://rotn-webflow-menu-news-sync.s3.us-east-2.amazonaws.com/ticker_live/ticker_1.json","json_path":"$.url"}}
+  height = 25
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = resources/fancymainmenu/menu_buttons/ticker_bar_h.png
+  description = {"placeholder":"local","values":{"key":"rotnfmm.mainmenu.tooltip.newsticker"}}
+  label = 
+  loopbackgroundanimations = true
+  orientation_element = db2979a4-18a8-46c6-ac96-95ecd44bdc591677531627037
+  x = 16
+  width = 129
+  actionid = 024f02f2-d6fb-4796-9719-31f8d1e800231677713610446
+  action = addbutton
+  y = 285
+  backgroundnormal = resources/fancymainmenu/menu_buttons/ticker_bar_blank.png
+  value = {"placeholder":"json","values":{"source":"https://rotn-webflow-menu-news-sync.s3.us-east-2.amazonaws.com/ticker_live/ticker_3.json","json_path":"$.url"}}
+  height = 25
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = resources/fancymainmenu/menu_buttons/ticker_bar_h.png
+  description = {"placeholder":"local","values":{"key":"rotnfmm.mainmenu.tooltip.newsticker"}}
+  label = 
+  loopbackgroundanimations = true
+  orientation_element = db2979a4-18a8-46c6-ac96-95ecd44bdc591677531627037
+  x = 16
+  width = 129
+  actionid = e4f69004-928f-4a82-927f-04bd7e2f9d521677713613698
+  action = addbutton
+  y = 261
+  backgroundnormal = resources/fancymainmenu/menu_buttons/ticker_bar_blank.png
+  value = {"placeholder":"json","values":{"source":"https://rotn-webflow-menu-news-sync.s3.us-east-2.amazonaws.com/ticker_live/ticker_2.json","json_path":"$.url"}}
+  height = 25
+}
+
+customization {
+  path = resources/fancymainmenu/menu_assets/splash_rat.png
+  orientation = element
+  orientation_element = db2979a4-18a8-46c6-ac96-95ecd44bdc591677531627037
+  x = 121
+  width = 105
+  actionid = b1d872b0-382c-4b6b-9c79-5ba64e7745a91677981909437
+  action = addtexture
+  y = 55
+  height = 50
+}
+
+customization {
+  orientation = element
+  basecolor = #ffff00
+  shadow = true
+  splashfilepath = oresources/minecraft/texts/splashes.txt
+  vr_custom:value:fancymenu_visibility_requirement_is_text = ["mode":"equals","text":"04/03/2023","compare_with":"{"placeholder":"webtext","values":{"link":"https://violetmoon.org/rotn/today/"}}"]$
+  rotation = -2.5
+  scale = 1.1
+  refresh = false
+  bouncing = true
+  vanilla-like = false
+  orientation_element = b1d872b0-382c-4b6b-9c79-5ba64e7745a91677981909437
+  x = 96
+  actionid = 925f092a-7f62-4728-98e4-3ce763ef63f81677981965583
+  action = addsplash
+  y = 4
+  vr_custom:showif:fancymenu_visibility_requirement_is_text = false
+}
+
+customization {
+  path = resources/fancymainmenu/menu_assets/splash_rat_birthday.png
+  orientation = element
+  vr_custom:value:fancymenu_visibility_requirement_is_text = ["mode":"equals","text":"04/03/2023","compare_with":"{"placeholder":"webtext","values":{"link":"https://violetmoon.org/rotn/today/"}}"]$
+  orientation_element = b1d872b0-382c-4b6b-9c79-5ba64e7745a91677981909437
+  x = 6
+  width = 22
+  actionid = d4cb9d16-d5bd-45fd-a959-93dfa0ec922f1677992269350
+  action = addtexture
+  y = 4
+  vr_custom:showif:fancymenu_visibility_requirement_is_text = true
+  height = 18
+}
+
+customization {
+  orientation = element
+  basecolor = #ffff00
+  shadow = true
+  vr_custom:value:fancymenu_visibility_requirement_is_text = ["mode":"equals","text":"04/03/2023","compare_with":"{"placeholder":"webtext","values":{"link":"https://violetmoon.org/rotn/today/"}}"]$
+  rotation = -2.5
+  scale = 1.0
+  refresh = false
+  bouncing = true
+  vanilla-like = false
+  orientation_element = b1d872b0-382c-4b6b-9c79-5ba64e7745a91677981909437
+  x = 83
+  actionid = 0671b3d8-e77b-46e2-acee-e2120a50995e1677992337700
+  action = addsplash
+  y = 5
+  vr_custom:showif:fancymenu_visibility_requirement_is_text = true
+  text = Today is my birthday!
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}/1","decimal":"true"}}
+  orientation = top-left
+  name = guidebook
+  x = 0
+  width = 50
+  actionid = decde337-33a0-4e7a-8f38-c598338a22dc1678469814126
+  action = addslideshow
+  y = 0
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} /2-{"placeholder":"elementwidth","values":{"id":"decde337-33a0-4e7a-8f38-c598338a22dc1678469814126"}}/2","decimal":"true"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}*1.8","decimal":"true"}}
+  height = 50
+}
+

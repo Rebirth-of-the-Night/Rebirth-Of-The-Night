@@ -1,0 +1,56 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiWorldEdit
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = worldselect
+  action = setbackgroundslideshow
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400310%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/fancymainmenu/menu_buttons/button_300w_h.png
+  backgroundnormal = resources/fancymainmenu/menu_buttons/button_300w_n.png
+}
+
+customization {
+  identifier = %id=400358%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/fancymainmenu/menu_buttons/button_300w_h.png
+  backgroundnormal = resources/fancymainmenu/menu_buttons/button_300w_n.png
+}
+
+customization {
+  identifier = %id=400286%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/fancymainmenu/menu_buttons/button_300w_h.png
+  backgroundnormal = resources/fancymainmenu/menu_buttons/button_300w_n.png
+}
+
+customization {
+  identifier = %id=400382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/fancymainmenu/menu_buttons/button_300w_h.png
+  backgroundnormal = resources/fancymainmenu/menu_buttons/button_300w_n.png
+}
+

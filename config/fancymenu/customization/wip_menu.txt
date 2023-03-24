@@ -1,0 +1,51 @@
+type = menu
+
+customization-meta {
+  identifier = rotn.client.gui.GuiWIP
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = mid-centered
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = This page is under construction. Check back later!
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -105
+  width = 210
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 921d165d-ab9c-4173-8b38-7b5c648a2aca1678041575912
+  y = -20
+  alignment = centered
+  height = 40
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = closegui
+  backgroundhovered = resources/fancymainmenu/menu_buttons/button_160w_h.png
+  label = Back
+  loopbackgroundanimations = true
+  x = -50
+  width = 100
+  actionid = abb2e744-9b37-4773-82d7-6094a1a256f91678041637063
+  action = addbutton
+  y = 1
+  backgroundnormal = resources/fancymainmenu/menu_buttons/button_160w_n.png
+  value = 
+  height = 20
+}
+

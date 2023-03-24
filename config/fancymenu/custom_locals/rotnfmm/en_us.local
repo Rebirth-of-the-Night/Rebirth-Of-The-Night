@@ -1,0 +1,22 @@
+rotnfmm.mainmenu.title.mainmenu = Main Menu
+rotnfmm.mainmenu.title.newsticker = News Ticker
+rotnfmm.mainmenu.button.singleplayer = Start Your Journey
+rotnfmm.mainmenu.button.multiplayer = Play With Friends
+rotnfmm.mainmenu.tooltip.discord = Join Our Discord
+rotnfmm.mainmenu.tooltip.info = Additional Info & Resources
+rotnfmm.mainmenu.tooltip.options = Options
+rotnfmm.mainmenu.tooltip.quitgame = Quit Game
+rotnfmm.mainmenu.tooltip.newsticker = Click For More Info!
+rotnfmm.infomenu.button.wikivisit = Visit Our Wiki
+rotnfmm.infomenu.button.joindiscord = Join Our Discord
+rotnfmm.infomenu.button.modlist = Mod List
+rotnfmm.infomenu.button.kofi = Donate To Our Ko-Fi
+rotnfmm.infomenu.button.meetdevs = Meet Our Developers
+rotnfmm.infomenu.button.supporters = Our Supporters
+rotnfmm.infomenu.button.credits = Credits
+rotnfmm.infomenu.button.exit = Done
+rotnfmm.supportermenu.button.gemsubscribe = Subscribe for $5 per month
+rotnfmm.supportermenu.button.viridiumsubscribe = Subscribe for $10 per month
+rotnfmm.supportermenu.text.supporterinfo = Thank you current patrons for helping fund Rebirth of the Night! %n% 100% of your donations are used for development, web hosting, commissions, and more. %n% Every dollar matters! Donate for perks and rewards =)
+rotnfmm.supportermenu.text.username = Username:
+rotnfmm.supportermenu.text.supportersince = Supporter Since:
