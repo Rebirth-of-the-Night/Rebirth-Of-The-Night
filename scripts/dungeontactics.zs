@@ -29,6 +29,8 @@ JEI.removeAndHide(<dungeontactics:golden_club>);
 JEI.removeAndHide(<dungeontactics:steel_club>);
 JEI.removeAndHide(<dungeontactics:diamond_club>);
 JEI.removeAndHide(<dungeontactics:mithril_club>);
+JEI.removeAndHide(<dungeontactics:potshot>);
+JEI.removeAndHide(<dungeontactics:potshot_ammo>);
 
 
 
@@ -150,17 +152,6 @@ LootTable.removeGlobalItem("dungeontactics:wither_web");
 // this removes the regular magic scroll recipe, and hides it from JEI. Added back as wands further down
 //recipes.remove(<dungeontactics:magic_scroll>);
 JEI.removeAndHide(<dungeontactics:magic_scroll>);
-
-val woodMoulding = mods.betterwithmods.MiniBlocks.getMiniBlock("moulding", <ore:plankWood>);
-recipes.addShaped("potshot",<dungeontactics:potshot>,[
-    [<dungpipe:sewer_pipe>,null,null],
-    [null,<minecraft:piston>,<pyrotech:material:36>],
-    [null,<minecraft:tripwire_hook>,woodMoulding]
-]);
-val rock = <pyrotech:rock>|<pyrotech_compat:rock_igneous:5>;
-recipes.remove(<dungeontactics:potshot_ammo>);
-recipes.addShapeless("potshot_ammo",<dungeontactics:potshot_ammo>*4,[rock,<minecraft:paper>]);
-
 
 <ore:buttonStone>.addItems([<minecraft:stone_button>,<undergroundbiomes:igneous_stone_button:*>,<undergroundbiomes:metamorphic_stone_button:*>,<undergroundbiomes:sedimentary_stone_button:*>]);
 recipes.remove(<dungeontactics:rocket_pants>);

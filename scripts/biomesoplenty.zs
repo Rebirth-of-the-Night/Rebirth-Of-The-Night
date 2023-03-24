@@ -69,6 +69,18 @@ recipes.addShaped("mudblock", <biomesoplenty:mud>, [
     [<biomesoplenty:mudball>,<biomesoplenty:mudball>],
     [<biomesoplenty:mudball>,<biomesoplenty:mudball>]
 ]);
+recipes.addShaped("sandy_dirt", <biomesoplenty:dirt:1>*4, [
+    [<minecraft:dirt>,<ore:sand>],
+    [<ore:sand>,<minecraft:dirt>]
+]);
+recipes.addShaped("silty_dirt", <biomesoplenty:dirt:2>*4, [
+    [<minecraft:dirt>,<ore:sand>],
+    [<ore:gravel>,<minecraft:dirt>]
+]);
+recipes.addShaped("loamy_dirt", <biomesoplenty:dirt>*4, [
+    [<minecraft:dirt>,<ore:sand>],
+    [<minecraft:clay_ball>,<minecraft:dirt>]
+]);
 
 recipes.removeByRecipeName("biomesoplenty:biome_finder");
 

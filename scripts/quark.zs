@@ -272,7 +272,10 @@ recipes.addShaped("dark_quartz_wall", <quark:quartz_wall> * 6, [
   [<ore:blockQuartz>, <ore:blockQuartz>, <ore:blockQuartz>],
   [<ore:blockQuartz>, <ore:blockQuartz>, <ore:blockQuartz>]
 ]);
-
+recipes.addShaped("framed_glass_steel", <quark:framed_glass>*8,
+ [[<ore:blockGlassColorless>,<ore:ingotSteel>,<ore:blockGlassColorless>],
+  [<ore:ingotSteel>,<ore:blockGlassColorless>,<ore:ingotSteel>],
+  [<ore:blockGlassColorless>,<ore:ingotSteel>,<ore:blockGlassColorless>]]);
 // oredict magicite
 
 val oreMagicite = <ore:magicite>;

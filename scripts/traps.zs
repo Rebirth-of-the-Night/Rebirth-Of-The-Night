@@ -12,8 +12,38 @@ JEI.removeAndHide(<minetraps:wall_spikes>);
 recipes.remove(<minetraps:nails>);
 
 var nugs = <ore:nuggetTin> | <ore:nuggetIron>;
-recipes.addShapeless("nails", <minetraps:nails>,[nugs, nugs, nugs, nugs]);
+recipes.addShapeless("nails", <minetraps:nails>*2,[nugs, nugs, nugs, nugs]);
 <minetraps:nails>.maxDamage = 7;
+recipes.addShapeless("nails_steel", <minetraps:nails>*6,[<ore:nuggetSteel>, <ore:nuggetSteel>, <ore:nuggetSteel>, <ore:nuggetSteel>]);
+
+recipes.remove(<minetraps:barbed_wire>);
+recipes.addShaped("barbed_wire",<minetraps:barbed_wire>*2,[
+    [<minetraps:nails>,<ore:genericMetal>,<minetraps:nails>],
+    [<ore:genericMetal>,<minetraps:nails>,<ore:genericMetal>],
+    [<minetraps:nails>,<ore:genericMetal>,<minetraps:nails>]
+]);
+recipes.addShaped("barbed_wire_steel",<minetraps:barbed_wire>*4,[
+    [<minetraps:nails>,<ore:ingotSteel>,<minetraps:nails>],
+    [<ore:ingotSteel>,<minetraps:nails>,<ore:ingotSteel>],
+    [<minetraps:nails>,<ore:ingotSteel>,<minetraps:nails>]
+]);
+
+recipes.remove(<minetraps:razor_wire>);
+recipes.addShaped("razor_wire",<minetraps:razor_wire>*2,[
+    [<minetraps:nails>,<minetraps:barbed_wire>,<minetraps:nails>],
+    [<minetraps:barbed_wire>,<minetraps:nails>,<minetraps:barbed_wire>],
+    [<minetraps:nails>,<minetraps:barbed_wire>,<minetraps:nails>]
+]);
+
+recipes.remove(<minetraps:barbed_wire_fence>);
+recipes.addShaped("barbed_wire_fence",<minetraps:barbed_wire_fence>*4,[
+    [<ore:genericMetal>,<minetraps:barbed_wire>,<ore:genericMetal>],
+    [<ore:genericMetal>,<minetraps:barbed_wire>,<ore:genericMetal>]
+]);
+recipes.addShaped("barbed_wire_fence_steel",<minetraps:barbed_wire_fence>*8,[
+    [<ore:ingotSteel>,<minetraps:barbed_wire>,<ore:ingotSteel>],
+    [<ore:ingotSteel>,<minetraps:barbed_wire>,<ore:ingotSteel>]
+]);
 
 recipes.remove(<minetraps:nail_trap>);
 recipes.addShapeless("nail_trap", <minetraps:nail_trap>*2,[<minetraps:nails>,<minetraps:nails>,<minetraps:nails>]);

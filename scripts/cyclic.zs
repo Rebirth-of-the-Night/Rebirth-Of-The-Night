@@ -41,7 +41,6 @@ JEI.removeAndHide(<cyclicmagic:plate_push_fast>);//add back
 JEI.removeAndHide(<cyclicmagic:plate_push_fast_corner>);//add back
 JEI.removeAndHide(<cyclicmagic:plate_push_fast_angle>);//add back
 JEI.removeAndHide(<cyclicmagic:block_fishing>);//add back
-JEI.removeAndHide(<cyclicmagic:water_spreader>);//add back
 JEI.removeAndHide(<cyclicmagic:password_block>);//add back
 JEI.removeAndHide(<cyclicmagic:fluid_placer>); //Requires RF
 JEI.removeAndHide(<cyclicmagic:fluid_drain>); //Requires RF
@@ -145,7 +144,18 @@ RecipeBuilder.get("mage")
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
-
+recipes.remove(<cyclicmagic:water_spreader>);
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, <contenttweaker:sapphire_ingot>, <contenttweaker:waterlogged_sapphire>],
+    [null, <contenttweaker:vis_shard>, <contenttweaker:sapphire_ingot>],
+    [<pyrotech:brick_tank>, null, null]])
+  .addTool(<contenttweaker:water_rune>, 1)
+  .addTool(<contenttweaker:nature_rune>, 1)
+  .addOutput(<cyclicmagic:water_spreader>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
 RecipeBuilder.get("mage")
   .setShaped([
     [null, <biomesoplenty:log_1:5>, <contenttweaker:electrified_zanite>],

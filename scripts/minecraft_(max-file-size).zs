@@ -429,6 +429,11 @@ recipes.addShaped("metal_hopper",<minecraft:hopper>,[
     [<ore:genericMetal>,<ore:chest>,<ore:genericMetal>],
     [null,<ore:genericMetal>,null]
 ]);
+recipes.addShaped("steel_hopper",<minecraft:hopper>*2,[
+    [<ore:ingotSteel>,<ore:chest>,<ore:ingotSteel>],
+    [<ore:ingotSteel>,<ore:chest>,<ore:ingotSteel>],
+    [null,<ore:ingotSteel>,null]
+]);
 
 recipes.removeByRecipeName("minecraft:furnace");
 recipes.addShaped("furnace",<minecraft:furnace>,[
@@ -776,6 +781,11 @@ recipes.addShaped("silverboosterrail",<minecraft:golden_rail>*4,[
     [<iceandfire:silver_ingot>,null,<iceandfire:silver_ingot>],
     [<iceandfire:silver_ingot>,<ore:stickWood>,<iceandfire:silver_ingot>],
     [<iceandfire:silver_ingot>,<minecraft:redstone>,<iceandfire:silver_ingot>]
+]);
+recipes.addShaped("electrumboosterrail",<minecraft:golden_rail>*16,[
+    [<ore:ingotElectrum>,null,<ore:ingotElectrum>],
+    [<ore:ingotElectrum>,<ore:stickWood>,<ore:ingotElectrum>],
+    [<ore:ingotElectrum>,<minecraft:redstone>,<ore:ingotElectrum>]
 ]);
 
 
