@@ -1,0 +1,38 @@
+List of menu IDs for Fancy Main Menu
+
+Vanilla:
+
+Main Menu:
+net.minecraft.client.gui.GuiMainMenu
+
+World Select (Singleplayer Worlds):
+net.minecraft.client.gui.GuiWorldSelection
+
+Multiplayer (Server List):
+net.minecraft.client.gui.GuiMultiplayer
+
+Options:
+net.minecraft.client.gui.GuiOptions
+
+Mod List:
+net.minecraftforge.fml.client.GuiModList
+
+Add Server:
+net.minecraft.client.gui.GuiScreenAddServer
+
+Direct Connect:
+net.minecraft.client.gui.GuiScreenServerList
+
+Custom:
+
+Information & Resources:
+rotn.client.gui.GuiInfoResources
+
+Work In Progress:
+rotn.client.gui.GuiWIP
+
+Supporters:
+rotn.client.gui.GuiSupporters
+
+Credits:
+rotn.client.gui.GuiCredits

@@ -1,0 +1,50 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiLanguage
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = options
+  action = setbackgroundslideshow
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-centered
+  shape = rectangle
+  color = #000000cc
+  x = -133
+  width = 264
+  actionid = be705e73-54a5-4e70-ac8f-905aae9e782d1678137923705
+  action = addshape
+  y = 0
+  height = 472
+}
+
+customization {
+  identifier = %id=505962%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/fancymainmenu/menu_buttons/button_300w_h.png
+  backgroundnormal = resources/fancymainmenu/menu_buttons/button_300w_n.png
+}
+
+customization {
+  identifier = %id=345962%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/fancymainmenu/menu_buttons/button_300w_h.png
+  backgroundnormal = resources/fancymainmenu/menu_buttons/button_300w_n.png
+}
+

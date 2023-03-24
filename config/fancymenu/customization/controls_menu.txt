@@ -1,0 +1,113 @@
+type = menu
+
+customization-meta {
+  identifier = us.getfluxed.controlsearch.client.gui.GuiNewControls
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = options
+  action = setbackgroundslideshow
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-centered
+  shape = rectangle
+  color = #000000cc
+  x = -217
+  width = 440
+  actionid = b37ef28d-93dd-4ff3-aaf0-0ad76565ece81678138106157
+  action = addshape
+  y = 0
+  height = 472
+}
+
+customization {
+  identifier = %id=505923%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/fancymainmenu/menu_buttons/button_160w_h.png
+  backgroundnormal = resources/fancymainmenu/menu_buttons/button_160w_n.png
+}
+
+customization {
+  identifier = %id=585923%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/fancymainmenu/menu_buttons/button_160w_h.png
+  backgroundnormal = resources/fancymainmenu/menu_buttons/button_160w_n.png
+}
+
+customization {
+  identifier = %id=34542%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/fancymainmenu/menu_buttons/button_300w_h.png
+  backgroundnormal = resources/fancymainmenu/menu_buttons/button_300w_n.png
+}
+
+customization {
+  identifier = %id=50542%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/fancymainmenu/menu_buttons/button_300w_h.png
+  backgroundnormal = resources/fancymainmenu/menu_buttons/button_300w_n.png
+}
+
+customization {
+  identifier = %id=585947%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/fancymainmenu/menu_buttons/button_160w_h.png
+  backgroundnormal = resources/fancymainmenu/menu_buttons/button_160w_n.png
+}
+
+customization {
+  identifier = %id=505971%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/fancymainmenu/menu_buttons/button_300w_h.png
+  backgroundnormal = resources/fancymainmenu/menu_buttons/button_300w_n.png
+}
+
+customization {
+  identifier = %id=345971%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/fancymainmenu/menu_buttons/button_300w_h.png
+  backgroundnormal = resources/fancymainmenu/menu_buttons/button_300w_n.png
+}
+
+customization {
+  identifier = %id=34518%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/fancymainmenu/menu_buttons/button_300w_h.png
+  backgroundnormal = resources/fancymainmenu/menu_buttons/button_300w_n.png
+}
+
+customization {
+  identifier = %id=505947%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/fancymainmenu/menu_buttons/button_160w_h.png
+  backgroundnormal = resources/fancymainmenu/menu_buttons/button_160w_n.png
+}
+

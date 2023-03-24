@@ -1,0 +1,93 @@
+type = menu
+
+customization-meta {
+  identifier = rotn.client.gui.GuiCredits
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = inforesources
+  action = setbackgroundslideshow
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = mid-centered
+  shape = rectangle
+  color = #000000cc
+  x = -250
+  width = 500
+  actionid = 9ac398cc-f500-41ea-82f7-a85b7a29531f1678376148138
+  action = addshape
+  y = -236
+  height = 472
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}/1.15","decimal":"true"}}
+  orientation = top-centered
+  grabber_texture_normal = resources/fancymainmenu/menu_buttons/scroll_grabber_n.png
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = CREDITS.txt
+  text_border = 0
+  case_mode = normal
+  advanced_width = 500
+  source_mode = local
+  line_spacing = 4
+  x = -251
+  width = 500
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 3722b8d6-d068-4d78-b2c9-e1e85b648f841678376083338
+  y = 33
+  alignment = centered
+  height = 411
+}
+
+customization {
+  path = resources/fancymainmenu/menu_assets/resourcemenu_fix_top.png
+  orientation = top-centered
+  x = -852
+  width = 1705
+  actionid = f8aee135-0acf-4659-b4a8-d20f3cf6dd061678375510225
+  action = addtexture
+  y = -44
+  height = 100
+}
+
+customization {
+  path = resources/fancymainmenu/menu_assets/resourcemenu_fix_bottom.png
+  orientation = bottom-centered
+  x = -710
+  width = 1421
+  actionid = d248a59d-88a9-4e96-9fa1-7a099fd90fc01678375514530
+  action = addtexture
+  y = -47
+  height = 100
+}
+
+customization {
+  orientation = bottom-centered
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui
+  backgroundhovered = resources/fancymainmenu/menu_buttons/button_300w_h.png
+  label = {"placeholder":"local","values":{"key":"rotnfmm.infomenu.button.exit"}}
+  loopbackgroundanimations = true
+  x = -75
+  width = 150
+  actionid = 333ebe9a-606a-49a8-95c2-86ff5d9dead31678381868446
+  action = addbutton
+  y = -26
+  backgroundnormal = resources/fancymainmenu/menu_buttons/button_300w_n.png
+  value = rotn.client.gui.GuiInfoResources
+  height = 20
+}
+
