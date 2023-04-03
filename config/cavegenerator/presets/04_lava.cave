@@ -1,0 +1,11 @@
+{
+  biomes: {
+    names: [
+      biometweaker:volcano_crater
+    ]
+  }
+  caveBlocks: {
+    states: lava
+    height: [ 0, 90 ]
+  }
+}

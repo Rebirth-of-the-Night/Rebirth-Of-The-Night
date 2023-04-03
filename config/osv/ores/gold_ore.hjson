@@ -62,4 +62,10 @@ gen: [
 	chance: 0.8
 	dimensions: [10]
   }
+  {
+    height: [ 4, 127 ]
+    size: 8
+    count: 2
+	dimensions: [-1]
+  },
 ]

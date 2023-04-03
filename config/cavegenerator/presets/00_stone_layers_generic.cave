@@ -67,6 +67,7 @@
       biomesoplenty:mountain
       biomesoplenty:orchard
       biomesoplenty:woodland
+      biomesoplenty:chaparral
     ]
   }
   layers: [
@@ -99,7 +100,7 @@
     {
       #dolomite
       state: undergroundbiomes:sedimentary_stone:5
-      height: [ 0, 80 ]
+      height: [ 0, 90 ]
       ceiling: {
         frequency: 0.015
         range: [ 0, 8 ]
@@ -108,7 +109,7 @@
     {
       #green schist
       state: undergroundbiomes:metamorphic_stone:5
-      height: [ 0, 110 ]
+      height: [ 0, 115 ]
       ceiling: {
         frequency: 0.3
         range: [ 0, 8 ]

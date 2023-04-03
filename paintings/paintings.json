@@ -24,6 +24,12 @@
 		"isCreative": true
     },
 	{
+        "motive": "Fatum_sigil",
+        "width": 1,
+        "height": 1,
+		"isCreative": true
+    },
+	{
         "motive": "ritual_of_below",
         "width": 2,
         "height": 2,

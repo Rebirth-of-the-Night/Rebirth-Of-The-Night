@@ -39,44 +39,44 @@ badgerPool1.addItemEntry(<primitivemobs:wonder_sap>, 1, 0, [Functions.setCount(2
 // Cows
 val mushroomTable = LootTweaker.getTable("animania:cow_mooshroom");
 val mushroomBeef = mushroomTable.getPool("beef");
-mushroomBeef.setRolls(3, 3);
+mushroomBeef.setRolls(2, 2);
 
 val cowRegularTable = LootTweaker.getTable("animania:cow_regular");
 val cowRegularBeef = cowRegularTable.getPool("beef");
-cowRegularBeef.setRolls(7, 7);
+cowRegularBeef.setRolls(2, 2);
 
 val cowPrimeTable = LootTweaker.getTable("animania:cow_prime");
 val cowPrimeBeef = cowPrimeTable.getPool("beef");
-cowPrimeBeef.setRolls(24, 24);
+cowPrimeBeef.setRolls(2, 2);
 
 // Goats
 val goatRegularTable = LootTweaker.getTable("animania:goat_regular");
 val goatRegularBeef = goatRegularTable.getPool("meat");
-goatRegularBeef.setRolls(7, 7);
+goatRegularBeef.setRolls(2, 2);
 
 val goatPrimeTable = LootTweaker.getTable("animania:goat_prime");
 val goatPrimeBeef = goatPrimeTable.getPool("meat");
-goatPrimeBeef.setRolls(24, 24);
+goatPrimeBeef.setRolls(2, 2);
 
 // Pigs
 val pigRegularTable = LootTweaker.getTable("animania:pig_regular");
 val pigRegularBeef = pigRegularTable.getPool("meat");
-pigRegularBeef.setRolls(7, 7);
+pigRegularBeef.setRolls(2, 2);
 
 val pigPrimeTable = LootTweaker.getTable("animania:pig_prime");
 val pigPrimeBeef = pigPrimeTable.getPool("meat");
-pigPrimeBeef.setRolls(24, 24);
+pigPrimeBeef.setRolls(2, 2);
 
 // Sheeps
 val sheepRegularTable = LootTweaker.getTable("animania:sheep_regular");
 val sheepRegularBeef = sheepRegularTable.getPool("meat");
 val sheepRegularProduce = sheepRegularTable.addPool("produce", 1, 1, 1, 1);
-sheepRegularBeef.setRolls(7, 7);
+sheepRegularBeef.setRolls(2, 2);
 sheepRegularProduce.addItemEntry(<contenttweaker:sheep_intestines>, 1, 0, [Functions.setCount(1, 1)], []);
 
 val sheepPrimeTable = LootTweaker.getTable("animania:sheep_prime");
 val sheepPrimeBeef = sheepPrimeTable.getPool("meat");
 val sheepPrimeProduce = sheepPrimeTable.addPool("produce", 1, 1, 1, 1);
-sheepPrimeBeef.setRolls(24, 24);
+sheepPrimeBeef.setRolls(2, 2);
 sheepPrimeProduce.addItemEntry(<contenttweaker:sheep_intestines>, 1, 0, [Functions.setCount(1, 1)], []);
 

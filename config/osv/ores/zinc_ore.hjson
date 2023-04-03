@@ -1,0 +1,32 @@
+name: zinc_ore
+mod: contenttweaker
+block: {
+  location: iron_ore
+  hardness: 2
+  level: 0
+}
+loot: [
+  {
+    item: contenttweaker:material_part:36
+    count: [1, 1]
+    xp: [0, 0]
+    chance: 1
+  }
+]
+texture: {
+  shade: false
+  original: minecraft:blocks/iron_ore
+}
+recipe: {
+  result: contenttweaker:material_part:32
+  xp: 0.3499999940395355
+  quantity: 1
+}
+gen: [
+  {
+  height: [ 10, 64 ]
+  size: 4
+  count: 1
+  chance: 0.75
+  }
+]

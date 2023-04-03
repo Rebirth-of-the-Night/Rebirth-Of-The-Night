@@ -1,5 +1,5 @@
 setIcon("pyrotech:redstone_sword")
-setTitle("Arcane Energy")
+setTitle("Unstable Energy")
 setDescription("Craft a Draconic Sword")
 
 addParent("triumph:advancements/setbonuses/root")

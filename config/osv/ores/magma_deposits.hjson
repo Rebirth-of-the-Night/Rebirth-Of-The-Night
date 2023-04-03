@@ -8,7 +8,7 @@ block: {
 }
 texture: {
   shade: false
-  original: minecraft:blocks/magma,
+  original: minecraft:blocks/magma
 }
 recipe: {
   result: netherex:congealed_magma_cream

@@ -19,6 +19,7 @@ irongolem.clear();
 LootTable.removeGlobalItem("minecraft:spawn_egg");
 LootTable.removeGlobalItem("minecraft:shield");
 LootTable.removeGlobalItem("minecraft:glowstone_dust");
+LootTable.removeGlobalItem("primal:animal_fat");
 
 <entity:minecraft:blaze>.addDrop(<minecraft:blaze_rod>,1,3,0.33);
 

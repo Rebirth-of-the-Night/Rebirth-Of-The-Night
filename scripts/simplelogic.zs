@@ -61,6 +61,8 @@ val torch = <minecraft:redstone_torch>;
 val dice = <cyclicmagic:dice>;
 val clock = <minecraft:clock>;
 val wool = <ore:wool>;
+val quartz = <minecraft:quartz>;
+val brass_gear = <pyrotech:cog_gold>;
 
 val mrepeater = <minecraft:repeater>;
 val mcomparator = <minecraft:comparator>;
@@ -368,7 +370,13 @@ Anvil.addShapedFixed(prepeater, [
 
 Anvil.addShapedFixed(pcomparator, [
     [circuitPlate, srepeater, circuitPlate],
-    [redstonePaste, redstonePaste, redstonePaste],
+    [redstonePaste, quartz, redstonePaste],
+    [srepeater, mcomparator, srepeater],
+    [circuitPlate, srepeater, circuitPlate]
+]);
+Anvil.addShapedFixed(pcomparator, [
+    [circuitPlate, srepeater, circuitPlate],
+    [redstonePaste, brass_gear, redstonePaste],
     [srepeater, mcomparator, srepeater],
     [circuitPlate, srepeater, circuitPlate]
 ]);

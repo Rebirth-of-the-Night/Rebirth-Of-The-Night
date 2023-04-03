@@ -84,6 +84,30 @@ Dropt.list("pile_aether_dirt")
       )
   );
 
+Dropt.list("pile_wet_farmland")
+
+  .add(Dropt.rule()
+      .matchBlocks(["minecraft:farmland:7", "biomesoplenty:farmland_0:14", "biomesoplenty:farmland_0:15", "biomesoplenty:farmland_1:14"])
+	  .matchHarvester(Dropt.harvester()
+          .type("PLAYER")
+		  .mainHand("BLACKLIST", [], "shovel;1;-1")
+	  )
+  	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(1))
+       	   .items([<biomesoplenty:mudball>], Dropt.range(4))
+      )
+  );
+
+Dropt.list("wet_farmland")
+
+  .add(Dropt.rule()
+      .matchBlocks(["minecraft:farmland:7", "biomesoplenty:farmland_0:14", "biomesoplenty:farmland_0:15", "biomesoplenty:farmland_1:14"])
+  	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(1))
+       	   .items([<biomesoplenty:mud>], Dropt.range(1))
+      )
+  );
+
 Dropt.list("pile_dirt_slab")
 
   .add(Dropt.rule()

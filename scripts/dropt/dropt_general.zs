@@ -579,21 +579,93 @@ Dropt.list("nether_grass")
       )
   );
 
+//unique plants
+
+Dropt.list("mulberry")
+
+  .add(Dropt.rule()
+      .matchBlocks(["defiledlands:vilespine"])
+      .replaceStrategy("ADD")
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(180))
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(1)) // Magic VD berry
+          .items([<betterwithaddons:food_mulberry>])
+      )
+  );
+
+Dropt.list("clovers")
+
+  .add(Dropt.rule()
+      .matchBlocks(["biomesoplenty:plant_0:10"])
+      .replaceStrategy("REPLACE_ALL_IF_SELECTED")
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(180)) // drops nothing if selected
+      )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(10)) // lucky clover
+          .items([<contenttweaker:4leaf_clover>])
+      )
+      .addDrop(Dropt.drop()
+           .selector(Dropt.weight(1)) // Magic MC clover
+           .items([<contenttweaker:5leaf_clover>])
+      )
+  );
+
+Dropt.list("koru")
+
+  .add(Dropt.rule()
+      .matchBlocks(["biomesoplenty:plant_0:9"])
+      .replaceStrategy("REPLACE_ALL_IF_SELECTED")
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(180)) // drops nothing if selected
+      )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(10)) // lucky clover
+          .items([<contenttweaker:4leaf_clover>])
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(1)) // MAGIC SF snail shell
+          .items([<rats:little_black_worm>])
+      )
+  );
+
+/*  
+Dropt.list("sprout_seeds") INSERT FITTING CROP SEEDS HERE
+
+  .add(Dropt.rule()
+      .matchBlocks(["biomesoplenty:plant_0:3"])
+      .replaceStrategy("REPLACE_ALL_IF_SELECTED")
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(180)) // drops nothing if selected
+      )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(10)) // 
+          .items([<contenttweaker:4leaf_clover>])
+      )
+      .addDrop(Dropt.drop()
+           .selector(Dropt.weight(1)) // Magic MC clover
+           .items([<contenttweaker:5leaf_clover>])
+      )
+  );
+*/
+
 Dropt.list("plants_basic_dry")
 
   .add(Dropt.rule()
-      .matchBiomes(["minecraft:desert","minecraft:desert_hills","minecraft:mutated_desert","minecraft:savanna","minecraft:savanna_rock","minecraft:mesa","minecraft:mesa_rock","minecraft:mesa_clear_rock","biomesoplenty:steppe"])
-      .matchBlocks(["biomesoplenty:plant_0:*","biomesoplenty:plant_1:0","biomesoplenty:plant_1:1","biomesoplenty:plant_1:7","biomesoplenty:plant_1:11","biomesoplenty:double_plant:0","biomesoplenty:double_plant:1","biomesoplenty:ivy","biomesoplenty:willow_vine"])
+      .matchBiomes(["minecraft:desert","minecraft:desert_hills","minecraft:mutated_desert","minecraft:savanna","minecraft:savanna_rock","minecraft:mesa","minecraft:mesa_rock","minecraft:mesa_clear_rock"])
+      .matchBlocks(["biomesoplenty:plant_0:1","biomesoplenty:plant_0:2","biomesoplenty:plant_0:4","biomesoplenty:plant_0:5","biomesoplenty:plant_0:7","biomesoplenty:plant_0:8","biomesoplenty:plant_0:13","biomesoplenty:plant_0:14","biomesoplenty:plant_0:15","biomesoplenty:plant_1:0","biomesoplenty:plant_1:1","biomesoplenty:plant_1:7","biomesoplenty:plant_1:11","biomesoplenty:double_plant:0","biomesoplenty:double_plant:1","biomesoplenty:ivy","biomesoplenty:willow_vine"])
       .replaceStrategy("ADD")
       .addDrop(Dropt.drop()
           .selector(Dropt.weight(180)) // drops nothing if selected
       )
       .addDrop(Dropt.drop()
-          .selector(Dropt.weight(25))
+          .selector(Dropt.weight(35))
           .items([<pyrotech:tinder>])
       )
 	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(5))
+          .selector(Dropt.weight(30))
           .items([<pyrotech:material:11>])
       )
   );
@@ -602,13 +674,13 @@ Dropt.list("plants_basic_dead")
 
   .add(Dropt.rule()
       .matchBiomes(["biomesoplenty:wasteland","biomesoplenty:xeric_shrubland"])
-      .matchBlocks(["biomesoplenty:plant_0:*","biomesoplenty:plant_1:0","biomesoplenty:plant_1:1","biomesoplenty:plant_1:2","biomesoplenty:plant_1:7","biomesoplenty:plant_1:11","biomesoplenty:double_plant:0","biomesoplenty:double_plant:1","biomesoplenty:ivy","biomesoplenty:willow_vine"])
+      .matchBlocks(["biomesoplenty:plant_0:1","biomesoplenty:plant_0:2","biomesoplenty:plant_0:4","biomesoplenty:plant_0:5","biomesoplenty:plant_0:7","biomesoplenty:plant_0:8","biomesoplenty:plant_0:13","biomesoplenty:plant_0:14","biomesoplenty:plant_0:15","biomesoplenty:plant_1:0","biomesoplenty:plant_1:1","biomesoplenty:plant_1:2","biomesoplenty:plant_1:7","biomesoplenty:plant_1:11","biomesoplenty:double_plant:0","biomesoplenty:double_plant:1","biomesoplenty:ivy","biomesoplenty:willow_vine"])
       .replaceStrategy("ADD")
       .addDrop(Dropt.drop()
-          .selector(Dropt.weight(4200)) // drops nothing if selected
+          .selector(Dropt.weight(180)) // drops nothing if selected
       )
       .addDrop(Dropt.drop()
-          .selector(Dropt.weight(480))
+          .selector(Dropt.weight(35))
           .items([<pyrotech:tinder>])
       )
   );
@@ -616,29 +688,21 @@ Dropt.list("plants_basic_dead")
 Dropt.list("tall_grass_base_drops")
 
   .add(Dropt.rule()
-      .matchBlocks(["biomesoplenty:plant_0:*","biomesoplenty:plant_1:0","biomesoplenty:plant_1:1","biomesoplenty:plant_1:2","biomesoplenty:plant_1:3","biomesoplenty:plant_1:7","biomesoplenty:plant_1:11","minecraft:tallgrass:1","minecraft:tallgrass:2","aether_legacy:aether_grass","aether_legacy:enchanted_aether_grass"])
+      .matchBlocks(["biomesoplenty:plant_0:1","biomesoplenty:plant_0:2","biomesoplenty:plant_0:4","biomesoplenty:plant_0:5","biomesoplenty:plant_0:7","biomesoplenty:plant_0:8","biomesoplenty:plant_0:13","biomesoplenty:plant_0:14","biomesoplenty:plant_0:15","biomesoplenty:plant_1:0","biomesoplenty:plant_1:1","biomesoplenty:plant_1:2","biomesoplenty:plant_1:3","biomesoplenty:plant_1:7","biomesoplenty:plant_1:11","minecraft:tallgrass:1","minecraft:tallgrass:2","aether_legacy:aether_grass","aether_legacy:enchanted_aether_grass"])
       .matchHarvester(Dropt.harvester()
           .type("PLAYER")
 	  )
       .replaceStrategy("ADD")
       .addDrop(Dropt.drop()
-          .selector(Dropt.weight(4200)) // drops nothing if selected
+          .selector(Dropt.weight(180)) // drops nothing if selected
       )
 	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(840)) // plant fiber
+          .selector(Dropt.weight(50)) // plant fiber
           .items([<pyrotech:material:12>])
       )
 	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(420))
+          .selector(Dropt.weight(28))
           .items([<pyrotech:tinder>]) // dried plant fiber
-      )
-	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(15)) // Worm
-          .items([<rats:little_black_worm>])
-      )
-	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(14)) // Bathroom berry
-          .items([<betterwithaddons:food_mulberry>])
       )
   );
 
@@ -662,24 +726,6 @@ Dropt.list("double_tall_grass_base_drops")
           .selector(Dropt.weight(8)) // Strange flower
           .items([<dungeontactics:flower_ailment>])
 	  )
-  );
-
-Dropt.list("clovers")
-
-  .add(Dropt.rule()
-      .matchBlocks(["biomesoplenty:plant_0:10"])
-      .replaceStrategy("REPLACE_ALL_IF_SELECTED")
-      .addDrop(Dropt.drop()
-          .selector(Dropt.weight(20000)) // drops nothing if selected
-      )
-      .addDrop(Dropt.drop()
-          .selector(Dropt.weight(100)) // lucky clover
-          .items([<contenttweaker:4leaf_clover>])
-      )
-      .addDrop(Dropt.drop()
-           .selector(Dropt.weight(10)) // unlucky clover
-           .items([<contenttweaker:5leaf_clover>])
-      )
   );
 
 Dropt.list("slaked_lime")

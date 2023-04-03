@@ -66,6 +66,10 @@ JEI.removeAndHide(<betterwithmods:candle_holder>);
 JEI.removeAndHide(<betterwithmods:aesthetic:8>);
 JEI.removeAndHide(<betterwithmods:material:46>);
 
+JEI.removeAndHide(<betterwithmods:steel_gearbox>);
+JEI.removeAndHide(<betterwithmods:steel_broken_gearbox>);
+JEI.removeAndHide(<betterwithmods:steel_axle>);
+
 JEI.removeAndHide(<betterwithmods:raw_egg>);
 JEI.removeAndHide(<betterwithmods:cooked_egg>);
 furnace.remove(<betterwithmods:cooked_egg>);
@@ -192,6 +196,7 @@ var moulding_wood = MiniBlocks.getMiniBlock("moulding", <ore:plankWood>);
 var siding_wood = MiniBlocks.getMiniBlock("siding", <ore:plankWood>);
 var gear_wood = <pyrotech:cog_wood>;
 var gear_steel = <pyrotech:cog_bone>;
+var gear_brass = <pyrotech:cog_gold>;
 var generic_metal = <ore:genericMetal>;
 var archimedes = <betterwithmods:material:24>;
 var glue = <ore:glue>;
@@ -330,7 +335,7 @@ recipes.remove(<betterwithmods:bellows:1>);
 recipes.addShaped("bellows_spring_block", <betterwithmods:bellows:1>, [
     [null, <minecraft:clock>, null],
     [spring, <betterwithmods:bellows>, spring],
-	[null, gear_steel, null]
+	[null, gear_steel|gear_brass, null]
 ]);
 // redstone Latch
 recipes.remove(<betterwithmods:material:34>);

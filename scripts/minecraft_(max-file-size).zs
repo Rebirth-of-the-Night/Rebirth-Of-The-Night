@@ -444,6 +444,13 @@ recipes.addShaped("jukebox",<minecraft:jukebox>,[
     [<ore:plankWood>,<ore:plankWood>,<ore:plankWood>]
 ]);
 
+recipes.remove(<minecraft:comparator>);
+recipes.addShaped("comparator",<minecraft:comparator>,[
+    [null,<minecraft:redstone_torch>,null],
+    [<minecraft:redstone_torch>,<pyrotech:cog_gold>|<minecraft:quartz>,<minecraft:redstone_torch>],
+    [<ore:stone>,<ore:stone>,<ore:stone>]
+]);
+
 recipes.addShapeless("spider_silk_to_string",<minecraft:string>,[<contenttweaker:spider_silk>,<contenttweaker:spider_silk>,<contenttweaker:spider_silk>]);
 
 recipes.remove(<minecraft:tipped_arrow>);
@@ -1630,7 +1637,7 @@ val anyAsh = <ore:dustAsh>;
 anyAsh.add(<biomesoplenty:ash>);
 
 val componentWheel = <ore:componentWheel>;
-componentWheel.addItems([<animania:wheel>,<pyrotech:cog_wood>,<pyrotech:cog_bone>]);
+componentWheel.addItems([<animania:wheel>,<pyrotech:cog_wood>,<pyrotech:cog_bone>,<pyrotech:cog_gold>]);
 
 val scaleChestplate = <ore:scaleChestplate>;
 scaleChestplate.addItems([<iceandfire:armor_red_chestplate>,<iceandfire:armor_green_chestplate>,<iceandfire:armor_bronze_chestplate>,<iceandfire:armor_gray_chestplate>]);
