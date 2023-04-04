@@ -1,0 +1,7 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "mcpatcher/cit/flint_tipped_arrow/2-head",
+		"layer1": "mcpatcher/cit/flint_tipped_arrow/2-base"
+	}
+}
