@@ -1,0 +1,17 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "plank": "rustic:blocks/planks_olive",
+	  "particle": "rustic:blocks/planks_olive",
+	  "lacquer": "contenttweaker:blocks/lacquer"
+    },
+    "model": "contenttweaker:lacquered_wood",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

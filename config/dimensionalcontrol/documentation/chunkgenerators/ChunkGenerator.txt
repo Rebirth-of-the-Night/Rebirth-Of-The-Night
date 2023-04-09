@@ -1,0 +1,19 @@
+The role of a ChunkGenerator is to handle all things related to terrain and structure 
+generation.
+
+
+
+disableMapGen:
+    Arguments:
+        String
+    Usage:
+        Disables the provided MapGen type. Types are "CAVES", "CAVES_NETHER", "RAVINE", "END_CITY", "MINESHAFT", "NETHER_BRIDGE", "SCATTERED_FEATURE", "STRONGHOLD", "VILLAGE", "OCEAN_MONUMENT"
+
+setGenerationOptions:
+    Arguments:
+        Json
+    Usage:
+        vanilla generation options string
+    Notes:
+        Sets the generator options string. This is the string used by the various vanilla customizable ChunkGenerators for customizing the world generation.
+

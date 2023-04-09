@@ -2,9 +2,9 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "brick": "pyrotech:blocks/stone_bricks",
+      "brick": "pyrotech:blocks/masonry_brick",
 	  "overlay": "contenttweaker:blocks/loose_bricks/brick_overlay_grayish",
-	  "particle": "pyrotech:blocks/stone_bricks"
+	  "particle": "pyrotech:blocks/masonry_brick"
     },
     "model": "contenttweaker:loose_bricks",
     "uvlock": true,

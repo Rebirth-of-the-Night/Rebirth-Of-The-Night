@@ -15,3 +15,5 @@ popup.choosefile.title = Choose File
 popup.choosefile.choose = Choose
 popup.choosefile.supported = Supported file types:
 
+configscreen.boolean.enabled = Enabled
+configscreen.boolean.disabled = Disabled

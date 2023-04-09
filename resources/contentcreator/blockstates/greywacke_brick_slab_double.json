@@ -1,0 +1,20 @@
+{
+	"forge_marker":1,
+	"defaults":{
+		"transform":"forge:default-block",
+		"model":"cube_column",
+		"textures":{
+			"end":"contenttweaker:blocks/big_greywacke_bricks",
+			"side":"contenttweaker:blocks/big_greywacke_bricks"}
+		},
+	"variants":{
+		"half":{
+			"bottom":{},
+			"top":{}
+		},
+		"variant":{
+			"normal":{}
+		},
+		"inventory":[{}]
+	}
+}

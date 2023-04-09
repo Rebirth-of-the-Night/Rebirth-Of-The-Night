@@ -1,0 +1,22 @@
+{
+	"forge_marker":1,
+	"defaults":{
+		"transform":"forge:default-block",
+		"model":"half_slab",
+		"textures":{
+			"top":"contenttweaker:blocks/blendrein_block",
+			"bottom":"contenttweaker:blocks/blendrein_block",
+			"side":"contenttweaker:blocks/blendrein_block"
+		}
+	},
+	"variants":{
+		"half":{
+			"bottom":{},
+			"top":{"model":"upper_slab"}
+		},
+		"variant":{
+			"normal":{}
+		},
+		"inventory":[{}]
+	}
+}

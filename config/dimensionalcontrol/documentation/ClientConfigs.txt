@@ -1,0 +1,41 @@
+This object is used for various client-only options. Anything run on this object 
+will be ignored on dedicated servers.
+
+
+
+newLoadingScreen:
+    Arguments:
+        Integer, int array
+    Usage:
+        toDimension, fromDimension
+    Notes:
+        Adds a loading screen which will be used when traveling between toDimension and fromDimension. Documentation can be found in documentation/gui/LoadingScreen.txt
+
+newLoadingScreen:
+    Arguments:
+        int array, Integer
+    Usage:
+        toDimension, fromDimension
+    Notes:
+        Adds a loading screen which will be used when traveling between toDimension and fromDimension. Documentation can be found in documentation/gui/LoadingScreen.txt
+
+newLoadingScreen:
+    Arguments:
+        int array, int array
+    Usage:
+        toDimension, fromDimension
+    Notes:
+        Adds a loading screen which will be used when traveling between toDimension and fromDimension. Documentation can be found in documentation/gui/LoadingScreen.txt
+
+newLoadingScreen:
+    Arguments:
+        Integer, Integer
+    Usage:
+        toDimension, fromDimension
+    Notes:
+        Adds a loading screen which will be used when traveling between toDimension and fromDimension. Documentation can be found in documentation/gui/LoadingScreen.txt
+
+newLoadingScreen:
+    Notes:
+        Adds a loading screen which will be used when traveling between any dimensions.
+

@@ -10,6 +10,7 @@ B:playbackgroundsounds = 'true';
 [A minecraft restart is required after changing this value.]
 B:enablehotkeys = 'true';
 B:playmenumusic = 'false';
+S:variables_to_reset_on_launch = '';
 B:showdebugwarnings = 'true';
 [Sets the default GUI scale on first launch. Useful for modpacks. Cache data is saved in '/mods/fancymenu/'.]
 I:defaultguiscale = '3';
@@ -30,7 +31,6 @@ S:copyrightcolor = '#ffffff';
 ##[loading]
 
 B:allowgameintroskip = 'true';
-S:loadinganimationcolor = '#E22837';
 B:showanimationloadingstatus = 'true';
 S:gameintroanimation = '';
 B:preloadanimations = 'true';

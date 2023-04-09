@@ -1,0 +1,132 @@
+These are the functions which can be called on an ItemData object.
+
+
+
+setDurabilityMax:
+    Arguments:
+        float
+    Usage:
+        max
+    Notes:
+        Sets the max durability.
+
+setPotionType:
+    Arguments:
+        String
+    Usage:
+        potion type
+    Notes:
+        Sets the potion type.
+
+setDurabilityMin:
+    Arguments:
+        float
+    Usage:
+        min
+    Notes:
+        Sets the min durability.
+
+setItem:
+    Arguments:
+        String
+    Usage:
+        item name
+    Notes:
+        Sets the item. This counts for any meta.
+
+setItem:
+    Arguments:
+        String, Integer, String
+    Usage:
+        item name, meta, NBT Json
+    Notes:
+        Sets the item with the provided meta and NBT.
+
+setItem:
+    Arguments:
+        String, Integer
+    Usage:
+        item name, meta
+    Notes:
+        Sets the item with the provided meta.
+
+setEnchantment:
+    Arguments:
+        String
+    Usage:
+        enchantment path
+    Notes:
+        Sets the enchantment.
+
+setNBT:
+    Arguments:
+        String
+    Usage:
+        NBT Json
+    Notes:
+        Sets the NBT from the provided Json string.
+
+setOreDict:
+    Arguments:
+        String
+    Usage:
+        ore dict name
+    Notes:
+        Sets the ore dictionary.
+
+setEnchantmentLevelsMax:
+    Arguments:
+        float
+    Usage:
+        max
+    Notes:
+        Sets the max enchantment level.
+
+setEnchantmentLevelsMin:
+    Arguments:
+        float
+    Usage:
+        min
+    Notes:
+        Sets the min enchantment level.
+
+setEnchantmentLevelsMinMax:
+    Arguments:
+        float, float
+    Usage:
+        min, max
+    Notes:
+        Sets the min and max enchantment levels.
+
+setDurabilityMinMax:
+    Arguments:
+        float, float
+    Usage:
+        min, max
+    Notes:
+        Sets the min and max durability.
+
+setCountMax:
+    Arguments:
+        float
+    Usage:
+        max
+    Notes:
+        Sets the max stack count.
+
+setCountMinMax:
+    Arguments:
+        float, float
+    Usage:
+        min, max
+    Notes:
+        Sets the min and max stack count.
+
+setCountMin:
+    Arguments:
+        float
+    Usage:
+        min
+    Notes:
+        Sets the min stack count.
+

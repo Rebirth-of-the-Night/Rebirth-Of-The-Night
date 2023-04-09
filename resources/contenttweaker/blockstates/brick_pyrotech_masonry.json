@@ -2,8 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "all": "pyrotech:blocks/stone_bricks",
-      "particle": "pyrotech:blocks/stone_bricks"
+      "all": "pyrotech:blocks/masonry_brick",
+      "particle": "pyrotech:blocks/masonry_brick"
     },
     "model": "contenttweaker:base_block",
     "uvlock": true,

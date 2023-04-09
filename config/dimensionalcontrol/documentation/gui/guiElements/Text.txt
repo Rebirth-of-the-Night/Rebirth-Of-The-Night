@@ -1,0 +1,12 @@
+Text is white by default.
+
+
+
+setColor:
+    Arguments:
+        int
+    Usage:
+        color
+    Notes:
+        Sets the color for the text.
+

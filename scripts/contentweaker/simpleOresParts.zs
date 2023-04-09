@@ -18,7 +18,7 @@ addMaterial("Knightmetal", "A7B893", ["molten"], [2350, 8050, 10, 1800], [""]);
 addMaterial("Ironwood", "72635B", ["molten"], [2350, 8050, 10, 1800], [""]);
 addMaterial("Fiery", "312024", ["molten"], [2350, 8050, 10, 1800], [""]);
 addMaterial("Steeleaf", "51883A", ["molten"], [2350, 8050, 10, 1800], [""]);
-addMaterial("Coade Stone", "301807", ["molten"], [1375, 3100, 8, 4900], [""]);
+addMaterial("Coade Stone", "301807", ["molten","block"], [1375, 3100, 8, 4900], ["molten","block"]);
 addMaterial("Endorium", "219484", ["dust"], [0], [""]);
 addMaterial("Crucible Steel", "3E3E3E", ["dust"], [0], [""]);
 addMaterial("Iron", "E5DADA", ["dust"], [0], [""]);
