@@ -1,6 +1,7 @@
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import mods.artisanworktables.builder.RecipeBuilder;
+import mods.jei.JEI;
 
 JEI.removeAndHide(<wards:ward>);
 
