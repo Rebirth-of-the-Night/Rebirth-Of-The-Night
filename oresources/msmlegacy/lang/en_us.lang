@@ -73,8 +73,8 @@ jei.item.msmlegacy.adminium.ark=Rumored to be wielded by the Creator of all thin
 # Relic Names
 item.msmlegacy.relic.aqueous.name=§4Red Hot Chili Pepper Sword
 item.msmlegacy.relic.candy.name=§4Burning Super Death Sword
-item.msmlegacy.relic.infinity.name=Infinity Blade
-item.msmlegacy.relic.keyblade.name=Keyblade
+item.msmlegacy.relic.infinity.name=Khopesh of the Flowing Delta
+item.msmlegacy.relic.keyblade.name=Khopesh of the Burning Sun
 item.msmlegacy.relic.master.name=Master Sword
 item.msmlegacy.relic.molten.name=Molten Blade
 item.msmlegacy.relic.pie.name=Pieblade
@@ -82,8 +82,8 @@ item.msmlegacy.relic.pie.name=Pieblade
 # Relic Descriptions
 jei.item.msmlegacy.relic.aqueous=Take it on the Other Side.
 jei.item.msmlegacy.relic.candy=You'll have a grand ol' time with this sword.
-jei.item.msmlegacy.relic.infinity=A sword based on a game with the same name.
-jei.item.msmlegacy.relic.keyblade=A blade based on the Kingdom Heart's keyblade. It's made with Lapis Lazuli.
+jei.item.msmlegacy.relic.infinity=A blade imbued with the power of flowing deltas. It seems to be part of a pair...
+jei.item.msmlegacy.relic.keyblade=A blade imbued with the power of burning sands. It seems to be part of a pair...
 jei.item.msmlegacy.relic.master=A sword based on the Master Sword from the Legend of Zelda series.
 jei.item.msmlegacy.relic.molten=A sword based on lava. It was later replaced by the Dawn Star.
 jei.item.msmlegacy.relic.pie=A blade that was part of a long forgtten holiday event.

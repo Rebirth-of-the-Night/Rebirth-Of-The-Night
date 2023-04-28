@@ -297,6 +297,8 @@ for potion in potionMap{
 <iceandfire:myrmex_desert_staff:*>.addTooltip(format.darkPurple("Epic Weapon"));
 <iceandfire:myrmex_jungle_staff:*>.addTooltip(format.darkPurple("Epic Weapon"));
 
+<msmlegacy:relic_keyblade:*>.addTooltip(format.darkPurple("Epic Weapon"));
+<msmlegacy:relic_infinity:*>.addTooltip(format.darkPurple("Epic Weapon"));
 // Legendary
 
 <msmlegacy:wither_bane:*>.addTooltip(format.gold("Legendary Weapon"));

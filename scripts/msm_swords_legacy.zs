@@ -14,8 +14,6 @@ var enchantmentMap0 as IData = {};
 
 enchantmentMap0 += enchantments0[0].makeEnchantment(2).makeTag();
 
-JEI.removeAndHide(<msmlegacy:relic_infinity>);
-JEI.removeAndHide(<msmlegacy:relic_keyblade>);
 JEI.removeAndHide(<msmlegacy:relic_master>);
 JEI.removeAndHide(<msmlegacy:relic_molten>);
 JEI.removeAndHide(<msmlegacy:relic_pie>);
@@ -386,12 +384,6 @@ mods.betterwithmods.Anvil.addShaped(<msmlegacy:eye_end_blade>.withTag(({"Quark:R
 
 
 
-
-
-
-
-
-
 var ice_dragonsteel_sword = <iceandfire:dragonsteel_ice_sword>;
 var fire_dragonsteel_sword = <iceandfire:dragonsteel_fire_sword>;
 var dragonsteel_fire = <iceandfire:dragonsteel_fire_ingot>;
@@ -413,4 +405,33 @@ mods.betterwithmods.Anvil.addShaped(<msmlegacy:glacial_blade>.withTag(({"Quark:R
    [dragonsteel_fire, ice_dragonsteel_sword, dragonsteel_ice, dragonsteel_ice],
    [dragonsteel_fire, dragonsteel_fire, fire_dragonsteel_sword, dragonsteel_ice],
    [dragonsteel_fire, dragonsteel_fire, dragonsteel_ice, dragonsteel_ice]
+]);
+
+
+
+/////////////////////////Dual Khopesh///////////////////////////////
+<msmlegacy:relic_infinity>.removeTooltip("Relic 3 of 7.");
+<msmlegacy:relic_keyblade>.removeTooltip("Relic 4 of 7.");
+
+var khopesh_handle = <simpleores:mythril_rod>;
+var m_shard = <nyx:meteor_shard>;
+var gem_water = <contenttweaker:waterlogged_sapphire>;
+var gem_fire = <contenttweaker:earthen_ruby>;
+var v_shard = <contenttweaker:material_part:10>;
+
+mods.betterwithmods.Anvil.addShapedFixed(<msmlegacy:relic_infinity>, 
+[
+   [null, v_shard, steel, steel],
+   [null, null, null, steel],
+   [null, gem_water, steel, v_shard],
+   [khopesh_handle, null, null, null]
+]);
+
+
+mods.betterwithmods.Anvil.addShapedFixed(<msmlegacy:relic_keyblade>, 
+[
+   [null, m_shard, steel, steel],
+   [null, null, null, steel],
+   [null, gem_fire, steel, m_shard],
+   [khopesh_handle, null, null, null]
 ]);
