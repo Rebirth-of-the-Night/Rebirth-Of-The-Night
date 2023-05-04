@@ -1,0 +1,8 @@
+{
+	"parent": "block/stairs",
+	"textures": {
+        "bottom": "contenttweaker:blocks/big_limestone_bricks",
+        "top": "contenttweaker:blocks/big_limestone_bricks",
+        "side": "contenttweaker:blocks/big_limestone_bricks"
+	}
+}

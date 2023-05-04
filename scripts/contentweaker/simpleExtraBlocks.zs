@@ -133,6 +133,9 @@ pumice.setToolLevel(1);
 pumice.setBlockHardness(1.0);
 pumice.register();
 
+
+
+
 // Codex junk
 var codex_junk = VanillaFactory.createBlock("codex_junk", <blockmaterial:Grass>);
 codex_junk.axisAlignedBB = AxisAlignedBB.create(
@@ -175,11 +178,11 @@ wolf_statue.axisAlignedBB = AxisAlignedBB.create(
      0.0 / 16.0,
      2.0 / 16.0,
 	14.0 / 16.0,
-    15.0 / 16.0,
+    16.0 / 16.0,
     14.0 / 16.0
 	);
 wolf_statue.setFullBlock(false);
-wolf_statue.setLightOpacity(0);
+wolf_statue.setLightOpacity(0.5);
 wolf_statue.setCreativeTab(<creativetab:decorations>);
 wolf_statue.setBlockSoundType(<soundtype:stone>);
 wolf_statue.setToolLevel(0);
@@ -918,7 +921,6 @@ acacia_boards.setCreativeTab(<creativetab:rotn_blocks>);
 acacia_boards.setToolClass("pickaxe");
 acacia_boards.setBlockHardness(20.0);
 acacia_boards.setToolLevel(1);
-acacia_boards.setBlockLayer("CUTOUT");
 acacia_boards.register();
 // dark oak
 var dark_oak_boards = VanillaFactory.createBlock("dark_oak_boards", <blockmaterial:Wood>);
@@ -2124,6 +2126,16 @@ blendrein_reinforced.setCreativeTab(<creativetab:rotn_blocks>);
 blendrein_reinforced.setToolLevel(3);
 blendrein_reinforced.setBlockHardness(300.0);
 blendrein_reinforced.register();
+
+// Extra coade
+var coade_stone_polished = VanillaFactory.createBlock("coade_stone_polished", <blockmaterial:Rock>);
+coade_stone_polished.setCreativeTab(<creativetab:rotn_blocks>);
+coade_stone_polished.setBlockSoundType(<soundtype:stone>);
+coade_stone_polished.setBlockHardness(15.0);
+coade_stone_polished.setBlockResistance(5.0);
+coade_stone_polished.setToolLevel(1);
+coade_stone_polished.register();
+
 
 // Liquids
 var ender_slag = VanillaFactory.createFluid("ender_slag", Color.fromHex("fffdd0"));
