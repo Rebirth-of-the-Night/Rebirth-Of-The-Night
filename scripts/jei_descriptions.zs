@@ -215,7 +215,7 @@ JEI.addDescription(<pyrotech:refractory_door>, "A refractory burning structure w
 JEI.addDescription(<pyrotech:living_tar>, 'Burning slowly, this tarry meat substance is in the words of its inventor, "A strong candidate for the most loathsome of fuels."');
 JEI.addDescription(<pyrotech:tinder>, "Placing it on the ground and directly adding some logs, then lighting it up, will create a functional campfire for primitive cooking and outdoors camping.");
 JEI.addDescription(<exsartagine:range>, "The most efficient way to power up a kitchen. Adding fuel to it will power a Pot, Pan or Kettle above it; additionally, up to three furnaces to the right of this block will turn into part of the range and power appliances above them for the same fuel cost.");
-JEI.addDescription(<exsartagine:pan>, "Excellent for frying singular ingredients.");
+JEI.addDescription(<exsartagine:wok>, "Excellent for frying singular ingredients.");
 JEI.addDescription(<exsartagine:pot>, "Excellent for boiling singular ingredients.");
 JEI.addDescription(<exsartagine:kettle>, "Excellent for all types of cooking. The most versatile cooking appliance you will ever need!");
 JEI.addDescription(<minecraft:furnace>, "A versatile machine for smelting ores and certain other substances; not as specialized as a kiln or powerful as a crucible. It's not quite an oven either, but the heat it emanates can be taken advantage of by Pans, Pots and Kettles placed above it.");

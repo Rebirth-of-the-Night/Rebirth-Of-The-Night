@@ -170,13 +170,13 @@ RecipeBuilder.get("potter")
   .addOutput(<pyrotech:bucket_clay>)
   .create();
   
-// Soapstone Pan
+// Soapstone Wok
 RecipeBuilder.get("potter")
   .setShaped([
     [<pyrotech_compat:rock_metamorphic:6>, null, <ore:stickWood>],
     [<pyrotech_compat:rock_metamorphic:6>, <pyrotech_compat:rock_metamorphic:6>, <pyrotech_compat:rock_metamorphic:6>]])
   .addTool(<ore:artisansCarver>, 2)
-  .addOutput(<exsartagine:pan>)
+  .addOutput(<exsartagine:wok>)
   .create();
 
 // Soapstone to faucet
