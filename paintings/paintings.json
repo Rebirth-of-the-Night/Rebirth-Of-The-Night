@@ -36,6 +36,12 @@
 		"isCreative": true
     },
 	{
+        "motive": "fog_weaver",
+        "width": 2,
+        "height": 3,
+		"isCreative": true
+    },
+	{
         "motive": "yearn",
         "width": 4,
         "height": 3,

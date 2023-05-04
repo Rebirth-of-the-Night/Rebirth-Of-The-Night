@@ -1,5 +1,5 @@
 {
-	"credit": "Made with Blockbench",
+	"credit": "Made by Foreck with Blockbench",
 	"texture": "textures/entity/wither/wither.png",
 	"textureSize": [128, 128],
 	"models": [
