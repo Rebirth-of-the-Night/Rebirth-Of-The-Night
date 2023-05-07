@@ -86,7 +86,6 @@
 		"endreborn:block_purpur_lamp": "brickstone",
 		"betteranimalsplus:turkey_cooked": "organic",
 		"betteranimalsplus:turkey_raw": "organic",
-		"dynamictreesbop:deadbranch": "log",
 		"nyx:star_block": "composite,ore",
 		"nyx:star_stairs": "composite,ore",
 		"nyx:star_slab": "composite,ore",
@@ -227,6 +226,8 @@
 		"growthcraft:rope_fence": "rug",
 		"rustic:chili_crop": "bluntwood",
 		"rustic:tomato_crop": "bluntwood",
-		"rustic:stake_tied": "bluntwood"
+		"rustic:stake_tied": "bluntwood",
+		"betterwithmods:stake": "bluntwood",
+		"dynamictreesbop:deadbranch": "log"
 	}
 }

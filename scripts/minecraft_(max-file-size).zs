@@ -144,6 +144,8 @@ furnace.setFuel(<chutes:chute_wood>, 25);
 furnace.setFuel(<chutes:chute_entry_wood>, 18.75);
 furnace.setFuel(<contenttweaker:peat>, 1600);
 furnace.setFuel(<contenttweaker:charmpeat>, 4800);
+furnace.setFuel(<betterwithmods:stake>, 80);
+furnace.setFuel(<rustic:crop_stake>, 240);
 
 <ore:sourceCopper>.addItems([<contenttweaker:raw_copper>,<simpleores:copper_ingot>]);
 <ore:sourceCopper>.addAll(<ore:oreCopper>);

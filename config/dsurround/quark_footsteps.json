@@ -66,9 +66,24 @@
 		"quark:fire_stone_stairs[facing=west]": "stone,fire",
 		"quark:fire_stone_wall+bigger": "stone,fire",
 
-
+		"contenttweaker:loose_big_permafrost_bricks": "brickstone,snow",
 		"quark:biome_brick[variant=icy_stone_brick]": "brickstone,snow",
+		"quark:icy_stone_brick_slab": "brickstone,snow",
+		"quark:icy_stone_brick_slab_double[prop=blarg]": "brickstone,snow",
+		"quark:icy_stone_brick_stairs[facing=north]": "brickstone,snow",
+		"quark:icy_stone_brick_stairs[facing=east]": "brickstone,snow",
+		"quark:icy_stone_brick_stairs[facing=south]": "brickstone,snow",
+		"quark:icy_stone_brick_stairs[facing=west]": "brickstone,snow",
+		"quark:icy_stone_brick_wall+bigger": "brickstone,snow",
 
+		"quark:biome_cobblestone[variant=icy_stone]": "stone,snow",
+		"quark:icy_stone_slab": "stone,snow",
+		"quark:icy_stone_slab_double[prop=blarg]": "stone,snow",
+		"quark:icy_stone_stairs[facing=north]": "stone,snow",
+		"quark:icy_stone_stairs[facing=east]": "stone,snow",
+		"quark:icy_stone_stairs[facing=south]": "stone,snow",
+		"quark:icy_stone_stairs[facing=west]": "stone,snow",
+		"quark:icy_stone_wall+bigger": "stone,snow",
 
 		"quark:sandy_bricks": "sandstone",
 		"quark:sandy_bricks_stairs": "sandstone",
@@ -76,6 +91,33 @@
 		"quark:sandy_bricks_wall+bigger": "sandstone",
 		"quark:sandy_bricks_slab_double": "sandstone",
 
-		"quark:iron_rod": "metalbar"
+		"quark:iron_rod": "metalbar",
+		"quark:chute": "sqeakywood",
+
+
+		"quark:bark_oak_stairs": "log",
+		"quark:bark_spruce_stairs": "log",
+		"quark:bark_birch_stairs": "log",
+		"quark:bark_jungle_stairs": "log",
+		"quark:bark_acacia_stairs": "log",
+		"quark:bark_dark_oak_stairs": "log",
+		"quark:bark_oak_slab": "log",
+		"quark:bark_spruce_slab": "log",
+		"quark:bark_birch_slab": "log",
+		"quark:bark_jungle_slab": "log",
+		"quark:bark_acacia_slab": "log",
+		"quark:bark_dark_oak_slab": "log",
+		"quark:bark_oak_slab_double[prop=blarg]": "log",
+		"quark:bark_spruce_slab_double[prop=blarg]": "log",
+		"quark:bark_birch_slab_double[prop=blarg]": "log",
+		"quark:bark_jungle_slab_double[prop=blarg]": "log",
+		"quark:bark_acacia_slab_double[prop=blarg]": "log",
+		"quark:bark_dark_oak_slab_double[prop=blarg]": "log",
+		"quark:bark_oak_wall+bigger": "log",
+		"quark:bark_spruce_wall+bigger": "log",
+		"quark:bark_birch_wall+bigger": "log",
+		"quark:bark_jungle_wall+bigger": "log",
+		"quark:bark_acacia_wall+bigger": "log",
+		"quark:bark_dark_oak_wall+bigger": "log"
 	}
 }
