@@ -12,3 +12,10 @@ advancedliftingmethods:double_acacia_stairs
 advancedliftingmethods:double_dark_oak_stairs
 advancedliftingmethods:double_red_sandstone_stairs
 advancedliftingmethods:double_purpur_stairs
+futuremc:barrel
+futuremc:loom
+futuremc:fletching_table
+futuremc:cartography_table
+futuremc:grindstone
+futuremc:composter
+
