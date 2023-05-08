@@ -12,10 +12,7 @@ import mods.futuremc.BlastFurnace;
 import mods.futuremc.Smoker;
 import mods.futuremc.Campfire;
 
-JEI.removeAndHide(<futuremc:brick_wall>);
 JEI.removeAndHide(<futuremc:lantern>);
-JEI.removeAndHide(<futuremc:barrel>);
-JEI.removeAndHide(<futuremc:composter>);
 
 JEI.removeAndHide(<futuremc:honeycomb>);
 JEI.removeAndHide(<futuremc:honey_bottle>);
@@ -95,19 +92,6 @@ recipes.addShaped("rustic_honeycomb_to_honeycomb_block", <futuremc:honeycomb_blo
 	[honeyComb, honeyComb]
 ]);
 recipes.addShapeless("honeycomb_block_to_rustic_honeycomb", honeyComb * 3, [<futuremc:honeycomb_block>]);
-
-// ********* Composter Recipes ********* //
-
-for item in <ore:listAllSeeds>.items {
-	Composter.addValidItem(item, 30);
-}
-
-Composter.addValidItem(<pyrotech:material:12>, 40); // Plant fiber
-Composter.addValidItem(<pyrotech:material:25>, 40); // Pulp
-Composter.addValidItem(<pyrotech:tinder>, 33); // Dried plant fiber
-Composter.addValidItem(<pyrotech:rock:7>, 30); // Wood chips
-Composter.addValidItem(<minecraft:paper>, 10); // Paper
-Composter.addValidItem(<betterwithmods:hemp>, 35); // Hemp seeds
 
 
 //misc
