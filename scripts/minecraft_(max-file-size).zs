@@ -1477,11 +1477,9 @@ allFruit.remove([<rustic:olives>,<harvestcraft:mulberryitem>]);
 allFruit.add(<betterwithaddons:food_mulberry>);
 
 val cropGrape = <ore:cropGrape>;
-cropGrape.remove([<harvestcraft:grapeitem>,<harvestcraft:greengrapeitem>]);
 cropGrape.add(<growthcraft_grapes:grape:10>,<growthcraft_grapes:grape:13>,<growthcraft_grapes:grape:14>);
 
 val cropGreengrape = <ore:cropGreengrape>;
-cropGreengrape.remove([<harvestcraft:greengrapeitem>]);
 cropGreengrape.add(<growthcraft_grapes:grape:13>);
 
 val allBerry = <ore:listAllberry>;

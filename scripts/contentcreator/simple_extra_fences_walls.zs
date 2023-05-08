@@ -1,5 +1,6 @@
 #loader preinit
 import contentcreator.block.GenericBlock;
+import crafttweaker.block.IMaterial as Mat;
 ////////////////////////
 //////// Fences ////////
 ////////////////////////
@@ -11,14 +12,17 @@ import contentcreator.block.GenericBlock;
 ///////////////////////
 //////// IMaterial, String name
 
+val rock = Mat.rock();
+val iron = Mat.iron();
+
 //// Underground Biomes
 // Limestone cobblestone
-GenericBlock.createFence(<blockmaterial:rock>, "limestone_cobblestone_wall").register();
+GenericBlock.createFence(rock, "limestone_cobblestone_wall").register();
 
 //// Content Tweaker
 // Blendrein
-GenericBlock.createFence(<blockmaterial:rock>, "blendrein_wall").register();
+GenericBlock.createFence(rock, "blendrein_wall").register();
 // Coade
-GenericBlock.createFence(<blockmaterial:rock>, "coade_stone_polished_wall").register();
+GenericBlock.createFence(rock, "coade_stone_polished_wall").register();
 // Corrugated Ferrought
-GenericBlock.createFence(<blockmaterial:iron>, "ferrought_corrugated_wall").register();
+GenericBlock.createFence(iron, "ferrought_corrugated_wall").register();

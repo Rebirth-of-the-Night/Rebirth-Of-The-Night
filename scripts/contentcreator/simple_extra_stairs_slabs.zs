@@ -1,5 +1,6 @@
 #loader preinit
 import contentcreator.block.GenericBlock;
+import crafttweaker.block.IMaterial as Mat;
 ////////////////////////
 //////// Stairs ////////
 ////////////////////////
@@ -34,32 +35,34 @@ GenericBlock.createStairs("ferrought_plate_stairs", <blockstate:minecraft:stone_
 ///////////////////////
 //////// Slabs ////////
 ///////////////////////
-//////// String name, IBlockState block
+//////// IMaterial, string
 
+val rock = Mat.rock();
+val iron = Mat.iron();
 
 //// Underground Biomes
 
-GenericBlock.createSlab(<blockmaterial:rock>, "limestone_cobblestone_slab").register();
-GenericBlock.createSlab(<blockmaterial:rock>, "chalk_cobblestone_slab").register();
-GenericBlock.createSlab(<blockmaterial:rock>, "siltstone_cobblestone_slab").register();
-GenericBlock.createSlab(<blockmaterial:rock>, "dolomite_cobblestone_slab").register();
-GenericBlock.createSlab(<blockmaterial:rock>, "greywacke_cobblestone_slab").register();
-GenericBlock.createSlab(<blockmaterial:rock>, "chert_cobblestone_slab").register();
+GenericBlock.createSlab(rock, "limestone_cobblestone_slab").register();
+GenericBlock.createSlab(rock, "chalk_cobblestone_slab").register();
+GenericBlock.createSlab(rock, "siltstone_cobblestone_slab").register();
+GenericBlock.createSlab(rock, "dolomite_cobblestone_slab").register();
+GenericBlock.createSlab(rock, "greywacke_cobblestone_slab").register();
+GenericBlock.createSlab(rock, "chert_cobblestone_slab").register();
 
-GenericBlock.createSlab(<blockmaterial:rock>, "limestone_brick_slab").register();
-GenericBlock.createSlab(<blockmaterial:rock>, "chalk_brick_slab").register();
-GenericBlock.createSlab(<blockmaterial:rock>, "siltstone_brick_slab").register();
-GenericBlock.createSlab(<blockmaterial:rock>, "dolomite_brick_slab").register();
-GenericBlock.createSlab(<blockmaterial:rock>, "greywacke_brick_slab").register();
-GenericBlock.createSlab(<blockmaterial:rock>, "chert_brick_slab").register();
+GenericBlock.createSlab(rock, "limestone_brick_slab").register();
+GenericBlock.createSlab(rock, "chalk_brick_slab").register();
+GenericBlock.createSlab(rock, "siltstone_brick_slab").register();
+GenericBlock.createSlab(rock, "dolomite_brick_slab").register();
+GenericBlock.createSlab(rock, "greywacke_brick_slab").register();
+GenericBlock.createSlab(rock, "chert_brick_slab").register();
 
 //// Content Tweaker
 // Blendrein
-GenericBlock.createSlab(<blockmaterial:rock>, "blendrein_slab").register();
+GenericBlock.createSlab(rock, "blendrein_slab").register();
 // Coade
-GenericBlock.createSlab(<blockmaterial:rock>, "coade_stone_polished_slab").register();
-GenericBlock.createSlab(<blockmaterial:rock>, "coade_stone_ornate_slab").register();
+GenericBlock.createSlab(rock, "coade_stone_polished_slab").register();
+GenericBlock.createSlab(rock, "coade_stone_ornate_slab").register();
 // Corrugated Ferrought
-GenericBlock.createSlab(<blockmaterial:iron>, "ferrought_corrugated_slab").register();
+GenericBlock.createSlab(iron, "ferrought_corrugated_slab").register();
 // Ferrought Plate
-GenericBlock.createSlab(<blockmaterial:iron>, "ferrought_plate_slab").register();
+GenericBlock.createSlab(iron, "ferrought_plate_slab").register();
