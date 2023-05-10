@@ -29,7 +29,6 @@ HarvestCraftTweaker.addPressing(<rustic:fluid_bottle>.withTag({Fluid: {FluidName
 // HarvestCraftTweaker.addMarket(IItemStack toBuy, IItemStack input, int cost);
 // HarvestCraftTweaker.removeMarketByOutput(IItemStack output);
 
-HarvestCraftTweaker.removeMarketByOutput(<harvestcraft:riceseeditem>);
 HarvestCraftTweaker.addMarket(<growthcraft_rice:rice>, <minecraft:emerald>, 2);
 
 // HarvestCraftTweaker.addShipping(IItemStack toBuy, IItemStack input, int cost);

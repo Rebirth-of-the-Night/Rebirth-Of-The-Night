@@ -200,3 +200,8 @@ JEI.removeAndHide(<requious:laser>);
 JEI.removeAndHide(<requious:splosher>);
 
 GCT.addRecipe("dryer", <requious:dryer>, [<ore:blockGlassColorless>, <chutes:chute_wood>, <pyrotech:drying_rack:1>, <betterwithmods:material:17>*2,<betterwithmods:material:27>]);
+recipes.addShaped("night_jar", <requious:night_jar>, [
+    [<ore:mushroomAny>,null,<ore:mushroomAny>],
+    [<nyx:fallen_star>, <betterwithmods:vase>, <nyx:fallen_star>],
+    [<minecraft:dye:4>,null,<minecraft:dye:4>]
+]);

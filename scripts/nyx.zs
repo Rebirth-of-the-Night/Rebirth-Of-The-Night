@@ -51,6 +51,13 @@ var exorite = <contenttweaker:voidseen_exorite>;
 
 recipes.addShapeless("ooze_to_meteor", <nyx:meteor_shard> * 4, [<contenttweaker:mercurial_ooze>]);
 
+recipes.addShaped("star_block", <contenttweaker:star_block>, [
+    [star, star, star],
+    [star, star, star],
+    [star, star, star]
+]);
+recipes.addShapeless("star_block_to_stars", star*9, [<contenttweaker:star_block>]);
+
 recipes.remove(<nyx:star_block>);
 recipes.addShaped("astral_block", <nyx:star_block> * 4, [
     [lightdust, star, rock],
