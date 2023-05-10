@@ -1,7 +1,8 @@
-/*import mods.requious.SlotVisual;
+import mods.requious.SlotVisual;
 import mods.requious.Color;
 import mods.requious.ComponentFace;
 import mods.requious.AssemblyRecipe;
+import crafttweaker.world.IWorld;
  
 var splosher = <assembly:splosher>;
  
@@ -14,9 +15,13 @@ x = splosher.setDurationSlot(4,2).setGroup("input").setVisual(splosherProgress);
 x = splosher.setItemSlot(5,2,ComponentFace.all(),64).setAccess(false,true).setGroup("output");
 
 // vis speck to sliver 
-var speckToSliver = AssemblyRecipe.create(function(container) {
+var speckToSliver = AssemblyRecipe.create(function(container){
     container.addItemOutput("output",<contenttweaker:vis_sliver>);
-}).requireItem("input",<contenttweaker:vis_speck>) .requireFluid("liquid", <liquid:lunar_water>, 100, 100) .requireDuration("input", 200);
+})
+.requireItem("input",<contenttweaker:vis_speck>)
+.requireFluid("liquid", <liquid:lunar_water>, 100, 100)
+.requireWorldCondition("world",function(container){ return !container.world.isDayTime(); }, 20)
+.requireDuration("input", 200);
 splosher.addRecipe(speckToSliver);
  
 splosher.setJEIItemSlot(3,2,"JEIinput");
@@ -26,6 +31,8 @@ splosher.setJEIDurationSlot(4,2,"JEIduration",splosherProgress);
  
 var speckToSliverJEI = AssemblyRecipe.create(function(container) {
     container.addItemOutput("JEIoutput",<contenttweaker:vis_sliver>);
-}).requireItem("JEIinput",<contenttweaker:vis_speck>) .requireFluid("JEIliquid", <liquid:lunar_water>) .requireDuration("JEIduration", 200);
+})
+.requireItem("JEIinput",<contenttweaker:vis_speck>)
+.requireFluid("JEIliquid", <liquid:lunar_water>)
+.requireDuration("JEIduration", 200);
 splosher.addJEIRecipe(speckToSliverJEI);
-*/

@@ -156,5 +156,23 @@
       "b": 255,
       "a": 255
     }
+  },
+  {
+    "resourceName": "night_jar",
+    "model": "requious:night_jar",
+    "placeType": "Horizontal",
+    "hasGUI": true,
+    "colorA": {
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "colorB": {
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    }
   }
 ]
