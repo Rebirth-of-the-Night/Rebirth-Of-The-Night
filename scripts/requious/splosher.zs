@@ -20,8 +20,8 @@ var speckToSliver = AssemblyRecipe.create(function(container){
 })
 .requireItem("input",<contenttweaker:vis_speck>)
 .requireFluid("liquid", <liquid:lunar_water>, 100, 100)
-.requireWorldCondition("world",function(container){ return !container.world.isDayTime(); }, 20);
-.requireDuration("input", 200)
+.requireWorldCondition("world",function(container){ return !container.world.isDayTime(); }, 20)
+.requireDuration("input", 200);
 splosher.addRecipe(speckToSliver);
  
 splosher.setJEIItemSlot(3,2,"JEIinput");
