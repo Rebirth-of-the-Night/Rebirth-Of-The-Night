@@ -1,6 +1,6 @@
 setIcon(<golems:golem_head>)
 setTitle("Golem Malkuth")
-setDescription("Obtain a golem head and create you own servant.")
+setDescription("Obtain a golem head and create your own servant.")
 
 addParent("triumph:advancements/basedefense/recruit_help/recruit_help")
 

@@ -1,0 +1,11 @@
+setIcon("<pyrotech:material:36>")
+setTitle("Powered by...")
+setDescription("Mine dense redstone ore, found near redstone.")
+
+addParent("triumph:advancements/ores/redstone")
+
+criteria = addCriteria("Powered by...", "triumph:player_harvest_block")
+criteria.setBlock(<pyrotech:material:36>)
+
+alwaysVisible()
+setPos(-170,44)

@@ -18,19 +18,19 @@ val copper_b = <rotn_blocks:copper_block>;
 val bronze_b = <contenttweaker:block_bronze>;
 
 recipes.remove(<salt_lamps:white_salt_lamp>);
-recipes.addShapeless("white_lamp", <salt_lamps:white_salt_lamp>,
+recipes.addShaped("white_lamp", <salt_lamps:white_salt_lamp>,
  [[halite,halite,halite],
   [halite,awkward,halite],
   [smooth_g,smooth_g,smooth_g]]);
   
 recipes.remove(<salt_lamps:hostile_mob_salt_lamp>);
-recipes.addShapeless("hostile_lamp", <salt_lamps:hostile_mob_salt_lamp>,
+recipes.addShaped("hostile_lamp", <salt_lamps:hostile_mob_salt_lamp>,
  [[fiery,halite,fiery],
   [halite,harm_throw,halite],
   [copper_b,smooth_g,copper_b]]);
   
 recipes.remove(<salt_lamps:passive_mob_salt_lamp>);
-recipes.addShapeless("passive_lamp", <salt_lamps:passive_mob_salt_lamp>,
+recipes.addShaped("passive_lamp", <salt_lamps:passive_mob_salt_lamp>,
  [[halite,halite,halite],
   [halite,awkward_throw,halite],
   [bronze_b,<betterwithmods:candle>,bronze_b]]);

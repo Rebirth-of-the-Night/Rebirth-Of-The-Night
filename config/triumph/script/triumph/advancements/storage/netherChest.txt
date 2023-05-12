@@ -1,6 +1,6 @@
 setIcon(<netherchest:nether_chest>)
 setTitle("Storage from Hell")
-setDescription("Craft a Nether Chest.")
+setDescription("Craft a Nether Chest which can hold more stacks than a normal chest.")
 
 addParent("triumph:advancements/storage/chest")
 addParent("triumph:advancements/storage/quarkchest")

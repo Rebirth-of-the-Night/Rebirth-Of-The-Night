@@ -1,6 +1,6 @@
 setIcon(<toroquest:recruitment_papers>)
 setTitle("Guards! Help!")
-setDescription("Obtain a recruitment papers from a village and recruit some guards.")
+setDescription("Obtain recruitment papers from a village and recruit some guards.")
 
 addParent("triumph:advancements/basedefense/recruit_help/recruit_help")
 

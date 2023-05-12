@@ -1,6 +1,6 @@
 setIcon(<rustic:cabinet>)
 setTitle("Cabinet")
-setDescription("Craft a cabinet.")
+setDescription("Craft a cabinet for stylish storage that opens forwards instead of upwards.")
 
 addParent("triumph:advancements/storage/chest")
 addParent("triumph:advancements/storage/quarkchest")

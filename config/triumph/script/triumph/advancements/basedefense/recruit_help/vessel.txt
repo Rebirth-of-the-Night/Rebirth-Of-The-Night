@@ -1,6 +1,6 @@
 setIcon(<ancientbeasts:vessel>)
 setTitle("Clay Soldiers")
-setDescription("Obtain a vessel to protect your base. It can be equipped!")
+setDescription("Obtain a vessel to protect your base. Can be fitted with equippment!")
 
 addParent("triumph:advancements/basedefense/recruit_help/recruit_help")
 

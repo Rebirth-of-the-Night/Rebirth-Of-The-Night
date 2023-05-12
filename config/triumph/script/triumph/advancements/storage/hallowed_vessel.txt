@@ -1,0 +1,18 @@
+setIcon(<globalxp:xp_block>)
+setTitle("Store Experience")
+setDescription("Put together a hallowed vessel from a Mysterious Vessel found in jungle temples and a Venerable Stump found in pixie villages or redwood forests.")
+
+
+addParent("triumph:advancements/storage/chest")
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(false)
+
+criteria = addCriteria("Store Experience", "minecraft:inventory_changed")
+criteria.addItem("globalxp:xp_block")
+
+setFrameType("CHALLENGE")
+
+// hideLines()
+alwaysVisible()
+setPos(-534,-64)
