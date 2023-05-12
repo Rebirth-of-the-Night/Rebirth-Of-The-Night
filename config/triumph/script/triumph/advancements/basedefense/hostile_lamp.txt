@@ -1,0 +1,11 @@
+setIcon(<salt_lamps:hostile_mob_salt_lamp>)
+setTitle("Go Pound Salt")
+setDescription("Can be infused with potion effects and spread them only to hostile around 6 blocks for a few minutes.")
+
+addParent("triumph:advancements/basedefense/salt_lamp")
+
+criteria = addCriteria("Go Pound Salt", "minecraft:inventory_changed")
+criteria.addItem(<salt_lamps:hostile_mob_salt_lamp>)
+
+alwaysVisible()
+setPos(-107,84)

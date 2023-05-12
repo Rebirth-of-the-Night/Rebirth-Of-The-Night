@@ -158,22 +158,20 @@
     }
   },
   {
+    "placeType": "Up",
+    "hasGUI": true,
     "resourceName": "night_jar",
     "model": "requious:night_jar",
-    "placeType": "Horizontal",
-    "hasGUI": true,
-    "colorA": {
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "colorB": {
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
+    "colors": [
+      {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 255
+      }
+    ],
+    "hardness": 3.0,
+    "blastResistance": 2.0,
     "aabb": {
       "x1": 0.2,
       "y1": 0.0,

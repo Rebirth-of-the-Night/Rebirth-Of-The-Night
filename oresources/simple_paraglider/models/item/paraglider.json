@@ -1,0 +1,42 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "simple_paraglider:item/glider"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [180, -90, 180],
+			"translation": [2, -4.25, 0],
+			"scale": [1.5, 1.5, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [180, -90, 180],
+			"translation": [2, -4.25, 0],
+			"scale": [1.5, 1.5, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [-38.75, -90, 0],
+			"translation": [2, -3.5, 0],
+			"scale": [1.5, 1.5, 1]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-38.75, -90, 0],
+			"translation": [2, -3.5, 0],
+			"scale": [1.5, 1.5, 1]
+		},
+		"ground": {
+			"rotation": [0, 0, 45],
+			"translation": [0, 3.5, 0],
+			"scale": [1.5, 1.5, 1]
+		},
+		"head": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 7, 4.5],
+			"scale": [3, 3, 1.5]
+		},
+		"fixed": {
+			"scale": [1.2, 1.2, 1]
+		}
+	}
+}

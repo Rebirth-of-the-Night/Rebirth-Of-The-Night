@@ -960,11 +960,11 @@ JEI.removeAndHide(<ironfurnaces:obsidian_furnace_idle>);
 JEI.removeAndHide(<ironfurnaces:glass_furnace_idle>);
 
 // Elenai Dodge Hiding
-JEI.removeAndHide(<elenaidodge:golden_feather>);
-JEI.removeAndHide(<elenaidodge:iron_feather>);
+JEI.removeAndHide(<elenaidodge2:golden_feather>);
+JEI.removeAndHide(<elenaidodge2:iron_feather>);
 
-recipes.remove(<elenaidodge:iron_feather>);
-recipes.remove(<elenaidodge:golden_feather>);
+recipes.remove(<elenaidodge2:iron_feather>);
+recipes.remove(<elenaidodge2:golden_feather>);
 
 val logsWithoutMagic = <ore:logWoodWithoutMagic>;
 logsWithoutMagic.mirror(<ore:logWood>);

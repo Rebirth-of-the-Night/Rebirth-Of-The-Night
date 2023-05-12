@@ -11,6 +11,7 @@ import mods.betterwithmods.Anvil;
 import mods.betterwithmods.HeatRegistry;
 import mods.betterwithmods.PulleyManager;
 import mods.betterwithmods.MiniBlocks;
+import mods.vanillaanvilrepair.addRepairEntry;
 
 furnace.setFuel(<betterwithmods:aesthetic:13>, 28800);
 <ore:cobblestone>.add(<betterwithmods:aesthetic:7>);
@@ -165,6 +166,12 @@ recipes.addShaped("fat_candle", <betterwithmods:candle>*2, [
     [<ore:burnable_fat>],
 	[<ore:burnable_fat>]
 ]);
+
+recipes.addShaped("paraglider", <simple_paraglider:paraglider>, [
+    [<betterwithmods:material:11>,<contenttweaker:raw_gravitite>,<betterwithmods:material:11>],
+	[null,<betterwithmods:material:11>,null]
+]);
+addRepairEntry(<simple_paraglider:paraglider>, <betterwithmods:material:4>);
 
 var latch = <betterwithmods:material:34>;
 var copper = <ore:ingotCopper>;

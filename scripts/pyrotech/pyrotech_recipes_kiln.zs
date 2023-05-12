@@ -61,7 +61,6 @@ StoneKiln.addRecipe("bwmpumpkinpie", <minecraft:pumpkin_pie>, <betterwithmods:ra
 StoneKiln.addRecipe("bwmcookie", <minecraft:cookie>*8, <betterwithmods:raw_pastry:2>, 20*60, true);
 StoneKiln.addRecipe("bwmbread", <minecraft:bread>, <betterwithmods:raw_pastry:3>,20*60, true);
 //PitKiln.addRecipe("bwmapplepie", <betterwithmods:apple_pie>, <betterwithmods:raw_pastry:4>,200, true);
-PitKiln.addRecipe("raw_salt_from_sandstone", <contenttweaker:halite>, <ore:sandstone>, 20*210, true);
 //Misc
 //PitKiln.addRecipe("coral_lime", <pyrotech:material:35>*5, <coralreef:reef>,20*210, true);
 //note:add BOP coral here for slightly less return (easily harvestable item versus thick block of reef)

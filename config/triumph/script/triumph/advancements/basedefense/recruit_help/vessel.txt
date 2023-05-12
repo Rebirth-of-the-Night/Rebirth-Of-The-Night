@@ -1,0 +1,11 @@
+setIcon(<ancientbeasts:vessel>)
+setTitle("Clay Soldiers")
+setDescription("Obtain a vessel to protect your base. It can be equipped!")
+
+addParent("triumph:advancements/basedefense/recruit_help/recruit_help")
+
+criteria = addCriteria("Clay Soldiers", "minecraft:inventory_changed")
+criteria.addItem(<ancientbeasts:vessel>)
+
+alwaysVisible()
+setPos(-19,94)

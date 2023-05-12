@@ -9,4 +9,4 @@ criteria.addItem(<betterwithmods:vine_trap>)
 
 alwaysVisible()
 hideLines()
-setPos(-296,164)
+setPos(-339,-50)

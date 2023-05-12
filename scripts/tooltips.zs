@@ -381,6 +381,27 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <endreborn:catalyst:*>.addTooltip("§8endreborn:catalyst");
 <endreborn:block_essence_ore>.removeTooltip("Substance");
 
+// Salt Lamps
+<salt_lamps:white_salt_lamp>.addTooltip("Right click with a potion to spread its effects for x5 times its duration");
+<salt_lamps:orange_salt_lamp>.addTooltip("Right click with a potion to spread its effects for x5 times its duration");
+<salt_lamps:magenta_salt_lamp>.addTooltip("Right click with a potion to spread its effects for x5 times its duration");
+<salt_lamps:light_blue_salt_lamp>.addTooltip("Right click with a potion to spread its effects for x5 times its duration");
+<salt_lamps:yellow_salt_lamp>.addTooltip("Right click with a potion to spread its effects for x5 times its duration");
+<salt_lamps:lime_salt_lamp>.addTooltip("Right click with a potion to spread its effects for x5 times its duration");
+<salt_lamps:pink_salt_lamp>.addTooltip("Right click with a potion to spread its effects for x5 times its duration");
+<salt_lamps:gray_salt_lamp>.addTooltip("Right click with a potion to spread its effects for x5 times its duration");
+<salt_lamps:light_gray_salt_lamp>.addTooltip("Right click with a potion to spread its effects for x5 times its duration");
+<salt_lamps:cyan_salt_lamp>.addTooltip("Right click with a potion to spread its effects for x5 times its duration");
+<salt_lamps:purple_salt_lamp>.addTooltip("Right click with a potion to spread its effects for x5 times its duration");
+<salt_lamps:blue_salt_lamp>.addTooltip("Right click with a potion to spread its effects for x5 times its duration");
+<salt_lamps:brown_salt_lamp>.addTooltip("Right click with a potion to spread its effects for x5 times its duration");
+<salt_lamps:green_salt_lamp>.addTooltip("Right click with a potion to spread its effects for x5 times its duration");
+<salt_lamps:red_salt_lamp>.addTooltip("Right click with a potion to spread its effects for x5 times its duration");
+<salt_lamps:black_salt_lamp>.addTooltip("Right click with a potion to spread its effects for x5 times its duration");
+
+<salt_lamps:passive_mob_salt_lamp>.addTooltip("Right click with a potion to spread its effects to passive mobs for x5 times its duration");
+<salt_lamps:hostile_mob_salt_lamp>.addTooltip("Right click with a potion to spread its effects to hostile mobs for x5 times its duration");
+
 // Progression
 <netherex:ghast_queen_tear:*>.addTooltip("The tears reflect glimmers of a beautiful forest...");
 
