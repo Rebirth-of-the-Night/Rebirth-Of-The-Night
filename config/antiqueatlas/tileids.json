@@ -29,6 +29,7 @@
     "npcVillageSmallHouse": -10,
     "npcVillageSmithy": -3,
     "npcVillageTorch": -8,
+    "npcVillageTree": -32,
     "npcVillageWell": -7,
     "ravine": -29
   }
