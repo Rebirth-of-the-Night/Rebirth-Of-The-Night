@@ -197,7 +197,6 @@ JEI.removeAndHide(<requious:cell>.withTag({fluidContent: {FluidName: "methanol",
 JEI.removeAndHide(<requious:cell>.withTag({fluidContent: {FluidName: "dread_cold", Amount: 1000}}));
 
 JEI.removeAndHide(<requious:laser>);
-JEI.removeAndHide(<requious:splosher>);
 
 GCT.addRecipe("dryer", <requious:dryer>, [<ore:blockGlassColorless>, <chutes:chute_wood>, <pyrotech:drying_rack:1>, <betterwithmods:material:17>*2,<betterwithmods:material:27>]);
 recipes.addShaped("night_jar", <requious:night_jar>, [

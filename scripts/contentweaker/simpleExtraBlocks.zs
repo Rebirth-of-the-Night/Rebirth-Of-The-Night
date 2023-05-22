@@ -761,6 +761,15 @@ witheredblock.setToolLevel(1);
 witheredblock.setToolClass("shovel");
 witheredblock.register();
 
+var star_block = VanillaFactory.createBlock("star_block", <blockmaterial:Glass>);
+star_block.setCreativeTab(<creativetab:rotn_blocks>);
+star_block.setLightValue(1.0);
+star_block.setBlockSoundType(<soundtype:stone>);
+star_block.setBlockHardness(10);
+star_block.setBlockMaterial(<blockmaterial:glass>);
+witheredblock.setToolLevel(1);
+star_block.register();
+
 var ardicite = VanillaFactory.createBlock("ardicite", <blockmaterial:Glass>);
 ardicite.setCreativeTab(<creativetab:decorations>);
 ardicite.setLightValue(0.8);

@@ -36,9 +36,9 @@
 		"isCreative": true
     },
 	{
-        "motive": "fog_weaver",
+        "motive": "Mother of Change",
         "width": 2,
-        "height": 3,
+        "height": 2,
 		"isCreative": true
     },
 	{
@@ -49,8 +49,8 @@
     },
 	{
         "motive": "the_world",
-        "width": 3,
-        "height": 4,
+        "width": 5,
+        "height": 8,
 		"isCreative": true
     },
 	{
@@ -288,6 +288,12 @@
 		"isCreative": false
     },
 	{
+        "motive": "Bane of Arthropods",
+        "width": 2,
+        "height": 2,
+		"isCreative": false
+    },
+	{
         "motive": "banner_drake",
         "width": 1,
         "height": 3,
@@ -375,6 +381,36 @@
         "motive": "papyrus_Tree_of_life",
         "width": 3,
         "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "Grove",
+        "width": 3,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "fog_weaver",
+        "width": 2,
+        "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "Herald",
+        "width": 2,
+        "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "Harvinger",
+        "width": 2,
+        "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "Retired Hero",
+        "width": 2,
+        "height": 3,
 		"isCreative": false
     },
 	{
@@ -538,6 +574,12 @@
         "width": 6,
         "height": 4,
 		"isCreative": false
+    },
+	{
+        "motive": "A Place for Retribution",
+        "width": 8,
+        "height": 4,
+		"isCreative": true
     },
 	{
         "motive": "supporter_blu_toon_a",

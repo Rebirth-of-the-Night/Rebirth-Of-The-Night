@@ -240,6 +240,23 @@ furnace.setFuel(<contenttweaker:coke_pieces>, 400);
 
 Burn.removeRecipes(<pyrotech:material:23>);
 
+Burn.createBuilder("yellow_halite", <primal:ore_salt>, "minecraft:sandstone")
+    .setBurnStages(1)
+    .setTotalBurnTimeTicks(2 * 60 * 20)
+	.setFailureChance(0.33)
+    .addFailureItem(<minecraft:clay_ball>*2)
+    .addFailureItem(<animania:salt>*2)
+    .setRequiresRefractoryBlocks(false)
+    .setFluidLevelAffectsFailureChance(true)
+    .register();
+Burn.createBuilder("white_halite", <primal:ore_salt>*2, "biomesoplenty:white_sandstone")
+    .setBurnStages(1)
+    .setTotalBurnTimeTicks(3 * 60 * 20)
+	.setFailureChance(0.33)
+    .addFailureItem(<animania:salt>*5)
+    .setRequiresRefractoryBlocks(false)
+    .setFluidLevelAffectsFailureChance(true)
+    .register();
 Burn.createBuilder("lignite_coke", <pyrotech:material:1>, "contenttweaker:lignite_cobble")
     .setBurnStages(1)
     .setTotalBurnTimeTicks(3 * 60 * 20)

@@ -1,5 +1,7 @@
 #loader contenttweaker
 
+import crafttweaker.item.IItemStack;
+
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Fluid;
 import mods.contenttweaker.Block;
@@ -7,6 +9,8 @@ import mods.contenttweaker.Item;
 import mods.contenttweaker.Color;
 import mods.contenttweaker.BlockMaterial;
 import mods.contenttweaker.AxisAlignedBB;
+import mods.contenttweaker.ActionResult;
+import mods.contenttweaker.Commands;
 
 var unstableSpiritfire = VanillaFactory.createFluid("unstable_spiritfire", Color.fromHex("62D5E5"));
 unstableSpiritfire.temperature = 1300;
@@ -72,3 +76,18 @@ viridea.setBlockLayer("CUTOUT");
 viridea.setBlockSoundType(<soundtype:plant>);
 viridea.setToolClass("none");
 viridea.register();
+
+val charged_copperon = VanillaFactory.createItem("charged_copperon");
+charged_copperon.maxStackSize = 1;
+charged_copperon.maxDamage = 3;
+charged_copperon.onItemUse = function(player, world, pos, hand, facing, blockHit) {
+    if (world.getBlockState(pos).getBlock().definition.id == "dungeontactics:mithril_block" && player.getHeldItem(hand).damage > 0) {
+        if (!world.remote) {
+            world.setBlockState(<block:foundry:iron:14>, pos);
+            player.getHeldItem(hand).damage(-1, player);
+        }
+        return ActionResult.success();
+    }
+    return ActionResult.pass();
+};
+charged_copperon.register();

@@ -147,3 +147,14 @@ leather_armor.onEquipped = function(bauble, wearer) {
 };
 leather_armor.baubleType = "BODY";
 leather_armor.register();
+
+// Rabbit's Foot (gives perma luck)
+var rabbit_foot = VanillaFactory.createBaubleItem("rabbit_foot");
+rabbit_foot.onUnequipped = function(bauble, wearer) {
+    if(wearer instanceof IPlayer) {
+        var player as IPlayer = wearer;
+        player.removeExperience(100);
+    }
+};
+rabbit_foot.baubleType = "TRINKET";
+rabbit_foot.register();

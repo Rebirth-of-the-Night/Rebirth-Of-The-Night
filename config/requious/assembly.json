@@ -96,9 +96,9 @@
     }
   },
   {
-    "resourceName": "splosher",
-    "model": "requious:assembly_laser",
-    "placeType": "Any",
+    "resourceName": "redstolyzer",
+    "model": "requious:redstolyzer",
+    "placeType": "Horizontal",
     "hasGUI": true,
     "colorA": {
       "r": 255,
@@ -113,12 +113,12 @@
       "a": 255
     },
     "aabb": {
-      "x1": 0.1,
+      "x1": 0.2,
       "y1": 0.0,
-      "z1": 0.1,
-      "x2": 0.9,
+      "z1": 0.2,
+      "x2": 0.8,
       "y2": 0.9,
-      "z2": 0.9
+      "z2": 0.8
     }
   },
   {
