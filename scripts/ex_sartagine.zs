@@ -367,6 +367,7 @@ val hops = <ore:cropHops>;
 val slimeball = <ore:slimeball>;
 val meatball = <mod_lavacow:meatball>;
 val misoPaste = <harvestcraft:misopasteitem>;
+val cakeBatter = <betterwithmods:raw_pastry>;
 
 //Stock Recipes
 recipes.remove(stock);
@@ -374,18 +375,27 @@ recipes.remove(stock);
 //ExSartagine.addPotRecipe(veggie, stock*2);
 //ExSartagine.addPotRecipe(<ore:listAllmeatraw>|<betterwithaddons:congealed>, stock*3);
 
-//Wormhold Potion
+//Wormhole Potion
 ExSartagine.addKettleRecipe([<quark:arrow_ender>,<minecraft:glass_bottle>],null,waterBottle,[<bountifulbaubles:potionwormhole>],300);
+
+// Remove vanilla pastry recipes
+recipes.removeByRecipeName("harvestcraft:minecraft_pumpkinpie");
+recipes.removeByRecipeName("harvestcraft:minecraft_cookie");
+
+// Vanilla MC Cake
+recipes.removeByRecipeName("harvestcraft:cake");
+ExSartagine.addKettleRecipe([cakeBatter,sugar],null,waterBottle,[<minecraft:cake>],200);
 
 // Carrot Cake
 recipes.removeByRecipeName("harvestcraft:carrotcakeitem");
-ExSartagine.addKettleRecipe([dough,carrot,sugar],null,waterBottle,[<harvestcraft:carrotcakeitem>],200);
+ExSartagine.addKettleRecipe([cakeBatter,carrot,sugar],null,waterBottle,[<harvestcraft:carrotcakeitem>],200);
 // Cheese Cake
 recipes.removeByRecipeName("harvestcraft:cheesecakeitem");
-ExSartagine.addKettleRecipe([batter,heavyCream,sugar],null,waterBottle,[<harvestcraft:cheesecakeitem>],200);
+ExSartagine.addKettleRecipe([cakeBatter,heavyCream,sugar],null,waterBottle,[<harvestcraft:cheesecakeitem>],200);
 // Cherry Cheesecake
 recipes.removeByRecipeName("harvestcraft:cherrycheesecakeitem");
-ExSartagine.addKettleRecipe([batter,heavyCream,sugar,cherry],null,waterBottle,[<harvestcraft:cherrycheesecakeitem>],200);
+ExSartagine.addKettleRecipe([cakeBatter,heavyCream,sugar,cherry],null,waterBottle,[<harvestcraft:cherrycheesecakeitem>],200);
+
 //Sprinkles / Chocolate Sprinkles Cake
 recipes.addShapeless("sprinkles", sprinkles*4,
     [sugar,redRose,<minecraft:dye:2>,<minecraft:dye:11>]);
@@ -394,25 +404,25 @@ RecipeBuilder.get("chef")
   .addOutput(sprinkles*6)
   .create();
 recipes.removeByRecipeName("harvestcraft:chocolatesprinklecakeitem");
-ExSartagine.addKettleRecipe([dough,cocoaPowder,sugar,sprinkles],null,waterBottle,[<harvestcraft:chocolatesprinklecakeitem>],200);
+ExSartagine.addKettleRecipe([cakeBatter,cocoaPowder,sugar,sprinkles],null,waterBottle,[<harvestcraft:chocolatesprinklecakeitem>],200);
 //Holiday Cake
 recipes.removeByRecipeName("harvestcraft:holidaycakeitem");
-ExSartagine.addKettleRecipe([egg,sugar,cherry,heavyCream,spice],null,waterBottle,[<harvestcraft:holidaycakeitem>],200);
+ExSartagine.addKettleRecipe([egg,sugar,cherry,heavyCream,spice,cakeBatter],null,waterBottle,[<harvestcraft:holidaycakeitem>],200);
 //Lamington Cake
 recipes.removeByRecipeName("harvestcraft:lamingtonitem");
-ExSartagine.addKettleRecipe([dough, chocolateBar, toastedCoconut],null,waterBottle,[<harvestcraft:lamingtonitem>],200);
+ExSartagine.addKettleRecipe([cakeBatter, chocolateBar, toastedCoconut],null,waterBottle,[<harvestcraft:lamingtonitem>],200);
 //Pavlova Cake
 recipes.removeByRecipeName("harvestcraft:pavlovaitem");
-ExSartagine.addKettleRecipe([egg, sugar, lemon, meringue, strawberry],null,waterBottle,[<harvestcraft:pavlovaitem>],200);
+ExSartagine.addKettleRecipe([cakeBatter, egg, sugar, lemon, meringue, strawberry],null,waterBottle,[<harvestcraft:pavlovaitem>],200);
 //Pineapple Cake
 recipes.removeByRecipeName("harvestcraft:pineappleupsidedowncakeitem");
-ExSartagine.addKettleRecipe([pineapple, dough, cherry, walnut],null,waterBottle,[<harvestcraft:pineappleupsidedowncakeitem>],200);
+ExSartagine.addKettleRecipe([pineapple, cakeBatter, cherry, walnut],null,waterBottle,[<harvestcraft:pineappleupsidedowncakeitem>],200);
 //pumpkin Cheesecake
 recipes.removeByRecipeName("harvestcraft:pumpkincheesecakeitem");
-ExSartagine.addKettleRecipe([batter,heavyCream,sugar,pumpkin],null,waterBottle,[<harvestcraft:pumpkincheesecakeitem>],200);
+ExSartagine.addKettleRecipe([cakeBatter,heavyCream,sugar,pumpkin],null,waterBottle,[<harvestcraft:pumpkincheesecakeitem>],200);
 //Red Velvet Cake
 recipes.removeByRecipeName("harvestcraft:redvelvetcakeitem");
-ExSartagine.addKettleRecipe([batter,heavyCream,milkBottle,sugar,redRose],null,null,[<harvestcraft:redvelvetcakeitem>],200);
+ExSartagine.addKettleRecipe([cakeBatter,heavyCream,milkBottle,sugar,redRose],null,null,[<harvestcraft:redvelvetcakeitem>],200);
 // Cooked Calamari
 mods.futuremc.Smoker.addRecipe(calamari, cookedCalamari);
 ExSartagine.addKettleRecipe([calamari],null,null,[cookedCalamari],80);

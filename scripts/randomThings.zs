@@ -92,7 +92,6 @@ JEI.removeAndHide(<randomthings:itemcollector>);
 JEI.removeAndHide(<randomthings:naturecore>);
 JEI.removeAndHide(<randomthings:biomeglass>);
 JEI.removeAndHide(<randomthings:spectrecore>);
-JEI.removeAndHide(<randomthings:rainbowlamp>);
 JEI.removeAndHide(<randomthings:basicredstoneinterface>);
 JEI.removeAndHide(<randomthings:advancedredstoneinterface>);
 JEI.removeAndHide(<randomthings:stainedbrick>);
@@ -162,7 +161,6 @@ LootTable.removeGlobalItem("randomthings:waterwalkingboots");
 
 JEI.removeAndHide(<randomthings:customworkbench:*>);
 JEI.removeAndHide(<randomthings:beans:*>);
-JEI.removeAndHide(<randomthings:grassseeds:*>);
 JEI.removeAndHide(<randomthings:spectrecharger:*>);
 JEI.removeAndHide(<randomthings:platform:*>);
 JEI.removeAndHide(<randomthings:coloredgrass:*>);

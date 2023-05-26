@@ -1,6 +1,6 @@
 setIcon(<quark:backpack>)
 setTitle("Backpack")
-setDescription("Craft a backpack.")
+setDescription("Craft a backpack which can be equipped to double your inventory space.")
 
 
 addParent("triumph:advancements/storage/chest")

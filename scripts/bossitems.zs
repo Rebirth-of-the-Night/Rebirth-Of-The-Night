@@ -33,7 +33,7 @@ RecipeBuilder.get("mage")
   .setMaximumTier(1)
   .create();
 
-// Animated Brain & Rocket
+// Animated Brain
 RecipeBuilder.get("mage")
   .setShaped([
     [<contenttweaker:vis_speck>, <simpleores:adamantium_ingot>, <contenttweaker:vis_speck>],
@@ -45,6 +45,3 @@ RecipeBuilder.get("mage")
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
-
-recipes.addShapeless("brain_rocket", <contenttweaker:brain_rocket>, [<minecraft:fireworks>, <contenttweaker:animated_brain>]);
-<contenttweaker:brain_rocket>.addTooltip(format.darkPurple("Are you sure setting this off is a good idea..?"));

@@ -22,6 +22,9 @@ recipes.remove(<betternether:stalagnate_bowl_mushroom>);
 recipes.addShapeless("betternether_stalagnate_bowl_mushroom", <betternether:stalagnate_bowl_mushroom>, 
 [<ore:mushroomAny>, <ore:mushroomAny>, <betternether:stalagnate_bowl>]);
 
+recipes.addShapeless("betternether_stalagnate_bowl_to_black_apple", <betternether:black_apple>, 
+[<betternether:stalagnate_bowl_apple>]);
+
 recipes.remove(<betternether:netherrack_furnace>);
 recipes.addShaped("netherrack_furnace", <betternether:netherrack_furnace>, [
     [<pyrotech_compat:rock_netherrack>, <pyrotech_compat:rock_netherrack>, <pyrotech_compat:rock_netherrack>],

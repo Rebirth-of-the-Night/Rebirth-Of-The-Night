@@ -1,5 +1,5 @@
 selectWorld.cheats=Commands (recommended)
-selectWorld.allowCommands=Allow Commands (recommended):
+selectWorld.allowCommands=Commands (recommended):
 selectWorld.allowCommands.info=Commands are used for invasions
 
 tile.anvil.name=Iron Anvil

@@ -29,7 +29,8 @@ JEI.removeAndHide(<dungeontactics:golden_club>);
 JEI.removeAndHide(<dungeontactics:steel_club>);
 JEI.removeAndHide(<dungeontactics:diamond_club>);
 JEI.removeAndHide(<dungeontactics:mithril_club>);
-
+JEI.removeAndHide(<dungeontactics:potshot>);
+JEI.removeAndHide(<dungeontactics:potshot_ammo>);
 
 
 JEI.removeAndHide(<dungeontactics:mortar&pestle>);

@@ -115,17 +115,16 @@ customization {
 customization {
   orientation = bottom-centered
   restartbackgroundanimations = true
-  buttonaction = opencustomgui
+  buttonaction = opencustomgui;rotn.client.gui.GuiInfoResources%btnaction_splitter_fm%
   backgroundhovered = resources/fancymainmenu/menu_buttons/button_300w_h.png
   label = {"placeholder":"local","values":{"key":"rotnfmm.infomenu.button.exit"}}
   loopbackgroundanimations = true
   x = -75
   width = 150
-  actionid = b1c44a33-fdb5-4c29-b63c-2b27a583d4e91678289720891
   action = addbutton
+  actionid = b1c44a33-fdb5-4c29-b63c-2b27a583d4e91678289720891
   y = -29
   backgroundnormal = resources/fancymainmenu/menu_buttons/button_300w_n.png
-  value = rotn.client.gui.GuiInfoResources
   height = 20
 }
 
@@ -223,11 +222,13 @@ customization {
 
 customization {
   orientation = element
+  grabber_texture_normal = resources/fancymainmenu/menu_buttons/scroll_grabber_n.png
   enable_scrolling = true
   shadow = true
   scale = 1.0
   grabber_color_normal = #d68212
   source = https://raw.githubusercontent.com/Rebirth-of-the-Night/Main_Menu/master/main_menu_live/kofi_supporters/gemsupporters.txt
+  grabber_texture_hover = resources/fancymainmenu/menu_buttons/scroll_grabber_h.png
   text_border = 4
   case_mode = normal
   grabber_color_hover = #ebab46
@@ -235,7 +236,7 @@ customization {
   line_spacing = 1
   orientation_element = 948d4938-08aa-497f-9a73-089262c9a7c11678298305337
   x = 25
-  width = 193
+  width = 191
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = ba731e5c-cae2-4cd0-850d-b7ad8be6899a1678292146087
   y = 134
@@ -257,11 +258,13 @@ customization {
 
 customization {
   orientation = element
+  grabber_texture_normal = resources/fancymainmenu/menu_buttons/scroll_grabber_n.png
   enable_scrolling = true
   shadow = true
   scale = 1.0
   grabber_color_normal = #d68212
   source = https://raw.githubusercontent.com/Rebirth-of-the-Night/Main_Menu/master/main_menu_live/kofi_supporters/viridiumsupporters.txt
+  grabber_texture_hover = resources/fancymainmenu/menu_buttons/scroll_grabber_h.png
   text_border = 4
   case_mode = normal
   grabber_color_hover = #ebab46
@@ -269,7 +272,7 @@ customization {
   line_spacing = 1
   orientation_element = 618e52d0-2681-4c3c-b529-39b43e9f8ed31678248642198
   x = 24
-  width = 193
+  width = 191
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = c64c6e35-f4eb-410a-99b0-0f0d982b1bd81678319319383
   y = 134
@@ -280,36 +283,34 @@ customization {
 customization {
   orientation = element
   restartbackgroundanimations = true
-  buttonaction = openlink
+  buttonaction = openlink;https://ko-fi.com/rebirthofthenight/tiers%btnaction_splitter_fm%
   backgroundhovered = resources/fancymainmenu/menu_buttons/button_450w_h.png
   label = 
   loopbackgroundanimations = true
   orientation_element = 618e52d0-2681-4c3c-b529-39b43e9f8ed31678248642198
   x = 50
   width = 150
-  actionid = 6c25dc9e-e9de-491a-b5a2-3ca6f5ec37761678319773834
   action = addbutton
+  actionid = 6c25dc9e-e9de-491a-b5a2-3ca6f5ec37761678319773834
   y = 313
   backgroundnormal = resources/fancymainmenu/menu_buttons/button_450w_n.png
-  value = https://ko-fi.com/rebirthofthenight/tiers
   height = 20
 }
 
 customization {
   orientation = element
   restartbackgroundanimations = true
-  buttonaction = openlink
+  buttonaction = openlink;https://ko-fi.com/rebirthofthenight/tiers%btnaction_splitter_fm%
   backgroundhovered = resources/fancymainmenu/menu_buttons/button_450w_h.png
   label = 
   loopbackgroundanimations = true
   orientation_element = 4915f700-bb7f-4d98-bbad-bba109a646831678248653648
   x = 49
   width = 150
-  actionid = ed32766a-5f49-449d-b3f6-ce1bbf2361071678249399913
   action = addbutton
+  actionid = ed32766a-5f49-449d-b3f6-ce1bbf2361071678249399913
   y = 314
   backgroundnormal = resources/fancymainmenu/menu_buttons/button_450w_n.png
-  value = https://ko-fi.com/rebirthofthenight/tiers
   height = 20
 }
 

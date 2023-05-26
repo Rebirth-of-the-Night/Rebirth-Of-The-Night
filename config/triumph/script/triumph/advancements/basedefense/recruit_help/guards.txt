@@ -1,0 +1,11 @@
+setIcon(<toroquest:recruitment_papers>)
+setTitle("Guards! Help!")
+setDescription("Obtain recruitment papers from a village and recruit some guards.")
+
+addParent("triumph:advancements/basedefense/recruit_help/recruit_help")
+
+criteria = addCriteria("Guards! Help!", "minecraft:inventory_changed")
+criteria.addItem(<toroquest:recruitment_papers>)
+
+alwaysVisible()
+setPos(-19,120)

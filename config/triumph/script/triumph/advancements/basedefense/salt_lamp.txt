@@ -1,0 +1,13 @@
+setIcon(<salt_lamps:white_salt_lamp>)
+setTitle("Salt of the Earht")
+setDescription("Can be infused with potion effects and spread them around 6 blocks for a few minutes.")
+
+addParent("triumph:advancements/basedefense/root")
+
+criteria = addCriteria("Salt of the Earht", "minecraft:inventory_changed")
+criteria.addItem(<dungeontactics:trap_spectral>)
+
+setFrameType("CHALLENGE")
+alwaysVisible()
+hideLines()
+setPos(-145,84)

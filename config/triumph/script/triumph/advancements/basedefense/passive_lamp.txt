@@ -1,0 +1,11 @@
+setIcon(<salt_lamps:passive_mob_salt_lamp>)
+setTitle("Covenant of Salt")
+setDescription("Can be infused with potion effects and spread them only to passive mobs around 6 blocks for a few minutes.")
+
+addParent("triumph:advancements/basedefense/salt_lamp")
+
+criteria = addCriteria("Covenant of Salt", "minecraft:inventory_changed")
+criteria.addItem(<salt_lamps:passive_mob_salt_lamp>)
+
+alwaysVisible()
+setPos(-107,117)

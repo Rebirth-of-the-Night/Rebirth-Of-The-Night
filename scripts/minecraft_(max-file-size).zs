@@ -144,6 +144,8 @@ furnace.setFuel(<chutes:chute_wood>, 25);
 furnace.setFuel(<chutes:chute_entry_wood>, 18.75);
 furnace.setFuel(<contenttweaker:peat>, 1600);
 furnace.setFuel(<contenttweaker:charmpeat>, 4800);
+furnace.setFuel(<betterwithmods:stake>, 80);
+furnace.setFuel(<rustic:crop_stake>, 240);
 
 <ore:sourceCopper>.addItems([<contenttweaker:raw_copper>,<simpleores:copper_ingot>]);
 <ore:sourceCopper>.addAll(<ore:oreCopper>);
@@ -428,6 +430,12 @@ recipes.addShaped("metal_hopper",<minecraft:hopper>,[
     [<ore:genericMetal>,null,<ore:genericMetal>],
     [<ore:genericMetal>,<ore:chest>,<ore:genericMetal>],
     [null,<ore:genericMetal>,null]
+]);
+
+recipes.addShaped("steel_hopper",<minecraft:hopper>*2,[
+    [<ore:ingotSteel>,<ore:chest>,<ore:ingotSteel>],
+    [<ore:ingotSteel>,<ore:chest>,<ore:ingotSteel>],
+    [null,<ore:ingotSteel>,null]
 ]);
 
 recipes.removeByRecipeName("minecraft:furnace");
@@ -784,7 +792,11 @@ recipes.addShaped("silverboosterrail",<minecraft:golden_rail>*4,[
     [<iceandfire:silver_ingot>,<ore:stickWood>,<iceandfire:silver_ingot>],
     [<iceandfire:silver_ingot>,<minecraft:redstone>,<iceandfire:silver_ingot>]
 ]);
-
+recipes.addShaped("electrumboosterrail",<minecraft:golden_rail>*16,[
+    [<ore:ingotElectrum>,null,<ore:ingotElectrum>],
+    [<ore:ingotElectrum>,<ore:stickWood>,<ore:ingotElectrum>],
+    [<ore:ingotElectrum>,<minecraft:redstone>,<ore:ingotElectrum>]
+]);
 
 // other tin uses
 recipes.remove(<sereneseasons:season_clock>);
@@ -955,11 +967,11 @@ JEI.removeAndHide(<ironfurnaces:obsidian_furnace_idle>);
 JEI.removeAndHide(<ironfurnaces:glass_furnace_idle>);
 
 // Elenai Dodge Hiding
-JEI.removeAndHide(<elenaidodge:golden_feather>);
-JEI.removeAndHide(<elenaidodge:iron_feather>);
+JEI.removeAndHide(<elenaidodge2:golden_feather>);
+JEI.removeAndHide(<elenaidodge2:iron_feather>);
 
-recipes.remove(<elenaidodge:iron_feather>);
-recipes.remove(<elenaidodge:golden_feather>);
+recipes.remove(<elenaidodge2:iron_feather>);
+recipes.remove(<elenaidodge2:golden_feather>);
 
 val logsWithoutMagic = <ore:logWoodWithoutMagic>;
 logsWithoutMagic.mirror(<ore:logWood>);
@@ -1312,9 +1324,6 @@ farmland.add(
 val dirt = <ore:dirt>;
 dirt.addItems([<biomesoplenty:dirt:1>,<biomesoplenty:dirt:2>,<aether_legacy:aether_dirt>,<minecraft:dirt:1>,<biomesoplenty:dirt:8>,<biomesoplenty:dirt:10>,<biomesoplenty:dirt:9>]);
 
-val wool = <ore:wool>;
-wool.remove(<minecraft:wool>);
-
 val brown = <ore:dyeBrown>;
 brown.remove(<betterwithmods:material:5>);
 
@@ -1476,11 +1485,9 @@ allFruit.remove([<rustic:olives>,<harvestcraft:mulberryitem>]);
 allFruit.add(<betterwithaddons:food_mulberry>);
 
 val cropGrape = <ore:cropGrape>;
-cropGrape.remove([<harvestcraft:grapeitem>,<harvestcraft:greengrapeitem>]);
 cropGrape.add(<growthcraft_grapes:grape:10>,<growthcraft_grapes:grape:13>,<growthcraft_grapes:grape:14>);
 
 val cropGreengrape = <ore:cropGreengrape>;
-cropGreengrape.remove([<harvestcraft:greengrapeitem>]);
 cropGreengrape.add(<growthcraft_grapes:grape:13>);
 
 val allBerry = <ore:listAllberry>;

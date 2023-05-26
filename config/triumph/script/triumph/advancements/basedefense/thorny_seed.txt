@@ -1,0 +1,12 @@
+setIcon(<betterwithaddons:thorn_rose>)
+setTitle("Castle of Thorns")
+setDescription("Obtain a thorny vine seed and let it grow defenses.")
+
+addParent("triumph:advancements/basedefense/vine_trap")
+
+criteria = addCriteria("Castle of Thorns", "minecraft:inventory_changed")
+criteria.addItem(<betterwithaddons:thorn_rose>)
+
+setFrameType("CHALLENGE")
+alwaysVisible()
+setPos(-19,-50)

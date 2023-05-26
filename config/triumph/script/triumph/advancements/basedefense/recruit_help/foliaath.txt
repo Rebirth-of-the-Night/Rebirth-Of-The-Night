@@ -1,0 +1,11 @@
+setIcon(<mowziesmobs:foliaath_seed>)
+setTitle("Did it smile?")
+setDescription("Kill foliaaths and obtain a seed. Be very careful where you plant it!")
+
+addParent("triumph:advancements/basedefense/recruit_help/recruit_help")
+
+criteria = addCriteria("Did it smile?", "minecraft:inventory_changed")
+criteria.addItem(<mowziesmobs:foliaath_seed>)
+
+alwaysVisible()
+setPos(-19,42)

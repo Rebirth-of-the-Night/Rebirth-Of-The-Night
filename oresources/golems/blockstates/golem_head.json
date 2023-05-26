@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "golems:golem_head"
+    },
+    "facing=south": {
+      "model": "golems:golem_head",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "golems:golem_head",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "golems:golem_head",
+      "y": 90
+    }
+  }
+}

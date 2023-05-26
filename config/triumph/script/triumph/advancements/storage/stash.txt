@@ -1,6 +1,6 @@
 setIcon(<pyrotech:stash>)
 setTitle("Stash")
-setDescription("Craft a stash.")
+setDescription("Craft a stash which can hold many stacks of a single item.")
 
 addParent("triumph:advancements/storage/chest")
 addParent("triumph:advancements/storage/quarkchest")

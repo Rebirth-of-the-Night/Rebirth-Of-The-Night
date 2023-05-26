@@ -40,7 +40,6 @@ recipes.addShapedMirrored("cyan_tapestry", <contenttweaker:tapestry_cyan>*4, [
 // assorted hiding
 
 # minecraft
-
 JEI.removeAndHide(<minecraft:enchanted_book>);
 
 # serene seasons

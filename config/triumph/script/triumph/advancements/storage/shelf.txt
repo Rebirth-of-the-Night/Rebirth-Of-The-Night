@@ -1,6 +1,6 @@
 setIcon(<pyrotech:shelf>)
 setTitle("Shelf")
-setDescription("Craft a shelf.")
+setDescription("Craft a shelf to easily organize your ingredients.")
 
 addParent("triumph:advancements/storage/chest")
 addParent("triumph:advancements/storage/quarkchest")

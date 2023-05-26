@@ -113,6 +113,7 @@ CompactingBin.addRecipe("slag_heap", <pyrotech:pile_slag>, <pyrotech:slag>, 8, t
 CompactingBin.addRecipe("wax_block", <harvestcraft:pressedwax>, <rustic:beeswax>, 4, true);
 CompactingBin.addRecipe("bonemeal_antidupe", <minecraft:bone_block>, <minecraft:dye:15>, 9, true);
 CompactingBin.addRecipe("clay_compacting", <minecraft:clay>, <minecraft:clay_ball>, 4, true);
+CompactingBin.addRecipe("mud_compacting", <biomesoplenty:mud>, <biomesoplenty:mudball>, 4, true);
 
 CrudeDryingRack.removeRecipes(<pyrotech:material:2>);
 CrudeDryingRack.removeRecipes(<pyrotech:material:13>);

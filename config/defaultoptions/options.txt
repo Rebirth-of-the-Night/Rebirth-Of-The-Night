@@ -15,7 +15,7 @@ difficulty:2
 fancyGraphics:true
 ao:1
 renderClouds:true
-resourcePacks:["AntiqueAtlasExtra-v1.2.zip","Refreshed Aether.zip","Modern Pyrotech [1.12] [v1.2].zip","Vanilla_Future_Texture_optifine.zip","Modernity-format3-v3.6.0.zip","AnimEmis_InF_SW.zip","Official ROTN tweaks"]
+resourcePacks:["AntiqueAtlasExtra-v1.2.zip","Refreshed Aether.zip","Modern Pyrotech [1.12] [v1.2].zip","Vanilla_Future_Texture_optifine.zip","Modernity-format3-v3.6.0.zip","AnimEmis_InF_SW.zip","Official ROTN tweaks","Revisited_Salt_Lamps.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
