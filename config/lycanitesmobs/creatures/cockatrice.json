@@ -1,0 +1,131 @@
+{
+  "name": "cockatrice",
+  "creatureType": "dragon",
+  "groups": [
+    "predator"
+  ],
+  "entityClass": "com.lycanitesmobs.core.entity.creature.EntityCockatrice",
+  "modelClass": "com.lycanitesmobs.client.model.creature.ModelCockatrice",
+  "loadDefault": true,
+  "enabled": true,
+  "spawning": {
+    "enabled": true,
+    "spawners": [
+      "sky"
+    ],
+    "disableSubspecies": false,
+    "dimensionIds": [
+      -1,
+      1
+    ],
+    "dimensionListType": "blacklist",
+    "ignoreBiome": false,
+    "biomeTags": [
+      "jungle",
+      "mountain"
+    ],
+    "spawnWeight": 1,
+    "dungeonWeight": 0,
+    "spawnAreaLimit": 1,
+    "spawnGroupMin": 1,
+    "spawnGroupMax": 1,
+    "spawnsInLight": false,
+    "spawnsInDark": true,
+    "worldDayMin": -1,
+    "despawnNatural": true,
+    "despawnForced": false
+  },
+  "width": 2.8,
+  "height": 4.8,
+  "experience": 20,
+  "health": 100,
+  "defense": 2,
+  "armor": 0,
+  "speed": 38,
+  "damage": 2,
+  "attackSpeed": 1,
+  "rangedSpeed": 1,
+  "effectDuration": 5,
+  "effectAmplifier": 0,
+  "pierce": 2,
+  "sight": 24,
+  "knockbackResistance": 0.75,
+  "bagSize": 5,
+  "tamingReputation": 500,
+  "eggBackColor": "#be3500",
+  "eggForeColor": "#1e781e",
+  "subspecies": [
+    {
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "ashen",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "violet",
+          "type": "uncommon"
+        }
+      ]
+    }
+  ],
+  "elements": [
+    "arcane",
+    "lightning"
+  ],
+  "diets": [
+    "carnivore",
+    "piscivore",
+    "insectivore",
+    "herbivore",
+    "frugivore"
+  ],
+  "peaceful": false,
+  "summonable": false,
+  "tameable": true,
+  "mountable": true,
+  "summonCost": 8,
+  "dungeonLevel": 1,
+  "drops": [
+    {
+      "item": "minecraft:bone",
+      "minAmount": 3,
+      "maxAmount": 6,
+      "chance": 1
+    },
+    {
+      "item": "minecraft:feather",
+      "minAmount": 3,
+      "maxAmount": 6,
+      "chance": 1
+    },
+    {
+      "item": "minecraft:chicken",
+      "minAmount": 6,
+      "maxAmount": 12,
+      "chance": 1
+    },
+    {
+      "item": "minecraft:prismarine_crystals",
+      "minAmount": 3,
+      "maxAmount": 6,
+      "chance": 0.75
+    },
+    {
+      "item": "minecraft:emerald",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 0.25
+    },
+    {
+      "item": "minecraft:diamond",
+      "minAmount": 1,
+      "maxAmount": 1,
+      "chance": 0.1
+    }
+  ],
+  "sizeScale": 1,
+  "hitboxScale": 1
+}

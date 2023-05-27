@@ -1,0 +1,10 @@
+{
+  "name": "chaos",
+  "loadDefault": true,
+  "buffs": [
+    "minecraft:haste"
+  ],
+  "debuffs": [
+    "lycanitesmobs:instability"
+  ]
+}

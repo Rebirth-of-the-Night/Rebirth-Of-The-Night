@@ -1,0 +1,95 @@
+{
+  "name": "tpumpkyn",
+  "creatureType": "plant",
+  "groups": [
+    "nature"
+  ],
+  "entityClass": "com.lycanitesmobs.core.entity.creature.EntityTpumpkyn",
+  "modelClass": "com.lycanitesmobs.client.model.creature.ModelTpumpkyn",
+  "loadDefault": true,
+  "enabled": true,
+  "spawning": {
+    "enabled": true,
+    "spawners": [
+      "monster"
+    ],
+    "disableSubspecies": false,
+    "dimensionIds": [
+      -1,
+      1
+    ],
+    "dimensionListType": "blacklist",
+    "ignoreBiome": false,
+    "biomeTags": [
+      "spooky"
+    ],
+    "spawnWeight": 8,
+    "dungeonWeight": 200,
+    "spawnAreaLimit": 3,
+    "spawnGroupMin": 1,
+    "spawnGroupMax": 3,
+    "spawnsInLight": false,
+    "spawnsInDark": true,
+    "worldDayMin": -1,
+    "despawnNatural": true,
+    "despawnForced": false
+  },
+  "width": 0.9,
+  "height": 0.9,
+  "experience": 5,
+  "health": 15,
+  "defense": 0,
+  "armor": 0,
+  "speed": 28,
+  "damage": 2,
+  "attackSpeed": 2,
+  "rangedSpeed": 1,
+  "effectDuration": 5,
+  "effectAmplifier": -1,
+  "pierce": 1,
+  "sight": 24,
+  "knockbackResistance": 0,
+  "bagSize": 5,
+  "tamingReputation": 250,
+  "eggBackColor": "#f17728",
+  "eggForeColor": "#592503",
+  "subspecies": [
+    {
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "scarlet",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "verdant",
+          "type": "uncommon"
+        }
+      ]
+    }
+  ],
+  "element": "phase",
+  "diets": [
+    "carnivore",
+    "insectivore"
+  ],
+  "peaceful": false,
+  "farmable": false,
+  "summonable": true,
+  "tameable": false,
+  "mountable": false,
+  "summonCost": 4,
+  "dungeonLevel": 1,
+  "drops": [
+    {
+      "item": "minecraft:pumpkin",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 1
+    }
+  ],
+  "sizeScale": 1,
+  "hitboxScale": 1
+}

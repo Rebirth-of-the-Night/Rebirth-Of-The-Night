@@ -1,0 +1,183 @@
+{
+  "name": "nymph",
+  "creatureType": "elemental",
+  "groups": [
+    "mystic"
+  ],
+  "entityClass": "com.lycanitesmobs.core.entity.creature.EntityNymph",
+  "modelClass": "com.lycanitesmobs.client.model.creature.ModelNymph",
+  "loadDefault": true,
+  "enabled": true,
+  "spawning": {
+    "enabled": true,
+    "spawners": [],
+    "disableSubspecies": false,
+    "dimensionIds": [
+      -1,
+      1
+    ],
+    "dimensionListType": "blacklist",
+    "ignoreBiome": false,
+    "biomeTags": [],
+    "spawnWeight": 2,
+    "dungeonWeight": 0,
+    "spawnAreaLimit": 1,
+    "spawnGroupMin": 1,
+    "spawnGroupMax": 1,
+    "spawnsInLight": true,
+    "spawnsInDark": false,
+    "worldDayMin": -1,
+    "despawnNatural": true,
+    "despawnForced": false
+  },
+  "width": 0.8,
+  "height": 1.8,
+  "experience": 10,
+  "health": 15,
+  "defense": 0,
+  "armor": 0,
+  "speed": 28,
+  "damage": 1,
+  "attackSpeed": 1,
+  "rangedSpeed": 0.25,
+  "effectDuration": 20,
+  "effectAmplifier": 0,
+  "pierce": 0,
+  "sight": 24,
+  "knockbackResistance": 0,
+  "bagSize": 5,
+  "eggBackColor": "#f9b1fc",
+  "eggForeColor": "#ffc5c1",
+  "subspecies": [
+    {
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "golden",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "dark",
+          "type": "uncommon"
+        }
+      ]
+    }
+  ],
+  "element": "fae",
+  "peaceful": true,
+  "summonable": false,
+  "tameable": false,
+  "mountable": false,
+  "summonCost": 4,
+  "dungeonLevel": 1,
+  "drops": [
+    {
+      "item": "minecraft:red_flower",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 0.5
+    },
+    {
+      "item": "minecraft:red_flower",
+      "metadata": 1,
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 0.5
+    },
+    {
+      "item": "minecraft:red_flower",
+      "metadata": 2,
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 0.5
+    },
+    {
+      "item": "minecraft:red_flower",
+      "metadata": 3,
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 0.5
+    },
+    {
+      "item": "minecraft:red_flower",
+      "metadata": 4,
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 0.5
+    },
+    {
+      "item": "minecraft:red_flower",
+      "metadata": 5,
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 0.5
+    },
+    {
+      "item": "minecraft:red_flower",
+      "metadata": 6,
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 0.5
+    },
+    {
+      "item": "minecraft:red_flower",
+      "metadata": 7,
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 0.5
+    },
+    {
+      "item": "minecraft:red_flower",
+      "metadata": 8,
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 0.5
+    },
+    {
+      "item": "minecraft:yellow_flower",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 0.5
+    },
+    {
+      "item": "minecraft:wheat_seeds",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 0.1
+    },
+    {
+      "item": "minecraft:pumpkin_seeds",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 0.1
+    },
+    {
+      "item": "minecraft:melon_seeds",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 0.1
+    },
+    {
+      "item": "lycanitesmobs:faeboltcharge",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 1
+    },
+    {
+      "item": "lycanitesmobs:immunizer",
+      "minAmount": 1,
+      "maxAmount": 1,
+      "chance": 0.05
+    }
+  ],
+  "sizeScale": 1,
+  "hitboxScale": 1,
+  "flags": [
+    {
+      "name": "healingRate",
+      "value": 20
+    }
+  ]
+}

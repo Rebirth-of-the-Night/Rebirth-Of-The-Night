@@ -1,0 +1,99 @@
+{
+  "name": "arisaur",
+  "creatureType": "reptile",
+  "groups": [
+    "animal"
+  ],
+  "entityClass": "com.lycanitesmobs.core.entity.creature.EntityArisaur",
+  "modelClass": "com.lycanitesmobs.client.model.creature.ModelArisaur",
+  "loadDefault": true,
+  "enabled": true,
+  "spawning": {
+    "enabled": true,
+    "spawners": [
+      "creature",
+      "animal"
+    ],
+    "disableSubspecies": false,
+    "dimensionIds": [
+      -1,
+      1
+    ],
+    "dimensionListType": "blacklist",
+    "ignoreBiome": false,
+    "biomeTags": [
+      "plains",
+      "forest",
+      "-mountain",
+      "-snowy"
+    ],
+    "spawnWeight": 8,
+    "dungeonWeight": 0,
+    "spawnAreaLimit": 5,
+    "spawnGroupMin": 1,
+    "spawnGroupMax": 3,
+    "spawnsInLight": true,
+    "spawnsInDark": false,
+    "worldDayMin": -1,
+    "despawnNatural": false,
+    "despawnForced": false
+  },
+  "width": 3.9,
+  "height": 4.2,
+  "experience": 5,
+  "health": 40,
+  "defense": 1,
+  "armor": 0,
+  "speed": 28,
+  "damage": 2,
+  "attackSpeed": 1,
+  "rangedSpeed": 1,
+  "effectDuration": 5,
+  "effectAmplifier": 0,
+  "pierce": 1,
+  "sight": 24,
+  "knockbackResistance": 1,
+  "bagSize": 5,
+  "eggBackColor": "#008800",
+  "eggForeColor": "#00FF00",
+  "subspecies": [
+    {
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "russet",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "keppel",
+          "type": "uncommon"
+        }
+      ]
+    }
+  ],
+  "element": "arbour",
+  "diets": [
+    "herbivore",
+    "frugivore"
+  ],
+  "peaceful": true,
+  "farmable": true,
+  "summonable": false,
+  "tameable": false,
+  "mountable": false,
+  "summonCost": 2,
+  "dungeonLevel": 1,
+  "drops": [
+    {
+      "item": "lycanitesmobs:raw_arisaur_meat",
+      "burningItem": "lycanitesmobs:cooked_arisaur_meat",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 1
+    }
+  ],
+  "sizeScale": 1,
+  "hitboxScale": 1
+}

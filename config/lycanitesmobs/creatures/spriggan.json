@@ -1,0 +1,125 @@
+{
+  "name": "spriggan",
+  "creatureType": "elemental",
+  "groups": [
+    "nature"
+  ],
+  "entityClass": "com.lycanitesmobs.core.entity.creature.EntitySpriggan",
+  "modelClass": "com.lycanitesmobs.client.model.creature.ModelSpriggan",
+  "loadDefault": true,
+  "enabled": true,
+  "spawning": {
+    "enabled": true,
+    "spawners": [],
+    "disableSubspecies": false,
+    "dimensionIds": [],
+    "dimensionListType": "blacklist",
+    "ignoreBiome": false,
+    "biomeTags": [],
+    "spawnWeight": 8,
+    "dungeonWeight": 200,
+    "spawnAreaLimit": 5,
+    "spawnGroupMin": 1,
+    "spawnGroupMax": 3,
+    "spawnsInLight": false,
+    "spawnsInDark": true,
+    "worldDayMin": -1,
+    "despawnNatural": true,
+    "despawnForced": false
+  },
+  "width": 0.8,
+  "height": 1.6,
+  "experience": 10,
+  "health": 15,
+  "defense": 0,
+  "armor": 0,
+  "speed": 24,
+  "damage": 1,
+  "attackSpeed": 0.5,
+  "rangedSpeed": 1,
+  "effectDuration": 5,
+  "effectAmplifier": 0,
+  "pierce": 1,
+  "sight": 24,
+  "knockbackResistance": 0,
+  "bagSize": 5,
+  "eggBackColor": "#997722",
+  "eggForeColor": "#008844",
+  "subspecies": [
+    {
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "golden",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "scarlet",
+          "type": "uncommon"
+        }
+      ]
+    }
+  ],
+  "element": "arbour",
+  "peaceful": false,
+  "summonable": false,
+  "tameable": false,
+  "mountable": false,
+  "summonCost": 2,
+  "dungeonLevel": 1,
+  "drops": [
+    {
+      "item": "minecraft:stick",
+      "burningItem": "minecraft:coal",
+      "minAmount": 1,
+      "maxAmount": 6,
+      "chance": 0.5
+    },
+    {
+      "item": "minecraft:vine",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 0.1
+    },
+    {
+      "item": "minecraft:wheat_seeds",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 0.1
+    },
+    {
+      "item": "minecraft:pumpkin_seeds",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 0.1
+    },
+    {
+      "item": "minecraft:melon_seeds",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 0.1
+    },
+    {
+      "item": "lycanitesmobs:immunizer",
+      "minAmount": 1,
+      "maxAmount": 1,
+      "chance": 0.25
+    },
+    {
+      "item": "lycanitesmobs:lifedraincharge",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 1
+    }
+  ],
+  "sizeScale": 1,
+  "hitboxScale": 1,
+  "flags": [
+    {
+      "name": "farmingRate",
+      "value": 20
+    }
+  ]
+}

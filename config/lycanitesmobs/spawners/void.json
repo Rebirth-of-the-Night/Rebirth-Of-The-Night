@@ -1,0 +1,43 @@
+{
+  "name": "void",
+  "type": "spawner",
+  "enabled": true,
+  "loadDefault": true,
+  "mobCountMin": 1,
+  "ignoreDimensions": true,
+  "ignoreBiomes": true,
+  "ignoreLightLevel": false,
+  "conditions": [],
+  "triggers": [
+    {
+      "type": "world",
+      "chance": 0.25,
+      "tickRate": 800
+    }
+  ],
+  "locations": [
+    {
+      "type": "random",
+      "rangeMin": [
+        16,
+        0,
+        16
+      ],
+      "rangeMax": [
+        32,
+        32,
+        32
+      ],
+      "yMax": 20,
+      "sorting": "random",
+      "limit": 32,
+      "solidGround": false
+    }
+  ],
+  "mobSpawns": [
+    {
+      "mobId": "lycanitesmobs:spectre",
+      "weight": 8
+    }
+  ]
+}

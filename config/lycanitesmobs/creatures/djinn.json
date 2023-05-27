@@ -1,0 +1,109 @@
+{
+  "name": "djinn",
+  "creatureType": "elemental",
+  "groups": [
+    "monster"
+  ],
+  "entityClass": "com.lycanitesmobs.core.entity.creature.EntityDjinn",
+  "modelClass": "com.lycanitesmobs.client.model.creature.ModelDjinn",
+  "loadDefault": true,
+  "enabled": true,
+  "spawning": {
+    "enabled": true,
+    "spawners": [],
+    "disableSubspecies": false,
+    "dimensionIds": [
+      -1,
+      1
+    ],
+    "dimensionListType": "blacklist",
+    "ignoreBiome": true,
+    "biomeTags": [],
+    "spawnWeight": 8,
+    "dungeonWeight": 200,
+    "spawnAreaLimit": 5,
+    "spawnGroupMin": 1,
+    "spawnGroupMax": 3,
+    "spawnsInLight": false,
+    "spawnsInDark": true,
+    "worldDayMin": -1,
+    "despawnNatural": true,
+    "despawnForced": false
+  },
+  "width": 0.8,
+  "height": 1.6,
+  "experience": 10,
+  "health": 10,
+  "defense": 0,
+  "armor": 0,
+  "speed": 24,
+  "damage": 1,
+  "attackSpeed": 1,
+  "rangedSpeed": 0.25,
+  "effectDuration": 5,
+  "effectAmplifier": 0,
+  "pierce": 1,
+  "sight": 24,
+  "knockbackResistance": 0,
+  "bagSize": 5,
+  "eggBackColor": "#b6bbc2",
+  "eggForeColor": "#f0f1f1",
+  "subspecies": [
+    {
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "ashen",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "violet",
+          "type": "uncommon"
+        }
+      ]
+    }
+  ],
+  "element": "air",
+  "peaceful": false,
+  "summonable": true,
+  "tameable": false,
+  "mountable": false,
+  "summonCost": 2,
+  "dungeonLevel": 1,
+  "drops": [
+    {
+      "item": "minecraft:feather",
+      "minAmount": 1,
+      "maxAmount": 4,
+      "chance": 0.5
+    },
+    {
+      "item": "minecraft:chorus_fruit",
+      "minAmount": 1,
+      "maxAmount": 4,
+      "chance": 0.5
+    },
+    {
+      "item": "minecraft:snowball",
+      "minAmount": 1,
+      "maxAmount": 8,
+      "chance": 1
+    },
+    {
+      "item": "lycanitesmobs:cleansingcrystal",
+      "minAmount": 1,
+      "maxAmount": 1,
+      "chance": 0.05
+    },
+    {
+      "item": "lycanitesmobs:whirlwindcharge",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 1
+    }
+  ],
+  "sizeScale": 1,
+  "hitboxScale": 1
+}

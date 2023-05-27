@@ -1,0 +1,14 @@
+{
+  "name": "dark",
+  "loadDefault": true,
+  "hunt": [
+    "light"
+  ],
+  "pack": [],
+  "wary": [],
+  "flee": [],
+  "ignore": [
+    "boss"
+  ],
+  "default": "retaliate"
+}

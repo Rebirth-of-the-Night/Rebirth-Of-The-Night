@@ -1,0 +1,136 @@
+{
+  "name": "zoataur",
+  "creatureType": "dragon",
+  "groups": [
+    "predator"
+  ],
+  "entityClass": "com.lycanitesmobs.core.entity.creature.EntityZoataur",
+  "modelClass": "com.lycanitesmobs.client.model.creature.ModelZoataur",
+  "loadDefault": true,
+  "enabled": true,
+  "spawning": {
+    "enabled": true,
+    "spawners": [
+      "monster",
+      "beast"
+    ],
+    "disableSubspecies": false,
+    "dimensionIds": [
+      -1,
+      1
+    ],
+    "dimensionListType": "blacklist",
+    "ignoreBiome": false,
+    "biomeTags": [
+      "plains",
+      "savanna",
+      "sandy",
+      "wasteland",
+      "mesa",
+      "-snowy",
+      "-cold"
+    ],
+    "spawnWeight": 1,
+    "dungeonWeight": 200,
+    "spawnAreaLimit": 3,
+    "spawnGroupMin": 1,
+    "spawnGroupMax": 1,
+    "spawnsInLight": false,
+    "spawnsInDark": true,
+    "worldDayMin": -1,
+    "despawnNatural": true,
+    "despawnForced": false
+  },
+  "width": 2.8,
+  "height": 2.8,
+  "experience": 20,
+  "health": 100,
+  "defense": 4,
+  "armor": 0,
+  "speed": 28,
+  "damage": 2,
+  "attackSpeed": 1,
+  "rangedSpeed": 1,
+  "effectDuration": 5,
+  "effectAmplifier": 0,
+  "pierce": 1,
+  "sight": 24,
+  "knockbackResistance": 0.25,
+  "bagSize": 20,
+  "tamingReputation": 2000,
+  "packSize": 1,
+  "eggBackColor": "#442200",
+  "eggForeColor": "#FFDDBB",
+  "subspecies": [
+    {
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "golden",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "lux",
+          "type": "uncommon"
+        }
+      ]
+    }
+  ],
+  "element": "earth",
+  "diets": [
+    "carnivore",
+    "piscivore",
+    "insectivore",
+    "herbivore",
+    "frugivore",
+    "fungivore"
+  ],
+  "peaceful": false,
+  "summonable": false,
+  "tameable": true,
+  "mountable": true,
+  "summonCost": 6,
+  "dungeonLevel": 2,
+  "drops": [
+    {
+      "item": "minecraft:bone",
+      "minAmount": 1,
+      "maxAmount": 5,
+      "chance": 1
+    },
+    {
+      "item": "minecraft:leather",
+      "minAmount": 1,
+      "maxAmount": 5,
+      "chance": 1
+    },
+    {
+      "item": "minecraft:prismarine_shard",
+      "minAmount": 6,
+      "maxAmount": 12,
+      "chance": 1
+    },
+    {
+      "item": "minecraft:prismarine_crystals",
+      "minAmount": 3,
+      "maxAmount": 6,
+      "chance": 0.75
+    },
+    {
+      "item": "minecraft:emerald",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 0.25
+    },
+    {
+      "item": "minecraft:diamond",
+      "minAmount": 1,
+      "maxAmount": 1,
+      "chance": 0.1
+    }
+  ],
+  "sizeScale": 1,
+  "hitboxScale": 1
+}

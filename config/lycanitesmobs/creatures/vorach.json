@@ -1,0 +1,104 @@
+{
+  "name": "vorach",
+  "creatureType": "demon",
+  "groups": [
+    "monster"
+  ],
+  "entityClass": "com.lycanitesmobs.core.entity.creature.EntityVorach",
+  "modelClass": "com.lycanitesmobs.client.model.creature.ModelVorach",
+  "loadDefault": true,
+  "enabled": true,
+  "spawning": {
+    "enabled": true,
+    "spawners": [
+      "monster",
+      "beast",
+      "portal",
+      "nether"
+    ],
+    "disableSubspecies": false,
+    "dimensionIds": [
+      -1
+    ],
+    "dimensionListType": "whitelist",
+    "ignoreBiome": true,
+    "biomeTags": [
+      "nether"
+    ],
+    "spawnWeight": 2,
+    "dungeonWeight": 200,
+    "spawnAreaLimit": 5,
+    "spawnGroupMin": 1,
+    "spawnGroupMax": 3,
+    "spawnsInLight": true,
+    "spawnsInDark": true,
+    "worldDayMin": -1,
+    "despawnNatural": true,
+    "despawnForced": false
+  },
+  "width": 1.5,
+  "height": 3.5,
+  "experience": 10,
+  "health": 40,
+  "defense": 2,
+  "armor": 0,
+  "speed": 20,
+  "damage": 3,
+  "attackSpeed": 1,
+  "rangedSpeed": 0.5,
+  "effectDuration": 5,
+  "effectAmplifier": 0,
+  "pierce": 1,
+  "sight": 24,
+  "knockbackResistance": 0.25,
+  "eggBackColor": "#4E5567",
+  "eggForeColor": "#49005C",
+  "subspecies": [
+    {
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "keppel",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "dark",
+          "type": "uncommon"
+        }
+      ]
+    }
+  ],
+  "elements": [
+    "quake",
+    "void"
+  ],
+  "diets": [
+    "carnivore",
+    "piscivore",
+    "insectivore"
+  ],
+  "peaceful": false,
+  "summonable": true,
+  "tameable": false,
+  "mountable": false,
+  "summonCost": 6,
+  "dungeonLevel": 2,
+  "drops": [
+    {
+      "item": "minecraft:soul_sand",
+      "minAmount": 3,
+      "maxAmount": 5,
+      "chance": 1
+    },
+    {
+      "item": "lycanitesmobs:hellfireballcharge",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 1
+    }
+  ],
+  "sizeScale": 1,
+  "hitboxScale": 1
+}

@@ -1,0 +1,131 @@
+{
+  "name": "ent",
+  "creatureType": "plant",
+  "groups": [
+    "nature"
+  ],
+  "entityClass": "com.lycanitesmobs.core.entity.creature.EntityEnt",
+  "modelClass": "com.lycanitesmobs.client.model.creature.ModelEnt",
+  "loadDefault": true,
+  "enabled": true,
+  "spawning": {
+    "enabled": true,
+    "spawners": [
+      "monster",
+      "beast"
+    ],
+    "disableSubspecies": false,
+    "dimensionIds": [
+      -1,
+      1
+    ],
+    "dimensionListType": "blacklist",
+    "ignoreBiome": false,
+    "biomeTags": [
+      "forest",
+      "-mountain"
+    ],
+    "spawnWeight": 8,
+    "dungeonWeight": 200,
+    "spawnAreaLimit": 5,
+    "spawnGroupMin": 1,
+    "spawnGroupMax": 3,
+    "spawnsInLight": false,
+    "spawnsInDark": true,
+    "worldDayMin": -1,
+    "despawnNatural": true,
+    "despawnForced": false
+  },
+  "width": 0.8,
+  "height": 1.8,
+  "experience": 5,
+  "health": 15,
+  "defense": 2,
+  "armor": 0,
+  "speed": 18,
+  "damage": 3,
+  "attackSpeed": 0.5,
+  "rangedSpeed": 1,
+  "effectDuration": 5,
+  "effectAmplifier": -1,
+  "pierce": 1,
+  "sight": 24,
+  "knockbackResistance": 0,
+  "bagSize": 5,
+  "eggBackColor": "#997700",
+  "eggForeColor": "#00FF22",
+  "subspecies": [
+    {
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "russet",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "scarlet",
+          "type": "uncommon"
+        }
+      ]
+    }
+  ],
+  "element": "arbour",
+  "diets": [
+    "frugivore"
+  ],
+  "peaceful": false,
+  "summonable": true,
+  "tameable": false,
+  "mountable": false,
+  "summonCost": 2,
+  "dungeonLevel": 1,
+  "drops": [
+    {
+      "item": "minecraft:log",
+      "minAmount": 1,
+      "maxAmount": 6,
+      "chance": 0.5
+    },
+    {
+      "item": "minecraft:stick",
+      "burningItem": "minecraft:coal",
+      "minAmount": 1,
+      "maxAmount": 6,
+      "chance": 0.5
+    },
+    {
+      "item": "minecraft:wheat_seeds",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 0.1
+    },
+    {
+      "item": "minecraft:pumpkin_seeds",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 0.1
+    },
+    {
+      "item": "minecraft:melon_seeds",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 0.1
+    },
+    {
+      "item": "minecraft:apple",
+      "minAmount": 1,
+      "maxAmount": 1,
+      "chance": 0.05
+    },
+    {
+      "item": "lycanitesmobs:immunizer",
+      "minAmount": 1,
+      "maxAmount": 1,
+      "chance": 0.05
+    }
+  ],
+  "sizeScale": 1,
+  "hitboxScale": 1
+}

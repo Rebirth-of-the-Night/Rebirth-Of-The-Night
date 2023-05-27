@@ -1,0 +1,17 @@
+{
+  "name": "boss",
+  "loadDefault": true,
+  "hunt": [
+    "humanoid"
+  ],
+  "pack": [],
+  "wary": [],
+  "flee": [],
+  "ignore": [
+    "boss"
+  ],
+  "default": "retaliate",
+  "entityIds": [
+    "minecraft:ender_dragon"
+  ]
+}

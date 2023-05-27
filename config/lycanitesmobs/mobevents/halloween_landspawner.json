@@ -1,0 +1,80 @@
+{
+  "name": "halloween_landspawner",
+  "type": "spawner",
+  "enabled": true,
+  "loadDefault": true,
+  "mobCountMin": 2,
+  "ignoreDimensions": true,
+  "ignoreBiomes": true,
+  "ignoreLightLevel": true,
+  "ignoreGroupLimit": true,
+  "ignoreForgeCanSpawnEvent": true,
+  "forceNoDespawn": true,
+  "eventName": "halloween",
+  "conditions": [],
+  "triggers": [
+    {
+      "type": "player",
+      "chance": 1,
+      "tickRate": 100
+    }
+  ],
+  "locations": [
+    {
+      "type": "random",
+      "rangeMin": [
+        24,
+        0,
+        24
+      ],
+      "rangeMax": [
+        32,
+        48,
+        32
+      ],
+      "sorting": "random",
+      "limit": 32,
+      "solidGround": true
+    }
+  ],
+  "mobSpawns": [
+    {
+      "mobId": "lycanitesmobs:ent",
+      "weight": 8,
+      "mobNameTag": "Twisted Ent"
+    },
+    {
+      "mobId": "lycanitesmobs:treant",
+      "weight": 4,
+      "mobNameTag": "Wicked Treant"
+    },
+    {
+      "mobId": "lycanitesmobs:belph",
+      "weight": 8
+    },
+    {
+      "mobId": "lycanitesmobs:behemoth",
+      "weight": 4
+    },
+    {
+      "mobId": "lycanitesmobs:triffid",
+      "weight": 8
+    },
+    {
+      "mobId": "lycanitesmobs:ghoul",
+      "weight": 8
+    },
+    {
+      "mobId": "lycanitesmobs:cryptkeeper",
+      "weight": 8
+    },
+    {
+      "mobId": "lycanitesmobs:necrovore",
+      "weight": 8
+    },
+    {
+      "mobId": "lycanitesmobs:tpumpkyn",
+      "weight": 8
+    }
+  ]
+}

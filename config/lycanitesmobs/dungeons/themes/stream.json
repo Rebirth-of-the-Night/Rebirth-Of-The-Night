@@ -1,0 +1,68 @@
+{
+  "name": "stream",
+  "loadDefault": true,
+  "floorPattern": "random",
+  "wallPattern": "random",
+  "ceilingPattern": "random",
+  "floorBlocks": [
+    {
+      "blockId": "lycanitesmobs:streamstonetile",
+      "weight": 8
+    },
+    {
+      "blockId": "lycanitesmobs:streamstonepolished",
+      "weight": 2
+    }
+  ],
+  "wallBlocks": [
+    {
+      "blockId": "lycanitesmobs:streamstonebrick",
+      "weight": 8
+    },
+    {
+      "blockId": "lycanitesmobs:streamstonechiseled",
+      "weight": 2
+    },
+    {
+      "blockId": "lycanitesmobs:streamstonepillar",
+      "weight": 0
+    }
+  ],
+  "ceilingBlocks": [
+    {
+      "blockId": "lycanitesmobs:streamstonetile",
+      "weight": 8
+    },
+    {
+      "blockId": "lycanitesmobs:streamstonepolished",
+      "weight": 2
+    }
+  ],
+  "lightBlocks": [
+    {
+      "blockId": "lycanitesmobs:streamcrystal",
+      "weight": 8
+    }
+  ],
+  "airBlocks": [
+    {
+      "blockId": "minecraft:water",
+      "weight": 8
+    }
+  ],
+  "torchBlocks": [],
+  "stairBlocks": [
+    {
+      "blockId": "lycanitesmobs:streamstone_stairs",
+      "weight": 8
+    },
+    {
+      "blockId": "lycanitesmobs:streamstonebrick_stairs",
+      "weight": 8
+    },
+    {
+      "blockId": "lycanitesmobs:streamstonetile_stairs",
+      "weight": 8
+    }
+  ]
+}

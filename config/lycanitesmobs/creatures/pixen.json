@@ -1,0 +1,113 @@
+{
+  "name": "pixen",
+  "creatureType": "imp",
+  "groups": [
+    "trickster"
+  ],
+  "entityClass": "com.lycanitesmobs.core.entity.creature.EntityPixen",
+  "modelClass": "com.lycanitesmobs.client.model.creature.ModelPixen",
+  "loadDefault": true,
+  "enabled": true,
+  "spawning": {
+    "enabled": true,
+    "spawners": [],
+    "disableSubspecies": false,
+    "dimensionIds": [
+      -1,
+      1
+    ],
+    "dimensionListType": "blacklist",
+    "ignoreBiome": false,
+    "biomeTags": [
+      "forest"
+    ],
+    "spawnWeight": 6,
+    "dungeonWeight": 100,
+    "spawnAreaLimit": 5,
+    "spawnGroupMin": 1,
+    "spawnGroupMax": 3,
+    "spawnsInLight": true,
+    "spawnsInDark": false,
+    "worldDayMin": -1,
+    "despawnNatural": true,
+    "despawnForced": false
+  },
+  "width": 0.5,
+  "height": 0.5,
+  "experience": 5,
+  "health": 10,
+  "defense": 0,
+  "armor": 0,
+  "speed": 30,
+  "damage": 1,
+  "attackSpeed": 1,
+  "rangedSpeed": 0.5,
+  "effectDuration": 5,
+  "effectAmplifier": 0,
+  "pierce": 1,
+  "sight": 24,
+  "knockbackResistance": 0,
+  "bagSize": 5,
+  "eggBackColor": "#20117a",
+  "eggForeColor": "#adad55",
+  "subspecies": [
+    {
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "keppel",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "lux",
+          "type": "uncommon"
+        }
+      ]
+    }
+  ],
+  "element": "fae",
+  "diets": [
+    "carnivore",
+    "piscivore",
+    "insectivore",
+    "frugivore",
+    "fungivore"
+  ],
+  "peaceful": false,
+  "summonable": true,
+  "tameable": false,
+  "mountable": false,
+  "perchable": true,
+  "summonCost": 2,
+  "dungeonLevel": 1,
+  "drops": [
+    {
+      "item": "minecraft:glowstone_dust",
+      "minAmount": 1,
+      "maxAmount": 8,
+      "chance": 1
+    },
+    {
+      "item": "minecraft:brown_mushroom",
+      "minAmount": 1,
+      "maxAmount": 1,
+      "chance": 1
+    },
+    {
+      "item": "minecraft:red_mushroom",
+      "minAmount": 2,
+      "maxAmount": 3,
+      "chance": 1
+    },
+    {
+      "item": "lycanitesmobs:tricksterflarecharge",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 1
+    }
+  ],
+  "sizeScale": 1,
+  "hitboxScale": 1
+}

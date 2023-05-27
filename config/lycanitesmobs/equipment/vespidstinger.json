@@ -1,0 +1,39 @@
+{
+  "itemName": "vespidstinger",
+  "loadDefault": true,
+  "slotType": "pommel",
+  "dropMobId": "lycanitesmobs:vespid",
+  "dropChance": 0.05,
+  "levelMin": 1,
+  "levelMax": 3,
+  "elements": [
+    "arbour",
+    "acid"
+  ],
+  "features": [
+    {
+      "featureType": "effect",
+      "levelMax": 2,
+      "effectType": "minecraft:poison",
+      "effectTarget": "target",
+      "effectDuration": 20,
+      "effectStrength": 2
+    },
+    {
+      "featureType": "effect",
+      "levelMin": 3,
+      "effectType": "minecraft:poison",
+      "effectTarget": "target",
+      "effectDuration": 60,
+      "effectStrength": 3
+    },
+    {
+      "featureType": "effect",
+      "levelMin": 3,
+      "effectType": "lycanitesmobs:penetration",
+      "effectTarget": "target",
+      "effectDuration": 60,
+      "effectStrength": 3
+    }
+  ]
+}

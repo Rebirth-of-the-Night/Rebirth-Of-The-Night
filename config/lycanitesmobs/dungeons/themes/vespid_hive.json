@@ -1,0 +1,49 @@
+{
+  "name": "vespid_hive",
+  "loadDefault": true,
+  "floorPattern": "random",
+  "wallPattern": "random",
+  "ceilingPattern": "random",
+  "floorBlocks": [
+    {
+      "blockId": "lycanitesmobs:propolis",
+      "weight": 8
+    }
+  ],
+  "wallBlocks": [
+    {
+      "blockId": "lycanitesmobs:veswax",
+      "weight": 8
+    }
+  ],
+  "ceilingBlocks": [
+    {
+      "blockId": "lycanitesmobs:propolis",
+      "weight": 8
+    }
+  ],
+  "lightBlocks": [
+    {
+      "blockId": "lycanitesmobs:lushcrystal",
+      "weight": 8
+    }
+  ],
+  "airBlocks": [
+    {
+      "blockId": "minecraft:air",
+      "weight": 8
+    }
+  ],
+  "torchBlocks": [],
+  "stairBlocks": [],
+  "pitBlocks": [
+    {
+      "blockId": "lycanitesmobs:veswax",
+      "weight": 8
+    },
+    {
+      "blockId": "lycanitesmobs:veshoney",
+      "weight": 8
+    }
+  ]
+}

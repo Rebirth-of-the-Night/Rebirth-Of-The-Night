@@ -1,0 +1,181 @@
+{
+  "name": "roomdiamondpit",
+  "type": "room",
+  "weight": 4,
+  "loadDefault": true,
+  "changeTheme": false,
+  "tileSpawners": false,
+  "tileChests": false,
+  "sizeMin": [
+    24,
+    9,
+    24
+  ],
+  "sizeMax": [
+    32,
+    9,
+    32
+  ],
+  "floor": [
+    {
+      "layer": -2,
+      "pattern": [
+        "3"
+      ]
+    },
+    {
+      "layer": -1,
+      "tileHorizontal": false,
+      "centerHorizontal": true,
+      "tileVertical": false,
+      "centerVertical": true,
+      "pattern": [
+        "1111111111111111111111",
+        "1PPPPPPPPPPPPPPPPPPPP1",
+        "1PPPPPPPPPPPPPPPPPPPP1",
+        "1PPPPPPPPPPPPPPPPPPPP1",
+        "1PPPPPPPPPPPPPPPPPPPP1",
+        "1PPPPPPPPPPPPPPPPPPPP1",
+        "1PPPPPPPPPPPPPPPPPPPP1",
+        "1PPPPPPPPPPPPPPPPPPPP1",
+        "1PPPPPPPPPPPPPPPPPPPP1",
+        "1PPPPPPPPPPPPPPPPPPPP1",
+        "1PPPPPPPPPPPPPPPPPPPP1",
+        "1PPPPPPPPPPPPPPPPPPPP1",
+        "1PPPPPPPPPPPPPPPPPPPP1",
+        "1PPPPPPPPPPPPPPPPPPPP1",
+        "1PPPPPPPPPPPPPPPPPPPP1",
+        "1PPPPPPPPPPPPPPPPPPPP1",
+        "1PPPPPPPPPPPPPPPPPPPP1",
+        "1PPPPPPPPPPPPPPPPPPPP1",
+        "1PPPPPPPPPPPPPPPPPPPP1",
+        "1PPPPPPPPPPPPPPPPPPPP1",
+        "1PPPPPPPPPPPPPPPPPPPP1",
+        "1111111111111111111111"
+      ]
+    },
+    {
+      "layer": 0,
+      "tileHorizontal": false,
+      "centerHorizontal": true,
+      "tileVertical": false,
+      "centerVertical": true,
+      "pattern": [
+        "1111111111111111111111",
+        "1000000000220000000001",
+        "1000000002222000000001",
+        "1000000022002200000001",
+        "1000000220000220000001",
+        "1000002200000022000001",
+        "1000022000000002200001",
+        "1000220000000000220001",
+        "1002200000000000022001",
+        "1022000000000000002201",
+        "1220000000000000000221",
+        "1220000000000000000221",
+        "1022000000000000002201",
+        "1002200000000000022001",
+        "1000220000000000220001",
+        "1000022000000002200001",
+        "1000002200000022000001",
+        "1000000220000220000001",
+        "1000000022002200000001",
+        "1000000002222000000001",
+        "1000000000220000000001",
+        "1111111111111111111111"
+      ]
+    },
+    {
+      "layer": 1,
+      "tileHorizontal": false,
+      "centerHorizontal": true,
+      "tileVertical": false,
+      "centerVertical": true,
+      "pattern": [
+        "000000000000000000000S",
+        "0000000000000000000000",
+        "0000000000000000000000",
+        "0000000000000000000000",
+        "0000000000000000000000",
+        "0000000000000000000000",
+        "0000000000000000000000",
+        "0000000000000000000000",
+        "0000000000000000000000",
+        "0000000000000000000000",
+        "0000000000000000000000",
+        "0000000000000000000000",
+        "0000000000000000000000",
+        "0000000000000000000000",
+        "0000000000000000000000",
+        "0000000000000000000000",
+        "0000000000000000000000",
+        "0000000000000000000000",
+        "0000000000000000000000",
+        "0000000000000000000000",
+        "0000000000000000000000",
+        "S000000000000000000000"
+      ]
+    }
+  ],
+  "wall": [
+    {
+      "layer": -1,
+      "tileHorizontal": true,
+      "centerHorizontal": true,
+      "tileVertical": true,
+      "centerVertical": false,
+      "pattern": [
+        "3222222222222223",
+        "3000000000000003",
+        "3000000000000003",
+        "3000000000000003",
+        "3000000000000003",
+        "3000000000000003",
+        "3222222222222223"
+      ]
+    },
+    {
+      "layer": 0,
+      "tileHorizontal": true,
+      "centerHorizontal": true,
+      "tileVertical": true,
+      "centerVertical": false,
+      "pattern": [
+        "3111111111111113",
+        "3111112222111113",
+        "3111122112211113",
+        "311L22L11L22L113",
+        "3112211111122113",
+        "3122111111112213",
+        "3111111111111113"
+      ]
+    },
+    {
+      "layer": 1,
+      "tileHorizontal": false,
+      "centerHorizontal": true,
+      "tileVertical": true,
+      "centerVertical": false,
+      "pattern": [
+        "3000000000000003",
+        "3000000000000003",
+        "3000000000000003",
+        "300T00T00T00T003",
+        "3000000000000003",
+        "3000000000000003",
+        "3000000000000003"
+      ]
+    }
+  ],
+  "ceiling": [
+    {
+      "layer": 0,
+      "pattern": [
+        "1122",
+        "1122",
+        "2211",
+        "2211"
+      ]
+    }
+  ]
+}

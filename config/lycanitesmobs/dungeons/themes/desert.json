@@ -1,0 +1,86 @@
+{
+  "name": "desert",
+  "loadDefault": true,
+  "floorPattern": "random",
+  "wallPattern": "random",
+  "ceilingPattern": "random",
+  "floorBlocks": [
+    {
+      "blockId": "lycanitesmobs:desertstonetile",
+      "weight": 8
+    },
+    {
+      "blockId": "lycanitesmobs:desertstonepolished",
+      "weight": 2
+    },
+    {
+      "blockId": "minecraft:netherrack",
+      "weight": 0
+    }
+  ],
+  "wallBlocks": [
+    {
+      "blockId": "lycanitesmobs:desertstonebrick",
+      "weight": 8
+    },
+    {
+      "blockId": "lycanitesmobs:desertstonechiseled",
+      "weight": 2
+    },
+    {
+      "blockId": "lycanitesmobs:desertstonepillar",
+      "weight": 0
+    }
+  ],
+  "ceilingBlocks": [
+    {
+      "blockId": "lycanitesmobs:desertstonetile",
+      "weight": 8
+    },
+    {
+      "blockId": "lycanitesmobs:desertstonepolished",
+      "weight": 2
+    }
+  ],
+  "lightBlocks": [
+    {
+      "blockId": "lycanitesmobs:desertcrystal",
+      "weight": 8
+    },
+    {
+      "blockId": "minecraft:obsidian",
+      "weight": 8
+    }
+  ],
+  "airBlocks": [
+    {
+      "blockId": "minecraft:air",
+      "weight": 8
+    }
+  ],
+  "torchBlocks": [],
+  "stairBlocks": [
+    {
+      "blockId": "lycanitesmobs:desertstone_stairs",
+      "weight": 8
+    },
+    {
+      "blockId": "lycanitesmobs:desertstonebrick_stairs",
+      "weight": 8
+    },
+    {
+      "blockId": "lycanitesmobs:desertstonetile_stairs",
+      "weight": 8
+    }
+  ],
+  "pitBlocks": [
+    {
+      "blockId": "lycanitesmobs:scorchfire",
+      "weight": 8
+    },
+    {
+      "blockId": "lycanitesmobs:ooze",
+      "weight": 8
+    }
+  ]
+}

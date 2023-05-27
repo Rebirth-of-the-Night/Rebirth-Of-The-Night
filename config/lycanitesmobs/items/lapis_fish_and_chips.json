@@ -1,0 +1,21 @@
+{
+  "name": "lapis_fish_and_chips",
+  "loadDefault": true,
+  "group": "items",
+  "maxStackSize": 16,
+  "food": {
+    "hunger": 10,
+    "saturation": 0.8,
+    "alwaysEdible": true,
+    "fast": false,
+    "meat": true,
+    "effects": [
+      {
+        "effectId": "minecraft:water_breathing",
+        "duration": 120,
+        "amplifier": 0,
+        "chance": 1.0
+      }
+    ]
+  }
+}

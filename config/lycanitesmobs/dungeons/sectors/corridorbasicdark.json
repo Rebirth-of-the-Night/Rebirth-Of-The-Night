@@ -1,0 +1,61 @@
+{
+  "name": "corridorbasicdark",
+  "type": "corridor",
+  "weight": 8,
+  "loadDefault": true,
+  "changeTheme": false,
+  "sizeMin": [
+    4,
+    5,
+    16
+  ],
+  "sizeMax": [
+    6,
+    5,
+    32
+  ],
+  "floor": [
+    {
+      "layer": 0,
+      "pattern": [
+        "1122",
+        "1122",
+        "2211",
+        "2211"
+      ]
+    }
+  ],
+  "wall": [
+    {
+      "layer": -1,
+      "pattern": [
+        "1111111",
+        "0000000",
+        "0000000",
+        "0000000",
+        "1111111"
+      ]
+    },
+    {
+      "layer": 0,
+      "pattern": [
+        "1111111",
+        "2222222",
+        "2222222",
+        "2222222",
+        "1111111"
+      ]
+    }
+  ],
+  "ceiling": [
+    {
+      "layer": 0,
+      "pattern": [
+        "1122",
+        "1122",
+        "2211",
+        "2211"
+      ]
+    }
+  ]
+}

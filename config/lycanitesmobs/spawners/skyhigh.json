@@ -1,0 +1,43 @@
+{
+  "name": "skyhigh",
+  "type": "spawner",
+  "enabled": true,
+  "loadDefault": true,
+  "mobCountMin": 4,
+  "ignoreBiomes": false,
+  "ignoreLightLevel": true,
+  "conditions": [],
+  "triggers": [
+    {
+      "type": "world",
+      "chance": 0.5,
+      "tickRate": 1600
+    }
+  ],
+  "locations": [
+    {
+      "type": "random",
+      "rangeMin": [
+        24,
+        0,
+        24
+      ],
+      "rangeMax": [
+        32,
+        64,
+        32
+      ],
+      "yMin": 128,
+      "sorting": "random",
+      "limit": 32,
+      "underground": true,
+      "solidGround": false
+    }
+  ],
+  "mobSpawns": [
+    {
+      "mobId": "lycanitesmobs:djinn",
+      "weight": 8
+    }
+  ]
+}

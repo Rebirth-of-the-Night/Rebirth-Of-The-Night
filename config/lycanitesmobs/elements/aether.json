@@ -1,0 +1,14 @@
+{
+  "name": "aether",
+  "loadDefault": true,
+  "buffs": [
+    "lycanitesmobs:cleansed"
+  ],
+  "debuffs": [
+    "lycanitesmobs:smited"
+  ],
+  "components": [
+    "air",
+    "order"
+  ]
+}

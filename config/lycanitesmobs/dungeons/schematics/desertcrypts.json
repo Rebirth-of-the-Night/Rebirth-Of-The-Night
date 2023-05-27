@@ -1,0 +1,201 @@
+{
+  "name": "desertcrypts",
+  "loadDefault": true,
+  "sectorCountMin": 5,
+  "sectorCountMax": 10,
+  "corridorToCorridorChance": 0.5,
+  "roomToRoomChance": 0.1,
+  "conditions": [
+    {
+      "type": "world",
+      "dimensionIds": [
+        0
+      ],
+      "dimensionListType": "whitelist",
+      "biomeTags": [
+        "sandy",
+        "wasteland",
+        "mesa",
+        "-cold"
+      ],
+      "biomeTagListType": "whitelist"
+    }
+  ],
+  "placer": {
+    "type": "surface",
+    "materials": [
+      "air",
+      "wood",
+      "leaves",
+      "plants",
+      "vine",
+      "snow",
+      "cactus"
+    ]
+  },
+  "themes": [
+    "desert"
+  ],
+  "entrances": [
+    "entrancebasic"
+  ],
+  "rooms": [
+    "roombasic",
+    "roombasicloot",
+    "roombasicmob",
+    "roombasicpit",
+    "roomdiamondpit"
+  ],
+  "corridors": [
+    "corridorbasic",
+    "corridorbasicdark",
+    "corridorbasicloot",
+    "corridorbasicmob"
+  ],
+  "stairs": [
+    "stairsbasic"
+  ],
+  "towers": [
+    "towerbasic"
+  ],
+  "bossRooms": [
+    "roombasicboss"
+  ],
+  "finishes": [
+    "roombasicfinish"
+  ],
+  "lootTables": [
+    {
+      "id": "minecraft:chests/simple_dungeon"
+    },
+    {
+      "id": "minecraft:chests/village_blacksmith",
+      "level": 2
+    },
+    {
+      "id": "minecraft:chests/nether_bridge",
+      "level": 3
+    },
+    {
+      "id": "minecraft:chests/abandoned_mineshaft",
+      "level": 4
+    },
+    {
+      "id": "minecraft:chests/stronghold_corridor",
+      "level": 5
+    },
+    {
+      "id": "minecraft:chests/stronghold_crossing",
+      "level": 6
+    }
+  ],
+  "mobSpawns": [
+    {
+      "mobId": "lycanitesmobs:cryptkeeper",
+      "weight": 14
+    },
+    {
+      "mobId": "lycanitesmobs:sutiramu",
+      "weight": 14
+    },
+    {
+      "mobId": "lycanitesmobs:clink",
+      "weight": 14,
+      "dungeonLevelMin": 2
+    },
+    {
+      "mobId": "lycanitesmobs:erepede",
+      "weight": 6,
+      "dungeonLevelMin": 2
+    },
+    {
+      "mobId": "lycanitesmobs:geonach",
+      "weight": 8,
+      "dungeonLevelMin": 3
+    },
+    {
+      "mobId": "lycanitesmobs:sylph",
+      "weight": 4,
+      "dungeonLevelMin": 4
+    },
+    {
+      "mobId": "lycanitesmobs:triffid",
+      "weight": 4,
+      "dungeonLevelMin": 5
+    },
+    {
+      "mobId": "lycanitesmobs:gorgomite",
+      "weight": 4,
+      "dungeonLevelMin": 5
+    },
+    {
+      "mobId": "lycanitesmobs:crusk",
+      "weight": 1,
+      "variant": 1,
+      "mobNameTag": "Gilded Greatworm",
+      "mobSizeScale": 3,
+      "naturalDespawn": "false",
+      "mobLevel": 25,
+      "spawnAsBoss": true,
+      "dungeonLevelMin": "0",
+      "dungeonLevelMax": 2,
+      "dungeonBoss": true,
+      "mobDrops": [
+        {
+          "item": "lycanitesmobs:soulstone_worm",
+          "amountMultiplier": false,
+          "bonusAmount": false
+        }
+      ]
+    },
+    {
+      "mobId": "lycanitesmobs:clink",
+      "weight": 1,
+      "variant": 0,
+      "mobNameTag": "Crypt Executioner",
+      "mobSizeScale": 2,
+      "naturalDespawn": "false",
+      "mobLevel": 250,
+      "spawnAsBoss": true,
+      "dungeonLevelMin": 3,
+      "dungeonLevelMax": 4,
+      "dungeonBoss": true,
+      "mobDrops": [
+        {
+          "item": "minecraft:diamond",
+          "minAmount": 10,
+          "amountMultiplier": false
+        },
+        {
+          "item": "lycanitesmobs:soulstone_imp",
+          "amountMultiplier": false,
+          "bonusAmount": false
+        }
+      ]
+    },
+    {
+      "mobId": "lycanitesmobs:zoataur",
+      "weight": 1,
+      "variant": 1,
+      "mobSizeScale": 2,
+      "mobNameTag": "The Guardian Dragon",
+      "naturalDespawn": "false",
+      "mobLevel": 25,
+      "spawnAsBoss": true,
+      "dungeonLevelMin": 5,
+      "dungeonBoss": true,
+      "mobDrops": [
+        {
+          "item": "minecraft:diamond",
+          "minAmount": 50,
+          "amountMultiplier": false
+        },
+        {
+          "item": "lycanitesmobs:soulstone_dragon",
+          "amountMultiplier": false,
+          "bonusAmount": false
+        }
+      ]
+    }
+  ]
+}

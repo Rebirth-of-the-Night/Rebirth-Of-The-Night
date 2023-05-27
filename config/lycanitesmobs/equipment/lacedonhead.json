@@ -1,0 +1,39 @@
+{
+  "itemName": "lacedonhead",
+  "loadDefault": true,
+  "slotType": "pommel",
+  "dropMobId": "lycanitesmobs:lacedon",
+  "dropChance": 0.05,
+  "levelMin": 1,
+  "levelMax": 3,
+  "elements": [
+    "water"
+  ],
+  "features": [
+    {
+      "featureType": "effect",
+      "levelMax": 1,
+      "effectType": "minecraft:weight",
+      "effectTarget": "target",
+      "effectDuration": 80,
+      "effectStrength": 1
+    },
+    {
+      "featureType": "effect",
+      "levelMin": 2,
+      "levelMax": 2,
+      "effectType": "minecraft:weight",
+      "effectTarget": "target",
+      "effectDuration": 80,
+      "effectStrength": 2
+    },
+    {
+      "featureType": "effect",
+      "levelMin": 3,
+      "effectType": "minecraft:weight",
+      "effectTarget": "target",
+      "effectDuration": 80,
+      "effectStrength": 3
+    }
+  ]
+}

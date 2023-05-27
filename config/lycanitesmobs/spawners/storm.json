@@ -1,0 +1,47 @@
+{
+  "name": "storm",
+  "type": "spawner",
+  "enabled": true,
+  "loadDefault": true,
+  "mobCountMin": 8,
+  "ignoreBiomes": true,
+  "ignoreLightLevel": true,
+  "conditions": [
+    {
+      "type": "world",
+      "weather": "storm"
+    }
+  ],
+  "triggers": [
+    {
+      "type": "world",
+      "chance": 0.125,
+      "tickRate": 800
+    }
+  ],
+  "locations": [
+    {
+      "type": "random",
+      "rangeMin": [
+        42,
+        0,
+        42
+      ],
+      "rangeMax": [
+        32,
+        48,
+        32
+      ],
+      "sorting": "random",
+      "listType": "whitelist",
+      "limit": 32,
+      "solidGround": false
+    }
+  ],
+  "mobSpawns": [
+    {
+      "mobId": "lycanitesmobs:zephyr",
+      "weight": 8
+    }
+  ]
+}

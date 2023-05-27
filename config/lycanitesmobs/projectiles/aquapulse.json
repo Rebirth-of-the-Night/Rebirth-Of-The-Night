@@ -1,0 +1,38 @@
+{
+  "name": "aquapulse",
+  "loadDefault": true,
+  "width": 2.0,
+  "height": 2.0,
+  "scale": 2.0,
+  "damage": 6,
+  "pierce": 1,
+  "knockbackChance": 0.5,
+  "effectDuration": 5,
+  "effectAmplifier": 1,
+  "velocity": 0.6,
+  "weight": 1,
+  "lifetime": 100,
+  "elements": [
+    "water"
+  ],
+  "behaviours": [
+    {
+      "type": "placeBlocks",
+      "block": "minecraft:water",
+      "radius": 2,
+      "height": 1
+    }
+  ],
+  "waterproof": true,
+  "lavaproof": false,
+  "cutGrass": false,
+  "impactSound": false,
+  "ripper": false,
+  "pierceBlocks": false,
+  "glow": false,
+  "rollSpeed": 4,
+  "particleCount": 10,
+  "particleType": "dripWater",
+  "waterParticleType": "bubble",
+  "animationFrames": 8
+}

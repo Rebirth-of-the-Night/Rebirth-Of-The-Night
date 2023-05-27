@@ -1,0 +1,66 @@
+{
+  "itemName": "uvaraptorskull",
+  "loadDefault": true,
+  "slotType": "head",
+  "dropMobId": "lycanitesmobs:uvaraptor",
+  "dropChance": 0.3,
+  "levelMin": 1,
+  "levelMax": 3,
+  "elements": [
+    "air",
+    "arbour"
+  ],
+  "features": [
+    {
+      "featureType": "slot",
+      "slotType": "axe"
+    },
+    {
+      "featureType": "slot",
+      "slotType": "axe"
+    },
+    {
+      "featureType": "damage",
+      "levelMax": 2,
+      "damageAmount": 1,
+      "damageKnockback": 0,
+      "damageCooldown": 0,
+      "damageRange": 1,
+      "damageSweep": 45
+    },
+    {
+      "featureType": "damage",
+      "levelMin": 3,
+      "damageAmount": 2,
+      "damageKnockback": 0,
+      "damageCooldown": 0,
+      "damageRange": 1,
+      "damageSweep": 45
+    },
+    {
+      "featureType": "effect",
+      "levelMax": 1,
+      "effectType": "minecraft:slowness",
+      "effectTarget": "target",
+      "effectDuration": 40,
+      "effectStrength": 1
+    },
+    {
+      "featureType": "effect",
+      "levelMin": 2,
+      "levelMax": 2,
+      "effectType": "minecraft:slowness",
+      "effectTarget": "target",
+      "effectDuration": 60,
+      "effectStrength": 2
+    },
+    {
+      "featureType": "effect",
+      "levelMin": 3,
+      "effectType": "minecraft:slowness",
+      "effectTarget": "target",
+      "effectDuration": 80,
+      "effectStrength": 3
+    }
+  ]
+}

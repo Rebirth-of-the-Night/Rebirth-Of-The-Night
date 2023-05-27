@@ -1,0 +1,12 @@
+{
+  "name": "hardy",
+  "loadDefault": true,
+  "hunt": [],
+  "pack": [],
+  "wary": [],
+  "flee": [],
+  "ignore": [
+    "boss"
+  ],
+  "default": "retaliate"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "air",
+  "loadDefault": true,
+  "buffs": [
+    "lycanitesmobs:fallresist"
+  ],
+  "debuffs": [
+    "minecraft:levitation"
+  ]
+}

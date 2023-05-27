@@ -1,0 +1,72 @@
+{
+  "itemName": "darklingskull",
+  "loadDefault": true,
+  "slotType": "head",
+  "dropMobId": "lycanitesmobs:darkling",
+  "dropChance": 0.1,
+  "levelMin": 2,
+  "levelMax": 3,
+  "elements": [
+    "shadow",
+    "void"
+  ],
+  "features": [
+    {
+      "featureType": "slot",
+      "slotType": "blade"
+    },
+    {
+      "featureType": "damage",
+      "levelMax": 2,
+      "damageAmount": 1,
+      "damageKnockback": 0,
+      "damageCooldown": 1,
+      "damageRange": 1,
+      "damageSweep": 45
+    },
+    {
+      "featureType": "damage",
+      "levelMin": 3,
+      "damageAmount": 2,
+      "damageKnockback": 0,
+      "damageCooldown": 1,
+      "damageRange": 1,
+      "damageSweep": 45
+    },
+    {
+      "featureType": "effect",
+      "levelMax": 1,
+      "effectType": "lycanitesmobs:leech",
+      "effectTarget": "self",
+      "effectDuration": 20,
+      "effectStrength": 1
+    },
+    {
+      "featureType": "effect",
+      "levelMin": 2,
+      "levelMax": 2,
+      "effectType": "lycanitesmobs:leech",
+      "effectTarget": "self",
+      "effectDuration": 40,
+      "effectStrength": 2
+    },
+    {
+      "featureType": "effect",
+      "levelMin": 3,
+      "effectType": "lycanitesmobs:leech",
+      "effectTarget": "self",
+      "effectDuration": 60,
+      "effectStrength": 3
+    },
+    {
+      "featureType": "summon",
+      "levelMin": 3,
+      "summonMobId": "lycanitesmobs.darkling",
+      "summonChance": 0.05,
+      "summonDuration": 10,
+      "summonCountMin": 1,
+      "summonCountMax": 1,
+      "sizeScale": 1.0
+    }
+  ]
+}

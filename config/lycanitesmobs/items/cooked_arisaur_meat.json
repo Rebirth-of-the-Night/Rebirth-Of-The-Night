@@ -1,0 +1,21 @@
+{
+  "name": "cooked_arisaur_meat",
+  "loadDefault": true,
+  "group": "items",
+  "maxStackSize": 64,
+  "food": {
+    "hunger": 8,
+    "saturation": 0.8,
+    "alwaysEdible": true,
+    "fast": false,
+    "meat": true,
+    "effects": [
+      {
+        "effectId": "lycanitesmobs:rejuvenation",
+        "duration": 30,
+        "amplifier": 0,
+        "chance": 1.0
+      }
+    ]
+  }
+}

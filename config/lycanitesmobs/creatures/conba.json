@@ -1,0 +1,101 @@
+{
+  "name": "conba",
+  "creatureType": "beast",
+  "groups": [
+    "monster",
+    "animal"
+  ],
+  "entityClass": "com.lycanitesmobs.core.entity.creature.EntityConba",
+  "modelClass": "com.lycanitesmobs.client.model.creature.ModelConba",
+  "loadDefault": true,
+  "enabled": true,
+  "spawning": {
+    "enabled": true,
+    "spawners": [
+      "monster",
+      "beast"
+    ],
+    "disableSubspecies": false,
+    "dimensionIds": [
+      -1,
+      1
+    ],
+    "dimensionListType": "blacklist",
+    "ignoreBiome": false,
+    "biomeTags": [
+      "jungle"
+    ],
+    "spawnWeight": 8,
+    "dungeonWeight": 200,
+    "spawnAreaLimit": 5,
+    "spawnGroupMin": 1,
+    "spawnGroupMax": 3,
+    "spawnsInLight": false,
+    "spawnsInDark": true,
+    "worldDayMin": -1,
+    "despawnNatural": true,
+    "despawnForced": false
+  },
+  "width": 0.6,
+  "height": 0.9,
+  "experience": 5,
+  "health": 10,
+  "defense": 0,
+  "armor": 0,
+  "speed": 26,
+  "damage": 2,
+  "attackSpeed": 1,
+  "rangedSpeed": 0.5,
+  "effectDuration": 5,
+  "effectAmplifier": 0,
+  "pierce": 1,
+  "sight": 24,
+  "knockbackResistance": 0,
+  "bagSize": 5,
+  "eggBackColor": "#665500",
+  "eggForeColor": "#CC99BB",
+  "subspecies": [
+    {
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "violet",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "dark",
+          "type": "uncommon"
+        }
+      ]
+    }
+  ],
+  "element": "arcane",
+  "diets": [
+    "frugivore"
+  ],
+  "peaceful": false,
+  "summonable": false,
+  "tameable": false,
+  "mountable": false,
+  "summonCost": 2,
+  "dungeonLevel": 0,
+  "drops": [
+    {
+      "item": "minecraft:dye",
+      "metadata": 3,
+      "minAmount": 1,
+      "maxAmount": 5,
+      "chance": 1
+    },
+    {
+      "item": "lycanitesmobs:poopcharge",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 1
+    }
+  ],
+  "sizeScale": 1,
+  "hitboxScale": 1
+}

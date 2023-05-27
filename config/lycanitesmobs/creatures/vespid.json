@@ -1,0 +1,113 @@
+{
+  "name": "vespid",
+  "creatureType": "insect",
+  "groups": [
+    "predator"
+  ],
+  "entityClass": "com.lycanitesmobs.core.entity.creature.EntityVespid",
+  "modelClass": "com.lycanitesmobs.client.model.creature.ModelVespid",
+  "loadDefault": true,
+  "enabled": true,
+  "spawning": {
+    "enabled": true,
+    "spawners": [
+      "sky",
+      "underground"
+    ],
+    "disableSubspecies": false,
+    "dimensionIds": [
+      -1,
+      1
+    ],
+    "dimensionListType": "blacklist",
+    "ignoreBiome": false,
+    "biomeTags": [
+      "jungle"
+    ],
+    "spawnWeight": 8,
+    "dungeonWeight": 200,
+    "spawnAreaLimit": 10,
+    "spawnGroupMin": 3,
+    "spawnGroupMax": 6,
+    "spawnsInLight": false,
+    "spawnsInDark": true,
+    "worldDayMin": -1,
+    "despawnNatural": true,
+    "despawnForced": false
+  },
+  "width": 0.8,
+  "height": 1.4,
+  "experience": 5,
+  "health": 5,
+  "defense": 0,
+  "armor": 0,
+  "speed": 32,
+  "damage": 1,
+  "attackSpeed": 2,
+  "rangedSpeed": 1,
+  "effectDuration": 5,
+  "effectAmplifier": 0,
+  "pierce": 1,
+  "sight": 24,
+  "knockbackResistance": 0,
+  "bagSize": 5,
+  "eggBackColor": "#112200",
+  "eggForeColor": "#998800",
+  "subspecies": [
+    {
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "scarlet",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "ashen",
+          "type": "uncommon"
+        }
+      ]
+    }
+  ],
+  "element": "arbour",
+  "diets": [
+    "carnivore",
+    "insectivore",
+    "frugivore"
+  ],
+  "peaceful": false,
+  "summonable": false,
+  "tameable": false,
+  "mountable": false,
+  "summonCost": 2,
+  "dungeonLevel": 2,
+  "drops": [
+    {
+      "item": "minecraft:clay_ball",
+      "minAmount": 1,
+      "maxAmount": 16,
+      "chance": 1
+    },
+    {
+      "item": "lycanitesmobs:propolis",
+      "minAmount": 1,
+      "maxAmount": 4,
+      "chance": 0.5
+    },
+    {
+      "item": "lycanitesmobs:veswax",
+      "minAmount": 1,
+      "maxAmount": 4,
+      "chance": 0.5
+    }
+  ],
+  "sizeScale": 1,
+  "hitboxScale": 1,
+  "flags": [
+    {
+      "name": "hiveBuilding",
+      "value": true
+    }
+  ]
+}

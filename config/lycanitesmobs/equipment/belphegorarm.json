@@ -1,0 +1,52 @@
+{
+  "itemName": "belphegorarm",
+  "loadDefault": true,
+  "slotType": "base",
+  "dropMobId": "lycanitesmobs:belph",
+  "dropChance": 0.05,
+  "levelMin": 1,
+  "levelMax": 3,
+  "elements": [
+    "nether"
+  ],
+  "features": [
+    {
+      "featureType": "slot",
+      "slotType": "head"
+    },
+    {
+      "featureType": "slot",
+      "slotType": "pommel"
+    },
+    {
+      "featureType": "projectile",
+      "levelMax": 1,
+      "projectileName": "doomfireball",
+      "projectileTrigger": "secondary",
+      "projectilePattern": "simple",
+      "cooldown": 40,
+      "count": 5
+    },
+    {
+      "featureType": "projectile",
+      "levelMin": 2,
+      "levelMax": 2,
+      "projectileName": "doomfireball",
+      "projectileTrigger": "secondary",
+      "projectilePattern": "simple",
+      "cooldown": 30,
+      "count": 9,
+      "bonusDamage": 1
+    },
+    {
+      "featureType": "projectile",
+      "levelMin": 3,
+      "projectileName": "doomfireball",
+      "projectileTrigger": "secondary",
+      "projectilePattern": "simple",
+      "cooldown": 20,
+      "count": 16,
+      "bonusDamage": 2
+    }
+  ]
+}

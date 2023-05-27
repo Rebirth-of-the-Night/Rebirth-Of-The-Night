@@ -1,0 +1,15 @@
+{
+  "name": "quake",
+  "loadDefault": true,
+  "debuffDurationMultiplier": 2,
+  "buffs": [
+    "minecraft:jump_boost"
+  ],
+  "debuffs": [
+    "minecraft:hunger"
+  ],
+  "components": [
+    "earth",
+    "chaos"
+  ]
+}

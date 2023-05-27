@@ -1,0 +1,106 @@
+{
+  "itemName": "epionwing",
+  "loadDefault": true,
+  "slotType": "axe",
+  "dropMobId": "lycanitesmobs:epion",
+  "dropChance": 0.2,
+  "levelMin": 1,
+  "levelMax": 3,
+  "elements": [
+    "void"
+  ],
+  "features": [
+    {
+      "featureType": "harvest",
+      "levelMax": 1,
+      "harvestType": "axe",
+      "harvestShape": "block",
+      "harvestRange": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "featureType": "harvest",
+      "levelMin": 2,
+      "levelMax": 2,
+      "harvestType": "axe",
+      "harvestShape": "block",
+      "harvestRange": [
+        2,
+        3,
+        2
+      ]
+    },
+    {
+      "featureType": "harvest",
+      "levelMin": 3,
+      "harvestType": "axe",
+      "harvestShape": "block",
+      "harvestRange": [
+        3,
+        10,
+        3
+      ]
+    },
+    {
+      "featureType": "damage",
+      "levelMax": 1,
+      "damageAmount": 3,
+      "damageKnockback": 0,
+      "damageCooldown": 1,
+      "damageRange": 1,
+      "damageSweep": 90
+    },
+    {
+      "featureType": "damage",
+      "levelMin": 2,
+      "levelMax": 2,
+      "damageAmount": 4,
+      "damageKnockback": 0,
+      "damageCooldown": 1,
+      "damageRange": 1,
+      "damageSweep": 180
+    },
+    {
+      "featureType": "damage",
+      "levelMin": 3,
+      "damageAmount": 5,
+      "damageKnockback": 0,
+      "damageCooldown": 0.75,
+      "damageRange": 1,
+      "damageSweep": 180
+    },
+    {
+      "featureType": "projectile",
+      "levelMax": 1,
+      "projectileName": "bloodleech",
+      "projectileTrigger": "secondary",
+      "projectilePattern": "simple",
+      "cooldown": 20,
+      "count": 1
+    },
+    {
+      "featureType": "projectile",
+      "levelMin": 2,
+      "levelMax": 2,
+      "projectileName": "bloodleech",
+      "projectileTrigger": "secondary",
+      "projectilePattern": "simple",
+      "cooldown": 16,
+      "count": 1,
+      "bonusDamage": 1
+    },
+    {
+      "featureType": "projectile",
+      "levelMin": 3,
+      "projectileName": "bloodleech",
+      "projectileTrigger": "secondary",
+      "projectilePattern": "simple",
+      "cooldown": 8,
+      "count": 1,
+      "bonusDamage": 2
+    }
+  ]
+}

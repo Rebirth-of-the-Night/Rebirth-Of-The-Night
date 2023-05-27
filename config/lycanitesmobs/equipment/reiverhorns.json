@@ -1,0 +1,48 @@
+{
+  "itemName": "reiverhorns",
+  "loadDefault": true,
+  "slotType": "pike",
+  "dropMobId": "lycanitesmobs:reiver",
+  "dropChance": 0.1,
+  "levelMin": 1,
+  "levelMax": 3,
+  "elements": [
+    "frost"
+  ],
+  "features": [
+    {
+      "featureType": "damage",
+      "levelMax": 2,
+      "damageAmount": 8,
+      "damageKnockback": 2,
+      "damageCooldown": 1,
+      "damageRange": 2,
+      "damageSweep": 45
+    },
+    {
+      "featureType": "damage",
+      "levelMin": 3,
+      "damageAmount": 10,
+      "damageKnockback": 3,
+      "damageCooldown": 0.75,
+      "damageRange": 3,
+      "damageSweep": 45
+    },
+    {
+      "featureType": "effect",
+      "effectType": "minecraft:slowness",
+      "effectTarget": "target",
+      "effectDuration": 80,
+      "effectStrength": 1
+    },
+    {
+      "featureType": "projectile",
+      "levelMin": 3,
+      "projectileName": "frostbolt",
+      "projectileTrigger": "secondary",
+      "projectilePattern": "simple",
+      "cooldown": 10,
+      "count": 1
+    }
+  ]
+}

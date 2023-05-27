@@ -1,0 +1,99 @@
+{
+  "name": "shade",
+  "creatureType": "aberration",
+  "groups": [
+    "monster",
+    "dark"
+  ],
+  "entityClass": "com.lycanitesmobs.core.entity.creature.EntityShade",
+  "modelClass": "com.lycanitesmobs.client.model.creature.ModelShade",
+  "loadDefault": true,
+  "enabled": true,
+  "spawning": {
+    "enabled": true,
+    "spawners": [
+      "underground"
+    ],
+    "disableSubspecies": false,
+    "dimensionIds": [
+      -1
+    ],
+    "dimensionListType": "blacklist",
+    "ignoreBiome": true,
+    "biomeTags": [],
+    "spawnWeight": 2,
+    "dungeonWeight": 200,
+    "spawnAreaLimit": 5,
+    "spawnGroupMin": 1,
+    "spawnGroupMax": 3,
+    "spawnsInLight": false,
+    "spawnsInDark": true,
+    "worldDayMin": -1,
+    "despawnNatural": true,
+    "despawnForced": false
+  },
+  "width": 1.9,
+  "height": 2.9,
+  "experience": 15,
+  "health": 60,
+  "defense": 1,
+  "armor": 0,
+  "speed": 26,
+  "damage": 3,
+  "attackSpeed": 0.5,
+  "rangedSpeed": 1,
+  "effectDuration": 5,
+  "effectAmplifier": 0,
+  "pierce": 1,
+  "sight": 24,
+  "knockbackResistance": 0.5,
+  "bagSize": 10,
+  "tamingReputation": 500,
+  "eggBackColor": "#000402",
+  "eggForeColor": "#102336",
+  "subspecies": [
+    {
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "keppel",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "russet",
+          "type": "uncommon"
+        }
+      ]
+    }
+  ],
+  "element": "void",
+  "diets": [
+    "carnivore",
+    "piscivore",
+    "insectivore"
+  ],
+  "peaceful": false,
+  "summonable": false,
+  "tameable": true,
+  "mountable": true,
+  "summonCost": 4,
+  "dungeonLevel": 2,
+  "drops": [
+    {
+      "item": "minecraft:ender_pearl",
+      "minAmount": 1,
+      "maxAmount": 2,
+      "chance": 1
+    },
+    {
+      "item": "minecraft:obsidian",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 1
+    }
+  ],
+  "sizeScale": 1,
+  "hitboxScale": 1
+}

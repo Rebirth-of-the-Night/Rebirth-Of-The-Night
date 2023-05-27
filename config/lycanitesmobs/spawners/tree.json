@@ -1,0 +1,44 @@
+{
+  "name": "tree",
+  "type": "spawner",
+  "enabled": true,
+  "loadDefault": true,
+  "mobCountMin": 1,
+  "ignoreDimensions": true,
+  "ignoreBiomes": true,
+  "ignoreCollision": true,
+  "ignoreLightLevel": true,
+  "ignoreGroupLimit": true,
+  "ignoreForgeCanSpawnEvent": true,
+  "blockBreakRadius": 1,
+  "conditions": [],
+  "triggers": [
+    {
+      "type": "tree",
+      "onHarvest": false,
+      "chance": 0.02
+    }
+  ],
+  "locations": [
+    {
+      "type": "base",
+      "rangeMin": [
+        0,
+        0,
+        0
+      ],
+      "rangeMax": [
+        0,
+        0,
+        0
+      ],
+      "sorting": "random"
+    }
+  ],
+  "mobSpawns": [
+    {
+      "mobId": "lycanitesmobs:ent",
+      "weight": 8
+    }
+  ]
+}

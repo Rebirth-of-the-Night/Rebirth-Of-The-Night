@@ -1,0 +1,55 @@
+{
+  "itemName": "wildkinarm",
+  "loadDefault": true,
+  "slotType": "pike",
+  "dropMobId": "lycanitesmobs:wildkin",
+  "dropChance": 0.2,
+  "levelMin": 1,
+  "levelMax": 3,
+  "elements": [
+    "earth"
+  ],
+  "features": [
+    {
+      "featureType": "projectile",
+      "levelMax": 1,
+      "projectileName": "boulderblast",
+      "projectileTrigger": "primary",
+      "projectilePattern": "simple",
+      "cooldown": 8,
+      "count": 5
+    },
+    {
+      "featureType": "projectile",
+      "levelMin": 2,
+      "levelMax": 2,
+      "projectileName": "boulderblast",
+      "projectileTrigger": "primary",
+      "projectilePattern": "simple",
+      "cooldown": 6,
+      "count": 9,
+      "bonusDamage": 1
+    },
+    {
+      "featureType": "projectile",
+      "levelMin": 3,
+      "projectileName": "boulderblast",
+      "projectileTrigger": "primary",
+      "projectilePattern": "simple",
+      "cooldown": 2,
+      "count": 16,
+      "bonusDamage": 2
+    },
+    {
+      "featureType": "projectile",
+      "levelMin": 2,
+      "projectileName": "blizzard",
+      "projectileTrigger": "secondary",
+      "projectilePattern": "spread",
+      "cooldown": 2,
+      "count": 10,
+      "spreadX": 45,
+      "spreadY": 10
+    }
+  ]
+}

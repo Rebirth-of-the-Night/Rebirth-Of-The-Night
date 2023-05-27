@@ -1,0 +1,31 @@
+{
+  "name": "ember",
+  "loadDefault": true,
+  "width": 0.5,
+  "height": 0.5,
+  "scale": 0.5,
+  "damage": 1,
+  "pierce": 1,
+  "knockbackChance": 0,
+  "effectDuration": 3,
+  "effectAmplifier": 1,
+  "velocity": 0.6,
+  "weight": 0,
+  "lifetime": 10,
+  "elements": [
+    "fire"
+  ],
+  "behaviours": [],
+  "waterproof": false,
+  "lavaproof": false,
+  "cutGrass": false,
+  "impactSound": false,
+  "ripper": true,
+  "pierceBlocks": false,
+  "glow": true,
+  "rollSpeed": 4,
+  "particleCount": 1,
+  "particleId": "minecraft:flame",
+  "waterParticleType": "bubble",
+  "animationFrames": 4
+}

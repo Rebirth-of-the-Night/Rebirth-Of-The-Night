@@ -1,0 +1,12 @@
+{
+  "name": "mystic",
+  "loadDefault": true,
+  "hunt": [],
+  "pack": [],
+  "wary": [],
+  "flee": [],
+  "ignore": [
+    "boss"
+  ],
+  "default": "wary"
+}

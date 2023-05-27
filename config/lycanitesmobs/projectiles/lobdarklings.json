@@ -1,0 +1,40 @@
+{
+  "name": "lobdarklings",
+  "entityClass": "com.lycanitesmobs.core.entity.CustomProjectileModelEntity",
+  "modelClass": "com.lycanitesmobs.client.model.projectile.LobDarklingsModel",
+  "loadDefault": true,
+  "width": 2.0,
+  "height": 2.0,
+  "scale": 1.25,
+  "damage": 6,
+  "pierce": 1,
+  "knockbackChance": 0.5,
+  "effectDuration": 5,
+  "effectAmplifier": 1,
+  "velocity": 0.8,
+  "weight": 1,
+  "lifetime": 100,
+  "elements": [
+    "shadow",
+    "void"
+  ],
+  "behaviours": [
+    {
+      "type": "summon",
+      "summonMobId": "lycanitesmobs:darkling",
+      "summonChance": 1,
+      "summonDuration": 200,
+      "summonCountMin": 3,
+      "summonCountMax": 3,
+      "sizeScale": 1.5
+    }
+  ],
+  "waterproof": true,
+  "lavaproof": false,
+  "cutGrass": false,
+  "impactSound": false,
+  "ripper": false,
+  "pierceBlocks": false,
+  "glow": false,
+  "rollSpeed": 0
+}

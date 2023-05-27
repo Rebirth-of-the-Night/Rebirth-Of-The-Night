@@ -1,0 +1,77 @@
+{
+  "itemName": "malwratheye",
+  "loadDefault": true,
+  "slotType": "jewel",
+  "dropMobId": "lycanitesmobs:cacodemon",
+  "dropChance": 0.2,
+  "levelMin": 1,
+  "levelMax": 3,
+  "elements": [
+    "lightning"
+  ],
+  "features": [
+    {
+      "featureType": "projectile",
+      "levelMax": 1,
+      "projectileName": "demonicspark",
+      "projectileTrigger": "primary",
+      "projectilePattern": "ring",
+      "cooldown": 40,
+      "count": 8,
+      "ringRange": 120
+    },
+    {
+      "featureType": "projectile",
+      "levelMin": 2,
+      "levelMax": 2,
+      "projectileName": "demonicspark",
+      "projectileTrigger": "primary",
+      "projectilePattern": "ring",
+      "cooldown": 30,
+      "count": 16,
+      "bonusDamage": 2,
+      "ringRange": 180
+    },
+    {
+      "featureType": "projectile",
+      "levelMin": 3,
+      "projectileName": "demonicspark",
+      "projectileTrigger": "primary",
+      "projectilePattern": "ring",
+      "cooldown": 20,
+      "count": 24,
+      "bonusDamage": 4,
+      "ringRange": 360
+    },
+    {
+      "featureType": "projectile",
+      "levelMax": 1,
+      "projectileName": "demonicblast",
+      "projectileTrigger": "secondary",
+      "projectilePattern": "simple",
+      "cooldown": 80,
+      "count": 1
+    },
+    {
+      "featureType": "projectile",
+      "levelMin": 2,
+      "levelMax": 2,
+      "projectileName": "demonicblast",
+      "projectileTrigger": "secondary",
+      "projectilePattern": "simple",
+      "cooldown": 40,
+      "count": 1,
+      "bonusDamage": 1
+    },
+    {
+      "featureType": "projectile",
+      "levelMin": 3,
+      "projectileName": "demonicblast",
+      "projectileTrigger": "secondary",
+      "projectilePattern": "simple",
+      "cooldown": 20,
+      "count": 1,
+      "bonusDamage": 2
+    }
+  ]
+}

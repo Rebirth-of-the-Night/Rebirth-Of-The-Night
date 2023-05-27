@@ -1,0 +1,29 @@
+{
+  "name": "aetherwave",
+  "entityClass": "com.lycanitesmobs.core.entity.CustomProjectileModelEntity",
+  "modelClass": "com.lycanitesmobs.client.model.projectile.AetherwaveModel",
+  "loadDefault": true,
+  "width": 2.0,
+  "height": 2.0,
+  "scale": 1.0,
+  "damage": 5,
+  "pierce": 2,
+  "knockbackChance": 0.5,
+  "effectDuration": 5,
+  "effectAmplifier": 1,
+  "velocity": 0.9,
+  "weight": 1,
+  "lifetime": 100,
+  "elements": [
+    "aether"
+  ],
+  "behaviours": [],
+  "waterproof": true,
+  "lavaproof": false,
+  "cutGrass": false,
+  "impactSound": false,
+  "ripper": true,
+  "pierceBlocks": false,
+  "glow": true,
+  "rollSpeed": 0
+}

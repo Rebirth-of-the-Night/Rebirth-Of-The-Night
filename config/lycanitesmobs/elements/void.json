@@ -1,0 +1,15 @@
+{
+  "name": "void",
+  "loadDefault": true,
+  "debuffDurationMultiplier": 2,
+  "buffs": [
+    "lycanitesmobs:leech"
+  ],
+  "debuffs": [
+    "lycanitesmobs:decay"
+  ],
+  "components": [
+    "order",
+    "chaos"
+  ]
+}

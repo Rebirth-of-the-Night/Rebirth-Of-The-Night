@@ -1,0 +1,86 @@
+{
+  "name": "aberrant",
+  "loadDefault": true,
+  "floorPattern": "random",
+  "wallPattern": "random",
+  "ceilingPattern": "random",
+  "floorBlocks": [
+    {
+      "blockId": "lycanitesmobs:aberrantstonetile",
+      "weight": 8
+    },
+    {
+      "blockId": "lycanitesmobs:aberrantstonepolished",
+      "weight": 2
+    },
+    {
+      "blockId": "minecraft:end_stone",
+      "weight": 0
+    }
+  ],
+  "wallBlocks": [
+    {
+      "blockId": "lycanitesmobs:aberrantstonebrick",
+      "weight": 8
+    },
+    {
+      "blockId": "lycanitesmobs:aberrantstonechiseled",
+      "weight": 2
+    },
+    {
+      "blockId": "lycanitesmobs:aberrantstonepillar",
+      "weight": 0
+    }
+  ],
+  "ceilingBlocks": [
+    {
+      "blockId": "lycanitesmobs:aberrantstonetile",
+      "weight": 8
+    },
+    {
+      "blockId": "lycanitesmobs:aberrantstonepolished",
+      "weight": 2
+    }
+  ],
+  "lightBlocks": [
+    {
+      "blockId": "lycanitesmobs:aberrantcrystal",
+      "weight": 8
+    },
+    {
+      "blockId": "minecraft:end_stone",
+      "weight": 8
+    }
+  ],
+  "airBlocks": [
+    {
+      "blockId": "minecraft:air",
+      "weight": 8
+    }
+  ],
+  "torchBlocks": [],
+  "stairBlocks": [
+    {
+      "blockId": "lycanitesmobs:aberrantstone_stairs",
+      "weight": 8
+    },
+    {
+      "blockId": "lycanitesmobs:aberrantstonebrick_stairs",
+      "weight": 8
+    },
+    {
+      "blockId": "lycanitesmobs:aberrantstonetile_stairs",
+      "weight": 8
+    }
+  ],
+  "pitBlocks": [
+    {
+      "blockId": "lycanitesmobs:acid",
+      "weight": 8
+    },
+    {
+      "blockId": "lycanitesmobs:ooze",
+      "weight": 8
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "name": "village",
+  "type": "spawner",
+  "enabled": true,
+  "loadDefault": true,
+  "mobCountMin": 8,
+  "ignoreBiomes": true,
+  "ignoreLightLevel": true,
+  "groupLimitRange": 64,
+  "conditions": [],
+  "triggers": [
+    {
+      "type": "world",
+      "chance": 1,
+      "tickRate": 1200
+    }
+  ],
+  "locations": [
+    {
+      "type": "village",
+      "rangeMin": [
+        0,
+        0,
+        0
+      ],
+      "rangeMax": [
+        16,
+        255,
+        16
+      ],
+      "sorting": "random",
+      "limit": 32,
+      "solidGround": true
+    }
+  ],
+  "mobSpawns": [
+    {
+      "mobId": "lycanitesmobs:aegis",
+      "weight": 8,
+      "home": 32
+    }
+  ]
+}

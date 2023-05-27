@@ -1,0 +1,61 @@
+{
+  "name": "pumpkin",
+  "type": "spawner",
+  "enabled": true,
+  "loadDefault": true,
+  "mobCountMin": 3,
+  "ignoreBiomes": true,
+  "ignoreLightLevel": false,
+  "conditions": [
+    {
+      "type": "world",
+      "dimensionIds": [
+        0,
+        7
+      ],
+      "dayTimeMin": 14000,
+      "moonPhase": 0
+    }
+  ],
+  "triggers": [
+    {
+      "type": "world",
+      "chance": 0.5,
+      "tickRate": 1200
+    }
+  ],
+  "locations": [
+    {
+      "type": "block",
+      "rangeMin": [
+        16,
+        0,
+        16
+      ],
+      "rangeMax": [
+        32,
+        32,
+        32
+      ],
+      "offset": [
+        0,
+        1,
+        0
+      ],
+      "surface": true,
+      "underground": true,
+      "sorting": "random",
+      "blocks": [
+        "minecraft:pumpkin",
+        "minecraft:lit_pumpkin"
+      ],
+      "blockCost": 4,
+      "listType": "whitelist"
+    }
+  ],
+  "mobSpawns": [
+    {
+      "mobId": "lycanitesmobs:tpumpkyn"
+    }
+  ]
+}

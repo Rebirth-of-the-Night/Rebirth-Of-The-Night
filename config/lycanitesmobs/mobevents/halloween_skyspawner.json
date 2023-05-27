@@ -1,0 +1,70 @@
+{
+  "name": "halloween_skyspawner",
+  "type": "spawner",
+  "enabled": true,
+  "loadDefault": true,
+  "mobCountMin": 3,
+  "ignoreDimensions": true,
+  "ignoreBiomes": true,
+  "ignoreLightLevel": true,
+  "ignoreGroupLimit": true,
+  "ignoreForgeCanSpawnEvent": true,
+  "forceNoDespawn": true,
+  "eventName": "halloween",
+  "conditions": [],
+  "triggers": [
+    {
+      "type": "player",
+      "chance": 1,
+      "tickRate": 100
+    }
+  ],
+  "locations": [
+    {
+      "type": "random",
+      "rangeMin": [
+        24,
+        0,
+        24
+      ],
+      "rangeMax": [
+        32,
+        48,
+        32
+      ],
+      "sorting": "random",
+      "limit": 32,
+      "solidGround": false
+    }
+  ],
+  "mobSpawns": [
+    {
+      "mobId": "lycanitesmobs:wraith",
+      "weight": 8,
+      "mobNameTag": "Lost Soul"
+    },
+    {
+      "mobId": "lycanitesmobs:banshee",
+      "weight": 4,
+      "mobNameTag": "Maniacal Ghost"
+    },
+    {
+      "mobId": "lycanitesmobs:cacodemon",
+      "weight": 4
+    },
+    {
+      "mobId": "lycanitesmobs:afrit",
+      "weight": 8
+    },
+    {
+      "mobId": "lycanitesmobs:grue",
+      "weight": 8,
+      "mobNameTag": "Shadow Clown"
+    },
+    {
+      "mobId": "lycanitesmobs:epion",
+      "weight": 4,
+      "mobNameTag": "Vampire Bat"
+    }
+  ]
+}

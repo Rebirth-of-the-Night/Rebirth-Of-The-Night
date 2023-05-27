@@ -1,0 +1,79 @@
+{
+  "itemName": "geonachfist",
+  "loadDefault": true,
+  "slotType": "axe",
+  "dropMobId": "lycanitesmobs:geonach",
+  "dropChance": 0.1,
+  "levelMin": 1,
+  "levelMax": 3,
+  "elements": [
+    "earth"
+  ],
+  "features": [
+    {
+      "featureType": "harvest",
+      "levelMax": 1,
+      "harvestType": "pickaxe",
+      "harvestSpeed": 6,
+      "harvestShape": "block",
+      "harvestRange": [
+        1,
+        1,
+        2
+      ],
+      "harvestRangeLevelMultiplier": 1
+    },
+    {
+      "featureType": "harvest",
+      "levelMin": 2,
+      "levelMax": 2,
+      "harvestType": "pickaxe",
+      "harvestSpeed": 7,
+      "harvestShape": "block",
+      "harvestRange": [
+        1,
+        2,
+        2
+      ],
+      "harvestRangeLevelMultiplier": 1
+    },
+    {
+      "featureType": "harvest",
+      "harvestType": "pickaxe",
+      "levelMin": 3,
+      "harvestSpeed": 8,
+      "harvestShape": "block",
+      "harvestRange": [
+        2,
+        4,
+        4
+      ],
+      "harvestRangeLevelMultiplier": 1
+    },
+    {
+      "featureType": "damage",
+      "levelMax": 2,
+      "damageAmount": 4,
+      "damageKnockback": 2,
+      "damageCooldown": 2,
+      "damageRange": 1,
+      "damageSweep": 360
+    },
+    {
+      "featureType": "damage",
+      "levelMin": 3,
+      "damageAmount": 5,
+      "damageKnockback": 2,
+      "damageCooldown": 2,
+      "damageRange": 1,
+      "damageSweep": 360
+    },
+    {
+      "featureType": "effect",
+      "effectType": "lycanitesmobs:weight",
+      "effectTarget": "target",
+      "effectDuration": 80,
+      "effectStrength": 1
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "name": "corridorbasic",
+  "type": "corridor",
+  "weight": 8,
+  "loadDefault": true,
+  "changeTheme": false,
+  "sizeMin": [
+    6,
+    5,
+    14
+  ],
+  "sizeMax": [
+    8,
+    5,
+    21
+  ],
+  "floor": [
+    {
+      "layer": 0,
+      "pattern": [
+        "1122",
+        "1122",
+        "2211",
+        "2211"
+      ]
+    }
+  ],
+  "wall": [
+    {
+      "layer": -1,
+      "pattern": [
+        "1111111",
+        "0000000",
+        "0000000",
+        "0000000",
+        "1111111"
+      ]
+    },
+    {
+      "layer": 0,
+      "pattern": [
+        "1111111",
+        "2222222",
+        "222L222",
+        "2222222",
+        "1111111"
+      ]
+    },
+    {
+      "layer": 1,
+      "tileHorizontal": true,
+      "centerHorizontal": true,
+      "tileVertical": false,
+      "centerVertical": false,
+      "pattern": [
+        "0000000",
+        "0000000",
+        "000T000",
+        "0000000",
+        "0000000"
+      ]
+    }
+  ],
+  "ceiling": [
+    {
+      "layer": 0,
+      "pattern": [
+        "1122",
+        "1122",
+        "2211",
+        "2211"
+      ]
+    }
+  ]
+}

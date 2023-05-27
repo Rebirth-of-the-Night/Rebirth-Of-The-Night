@@ -1,0 +1,101 @@
+{
+  "name": "yale",
+  "creatureType": "aberration",
+  "groups": [
+    "animal"
+  ],
+  "entityClass": "com.lycanitesmobs.core.entity.creature.EntityYale",
+  "modelClass": "com.lycanitesmobs.client.model.creature.ModelYale",
+  "loadDefault": true,
+  "enabled": true,
+  "spawning": {
+    "enabled": true,
+    "spawners": [
+      "creature",
+      "animal"
+    ],
+    "disableSubspecies": false,
+    "dimensionIds": [
+      -1,
+      1
+    ],
+    "dimensionListType": "blacklist",
+    "ignoreBiome": false,
+    "biomeTags": [
+      "mountain"
+    ],
+    "spawnWeight": 16,
+    "dungeonWeight": 0,
+    "spawnAreaLimit": 5,
+    "spawnGroupMin": 1,
+    "spawnGroupMax": 3,
+    "spawnsInLight": true,
+    "spawnsInDark": false,
+    "worldDayMin": -1,
+    "despawnNatural": false,
+    "despawnForced": false
+  },
+  "width": 0.9,
+  "height": 1.8,
+  "experience": 5,
+  "health": 10,
+  "defense": 0,
+  "armor": 0,
+  "speed": 26,
+  "damage": 2,
+  "attackSpeed": 1,
+  "rangedSpeed": 1,
+  "effectDuration": 5,
+  "effectAmplifier": 1,
+  "pierce": 1,
+  "sight": 24,
+  "knockbackResistance": 0.25,
+  "bagSize": 5,
+  "eggBackColor": "#FFEEAA",
+  "eggForeColor": "#FFDD77",
+  "subspecies": [
+    {
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "lux",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "golden",
+          "type": "uncommon"
+        }
+      ]
+    }
+  ],
+  "element": "earth",
+  "diets": [
+    "herbivore"
+  ],
+  "peaceful": true,
+  "farmable": true,
+  "summonable": false,
+  "tameable": false,
+  "mountable": false,
+  "summonCost": 1,
+  "dungeonLevel": 0,
+  "drops": [
+    {
+      "item": "lycanitesmobs:raw_yale_meat",
+      "burningItem": "lycanitesmobs:cooked_yale_meat",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 1
+    },
+    {
+      "item": "minecraft:wool",
+      "minAmount": 1,
+      "maxAmount": 1,
+      "chance": 1
+    }
+  ],
+  "sizeScale": 1,
+  "hitboxScale": 1
+}

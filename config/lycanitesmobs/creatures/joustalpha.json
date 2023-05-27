@@ -1,0 +1,95 @@
+{
+  "name": "joustalpha",
+  "creatureType": "insect",
+  "groups": [
+    "alpha"
+  ],
+  "entityClass": "com.lycanitesmobs.core.entity.creature.EntityJoustAlpha",
+  "modelClass": "com.lycanitesmobs.client.model.creature.ModelJoustAlpha",
+  "loadDefault": true,
+  "enabled": true,
+  "spawning": {
+    "enabled": true,
+    "spawners": [],
+    "disableSubspecies": false,
+    "dimensionIds": [
+      -1,
+      1
+    ],
+    "dimensionListType": "blacklist",
+    "ignoreBiome": false,
+    "biomeTags": [
+      "sandy",
+      "wasteland",
+      "mesa",
+      "-cold",
+      "-snowy"
+    ],
+    "spawnWeight": 1,
+    "dungeonWeight": 0,
+    "spawnAreaLimit": 5,
+    "spawnGroupMin": 1,
+    "spawnGroupMax": 3,
+    "spawnsInLight": true,
+    "spawnsInDark": false,
+    "worldDayMin": -1,
+    "despawnNatural": false,
+    "despawnForced": false
+  },
+  "width": 0.9,
+  "height": 2.2,
+  "experience": 5,
+  "health": 20,
+  "defense": 1,
+  "armor": 0,
+  "speed": 32,
+  "damage": 3,
+  "attackSpeed": 2,
+  "rangedSpeed": 1,
+  "effectDuration": 5,
+  "effectAmplifier": -1,
+  "pierce": 1,
+  "sight": 24,
+  "knockbackResistance": 0.25,
+  "bagSize": 5,
+  "eggBackColor": "#FF0000",
+  "eggForeColor": "#FFFF00",
+  "subspecies": [
+    {
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "verdant",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "violet",
+          "type": "uncommon"
+        }
+      ]
+    }
+  ],
+  "element": "quake",
+  "diets": [
+    "exudativore"
+  ],
+  "peaceful": true,
+  "summonable": false,
+  "tameable": false,
+  "mountable": false,
+  "summonCost": 2,
+  "dungeonLevel": 1,
+  "drops": [
+    {
+      "item": "lycanitesmobs:raw_joust_meat",
+      "burningItem": "lycanitesmobs:cooked_joust_meat",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 1
+    }
+  ],
+  "sizeScale": 1,
+  "hitboxScale": 1
+}

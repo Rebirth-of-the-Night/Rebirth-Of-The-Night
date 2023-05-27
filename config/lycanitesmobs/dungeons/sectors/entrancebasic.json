@@ -1,0 +1,89 @@
+{
+  "name": "entrancebasic",
+  "type": "room",
+  "weight": 8,
+  "loadDefault": true,
+  "changeTheme": false,
+  "sizeMin": [
+    8,
+    6,
+    8
+  ],
+  "sizeMax": [
+    16,
+    9,
+    16
+  ],
+  "floor": [
+    {
+      "layer": 0,
+      "pattern": [
+        "1122",
+        "1122",
+        "2211",
+        "2211"
+      ]
+    }
+  ],
+  "wall": [
+    {
+      "layer": -1,
+      "tileHorizontal": true,
+      "centerHorizontal": true,
+      "tileVertical": true,
+      "centerVertical": false,
+      "pattern": [
+        "3222222222222223",
+        "3000000000000003",
+        "3000000000000003",
+        "300T00T00T00T003",
+        "3000000000000003",
+        "3000000000000003",
+        "3222222222222223"
+      ]
+    },
+    {
+      "layer": 0,
+      "tileHorizontal": true,
+      "centerHorizontal": true,
+      "tileVertical": true,
+      "centerVertical": false,
+      "pattern": [
+        "3111111111111113",
+        "3111112222111113",
+        "3111122112211113",
+        "311L22L11L22L113",
+        "3112211111122113",
+        "3122111111112213",
+        "3111111111111113"
+      ]
+    },
+    {
+      "layer": 1,
+      "tileHorizontal": true,
+      "centerHorizontal": true,
+      "tileVertical": true,
+      "centerVertical": false,
+      "pattern": [
+        "3000000000000003",
+        "3000000000000003",
+        "3000000000000003",
+        "300T00T00T00T003",
+        "3000000000000003",
+        "3000000000000003",
+        "3000000000000003"
+      ]
+    }
+  ],
+  "ceiling": [
+    {
+      "layer": 0,
+      "pattern": [
+        "1122",
+        "1122",
+        "2211",
+        "2211"
+      ]
+    }
+  ]
+}

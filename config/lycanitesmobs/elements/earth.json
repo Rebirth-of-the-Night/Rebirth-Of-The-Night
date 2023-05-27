@@ -1,0 +1,10 @@
+{
+  "name": "earth",
+  "loadDefault": true,
+  "buffs": [
+    "minecraft:resistance"
+  ],
+  "debuffs": [
+    "lycanitesmobs:weight"
+  ]
+}

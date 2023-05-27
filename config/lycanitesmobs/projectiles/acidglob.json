@@ -1,0 +1,31 @@
+{
+  "name": "acidglob",
+  "loadDefault": true,
+  "width": 0.75,
+  "height": 0.75,
+  "scale": 0.75,
+  "damage": 6,
+  "pierce": 4,
+  "knockbackChance": 0.5,
+  "effectDuration": 5,
+  "effectAmplifier": 1,
+  "velocity": 0.9,
+  "weight": 0.1,
+  "lifetime": 100,
+  "elements": [
+    "acid"
+  ],
+  "behaviours": [],
+  "waterproof": true,
+  "lavaproof": true,
+  "cutGrass": true,
+  "impactSound": false,
+  "ripper": true,
+  "pierceBlocks": false,
+  "glow": true,
+  "rollSpeed": 4,
+  "particleCount": 1,
+  "particleType": "spit",
+  "waterParticleType": "cloud",
+  "animationFrames": 4
+}

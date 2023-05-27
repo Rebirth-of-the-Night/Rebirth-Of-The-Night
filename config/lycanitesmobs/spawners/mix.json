@@ -1,0 +1,43 @@
+{
+  "name": "mix",
+  "type": "spawner",
+  "enabled": true,
+  "loadDefault": true,
+  "mobCountMin": 1,
+  "ignoreDimensions": true,
+  "ignoreBiomes": true,
+  "ignoreCollision": true,
+  "ignoreLightLevel": true,
+  "ignoreGroupLimit": true,
+  "ignoreForgeCanSpawnEvent": true,
+  "dropsRequirePlayerDamage": true,
+  "conditions": [],
+  "triggers": [
+    {
+      "type": "mix",
+      "chance": 0.01
+    }
+  ],
+  "locations": [
+    {
+      "type": "base",
+      "rangeMin": [
+        0,
+        0,
+        0
+      ],
+      "rangeMax": [
+        0,
+        0,
+        0
+      ],
+      "sorting": "random"
+    }
+  ],
+  "mobSpawns": [
+    {
+      "mobId": "lycanitesmobs:xaphan",
+      "weight": 8
+    }
+  ]
+}

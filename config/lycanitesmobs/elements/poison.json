@@ -1,0 +1,15 @@
+{
+  "name": "poison",
+  "loadDefault": true,
+  "buffs": [
+    "lycanitesmobs:envenom"
+  ],
+  "debuffs": [
+    "lycanitesmobs:plague",
+    "minecraft:poison"
+  ],
+  "components": [
+    "water",
+    "chaos"
+  ]
+}

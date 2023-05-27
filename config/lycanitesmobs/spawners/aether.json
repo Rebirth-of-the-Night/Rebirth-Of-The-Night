@@ -1,0 +1,51 @@
+{
+  "name": "aether",
+  "type": "spawner",
+  "enabled": true,
+  "loadDefault": true,
+  "mobCountMin": 2,
+  "ignoreBiomes": false,
+  "ignoreLightLevel": false,
+  "groupLimitRange": 64,
+  "conditions": [
+    {
+      "type": "world",
+      "dimensionIds": [
+        4
+      ],
+      "dimensionListType": "whitelist"
+    }
+  ],
+  "triggers": [
+    {
+      "type": "world",
+      "chance": 0.75,
+      "tickRate": 1600
+    }
+  ],
+  "locations": [
+    {
+      "type": "random",
+      "rangeMin": [
+        32,
+        0,
+        32
+      ],
+      "rangeMax": [
+        42,
+        48,
+        42
+      ],
+      "sorting": "random",
+      "limit": 32,
+      "solidGround": true,
+      "underground": false
+    }
+  ],
+  "mobSpawns": [
+    {
+      "mobId": "lycanitesmobs:sylph",
+      "weight": 8
+    }
+  ]
+}

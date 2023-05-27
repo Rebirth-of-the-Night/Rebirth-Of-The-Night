@@ -1,0 +1,49 @@
+{
+  "name": "mineshaft",
+  "type": "spawner",
+  "enabled": true,
+  "loadDefault": true,
+  "mobCountMin": 2,
+  "ignoreDimensions": true,
+  "ignoreBiomes": true,
+  "ignoreLightLevel": false,
+  "conditions": [],
+  "triggers": [
+    {
+      "type": "world",
+      "chance": 0.25,
+      "tickRate": 600
+    }
+  ],
+  "locations": [
+    {
+      "type": "block",
+      "rangeMin": [
+        16,
+        0,
+        16
+      ],
+      "rangeMax": [
+        32,
+        32,
+        32
+      ],
+      "yMax": 50,
+      "sorting": "random",
+      "blocks": [
+        "minecraft:planks",
+        "minecraft:rail",
+        "minecraft:web"
+      ],
+      "blockCost": 8,
+      "listType": "whitelist",
+      "requiredBlockTypes": 4
+    }
+  ],
+  "mobSpawns": [
+    {
+      "mobId": "lycanitesmobs:banshee",
+      "weight": 8
+    }
+  ]
+}

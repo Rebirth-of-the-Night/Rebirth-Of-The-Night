@@ -1,0 +1,45 @@
+{
+  "name": "underground",
+  "type": "spawner",
+  "enabled": true,
+  "loadDefault": true,
+  "mobCountMin": 8,
+  "ignoreBiomes": false,
+  "ignoreLightLevel": false,
+  "conditions": [
+    {
+      "type": "world",
+      "dimensionIds": [
+        4
+      ],
+      "dimensionListType": "blacklist"
+    }
+  ],
+  "triggers": [
+    {
+      "type": "world",
+      "chance": 0.125,
+      "tickRate": 800
+    }
+  ],
+  "locations": [
+    {
+      "type": "random",
+      "rangeMin": [
+        16,
+        0,
+        16
+      ],
+      "rangeMax": [
+        32,
+        32,
+        32
+      ],
+      "yMax": 50,
+      "sorting": "random",
+      "limit": 32,
+      "surface": false,
+      "solidGround": true
+    }
+  ]
+}

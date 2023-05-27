@@ -1,0 +1,37 @@
+{
+  "name": "bloodleech",
+  "loadDefault": true,
+  "width": 0.5,
+  "height": 0.5,
+  "scale": 0.75,
+  "damage": 2,
+  "pierce": 1,
+  "knockbackChance": 0.5,
+  "effectDuration": 5,
+  "effectAmplifier": -1,
+  "velocity": 0.9,
+  "weight": 0.25,
+  "lifetime": 100,
+  "elements": [
+    "fae"
+  ],
+  "behaviours": [
+    {
+      "type": "drainHealth",
+      "rate": 0.5,
+      "mountRate": 0.1
+    }
+  ],
+  "waterproof": true,
+  "lavaproof": false,
+  "cutGrass": false,
+  "impactSound": false,
+  "ripper": false,
+  "pierceBlocks": false,
+  "glow": false,
+  "rollSpeed": 4,
+  "particleCount": 5,
+  "particleType": "reddust",
+  "waterParticleType": "reddust",
+  "animationFrames": 4
+}

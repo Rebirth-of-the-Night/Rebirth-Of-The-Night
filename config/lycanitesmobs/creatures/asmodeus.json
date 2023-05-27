@@ -1,0 +1,176 @@
+{
+  "name": "asmodeus",
+  "creatureType": "aberration",
+  "groups": [
+    "boss"
+  ],
+  "entityClass": "com.lycanitesmobs.core.entity.creature.EntityAsmodeus",
+  "modelClass": "com.lycanitesmobs.client.model.creature.ModelAsmodeus",
+  "loadDefault": true,
+  "enabled": true,
+  "spawning": {
+    "enabled": true,
+    "spawners": [],
+    "disableSubspecies": false,
+    "dimensionIds": [
+      -1
+    ],
+    "dimensionListType": "whitelist",
+    "ignoreBiome": false,
+    "biomeTags": [
+      "nether"
+    ],
+    "spawnWeight": 1,
+    "dungeonWeight": 0,
+    "spawnAreaLimit": 5,
+    "spawnGroupMin": 1,
+    "spawnGroupMax": 3,
+    "spawnsInLight": false,
+    "spawnsInDark": true,
+    "worldDayMin": -1,
+    "despawnNatural": false,
+    "despawnForced": false
+  },
+  "width": 20.0,
+  "height": 21.0,
+  "experience": 10000,
+  "health": 4000,
+  "defense": 2,
+  "armor": 0,
+  "speed": 32,
+  "damage": 2,
+  "attackSpeed": 1,
+  "rangedSpeed": 8,
+  "effectDuration": 5,
+  "effectAmplifier": 0,
+  "pierce": 2,
+  "sight": 64,
+  "knockbackResistance": 1,
+  "bagSize": 5,
+  "eggBackColor": "#222222",
+  "eggForeColor": "#997700",
+  "boss": true,
+  "subspecies": [
+    {
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "verdant",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "azure",
+          "type": "uncommon"
+        }
+      ]
+    }
+  ],
+  "element": "nether",
+  "diets": [
+    "carnivore",
+    "piscivore",
+    "insectivore",
+    "herbivore",
+    "frugivore",
+    "fungivore"
+  ],
+  "peaceful": false,
+  "summonable": false,
+  "tameable": false,
+  "mountable": false,
+  "summonCost": 2,
+  "dungeonLevel": 1,
+  "bossNearbyRange": 120,
+  "drops": [
+    {
+      "item": "minecraft:redstone",
+      "minAmount": 20,
+      "maxAmount": 50,
+      "chance": 1
+    },
+    {
+      "item": "minecraft:iron_ingot",
+      "minAmount": 20,
+      "maxAmount": 50,
+      "chance": 1
+    },
+    {
+      "item": "minecraft:gold_ingot",
+      "minAmount": 10,
+      "maxAmount": 20,
+      "chance": 1
+    },
+    {
+      "item": "minecraft:diamond",
+      "minAmount": 10,
+      "maxAmount": 20,
+      "chance": 1
+    },
+    {
+      "item": "minecraft:nether_star",
+      "minAmount": 1,
+      "maxAmount": 8,
+      "chance": 1
+    },
+    {
+      "item": "lycanitesmobs:doomfireballcharge",
+      "minAmount": 10,
+      "maxAmount": 20,
+      "chance": 1
+    },
+    {
+      "item": "lycanitesmobs:hellfireballcharge",
+      "minAmount": 10,
+      "maxAmount": 20,
+      "chance": 1
+    },
+    {
+      "item": "lycanitesmobs:demonstone",
+      "minAmount": 64,
+      "maxAmount": 128,
+      "chance": 1
+    },
+    {
+      "item": "lycanitesmobs:demonstonebrick",
+      "minAmount": 64,
+      "maxAmount": 128,
+      "chance": 1
+    },
+    {
+      "item": "lycanitesmobs:demonstonetile",
+      "minAmount": 64,
+      "maxAmount": 128,
+      "chance": 1
+    },
+    {
+      "item": "lycanitesmobs:demoncrystal",
+      "minAmount": 64,
+      "maxAmount": 128,
+      "chance": 1
+    },
+    {
+      "item": "lycanitesmobs:soulstone_demon",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 1,
+      "bonusAmount": false
+    },
+    {
+      "item": "lycanitesmobs:soulstone_aberration",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 1,
+      "bonusAmount": false
+    },
+    {
+      "item": "lycanitesmobs:wraithsigil",
+      "minAmount": 1,
+      "maxAmount": 1,
+      "chance": 1
+    }
+  ],
+  "sizeScale": 1,
+  "hitboxScale": 1
+}

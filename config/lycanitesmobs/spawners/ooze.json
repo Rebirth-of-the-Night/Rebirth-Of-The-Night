@@ -1,0 +1,40 @@
+{
+  "name": "ooze",
+  "type": "spawner",
+  "enabled": true,
+  "loadDefault": true,
+  "mobCountMin": 4,
+  "ignoreDimensions": true,
+  "ignoreBiomes": true,
+  "ignoreLightLevel": true,
+  "dropsRequirePlayerDamage": true,
+  "conditions": [],
+  "triggers": [
+    {
+      "type": "world",
+      "chance": 0.15,
+      "tickRate": 600
+    }
+  ],
+  "locations": [
+    {
+      "type": "block",
+      "rangeMin": [
+        16,
+        0,
+        16
+      ],
+      "rangeMax": [
+        32,
+        32,
+        32
+      ],
+      "sorting": "random",
+      "blocks": [
+        "lycanitesmobs:ooze"
+      ],
+      "blockCost": 8,
+      "listType": "whitelist"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "name": "pinky",
+  "creatureType": "demon",
+  "groups": [
+    "predator"
+  ],
+  "entityClass": "com.lycanitesmobs.core.entity.creature.EntityPinky",
+  "modelClass": "com.lycanitesmobs.client.model.creature.ModelPinky",
+  "loadDefault": true,
+  "enabled": true,
+  "spawning": {
+    "enabled": true,
+    "spawners": [
+      "creature",
+      "animal",
+      "portal",
+      "nether",
+      "end"
+    ],
+    "disableSubspecies": false,
+    "dimensionIds": [
+      -1,
+      1
+    ],
+    "dimensionListType": "whitelist",
+    "ignoreBiome": true,
+    "biomeTags": [
+      "nether",
+      "end"
+    ],
+    "spawnWeight": 6,
+    "dungeonWeight": 200,
+    "spawnAreaLimit": 5,
+    "spawnGroupMin": 1,
+    "spawnGroupMax": 3,
+    "spawnsInLight": true,
+    "spawnsInDark": true,
+    "worldDayMin": -1,
+    "despawnNatural": false,
+    "despawnForced": false
+  },
+  "width": 1.6,
+  "height": 1.9,
+  "experience": 5,
+  "health": 30,
+  "defense": 1,
+  "armor": 0,
+  "speed": 28,
+  "damage": 3,
+  "attackSpeed": 2,
+  "rangedSpeed": 1,
+  "effectDuration": 5,
+  "effectAmplifier": -1,
+  "pierce": 1,
+  "sight": 24,
+  "knockbackResistance": 0.25,
+  "bagSize": 10,
+  "tamingReputation": 500,
+  "packSize": 1,
+  "eggBackColor": "#FF0099",
+  "eggForeColor": "#990000",
+  "subspecies": [
+    {
+      "index": 0,
+      "mountOffset": [
+        0,
+        1.0,
+        0
+      ],
+      "variants": [
+        {
+          "index": 1,
+          "name": "ashen",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "scarlet",
+          "type": "uncommon"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "priority": 1,
+      "name": "moloch",
+      "modelClass": "com.lycanitesmobs.client.model.creature.ModelPinkyMoloch",
+      "elements": [
+        "void"
+      ],
+      "mountOffset": [
+        0,
+        1.0,
+        0
+      ],
+      "conditions": [
+        {
+          "type": "world",
+          "dimensionIds": [
+            1
+          ],
+          "dimensionListType": "whitelist"
+        }
+      ],
+      "variants": [
+        {
+          "index": 1,
+          "name": "verdant",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "golden",
+          "type": "uncommon"
+        }
+      ]
+    }
+  ],
+  "element": "nether",
+  "diets": [
+    "carnivore",
+    "piscivore",
+    "insectivore"
+  ],
+  "peaceful": true,
+  "farmable": true,
+  "summonable": false,
+  "tameable": true,
+  "mountable": true,
+  "summonCost": 4,
+  "dungeonLevel": 2,
+  "drops": [
+    {
+      "item": "lycanitesmobs:raw_pinky_meat",
+      "burning": "lycanitesmobs:cooked_pinky_meat",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 1
+    }
+  ],
+  "sizeScale": 1,
+  "hitboxScale": 1,
+  "mountOffset": [
+    0,
+    1.1,
+    0
+  ]
+}

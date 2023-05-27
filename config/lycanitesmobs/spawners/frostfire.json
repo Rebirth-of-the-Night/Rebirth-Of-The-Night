@@ -1,0 +1,45 @@
+{
+  "name": "frostfire",
+  "type": "spawner",
+  "enabled": true,
+  "loadDefault": true,
+  "mobCountMin": 8,
+  "ignoreDimensions": true,
+  "ignoreBiomes": true,
+  "ignoreLightLevel": true,
+  "dropsRequirePlayerDamage": true,
+  "conditions": [],
+  "triggers": [
+    {
+      "type": "world",
+      "chance": 0.5,
+      "tickRate": 400
+    }
+  ],
+  "locations": [
+    {
+      "type": "block",
+      "rangeMin": [
+        16,
+        0,
+        16
+      ],
+      "rangeMax": [
+        32,
+        32,
+        32
+      ],
+      "sorting": "random",
+      "blocks": [
+        "lycanitesmobs:frostfire"
+      ],
+      "listType": "whitelist"
+    }
+  ],
+  "mobSpawns": [
+    {
+      "mobId": "lycanitesmobs:reiver",
+      "weight": 8
+    }
+  ]
+}

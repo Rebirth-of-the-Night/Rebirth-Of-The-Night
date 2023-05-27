@@ -1,0 +1,39 @@
+{
+  "itemName": "ironpaxel",
+  "loadDefault": true,
+  "slotType": "blade",
+  "dropMobId": "",
+  "dropChance": 0.1,
+  "levelMin": 1,
+  "levelMax": 1,
+  "features": [
+    {
+      "featureType": "harvest",
+      "harvestType": "pickaxe",
+      "harvestSpeed": 7
+    },
+    {
+      "featureType": "harvest",
+      "harvestType": "axe",
+      "harvestSpeed": 7
+    },
+    {
+      "featureType": "harvest",
+      "harvestType": "shovel",
+      "harvestSpeed": 7
+    },
+    {
+      "featureType": "harvest",
+      "harvestType": "hoe",
+      "harvestSpeed": 7
+    },
+    {
+      "featureType": "damage",
+      "damageAmount": 4,
+      "damageKnockback": 0,
+      "damageCooldown": 1,
+      "damageRange": 1,
+      "damageSweep": 90
+    }
+  ]
+}

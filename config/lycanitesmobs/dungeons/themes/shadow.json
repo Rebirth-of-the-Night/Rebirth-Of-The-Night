@@ -1,0 +1,86 @@
+{
+  "name": "shadow",
+  "loadDefault": true,
+  "floorPattern": "random",
+  "wallPattern": "random",
+  "ceilingPattern": "random",
+  "floorBlocks": [
+    {
+      "blockId": "lycanitesmobs:shadowstonetile",
+      "weight": 8
+    },
+    {
+      "blockId": "lycanitesmobs:shadowstonepolished",
+      "weight": 2
+    },
+    {
+      "blockId": "minecraft:obsidian",
+      "weight": 0
+    }
+  ],
+  "wallBlocks": [
+    {
+      "blockId": "lycanitesmobs:shadowstonebrick",
+      "weight": 8
+    },
+    {
+      "blockId": "lycanitesmobs:shadowstonechiseled",
+      "weight": 2
+    },
+    {
+      "blockId": "lycanitesmobs:shadowstonepillar",
+      "weight": 0
+    }
+  ],
+  "ceilingBlocks": [
+    {
+      "blockId": "lycanitesmobs:shadowstonetile",
+      "weight": 8
+    },
+    {
+      "blockId": "lycanitesmobs:shadowstonepolished",
+      "weight": 2
+    }
+  ],
+  "lightBlocks": [
+    {
+      "blockId": "lycanitesmobs:shadowcrystal",
+      "weight": 8
+    },
+    {
+      "blockId": "minecraft:obsidian",
+      "weight": 8
+    }
+  ],
+  "airBlocks": [
+    {
+      "blockId": "minecraft:air",
+      "weight": 8
+    }
+  ],
+  "torchBlocks": [],
+  "stairBlocks": [
+    {
+      "blockId": "lycanitesmobs:shadowstone_stairs",
+      "weight": 8
+    },
+    {
+      "blockId": "lycanitesmobs:shadowstonebrick_stairs",
+      "weight": 8
+    },
+    {
+      "blockId": "lycanitesmobs:shadowstonetile_stairs",
+      "weight": 8
+    }
+  ],
+  "pitBlocks": [
+    {
+      "blockId": "lycanitesmobs:shadowfire",
+      "weight": 8
+    },
+    {
+      "blockId": "lycanitesmobs:poison",
+      "weight": 8
+    }
+  ]
+}

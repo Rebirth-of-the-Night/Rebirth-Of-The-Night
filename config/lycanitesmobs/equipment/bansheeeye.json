@@ -1,0 +1,71 @@
+{
+  "itemName": "bansheeeye",
+  "loadDefault": true,
+  "slotType": "head",
+  "dropMobId": "lycanitesmobs:banshee",
+  "dropChance": 0.1,
+  "levelMin": 2,
+  "levelMax": 3,
+  "elements": [
+    "phase"
+  ],
+  "features": [
+    {
+      "featureType": "slot",
+      "slotType": "blade"
+    },
+    {
+      "featureType": "damage",
+      "levelMax": 2,
+      "damageAmount": 1,
+      "damageKnockback": 0,
+      "damageCooldown": 1,
+      "damageRange": 1,
+      "damageSweep": 0
+    },
+    {
+      "featureType": "damage",
+      "levelMin": 3,
+      "damageAmount": 2,
+      "damageKnockback": 0,
+      "damageCooldown": 1,
+      "damageRange": 1,
+      "damageSweep": 0
+    },
+    {
+      "featureType": "effect",
+      "levelMax": 1,
+      "effectType": "lycanitesmobs:fear",
+      "effectTarget": "target",
+      "effectDuration": 40,
+      "effectStrength": 1
+    },
+    {
+      "featureType": "effect",
+      "levelMin": 2,
+      "levelMax": 2,
+      "effectType": "lycanitesmobs:fear",
+      "effectTarget": "target",
+      "effectDuration": 60,
+      "effectStrength": 2
+    },
+    {
+      "featureType": "effect",
+      "levelMin": 3,
+      "effectType": "lycanitesmobs:fear",
+      "effectTarget": "target",
+      "effectDuration": 80,
+      "effectStrength": 3
+    },
+    {
+      "featureType": "summon",
+      "levelMin": 3,
+      "summonMobId": "lycanitesmobs.banshee",
+      "summonChance": 0.05,
+      "summonDuration": 10,
+      "summonCountMin": 1,
+      "summonCountMax": 1,
+      "sizeScale": 0.4
+    }
+  ]
+}

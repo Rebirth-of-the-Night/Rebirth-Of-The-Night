@@ -1,0 +1,105 @@
+{
+  "name": "quillbeast",
+  "creatureType": "beast",
+  "groups": [
+    "critter",
+    "hardy"
+  ],
+  "entityClass": "com.lycanitesmobs.core.entity.creature.EntityQuillbeast",
+  "modelClass": "com.lycanitesmobs.client.model.creature.ModelQuillbeast",
+  "loadDefault": true,
+  "enabled": true,
+  "spawning": {
+    "enabled": true,
+    "spawners": [
+      "monster",
+      "beast"
+    ],
+    "disableSubspecies": false,
+    "dimensionIds": [
+      -1,
+      1
+    ],
+    "dimensionListType": "blacklist",
+    "ignoreBiome": false,
+    "biomeTags": [
+      "plains",
+      "savanna",
+      "forest",
+      "-snowy"
+    ],
+    "spawnWeight": 4,
+    "dungeonWeight": 200,
+    "spawnAreaLimit": 5,
+    "spawnGroupMin": 1,
+    "spawnGroupMax": 3,
+    "spawnsInLight": false,
+    "spawnsInDark": true,
+    "worldDayMin": -1,
+    "despawnNatural": true,
+    "despawnForced": false
+  },
+  "width": 0.6,
+  "height": 0.9,
+  "experience": 10,
+  "health": 10,
+  "defense": 0,
+  "armor": 0,
+  "speed": 26,
+  "damage": 3,
+  "attackSpeed": 1,
+  "rangedSpeed": 0.25,
+  "effectDuration": 5,
+  "effectAmplifier": -1,
+  "pierce": 1,
+  "sight": 24,
+  "knockbackResistance": 0.25,
+  "bagSize": 10,
+  "tamingReputation": 250,
+  "eggBackColor": "#642a12",
+  "eggForeColor": "#6051fe",
+  "subspecies": [
+    {
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "dark",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "lux",
+          "type": "uncommon"
+        }
+      ]
+    }
+  ],
+  "element": "order",
+  "diets": [
+    "herbivore",
+    "frugivore"
+  ],
+  "peaceful": false,
+  "summonable": false,
+  "tameable": true,
+  "mountable": false,
+  "summonCost": 4,
+  "dungeonLevel": 1,
+  "drops": [
+    {
+      "item": "minecraft:leather",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 1
+    },
+    {
+      "item": "lycanitesmobs:quillcharge",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 1
+    }
+  ],
+  "sizeScale": 1,
+  "hitboxScale": 1
+}

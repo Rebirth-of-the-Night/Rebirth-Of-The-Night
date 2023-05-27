@@ -1,0 +1,86 @@
+{
+  "name": "demonic",
+  "loadDefault": true,
+  "floorPattern": "random",
+  "wallPattern": "random",
+  "ceilingPattern": "random",
+  "floorBlocks": [
+    {
+      "blockId": "lycanitesmobs:demonstonetile",
+      "weight": 8
+    },
+    {
+      "blockId": "lycanitesmobs:demonstonepolished",
+      "weight": 2
+    },
+    {
+      "blockId": "minecraft:netherrack",
+      "weight": 0
+    }
+  ],
+  "wallBlocks": [
+    {
+      "blockId": "lycanitesmobs:demonstonebrick",
+      "weight": 8
+    },
+    {
+      "blockId": "lycanitesmobs:demonstonechiseled",
+      "weight": 2
+    },
+    {
+      "blockId": "lycanitesmobs:demonstonepillar",
+      "weight": 0
+    }
+  ],
+  "ceilingBlocks": [
+    {
+      "blockId": "lycanitesmobs:demonstonetile",
+      "weight": 8
+    },
+    {
+      "blockId": "lycanitesmobs:demonstonepolished",
+      "weight": 2
+    }
+  ],
+  "lightBlocks": [
+    {
+      "blockId": "lycanitesmobs:demoncrystal",
+      "weight": 8
+    }
+  ],
+  "airBlocks": [
+    {
+      "blockId": "minecraft:air",
+      "weight": 8
+    }
+  ],
+  "torchBlocks": [],
+  "stairBlocks": [
+    {
+      "blockId": "lycanitesmobs:demonstone_stairs",
+      "weight": 8
+    },
+    {
+      "blockId": "lycanitesmobs:demonstonebrick_stairs",
+      "weight": 8
+    },
+    {
+      "blockId": "lycanitesmobs:demonstonetile_stairs",
+      "weight": 8
+    }
+  ],
+  "pitBlocks": [
+    {
+      "blockId": "lycanitesmobs:doomfire",
+      "weight": 8
+    },
+    {
+      "blockId": "lycanitesmobs:hellfire",
+      "weight": 8
+    },
+    {
+      "blockId": "minecraft:lava",
+      "weight": 8
+    }
+  ]
+}

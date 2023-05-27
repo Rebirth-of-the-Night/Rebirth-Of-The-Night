@@ -1,0 +1,38 @@
+{
+  "name": "summoningseed",
+  "loadDefault": true,
+  "noChargeItem": true,
+  "width": 0.5,
+  "height": 0.5,
+  "scale": 1.0,
+  "damage": 1,
+  "pierce": 1,
+  "knockbackChance": 0.5,
+  "effectDuration": 5,
+  "effectAmplifier": 1,
+  "velocity": 1.1,
+  "weight": 0,
+  "lifetime": 100,
+  "elements": [
+    "arbour"
+  ],
+  "behaviours": [
+    {
+      "type": "summon",
+      "summonMinion": true,
+      "summonChance": 1,
+      "summonDuration": 200,
+      "summonCountMin": 1,
+      "summonCountMax": 1,
+      "sizeScale": 1
+    }
+  ],
+  "waterproof": true,
+  "lavaproof": false,
+  "cutGrass": false,
+  "impactSound": false,
+  "ripper": false,
+  "pierceBlocks": false,
+  "glow": true,
+  "rollSpeed": 4
+}

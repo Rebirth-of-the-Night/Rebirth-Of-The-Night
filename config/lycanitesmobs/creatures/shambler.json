@@ -1,0 +1,133 @@
+{
+  "name": "shambler",
+  "creatureType": "plant",
+  "groups": [
+    "nature"
+  ],
+  "entityClass": "com.lycanitesmobs.core.entity.creature.EntityShambler",
+  "modelClass": "com.lycanitesmobs.client.model.creature.ModelShambler",
+  "loadDefault": true,
+  "enabled": true,
+  "spawning": {
+    "enabled": true,
+    "spawners": [
+      "monster",
+      "beast"
+    ],
+    "disableSubspecies": false,
+    "dimensionIds": [
+      -1,
+      1
+    ],
+    "dimensionListType": "blacklist",
+    "ignoreBiome": false,
+    "biomeTags": [
+      "forest",
+      "jungle",
+      "-mountain"
+    ],
+    "spawnWeight": 4,
+    "dungeonWeight": 200,
+    "spawnAreaLimit": 5,
+    "spawnGroupMin": 1,
+    "spawnGroupMax": 3,
+    "spawnsInLight": false,
+    "spawnsInDark": true,
+    "worldDayMin": -1,
+    "despawnNatural": true,
+    "despawnForced": false
+  },
+  "width": 1.5,
+  "height": 3.5,
+  "experience": 10,
+  "health": 30,
+  "defense": 3,
+  "armor": 0,
+  "speed": 22,
+  "damage": 2,
+  "attackSpeed": 1,
+  "rangedSpeed": 1,
+  "effectDuration": 5,
+  "effectAmplifier": 0,
+  "pierce": 1,
+  "sight": 24,
+  "knockbackResistance": 1,
+  "bagSize": 10,
+  "tamingReputation": 500,
+  "eggBackColor": "#DDFF22",
+  "eggForeColor": "#005511",
+  "subspecies": [
+    {
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "dark",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "keppel",
+          "type": "uncommon"
+        }
+      ]
+    }
+  ],
+  "element": "arbour",
+  "diets": [
+    "frugivore"
+  ],
+  "peaceful": false,
+  "summonable": false,
+  "tameable": true,
+  "mountable": false,
+  "summonCost": 4,
+  "dungeonLevel": 2,
+  "drops": [
+    {
+      "item": "minecraft:log",
+      "minAmount": 1,
+      "maxAmount": 6,
+      "chance": 0.5
+    },
+    {
+      "item": "minecraft:stick",
+      "burningItem": "minecraft:coal",
+      "minAmount": 1,
+      "maxAmount": 6,
+      "chance": 0.5
+    },
+    {
+      "item": "minecraft:wheat_seeds",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 0.1
+    },
+    {
+      "item": "minecraft:pumpkin_seeds",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 0.1
+    },
+    {
+      "item": "minecraft:melon_seeds",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 0.1
+    },
+    {
+      "item": "minecraft:apple",
+      "minAmount": 1,
+      "maxAmount": 1,
+      "chance": 0.05
+    },
+    {
+      "item": "lycanitesmobs:immunizer",
+      "minAmount": 1,
+      "maxAmount": 1,
+      "chance": 0.05
+    }
+  ],
+  "sizeScale": 1,
+  "hitboxScale": 1
+}

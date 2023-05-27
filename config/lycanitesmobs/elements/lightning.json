@@ -1,0 +1,14 @@
+{
+  "name": "lightning",
+  "loadDefault": true,
+  "buffs": [
+    "lycanitesmobs:staticaura"
+  ],
+  "debuffs": [
+    "lycanitesmobs:paralysis"
+  ],
+  "components": [
+    "fire",
+    "air"
+  ]
+}

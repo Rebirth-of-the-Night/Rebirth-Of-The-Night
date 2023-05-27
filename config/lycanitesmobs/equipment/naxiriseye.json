@@ -1,0 +1,44 @@
+{
+  "itemName": "naxiriseye",
+  "loadDefault": true,
+  "slotType": "jewel",
+  "dropMobId": "lycanitesmobs:beholder",
+  "dropChance": 0.2,
+  "levelMin": 1,
+  "levelMax": 3,
+  "elements": [
+    "arcane"
+  ],
+  "features": [
+    {
+      "featureType": "projectile",
+      "levelMax": 1,
+      "projectileName": "arcanelaserstorm",
+      "projectileTrigger": "secondary",
+      "projectilePattern": "simple",
+      "cooldown": 20,
+      "count": 1
+    },
+    {
+      "featureType": "projectile",
+      "levelMin": 2,
+      "levelMax": 2,
+      "projectileName": "arcanelaserstorm",
+      "projectileTrigger": "secondary",
+      "projectilePattern": "simple",
+      "cooldown": 16,
+      "count": 1,
+      "bonusDamage": 1
+    },
+    {
+      "featureType": "projectile",
+      "levelMin": 3,
+      "projectileName": "arcanelaserstorm",
+      "projectileTrigger": "secondary",
+      "projectilePattern": "simple",
+      "cooldown": 8,
+      "count": 1,
+      "bonusDamage": 2
+    }
+  ]
+}

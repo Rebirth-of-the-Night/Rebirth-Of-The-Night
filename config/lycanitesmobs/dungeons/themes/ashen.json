@@ -1,0 +1,94 @@
+{
+  "name": "ashen",
+  "loadDefault": true,
+  "floorPattern": "random",
+  "wallPattern": "random",
+  "ceilingPattern": "random",
+  "floorBlocks": [
+    {
+      "blockId": "lycanitesmobs:ashenstonetile",
+      "weight": 8
+    },
+    {
+      "blockId": "lycanitesmobs:ashenstonepolished",
+      "weight": 2
+    },
+    {
+      "blockId": "minecraft:netherrack",
+      "weight": 0
+    }
+  ],
+  "wallBlocks": [
+    {
+      "blockId": "lycanitesmobs:ashenstonebrick",
+      "weight": 8
+    },
+    {
+      "blockId": "lycanitesmobs:ashenstonechiseled",
+      "weight": 2
+    },
+    {
+      "blockId": "lycanitesmobs:ashenstonepillar",
+      "weight": 0
+    }
+  ],
+  "ceilingBlocks": [
+    {
+      "blockId": "lycanitesmobs:ashenstonetile",
+      "weight": 8
+    },
+    {
+      "blockId": "lycanitesmobs:ashenstonepolished",
+      "weight": 2
+    }
+  ],
+  "lightBlocks": [
+    {
+      "blockId": "lycanitesmobs:ashencrystal",
+      "weight": 8
+    }
+  ],
+  "airBlocks": [
+    {
+      "blockId": "minecraft:air",
+      "weight": 8
+    }
+  ],
+  "torchBlocks": [],
+  "stairBlocks": [
+    {
+      "blockId": "lycanitesmobs:ashenstone_stairs",
+      "weight": 8
+    },
+    {
+      "blockId": "lycanitesmobs:ashenstonebrick_stairs",
+      "weight": 8
+    },
+    {
+      "blockId": "lycanitesmobs:ashenstonetile_stairs",
+      "weight": 8
+    }
+  ],
+  "pitBlocks": [
+    {
+      "blockId": "lycanitesmobs:moglava",
+      "weight": 8
+    },
+    {
+      "blockId": "lycanitesmobs:primefire",
+      "weight": 8
+    },
+    {
+      "blockId": "lycanitesmobs:scorchfire",
+      "weight": 8
+    },
+    {
+      "blockId": "minecraft:lava",
+      "weight": 8
+    },
+    {
+      "blockId": "minecraft:magma",
+      "weight": 8
+    }
+  ]
+}

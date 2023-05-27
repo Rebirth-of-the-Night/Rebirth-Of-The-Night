@@ -1,0 +1,45 @@
+{
+  "name": "battle_burrito",
+  "loadDefault": true,
+  "group": "items",
+  "maxStackSize": 16,
+  "food": {
+    "hunger": 10,
+    "saturation": 0.8,
+    "alwaysEdible": true,
+    "fast": false,
+    "meat": true,
+    "effects": [
+      {
+        "effectId": "minecraft:strength",
+        "duration": 120,
+        "amplifier": 3,
+        "chance": 1.0
+      },
+      {
+        "effectId": "minecraft:absorption",
+        "duration": 120,
+        "amplifier": 3,
+        "chance": 1.0
+      },
+      {
+        "effectId": "minecraft:resistance",
+        "duration": 60,
+        "amplifier": 1,
+        "chance": 1.0
+      },
+      {
+        "effectId": "minecraft:regeneration",
+        "duration": 20,
+        "amplifier": 1,
+        "chance": 1.0
+      },
+      {
+        "effectId": "lycanitesmobs:rejuvenation",
+        "duration": 10,
+        "amplifier": 0,
+        "chance": 1.0
+      }
+    ]
+  }
+}

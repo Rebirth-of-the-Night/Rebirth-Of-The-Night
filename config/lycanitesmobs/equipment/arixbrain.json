@@ -1,0 +1,46 @@
+{
+  "itemName": "arixbrain",
+  "loadDefault": true,
+  "slotType": "jewel",
+  "dropMobId": "lycanitesmobs:arix",
+  "dropChance": 0.05,
+  "levelMin": 1,
+  "levelMax": 3,
+  "elements": [
+    "frost",
+    "water"
+  ],
+  "features": [
+    {
+      "featureType": "projectile",
+      "levelMax": 1,
+      "projectileName": "icefireball",
+      "projectileTrigger": "secondary",
+      "projectilePattern": "simple",
+      "cooldown": 30,
+      "count": 1,
+      "bonusDamage": 2
+    },
+    {
+      "featureType": "projectile",
+      "levelMin": 2,
+      "levelMax": 2,
+      "projectileName": "icefireball",
+      "projectileTrigger": "secondary",
+      "projectilePattern": "simple",
+      "cooldown": 20,
+      "count": 1,
+      "bonusDamage": 5
+    },
+    {
+      "featureType": "projectile",
+      "levelMin": 3,
+      "projectileName": "icefireball",
+      "projectileTrigger": "secondary",
+      "projectilePattern": "simple",
+      "cooldown": 10,
+      "count": 1,
+      "bonusDamage": 12
+    }
+  ]
+}

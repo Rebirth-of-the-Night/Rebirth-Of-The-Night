@@ -1,0 +1,143 @@
+{
+  "name": "astaroth",
+  "creatureType": "aberration",
+  "groups": [
+    "monster"
+  ],
+  "entityClass": "com.lycanitesmobs.core.entity.creature.EntityAstaroth",
+  "modelClass": "com.lycanitesmobs.client.model.creature.ModelAstaroth",
+  "loadDefault": true,
+  "enabled": true,
+  "spawning": {
+    "enabled": true,
+    "spawners": [
+      "monster",
+      "beast",
+      "portal",
+      "nether"
+    ],
+    "disableSubspecies": false,
+    "dimensionIds": [
+      -1,
+      1
+    ],
+    "dimensionListType": "whitelist",
+    "ignoreBiome": true,
+    "biomeTags": [
+      "nether",
+      "end"
+    ],
+    "spawnWeight": 2,
+    "dungeonWeight": 0,
+    "spawnAreaLimit": 2,
+    "spawnGroupMin": 1,
+    "spawnGroupMax": 2,
+    "spawnsInLight": true,
+    "spawnsInDark": true,
+    "worldDayMin": -1,
+    "despawnNatural": true,
+    "despawnForced": false
+  },
+  "width": 4.2,
+  "height": 3.0,
+  "experience": 15,
+  "health": 40,
+  "defense": 2,
+  "armor": 0,
+  "speed": 24,
+  "damage": 2,
+  "attackSpeed": 1,
+  "rangedSpeed": 4,
+  "effectDuration": 5,
+  "effectAmplifier": 0,
+  "pierce": 1,
+  "sight": 40,
+  "knockbackResistance": 1,
+  "bagSize": 5,
+  "eggBackColor": "#999944",
+  "eggForeColor": "#0000FF",
+  "subspecies": [
+    {
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "color": "golden",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "color": "scarlet",
+          "type": "uncommon"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "priority": 1,
+      "name": "void",
+      "modelClass": "com.lycanitesmobs.client.model.creature.ModelAstarothVoid",
+      "elements": [
+        "void"
+      ],
+      "conditions": [
+        {
+          "type": "world",
+          "dimensionIds": [
+            1
+          ],
+          "dimensionListType": "whitelist"
+        }
+      ],
+      "variants": [
+        {
+          "index": 1,
+          "color": "violet",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "color": "keppel",
+          "type": "uncommon"
+        }
+      ]
+    }
+  ],
+  "element": "nether",
+  "diets": [
+    "carnivore",
+    "piscivore",
+    "insectivore",
+    "herbivore",
+    "frugivore",
+    "fungivore"
+  ],
+  "peaceful": false,
+  "summonable": true,
+  "tameable": false,
+  "mountable": false,
+  "summonCost": 3,
+  "dungeonLevel": 3,
+  "drops": [
+    {
+      "item": "minecraft:iron_ingot",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 1
+    },
+    {
+      "item": "minecraft:redstone",
+      "minAmount": 3,
+      "maxAmount": 8,
+      "chance": 1
+    },
+    {
+      "item": "lycanitesmobs:devilstarcharge",
+      "minAmount": 3,
+      "maxAmount": 6,
+      "chance": 1
+    }
+  ],
+  "sizeScale": 1,
+  "hitboxScale": 1
+}

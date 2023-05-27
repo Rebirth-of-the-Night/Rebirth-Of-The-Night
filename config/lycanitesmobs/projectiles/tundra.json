@@ -1,0 +1,38 @@
+{
+  "name": "tundra",
+  "loadDefault": true,
+  "width": 1.25,
+  "height": 1.25,
+  "scale": 2.5,
+  "damage": 6,
+  "pierce": 1,
+  "knockbackChance": 0.5,
+  "effectDuration": 5,
+  "effectAmplifier": 1,
+  "velocity": 0.6,
+  "weight": 1,
+  "lifetime": 100,
+  "elements": [
+    "frost"
+  ],
+  "behaviours": [
+    {
+      "type": "placeBlocks",
+      "block": "lycanitesmobs:ooze",
+      "radius": 2,
+      "height": 1
+    }
+  ],
+  "waterproof": true,
+  "lavaproof": false,
+  "cutGrass": false,
+  "impactSound": false,
+  "ripper": false,
+  "pierceBlocks": false,
+  "glow": true,
+  "rollSpeed": 1,
+  "particleCount": 1,
+  "particleType": "cloud",
+  "waterParticleType": "cloud",
+  "animationFrames": 4
+}

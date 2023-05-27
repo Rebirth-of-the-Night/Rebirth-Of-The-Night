@@ -1,0 +1,110 @@
+{
+  "name": "reiver",
+  "creatureType": "elemental",
+  "groups": [
+    "frozen"
+  ],
+  "entityClass": "com.lycanitesmobs.core.entity.creature.EntityReiver",
+  "modelClass": "com.lycanitesmobs.client.model.creature.ModelReiver",
+  "loadDefault": true,
+  "enabled": true,
+  "spawning": {
+    "enabled": true,
+    "spawners": [
+      "sky"
+    ],
+    "disableSubspecies": false,
+    "dimensionIds": [
+      -1,
+      1
+    ],
+    "dimensionListType": "blacklist",
+    "ignoreBiome": false,
+    "biomeTags": [
+      "cold",
+      "snowy",
+      "coniferous",
+      "-end"
+    ],
+    "spawnWeight": 8,
+    "dungeonWeight": 200,
+    "spawnAreaLimit": 5,
+    "spawnGroupMin": 1,
+    "spawnGroupMax": 3,
+    "spawnsInLight": false,
+    "spawnsInDark": true,
+    "worldDayMin": -1,
+    "despawnNatural": true,
+    "despawnForced": false
+  },
+  "width": 0.8,
+  "height": 1.6,
+  "experience": 10,
+  "health": 15,
+  "defense": 1,
+  "armor": 0,
+  "speed": 24,
+  "damage": 2,
+  "attackSpeed": 1,
+  "rangedSpeed": 0.5,
+  "effectDuration": 5,
+  "effectAmplifier": 0,
+  "pierce": 1,
+  "sight": 24,
+  "knockbackResistance": 0,
+  "bagSize": 5,
+  "eggBackColor": "#DDEEFF",
+  "eggForeColor": "#99DDEE",
+  "subspecies": [
+    {
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "ashen",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "golden",
+          "type": "uncommon"
+        }
+      ]
+    }
+  ],
+  "element": "frost",
+  "peaceful": false,
+  "summonable": false,
+  "tameable": false,
+  "mountable": false,
+  "summonCost": 2,
+  "dungeonLevel": 1,
+  "drops": [
+    {
+      "item": "minecraft:snowball",
+      "minAmount": 1,
+      "maxAmount": 8,
+      "chance": 1
+    },
+    {
+      "item": "minecraft:ice",
+      "minAmount": 1,
+      "maxAmount": 8,
+      "chance": 0.25
+    },
+    {
+      "item": "lycanitesmobs:cleansingcrystal",
+      "minAmount": 1,
+      "maxAmount": 1,
+      "chance": 0.05
+    },
+    {
+      "item": "lycanitesmobs:frostboltcharge",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 1
+    }
+  ],
+  "sizeScale": 1,
+  "hitboxScale": 1
+}

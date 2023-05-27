@@ -1,0 +1,51 @@
+{
+  "name": "explorers_risotto",
+  "loadDefault": true,
+  "group": "items",
+  "maxStackSize": 16,
+  "food": {
+    "hunger": 10,
+    "saturation": 0.8,
+    "alwaysEdible": true,
+    "fast": false,
+    "meat": true,
+    "effects": [
+      {
+        "effectId": "minecraft:speed",
+        "duration": 120,
+        "amplifier": 3,
+        "chance": 1.0
+      },
+      {
+        "effectId": "minecraft:haste",
+        "duration": 120,
+        "amplifier": 3,
+        "chance": 1.0
+      },
+      {
+        "effectId": "minecraft:water_breathing",
+        "duration": 120,
+        "amplifier": 0,
+        "chance": 1.0
+      },
+      {
+        "effectId": "lycanitesmobs:swiftswimming",
+        "duration": 120,
+        "amplifier": 4,
+        "chance": 1.0
+      },
+      {
+        "effectId": "minecraft:jump_boost",
+        "duration": 120,
+        "amplifier": 2,
+        "chance": 1.0
+      },
+      {
+        "effectId": "lycanitesmobs:fallresist",
+        "duration": 120,
+        "amplifier": 1,
+        "chance": 1.0
+      }
+    ]
+  }
+}

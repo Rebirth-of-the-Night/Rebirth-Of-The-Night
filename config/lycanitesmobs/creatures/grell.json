@@ -1,0 +1,101 @@
+{
+  "name": "grell",
+  "creatureType": "aberration",
+  "groups": [
+    "monster"
+  ],
+  "entityClass": "com.lycanitesmobs.core.entity.creature.EntityGrell",
+  "modelClass": "com.lycanitesmobs.client.model.creature.ModelGrell",
+  "loadDefault": true,
+  "enabled": true,
+  "spawning": {
+    "enabled": true,
+    "spawners": [
+      "nethersky",
+      "portal"
+    ],
+    "disableSubspecies": false,
+    "dimensionIds": [
+      -1
+    ],
+    "dimensionListType": "whitelist",
+    "ignoreBiome": true,
+    "biomeTags": [
+      "nether"
+    ],
+    "spawnWeight": 4,
+    "dungeonWeight": 200,
+    "spawnAreaLimit": 5,
+    "spawnGroupMin": 1,
+    "spawnGroupMax": 3,
+    "spawnsInLight": true,
+    "spawnsInDark": true,
+    "worldDayMin": -1,
+    "despawnNatural": true,
+    "despawnForced": false
+  },
+  "width": 2.5,
+  "height": 2.5,
+  "experience": 10,
+  "health": 20,
+  "defense": 1,
+  "armor": 0,
+  "speed": 24,
+  "damage": 3,
+  "attackSpeed": 1,
+  "rangedSpeed": 1,
+  "effectDuration": 5,
+  "effectAmplifier": 0,
+  "pierce": 1,
+  "sight": 32,
+  "knockbackResistance": 0,
+  "bagSize": 5,
+  "tamingReputation": 1000,
+  "eggBackColor": "#FF0000",
+  "eggForeColor": "#000099",
+  "subspecies": [
+    {
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "scarlet",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "ashen",
+          "type": "uncommon"
+        }
+      ]
+    }
+  ],
+  "element": "nether",
+  "diets": [
+    "carnivore",
+    "piscivore",
+    "insectivore"
+  ],
+  "peaceful": false,
+  "summonable": false,
+  "tameable": true,
+  "mountable": true,
+  "summonCost": 2,
+  "dungeonLevel": 3,
+  "drops": [
+    {
+      "item": "minecraft:ghast_tear",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 1
+    },
+    {
+      "item": "lycanitesmobs:acidglobcharge",
+      "minAmount": 3,
+      "maxAmount": 6,
+      "chance": 1
+    }
+  ],
+  "sizeScale": 1,
+  "hitboxScale": 1
+}

@@ -1,0 +1,29 @@
+{
+  "name": "crystalshard",
+  "entityClass": "com.lycanitesmobs.core.entity.CustomProjectileModelEntity",
+  "modelClass": "com.lycanitesmobs.client.model.projectile.CrystalShardModel",
+  "loadDefault": true,
+  "width": 1.0,
+  "height": 1.0,
+  "scale": 2.5,
+  "damage": 2,
+  "pierce": 1,
+  "knockbackChance": 0.5,
+  "effectDuration": 5,
+  "effectAmplifier": 1,
+  "velocity": 1.1,
+  "weight": 0,
+  "lifetime": 60,
+  "elements": [
+    "arcane"
+  ],
+  "behaviours": [],
+  "waterproof": true,
+  "lavaproof": false,
+  "cutGrass": false,
+  "impactSound": false,
+  "ripper": false,
+  "pierceBlocks": false,
+  "glow": true,
+  "rollSpeed": 0
+}

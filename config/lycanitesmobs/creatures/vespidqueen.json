@@ -1,0 +1,116 @@
+{
+  "name": "vespidqueen",
+  "creatureType": "insect",
+  "groups": [
+    "predator"
+  ],
+  "entityClass": "com.lycanitesmobs.core.entity.creature.EntityVespidQueen",
+  "modelClass": "com.lycanitesmobs.client.model.creature.ModelVespidQueen",
+  "loadDefault": true,
+  "enabled": true,
+  "spawning": {
+    "enabled": true,
+    "spawners": [
+      "sky",
+      "underground"
+    ],
+    "disableSubspecies": false,
+    "dimensionIds": [
+      -1,
+      1
+    ],
+    "dimensionListType": "blacklist",
+    "ignoreBiome": false,
+    "biomeTags": [
+      "jungle"
+    ],
+    "spawnWeight": 2,
+    "dungeonWeight": 200,
+    "spawnAreaLimit": 1,
+    "spawnGroupMin": 1,
+    "spawnGroupMax": 1,
+    "spawnsInLight": false,
+    "spawnsInDark": true,
+    "worldDayMin": -1,
+    "despawnNatural": true,
+    "despawnForced": false
+  },
+  "width": 1.6,
+  "height": 1.9,
+  "experience": 5,
+  "health": 30,
+  "defense": 2,
+  "armor": 0,
+  "speed": 28,
+  "damage": 2,
+  "attackSpeed": 2,
+  "rangedSpeed": 1,
+  "effectDuration": 5,
+  "effectAmplifier": 0,
+  "pierce": 1,
+  "sight": 24,
+  "knockbackResistance": 0.25,
+  "bagSize": 5,
+  "eggBackColor": "#223300",
+  "eggForeColor": "#FFCC00",
+  "subspecies": [
+    {
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "scarlet",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "ashen",
+          "type": "uncommon"
+        }
+      ]
+    }
+  ],
+  "elements": [
+    "acid",
+    "poison"
+  ],
+  "diets": [
+    "carnivore",
+    "insectivore",
+    "frugivore"
+  ],
+  "peaceful": false,
+  "summonable": false,
+  "tameable": false,
+  "mountable": false,
+  "summonCost": 4,
+  "dungeonLevel": 2,
+  "drops": [
+    {
+      "item": "minecraft:clay_ball",
+      "minAmount": 1,
+      "maxAmount": 16,
+      "chance": 1
+    },
+    {
+      "item": "lycanitesmobs:propolis",
+      "minAmount": 4,
+      "maxAmount": 8,
+      "chance": 1
+    },
+    {
+      "item": "lycanitesmobs:veswax",
+      "minAmount": 4,
+      "maxAmount": 8,
+      "chance": 1
+    }
+  ],
+  "sizeScale": 1,
+  "hitboxScale": 1,
+  "flags": [
+    {
+      "name": "swarmLimit",
+      "value": 10
+    }
+  ]
+}

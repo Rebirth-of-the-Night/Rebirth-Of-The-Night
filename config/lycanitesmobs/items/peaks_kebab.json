@@ -1,0 +1,21 @@
+{
+  "name": "peaks_kebab",
+  "loadDefault": true,
+  "group": "items",
+  "maxStackSize": 16,
+  "food": {
+    "hunger": 10,
+    "saturation": 0.8,
+    "alwaysEdible": true,
+    "fast": false,
+    "meat": true,
+    "effects": [
+      {
+        "effectId": "minecraft:haste",
+        "duration": 90,
+        "amplifier": 2,
+        "chance": 1.0
+      }
+    ]
+  }
+}

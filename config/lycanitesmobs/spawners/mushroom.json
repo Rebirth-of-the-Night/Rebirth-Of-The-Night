@@ -1,0 +1,57 @@
+{
+  "name": "mushroom",
+  "type": "spawner",
+  "enabled": true,
+  "loadDefault": true,
+  "mobCountMin": 1,
+  "ignoreDimensions": true,
+  "ignoreBiomes": true,
+  "ignoreLightLevel": false,
+  "conditions": [
+    {
+      "type": "world",
+      "dimensionIds": [
+        0,
+        7
+      ],
+      "dayTimeMin": 14000
+    }
+  ],
+  "triggers": [
+    {
+      "type": "world",
+      "chance": 0.25,
+      "tickRate": 800
+    }
+  ],
+  "locations": [
+    {
+      "type": "block",
+      "rangeMin": [
+        16,
+        0,
+        16
+      ],
+      "rangeMax": [
+        32,
+        32,
+        32
+      ],
+      "surface": true,
+      "underground": true,
+      "sorting": "random",
+      "blocks": [
+        "minecraft:brown_mushroom",
+        "minecraft:red_mushroom"
+      ],
+      "blockCost": 4,
+      "listType": "whitelist"
+    }
+  ],
+  "mobSpawns": [
+    {
+      "mobId": "lycanitesmobs:eechetik",
+      "weight": 8
+    }
+  ]
+}

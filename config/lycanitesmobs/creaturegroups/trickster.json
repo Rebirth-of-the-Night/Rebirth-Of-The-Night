@@ -1,0 +1,16 @@
+{
+  "name": "trickster",
+  "loadDefault": true,
+  "hunt": [
+    "critter"
+  ],
+  "pack": [
+    "humanoid"
+  ],
+  "wary": [],
+  "flee": [],
+  "ignore": [
+    "boss"
+  ],
+  "default": "retaliate"
+}

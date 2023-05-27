@@ -1,0 +1,107 @@
+{
+  "name": "chaos",
+  "type": "spawner",
+  "enabled": false,
+  "triggersRequired": 3,
+  "loadDefault": true,
+  "mobCountMin": 1,
+  "ignoreDimensions": true,
+  "ignoreBiomes": true,
+  "ignoreCollision": true,
+  "ignoreLightLevel": true,
+  "ignoreForgeCanSpawnEvent": true,
+  "conditions": [
+    {
+      "type": "player"
+    }
+  ],
+  "triggers": [
+    {
+      "type": "kill",
+      "chance": 0.1,
+      "entityTypesListType": "blacklist",
+      "entityIds": [
+        "lycanitesmobs:cinder",
+        "lycanitesmobs:jengu",
+        "lycanitesmobs:geonach",
+        "lycanitesmobs:djinn",
+        "lycanitesmobs:aegis",
+        "lycanitesmobs:argus",
+        "lycanitesmobs:wisp",
+        "lycanitesmobs:xaphan",
+        "lycanitesmobs:volcan",
+        "lycanitesmobs:zephyr",
+        "lycanitesmobs:grue",
+        "lycanitesmobs:spriggan",
+        "lycanitesmobs:reiver",
+        "lycanitesmobs:nymph",
+        "lycanitesmobs:eechetik",
+        "lycanitesmobs:vapula",
+        "lycanitesmobs:banshee",
+        "lycanitesmobs:tremor",
+        "lycanitesmobs:sylph",
+        "lycanitesmobs:wraith",
+        "lycanitesmobs:spectre"
+      ],
+      "entityIdsListType": "whitelist"
+    },
+    {
+      "type": "player",
+      "count": 0,
+      "chance": 1,
+      "tickRate": 1,
+      "useWorldTime": true,
+      "conditions": [
+        {
+          "type": "player"
+        },
+        {
+          "type": "world",
+          "dimensionIds": [
+            0,
+            7
+          ],
+          "dayTimeMin": 10000,
+          "moonPhase": 0
+        }
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "type": "random",
+      "rangeMin": [
+        8,
+        0,
+        8
+      ],
+      "rangeMax": [
+        16,
+        8,
+        16
+      ],
+      "sorting": "random",
+      "limit": 32,
+      "solidGround": false
+    }
+  ],
+  "mobSpawns": [
+    {
+      "mobId": "lycanitesmobs:argus"
+    }
+  ],
+  "triggerCountMessages": [
+    {
+      "count": 1,
+      "message": "spawner.chaos.level1"
+    },
+    {
+      "count": 2,
+      "message": "spawner.chaos.level2"
+    },
+    {
+      "count": 3,
+      "message": "spawner.chaos.level3"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "acid",
+  "loadDefault": true,
+  "debuffDurationMultiplier": 2,
+  "canBurn": false,
+  "buffs": [
+    "lycanitesmobs:immunization"
+  ],
+  "debuffs": [
+    "lycanitesmobs:penetration"
+  ],
+  "components": [
+    "fire",
+    "water"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "name": "primalfury_spawner",
+  "type": "spawner",
+  "enabled": true,
+  "loadDefault": true,
+  "mobCountMin": 5,
+  "ignoreDimensions": true,
+  "ignoreBiomes": true,
+  "ignoreLightLevel": true,
+  "ignoreGroupLimit": true,
+  "ignoreForgeCanSpawnEvent": true,
+  "forceNoDespawn": true,
+  "eventName": "primalfury",
+  "conditions": [],
+  "triggers": [
+    {
+      "type": "player",
+      "chance": 1,
+      "tickRate": 100
+    }
+  ],
+  "locations": [
+    {
+      "type": "random",
+      "rangeMin": [
+        24,
+        0,
+        24
+      ],
+      "rangeMax": [
+        32,
+        48,
+        32
+      ],
+      "sorting": "random",
+      "limit": 32,
+      "solidGround": true
+    }
+  ],
+  "mobSpawns": [
+    {
+      "mobId": "lycanitesmobs:warg",
+      "weight": 8
+    },
+    {
+      "mobId": "lycanitesmobs:barghest",
+      "weight": 8
+    },
+    {
+      "mobId": "lycanitesmobs:dawon",
+      "weight": 8
+    },
+    {
+      "mobId": "lycanitesmobs:feradon",
+      "weight": 8
+    },
+    {
+      "mobId": "lycanitesmobs:maug",
+      "weight": 8
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "name": "serpix",
+  "creatureType": "worm",
+  "groups": [
+    "predator",
+    "frozen"
+  ],
+  "entityClass": "com.lycanitesmobs.core.entity.creature.EntitySerpix",
+  "modelClass": "com.lycanitesmobs.client.model.creature.ModelSerpix",
+  "loadDefault": true,
+  "enabled": true,
+  "spawning": {
+    "enabled": true,
+    "spawners": [
+      "monster",
+      "beast",
+      "ooze"
+    ],
+    "disableSubspecies": false,
+    "dimensionIds": [
+      -1,
+      1
+    ],
+    "dimensionListType": "blacklist",
+    "ignoreBiome": false,
+    "biomeTags": [
+      "cold",
+      "snowy",
+      "coniferous",
+      "-end"
+    ],
+    "spawnWeight": 2,
+    "dungeonWeight": 200,
+    "spawnAreaLimit": 5,
+    "spawnGroupMin": 1,
+    "spawnGroupMax": 3,
+    "spawnsInLight": false,
+    "spawnsInDark": true,
+    "worldDayMin": -1,
+    "despawnNatural": true,
+    "despawnForced": false
+  },
+  "width": 6.8,
+  "height": 1.8,
+  "experience": 20,
+  "health": 40,
+  "defense": 3,
+  "armor": 0,
+  "speed": 26,
+  "damage": 1,
+  "attackSpeed": 1,
+  "rangedSpeed": 1,
+  "effectDuration": 5,
+  "effectAmplifier": 0,
+  "pierce": 2,
+  "sight": 24,
+  "knockbackResistance": 1,
+  "bagSize": 15,
+  "tamingReputation": 500,
+  "eggBackColor": "#CCEEFF",
+  "eggForeColor": "#0000BB",
+  "subspecies": [
+    {
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "azure",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "verdant",
+          "type": "uncommon"
+        }
+      ]
+    }
+  ],
+  "element": "frost",
+  "diets": [
+    "carnivore",
+    "piscivore",
+    "insectivore"
+  ],
+  "peaceful": false,
+  "summonable": false,
+  "tameable": true,
+  "mountable": false,
+  "summonCost": 8,
+  "dungeonLevel": 3,
+  "drops": [
+    {
+      "item": "minecraft:snowball",
+      "minAmount": 6,
+      "maxAmount": 12,
+      "chance": 1
+    },
+    {
+      "item": "minecraft:iron_ore",
+      "minAmount": 2,
+      "maxAmount": 3,
+      "chance": 0.5
+    },
+    {
+      "item": "minecraft:gold_ore",
+      "minAmount": 1,
+      "maxAmount": 2,
+      "chance": 0.25
+    },
+    {
+      "item": "lycanitesmobs:blizzardcharge",
+      "minAmount": 3,
+      "maxAmount": 6,
+      "chance": 1
+    }
+  ],
+  "sizeScale": 1,
+  "hitboxScale": 1
+}

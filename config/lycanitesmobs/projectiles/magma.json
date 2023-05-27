@@ -1,0 +1,38 @@
+{
+  "name": "magma",
+  "loadDefault": true,
+  "width": 1.125,
+  "height": 1.125,
+  "scale": 2.5,
+  "damage": 6,
+  "pierce": 1,
+  "knockbackChance": 0.5,
+  "effectDuration": 5,
+  "effectAmplifier": 1,
+  "velocity": 0.6,
+  "weight": 1,
+  "lifetime": 100,
+  "elements": [
+    "lava"
+  ],
+  "behaviours": [
+    {
+      "type": "placeBlocks",
+      "block": "minecraft:lava",
+      "radius": 2,
+      "height": 1
+    }
+  ],
+  "waterproof": false,
+  "lavaproof": true,
+  "cutGrass": false,
+  "impactSound": false,
+  "ripper": false,
+  "pierceBlocks": false,
+  "glow": true,
+  "rollSpeed": 1,
+  "particleCount": 1,
+  "particleType": "smoke",
+  "waterParticleType": "bubble",
+  "animationFrames": 4
+}

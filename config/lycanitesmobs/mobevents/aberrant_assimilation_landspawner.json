@@ -1,0 +1,62 @@
+{
+  "name": "aberrant_assimilation_landspawner",
+  "type": "spawner",
+  "enabled": true,
+  "loadDefault": true,
+  "mobCountMin": 5,
+  "ignoreDimensions": true,
+  "ignoreBiomes": true,
+  "ignoreLightLevel": true,
+  "ignoreGroupLimit": true,
+  "ignoreForgeCanSpawnEvent": true,
+  "forceNoDespawn": true,
+  "eventName": "aberrant_assimilation",
+  "conditions": [],
+  "triggers": [
+    {
+      "type": "player",
+      "chance": 1,
+      "tickRate": 100
+    }
+  ],
+  "locations": [
+    {
+      "type": "random",
+      "rangeMin": [
+        24,
+        0,
+        24
+      ],
+      "rangeMax": [
+        32,
+        48,
+        32
+      ],
+      "sorting": "random",
+      "limit": 32,
+      "solidGround": true
+    }
+  ],
+  "mobSpawns": [
+    {
+      "mobId": "lycanitesmobs:trite",
+      "weight": 8,
+      "subspecies": 0
+    },
+    {
+      "mobId": "lycanitesmobs:astaroth",
+      "weight": 2,
+      "subspecies": 0
+    },
+    {
+      "mobId": "lycanitesmobs:trite",
+      "weight": 8,
+      "subspecies": 1
+    },
+    {
+      "mobId": "lycanitesmobs:astaroth",
+      "weight": 2,
+      "subspecies": 1
+    }
+  ]
+}

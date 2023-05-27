@@ -1,0 +1,196 @@
+{
+  "name": "demonictemple",
+  "loadDefault": true,
+  "sectorCountMin": 10,
+  "sectorCountMax": 20,
+  "corridorToCorridorChance": 0.1,
+  "roomToRoomChance": 0.1,
+  "conditions": [
+    {
+      "type": "world",
+      "dimensionIds": [
+        -1
+      ],
+      "dimensionListType": "whitelist"
+    }
+  ],
+  "placer": {
+    "type": "random",
+    "minY": 64,
+    "maxY": 80
+  },
+  "themes": [
+    "demonic"
+  ],
+  "entrances": [
+    "entrancebasic"
+  ],
+  "rooms": [
+    "roombasic",
+    "roombasicloot",
+    "roombasicmob",
+    "roombasicpit",
+    "roomdiamondpit"
+  ],
+  "corridors": [
+    "corridorbasic",
+    "corridorbasicdark",
+    "corridorbasicloot",
+    "corridorbasicmob"
+  ],
+  "stairs": [
+    "stairsbasic"
+  ],
+  "towers": [
+    "towerbasic"
+  ],
+  "bossRooms": [
+    "roombasicboss"
+  ],
+  "finishes": [
+    "roombasicfinish"
+  ],
+  "lootTables": [
+    {
+      "id": "minecraft:chests/simple_dungeon"
+    },
+    {
+      "id": "minecraft:chests/village_blacksmith",
+      "level": 2
+    },
+    {
+      "id": "minecraft:chests/nether_bridge",
+      "level": 3
+    },
+    {
+      "id": "minecraft:chests/abandoned_mineshaft",
+      "level": 4
+    },
+    {
+      "id": "minecraft:chests/stronghold_corridor",
+      "level": 5
+    },
+    {
+      "id": "minecraft:chests/stronghold_crossing",
+      "level": 6
+    }
+  ],
+  "mobSpawns": [
+    {
+      "mobId": "lycanitesmobs:belph",
+      "weight": 14
+    },
+    {
+      "mobId": "lycanitesmobs:wraith",
+      "weight": 8
+    },
+    {
+      "mobId": "lycanitesmobs:behemoth",
+      "weight": 4,
+      "dungeonLevelMin": 1
+    },
+    {
+      "mobId": "lycanitesmobs:pinky",
+      "weight": 4,
+      "dungeonLevelMin": 2
+    },
+    {
+      "mobId": "lycanitesmobs:cacodemon",
+      "weight": 1,
+      "dungeonLevelMin": 3
+    },
+    {
+      "mobId": "lycanitesmobs:behemoth",
+      "weight": 1,
+      "variant": 0,
+      "mobNameTag": "Baron of Hell",
+      "mobSizeScale": 2,
+      "naturalDespawn": "false",
+      "mobLevel": 30,
+      "spawnAsBoss": true,
+      "dungeonLevelMin": "0",
+      "dungeonLevelMax": 2,
+      "dungeonBoss": true,
+      "mobDrops": [
+        {
+          "item": "lycanitesmobs:soulstone_demon",
+          "amountMultiplier": false,
+          "bonusAmount": false
+        }
+      ]
+    },
+    {
+      "mobId": "lycanitesmobs:pinky",
+      "weight": 1,
+      "variant": 2,
+      "mobNameTag": "Gluttony",
+      "mobSizeScale": 2,
+      "naturalDespawn": "false",
+      "mobLevel": 50,
+      "spawnAsBoss": true,
+      "dungeonLevelMin": 3,
+      "dungeonLevelMax": 4,
+      "dungeonBoss": true,
+      "mobDrops": [
+        {
+          "item": "minecraft:diamond",
+          "minAmount": 10,
+          "amountMultiplier": false
+        },
+        {
+          "item": "lycanitesmobs:soulstone_demon",
+          "amountMultiplier": false,
+          "bonusAmount": false
+        }
+      ]
+    },
+    {
+      "mobId": "lycanitesmobs:cacodemon",
+      "weight": 1,
+      "variant": 3,
+      "mobSizeScale": 1.25,
+      "mobNameTag": "Pain Elemental",
+      "naturalDespawn": "false",
+      "mobLevel": 10,
+      "spawnAsBoss": true,
+      "dungeonLevelMin": 5,
+      "dungeonBoss": true,
+      "mobDrops": [
+        {
+          "item": "minecraft:diamond",
+          "minAmount": 50,
+          "amountMultiplier": false
+        },
+        {
+          "item": "lycanitesmobs:soulstone_demon",
+          "amountMultiplier": false,
+          "bonusAmount": false
+        }
+      ]
+    },
+    {
+      "mobId": "lycanitesmobs:archvile",
+      "weight": 1,
+      "variant": 3,
+      "mobSizeScale": 1.25,
+      "mobNameTag": "Azazel",
+      "naturalDespawn": "false",
+      "mobLevel": 10,
+      "spawnAsBoss": true,
+      "dungeonLevelMin": 5,
+      "dungeonBoss": true,
+      "mobDrops": [
+        {
+          "item": "minecraft:diamond",
+          "minAmount": 50,
+          "amountMultiplier": false
+        },
+        {
+          "item": "lycanitesmobs:soulstone_demon",
+          "amountMultiplier": false,
+          "bonusAmount": false
+        }
+      ]
+    }
+  ]
+}

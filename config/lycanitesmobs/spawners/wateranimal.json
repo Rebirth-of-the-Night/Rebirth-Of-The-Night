@@ -1,0 +1,40 @@
+{
+  "name": "wateranimal",
+  "type": "spawner",
+  "enabled": true,
+  "loadDefault": true,
+  "mobCountMin": 4,
+  "ignoreBiomes": false,
+  "ignoreLightLevel": false,
+  "groupLimitRange": 64,
+  "conditions": [],
+  "triggers": [
+    {
+      "type": "world",
+      "chance": 0.25,
+      "tickRate": 3200
+    }
+  ],
+  "locations": [
+    {
+      "type": "random",
+      "rangeMin": [
+        42,
+        0,
+        42
+      ],
+      "rangeMax": [
+        48,
+        48,
+        48
+      ],
+      "sorting": "random",
+      "limit": 32,
+      "blocks": [
+        "minecraft:water"
+      ],
+      "listType": "whitelist",
+      "solidGround": false
+    }
+  ]
+}

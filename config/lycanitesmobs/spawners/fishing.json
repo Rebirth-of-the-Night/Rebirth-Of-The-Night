@@ -1,0 +1,62 @@
+{
+  "name": "fishing",
+  "type": "spawner",
+  "enabled": true,
+  "loadDefault": true,
+  "mobCountMin": 1,
+  "ignoreDimensions": true,
+  "ignoreBiomes": true,
+  "ignoreLightLevel": true,
+  "ignoreForgeCanSpawnEvent": true,
+  "conditions": [],
+  "triggers": [
+    {
+      "type": "fishing",
+      "chance": 0.2
+    }
+  ],
+  "locations": [
+    {
+      "type": "block",
+      "rangeMin": [
+        0,
+        0,
+        0
+      ],
+      "rangeMax": [
+        2,
+        2,
+        2
+      ],
+      "sorting": "near",
+      "limit": 1,
+      "blocks": [
+        "minecraft:water"
+      ],
+      "listType": "whitelist",
+      "solidGround": false
+    }
+  ],
+  "mobSpawns": [
+    {
+      "mobId": "lycanitesmobs:silex",
+      "weight": 16
+    },
+    {
+      "mobId": "lycanitesmobs:abaia",
+      "weight": 8
+    },
+    {
+      "mobId": "lycanitesmobs:abtu",
+      "weight": 8
+    },
+    {
+      "mobId": "lycanitesmobs:roa",
+      "weight": 1
+    },
+    {
+      "mobId": "lycanitesmobs:skylus",
+      "weight": 1
+    }
+  ]
+}

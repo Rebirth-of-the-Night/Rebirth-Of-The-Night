@@ -1,0 +1,48 @@
+{
+  "name": "flower",
+  "type": "spawner",
+  "enabled": true,
+  "loadDefault": true,
+  "mobCountMin": 1,
+  "ignoreDimensions": true,
+  "ignoreBiomes": true,
+  "ignoreLightLevel": false,
+  "conditions": [],
+  "triggers": [
+    {
+      "type": "world",
+      "chance": 0.5,
+      "tickRate": 800
+    }
+  ],
+  "locations": [
+    {
+      "type": "block",
+      "rangeMin": [
+        16,
+        0,
+        16
+      ],
+      "rangeMax": [
+        32,
+        32,
+        32
+      ],
+      "surface": true,
+      "underground": false,
+      "sorting": "random",
+      "blocks": [
+        "minecraft:red_flower",
+        "minecraft:yellow_flower"
+      ],
+      "blockCost": 8,
+      "listType": "whitelist"
+    }
+  ],
+  "mobSpawns": [
+    {
+      "mobId": "lycanitesmobs:nymph",
+      "weight": 8
+    }
+  ]
+}

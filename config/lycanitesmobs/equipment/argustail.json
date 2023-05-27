@@ -1,0 +1,62 @@
+{
+  "itemName": "argustail",
+  "loadDefault": true,
+  "slotType": "base",
+  "dropMobId": "lycanitesmobs:argus",
+  "dropChance": 0.1,
+  "levelMin": 1,
+  "levelMax": 3,
+  "elements": [
+    "chaos"
+  ],
+  "features": [
+    {
+      "featureType": "slot",
+      "slotType": "head"
+    },
+    {
+      "featureType": "effect",
+      "levelMax": 1,
+      "effectType": "lycanitesmobs:instability",
+      "effectTarget": "target",
+      "effectDuration": 40,
+      "effectStrength": 1
+    },
+    {
+      "featureType": "effect",
+      "levelMin": 2,
+      "levelMax": 2,
+      "effectType": "lycanitesmobs:instability",
+      "effectTarget": "target",
+      "effectDuration": 60,
+      "effectStrength": 1
+    },
+    {
+      "featureType": "effect",
+      "levelMin": 3,
+      "effectType": "lycanitesmobs:instability",
+      "effectTarget": "target",
+      "effectDuration": 80,
+      "effectStrength": 2
+    },
+    {
+      "featureType": "summon",
+      "levelMin": 2,
+      "summonMobId": "lycanitesmobs.argus",
+      "summonChance": 0.05,
+      "summonDuration": 10,
+      "summonCountMin": 1,
+      "summonCountMax": 1,
+      "sizeScale": 0.4
+    },
+    {
+      "featureType": "projectile",
+      "levelMin": 3,
+      "projectileName": "chaosorb",
+      "projectileTrigger": "primary",
+      "projectilePattern": "simple",
+      "cooldown": 10,
+      "count": 1
+    }
+  ]
+}

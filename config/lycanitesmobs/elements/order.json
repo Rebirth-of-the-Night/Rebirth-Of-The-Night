@@ -1,0 +1,10 @@
+{
+  "name": "order",
+  "loadDefault": true,
+  "buffs": [
+    "minecraft:absorption"
+  ],
+  "debuffs": [
+    "minecraft:weakness"
+  ]
+}

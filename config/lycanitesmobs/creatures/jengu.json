@@ -1,0 +1,84 @@
+{
+  "name": "jengu",
+  "creatureType": "elemental",
+  "groups": [
+    "monster"
+  ],
+  "entityClass": "com.lycanitesmobs.core.entity.creature.EntityJengu",
+  "modelClass": "com.lycanitesmobs.client.model.creature.ModelJengu",
+  "loadDefault": true,
+  "enabled": true,
+  "spawning": {
+    "enabled": true,
+    "spawners": [
+      "water"
+    ],
+    "disableSubspecies": false,
+    "dimensionIds": [],
+    "dimensionListType": "blacklist",
+    "ignoreBiome": true,
+    "biomeTags": [],
+    "spawnWeight": 8,
+    "dungeonWeight": 200,
+    "spawnAreaLimit": 5,
+    "spawnGroupMin": 1,
+    "spawnGroupMax": 3,
+    "spawnsInLight": false,
+    "spawnsInDark": true,
+    "worldDayMin": -1,
+    "despawnNatural": true,
+    "despawnForced": false
+  },
+  "width": 0.8,
+  "height": 1.6,
+  "experience": 10,
+  "health": 15,
+  "defense": 0,
+  "armor": 0,
+  "speed": 36,
+  "damage": 2,
+  "attackSpeed": 1,
+  "rangedSpeed": 0.25,
+  "effectDuration": 5,
+  "effectAmplifier": 0,
+  "pierce": 1,
+  "sight": 24,
+  "knockbackResistance": 0,
+  "bagSize": 5,
+  "eggBackColor": "#000099",
+  "eggForeColor": "#4444FF",
+  "subspecies": [
+    {
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "lux",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "keppel",
+          "type": "uncommon"
+        }
+      ]
+    }
+  ],
+  "element": "water",
+  "peaceful": false,
+  "summonable": true,
+  "tameable": false,
+  "mountable": false,
+  "summonCost": 2,
+  "dungeonLevel": 1,
+  "drops": [
+    {
+      "item": "lycanitesmobs:aquapulsecharge",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 1
+    }
+  ],
+  "sizeScale": 1,
+  "hitboxScale": 1
+}

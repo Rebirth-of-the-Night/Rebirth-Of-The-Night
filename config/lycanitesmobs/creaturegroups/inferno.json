@@ -1,0 +1,17 @@
+{
+  "name": "inferno",
+  "loadDefault": true,
+  "hunt": [
+    "humanoid",
+    "frozen",
+    "nature"
+  ],
+  "pack": [],
+  "wary": [],
+  "flee": [],
+  "ignore": [
+    "boss"
+  ],
+  "default": "retaliate",
+  "inferno": true
+}

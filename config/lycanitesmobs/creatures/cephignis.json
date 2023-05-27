@@ -1,0 +1,96 @@
+{
+  "name": "cephignis",
+  "creatureType": "aquatic",
+  "groups": [
+    "animal"
+  ],
+  "entityClass": "com.lycanitesmobs.core.entity.creature.EntityCephignis",
+  "modelClass": "com.lycanitesmobs.client.model.creature.ModelCephignis",
+  "loadDefault": true,
+  "enabled": true,
+  "spawning": {
+    "enabled": true,
+    "spawners": [
+      "lava"
+    ],
+    "disableSubspecies": false,
+    "dimensionIds": [],
+    "dimensionListType": "blacklist",
+    "ignoreBiome": false,
+    "biomeTags": [
+      "all"
+    ],
+    "spawnWeight": 4,
+    "dungeonWeight": 0,
+    "spawnAreaLimit": 5,
+    "spawnGroupMin": 1,
+    "spawnGroupMax": 3,
+    "spawnsInLight": true,
+    "spawnsInDark": false,
+    "worldDayMin": -1,
+    "despawnNatural": false,
+    "despawnForced": false
+  },
+  "width": 1.8,
+  "height": 0.8,
+  "experience": 5,
+  "health": 5,
+  "defense": 1,
+  "armor": 0,
+  "speed": 24,
+  "damage": 1,
+  "attackSpeed": 1,
+  "rangedSpeed": 1,
+  "effectDuration": 5,
+  "effectAmplifier": 0,
+  "pierce": 1,
+  "sight": 24,
+  "knockbackResistance": 0,
+  "bagSize": 5,
+  "eggBackColor": "#FFBB00",
+  "eggForeColor": "#DD00FF",
+  "subspecies": [
+    {
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "golden",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "scarlet",
+          "type": "uncommon"
+        }
+      ]
+    }
+  ],
+  "element": "lava",
+  "diets": [
+    "geovore"
+  ],
+  "peaceful": true,
+  "farmable": true,
+  "summonable": false,
+  "tameable": false,
+  "mountable": false,
+  "summonCost": 1,
+  "dungeonLevel": 0,
+  "drops": [
+    {
+      "item": "lycanitesmobs:cooked_cephignis_meat",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 0.25
+    },
+    {
+      "item": "minecraft:magma_cream",
+      "minAmount": 1,
+      "maxAmount": 2,
+      "chance": 0.5
+    }
+  ],
+  "sizeScale": 1,
+  "hitboxScale": 1
+}

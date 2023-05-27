@@ -1,0 +1,94 @@
+{
+  "name": "zephyr",
+  "creatureType": "elemental",
+  "groups": [
+    "monster"
+  ],
+  "entityClass": "com.lycanitesmobs.core.entity.creature.EntityZephyr",
+  "modelClass": "com.lycanitesmobs.client.model.creature.ModelZephyr",
+  "loadDefault": true,
+  "enabled": true,
+  "spawning": {
+    "enabled": true,
+    "spawners": [],
+    "disableSubspecies": false,
+    "dimensionIds": [],
+    "dimensionListType": "blacklist",
+    "ignoreBiome": false,
+    "biomeTags": [],
+    "spawnWeight": 8,
+    "dungeonWeight": 200,
+    "spawnAreaLimit": 5,
+    "spawnGroupMin": 1,
+    "spawnGroupMax": 3,
+    "spawnsInLight": false,
+    "spawnsInDark": true,
+    "worldDayMin": -1,
+    "despawnNatural": true,
+    "despawnForced": false
+  },
+  "width": 0.8,
+  "height": 1.6,
+  "experience": 10,
+  "health": 15,
+  "defense": 0,
+  "armor": 0,
+  "speed": 28,
+  "damage": 1,
+  "attackSpeed": 1,
+  "rangedSpeed": 1,
+  "effectDuration": 5,
+  "effectAmplifier": 0,
+  "pierce": 1,
+  "sight": 24,
+  "knockbackResistance": 0,
+  "bagSize": 5,
+  "eggBackColor": "#FFFFDD",
+  "eggForeColor": "#AABBFF",
+  "subspecies": [
+    {
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "golden",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "keppel",
+          "type": "uncommon"
+        }
+      ]
+    }
+  ],
+  "element": "lightning",
+  "peaceful": false,
+  "summonable": false,
+  "tameable": false,
+  "mountable": false,
+  "summonCost": 2,
+  "dungeonLevel": 1,
+  "drops": [
+    {
+      "item": "minecraft:glowstone_dust",
+      "minAmount": 1,
+      "maxAmount": 8,
+      "chance": 1
+    },
+    {
+      "item": "minecraft:gunpowder",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 1
+    },
+    {
+      "item": "lycanitesmobs:cleansingcrystal",
+      "minAmount": 1,
+      "maxAmount": 1,
+      "chance": 0.05
+    }
+  ],
+  "sizeScale": 1,
+  "hitboxScale": 1
+}

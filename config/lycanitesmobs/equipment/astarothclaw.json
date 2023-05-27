@@ -1,0 +1,71 @@
+{
+  "itemName": "astarothclaw",
+  "loadDefault": true,
+  "slotType": "head",
+  "dropMobId": "lycanitesmobs:astaroth",
+  "dropChance": 0.2,
+  "levelMin": 1,
+  "levelMax": 3,
+  "elements": [
+    "nether",
+    "void"
+  ],
+  "features": [
+    {
+      "featureType": "slot",
+      "slotType": "pike"
+    },
+    {
+      "featureType": "damage",
+      "levelMax": 2,
+      "damageAmount": 1,
+      "damageKnockback": 0,
+      "damageCooldown": 1,
+      "damageRange": 1,
+      "damageSweep": 45
+    },
+    {
+      "featureType": "damage",
+      "levelMin": 3,
+      "damageAmount": 2,
+      "damageKnockback": 0,
+      "damageCooldown": 1,
+      "damageRange": 1,
+      "damageSweep": 90
+    },
+    {
+      "featureType": "effect",
+      "levelMax": 1,
+      "effectType": "minecraft:wither",
+      "effectTarget": "target",
+      "effectDuration": 40,
+      "effectStrength": 1
+    },
+    {
+      "featureType": "effect",
+      "levelMin": 2,
+      "levelMax": 2,
+      "effectType": "minecraft:wither",
+      "effectTarget": "target",
+      "effectDuration": 60,
+      "effectStrength": 2
+    },
+    {
+      "featureType": "effect",
+      "levelMin": 3,
+      "effectType": "minecraft:wither",
+      "effectTarget": "target",
+      "effectDuration": 80,
+      "effectStrength": 3
+    },
+    {
+      "featureType": "projectile",
+      "levelMin": 1,
+      "projectileName": "devilstar",
+      "projectileTrigger": "secondary",
+      "projectilePattern": "simple",
+      "cooldown": 2,
+      "count": 1
+    }
+  ]
+}

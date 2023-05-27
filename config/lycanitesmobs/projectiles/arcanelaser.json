@@ -1,0 +1,35 @@
+{
+  "name": "arcanelaser",
+  "loadDefault": true,
+  "noChargeItem": true,
+  "width": 1.0,
+  "height": 1.0,
+  "scale": 1.0,
+  "damage": 2,
+  "pierce": 1,
+  "knockbackChance": 0,
+  "effectDuration": 5,
+  "effectAmplifier": 1,
+  "velocity": 1.1,
+  "weight": 0,
+  "lifetime": 100,
+  "elements": [
+    "order"
+  ],
+  "behaviours": [
+    {
+      "type": "laser",
+      "speed": 1,
+      "width": 4,
+      "range": 16
+    }
+  ],
+  "waterproof": true,
+  "lavaproof": true,
+  "cutGrass": false,
+  "impactSound": false,
+  "true": false,
+  "pierceBlocks": false,
+  "glow": true,
+  "rollSpeed": 4
+}

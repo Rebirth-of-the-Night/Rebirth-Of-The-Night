@@ -1,0 +1,15 @@
+{
+  "name": "nether",
+  "loadDefault": true,
+  "canBurn": false,
+  "buffs": [
+    "minecraft:strength"
+  ],
+  "debuffs": [
+    "minecraft:wither"
+  ],
+  "components": [
+    "air",
+    "chaos"
+  ]
+}

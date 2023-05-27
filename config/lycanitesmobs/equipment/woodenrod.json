@@ -1,0 +1,15 @@
+{
+  "itemName": "woodenrod",
+  "loadDefault": true,
+  "slotType": "base",
+  "dropMobId": "",
+  "dropChance": 0.1,
+  "levelMin": 1,
+  "levelMax": 1,
+  "features": [
+    {
+      "featureType": "slot",
+      "slotType": "head"
+    }
+  ]
+}

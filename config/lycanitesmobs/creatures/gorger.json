@@ -1,0 +1,124 @@
+{
+  "name": "gorger",
+  "creatureType": "worm",
+  "groups": [
+    "predator"
+  ],
+  "entityClass": "com.lycanitesmobs.core.entity.creature.EntityGorger",
+  "modelClass": "com.lycanitesmobs.client.model.creature.ModelGorger",
+  "loadDefault": true,
+  "enabled": true,
+  "spawning": {
+    "enabled": true,
+    "spawners": [
+      "lava"
+    ],
+    "disableSubspecies": false,
+    "dimensionIds": [],
+    "dimensionListType": "blacklist",
+    "ignoreBiome": false,
+    "biomeTags": [
+      "all"
+    ],
+    "spawnWeight": 2,
+    "dungeonWeight": 200,
+    "spawnAreaLimit": 2,
+    "spawnGroupMin": 1,
+    "spawnGroupMax": 2,
+    "spawnsInLight": false,
+    "spawnsInDark": true,
+    "worldDayMin": -1,
+    "despawnNatural": true,
+    "despawnForced": false
+  },
+  "width": 6.8,
+  "height": 1.8,
+  "experience": 10,
+  "health": 20,
+  "defense": 3,
+  "armor": 0,
+  "speed": 24,
+  "damage": 1,
+  "attackSpeed": 1,
+  "rangedSpeed": 0.25,
+  "effectDuration": 5,
+  "effectAmplifier": 0,
+  "pierce": 1,
+  "sight": 24,
+  "knockbackResistance": 0.5,
+  "bagSize": 15,
+  "tamingReputation": 500,
+  "packSize": 1,
+  "eggBackColor": "#DE2A00",
+  "eggForeColor": "#200905",
+  "subspecies": [
+    {
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "golden",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "keppel",
+          "type": "uncommon"
+        }
+      ]
+    }
+  ],
+  "element": "lava",
+  "diets": [
+    "carnivore",
+    "piscivore",
+    "insectivore",
+    "geovore"
+  ],
+  "peaceful": false,
+  "summonable": false,
+  "tameable": true,
+  "mountable": false,
+  "summonCost": 6,
+  "dungeonLevel": 3,
+  "drops": [
+    {
+      "item": "minecraft:coal",
+      "minAmount": 8,
+      "maxAmount": 24,
+      "chance": 1
+    },
+    {
+      "item": "minecraft:magma_cream",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 1
+    },
+    {
+      "item": "minecraft:blaze_powder",
+      "minAmount": 3,
+      "maxAmount": 6,
+      "chance": 1
+    },
+    {
+      "item": "lycanitesmobs:magmacharge",
+      "minAmount": 5,
+      "maxAmount": 7,
+      "chance": 1
+    },
+    {
+      "item": "minecraft:iron_ore",
+      "minAmount": 2,
+      "maxAmount": 3,
+      "chance": 0.5
+    },
+    {
+      "item": "minecraft:gold_ore",
+      "minAmount": 1,
+      "maxAmount": 2,
+      "chance": 0.25
+    }
+  ],
+  "sizeScale": 1,
+  "hitboxScale": 1
+}

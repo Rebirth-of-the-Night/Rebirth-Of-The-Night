@@ -1,0 +1,43 @@
+{
+  "itemName": "apollyonclaw",
+  "loadDefault": true,
+  "slotType": "head",
+  "dropMobId": "lycanitesmobs:archvile",
+  "dropChance": 0.05,
+  "levelMin": 1,
+  "levelMax": 3,
+  "elements": [
+    "nether"
+  ],
+  "features": [
+    {
+      "featureType": "slot",
+      "slotType": "pike"
+    },
+    {
+      "featureType": "effect",
+      "levelMax": 1,
+      "effectType": "minecraft:strength",
+      "effectTarget": "self",
+      "effectDuration": 80,
+      "effectStrength": 1
+    },
+    {
+      "featureType": "effect",
+      "levelMin": 2,
+      "levelMax": 2,
+      "effectType": "minecraft:strength",
+      "effectTarget": "self",
+      "effectDuration": 80,
+      "effectStrength": 2
+    },
+    {
+      "featureType": "effect",
+      "levelMin": 3,
+      "effectType": "minecraft:strength",
+      "effectTarget": "self",
+      "effectDuration": 80,
+      "effectStrength": 3
+    }
+  ]
+}

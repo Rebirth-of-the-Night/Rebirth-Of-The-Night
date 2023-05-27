@@ -1,0 +1,112 @@
+{
+  "name": "krake",
+  "creatureType": "aberration",
+  "groups": [
+    "animal",
+    "monster",
+    "opportunist"
+  ],
+  "entityClass": "com.lycanitesmobs.core.entity.creature.EntityKrake",
+  "modelClass": "com.lycanitesmobs.client.model.creature.ModelKrake",
+  "loadDefault": true,
+  "enabled": true,
+  "spawning": {
+    "enabled": true,
+    "spawners": [
+      "creature",
+      "animal",
+      "wateranimal"
+    ],
+    "disableSubspecies": false,
+    "dimensionIds": [
+      -1,
+      1
+    ],
+    "dimensionListType": "blacklist",
+    "ignoreBiome": false,
+    "biomeTags": [
+      "river",
+      "-snowy"
+    ],
+    "spawnWeight": 8,
+    "dungeonWeight": 0,
+    "spawnAreaLimit": 5,
+    "spawnGroupMin": 1,
+    "spawnGroupMax": 3,
+    "spawnsInLight": true,
+    "spawnsInDark": false,
+    "worldDayMin": -1,
+    "despawnNatural": false,
+    "despawnForced": false
+  },
+  "width": 0.9,
+  "height": 2.2,
+  "experience": 5,
+  "health": 10,
+  "defense": 0,
+  "armor": 0,
+  "speed": 38,
+  "damage": 2,
+  "attackSpeed": 2,
+  "rangedSpeed": 1,
+  "effectDuration": 5,
+  "effectAmplifier": -1,
+  "pierce": 1,
+  "sight": 24,
+  "knockbackResistance": 0.25,
+  "bagSize": 5,
+  "eggBackColor": "#BC532E",
+  "eggForeColor": "#3D6999",
+  "subspecies": [
+    {
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "keppel",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "lux",
+          "type": "uncommon"
+        }
+      ]
+    }
+  ],
+  "elements": [
+    "water",
+    "quake"
+  ],
+  "diets": [
+    "carnivore",
+    "piscivore",
+    "insectivore",
+    "frugivore",
+    "detritivore"
+  ],
+  "peaceful": true,
+  "farmable": true,
+  "summonable": false,
+  "tameable": false,
+  "mountable": false,
+  "summonCost": 2,
+  "dungeonLevel": 1,
+  "drops": [
+    {
+      "item": "lycanitesmobs:raw_krake_meat",
+      "burningItem": "lycanitesmobs:cooked_krake_meat",
+      "minAmount": 1,
+      "maxAmount": 2,
+      "chance": 1
+    },
+    {
+      "item": "minecraft:clay_ball",
+      "minAmount": 1,
+      "maxAmount": 2,
+      "chance": 1
+    }
+  ],
+  "sizeScale": 1,
+  "hitboxScale": 1
+}

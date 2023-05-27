@@ -1,0 +1,21 @@
+{
+  "name": "cooked_krake_meat",
+  "loadDefault": true,
+  "group": "items",
+  "maxStackSize": 64,
+  "food": {
+    "hunger": 6,
+    "saturation": 0.6,
+    "alwaysEdible": true,
+    "fast": false,
+    "meat": true,
+    "effects": [
+      {
+        "effectId": "lycanitesmobs:repulsion",
+        "duration": 30,
+        "amplifier": 0,
+        "chance": 1.0
+      }
+    ]
+  }
+}

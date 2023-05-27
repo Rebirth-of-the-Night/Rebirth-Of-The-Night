@@ -1,0 +1,102 @@
+{
+  "name": "ika",
+  "creatureType": "worm",
+  "groups": [
+    "animal"
+  ],
+  "entityClass": "com.lycanitesmobs.core.entity.creature.EntityIka",
+  "modelClass": "com.lycanitesmobs.client.model.creature.ModelIka",
+  "loadDefault": true,
+  "enabled": true,
+  "spawning": {
+    "enabled": true,
+    "spawners": [
+      "wateranimal"
+    ],
+    "disableSubspecies": false,
+    "dimensionIds": [
+      -1,
+      1
+    ],
+    "dimensionListType": "blacklist",
+    "ignoreBiome": false,
+    "biomeTags": [
+      "ocean",
+      "beach"
+    ],
+    "spawnWeight": 8,
+    "dungeonWeight": 0,
+    "spawnAreaLimit": 2,
+    "spawnGroupMin": 1,
+    "spawnGroupMax": 2,
+    "spawnsInLight": true,
+    "spawnsInDark": false,
+    "worldDayMin": -1,
+    "despawnNatural": false,
+    "despawnForced": false
+  },
+  "width": 0.9,
+  "height": 0.9,
+  "experience": 5,
+  "health": 10,
+  "defense": 1,
+  "armor": 0,
+  "speed": 26,
+  "damage": 2,
+  "attackSpeed": 1,
+  "rangedSpeed": 1,
+  "effectDuration": 5,
+  "effectAmplifier": 0,
+  "pierce": 1,
+  "sight": 24,
+  "knockbackResistance": 0.5,
+  "bagSize": 5,
+  "eggBackColor": "#99FFBB",
+  "eggForeColor": "#229944",
+  "subspecies": [
+    {
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "azure",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "golden",
+          "type": "uncommon"
+        }
+      ]
+    }
+  ],
+  "element": "earth",
+  "diets": [
+    "herbivore",
+    "frugivore"
+  ],
+  "peaceful": true,
+  "farmable": true,
+  "summonable": false,
+  "tameable": false,
+  "mountable": false,
+  "summonCost": 2,
+  "dungeonLevel": 0,
+  "drops": [
+    {
+      "item": "lycanitesmobs:raw_ika_meat",
+      "burningItem": "lycanitesmobs:cooked_ika_meat",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 1
+    },
+    {
+      "item": "minecraft:dye",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 0.25
+    }
+  ],
+  "sizeScale": 1,
+  "hitboxScale": 1
+}

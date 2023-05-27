@@ -1,0 +1,63 @@
+{
+  "itemName": "sutiramustinger",
+  "loadDefault": true,
+  "slotType": "pommel",
+  "dropMobId": "lycanitesmobs:sutiramu",
+  "dropChance": 0.1,
+  "levelMin": 1,
+  "levelMax": 3,
+  "elements": [
+    "arcane",
+    "quake"
+  ],
+  "features": [
+    {
+      "featureType": "harvest",
+      "harvestType": "hoe",
+      "harvestSpeed": 6,
+      "harvestShape": "block",
+      "harvestRange": [
+        1,
+        1,
+        1
+      ],
+      "harvestRangeLevelMultiplier": 1
+    },
+    {
+      "featureType": "harvest",
+      "harvestType": "shears",
+      "harvestSpeed": 6,
+      "harvestShape": "block",
+      "harvestRange": [
+        1,
+        1,
+        1
+      ],
+      "harvestRangeLevelMultiplier": 1
+    },
+    {
+      "featureType": "effect",
+      "levelMax": 2,
+      "effectType": "minecraft:slowness",
+      "effectTarget": "target",
+      "effectDuration": 20,
+      "effectStrength": 2
+    },
+    {
+      "featureType": "effect",
+      "levelMin": 3,
+      "effectType": "minecraft:slowness",
+      "effectTarget": "target",
+      "effectDuration": 60,
+      "effectStrength": 3
+    },
+    {
+      "featureType": "effect",
+      "levelMin": 3,
+      "effectType": "minecraft:hunger",
+      "effectTarget": "target",
+      "effectDuration": 60,
+      "effectStrength": 3
+    }
+  ]
+}

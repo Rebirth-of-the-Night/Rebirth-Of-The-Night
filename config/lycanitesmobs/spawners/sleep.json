@@ -1,0 +1,46 @@
+{
+  "name": "sleep",
+  "type": "spawner",
+  "enabled": true,
+  "loadDefault": true,
+  "mobCountMin": 1,
+  "ignoreDimensions": true,
+  "ignoreBiomes": true,
+  "ignoreCollision": true,
+  "ignoreLightLevel": true,
+  "ignoreGroupLimit": true,
+  "ignoreForgeCanSpawnEvent": true,
+  "conditions": [],
+  "triggers": [
+    {
+      "type": "sleep",
+      "chance": 0.1,
+      "cooldown": 1200
+    }
+  ],
+  "locations": [
+    {
+      "type": "random",
+      "rangeMin": [
+        0,
+        0,
+        0
+      ],
+      "rangeMax": [
+        2,
+        2,
+        2
+      ],
+      "sorting": "random",
+      "limit": 1,
+      "blocks": [],
+      "listType": "blacklist",
+      "solidGround": false
+    }
+  ],
+  "mobSpawns": [
+    {
+      "mobId": "lycanitesmobs:reaper"
+    }
+  ]
+}

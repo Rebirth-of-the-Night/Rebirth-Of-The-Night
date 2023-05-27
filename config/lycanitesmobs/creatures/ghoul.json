@@ -1,0 +1,102 @@
+{
+  "name": "ghoul",
+  "creatureType": "undead",
+  "groups": [
+    "raider"
+  ],
+  "entityClass": "com.lycanitesmobs.core.entity.creature.EntityGhoul",
+  "modelClass": "com.lycanitesmobs.client.model.creature.ModelGhoul",
+  "loadDefault": true,
+  "enabled": true,
+  "spawning": {
+    "enabled": true,
+    "spawners": [
+      "monster",
+      "beast"
+    ],
+    "disableSubspecies": false,
+    "dimensionIds": [
+      -1,
+      1
+    ],
+    "dimensionListType": "blacklist",
+    "ignoreBiome": false,
+    "biomeTags": [
+      "swamp",
+      "spooky"
+    ],
+    "spawnWeight": 8,
+    "dungeonWeight": 200,
+    "spawnAreaLimit": 5,
+    "spawnGroupMin": 1,
+    "spawnGroupMax": 3,
+    "spawnsInLight": false,
+    "spawnsInDark": true,
+    "worldDayMin": -1,
+    "despawnNatural": true,
+    "despawnForced": false
+  },
+  "width": 0.8,
+  "height": 1.6,
+  "experience": 10,
+  "health": 15,
+  "defense": 0,
+  "armor": 0,
+  "speed": 28,
+  "damage": 2,
+  "attackSpeed": 1,
+  "rangedSpeed": 1,
+  "effectDuration": 5,
+  "effectAmplifier": 0,
+  "pierce": 1,
+  "sight": 24,
+  "knockbackResistance": 0,
+  "bagSize": 5,
+  "eggBackColor": "#009966",
+  "eggForeColor": "#AAFFDD",
+  "subspecies": [
+    {
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "scarlet",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "verdant",
+          "type": "uncommon"
+        }
+      ]
+    }
+  ],
+  "element": "poison",
+  "diets": [
+    "carnivore",
+    "detritivore",
+    "fungivore"
+  ],
+  "peaceful": false,
+  "summonable": true,
+  "tameable": false,
+  "mountable": false,
+  "summonCost": 2,
+  "dungeonLevel": 0,
+  "drops": [
+    {
+      "item": "minecraft:rotten_flesh",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 1
+    },
+    {
+      "item": "minecraft:coal",
+      "minAmount": 1,
+      "maxAmount": 2,
+      "chance": 0.25
+    }
+  ],
+  "sizeScale": 1,
+  "hitboxScale": 1
+}

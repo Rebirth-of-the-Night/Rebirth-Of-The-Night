@@ -1,0 +1,10 @@
+{
+  "name": "water",
+  "loadDefault": true,
+  "buffs": [
+    "minecraft:water_breathing"
+  ],
+  "debuffs": [
+    "minecraft:mining_fatigue"
+  ]
+}

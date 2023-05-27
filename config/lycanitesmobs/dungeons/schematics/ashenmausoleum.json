@@ -1,0 +1,220 @@
+{
+  "name": "ashenmausoleum",
+  "loadDefault": true,
+  "sectorCountMin": 10,
+  "sectorCountMax": 20,
+  "corridorToCorridorChance": 0.1,
+  "roomToRoomChance": 0.9,
+  "conditions": [
+    {
+      "type": "world",
+      "dimensionIds": [
+        -1
+      ],
+      "dimensionListType": "whitelist"
+    }
+  ],
+  "placer": {
+    "type": "random",
+    "minY": 64,
+    "maxY": 80
+  },
+  "themes": [
+    "ashen"
+  ],
+  "entrances": [
+    "entrancebasic"
+  ],
+  "rooms": [
+    "roombasic",
+    "roombasicloot",
+    "roombasicmob",
+    "roombasicpit",
+    "roomdiamondpit"
+  ],
+  "corridors": [
+    "corridorbasic",
+    "corridorbasicdark",
+    "corridorbasicloot",
+    "corridorbasicmob"
+  ],
+  "stairs": [
+    "stairsbasic"
+  ],
+  "towers": [
+    "towerbasic"
+  ],
+  "bossRooms": [
+    "roombasicboss"
+  ],
+  "finishes": [
+    "roombasicfinish"
+  ],
+  "lootTables": [
+    {
+      "id": "minecraft:chests/simple_dungeon"
+    },
+    {
+      "id": "minecraft:chests/village_blacksmith",
+      "level": 2
+    },
+    {
+      "id": "minecraft:chests/nether_bridge",
+      "level": 3
+    },
+    {
+      "id": "minecraft:chests/abandoned_mineshaft",
+      "level": 4
+    },
+    {
+      "id": "minecraft:chests/stronghold_corridor",
+      "level": 5
+    },
+    {
+      "id": "minecraft:chests/stronghold_crossing",
+      "level": 6
+    }
+  ],
+  "mobSpawns": [
+    {
+      "mobId": "lycanitesmobs:cinder",
+      "weight": 8
+    },
+    {
+      "mobId": "lycanitesmobs:afrit",
+      "weight": 8
+    },
+    {
+      "mobId": "lycanitesmobs:salamander",
+      "weight": 4,
+      "dungeonLevelMin": 3
+    },
+    {
+      "mobId": "lycanitesmobs:volcan",
+      "weight": 4,
+      "dungeonLevelMin": 2
+    },
+    {
+      "mobId": "lycanitesmobs:gorger",
+      "weight": 4,
+      "dungeonLevelMin": 3
+    },
+    {
+      "modId": "lycanitesmobs:lobber",
+      "weight": 2,
+      "dungeonLevelMin": 3
+    },
+    {
+      "mobId": "lycanitesmobs:gorger",
+      "weight": 1,
+      "variant": 0,
+      "mobNameTag": "Mantle Gorger",
+      "mobSizeScale": 3,
+      "naturalDespawn": "false",
+      "mobLevel": 100,
+      "spawnAsBoss": true,
+      "dungeonLevelMin": 0,
+      "dungeonLevelMax": 2,
+      "dungeonBoss": true,
+      "mobDrops": [
+        {
+          "item": "lycanitesmobs:magmacharge",
+          "amountMultiplier": false
+        },
+        {
+          "item": "lycanitesmobs:soulstone_worm",
+          "amountMultiplier": false,
+          "bonusAmount": false
+        }
+      ]
+    },
+    {
+      "mobId": "lycanitesmobs:lobber",
+      "weight": 1,
+      "variant": 3,
+      "mobNameTag": "Molten Titan",
+      "mobSizeScale": 3,
+      "naturalDespawn": "false",
+      "mobLevel": 1,
+      "spawnAsBoss": true,
+      "dungeonLevelMin": 3,
+      "dungeonLevelMax": 4,
+      "dungeonBoss": true,
+      "mobDrops": [
+        {
+          "item": "minecraft:diamond",
+          "minAmount": 10,
+          "amountMultiplier": false
+        },
+        {
+          "item": "lycanitesmobs:soulstone_anthronian",
+          "amountMultiplier": false,
+          "bonusAmount": false
+        }
+      ]
+    },
+    {
+      "mobId": "lycanitesmobs:volcan",
+      "weight": 1,
+      "variant": 1,
+      "mobNameTag": "Prime Lava Soul",
+      "mobSizeScale": 3.5,
+      "naturalDespawn": "false",
+      "mobLevel": 50,
+      "spawnAsBoss": true,
+      "dungeonLevelMin": 3,
+      "dungeonLevelMax": 4,
+      "dungeonBoss": true,
+      "mobDrops": [
+        {
+          "item": "lycanitesmobs:embercharge",
+          "minAmount": 50,
+          "amountMultiplier": false
+        },
+        {
+          "item": "lycanitesmobs:soulstone_elemental",
+          "amountMultiplier": false,
+          "bonusAmount": false
+        },
+        {
+          "item": "minecraft:diamond",
+          "minAmount": 10,
+          "amountMultiplier": false
+        }
+      ]
+    },
+    {
+      "mobId": "lycanitesmobs:ignibus",
+      "weight": 1,
+      "variant": 1,
+      "mobSizeScale": 1.1,
+      "mobNameTag": "The Tyrant Dragon",
+      "naturalDespawn": "false",
+      "mobLevel": 10,
+      "spawnAsBoss": true,
+      "dungeonLevelMin": 5,
+      "dungeonBoss": true,
+      "mobDrops": [
+        {
+          "item": "lycanitesmobs:primeembercharge",
+          "minAmount": 50,
+          "amountMultiplier": false
+        },
+        {
+          "item": "lycanitesmobs:equipmentpart_cherufecore",
+          "amountMultiplier": false
+        },
+        {
+          "item": "minecraft:diamond",
+          "minAmount": 50,
+          "amountMultiplier": false
+        },
+        {
+          "item": "lycanitesmobs:soulstone_dragon",
+          "amountMultiplier": false,
+          "bonusAmount": false
+        }
+      ]
+    }
+  ]
+}

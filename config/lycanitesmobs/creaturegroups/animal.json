@@ -1,0 +1,16 @@
+{
+  "name": "animal",
+  "loadDefault": true,
+  "hunt": [],
+  "pack": [],
+  "wary": [],
+  "flee": [
+    "predator",
+    "boss"
+  ],
+  "ignore": [
+    "boss"
+  ],
+  "default": "wary",
+  "animals": true
+}

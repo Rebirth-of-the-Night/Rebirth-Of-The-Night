@@ -1,0 +1,32 @@
+{
+  "name": "spectralbolt",
+  "loadDefault": true,
+  "width": 0.5,
+  "height": 0.5,
+  "scale": 1.0,
+  "damage": 2,
+  "pierce": 1,
+  "knockbackChance": 0.125,
+  "effectDuration": 5,
+  "effectAmplifier": 1,
+  "velocity": 0.9,
+  "weight": 0,
+  "lifetime": 100,
+  "elements": [
+    "phase",
+    "shadow"
+  ],
+  "behaviours": [],
+  "waterproof": true,
+  "lavaproof": true,
+  "cutGrass": false,
+  "impactSound": false,
+  "ripper": true,
+  "pierceBlocks": false,
+  "glow": false,
+  "rollSpeed": 8,
+  "particleCount": 5,
+  "particleType": "witchMagic",
+  "waterParticleType": "witchMagic",
+  "animationFrames": 8
+}

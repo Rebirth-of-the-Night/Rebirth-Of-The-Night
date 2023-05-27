@@ -1,0 +1,44 @@
+{
+  "itemName": "conbabutt",
+  "loadDefault": true,
+  "slotType": "jewel",
+  "dropMobId": "lycanitesmobs:conba",
+  "dropChance": 0.1,
+  "levelMin": 1,
+  "levelMax": 3,
+  "elements": [
+    "poison"
+  ],
+  "features": [
+    {
+      "featureType": "projectile",
+      "levelMax": 1,
+      "projectileName": "poop",
+      "projectileTrigger": "secondary",
+      "projectilePattern": "simple",
+      "cooldown": 20,
+      "count": 1
+    },
+    {
+      "featureType": "projectile",
+      "levelMin": 2,
+      "levelMax": 2,
+      "projectileName": "poop",
+      "projectileTrigger": "secondary",
+      "projectilePattern": "simple",
+      "cooldown": 16,
+      "count": 1,
+      "bonusDamage": 1
+    },
+    {
+      "featureType": "projectile",
+      "levelMin": 3,
+      "projectileName": "poop",
+      "projectileTrigger": "secondary",
+      "projectilePattern": "simple",
+      "cooldown": 8,
+      "count": 1,
+      "bonusDamage": 2
+    }
+  ]
+}

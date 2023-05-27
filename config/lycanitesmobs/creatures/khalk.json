@@ -1,0 +1,107 @@
+{
+  "name": "khalk",
+  "creatureType": "reptile",
+  "groups": [
+    "inferno"
+  ],
+  "entityClass": "com.lycanitesmobs.core.entity.creature.EntityKhalk",
+  "modelClass": "com.lycanitesmobs.client.model.creature.ModelKhalk",
+  "loadDefault": true,
+  "enabled": true,
+  "spawning": {
+    "enabled": true,
+    "spawners": [
+      "lavaunderground"
+    ],
+    "disableSubspecies": false,
+    "dimensionIds": [],
+    "dimensionListType": "blacklist",
+    "ignoreBiome": false,
+    "biomeTags": [
+      "all"
+    ],
+    "spawnWeight": 1,
+    "dungeonWeight": 0,
+    "spawnAreaLimit": 2,
+    "spawnGroupMin": 1,
+    "spawnGroupMax": 2,
+    "spawnsInLight": false,
+    "spawnsInDark": true,
+    "worldDayMin": -1,
+    "despawnNatural": true,
+    "despawnForced": false
+  },
+  "width": 4.5,
+  "height": 3.5,
+  "experience": 15,
+  "health": 40,
+  "defense": 5,
+  "armor": 0,
+  "speed": 20,
+  "damage": 4,
+  "attackSpeed": 1,
+  "rangedSpeed": 1,
+  "effectDuration": 5,
+  "effectAmplifier": 0,
+  "pierce": 1,
+  "sight": 24,
+  "knockbackResistance": 1,
+  "bagSize": 5,
+  "eggBackColor": "#442200",
+  "eggForeColor": "#FFAA22",
+  "subspecies": [
+    {
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "azure",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "violet",
+          "type": "uncommon"
+        }
+      ]
+    }
+  ],
+  "element": "lava",
+  "diets": [
+    "geovore"
+  ],
+  "peaceful": false,
+  "summonable": false,
+  "tameable": false,
+  "mountable": false,
+  "summonCost": 6,
+  "dungeonLevel": 2,
+  "drops": [
+    {
+      "item": "minecraft:coal",
+      "minAmount": 16,
+      "maxAmount": 32,
+      "chance": 1
+    },
+    {
+      "item": "minecraft:magma_cream",
+      "minAmount": 3,
+      "maxAmount": 5,
+      "chance": 1
+    },
+    {
+      "item": "minecraft:blaze_powder",
+      "minAmount": 3,
+      "maxAmount": 6,
+      "chance": 1
+    }
+  ],
+  "sizeScale": 1,
+  "hitboxScale": 1,
+  "flags": [
+    {
+      "name": "lavaDeath",
+      "value": true
+    }
+  ]
+}

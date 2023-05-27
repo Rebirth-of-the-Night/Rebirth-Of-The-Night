@@ -1,0 +1,108 @@
+{
+  "itemName": "reaperclaw",
+  "loadDefault": true,
+  "slotType": "axe",
+  "dropMobId": "lycanitesmobs:reaper",
+  "dropChance": 0.1,
+  "levelMin": 1,
+  "levelMax": 3,
+  "elements": [
+    "phase",
+    "shadow"
+  ],
+  "features": [
+    {
+      "featureType": "harvest",
+      "harvestType": "shovel",
+      "harvestShape": "block",
+      "harvestRange": [
+        1,
+        1,
+        1
+      ],
+      "harvestRangeLevelMultiplier": 1
+    },
+    {
+      "featureType": "harvest",
+      "harvestType": "hoe",
+      "harvestSpeed": 6,
+      "harvestShape": "block",
+      "harvestRange": [
+        1,
+        1,
+        1
+      ],
+      "harvestRangeLevelMultiplier": 1
+    },
+    {
+      "featureType": "harvest",
+      "harvestType": "shears",
+      "harvestSpeed": 6,
+      "harvestShape": "block",
+      "harvestRange": [
+        1,
+        1,
+        1
+      ],
+      "harvestRangeLevelMultiplier": 1
+    },
+    {
+      "featureType": "damage",
+      "levelMax": 1,
+      "damageAmount": 3,
+      "damageKnockback": 0,
+      "damageCooldown": 1,
+      "damageRange": 1,
+      "damageSweep": 90
+    },
+    {
+      "featureType": "damage",
+      "levelMin": 2,
+      "levelMax": 2,
+      "damageAmount": 4,
+      "damageKnockback": 0,
+      "damageCooldown": 1,
+      "damageRange": 1,
+      "damageSweep": 90
+    },
+    {
+      "featureType": "damage",
+      "levelMin": 3,
+      "damageAmount": 5,
+      "damageKnockback": 0,
+      "damageCooldown": 0.75,
+      "damageRange": 1,
+      "damageSweep": 180
+    },
+    {
+      "featureType": "projectile",
+      "levelMax": 1,
+      "projectileName": "spectralbolt",
+      "projectileTrigger": "primary",
+      "projectilePattern": "simple",
+      "cooldown": 20,
+      "count": 1
+    },
+    {
+      "featureType": "projectile",
+      "levelMin": 2,
+      "levelMax": 2,
+      "projectileName": "spectralbolt",
+      "projectileTrigger": "primary",
+      "projectilePattern": "simple",
+      "cooldown": 16,
+      "count": 1,
+      "bonusDamage": 1
+    },
+    {
+      "featureType": "projectile",
+      "levelMin": 3,
+      "projectileName": "spectralbolt",
+      "projectileTrigger": "primary",
+      "projectilePattern": "simple",
+      "cooldown": 8,
+      "count": 1,
+      "bonusDamage": 2
+    }
+  ]
+}

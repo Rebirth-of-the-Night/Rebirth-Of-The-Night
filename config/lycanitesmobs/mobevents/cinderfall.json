@@ -1,0 +1,22 @@
+{
+  "name": "cinderfall",
+  "type": "event",
+  "enabled": true,
+  "loadDefault": true,
+  "channel": "world",
+  "duration": 1200,
+  "conditions": [],
+  "triggers": [
+    {
+      "type": "random",
+      "weight": 8,
+      "priority": 1
+    }
+  ],
+  "effects": [
+    {
+      "type": "world",
+      "rain": "stop"
+    }
+  ]
+}

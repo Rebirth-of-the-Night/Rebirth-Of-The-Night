@@ -1,0 +1,46 @@
+{
+  "name": "portal",
+  "type": "spawner",
+  "enabled": true,
+  "loadDefault": true,
+  "mobCountMin": 1,
+  "ignoreDimensions": true,
+  "ignoreBiomes": true,
+  "ignoreLightLevel": true,
+  "conditions": [
+    {
+      "type": "world",
+      "dimensionIds": [
+        -1
+      ],
+      "dimensionListType": "blacklist"
+    }
+  ],
+  "triggers": [
+    {
+      "type": "world",
+      "chance": 0.9,
+      "tickRate": 1200
+    }
+  ],
+  "locations": [
+    {
+      "type": "block",
+      "rangeMin": [
+        0,
+        0,
+        0
+      ],
+      "rangeMax": [
+        32,
+        32,
+        32
+      ],
+      "sorting": "random",
+      "blocks": [
+        "minecraft:portal"
+      ],
+      "listType": "whitelist"
+    }
+  ]
+}

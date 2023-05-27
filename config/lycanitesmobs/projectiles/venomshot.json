@@ -1,0 +1,38 @@
+{
+  "name": "venomshot",
+  "loadDefault": true,
+  "width": 1.0,
+  "height": 1.0,
+  "scale": 1,
+  "damage": 3,
+  "pierce": 1,
+  "knockbackChance": 0.5,
+  "effectDuration": 5,
+  "effectAmplifier": 1,
+  "velocity": 0.8,
+  "weight": 1,
+  "lifetime": 100,
+  "elements": [
+    "poison"
+  ],
+  "behaviours": [
+    {
+      "type": "placeBlocks",
+      "block": "lycanitesmobs:poisoncloud",
+      "radius": 1,
+      "height": 1
+    }
+  ],
+  "waterproof": true,
+  "lavaproof": false,
+  "cutGrass": false,
+  "impactSound": false,
+  "ripper": false,
+  "pierceBlocks": false,
+  "glow": false,
+  "rollSpeed": 2,
+  "particleCount": 1,
+  "particleType": "witchMagic",
+  "waterParticleType": "bubble",
+  "animationFrames": 4
+}

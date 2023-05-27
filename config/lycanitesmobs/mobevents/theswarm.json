@@ -1,0 +1,26 @@
+{
+  "name": "theswarm",
+  "type": "event",
+  "enabled": true,
+  "loadDefault": true,
+  "channel": "world",
+  "duration": 1200,
+  "conditions": [
+    {
+      "type": "world",
+      "dimensionIds": [
+        -1,
+        1
+      ],
+      "dimensionListType": "blacklist"
+    }
+  ],
+  "triggers": [
+    {
+      "type": "random",
+      "weight": 8,
+      "priority": 1
+    }
+  ],
+  "effects": []
+}

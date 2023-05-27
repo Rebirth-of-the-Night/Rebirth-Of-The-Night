@@ -1,0 +1,115 @@
+{
+  "name": "roc",
+  "creatureType": "avian",
+  "groups": [
+    "opportunist"
+  ],
+  "entityClass": "com.lycanitesmobs.core.entity.creature.EntityRoc",
+  "modelClass": "com.lycanitesmobs.client.model.creature.ModelRoc",
+  "loadDefault": true,
+  "enabled": true,
+  "spawning": {
+    "enabled": true,
+    "spawners": [
+      "sky"
+    ],
+    "disableSubspecies": false,
+    "dimensionIds": [
+      -1,
+      1
+    ],
+    "dimensionListType": "blacklist",
+    "ignoreBiome": false,
+    "biomeTags": [
+      "plains",
+      "savanna",
+      "forest",
+      "-snowy"
+    ],
+    "spawnWeight": 16,
+    "dungeonWeight": 200,
+    "spawnAreaLimit": 2,
+    "spawnGroupMin": 1,
+    "spawnGroupMax": 2,
+    "spawnsInLight": false,
+    "spawnsInDark": true,
+    "worldDayMin": -1,
+    "despawnNatural": true,
+    "despawnForced": false
+  },
+  "width": 0.8,
+  "height": 1.8,
+  "experience": 10,
+  "health": 10,
+  "defense": 0,
+  "armor": 0,
+  "speed": 42,
+  "damage": 2,
+  "attackSpeed": 1,
+  "rangedSpeed": 1,
+  "effectDuration": 5,
+  "effectAmplifier": -1,
+  "pierce": 1,
+  "sight": 32,
+  "knockbackResistance": 0,
+  "bagSize": 5,
+  "tamingReputation": 1000,
+  "eggBackColor": "#AA0000",
+  "eggForeColor": "#00DD44",
+  "subspecies": [
+    {
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "golden",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "scarlet",
+          "type": "uncommon"
+        }
+      ]
+    }
+  ],
+  "element": "order",
+  "diets": [
+    "carnivore",
+    "piscivore",
+    "insectivore"
+  ],
+  "peaceful": false,
+  "summonable": false,
+  "tameable": true,
+  "mountable": true,
+  "summonCost": 8,
+  "dungeonLevel": 1,
+  "drops": [
+    {
+      "item": "minecraft:bone",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 1
+    },
+    {
+      "item": "minecraft:feather",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 1
+    }
+  ],
+  "sizeScale": 1,
+  "hitboxScale": 1,
+  "flags": [
+    {
+      "name": "creeperDropping",
+      "value": true
+    }
+  ],
+  "mountOffset": [
+    0,
+    0.9,
+    0
+  ]
+}

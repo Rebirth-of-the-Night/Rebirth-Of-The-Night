@@ -1,0 +1,46 @@
+{
+  "itemName": "afritlung",
+  "loadDefault": true,
+  "slotType": "jewel",
+  "dropMobId": "lycanitesmobs:afrit",
+  "dropChance": 0.05,
+  "levelMin": 1,
+  "levelMax": 3,
+  "elements": [
+    "fire",
+    "acid"
+  ],
+  "features": [
+    {
+      "featureType": "projectile",
+      "levelMax": 1,
+      "projectileName": "scorchfireball",
+      "projectileTrigger": "secondary",
+      "projectilePattern": "simple",
+      "cooldown": 30,
+      "count": 1,
+      "bonusDamage": 2
+    },
+    {
+      "featureType": "projectile",
+      "levelMin": 2,
+      "levelMax": 2,
+      "projectileName": "scorchfireball",
+      "projectileTrigger": "secondary",
+      "projectilePattern": "simple",
+      "cooldown": 20,
+      "count": 1,
+      "bonusDamage": 5
+    },
+    {
+      "featureType": "projectile",
+      "levelMin": 3,
+      "projectileName": "scorchfireball",
+      "projectileTrigger": "secondary",
+      "projectilePattern": "simple",
+      "cooldown": 10,
+      "count": 1,
+      "bonusDamage": 12
+    }
+  ]
+}

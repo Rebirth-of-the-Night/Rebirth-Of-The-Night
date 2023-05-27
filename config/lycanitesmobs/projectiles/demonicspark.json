@@ -1,0 +1,30 @@
+{
+  "name": "demonicspark",
+  "loadDefault": true,
+  "noChargeItem": true,
+  "width": 0.5,
+  "height": 0.5,
+  "scale": 0.5,
+  "damage": 2,
+  "pierce": 1,
+  "knockbackChance": 0.125,
+  "effectDuration": 5,
+  "effectAmplifier": 1,
+  "velocity": 1.1,
+  "weight": 0,
+  "lifetime": 40,
+  "elements": [
+    "lightning",
+    "nether"
+  ],
+  "behaviours": [],
+  "waterproof": true,
+  "lavaproof": true,
+  "cutGrass": true,
+  "impactSound": false,
+  "ripper": true,
+  "pierceBlocks": false,
+  "glow": true,
+  "rollSpeed": 4,
+  "animationFrames": 4
+}

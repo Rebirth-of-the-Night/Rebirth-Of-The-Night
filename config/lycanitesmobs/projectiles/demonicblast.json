@@ -1,0 +1,42 @@
+{
+  "name": "demonicblast",
+  "loadDefault": true,
+  "width": 2.0,
+  "height": 2.0,
+  "scale": 2.5,
+  "damage": 10,
+  "pierce": 3,
+  "knockbackChance": 0.5,
+  "effectDuration": 3,
+  "effectAmplifier": 1,
+  "velocity": 0.8,
+  "weight": 0,
+  "lifetime": 100,
+  "elements": [
+    "lightning",
+    "nether"
+  ],
+  "behaviours": [
+    {
+      "type": "fireProjectiles",
+      "projectileName": "demonicspark",
+      "tickRate": 1,
+      "impactCount": 10
+    },
+    {
+      "type": "explosion",
+      "radius": 2,
+      "mode": "break"
+    }
+  ],
+  "waterproof": true,
+  "lavaproof": true,
+  "cutGrass": false,
+  "impactSound": false,
+  "ripper": false,
+  "pierceBlocks": false,
+  "glow": true,
+  "rollSpeed": 8,
+  "waterParticleType": "bubble",
+  "animationFrames": 8
+}

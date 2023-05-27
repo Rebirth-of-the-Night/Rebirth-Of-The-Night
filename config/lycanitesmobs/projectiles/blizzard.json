@@ -1,0 +1,31 @@
+{
+  "name": "blizzard",
+  "loadDefault": true,
+  "width": 0.5,
+  "height": 0.5,
+  "scale": 0.5,
+  "damage": 2,
+  "pierce": 1,
+  "knockbackChance": 0,
+  "effectDuration": 3,
+  "effectAmplifier": 1,
+  "velocity": 0.6,
+  "weight": 0,
+  "lifetime": 10,
+  "elements": [
+    "frost"
+  ],
+  "behaviours": [],
+  "waterproof": true,
+  "lavaproof": false,
+  "cutGrass": true,
+  "impactSound": false,
+  "ripper": true,
+  "pierceBlocks": false,
+  "glow": true,
+  "rollSpeed": 4,
+  "particleCount": 1,
+  "particleType": "cloud",
+  "waterParticleType": "cloud",
+  "animationFrames": 4
+}

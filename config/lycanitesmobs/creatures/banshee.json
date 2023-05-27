@@ -1,0 +1,99 @@
+{
+  "name": "banshee",
+  "creatureType": "elemental",
+  "groups": [
+    "monster"
+  ],
+  "entityClass": "com.lycanitesmobs.core.entity.creature.EntityBanshee",
+  "modelClass": "com.lycanitesmobs.client.model.creature.ModelBanshee",
+  "loadDefault": true,
+  "enabled": true,
+  "spawning": {
+    "enabled": true,
+    "spawners": [
+      "sky"
+    ],
+    "disableSubspecies": false,
+    "dimensionIds": [],
+    "dimensionListType": "blacklist",
+    "ignoreBiome": false,
+    "biomeTags": [
+      "spooky",
+      "magical"
+    ],
+    "spawnWeight": 2,
+    "dungeonWeight": 200,
+    "spawnAreaLimit": 5,
+    "spawnGroupMin": 1,
+    "spawnGroupMax": 3,
+    "spawnsInLight": false,
+    "spawnsInDark": true,
+    "worldDayMin": -1,
+    "despawnNatural": true,
+    "despawnForced": false
+  },
+  "width": 0.8,
+  "height": 1.6,
+  "experience": 10,
+  "health": 20,
+  "defense": 0,
+  "armor": 0,
+  "speed": 32,
+  "damage": 2,
+  "attackSpeed": 0.5,
+  "rangedSpeed": 1,
+  "effectDuration": 5,
+  "effectAmplifier": 0,
+  "pierce": 1,
+  "sight": 10,
+  "knockbackResistance": 0,
+  "bagSize": 5,
+  "eggBackColor": "#7d8d9e",
+  "eggForeColor": "#0d1014",
+  "subspecies": [
+    {
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "scarlet",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "keppel",
+          "type": "uncommon"
+        }
+      ]
+    }
+  ],
+  "element": "phase",
+  "peaceful": false,
+  "summonable": false,
+  "tameable": false,
+  "mountable": false,
+  "summonCost": 2,
+  "dungeonLevel": 1,
+  "drops": [
+    {
+      "item": "minecraft:soul_sand",
+      "minAmount": 1,
+      "maxAmount": 6,
+      "chance": 1
+    },
+    {
+      "item": "minecraft:ender_pearl",
+      "minAmount": 1,
+      "maxAmount": 2,
+      "chance": 0.75
+    },
+    {
+      "item": "minecraft:ender_eye",
+      "minAmount": 1,
+      "maxAmount": 1,
+      "chance": 0.1
+    }
+  ],
+  "sizeScale": 1,
+  "hitboxScale": 1
+}

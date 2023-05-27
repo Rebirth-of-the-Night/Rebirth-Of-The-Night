@@ -1,0 +1,17 @@
+{
+  "name": "fae",
+  "loadDefault": true,
+  "buffs": [
+    "minecraft:regeneration"
+  ],
+  "debuffs": [
+    "lycanitesmobs:bleed"
+  ],
+  "immunities": [
+    "minecraft:glowing"
+  ],
+  "components": [
+    "water",
+    "order"
+  ]
+}

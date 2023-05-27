@@ -1,0 +1,86 @@
+{
+  "name": "lush",
+  "loadDefault": true,
+  "floorPattern": "random",
+  "wallPattern": "random",
+  "ceilingPattern": "random",
+  "floorBlocks": [
+    {
+      "blockId": "lycanitesmobs:lushstonetile",
+      "weight": 8
+    },
+    {
+      "blockId": "lycanitesmobs:lushstonepolished",
+      "weight": 2
+    },
+    {
+      "blockId": "minecraft:mycelium",
+      "weight": 0
+    }
+  ],
+  "wallBlocks": [
+    {
+      "blockId": "lycanitesmobs:lushstonebrick",
+      "weight": 8
+    },
+    {
+      "blockId": "lycanitesmobs:lushstonechiseled",
+      "weight": 2
+    },
+    {
+      "blockId": "lycanitesmobs:lushstonepillar",
+      "weight": 0
+    }
+  ],
+  "ceilingBlocks": [
+    {
+      "blockId": "lycanitesmobs:lushstonetile",
+      "weight": 8
+    },
+    {
+      "blockId": "lycanitesmobs:lushstonepolished",
+      "weight": 2
+    }
+  ],
+  "lightBlocks": [
+    {
+      "blockId": "lycanitesmobs:lushcrystal",
+      "weight": 8
+    },
+    {
+      "blockId": "minecraft:obsidian",
+      "weight": 8
+    }
+  ],
+  "airBlocks": [
+    {
+      "blockId": "minecraft:air",
+      "weight": 8
+    }
+  ],
+  "torchBlocks": [],
+  "stairBlocks": [
+    {
+      "blockId": "lycanitesmobs:lushstone_stairs",
+      "weight": 8
+    },
+    {
+      "blockId": "lycanitesmobs:lushstonebrick_stairs",
+      "weight": 8
+    },
+    {
+      "blockId": "lycanitesmobs:lushstonetile_stairs",
+      "weight": 8
+    }
+  ],
+  "pitBlocks": [
+    {
+      "blockId": "lycanitesmobs:poisoncloud",
+      "weight": 8
+    },
+    {
+      "blockId": "lycanitesmobs:poison",
+      "weight": 8
+    }
+  ]
+}

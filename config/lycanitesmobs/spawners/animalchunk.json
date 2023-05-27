@@ -1,0 +1,45 @@
+{
+  "name": "animalchunk",
+  "sharedName": "animal",
+  "type": "spawner",
+  "enabled": false,
+  "loadDefault": true,
+  "mobCountMin": 8,
+  "ignoreBiomes": false,
+  "ignoreLightLevel": true,
+  "groupLimitRange": 32,
+  "conditions": [
+    {
+      "type": "world",
+      "dimensionIds": [
+        -1,
+        1
+      ],
+      "dimensionListType": "blacklist"
+    }
+  ],
+  "triggers": [
+    {
+      "type": "chunk",
+      "chance": 0.03
+    }
+  ],
+  "locations": [
+    {
+      "type": "random",
+      "rangeMin": [
+        0,
+        0,
+        0
+      ],
+      "rangeMax": [
+        14,
+        128,
+        14
+      ],
+      "sorting": "random",
+      "limit": 32,
+      "solidGround": true
+    }
+  ]
+}

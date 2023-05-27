@@ -1,0 +1,201 @@
+{
+  "name": "shadowlabyrinth_random",
+  "loadDefault": true,
+  "sectorCountMin": 20,
+  "sectorCountMax": 30,
+  "corridorToCorridorChance": 0.5,
+  "roomToRoomChance": 0.1,
+  "conditions": [
+    {
+      "type": "world",
+      "dimensionIds": [
+        1
+      ],
+      "dimensionListType": "whitelist",
+      "biomeTags": [
+        "end"
+      ],
+      "biomeTagListType": "whitelist"
+    }
+  ],
+  "placer": {
+    "type": "random",
+    "minY": 64,
+    "maxY": 80
+  },
+  "themes": [
+    "shadow"
+  ],
+  "entrances": [
+    "entrancebasic"
+  ],
+  "rooms": [
+    "roombasic",
+    "roombasicloot",
+    "roombasicmob",
+    "roombasicpit",
+    "roomdiamondpit"
+  ],
+  "corridors": [
+    "corridorbasic",
+    "corridorbasicdark",
+    "corridorbasicloot",
+    "corridorbasicmob"
+  ],
+  "stairs": [
+    "stairsbasic"
+  ],
+  "towers": [
+    "towerbasic"
+  ],
+  "bossRooms": [
+    "roombasicboss"
+  ],
+  "finishes": [
+    "roombasicfinish"
+  ],
+  "lootTables": [
+    {
+      "id": "minecraft:chests/simple_dungeon"
+    },
+    {
+      "id": "minecraft:chests/village_blacksmith",
+      "level": 2
+    },
+    {
+      "id": "minecraft:chests/nether_bridge",
+      "level": 3
+    },
+    {
+      "id": "minecraft:chests/abandoned_mineshaft",
+      "level": 4
+    },
+    {
+      "id": "minecraft:chests/stronghold_corridor",
+      "level": 5
+    },
+    {
+      "id": "minecraft:chests/stronghold_crossing",
+      "level": 6
+    }
+  ],
+  "mobSpawns": [
+    {
+      "mobId": "lycanitesmobs:geist",
+      "weight": 14
+    },
+    {
+      "mobId": "lycanitesmobs:grue",
+      "weight": 8
+    },
+    {
+      "mobId": "lycanitesmobs:shade",
+      "weight": 4,
+      "dungeonLevelMin": 1
+    },
+    {
+      "mobId": "lycanitesmobs:gnekk",
+      "weight": 4,
+      "dungeonLevelMin": 3
+    },
+    {
+      "mobId": "lycanitesmobs:darkling",
+      "weight": 14,
+      "dungeonLevelMin": 4
+    },
+    {
+      "mobId": "lycanitesmobs:epion",
+      "weight": 1,
+      "dungeonLevelMin": 5
+    },
+    {
+      "mobId": "lycanitesmobs:reaper",
+      "weight": 1,
+      "dungeonLevelMin": 5
+    },
+    {
+      "mobId": "lycanitesmobs:gnekk",
+      "weight": 1,
+      "variant": 1,
+      "mobNameTag": "Precious",
+      "mobSizeScale": 2,
+      "naturalDespawn": "false",
+      "mobLevel": 50,
+      "spawnAsBoss": true,
+      "dungeonLevelMin": "0",
+      "dungeonLevelMax": 2,
+      "dungeonBoss": true,
+      "mobDrops": [
+        {
+          "item": "minecraft:venomshotcharge",
+          "minAmount": 10,
+          "maxAmount": 20,
+          "amountMultiplier": false
+        },
+        {
+          "item": "lycanitesmobs:soulstone_imp",
+          "amountMultiplier": false,
+          "bonusAmount": false
+        }
+      ]
+    },
+    {
+      "mobId": "lycanitesmobs:shade",
+      "weight": 1,
+      "variant": 1,
+      "mobNameTag": "Chaos Serpent",
+      "mobSizeScale": 2,
+      "naturalDespawn": "false",
+      "mobLevel": 20,
+      "spawnAsBoss": true,
+      "dungeonLevelMin": 3,
+      "dungeonLevelMax": 4,
+      "dungeonBoss": true,
+      "mobDrops": [
+        {
+          "item": "minecraft:diamond",
+          "minAmount": 10,
+          "amountMultiplier": false
+        },
+        {
+          "item": "lycanitesmobs:soulstone_aberration",
+          "amountMultiplier": false,
+          "bonusAmount": false
+        }
+      ]
+    },
+    {
+      "mobId": "lycanitesmobs:grue",
+      "weight": 1,
+      "variant": 3,
+      "mobSizeScale": 1.5,
+      "mobNameTag": "Night Shade",
+      "naturalDespawn": "false",
+      "mobLevel": 10,
+      "spawnAsBoss": true,
+      "dungeonLevelMin": 5,
+      "dungeonBoss": true,
+      "mobDrops": [
+        {
+          "item": "lycanitesmobs:grueclaw",
+          "amountMultiplier": false
+        },
+        {
+          "item": "minecraft:diamond",
+          "minAmount": 50,
+          "amountMultiplier": false
+        },
+        {
+          "item": "lycanitesmobs:soulstone_undead",
+          "amountMultiplier": false,
+          "bonusAmount": false
+        },
+        {
+          "item": "lycanitesmobs:soulstone_arthropod",
+          "amountMultiplier": false,
+          "bonusAmount": false
+        }
+      ]
+    }
+  ]
+}

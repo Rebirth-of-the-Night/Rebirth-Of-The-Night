@@ -1,0 +1,107 @@
+{
+  "name": "darkness",
+  "type": "spawner",
+  "enabled": true,
+  "loadDefault": true,
+  "conditionsRequired": 0,
+  "triggersRequired": 3,
+  "multipleLocations": "combine",
+  "mobCountMin": 1,
+  "ignoreDimensions": true,
+  "ignoreBiomes": true,
+  "ignoreCollision": true,
+  "ignoreLightLevel": true,
+  "ignoreGroupLimit": true,
+  "ignoreForgeCanSpawnEvent": true,
+  "conditions": [
+    {
+      "type": "world",
+      "dimensionIds": [
+        0,
+        7
+      ]
+    }
+  ],
+  "triggers": [
+    {
+      "type": "player",
+      "count": 1,
+      "chance": 0.75,
+      "tickRate": 100,
+      "conditions": [
+        {
+          "type": "player",
+          "lightLevelMax": 3
+        }
+      ]
+    },
+    {
+      "type": "player",
+      "count": 0,
+      "chance": 1,
+      "tickRate": 100,
+      "conditions": [
+        {
+          "type": "player",
+          "lightLevelMin": 4
+        }
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "type": "random",
+      "rangeMin": [
+        0,
+        0,
+        0
+      ],
+      "rangeMax": [
+        2,
+        2,
+        2
+      ],
+      "sorting": "random",
+      "limit": 1,
+      "blocks": [
+        "minecraft:air",
+        "minecraft:tall_grass",
+        "minecraft:water"
+      ],
+      "listType": "whitelist",
+      "solidGround": false
+    }
+  ],
+  "mobSpawns": [
+    {
+      "mobId": "lycanitesmobs:grue",
+      "weight": 8
+    },
+    {
+      "mobId": "lycanitesmobs:darkling",
+      "weight": 2
+    },
+    {
+      "mobId": "lycanitesmobs:shade",
+      "weight": 1
+    }
+  ],
+  "triggerCountMessages": [
+    {
+      "count": 0,
+      "message": "spawner.darkness.level1.back"
+    },
+    {
+      "count": 1,
+      "message": "spawner.darkness.level1"
+    },
+    {
+      "count": 2,
+      "message": "spawner.darkness.level2"
+    },
+    {
+      "count": 3,
+      "message": "spawner.darkness.level3"
+    }
+  ]
+}

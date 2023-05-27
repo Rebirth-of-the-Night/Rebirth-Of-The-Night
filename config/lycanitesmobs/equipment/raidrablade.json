@@ -1,0 +1,102 @@
+{
+  "itemName": "raidrablade",
+  "loadDefault": true,
+  "slotType": "blade",
+  "dropMobId": "lycanitesmobs:zephyr",
+  "dropChance": 0.2,
+  "levelMin": 1,
+  "levelMax": 3,
+  "elements": [
+    "lightning"
+  ],
+  "features": [
+    {
+      "featureType": "harvest",
+      "harvestType": "sword",
+      "harvestShape": "block",
+      "harvestRange": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "featureType": "harvest",
+      "harvestType": "hoe",
+      "harvestSpeed": 6,
+      "harvestShape": "block",
+      "harvestRange": [
+        1,
+        1,
+        1
+      ],
+      "harvestRangeLevelMultiplier": 1
+    },
+    {
+      "featureType": "harvest",
+      "harvestType": "shears",
+      "harvestSpeed": 6,
+      "harvestShape": "block",
+      "harvestRange": [
+        1,
+        1,
+        1
+      ],
+      "harvestRangeLevelMultiplier": 1
+    },
+    {
+      "featureType": "damage",
+      "levelMax": 1,
+      "damageAmount": 3,
+      "damageKnockback": 0,
+      "damageCooldown": 0.5,
+      "damageRange": 1,
+      "damageSweep": 90
+    },
+    {
+      "featureType": "damage",
+      "levelMin": 2,
+      "levelMax": 2,
+      "damageAmount": 4,
+      "damageKnockback": 0,
+      "damageCooldown": 0.5,
+      "damageRange": 1,
+      "damageSweep": 180
+    },
+    {
+      "featureType": "damage",
+      "levelMin": 3,
+      "damageAmount": 5,
+      "damageKnockback": 0,
+      "damageCooldown": 0.25,
+      "damageRange": 1,
+      "damageSweep": 180
+    },
+    {
+      "featureType": "effect",
+      "levelMax": 2,
+      "effectType": "lycanitesmobs:paralysis",
+      "effectTarget": "target",
+      "effectDuration": 20,
+      "effectStrength": 1
+    },
+    {
+      "featureType": "effect",
+      "levelMin": 3,
+      "effectType": "lycanitesmobs:paralysis",
+      "effectTarget": "target",
+      "effectDuration": 40,
+      "effectStrength": 1
+    },
+    {
+      "featureType": "summon",
+      "levelMin": 2,
+      "summonMobId": "lycanitesmobs.zephyr",
+      "summonChance": 0.05,
+      "summonDuration": 10,
+      "summonCountMin": 1,
+      "summonCountMax": 1,
+      "sizeScale": 0.4
+    }
+  ]
+}

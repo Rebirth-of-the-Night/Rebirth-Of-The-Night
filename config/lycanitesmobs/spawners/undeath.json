@@ -1,0 +1,51 @@
+{
+  "name": "undeath",
+  "type": "spawner",
+  "enabled": true,
+  "loadDefault": true,
+  "mobCountMin": 1,
+  "ignoreDimensions": true,
+  "ignoreBiomes": true,
+  "ignoreLightLevel": true,
+  "ignoreForgeCanSpawnEvent": true,
+  "conditions": [
+    {
+      "type": "player"
+    }
+  ],
+  "triggers": [
+    {
+      "type": "kill",
+      "chance": 0.03,
+      "entityTypes": [
+        "undead"
+      ],
+      "entityTypesListType": "whitelist",
+      "entityIds": [
+        "lycanitesmobs:geist"
+      ],
+      "entityIdsListType": "blacklist"
+    }
+  ],
+  "locations": [
+    {
+      "type": "base",
+      "rangeMin": [
+        0,
+        0,
+        0
+      ],
+      "rangeMax": [
+        0,
+        0,
+        0
+      ],
+      "sorting": "random"
+    }
+  ],
+  "mobSpawns": [
+    {
+      "mobId": "lycanitesmobs:geist"
+    }
+  ]
+}

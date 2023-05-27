@@ -1,0 +1,125 @@
+{
+  "name": "vapula",
+  "creatureType": "elemental",
+  "groups": [
+    "monster"
+  ],
+  "entityClass": "com.lycanitesmobs.core.entity.creature.EntityVapula",
+  "modelClass": "com.lycanitesmobs.client.model.creature.ModelVapula",
+  "loadDefault": true,
+  "enabled": true,
+  "spawning": {
+    "enabled": true,
+    "spawners": [],
+    "disableSubspecies": false,
+    "dimensionIds": [],
+    "dimensionListType": "blacklist",
+    "ignoreBiome": false,
+    "biomeTags": [],
+    "spawnWeight": 8,
+    "dungeonWeight": 200,
+    "spawnAreaLimit": 5,
+    "spawnGroupMin": 1,
+    "spawnGroupMax": 3,
+    "spawnsInLight": false,
+    "spawnsInDark": true,
+    "worldDayMin": -1,
+    "despawnNatural": true,
+    "despawnForced": false
+  },
+  "width": 0.8,
+  "height": 1.6,
+  "experience": 10,
+  "health": 30,
+  "defense": 3,
+  "armor": 0,
+  "speed": 24,
+  "damage": 1,
+  "attackSpeed": 1,
+  "rangedSpeed": 0.125,
+  "effectDuration": 5,
+  "effectAmplifier": 0,
+  "pierce": 1,
+  "sight": 24,
+  "knockbackResistance": 1,
+  "bagSize": 5,
+  "eggBackColor": "#7b8d95",
+  "eggForeColor": "#9be0ea",
+  "subspecies": [
+    {
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "verdant",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "golden",
+          "type": "uncommon"
+        }
+      ]
+    }
+  ],
+  "element": "arcane",
+  "peaceful": false,
+  "summonable": false,
+  "tameable": false,
+  "mountable": false,
+  "summonCost": 2,
+  "dungeonLevel": 1,
+  "drops": [
+    {
+      "item": "minecraft:stone",
+      "minAmount": 1,
+      "maxAmount": 8,
+      "chance": 1
+    },
+    {
+      "item": "minecraft:quartz",
+      "minAmount": 1,
+      "maxAmount": 16,
+      "chance": 1
+    },
+    {
+      "item": "minecraft:diamond",
+      "minAmount": 1,
+      "maxAmount": 1,
+      "chance": 0.05
+    },
+    {
+      "item": "minecraft:emerald",
+      "minAmount": 1,
+      "maxAmount": 1,
+      "chance": 0.05
+    },
+    {
+      "item": "minecraft:dye",
+      "metadata": 4,
+      "minAmount": 4,
+      "maxAmount": 8,
+      "chance": 0.25
+    },
+    {
+      "item": "lycanitesmobs:cleansingcrystal",
+      "minAmount": 1,
+      "maxAmount": 1,
+      "chance": 0.01
+    },
+    {
+      "item": "lycanitesmobs:crystalshardcharge",
+      "minAmount": 3,
+      "maxAmount": 6,
+      "chance": 1
+    }
+  ],
+  "sizeScale": 1,
+  "hitboxScale": 1,
+  "flags": [
+    {
+      "name": "blockBreakRadius",
+      "value": 0
+    }
+  ]
+}

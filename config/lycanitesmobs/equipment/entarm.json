@@ -1,0 +1,49 @@
+{
+  "itemName": "entarm",
+  "loadDefault": true,
+  "slotType": "base",
+  "dropMobId": "lycanitesmobs:ent",
+  "dropChance": 0.1,
+  "levelMin": 1,
+  "levelMax": 3,
+  "elements": [
+    "arbour",
+    "void"
+  ],
+  "features": [
+    {
+      "featureType": "slot",
+      "slotType": "head"
+    },
+    {
+      "featureType": "slot",
+      "slotType": "pommel"
+    },
+    {
+      "featureType": "effect",
+      "levelMin": 1,
+      "levelMax": 1,
+      "effectType": "lycanitesmobs:leech",
+      "effectTarget": "self",
+      "effectDuration": 20,
+      "effectStrength": 1
+    },
+    {
+      "featureType": "effect",
+      "levelMin": 2,
+      "levelMax": 2,
+      "effectType": "lycanitesmobs:leech",
+      "effectTarget": "self",
+      "effectDuration": 40,
+      "effectStrength": 2
+    },
+    {
+      "featureType": "effect",
+      "levelMin": 3,
+      "effectType": "lycanitesmobs:leech",
+      "effectTarget": "self",
+      "effectDuration": 60,
+      "effectStrength": 3
+    }
+  ]
+}

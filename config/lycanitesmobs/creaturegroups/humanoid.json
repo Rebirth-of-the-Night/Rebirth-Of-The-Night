@@ -1,0 +1,17 @@
+{
+  "name": "humanoid",
+  "loadDefault": true,
+  "hunt": [],
+  "pack": [],
+  "wary": [],
+  "flee": [
+    "boss",
+    "predator",
+    "monster"
+  ],
+  "ignore": [
+    "boss"
+  ],
+  "default": "wary",
+  "humanoids": true
+}

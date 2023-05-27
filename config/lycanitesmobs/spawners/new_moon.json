@@ -1,0 +1,50 @@
+{
+  "name": "new_moon",
+  "type": "spawner",
+  "enabled": true,
+  "loadDefault": true,
+  "mobCountMin": 6,
+  "ignoreBiomes": true,
+  "ignoreLightLevel": false,
+  "conditions": [
+    {
+      "type": "world",
+      "dimensionIds": [
+        0,
+        7
+      ],
+      "dayTimeMin": 14000,
+      "moonPhase": 4
+    }
+  ],
+  "triggers": [
+    {
+      "type": "world",
+      "chance": 1,
+      "tickRate": 600
+    }
+  ],
+  "locations": [
+    {
+      "type": "random",
+      "rangeMin": [
+        32,
+        0,
+        32
+      ],
+      "rangeMax": [
+        48,
+        48,
+        48
+      ],
+      "sorting": "random",
+      "limit": 32,
+      "solidGround": true
+    }
+  ],
+  "mobSpawns": [
+    {
+      "mobId": "lycanitesmobs:necrovore"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "name": "grue",
+  "creatureType": "elemental",
+  "groups": [
+    "monster",
+    "dark"
+  ],
+  "entityClass": "com.lycanitesmobs.core.entity.creature.EntityGrue",
+  "modelClass": "com.lycanitesmobs.client.model.creature.ModelGrue",
+  "loadDefault": true,
+  "enabled": true,
+  "spawning": {
+    "enabled": true,
+    "spawners": [
+      "underground"
+    ],
+    "disableSubspecies": false,
+    "dimensionIds": [
+      -1
+    ],
+    "dimensionListType": "blacklist",
+    "ignoreBiome": true,
+    "biomeTags": [],
+    "spawnWeight": 8,
+    "dungeonWeight": 200,
+    "spawnAreaLimit": 5,
+    "spawnGroupMin": 1,
+    "spawnGroupMax": 3,
+    "spawnsInLight": false,
+    "spawnsInDark": true,
+    "worldDayMin": -1,
+    "despawnNatural": true,
+    "despawnForced": false
+  },
+  "width": 0.8,
+  "height": 1.6,
+  "experience": 10,
+  "health": 15,
+  "defense": 1,
+  "armor": 0,
+  "speed": 32,
+  "damage": 2,
+  "attackSpeed": 1,
+  "rangedSpeed": 1,
+  "effectDuration": 5,
+  "effectAmplifier": 0,
+  "pierce": 1,
+  "sight": 24,
+  "knockbackResistance": 0,
+  "bagSize": 5,
+  "eggBackColor": "#191017",
+  "eggForeColor": "#BB44AA",
+  "subspecies": [
+    {
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "scarlet",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "verdant",
+          "type": "uncommon"
+        },
+        {
+          "index": 3,
+          "name": "lunar",
+          "scale": 2,
+          "type": "rare"
+        }
+      ]
+    }
+  ],
+  "element": "shadow",
+  "peaceful": false,
+  "summonable": false,
+  "tameable": false,
+  "mountable": false,
+  "summonCost": 2,
+  "dungeonLevel": 1,
+  "drops": [
+    {
+      "item": "minecraft:ender_pearl",
+      "minAmount": 1,
+      "maxAmount": 2,
+      "chance": 0.5
+    },
+    {
+      "item": "minecraft:obsidian",
+      "minAmount": 1,
+      "maxAmount": 2,
+      "chance": 0.5
+    },
+    {
+      "item": "lycanitesmobs:soulstone_undead",
+      "minAmount": 1,
+      "maxAmount": 1,
+      "chance": 1,
+      "variant": 3,
+      "bonusAmount": false
+    }
+  ],
+  "sizeScale": 1,
+  "hitboxScale": 1
+}

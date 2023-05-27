@@ -1,0 +1,38 @@
+{
+  "name": "doomfireball",
+  "loadDefault": true,
+  "width": 0.75,
+  "height": 0.75,
+  "scale": 0.75,
+  "damage": 3,
+  "pierce": 1,
+  "knockbackChance": 0.5,
+  "effectDuration": 5,
+  "effectAmplifier": 1,
+  "velocity": 0.8,
+  "weight": 1,
+  "lifetime": 100,
+  "elements": [
+    "void"
+  ],
+  "behaviours": [
+    {
+      "type": "placeBlocks",
+      "block": "lycanitesmobs:doomfire",
+      "radius": 1,
+      "height": 1
+    }
+  ],
+  "waterproof": false,
+  "lavaproof": false,
+  "cutGrass": false,
+  "impactSound": false,
+  "ripper": false,
+  "pierceBlocks": false,
+  "glow": true,
+  "rollSpeed": 2,
+  "particleCount": 1,
+  "particleType": "flame",
+  "waterParticleType": "bubble",
+  "animationFrames": 4
+}

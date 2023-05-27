@@ -1,0 +1,97 @@
+{
+  "itemName": "wendigoantler",
+  "loadDefault": true,
+  "slotType": "base",
+  "dropMobId": "lycanitesmobs:wendigo",
+  "dropChance": 0.2,
+  "levelMin": 1,
+  "levelMax": 3,
+  "elements": [
+    "frost",
+    "nether"
+  ],
+  "features": [
+    {
+      "featureType": "slot",
+      "slotType": "head"
+    },
+    {
+      "featureType": "slot",
+      "slotType": "pommel"
+    },
+    {
+      "featureType": "effect",
+      "levelMax": 1,
+      "effectType": "minecraft:slowness",
+      "effectTarget": "target",
+      "effectDuration": 60,
+      "effectStrength": 1
+    },
+    {
+      "featureType": "effect",
+      "levelMin": 2,
+      "levelMax": 2,
+      "effectType": "minecraft:slowness",
+      "effectTarget": "target",
+      "effectDuration": 80,
+      "effectStrength": 2
+    },
+    {
+      "featureType": "effect",
+      "levelMin": 3,
+      "effectType": "minecraft:slowness",
+      "effectTarget": "target",
+      "effectDuration": 100,
+      "effectStrength": 3
+    },
+    {
+      "featureType": "damage",
+      "levelMin": 2,
+      "levelMax": 2,
+      "damageAmount": 1,
+      "damageKnockback": 0,
+      "damageCooldown": 1,
+      "damageRange": 1,
+      "damageSweep": 45
+    },
+    {
+      "featureType": "damage",
+      "levelMin": 3,
+      "damageAmount": 2,
+      "damageKnockback": 0,
+      "damageCooldown": 1,
+      "damageRange": 1,
+      "damageSweep": 90
+    },
+    {
+      "featureType": "projectile",
+      "levelMax": 1,
+      "projectileName": "tundra",
+      "projectileTrigger": "secondary",
+      "projectilePattern": "simple",
+      "cooldown": 20,
+      "count": 1
+    },
+    {
+      "featureType": "projectile",
+      "levelMin": 2,
+      "levelMax": 2,
+      "projectileName": "tundra",
+      "projectileTrigger": "secondary",
+      "projectilePattern": "simple",
+      "cooldown": 16,
+      "count": 1,
+      "bonusDamage": 1
+    },
+    {
+      "featureType": "projectile",
+      "levelMin": 3,
+      "projectileName": "tundra",
+      "projectileTrigger": "secondary",
+      "projectilePattern": "simple",
+      "cooldown": 8,
+      "count": 1,
+      "bonusDamage": 2
+    }
+  ]
+}

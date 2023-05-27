@@ -1,0 +1,41 @@
+{
+  "name": "lavaunderground",
+  "type": "spawner",
+  "enabled": true,
+  "loadDefault": true,
+  "mobCountMin": 1,
+  "ignoreDimensions": true,
+  "ignoreBiomes": true,
+  "ignoreLightLevel": true,
+  "dropsRequirePlayerDamage": true,
+  "conditions": [],
+  "triggers": [
+    {
+      "type": "world",
+      "chance": 0.125,
+      "tickRate": 800
+    }
+  ],
+  "locations": [
+    {
+      "type": "block",
+      "rangeMin": [
+        16,
+        0,
+        16
+      ],
+      "rangeMax": [
+        32,
+        32,
+        32
+      ],
+      "yMax": 50,
+      "sorting": "random",
+      "blocks": [
+        "minecraft:lava"
+      ],
+      "blockCost": 16,
+      "listType": "whitelist"
+    }
+  ]
+}

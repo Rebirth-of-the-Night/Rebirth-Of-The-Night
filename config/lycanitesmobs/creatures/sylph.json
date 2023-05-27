@@ -1,0 +1,105 @@
+{
+  "name": "sylph",
+  "creatureType": "elemental",
+  "groups": [
+    "guardian",
+    "light"
+  ],
+  "entityClass": "com.lycanitesmobs.core.entity.creature.EntitySylph",
+  "modelClass": "com.lycanitesmobs.client.model.creature.ModelSylph",
+  "loadDefault": true,
+  "enabled": true,
+  "spawning": {
+    "enabled": true,
+    "spawners": [],
+    "disableSubspecies": false,
+    "dimensionIds": [
+      -1,
+      1
+    ],
+    "dimensionListType": "blacklist",
+    "ignoreBiome": true,
+    "biomeTags": [],
+    "spawnWeight": 8,
+    "dungeonWeight": 200,
+    "spawnAreaLimit": 5,
+    "spawnGroupMin": 1,
+    "spawnGroupMax": 5,
+    "spawnsInLight": false,
+    "spawnsInDark": true,
+    "worldDayMin": -1,
+    "despawnNatural": true,
+    "despawnForced": false
+  },
+  "width": 0.8,
+  "height": 1.6,
+  "experience": 10,
+  "health": 40,
+  "defense": 1,
+  "armor": 0,
+  "speed": 24,
+  "damage": 1,
+  "rangedDamage": 4,
+  "attackSpeed": 1,
+  "rangedSpeed": 0.25,
+  "effectDuration": 5,
+  "effectAmplifier": 0,
+  "pierce": 1,
+  "sight": 24,
+  "knockbackResistance": 0,
+  "bagSize": 5,
+  "eggBackColor": "#0677b6",
+  "eggForeColor": "#e8fdff",
+  "subspecies": [
+    {
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "verdant",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "golden",
+          "type": "uncommon"
+        }
+      ]
+    }
+  ],
+  "element": "aether",
+  "peaceful": false,
+  "summonable": false,
+  "tameable": false,
+  "mountable": false,
+  "summonCost": 4,
+  "dungeonLevel": 1,
+  "drops": [
+    {
+      "item": "minecraft:glowstone_dust",
+      "minAmount": 1,
+      "maxAmount": 8,
+      "chance": 1
+    },
+    {
+      "item": "minecraft:gold_nugget",
+      "minAmount": 3,
+      "maxAmount": 9,
+      "chance": 1
+    },
+    {
+      "item": "lycanitesmobs:cleansingcrystal",
+      "minAmount": 1,
+      "maxAmount": 1,
+      "chance": 0.05
+    },
+    {
+      "item": "lycanitesmobs:aetherwavecharge",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 1
+    }
+  ],
+  "sizeScale": 1,
+  "hitboxScale": 1
+}

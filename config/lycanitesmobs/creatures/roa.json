@@ -1,0 +1,110 @@
+{
+  "name": "roa",
+  "creatureType": "aquatic",
+  "groups": [
+    "predator"
+  ],
+  "entityClass": "com.lycanitesmobs.core.entity.creature.EntityRoa",
+  "modelClass": "com.lycanitesmobs.client.model.creature.ModelRoa",
+  "loadDefault": true,
+  "enabled": true,
+  "spawning": {
+    "enabled": true,
+    "spawners": [
+      "water"
+    ],
+    "disableSubspecies": false,
+    "dimensionIds": [
+      -1,
+      1
+    ],
+    "dimensionListType": "blacklist",
+    "ignoreBiome": false,
+    "biomeTags": [
+      "ocean",
+      "beach"
+    ],
+    "spawnWeight": 8,
+    "dungeonWeight": 200,
+    "spawnAreaLimit": 5,
+    "spawnGroupMin": 1,
+    "spawnGroupMax": 3,
+    "spawnsInLight": false,
+    "spawnsInDark": true,
+    "worldDayMin": -1,
+    "despawnNatural": true,
+    "despawnForced": false
+  },
+  "width": 2.3,
+  "height": 1.8,
+  "experience": 10,
+  "health": 20,
+  "defense": 1,
+  "armor": 0,
+  "speed": 24,
+  "damage": 4,
+  "attackSpeed": 1,
+  "rangedSpeed": 1,
+  "effectDuration": 5,
+  "effectAmplifier": -1,
+  "pierce": 1,
+  "sight": 32,
+  "knockbackResistance": 0,
+  "bagSize": 10,
+  "tamingReputation": 500,
+  "eggBackColor": "#222288",
+  "eggForeColor": "#222233",
+  "subspecies": [
+    {
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "verdant",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "scarlet",
+          "type": "uncommon"
+        }
+      ]
+    }
+  ],
+  "element": "water",
+  "diets": [
+    "carnivore",
+    "piscivore"
+  ],
+  "peaceful": false,
+  "summonable": false,
+  "tameable": true,
+  "mountable": true,
+  "summonCost": 4,
+  "dungeonLevel": 2,
+  "drops": [
+    {
+      "item": "minecraft:fish",
+      "metadata": 1,
+      "burningItem": "minecraft:cooked_fish",
+      "burningMetadata": 1,
+      "minAmount": 3,
+      "maxAmount": 6,
+      "chance": 1
+    },
+    {
+      "item": "minecraft:bone",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 1
+    }
+  ],
+  "sizeScale": 1,
+  "hitboxScale": 1,
+  "flags": [
+    {
+      "name": "whirlpoolRange",
+      "value": 6
+    }
+  ]
+}

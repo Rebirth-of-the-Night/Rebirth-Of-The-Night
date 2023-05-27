@@ -1,0 +1,15 @@
+{
+  "name": "opportunist",
+  "loadDefault": true,
+  "hunt": [
+    "humanoid",
+    "critter"
+  ],
+  "pack": [],
+  "wary": [],
+  "flee": [],
+  "ignore": [
+    "boss"
+  ],
+  "default": "retaliate"
+}

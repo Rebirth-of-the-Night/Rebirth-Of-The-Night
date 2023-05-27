@@ -1,0 +1,21 @@
+{
+  "name": "cooked_chupacabra_meat",
+  "loadDefault": true,
+  "group": "items",
+  "maxStackSize": 64,
+  "food": {
+    "hunger": 7,
+    "saturation": 0.7,
+    "alwaysEdible": true,
+    "fast": false,
+    "meat": true,
+    "effects": [
+      {
+        "effectId": "lycanitesmobs:leech",
+        "duration": 15,
+        "amplifier": 0,
+        "chance": 1.0
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "glowstone",
+  "type": "spawner",
+  "enabled": true,
+  "loadDefault": true,
+  "mobCountMin": 1,
+  "ignoreDimensions": true,
+  "ignoreBiomes": true,
+  "ignoreCollision": true,
+  "ignoreLightLevel": true,
+  "ignoreGroupLimit": true,
+  "ignoreForgeCanSpawnEvent": true,
+  "blockBreakRadius": 1,
+  "conditions": [],
+  "triggers": [
+    {
+      "type": "block",
+      "onHarvest": false,
+      "blocks": [
+        "minecraft:glowstone"
+      ],
+      "blocksListType": "whitelist",
+      "chance": 0.02
+    }
+  ],
+  "locations": [
+    {
+      "type": "base",
+      "rangeMin": [
+        0,
+        0,
+        0
+      ],
+      "rangeMax": [
+        0,
+        0,
+        0
+      ],
+      "sorting": "random"
+    }
+  ],
+  "mobSpawns": [
+    {
+      "mobId": "lycanitesmobs:zephyr",
+      "weight": 8
+    }
+  ]
+}

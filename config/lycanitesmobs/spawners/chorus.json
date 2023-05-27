@@ -1,0 +1,46 @@
+{
+  "name": "chorus",
+  "type": "spawner",
+  "enabled": true,
+  "loadDefault": true,
+  "mobCountMin": 1,
+  "ignoreDimensions": true,
+  "ignoreBiomes": true,
+  "ignoreCollision": true,
+  "ignoreLightLevel": true,
+  "ignoreGroupLimit": true,
+  "ignoreForgeCanSpawnEvent": true,
+  "conditions": [],
+  "triggers": [
+    {
+      "type": "block",
+      "blocks": [
+        "minecraft:chorus_plant",
+        "minecraft:chorus_flower"
+      ],
+      "chance": 0.05
+    }
+  ],
+  "locations": [
+    {
+      "type": "base",
+      "rangeMin": [
+        0,
+        0,
+        0
+      ],
+      "rangeMax": [
+        0,
+        0,
+        0
+      ],
+      "sorting": "random"
+    }
+  ],
+  "mobSpawns": [
+    {
+      "mobId": "lycanitesmobs:wraamon",
+      "weight": 8
+    }
+  ]
+}

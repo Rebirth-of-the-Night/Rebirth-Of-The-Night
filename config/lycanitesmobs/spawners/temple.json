@@ -1,0 +1,61 @@
+{
+  "name": "temple",
+  "type": "spawner",
+  "enabled": true,
+  "loadDefault": true,
+  "mobCountMin": 8,
+  "ignoreBiomes": true,
+  "ignoreLightLevel": true,
+  "groupLimitRange": 64,
+  "conditions": [],
+  "triggers": [
+    {
+      "type": "world",
+      "chance": 1,
+      "tickRate": 1200
+    }
+  ],
+  "locations": [
+    {
+      "type": "structure",
+      "rangeMin": [
+        0,
+        0,
+        0
+      ],
+      "rangeMax": [
+        32,
+        255,
+        32
+      ],
+      "sorting": "random",
+      "limit": 32,
+      "solidGround": true,
+      "structureType": "Stronghold"
+    },
+    {
+      "type": "structure",
+      "rangeMin": [
+        0,
+        0,
+        0
+      ],
+      "rangeMax": [
+        16,
+        255,
+        16
+      ],
+      "sorting": "random",
+      "limit": 32,
+      "solidGround": true,
+      "structureType": "Temple"
+    }
+  ],
+  "mobSpawns": [
+    {
+      "mobId": "lycanitesmobs:sylph",
+      "weight": 8,
+      "home": 32
+    }
+  ]
+}

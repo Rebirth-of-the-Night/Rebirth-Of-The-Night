@@ -1,0 +1,113 @@
+{
+  "itemName": "clinkscythe",
+  "loadDefault": true,
+  "slotType": "axe",
+  "dropMobId": "lycanitesmobs:clink",
+  "dropChance": 0.1,
+  "levelMin": 1,
+  "levelMax": 3,
+  "elements": [
+    "earth",
+    "arcane"
+  ],
+  "features": [
+    {
+      "featureType": "harvest",
+      "harvestType": "hoe",
+      "harvestSpeed": 6,
+      "harvestShape": "block",
+      "harvestRange": [
+        1,
+        1,
+        1
+      ],
+      "harvestRangeLevelMultiplier": 1
+    },
+    {
+      "featureType": "harvest",
+      "harvestType": "shears",
+      "harvestSpeed": 6,
+      "harvestShape": "block",
+      "harvestRange": [
+        1,
+        1,
+        1
+      ],
+      "harvestRangeLevelMultiplier": 1
+    },
+    {
+      "featureType": "harvest",
+      "levelMax": 1,
+      "harvestType": "shovel",
+      "harvestSpeed": 6,
+      "harvestShape": "block",
+      "harvestRange": [
+        4,
+        1,
+        1
+      ],
+      "harvestRangeLevelMultiplier": 1
+    },
+    {
+      "featureType": "harvest",
+      "levelMin": 2,
+      "levelMax": 2,
+      "harvestType": "shovel",
+      "harvestSpeed": 7,
+      "harvestShape": "block",
+      "harvestRange": [
+        8,
+        1,
+        4
+      ],
+      "harvestRangeLevelMultiplier": 1
+    },
+    {
+      "featureType": "harvest",
+      "levelMin": 3,
+      "harvestType": "shovel",
+      "harvestSpeed": 8,
+      "harvestShape": "block",
+      "harvestRange": [
+        16,
+        1,
+        8
+      ],
+      "harvestRangeLevelMultiplier": 1
+    },
+    {
+      "featureType": "damage",
+      "levelMax": 2,
+      "damageAmount": 4,
+      "damageKnockback": 2,
+      "damageCooldown": 0.75,
+      "damageRange": 1,
+      "damageSweep": 360
+    },
+    {
+      "featureType": "damage",
+      "levelMin": 3,
+      "damageAmount": 5,
+      "damageKnockback": 2,
+      "damageCooldown": 0.5,
+      "damageRange": 1,
+      "damageSweep": 360
+    },
+    {
+      "featureType": "effect",
+      "effectType": "lycanitesmobs:aphagia",
+      "effectTarget": "target",
+      "effectDuration": 80,
+      "effectStrength": 1
+    },
+    {
+      "featureType": "projectile",
+      "levelMin": 2,
+      "projectileName": "throwingscythe",
+      "projectileTrigger": "primary",
+      "projectilePattern": "simple",
+      "cooldown": 10,
+      "count": 1
+    }
+  ]
+}

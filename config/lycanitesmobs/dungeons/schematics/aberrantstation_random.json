@@ -1,0 +1,242 @@
+{
+  "name": "aberrantstation_random",
+  "loadDefault": true,
+  "sectorCountMin": 20,
+  "sectorCountMax": 30,
+  "corridorToCorridorChance": 0.1,
+  "roomToRoomChance": 0.8,
+  "conditions": [
+    {
+      "type": "world",
+      "dimensionIds": [
+        1,
+        -1
+      ],
+      "dimensionListType": "whitelist",
+      "biomeTags": [
+        "nether",
+        "end"
+      ],
+      "biomeTagListType": "whitelist"
+    }
+  ],
+  "placer": {
+    "type": "random",
+    "minY": 64,
+    "maxY": 80
+  },
+  "themes": [
+    "aberrant"
+  ],
+  "entrances": [
+    "entrancebasic"
+  ],
+  "rooms": [
+    "roombasic",
+    "roombasicloot",
+    "roombasicmob",
+    "roombasicpit",
+    "roomdiamondpit"
+  ],
+  "corridors": [
+    "corridorbasic",
+    "corridorbasicdark",
+    "corridorbasicloot",
+    "corridorbasicmob"
+  ],
+  "stairs": [
+    "stairsbasic"
+  ],
+  "towers": [
+    "towerbasic"
+  ],
+  "bossRooms": [
+    "roombasicboss"
+  ],
+  "finishes": [
+    "roombasicfinish"
+  ],
+  "lootTables": [
+    {
+      "id": "minecraft:chests/simple_dungeon"
+    },
+    {
+      "id": "minecraft:chests/village_blacksmith",
+      "level": 2
+    },
+    {
+      "id": "minecraft:chests/nether_bridge",
+      "level": 3
+    },
+    {
+      "id": "minecraft:chests/abandoned_mineshaft",
+      "level": 4
+    },
+    {
+      "id": "minecraft:chests/stronghold_corridor",
+      "level": 5
+    },
+    {
+      "id": "minecraft:chests/stronghold_crossing",
+      "level": 6
+    }
+  ],
+  "mobSpawns": [
+    {
+      "mobId": "lycanitesmobs:trite",
+      "weight": 14
+    },
+    {
+      "mobId": "lycanitesmobs:spectre",
+      "weight": 8
+    },
+    {
+      "mobId": "lycanitesmobs:wraamon",
+      "weight": 4,
+      "dungeonLevelMin": 1
+    },
+    {
+      "mobId": "lycanitesmobs:chupacabra",
+      "weight": 4,
+      "dungeonLevelMin": 2
+    },
+    {
+      "mobId": "lycanitesmobs:darkling",
+      "weight": 14,
+      "dungeonLevelMin": 3
+    },
+    {
+      "mobId": "lycanitesmobs:grigori",
+      "weight": 14,
+      "dungeonLevelMin": 3
+    },
+    {
+      "mobId": "lycanitesmobs:astaroth",
+      "weight": 1,
+      "dungeonLevelMin": 4
+    },
+    {
+      "mobId": "lycanitesmobs:trite",
+      "weight": 14,
+      "subspecies": 1,
+      "dungeonLevelMin": 4
+    },
+    {
+      "mobId": "lycanitesmobs:grell",
+      "weight": 4,
+      "dungeonLevelMin": 5
+    },
+    {
+      "mobId": "lycanitesmobs:beholder",
+      "weight": 1,
+      "dungeonLevelMin": 5
+    },
+    {
+      "mobId": "lycanitesmobs:wraamon",
+      "weight": 1,
+      "variant": 1,
+      "mobNameTag": "Experiment 69R",
+      "mobSizeScale": 6,
+      "naturalDespawn": "false",
+      "mobLevel": 100,
+      "spawnAsBoss": true,
+      "dungeonLevelMin": "0",
+      "dungeonLevelMax": 2,
+      "dungeonBoss": true,
+      "mobDrops": [
+        {
+          "item": "minecraft:diamond",
+          "minAmount": 3,
+          "amountMultiplier": false
+        },
+        {
+          "item": "lycanitesmobs:soulstone_beast",
+          "amountMultiplier": false,
+          "bonusAmount": false
+        }
+      ]
+    },
+    {
+      "mobId": "lycanitesmobs:astaroth",
+      "weight": 1,
+      "mobNameTag": "Arachnotron",
+      "mobSizeScale": 1.8,
+      "naturalDespawn": "false",
+      "mobLevel": 125,
+      "spawnAsBoss": true,
+      "dungeonLevelMin": 3,
+      "dungeonLevelMax": 3,
+      "dungeonBoss": true,
+      "mobDrops": [
+        {
+          "item": "lycanitesmobs:astarothclaw",
+          "amountMultiplier": false
+        },
+        {
+          "item": "minecraft:diamond",
+          "minAmount": 10,
+          "amountMultiplier": false
+        },
+        {
+          "item": "lycanitesmobs:soulstone_aberration",
+          "amountMultiplier": false,
+          "bonusAmount": false
+        }
+      ]
+    },
+    {
+      "mobId": "lycanitesmobs:chupacabra",
+      "weight": 1,
+      "variant": 3,
+      "mobNameTag": "Anarchical Hound",
+      "mobSizeScale": 2,
+      "naturalDespawn": "false",
+      "mobLevel": 5,
+      "spawnAsBoss": true,
+      "dungeonLevelMin": 4,
+      "dungeonLevelMax": 4,
+      "dungeonBoss": true,
+      "mobDrops": [
+        {
+          "item": "lycanitesmobs:soulstone_beast",
+          "amountMultiplier": false,
+          "bonusAmount": false
+        },
+        {
+          "item": "lycanitesmobs:chaosorbcharge",
+          "amountMultiplier": false,
+          "minAmount": 10,
+          "maxAmount": 20
+        }
+      ]
+    },
+    {
+      "mobId": "lycanitesmobs:astaroth",
+      "weight": 1,
+      "subspecies": 1,
+      "mobNameTag": "Asakku",
+      "mobSizeScale": 2.5,
+      "naturalDespawn": "false",
+      "mobLevel": 250,
+      "spawnAsBoss": true,
+      "dungeonLevelMin": 5,
+      "dungeonBoss": true,
+      "mobDrops": [
+        {
+          "item": "lycanitesmobs:astarothclaw",
+          "amountMultiplier": false
+        },
+        {
+          "item": "minecraft:diamond",
+          "minAmount": 50,
+          "amountMultiplier": false
+        },
+        {
+          "item": "lycanitesmobs:soulstone_aberration",
+          "amountMultiplier": false,
+          "bonusAmount": false
+        }
+      ]
+    }
+  ]
+}

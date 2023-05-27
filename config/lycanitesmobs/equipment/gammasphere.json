@@ -1,0 +1,77 @@
+{
+  "itemName": "gammasphere",
+  "loadDefault": true,
+  "slotType": "jewel",
+  "dropMobId": "lycanitesmobs:wisp",
+  "dropChance": 0.2,
+  "levelMin": 1,
+  "levelMax": 3,
+  "elements": [
+    "light"
+  ],
+  "features": [
+    {
+      "featureType": "projectile",
+      "levelMax": 1,
+      "projectileName": "lightball",
+      "projectileTrigger": "primary",
+      "projectilePattern": "ring",
+      "cooldown": 40,
+      "count": 5,
+      "ringRange": 90
+    },
+    {
+      "featureType": "projectile",
+      "levelMin": 2,
+      "levelMax": 2,
+      "projectileName": "lightball",
+      "projectileTrigger": "primary",
+      "projectilePattern": "ring",
+      "cooldown": 30,
+      "count": 9,
+      "bonusDamage": 4,
+      "ringRange": 180
+    },
+    {
+      "featureType": "projectile",
+      "levelMin": 3,
+      "projectileName": "lightball",
+      "projectileTrigger": "primary",
+      "projectilePattern": "ring",
+      "cooldown": 20,
+      "count": 16,
+      "bonusDamage": 10,
+      "ringRange": 360
+    },
+    {
+      "featureType": "projectile",
+      "levelMax": 1,
+      "projectileName": "lightball",
+      "projectileTrigger": "secondary",
+      "projectilePattern": "simple",
+      "cooldown": 20,
+      "count": 1
+    },
+    {
+      "featureType": "projectile",
+      "levelMin": 2,
+      "levelMax": 2,
+      "projectileName": "lightball",
+      "projectileTrigger": "secondary",
+      "projectilePattern": "simple",
+      "cooldown": 16,
+      "count": 1,
+      "bonusDamage": 4
+    },
+    {
+      "featureType": "projectile",
+      "levelMin": 3,
+      "projectileName": "lightball",
+      "projectileTrigger": "secondary",
+      "projectilePattern": "simple",
+      "cooldown": 8,
+      "count": 1,
+      "bonusDamage": 10
+    }
+  ]
+}

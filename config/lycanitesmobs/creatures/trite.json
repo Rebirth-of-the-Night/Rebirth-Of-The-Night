@@ -1,0 +1,140 @@
+{
+  "name": "trite",
+  "creatureType": "aberration",
+  "groups": [
+    "monster"
+  ],
+  "entityClass": "com.lycanitesmobs.core.entity.creature.EntityTrite",
+  "modelClass": "com.lycanitesmobs.client.model.creature.ModelTrite",
+  "loadDefault": true,
+  "enabled": true,
+  "spawning": {
+    "enabled": true,
+    "spawners": [
+      "monster",
+      "beast",
+      "portal",
+      "nether"
+    ],
+    "disableSubspecies": false,
+    "dimensionIds": [
+      -1,
+      1
+    ],
+    "dimensionListType": "whitelist",
+    "ignoreBiome": true,
+    "biomeTags": [
+      "nether",
+      "end"
+    ],
+    "spawnWeight": 8,
+    "dungeonWeight": 200,
+    "spawnAreaLimit": 5,
+    "spawnGroupMin": 3,
+    "spawnGroupMax": 6,
+    "spawnsInLight": true,
+    "spawnsInDark": true,
+    "worldDayMin": -1,
+    "despawnNatural": true,
+    "despawnForced": false
+  },
+  "width": 0.9,
+  "height": 0.9,
+  "experience": 5,
+  "health": 5,
+  "defense": 1,
+  "armor": 0,
+  "speed": 36,
+  "damage": 1,
+  "attackSpeed": 2,
+  "rangedSpeed": 1,
+  "effectDuration": 3,
+  "effectAmplifier": 0,
+  "pierce": 1,
+  "sight": 24,
+  "knockbackResistance": 0,
+  "bagSize": 5,
+  "eggBackColor": "#FFFF88",
+  "eggForeColor": "#000000",
+  "subspecies": [
+    {
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "color": "verdant",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "color": "lux",
+          "type": "uncommon"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "priority": 1,
+      "name": "void",
+      "modelClass": "com.lycanitesmobs.client.model.creature.ModelTriteVoid",
+      "elements": [
+        "void"
+      ],
+      "conditions": [
+        {
+          "type": "world",
+          "dimensionIds": [
+            1
+          ],
+          "dimensionListType": "whitelist"
+        }
+      ],
+      "variants": [
+        {
+          "index": 1,
+          "color": "ashen",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "color": "azure",
+          "type": "uncommon"
+        }
+      ]
+    }
+  ],
+  "element": "nether",
+  "diets": [
+    "carnivore",
+    "insectivore"
+  ],
+  "peaceful": false,
+  "summonable": true,
+  "tameable": false,
+  "mountable": false,
+  "perchable": true,
+  "summonCost": 2,
+  "dungeonLevel": 1,
+  "drops": [
+    {
+      "item": "minecraft:string",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 1
+    },
+    {
+      "item": "minecraft:spider_eye",
+      "minAmount": 1,
+      "maxAmount": 2,
+      "chance": 0.5
+    },
+    {
+      "item": "minecraft:fermented_spider_eye",
+      "minAmount": 1,
+      "maxAmount": 1,
+      "chance": 0.25
+    }
+  ],
+  "sizeScale": 1,
+  "hitboxScale": 1
+}

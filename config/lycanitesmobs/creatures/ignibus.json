@@ -1,0 +1,127 @@
+{
+  "name": "ignibus",
+  "creatureType": "dragon",
+  "groups": [
+    "inferno"
+  ],
+  "entityClass": "com.lycanitesmobs.core.entity.creature.EntityIgnibus",
+  "modelClass": "com.lycanitesmobs.client.model.creature.ModelIgnibus",
+  "loadDefault": true,
+  "enabled": true,
+  "spawning": {
+    "enabled": true,
+    "spawners": [
+      "lava"
+    ],
+    "disableSubspecies": false,
+    "dimensionIds": [],
+    "dimensionListType": "blacklist",
+    "ignoreBiome": false,
+    "biomeTags": [
+      "all"
+    ],
+    "spawnWeight": 1,
+    "dungeonWeight": 0,
+    "spawnAreaLimit": 1,
+    "spawnGroupMin": 1,
+    "spawnGroupMax": 1,
+    "spawnsInLight": false,
+    "spawnsInDark": true,
+    "worldDayMin": -1,
+    "despawnNatural": true,
+    "despawnForced": false
+  },
+  "width": 8.9,
+  "height": 8.9,
+  "experience": 30,
+  "health": 400,
+  "defense": 3,
+  "armor": 0,
+  "speed": 24,
+  "damage": 4,
+  "attackSpeed": 1,
+  "rangedSpeed": 1,
+  "effectDuration": 5,
+  "effectAmplifier": 0,
+  "pierce": 1,
+  "sight": 24,
+  "knockbackResistance": 0.5,
+  "packSize": 1,
+  "bagSize": 5,
+  "tamingReputation": 3000,
+  "eggBackColor": "#BB0000",
+  "eggForeColor": "#00DD00",
+  "subspecies": [
+    {
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "violet",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "verdant",
+          "type": "uncommon"
+        }
+      ]
+    }
+  ],
+  "element": "lava",
+  "diets": [
+    "carnivore",
+    "piscivore"
+  ],
+  "peaceful": false,
+  "summonable": false,
+  "tameable": true,
+  "mountable": true,
+  "summonCost": 10,
+  "dungeonLevel": 3,
+  "drops": [
+    {
+      "item": "minecraft:gunpowder",
+      "minAmount": 4,
+      "maxAmount": 16,
+      "chance": 1
+    },
+    {
+      "item": "minecraft:coal",
+      "minAmount": 16,
+      "maxAmount": 32,
+      "chance": 1
+    },
+    {
+      "item": "minecraft:magma_cream",
+      "minAmount": 4,
+      "maxAmount": 8,
+      "chance": 1
+    },
+    {
+      "item": "minecraft:blaze_powder",
+      "minAmount": 10,
+      "maxAmount": 20,
+      "chance": 1
+    },
+    {
+      "item": "minecraft:gold_nugget",
+      "minAmount": 10,
+      "maxAmount": 40,
+      "chance": 1
+    },
+    {
+      "item": "lycanitesmobs:primeembercharge",
+      "minAmount": 10,
+      "maxAmount": 20,
+      "chance": 1
+    }
+  ],
+  "sizeScale": 1,
+  "hitboxScale": 1,
+  "mountOffset": [
+    0,
+    0.58,
+    0.1
+  ]
+}

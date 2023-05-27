@@ -1,0 +1,132 @@
+{
+  "name": "cacodemon",
+  "creatureType": "demon",
+  "groups": [
+    "monster"
+  ],
+  "entityClass": "com.lycanitesmobs.core.entity.creature.EntityCacodemon",
+  "modelClass": "com.lycanitesmobs.client.model.creature.ModelCacodemon",
+  "loadDefault": true,
+  "enabled": true,
+  "spawning": {
+    "enabled": true,
+    "spawners": [
+      "nethersky",
+      "portal"
+    ],
+    "disableSubspecies": false,
+    "dimensionIds": [
+      -1
+    ],
+    "dimensionListType": "whitelist",
+    "ignoreBiome": true,
+    "biomeTags": [
+      "nether"
+    ],
+    "spawnWeight": 4,
+    "dungeonWeight": 200,
+    "spawnAreaLimit": 5,
+    "spawnGroupMin": 1,
+    "spawnGroupMax": 3,
+    "spawnsInLight": true,
+    "spawnsInDark": true,
+    "worldDayMin": -1,
+    "despawnNatural": true,
+    "despawnForced": false
+  },
+  "width": 2.5,
+  "height": 2.5,
+  "experience": 10,
+  "health": 20,
+  "defense": 1,
+  "armor": 0,
+  "speed": 24,
+  "damage": 3,
+  "attackSpeed": 1,
+  "rangedSpeed": 0.25,
+  "effectDuration": 5,
+  "effectAmplifier": 0,
+  "pierce": 1,
+  "sight": 32,
+  "knockbackResistance": 0,
+  "bagSize": 5,
+  "eggBackColor": "#FF0000",
+  "eggForeColor": "#000099",
+  "subspecies": [
+    {
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "russet",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "violet",
+          "type": "uncommon"
+        },
+        {
+          "index": 3,
+          "name": "ebon",
+          "scale": 2,
+          "type": "rare"
+        }
+      ]
+    }
+  ],
+  "element": "nether",
+  "diets": [
+    "carnivore",
+    "piscivore",
+    "insectivore"
+  ],
+  "peaceful": false,
+  "summonable": false,
+  "tameable": true,
+  "mountable": true,
+  "summonCost": 2,
+  "dungeonLevel": 3,
+  "drops": [
+    {
+      "item": "minecraft:ghast_tear",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 1
+    },
+    {
+      "item": "minecraft:gunpowder",
+      "minAmount": 1,
+      "maxAmount": 6,
+      "chance": 0.5
+    },
+    {
+      "item": "minecraft:blaze_powder",
+      "minAmount": 1,
+      "maxAmount": 6,
+      "chance": 0.5
+    },
+    {
+      "item": "lycanitesmobs:demonicblastcharge",
+      "minAmount": 3,
+      "maxAmount": 6,
+      "chance": 1
+    },
+    {
+      "item": "lycanitesmobs:soulstone_demon",
+      "minAmount": 1,
+      "maxAmount": 1,
+      "chance": 1,
+      "variant": 3,
+      "bonusAmount": false
+    }
+  ],
+  "sizeScale": 1,
+  "hitboxScale": 1,
+  "flags": [
+    {
+      "name": "griefing",
+      "value": true
+    }
+  ]
+}

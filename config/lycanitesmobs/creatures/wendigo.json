@@ -1,0 +1,117 @@
+{
+  "name": "wendigo",
+  "creatureType": "undead",
+  "groups": [
+    "monster",
+    "frozen"
+  ],
+  "entityClass": "com.lycanitesmobs.core.entity.creature.EntityWendigo",
+  "modelClass": "com.lycanitesmobs.client.model.creature.ModelWendigo",
+  "loadDefault": true,
+  "enabled": true,
+  "spawning": {
+    "enabled": true,
+    "spawners": [
+      "monster",
+      "beast",
+      "ooze"
+    ],
+    "disableSubspecies": false,
+    "dimensionIds": [
+      -1,
+      1
+    ],
+    "dimensionListType": "blacklist",
+    "ignoreBiome": false,
+    "biomeTags": [
+      "cold",
+      "snowy",
+      "coniferous",
+      "-end"
+    ],
+    "spawnWeight": 4,
+    "dungeonWeight": 0,
+    "spawnAreaLimit": 1,
+    "spawnGroupMin": 1,
+    "spawnGroupMax": 1,
+    "spawnsInLight": false,
+    "spawnsInDark": true,
+    "worldDayMin": -1,
+    "despawnNatural": true,
+    "despawnForced": false
+  },
+  "width": 1.0,
+  "height": 4.5,
+  "experience": 15,
+  "health": 40,
+  "defense": 3,
+  "armor": 0,
+  "speed": 28,
+  "damage": 2,
+  "attackSpeed": 1,
+  "rangedSpeed": 0.25,
+  "effectDuration": 5,
+  "effectAmplifier": 0,
+  "pierce": 1,
+  "sight": 24,
+  "knockbackResistance": 1,
+  "bagSize": 5,
+  "eggBackColor": "#CCCCFF",
+  "eggForeColor": "#0055FF",
+  "subspecies": [
+    {
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "keppel",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "violet",
+          "type": "uncommon"
+        }
+      ]
+    }
+  ],
+  "element": "frost",
+  "diets": [
+    "carnivore",
+    "detritivore"
+  ],
+  "peaceful": false,
+  "summonable": false,
+  "tameable": false,
+  "mountable": false,
+  "summonCost": 6,
+  "dungeonLevel": 2,
+  "drops": [
+    {
+      "item": "minecraft:snow",
+      "minAmount": 1,
+      "maxAmount": 8,
+      "chance": 0.5
+    },
+    {
+      "item": "minecraft:packed_ice",
+      "minAmount": 1,
+      "maxAmount": 8,
+      "chance": 0.25
+    },
+    {
+      "item": "lycanitesmobs:tundracharge",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 1
+    },
+    {
+      "item": "lycanitesmobs:frostyfur",
+      "minAmount": 2,
+      "maxAmount": 5,
+      "chance": 1
+    }
+  ],
+  "sizeScale": 1,
+  "hitboxScale": 1
+}

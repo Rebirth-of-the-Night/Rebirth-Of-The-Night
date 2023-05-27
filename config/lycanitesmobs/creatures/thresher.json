@@ -1,0 +1,127 @@
+{
+  "name": "thresher",
+  "creatureType": "reptile",
+  "groups": [
+    "predator"
+  ],
+  "entityClass": "com.lycanitesmobs.core.entity.creature.EntityThresher",
+  "modelClass": "com.lycanitesmobs.client.model.creature.ModelThresher",
+  "loadDefault": true,
+  "enabled": true,
+  "spawning": {
+    "enabled": true,
+    "spawners": [
+      "water"
+    ],
+    "disableSubspecies": false,
+    "dimensionIds": [
+      -1,
+      1
+    ],
+    "dimensionListType": "blacklist",
+    "ignoreBiome": false,
+    "biomeTags": [
+      "all",
+      "-swamp",
+      "-jungle",
+      "-dense"
+    ],
+    "spawnWeight": 1,
+    "dungeonWeight": 0,
+    "spawnAreaLimit": 1,
+    "spawnGroupMin": 1,
+    "spawnGroupMax": 1,
+    "spawnsInLight": false,
+    "spawnsInDark": true,
+    "worldDayMin": -1,
+    "despawnNatural": true,
+    "despawnForced": false
+  },
+  "width": 8.0,
+  "height": 8.0,
+  "experience": 20,
+  "health": 80,
+  "defense": 2,
+  "armor": 0,
+  "speed": 24,
+  "damage": 4,
+  "attackSpeed": 1,
+  "rangedSpeed": 1,
+  "effectDuration": 5,
+  "effectAmplifier": 0,
+  "pierce": 2,
+  "sight": 32,
+  "knockbackResistance": 1,
+  "bagSize": 10,
+  "tamingReputation": 2000,
+  "packSize": 1,
+  "eggBackColor": "#77747e",
+  "eggForeColor": "#3f4567",
+  "subspecies": [
+    {
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "golden",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "verdant",
+          "type": "uncommon"
+        }
+      ]
+    }
+  ],
+  "element": "water",
+  "diets": [
+    "carnivore",
+    "piscivore",
+    "insectivore"
+  ],
+  "peaceful": false,
+  "summonable": false,
+  "tameable": true,
+  "mountable": true,
+  "summonCost": 6,
+  "dungeonLevel": 3,
+  "drops": [
+    {
+      "item": "minecraft:fish",
+      "burningItem": "minecraft:cooked_fish",
+      "minAmount": 3,
+      "maxAmount": 6,
+      "chance": 1
+    },
+    {
+      "item": "minecraft:fish",
+      "metadata": 1,
+      "burningItem": "minecraft:cooked_fish",
+      "burningMetadata": 1,
+      "minAmount": 3,
+      "maxAmount": 6,
+      "chance": 0.75
+    },
+    {
+      "item": "minecraft:prismarine_shard",
+      "minAmount": 3,
+      "maxAmount": 6,
+      "chance": 1
+    },
+    {
+      "item": "minecraft:prismarine_crystals",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 0.75
+    }
+  ],
+  "sizeScale": 1,
+  "hitboxScale": 1,
+  "flags": [
+    {
+      "name": "whirlpoolRange",
+      "value": 8
+    }
+  ]
+}

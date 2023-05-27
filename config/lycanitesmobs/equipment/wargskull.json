@@ -1,0 +1,71 @@
+{
+  "itemName": "wargskull",
+  "loadDefault": true,
+  "slotType": "head",
+  "dropMobId": "lycanitesmobs:warg",
+  "dropChance": 0.2,
+  "levelMin": 1,
+  "levelMax": 3,
+  "elements": [
+    "lightning",
+    "fae"
+  ],
+  "features": [
+    {
+      "featureType": "slot",
+      "slotType": "pike"
+    },
+    {
+      "featureType": "damage",
+      "levelMax": 2,
+      "damageAmount": 1,
+      "damageKnockback": 0,
+      "damageCooldown": 0,
+      "damageRange": 1,
+      "damageSweep": 45
+    },
+    {
+      "featureType": "damage",
+      "levelMin": 3,
+      "damageAmount": 2,
+      "damageKnockback": 0,
+      "damageCooldown": 0,
+      "damageRange": 1,
+      "damageSweep": 45
+    },
+    {
+      "featureType": "effect",
+      "levelMin": 1,
+      "levelMax": 1,
+      "effectType": "lycanitesmobs:paralysis",
+      "effectTarget": "target",
+      "effectDuration": 10,
+      "effectStrength": 1
+    },
+    {
+      "featureType": "effect",
+      "levelMin": 2,
+      "levelMax": 2,
+      "effectType": "lycanitesmobs:paralysis",
+      "effectTarget": "target",
+      "effectDuration": 20,
+      "effectStrength": 2
+    },
+    {
+      "featureType": "effect",
+      "levelMin": 3,
+      "effectType": "lycanitesmobs:paralysis",
+      "effectTarget": "target",
+      "effectDuration": 30,
+      "effectStrength": 3
+    },
+    {
+      "featureType": "effect",
+      "levelMin": 3,
+      "effectType": "lycanitesmobs:bleed",
+      "effectTarget": "target",
+      "effectDuration": 10,
+      "effectStrength": 1
+    }
+  ]
+}

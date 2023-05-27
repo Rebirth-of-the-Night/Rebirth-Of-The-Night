@@ -1,0 +1,5 @@
+{
+  "name": "worm",
+  "loadDefault": true,
+  "spawnEggName": "wormspawn"
+}

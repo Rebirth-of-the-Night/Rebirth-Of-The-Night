@@ -1,0 +1,43 @@
+{
+  "name": "endsky",
+  "type": "spawner",
+  "enabled": true,
+  "loadDefault": true,
+  "mobCountMin": 2,
+  "ignoreBiomes": true,
+  "ignoreLightLevel": true,
+  "conditions": [
+    {
+      "type": "world",
+      "dimensionIds": [
+        1
+      ],
+      "dimensionListType": "whitelist"
+    }
+  ],
+  "triggers": [
+    {
+      "type": "world",
+      "chance": 0.25,
+      "tickRate": 800
+    }
+  ],
+  "locations": [
+    {
+      "type": "random",
+      "rangeMin": [
+        24,
+        0,
+        24
+      ],
+      "rangeMax": [
+        32,
+        48,
+        32
+      ],
+      "sorting": "random",
+      "limit": 32,
+      "solidGround": false
+    }
+  ]
+}

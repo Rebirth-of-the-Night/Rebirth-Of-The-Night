@@ -1,0 +1,197 @@
+{
+  "name": "streamshrine",
+  "loadDefault": true,
+  "sectorCountMin": 5,
+  "sectorCountMax": 10,
+  "corridorToCorridorChance": 0.1,
+  "roomToRoomChance": 0.5,
+  "conditions": [
+    {
+      "type": "world",
+      "dimensionIds": [
+        0
+      ],
+      "dimensionListType": "whitelist",
+      "biomeTags": [
+        "ocean"
+      ],
+      "biomeTagListType": "whitelist"
+    }
+  ],
+  "placer": {
+    "type": "surface",
+    "materials": [
+      "air",
+      "wood",
+      "leaves",
+      "plants",
+      "vine",
+      "snow",
+      "cactus"
+    ]
+  },
+  "canGenerateAsTower": false,
+  "themes": [
+    "stream"
+  ],
+  "entrances": [
+    "entrancebasic"
+  ],
+  "rooms": [
+    "roombasic",
+    "roombasicloot",
+    "roombasicmob"
+  ],
+  "corridors": [
+    "corridorbasic",
+    "corridorbasicdark",
+    "corridorbasicloot",
+    "corridorbasicmob"
+  ],
+  "stairs": [
+    "stairsbasic"
+  ],
+  "towers": [
+    "towerbasic"
+  ],
+  "bossRooms": [
+    "roombasicboss"
+  ],
+  "finishes": [
+    "roombasicfinish"
+  ],
+  "lootTables": [
+    {
+      "id": "minecraft:chests/simple_dungeon"
+    },
+    {
+      "id": "minecraft:chests/village_blacksmith",
+      "level": 2
+    },
+    {
+      "id": "minecraft:chests/nether_bridge",
+      "level": 3
+    },
+    {
+      "id": "minecraft:chests/abandoned_mineshaft",
+      "level": 4
+    },
+    {
+      "id": "minecraft:chests/stronghold_corridor",
+      "level": 5
+    },
+    {
+      "id": "minecraft:chests/stronghold_crossing",
+      "level": 6
+    }
+  ],
+  "mobSpawns": [
+    {
+      "mobId": "lycanitesmobs:ioray",
+      "weight": 14
+    },
+    {
+      "mobId": "lycanitesmobs:abaia",
+      "weight": 14
+    },
+    {
+      "mobId": "lycanitesmobs:roa",
+      "weight": 14,
+      "dungeonLevelMin": 2
+    },
+    {
+      "mobId": "lycanitesmobs:aglebemu",
+      "weight": 6,
+      "dungeonLevelMin": 2
+    },
+    {
+      "mobId": "lycanitesmobs:abtu",
+      "weight": 8,
+      "dungeonLevelMin": 3
+    },
+    {
+      "mobId": "lycanitesmobs:lacedon",
+      "weight": 4,
+      "dungeonLevelMin": 3
+    },
+    {
+      "mobId": "lycanitesmobs:skylus",
+      "weight": 4,
+      "dungeonLevelMin": 4
+    },
+    {
+      "mobId": "lycanitesmobs:dweller",
+      "weight": 4,
+      "dungeonLevelMin": 5
+    },
+    {
+      "mobId": "lycanitesmobs:roa",
+      "weight": 1,
+      "variant": 1,
+      "mobNameTag": "Bruce",
+      "mobSizeScale": 4,
+      "naturalDespawn": "false",
+      "mobLevel": 100,
+      "spawnAsBoss": true,
+      "dungeonLevelMin": "0",
+      "dungeonLevelMax": 2,
+      "dungeonBoss": true,
+      "mobDrops": [
+        {
+          "item": "lycanitesmobs:soulstone_aquatic",
+          "amountMultiplier": false,
+          "bonusAmount": false
+        }
+      ]
+    },
+    {
+      "mobId": "lycanitesmobs:thresher",
+      "weight": 1,
+      "variant": 1,
+      "mobNameTag": "The Loch Ness",
+      "mobSizeScale": 1.5,
+      "naturalDespawn": "false",
+      "mobLevel": 100,
+      "spawnAsBoss": true,
+      "dungeonLevelMin": 3,
+      "dungeonLevelMax": 4,
+      "dungeonBoss": true,
+      "mobDrops": [
+        {
+          "item": "minecraft:diamond",
+          "minAmount": 10,
+          "amountMultiplier": false
+        },
+        {
+          "item": "lycanitesmobs:soulstone_aquatic",
+          "amountMultiplier": false,
+          "bonusAmount": false
+        }
+      ]
+    },
+    {
+      "mobId": "lycanitesmobs:herma",
+      "weight": 1,
+      "variant": 2,
+      "mobSizeScale": 5,
+      "mobNameTag": "Tamatoa",
+      "naturalDespawn": "false",
+      "mobLevel": 100,
+      "spawnAsBoss": true,
+      "dungeonLevelMin": 5,
+      "dungeonBoss": true,
+      "mobDrops": [
+        {
+          "item": "minecraft:diamond",
+          "minAmount": 50,
+          "amountMultiplier": false
+        },
+        {
+          "item": "lycanitesmobs:soulstone_aquatic",
+          "amountMultiplier": false,
+          "bonusAmount": false
+        }
+      ]
+    }
+  ]
+}

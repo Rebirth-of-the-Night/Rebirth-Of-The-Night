@@ -1,0 +1,43 @@
+{
+  "itemName": "woodenpaxel",
+  "loadDefault": true,
+  "slotType": "blade",
+  "dropMobId": "",
+  "dropChance": 0.1,
+  "levelMin": 1,
+  "levelMax": 1,
+  "features": [
+    {
+      "featureType": "harvest",
+      "harvestType": "pickaxe",
+      "harvestSpeed": 3,
+      "harvestLevel": 1
+    },
+    {
+      "featureType": "harvest",
+      "harvestType": "axe",
+      "harvestSpeed": 3,
+      "harvestLevel": 1
+    },
+    {
+      "featureType": "harvest",
+      "harvestType": "shovel",
+      "harvestSpeed": 3,
+      "harvestLevel": 1
+    },
+    {
+      "featureType": "harvest",
+      "harvestType": "hoe",
+      "harvestSpeed": 3,
+      "harvestLevel": 1
+    },
+    {
+      "featureType": "damage",
+      "damageAmount": 3,
+      "damageKnockback": 0,
+      "damageCooldown": 1,
+      "damageRange": 1,
+      "damageSweep": 45
+    }
+  ]
+}

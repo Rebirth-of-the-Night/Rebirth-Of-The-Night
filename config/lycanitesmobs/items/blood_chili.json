@@ -1,0 +1,21 @@
+{
+  "name": "blood_chili",
+  "loadDefault": true,
+  "group": "items",
+  "maxStackSize": 16,
+  "food": {
+    "hunger": 10,
+    "saturation": 0.8,
+    "alwaysEdible": true,
+    "fast": false,
+    "meat": true,
+    "effects": [
+      {
+        "effectId": "lycanitesmobs:leech",
+        "duration": 30,
+        "amplifier": 1,
+        "chance": 1.0
+      }
+    ]
+  }
+}

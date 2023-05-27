@@ -1,0 +1,39 @@
+{
+  "name": "hellfireball",
+  "loadDefault": true,
+  "width": 1.0,
+  "height": 1.0,
+  "scale": 1.0,
+  "damage": 4,
+  "pierce": 1,
+  "knockbackChance": 0.5,
+  "effectDuration": 5,
+  "effectAmplifier": 1,
+  "velocity": 0.8,
+  "weight": 1,
+  "lifetime": 100,
+  "elements": [
+    "nether",
+    "void"
+  ],
+  "behaviours": [
+    {
+      "type": "placeBlocks",
+      "block": "lycanitesmobs:hellfire",
+      "radius": 2,
+      "height": 1
+    }
+  ],
+  "waterproof": false,
+  "lavaproof": false,
+  "cutGrass": false,
+  "impactSound": false,
+  "ripper": false,
+  "pierceBlocks": false,
+  "glow": true,
+  "rollSpeed": 2,
+  "particleCount": 1,
+  "particleType": "flame",
+  "waterParticleType": "bubble",
+  "animationFrames": 4
+}
