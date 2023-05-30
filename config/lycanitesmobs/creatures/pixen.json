@@ -6,10 +6,10 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityPixen",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelPixen",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
-    "enabled": true,
+    "enabled": false,
     "spawners": [],
     "disableSubspecies": false,
     "dimensionIds": [

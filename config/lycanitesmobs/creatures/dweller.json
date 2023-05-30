@@ -6,10 +6,10 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityDweller",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelDweller",
-  "loadDefault": true,
-  "enabled": true,
+  "loadDefault": false,
+  "enabled": false,
   "spawning": {
-    "enabled": true,
+    "enabled": false,
     "spawners": [
       "waterfloor"
     ],

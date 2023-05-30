@@ -6,10 +6,10 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityGorger",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelGorger",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
-    "enabled": true,
+    "enabled": false,
     "spawners": [
       "lava"
     ],

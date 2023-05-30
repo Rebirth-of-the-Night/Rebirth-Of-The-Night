@@ -6,10 +6,10 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityAsmodeus",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelAsmodeus",
-  "loadDefault": true,
-  "enabled": true,
+  "loadDefault": false,
+  "enabled": false,
   "spawning": {
-    "enabled": true,
+    "enabled": false,
     "spawners": [],
     "disableSubspecies": false,
     "dimensionIds": [

@@ -6,10 +6,10 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityBehemoth",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelBehemoth",
-  "loadDefault": true,
-  "enabled": true,
+  "loadDefault": false,
+  "enabled": false,
   "spawning": {
-    "enabled": true,
+    "enabled": false,
     "spawners": [
       "monster",
       "beast",

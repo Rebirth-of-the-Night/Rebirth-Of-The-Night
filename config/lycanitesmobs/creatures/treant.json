@@ -6,10 +6,10 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityTreant",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelTreant",
-  "loadDefault": true,
-  "enabled": true,
+  "loadDefault": false,
+  "enabled": false,
   "spawning": {
-    "enabled": true,
+    "enabled": false,
     "spawners": [
       "monster",
       "beast"

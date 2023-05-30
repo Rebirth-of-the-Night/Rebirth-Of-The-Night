@@ -6,10 +6,10 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityMorock",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelMorock",
-  "loadDefault": true,
-  "enabled": true,
+  "loadDefault": false,
+  "enabled": false,
   "spawning": {
-    "enabled": true,
+    "enabled": false,
     "spawners": [
       "sky"
     ],

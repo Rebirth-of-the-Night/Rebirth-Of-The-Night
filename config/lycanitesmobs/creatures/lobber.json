@@ -6,10 +6,10 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityLobber",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelLobber",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
-    "enabled": true,
+    "enabled": false,
     "spawners": [
       "lava"
     ],

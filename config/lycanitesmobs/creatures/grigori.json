@@ -7,10 +7,10 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityGrigori",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelGrigori",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
-    "enabled": true,
+    "enabled": false,
     "spawners": [
       "nethersky"
     ],

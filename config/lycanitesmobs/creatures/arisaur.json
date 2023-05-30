@@ -6,20 +6,19 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityArisaur",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelArisaur",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
-    "enabled": true,
+    "enabled": false,
     "spawners": [
       "creature",
       "animal"
     ],
     "disableSubspecies": false,
     "dimensionIds": [
-      -1,
-      1
+      7
     ],
-    "dimensionListType": "blacklist",
+    "dimensionListType": "whitelist",
     "ignoreBiome": false,
     "biomeTags": [
       "plains",
@@ -33,7 +32,7 @@
     "spawnGroupMin": 1,
     "spawnGroupMax": 3,
     "spawnsInLight": true,
-    "spawnsInDark": false,
+    "spawnsInDark": true,
     "worldDayMin": -1,
     "despawnNatural": false,
     "despawnForced": false

@@ -7,10 +7,10 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntitySalamander",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelSalamander",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
-    "enabled": true,
+    "enabled": false,
     "spawners": [
       "lava"
     ],

@@ -7,10 +7,10 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityDarkling",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelDarkling",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
-    "enabled": true,
+    "enabled": false,
     "spawners": [
       "underground"
     ],
