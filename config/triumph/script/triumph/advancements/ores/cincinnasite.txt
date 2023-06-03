@@ -1,6 +1,6 @@
 setIcon("betternether:cincinnasite")
 setTitle("Beauty From Hell")
-setDescription("Mine cincinnasite ore")
+setDescription("Mine cincinnasite ore, a peculiarly golden metal extensively used in the past in the Nether")
 
 addParent("triumph:advancements/ores/bronze")
 

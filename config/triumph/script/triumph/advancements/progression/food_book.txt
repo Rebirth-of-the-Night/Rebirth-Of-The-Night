@@ -1,11 +1,11 @@
-setIcon(<rustic:book>)
-setTitle("Farmer's Tattered Almanac")
-setDescription("Find the Farmer's Tattered Almanac.")
+setIcon(<solcarrot:food_book>)
+setTitle("Epicurean's Tattered Dietary Guide")
+setDescription("Find the Tattered Dietary Guide.")
 
 
 addParent("triumph:advancements/progression/root")
 
-addRewardFunction("triumph:rusticAlmanac")
+addRewardFunction("triumph:food_book")
 
 
 
@@ -15,10 +15,10 @@ setShowToast(true)
 //Set the advancement to not send a chat message when it is achieved.
 setAnnounceToChat(true)
 
-criteria = addCriteria("Farmer's Tattered Almanac", "minecraft:inventory_changed")
-criteria.addItem("rustic:book")
+criteria = addCriteria("Epicurean's Tattered Dietary Guide", "minecraft:inventory_changed")
+criteria.addItem("solcarrot:food_book")
 
 hideLines()
 
 alwaysVisible()
-setPos(-55, 0)
+setPos(-53,29)

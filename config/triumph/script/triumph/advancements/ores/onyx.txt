@@ -1,6 +1,6 @@
 setIcon("simpleores:onyx_gem")
 setTitle("Unimaginable Strength")
-setDescription("Mine onyx ore")
+setDescription("Mine onyx ore, known at some point by humans as the hardest element, inside of sulfur pockets near the top of the nether or embedded in geodes deep in its lava oceans")
 
 addParent("triumph:advancements/ores/exorite")
 

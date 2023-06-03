@@ -1,6 +1,6 @@
 setIcon(<minecraft:dirt>)
 setTitle("End Mage")
-setDescription("Kill The End Mage.")
+setDescription("Kill The End Mage. [UNIMPLEMENTED]")
 
 addParent("triumph:advancements/bosskills/root")
 

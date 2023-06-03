@@ -1,6 +1,6 @@
 setIcon(<minetraps:razor_wire>)
 setTitle("Razor Wire")
-setDescription("Does more damage than Barbed Wire.")
+setDescription("Does more damage than Barbed Wire. DON'T USE IN SNOWY BIOMES, IT CAUSES GREAT LAG")
 
 addParent("triumph:advancements/basedefense/barbed_wire_fence")
 

@@ -9,4 +9,4 @@ criteria.addItem("iceandfire:dragonsteel_fire_ingot")
 
 
 alwaysVisible()
-setPos(70,22)
+setPos(68,22)

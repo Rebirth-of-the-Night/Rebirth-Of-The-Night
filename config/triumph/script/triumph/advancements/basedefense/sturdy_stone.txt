@@ -1,6 +1,6 @@
-setIcon(<quark:sturdy_stone>)
+setIcon(<contenttweaker:dry_fitted_coade_stone>)
 setTitle("Tough as Stone")
-setDescription("Sturdy Stone and all Stone Bricks have increased hardness and are great for walls!")
+setDescription("Dry Fitted Stone, Rammed Earth, and most Bricks have increased hardness and are great for walls!")
 
 addParent("triumph:advancements/basedefense/root")
 
@@ -9,4 +9,4 @@ criteria.addItem(<quark:sturdy_stone>)
 
 alwaysVisible()
 hideLines()
-setPos(-339,50)
+setPos(-340,-101)

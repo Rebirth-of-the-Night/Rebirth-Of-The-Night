@@ -1,6 +1,6 @@
 setIcon(<pyrotech_compat:rock_igneous_sand, meta:9, count:1>)
 setTitle("Boom! Not Quite Coal")
-setDescription("Mine lignite (hopefully without blowing up)")
+setDescription("Mine lignite (hopefully without blowing up), somehow, it makes for excellent wrought iron")
 
 addParent("triumph:advancements/ores/root")
 

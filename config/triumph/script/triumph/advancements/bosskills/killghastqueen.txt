@@ -1,6 +1,6 @@
 setIcon(<netherex:ghast_queen_tear>)
 setTitle("Queen of the Nether")
-setDescription("Slay The Ghast Queen.")
+setDescription("Slay The Ghast Queen. [UNIMPLEMENTED]")
 
 addParent("triumph:advancements/bosskills/root")
 

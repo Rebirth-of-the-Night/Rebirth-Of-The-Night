@@ -1,11 +1,11 @@
 setIcon(<contenttweaker:material_part, meta:49>)
-setTitle("Wrought Steel")
-setDescription("Craft wrought steel")
+setTitle("Wrought Iron")
+setDescription("Craft or find wrought iron, a dark and softer steel that can call to souls")
 
 addParent("triumph:advancements/ores/iron")
 addParent("triumph:advancements/ores/lignite")
 
-criteria = addCriteria("Crude Steel", "minecraft:inventory_changed")
+criteria = addCriteria("Crude Iron", "minecraft:inventory_changed")
 criteria.addItem(<contenttweaker:material_part, meta:49>)
 
 alwaysVisible()

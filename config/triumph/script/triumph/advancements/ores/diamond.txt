@@ -1,6 +1,6 @@
 setIcon("minecraft:diamond")
 setTitle("Diamonds!")
-setDescription("Mine diamond ore")
+setDescription("Mine diamond ore, one of the gems that can be alloyed. Mending and arcane...")
 
 addParent("triumph:advancements/ores/silver")
 

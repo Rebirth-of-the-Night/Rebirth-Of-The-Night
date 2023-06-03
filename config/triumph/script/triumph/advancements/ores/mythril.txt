@@ -1,6 +1,6 @@
 setIcon("simpleores:mythril_ingot")
 setTitle("Mystical Power")
-setDescription("Mine mythril ore")
+setDescription("Mine mythril ore, a mysterious highly magic metal found near the bottom of The Beneath")
 
 addParent("triumph:advancements/ores/diamond")
 

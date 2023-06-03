@@ -1,6 +1,6 @@
 setIcon(<minecraft:dirt>)
 setTitle("The Primordial")
-setDescription("Kill The Primordial.")
+setDescription("Kill The Primordial. [UNIMPLEMENTED]")
 
 addParent("triumph:advancements/bosskills/root")
 

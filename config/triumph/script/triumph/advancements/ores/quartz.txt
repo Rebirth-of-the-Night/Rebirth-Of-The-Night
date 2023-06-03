@@ -1,6 +1,6 @@
 setIcon("minecraft:quartz")
 setTitle("Quartz")
-setDescription("Mine quartz ore")
+setDescription("Mine quartz ore, a scarce gem that interacts interestingly with redstone")
 
 addParent("triumph:advancements/ores/bronze")
 

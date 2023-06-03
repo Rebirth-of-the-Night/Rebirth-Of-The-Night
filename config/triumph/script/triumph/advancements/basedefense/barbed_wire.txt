@@ -1,6 +1,6 @@
 setIcon(<minetraps:barbed_wire>)
 setTitle("Barbed Wire")
-setDescription("Slows and minimally damages mobs.")
+setDescription("Slows and minimally damages mobs. DON'T USE IN SNOWY BIOMES, IT CAUSES GREAT LAG")
 
 addParent("triumph:advancements/basedefense/spikes")
 

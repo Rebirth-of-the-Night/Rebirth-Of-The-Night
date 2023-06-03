@@ -1,6 +1,6 @@
 setIcon(<betterwithmods:material:14>)
 setTitle("Soul Imbued Steel")
-setDescription("Craft soulforged steel")
+setDescription("Craft soulforged steel, a forbidden alloy that can tank anything but the pain it feels")
 
 addParent("triumph:advancements/ores/crudesteel")
 

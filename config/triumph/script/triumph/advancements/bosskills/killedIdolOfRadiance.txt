@@ -1,6 +1,6 @@
 setIcon(<minecraft:dirt>)
 setTitle("Idol of Radiance")
-setDescription("Kill the Idol of Radiance.")
+setDescription("Kill the Idol of Radiance. [UNIMPLEMENTED]")
 
 addParent("triumph:advancements/bosskills/root")
 

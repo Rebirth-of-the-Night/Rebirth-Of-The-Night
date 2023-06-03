@@ -1,6 +1,6 @@
 setIcon("<pyrotech:material:36>")
 setTitle("Powered by...")
-setDescription("Mine dense redstone ore, found near redstone.")
+setDescription("Mine dense redstone ore, found near redstone. It can power certain machines")
 
 addParent("triumph:advancements/ores/redstone")
 
