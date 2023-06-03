@@ -1,6 +1,6 @@
 setIcon(<minecraft:dye, meta:4>)
 setTitle("We Can Enchant!")
-setDescription("Mine lapis ore")
+setDescription("Mine lapis ore, a beautiful opaque stone commonly associated with magick")
 
 addParent("triumph:advancements/ores/bronze")
 

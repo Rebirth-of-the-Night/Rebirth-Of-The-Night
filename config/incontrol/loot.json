@@ -18,14 +18,47 @@
 	{
 		"mob": ["minecraft:zombie","minecraft:skeleton","minecraft:zombie_villager","primitivemobs:skeleton_warrior","primitivemobs:goblin","quark:ashen","minecraft:witch","quark:dweller","primitivemobs:lost_miner","toroquest:toroquest_sentry","zombie_players:zombie_player"],
 		"player": true,
-		"item": "rustic:book",
+		"item": "solcarrot:food_book",
 		"itemcount": "1",
-		"random": "0.1",
+		"random": "0.2",
 		"nbt": {
 			"display":{
-				"Lore":	["An old farmer's almanac with some useful information. The alcohol part seems to be outdated and entirely useless."
+				"Lore":	["An old guide to dietary illumination I can follow."
 				]
 			}
+		},
+		"gamestage": "start"
+	},
+	{
+		"mob": ["minecraft:zombie","minecraft:skeleton","minecraft:zombie_villager","primitivemobs:skeleton_warrior","primitivemobs:goblin","quark:ashen","minecraft:witch","quark:dweller","primitivemobs:lost_miner","toroquest:toroquest_sentry","zombie_players:zombie_player"],
+		"remove": "solcarrot:food_book",
+		"nbt": {
+			"display":{
+				"Lore":	["An old guide to dietary illumination I can follow."
+				]
+			}
+		},
+		"gamestage": "food_book"
+	},
+
+	// To Do List
+	{
+		"mob": ["minecraft:zombie","minecraft:skeleton","minecraft:zombie_villager","primitivemobs:skeleton_warrior","primitivemobs:goblin","quark:ashen","minecraft:witch","quark:dweller","primitivemobs:lost_miner","toroquest:toroquest_sentry","zombie_players:zombie_player"],
+		"player": true,
+		"item": "clipboard:clipboard",
+		"itemcount": "1",
+		"random": "0.4",
+		"nbt": {
+			"display":{
+				"Lore":	["An old clipboard I can use for myself."
+				]
+			},
+			"page": 0,
+			"tasks": [
+				{"task":"Acquire a book to write on","state":"1b"},
+				{"task":"Mine more iron","state":"1b"},
+				{"task":"Get out of the cav","state":"0b"}
+			]
 		},
 		"gamestage": "start"
 	},
@@ -34,13 +67,19 @@
 		"remove": "rustic:book",
 		"nbt": {
 			"display":{
-				"Lore":	["An old farmer's almanac with some useful information. The alcohol part seems to be outdated and entirely useless."
+				"Lore":	["An old clipboard I can use for myself."
 				]
-			}
+			},
+			"page": 0,
+			"tasks": [
+				{"task":"Acquire a book to write on","state":"1b"},
+				{"task":"Mine more iron","state":"1b"},
+				{"task":"Get out of the cav","state":"0b"}
+			]
 		},
-		"gamestage": "rusticAlmanac"
+		"gamestage": "to_do_list"
 	},
-	
+
 	// Developer gear
 	{
 		"mob": ["mod_lavacow:sludgelord", "harvestersnight:harvester","betterslimes:quazar","minecraft:wither","minecraft:ender_dragon","rats:black_death","betteranimalsplus:hirschgeist","aether_legacy:sun_spirit","aether_legacy:slider","aether_legacy:valkyrie_queen","iceandfire:icedragon","iceandfire:firedragon","twilightforest:naga","twilightforest:lich","twilightforest:minoshroom","twilightforest:hydra","twilightforest:knight_phantom","twilightforest:ur_ghast","twilightforest:yeti_alpha","twilightforest:snow_queen","iceandfire:seaserpent","iceandfire:cyclops","iceandfire:if_hydra","mowziesmobs:ferrous_wroughtnaught","mowziesmobs:frostmaw","mowziesmobs:barako"],

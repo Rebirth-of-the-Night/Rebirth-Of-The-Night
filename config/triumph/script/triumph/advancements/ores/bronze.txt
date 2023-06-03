@@ -1,6 +1,6 @@
 setIcon("contenttweaker:material_part")
 setTitle("Bronze Age")
-setDescription("Obtain bronze")
+setDescription("Obtain bronze, the key to advancing civilization and starting your conquest")
 
 addParent("triumph:advancements/ores/tin")
 addParent("triumph:advancements/ores/copper")

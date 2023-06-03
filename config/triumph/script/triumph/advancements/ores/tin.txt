@@ -1,6 +1,6 @@
 setIcon("simpleores:tin_ingot")
 setTitle("Not Quite Iron")
-setDescription("Mine tin ore")
+setDescription("Mine tin ore, which can be alloyed with copper for bronze!")
 
 addParent("triumph:advancements/ores/copper")
 

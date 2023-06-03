@@ -1,6 +1,6 @@
 setIcon(<aether_legacy:ambrosium_shard>)
 setTitle("Ambrosia")
-setDescription("Mine ambrosium ore")
+setDescription("Mine ambrosium ore, a luminous and soft gem that can be alloyed with gold and silver for aetherial electrum")
 
 addParent("triumph:advancements/ores/root")
 

@@ -1,6 +1,6 @@
 setIcon("iceandfire:silver_ingot")
 setTitle("Shiny!")
-setDescription("Mine silver ore")
+setDescription("Mine silver ore, which can harm any form of undeath better than other materials")
 
 addParent("triumph:advancements/ores/iron")
 

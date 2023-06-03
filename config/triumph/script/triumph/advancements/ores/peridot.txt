@@ -1,6 +1,6 @@
 setIcon(<biomesoplenty:gem, ore:gemPeridot, meta:2, count:1>)
 setTitle("A Lucky Find")
-setDescription("Mine alexandrite ore")
+setDescription("Mine alexandrite ore, one of the gems that can be alloyed. Smiling and welcoming...")
 
 addParent("triumph:advancements/ores/copper")
 

@@ -1,6 +1,6 @@
 setIcon(<biomesoplenty:gem, ore:gemRuby, meta:1, count:1>)
 setTitle("Ravaging Ruby")
-setDescription("Mine ruby ore")
+setDescription("Mine ruby ore, one of the gems that can be alloyed. Strong and hearty")
 
 addParent("triumph:advancements/ores/copper")
 

@@ -1,6 +1,6 @@
 setIcon("minecraft:redstone")
 setTitle("Useful When Powered")
-setDescription("Mine redstone ore")
+setDescription("Mine redstone ore, the dozed and uneasy backbone of modern and ancient civilizations alike")
 
 addParent("triumph:advancements/ores/bronze")
 

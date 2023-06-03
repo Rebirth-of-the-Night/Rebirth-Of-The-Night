@@ -1,6 +1,6 @@
 setIcon(<pyrotech:rock, meta:3, state:{"variant":"rock_andesite"}>)
 setTitle("Galvanization")
-setDescription("Mine zinc bits")
+setDescription("Mine zinc bits, which can be found in freezing biomes and can be alloyed with copper to make brass!")
 
 addParent("triumph:advancements/ores/root")
 

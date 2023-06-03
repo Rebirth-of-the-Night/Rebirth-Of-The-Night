@@ -1,6 +1,6 @@
 setIcon("minecraft:iron_ingot")
 setTitle("The Most Versatile Ore")
-setDescription("Mine iron ore")
+setDescription("Mine iron ore, one of the keys to civilization and precursor to all steels")
 
 addParent("triumph:advancements/ores/tin")
 addParent("triumph:advancements/ores/copper")

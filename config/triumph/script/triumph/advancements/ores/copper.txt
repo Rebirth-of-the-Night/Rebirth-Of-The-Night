@@ -1,6 +1,6 @@
 setIcon("simpleores:copper_ingot")
 setTitle("Flimsy But Plentiful")
-setDescription("Mine copper ore")
+setDescription("Mine copper ore, which can be alloyed with tin for bronze or with zinc for brass!")
 
 addParent("triumph:advancements/ores/root")
 

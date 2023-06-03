@@ -1,0 +1,24 @@
+setIcon(<clipboard:clipboard>)
+setTitle("Old To-Do Clipboard")
+setDescription("Find the Old To-Do Clipboard.")
+
+
+addParent("triumph:advancements/progression/root")
+
+addRewardFunction("triumph:to_do_list")
+
+
+
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(true)
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(true)
+
+criteria = addCriteria("Old To-Do Clipboard", "minecraft:inventory_changed")
+criteria.addItem("clipboard:clipboard")
+
+hideLines()
+
+alwaysVisible()
+setPos(-53,-29)

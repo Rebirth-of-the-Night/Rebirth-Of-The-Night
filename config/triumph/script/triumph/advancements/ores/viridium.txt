@@ -1,6 +1,6 @@
 setIcon("simpleores:adamantium_ingot")
 setTitle("Light and Powerful")
-setDescription("Mine viridum ore")
+setDescription("Mine viridum ore, a veiny and razor-sharp ore that has concentrated in The Beneath for some reason")
 
 addParent("triumph:advancements/ores/diamond")
 

@@ -1,6 +1,6 @@
 setIcon(<rotn_blocks:exorite_crystal>)
 setTitle("Taking Back What's Yours")
-setDescription("Mine exorite ore")
+setDescription("Mine exorite ore, strange crystals formed in the End")
 
 addParent("triumph:advancements/ores/copper")
 

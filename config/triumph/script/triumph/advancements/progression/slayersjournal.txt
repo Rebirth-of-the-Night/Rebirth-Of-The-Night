@@ -21,4 +21,4 @@ criteria.addItem("contenttweaker:slayers_tattered_journal")
 hideLines()
 
 alwaysVisible()
-setPos(-55,0)
+setPos(-53,0)

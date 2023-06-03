@@ -1,6 +1,6 @@
 setIcon(<contenttweaker:material_part:45>)
 setTitle("Top Brass")
-setDescription("Obtain Brass")
+setDescription("Obtain Brass, a low friction alloy that can be used for machines or for its sound-related features")
 
 addParent("triumph:advancements/ores/zinc")
 addParent("triumph:advancements/ores/copper")
