@@ -21,12 +21,15 @@
     "npcVillageChurch": -12,
     "npcVillageFarmlandLarge": -5,
     "npcVillageFarmlandSmall": -6,
+    "npcVillageFence": -31,
+    "npcVillageHouse": -30,
     "npcVillageHut": -9,
     "npcVillageLHouse": -4,
     "npcVillageLibrary": -2,
     "npcVillageSmallHouse": -10,
     "npcVillageSmithy": -3,
     "npcVillageTorch": -8,
+    "npcVillageTree": -32,
     "npcVillageWell": -7,
     "ravine": -29
   }

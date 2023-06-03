@@ -6,7 +6,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityConcapedeSegment",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelConcapedeSegment",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": false,

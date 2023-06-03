@@ -21,12 +21,15 @@
     "npcVillageChurch": "CHURCH",
     "npcVillageFarmlandLarge": "FARMLAND_LARGE",
     "npcVillageFarmlandSmall": "FARMLAND_SMALL",
+    "npcVillageFence": "Village Fence",
+    "npcVillageHouse": "Village House",
     "npcVillageHut": "HUT",
     "npcVillageLHouse": "L-HOUSE",
     "npcVillageLibrary": "LIBRARY",
     "npcVillageSmallHouse": "HOUSE_SMALL",
     "npcVillageSmithy": "SMITHY",
     "npcVillageTorch": "VILLAGE_TORCH",
+    "npcVillageTree": "Village Central Tree",
     "npcVillageWell": "WELL",
     "ravine": "RAVINE"
   }
