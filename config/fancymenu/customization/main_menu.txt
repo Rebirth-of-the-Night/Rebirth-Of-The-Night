@@ -1,0 +1,1558 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMainMenu
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  restart_on_load = false
+  name = identifier_44ce99a861f1445c
+  action = animatebackground
+}
+
+customization {
+  keepaspectratio = true
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = element
+  orientation_element = db2979a4-18a8-46c6-ac96-95ecd44bdc591677531627037
+  x = 446
+  action = movebutton
+  y = 126
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 175
+  action = resizebutton
+  height = 44
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/fancymainmenu/menu_buttons/button_mp_h.png
+  backgroundnormal = resources/fancymainmenu/menu_buttons/button_mp_n.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = element
+  orientation_element = db2979a4-18a8-46c6-ac96-95ecd44bdc591677531627037
+  x = 261
+  action = movebutton
+  y = 126
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 175
+  action = resizebutton
+  height = 44
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/fancymainmenu/menu_buttons/button_play_h.png
+  backgroundnormal = resources/fancymainmenu/menu_buttons/button_play_n.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = element
+  orientation_element = db2979a4-18a8-46c6-ac96-95ecd44bdc591677531627037
+  x = 192
+  action = movebutton
+  y = 146
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 104
+  width = 218
+  action = deep_customization_element:title_screen_forge_top
+  actionid = d45bd9ff-f49e-48bc-aeec-763dc938b1e91677531054857
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 165
+  action = deep_customization_element:title_screen_branding
+  actionid = 04d7f858-f8d3-4bc0-af04-454e105e710b1677531054889
+  y = 178
+  height = 60
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 238
+  width = 188
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = d71eb65f-8e7c-461a-9dde-92106303c61e1677531054890
+  y = 220
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 423
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 9e23b4f6-dcb8-408a-a59f-2233b9a1bc3c1677531054890
+  y = 188
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 76
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 766dd39f-0d21-4263-8472-d4b0a6e6121c1677531054891
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = top-centered
+  splash_color = #ffffff
+  hidden = true
+  x = -124
+  width = 60
+  splash_rotation = -3
+  action = deep_customization_element:title_screen_splash
+  actionid = f8e70b8e-7a3b-4d88-8355-ba32070db5051677531054891
+  y = 79
+  height = 30
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}/1","decimal":"true"}}
+  orientation = top-left
+  name = maps
+  x = 0
+  width = 50
+  actionid = 44699c82-68aa-4fa4-924c-8607c6ff81391678557915921
+  action = addslideshow
+  y = 0
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} /2-{"placeholder":"elementwidth","values":{"id":"44699c82-68aa-4fa4-924c-8607c6ff81391678557915921"}}/2","decimal":"true"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}*1.8","decimal":"true"}}
+  height = 50
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}/1","decimal":"true"}}
+  orientation = top-left
+  name = guidebook
+  x = 0
+  width = 50
+  actionid = 26633884-8be1-4578-aa82-93e1b1efc6de1678468870742
+  action = addslideshow
+  y = 0
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} /2-{"placeholder":"elementwidth","values":{"id":"26633884-8be1-4578-aa82-93e1b1efc6de1678468870742"}}/2","decimal":"true"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}*1.8","decimal":"true"}}
+  height = 50
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"d4e85385-53f1-41c5-befb-699ba0f990cb1680717122875"}}*0.88","decimal":"true"}}
+  orientation = top-left
+  advanced_posx = 0
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"bcc67e59-d582-4a7b-a022-ddaed91562fa1680717027376"}}*1","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"bcc67e59-d582-4a7b-a022-ddaed91562fa1680717027376"}}*0.52","decimal":"true"}}
+  path = resources/fancymainmenu/menu_assets/main_menu_base_.png
+  x = 0
+  width = 50
+  actionid = d4e85385-53f1-41c5-befb-699ba0f990cb1680717122875
+  action = addtexture
+  y = 0
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if][req_id:2d31338d-29e3-43b5-a8e3-1cbc52fb6ff01680920854982] = 1919
+  height = 50
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726"}}*0.84","decimal":"true"}}
+  orientation = top-left
+  advanced_posx = 0
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if][req_id:d2981d5c-2433-4737-adb8-7f9a9d4d62eb1680728444425] = 1919
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"bcc67e59-d582-4a7b-a022-ddaed91562fa1680717027376"}}*1","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"d4e85385-53f1-41c5-befb-699ba0f990cb1680717122875"}}*1.295","decimal":"true"}}
+  path = resources/fancymainmenu/menu_assets/main_menu_ticker_small.png
+  x = 0
+  width = 50
+  actionid = c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726
+  action = addtexture
+  y = 0
+  height = 50
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.02","decimal":"true"}}
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if][req_id:5646b50a-706c-4c2a-9469-ce36d168fc351680903507326] = 2559
+  scale = 1.2
+  source = {"placeholder":"local","values":{"key":"rotnfmm.mainmenu.title.mainmenu"}}
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"d4e85385-53f1-41c5-befb-699ba0f990cb1680717122875"}}*0.01","decimal":"true"}}
+  text_border = 0
+  case_mode = normal
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"d4e85385-53f1-41c5-befb-699ba0f990cb1680717122875"}}*1","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"d4e85385-53f1-41c5-befb-699ba0f990cb1680717122875"}}*0.595","decimal":"true"}}
+  source_mode = direct
+  line_spacing = 1
+  x = 0
+  width = 222
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 2a79033b-1416-4eb8-b6b7-c52e2d1145951677543659740
+  y = 0
+  alignment = centered
+  height = 17
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.02","decimal":"true"}}
+  orientation = element
+  enable_scrolling = false
+  shadow = true
+  scale = 1.2
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if][req_id:15b5b890-34b1-4df4-908e-47aeb4ec4f501680903491973] = 2559
+  source = {"placeholder":"local","values":{"key":"rotnfmm.mainmenu.title.newsticker"}}
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726"}}*0.01","decimal":"true"}}
+  text_border = 0
+  case_mode = normal
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726"}}*1","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726"}}*1.37","decimal":"true"}}
+  source_mode = direct
+  line_spacing = 1
+  orientation_element = c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726
+  x = 0
+  width = 222
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 22f067c6-a333-47b6-8f30-117d5f8b3a381677552874779
+  y = 0
+  alignment = centered
+  height = 17
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.052","decimal":"true"}}
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = opengui;net.minecraft.client.gui.GuiWorldSelection%btnaction_splitter_fm%
+  backgroundhovered = resources/fancymainmenu/menu_buttons/button_play_h.png
+  label = 
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"d4e85385-53f1-41c5-befb-699ba0f990cb1680717122875"}}*0.1","decimal":"true"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.21","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"d4e85385-53f1-41c5-befb-699ba0f990cb1680717122875"}}*0.66","decimal":"true"}}
+  loopbackgroundanimations = true
+  x = 0
+  width = 179
+  action = addbutton
+  actionid = 2d11d394-a817-417f-9cd9-f889422b95051677556391530
+  y = 0
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if][req_id:b5d06a0b-fe67-41b8-8b87-7c4cd8b1b8231680922087634] = 1919
+  backgroundnormal = resources/fancymainmenu/menu_buttons/button_play_n.png
+  height = 44
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.032","decimal":"true"}}
+  orientation = element
+  enable_scrolling = false
+  shadow = true
+  scale = 1.5
+  source = {"placeholder":"local","values":{"key":"rotnfmm.mainmenu.button.singleplayer"}}
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if][req_id:fdad9d2d-967d-4e3d-946e-f6fdb71cae931680903458927] = 2559
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"d4e85385-53f1-41c5-befb-699ba0f990cb1680717122875"}}*0.1","decimal":"true"}}
+  text_border = 0
+  case_mode = normal
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.21","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"d4e85385-53f1-41c5-befb-699ba0f990cb1680717122875"}}*0.71","decimal":"true"}}
+  source_mode = direct
+  line_spacing = 1
+  orientation_element = 2d11d394-a817-417f-9cd9-f889422b95051677556391530
+  x = 0
+  width = 179
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 1392ba83-209c-4617-aa94-70028e04d8511677553107579
+  y = 0
+  alignment = centered
+  height = 27
+}
+
+customization {
+  path = 
+  orientation = top-left
+  x = 0
+  width = 0
+  actionid = 3a925bc7-edd4-48c8-b6e8-090f632622781677595627973
+  action = addtexture
+  y = 6
+  height = 100
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.052","decimal":"true"}}
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = opengui;net.minecraft.client.gui.GuiMultiplayer%btnaction_splitter_fm%
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if][req_id:72ee792f-2170-4f5a-8ee8-b56f745a79151680922103784] = 1919
+  backgroundhovered = resources/fancymainmenu/menu_buttons/button_mp_h.png
+  label = 
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"d4e85385-53f1-41c5-befb-699ba0f990cb1680717122875"}}*0.1","decimal":"true"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.21","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"d4e85385-53f1-41c5-befb-699ba0f990cb1680717122875"}}*0.863","decimal":"true"}}
+  loopbackgroundanimations = true
+  x = 0
+  width = 179
+  action = addbutton
+  actionid = 4fcf31e3-b7fa-4a95-ae53-2a1476aab60d1677595635371
+  y = 0
+  backgroundnormal = resources/fancymainmenu/menu_buttons/button_mp_n.png
+  height = 44
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.032","decimal":"true"}}
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if][req_id:8ee86eea-b7a1-4725-bd21-d82542b4c9d11680903477078] = 2559
+  orientation = element
+  enable_scrolling = false
+  shadow = true
+  scale = 1.5
+  source = {"placeholder":"local","values":{"key":"rotnfmm.mainmenu.button.multiplayer"}}
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"d4e85385-53f1-41c5-befb-699ba0f990cb1680717122875"}}*0.1","decimal":"true"}}
+  text_border = 0
+  case_mode = normal
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.21","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"d4e85385-53f1-41c5-befb-699ba0f990cb1680717122875"}}*0.91","decimal":"true"}}
+  source_mode = direct
+  line_spacing = 1
+  orientation_element = 4fcf31e3-b7fa-4a95-ae53-2a1476aab60d1677595635371
+  x = 0
+  width = 179
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 48934c74-fa00-4cc3-a5c4-89e068f109431677595696023
+  y = 0
+  alignment = centered
+  height = 27
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.052","decimal":"true"}}
+  orientation = top-left
+  restartbackgroundanimations = true
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if][req_id:846cb5b9-1f57-4f71-afca-cda067b3d96c1680922195332] = 1919
+  buttonaction = openlink;https://discord.gg/rotn%btnaction_splitter_fm%
+  backgroundhovered = resources/fancymainmenu/menu_buttons/discord_h.png
+  description = {"placeholder":"local","values":{"key":"rotnfmm.mainmenu.tooltip.discord"}}
+  label = 
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"d4e85385-53f1-41c5-befb-699ba0f990cb1680717122875"}}*0.10","decimal":"true"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.052","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"d4e85385-53f1-41c5-befb-699ba0f990cb1680717122875"}}*1.065","decimal":"true"}}
+  loopbackgroundanimations = true
+  x = 0
+  width = 44
+  action = addbutton
+  actionid = 21404668-f685-4ce2-a82e-1ee6ec8898ea1677629265391
+  y = 0
+  backgroundnormal = resources/fancymainmenu/menu_buttons/discord_n.png
+  height = 44
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.052","decimal":"true"}}
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui;rotn.client.gui.GuiInfoResources%btnaction_splitter_fm%
+  backgroundhovered = resources/fancymainmenu/menu_buttons/wiki_h.png
+  description = {"placeholder":"local","values":{"key":"rotnfmm.mainmenu.tooltip.info"}}
+  label = 
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"d4e85385-53f1-41c5-befb-699ba0f990cb1680717122875"}}*0.305","decimal":"true"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.052","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"d4e85385-53f1-41c5-befb-699ba0f990cb1680717122875"}}*1.065","decimal":"true"}}
+  loopbackgroundanimations = true
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if][req_id:8aa0f1c9-5483-4b64-a70b-0d49c04e6c361680922153828] = 1919
+  x = 0
+  width = 44
+  action = addbutton
+  actionid = 52b2230a-d95d-45ad-86eb-96faea1874e91677629576082
+  y = 0
+  backgroundnormal = resources/fancymainmenu/menu_buttons/wiki_n.png
+  height = 44
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.033","decimal":"true"}}
+  orientation = element
+  enable_scrolling = false
+  shadow = true
+  scale = 0.8
+  source = https://rotn-webflow-menu-news-sync.s3.us-east-2.amazonaws.com/ticker_live/ticker_1_en_us.txt
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726"}}*0.28","decimal":"true"}}
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if][req_id:33cda0c6-6199-4b6f-8415-37ca588ecd5d1680903213350] = 2559
+  text_border = 1
+  case_mode = normal
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726"}}*0.596","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726"}}*1.451","decimal":"true"}}
+  source_mode = web
+  line_spacing = 1
+  orientation_element = c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726
+  x = 0
+  width = 132
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = d81ce069-246c-4b45-9578-1d83cb3581ab1677633528979
+  y = 0
+  alignment = left
+  height = 28
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.033","decimal":"true"}}
+  orientation = element
+  enable_scrolling = false
+  shadow = true
+  scale = 0.8
+  source = https://rotn-webflow-menu-news-sync.s3.us-east-2.amazonaws.com/ticker_live/ticker_4_en_us.txt
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726"}}*0.28","decimal":"true"}}
+  text_border = 1
+  case_mode = normal
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726"}}*0.596","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726"}}*1.898","decimal":"true"}}
+  source_mode = web
+  line_spacing = 1
+  orientation_element = c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726
+  x = 0
+  width = 132
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 6e4a71d9-fd31-42fb-9252-ebd95869d6e81677634115835
+  y = 0
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if][req_id:46246626-fdc4-49bc-8b8f-d3a7584e55ed1680903425171] = 2559
+  alignment = left
+  height = 28
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.033","decimal":"true"}}
+  orientation = element
+  enable_scrolling = false
+  shadow = true
+  scale = 0.8
+  source = https://rotn-webflow-menu-news-sync.s3.us-east-2.amazonaws.com/ticker_live/ticker_3_en_us.txt
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if][req_id:7a0938c4-b9d5-402d-8c81-2931297ddae11680903391821] = 2559
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726"}}*0.28","decimal":"true"}}
+  text_border = 1
+  case_mode = normal
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726"}}*0.596","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726"}}*1.751","decimal":"true"}}
+  source_mode = web
+  line_spacing = 1
+  orientation_element = c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726
+  x = 0
+  width = 132
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 1e038b02-55ff-4622-b3e3-550160a3c3b21677634117636
+  y = 0
+  alignment = left
+  height = 28
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.033","decimal":"true"}}
+  orientation = element
+  enable_scrolling = false
+  shadow = true
+  scale = 0.8
+  source = https://rotn-webflow-menu-news-sync.s3.us-east-2.amazonaws.com/ticker_live/ticker_2_en_us.txt
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726"}}*0.28","decimal":"true"}}
+  text_border = 1
+  case_mode = normal
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726"}}*0.596","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726"}}*1.601","decimal":"true"}}
+  source_mode = web
+  line_spacing = 1
+  orientation_element = c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726
+  x = 0
+  width = 132
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 0fcb1a95-5f8a-42d0-85bc-a3fc035331f21677634118286
+  y = 0
+  alignment = left
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if][req_id:7c59f0e8-b741-4f54-9af0-bcfe35fe12c11680903368930] = 2559
+  height = 28
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.03","decimal":"true"}}
+  orientation = element
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if][req_id:350520dc-dd4f-435f-b8f9-2d39088321711681250309689] = 1919
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726"}}*0.145","decimal":"true"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.03","decimal":"true"}}
+  url = {"placeholder":"json","values":{"source":"https://rotn-webflow-menu-news-sync.s3.us-east-2.amazonaws.com/ticker_live/ticker_2.json","json_path":"$.icon"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726"}}*1.605","decimal":"true"}}
+  orientation_element = c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726
+  x = 0
+  width = 0
+  actionid = 29aa7101-657e-4061-bec5-7098a7a163711677634366591
+  action = addwebtexture
+  y = 0
+  height = 0
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.03","decimal":"true"}}
+  orientation = element
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726"}}*0.145","decimal":"true"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.03","decimal":"true"}}
+  url = {"placeholder":"json","values":{"source":"https://rotn-webflow-menu-news-sync.s3.us-east-2.amazonaws.com/ticker_live/ticker_3.json","json_path":"$.icon"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726"}}*1.755","decimal":"true"}}
+  orientation_element = c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726
+  x = 0
+  width = 0
+  actionid = 8dda2597-850a-4fe7-b0bc-277c2661f18b1677634401491
+  action = addwebtexture
+  y = 0
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if][req_id:54b48822-0993-46ab-ad6e-3cf593a9ef8a1681250325634] = 1919
+  height = 0
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.03","decimal":"true"}}
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if][req_id:a87ed795-0d8d-4af6-ac53-3c7cce8ac5431681250350485] = 1919
+  orientation = element
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726"}}*0.145","decimal":"true"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.03","decimal":"true"}}
+  url = {"placeholder":"json","values":{"source":"https://rotn-webflow-menu-news-sync.s3.us-east-2.amazonaws.com/ticker_live/ticker_4.json","json_path":"$.icon"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726"}}*1.905","decimal":"true"}}
+  orientation_element = c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726
+  x = 0
+  width = 0
+  actionid = dc1fee1e-77fe-4b01-84ec-cefa832d7bd31677634428793
+  action = addwebtexture
+  y = 0
+  height = 0
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"bcc67e59-d582-4a7b-a022-ddaed91562fa1680717027376"}}*0.58","decimal":"true"}}
+  path = resources/fancymainmenu/menu_assets/rotn_logo_main.png
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if][req_id:2b4517d2-929f-4623-9b6f-dad6da5ef4871680920822334] = 1919
+  orientation = top-left
+  x = 0
+  width = 50
+  actionid = bcc67e59-d582-4a7b-a022-ddaed91562fa1680717027376
+  action = addtexture
+  y = 0
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.26","decimal":"true"}}
+  height = 50
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"4d86d0eb-2533-448c-99dc-5febfa5faf711680728389662"}}*0.84","decimal":"true"}}
+  orientation = top-left
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if_not][req_id:f1f4adac-7a34-46d8-a9da-b1256cb69b211680728609617] = 1919
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}-{"placeholder":"elementwidth","values":{"id":"abb672fe-5f59-4e06-b8e5-da25c3f29e041681251120514"}}","decimal":"true"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"abb672fe-5f59-4e06-b8e5-da25c3f29e041681251120514"}}*1","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}-{"placeholder":"elementheight","values":{"id":"abb672fe-5f59-4e06-b8e5-da25c3f29e041681251120514"}}/0.65","decimal":"true"}}
+  path = resources/fancymainmenu/menu_assets/main_menu_ticker_small.png
+  x = 0
+  width = 50
+  actionid = 4d86d0eb-2533-448c-99dc-5febfa5faf711680728389662
+  action = addtexture
+  y = 0
+  height = 50
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.052","decimal":"true"}}
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = opengui;net.minecraft.client.gui.GuiOptions%btnaction_splitter_fm%
+  backgroundhovered = resources/fancymainmenu/menu_buttons/settings_h.png
+  description = {"placeholder":"local","values":{"key":"rotnfmm.mainmenu.tooltip.options"}}
+  label = 
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if][req_id:7f66e9a3-5e7a-48fb-ac2b-1275079438011680922137777] = 1919
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"d4e85385-53f1-41c5-befb-699ba0f990cb1680717122875"}}*0.505","decimal":"true"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.052","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"d4e85385-53f1-41c5-befb-699ba0f990cb1680717122875"}}*1.065","decimal":"true"}}
+  loopbackgroundanimations = true
+  x = 237
+  width = 44
+  action = addbutton
+  actionid = 6f624a55-986b-412b-bf9e-41bc10cffb2e1680793601449
+  y = 115
+  backgroundnormal = resources/fancymainmenu/menu_buttons/settings_n.png
+  height = 44
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.052","decimal":"true"}}
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = quitgame%btnaction_splitter_fm%
+  backgroundhovered = resources/fancymainmenu/menu_buttons/exit_h.png
+  description = {"placeholder":"local","values":{"key":"rotnfmm.mainmenu.tooltip.quitgame"}}
+  label = 
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"d4e85385-53f1-41c5-befb-699ba0f990cb1680717122875"}}*0.71","decimal":"true"}}
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if][req_id:2105d183-b381-4fa1-ab5f-853bfb3add1f1680922119424] = 1919
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.052","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"d4e85385-53f1-41c5-befb-699ba0f990cb1680717122875"}}*1.065","decimal":"true"}}
+  loopbackgroundanimations = true
+  x = 368
+  width = 44
+  action = addbutton
+  actionid = 92415987-859a-4e34-8860-c6cb0c85b68c1680793602898
+  y = 118
+  backgroundnormal = resources/fancymainmenu/menu_buttons/exit_n.png
+  height = 44
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.03","decimal":"true"}}
+  orientation = element
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726"}}*0.145","decimal":"true"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.03","decimal":"true"}}
+  url = {"placeholder":"json","values":{"source":"https://rotn-webflow-menu-news-sync.s3.us-east-2.amazonaws.com/ticker_live/ticker_1.json","json_path":"$.icon"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726"}}*1.455","decimal":"true"}}
+  orientation_element = c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726
+  x = 0
+  width = 0
+  actionid = 8bfbf492-68b5-4e31-9e7b-454a3cb9b9531677633506397
+  action = addwebtexture
+  y = 0
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if][req_id:69cd1001-76a4-4e30-a709-05d69477335a1681250285438] = 1919
+  height = 0
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.038","decimal":"true"}}
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink;{"placeholder":"json","values":{"source":"https://rotn-webflow-menu-news-sync.s3.us-east-2.amazonaws.com/ticker_live/ticker_1.json","json_path":"$.url"}}%btnaction_splitter_fm%
+  backgroundhovered = resources/fancymainmenu/menu_buttons/ticker_bar_h.png
+  description = {"placeholder":"local","values":{"key":"rotnfmm.mainmenu.tooltip.newsticker"}}
+  label = 
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726"}}*0.108","decimal":"true"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726"}}*0.796","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726"}}*1.44","decimal":"true"}}
+  loopbackgroundanimations = true
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if][req_id:97949db0-b1c4-40bf-b90d-0e2b73b9b9381681250067475] = 1919
+  orientation_element = c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726
+  x = 0
+  width = 176
+  action = addbutton
+  actionid = ffb8f91c-867a-4e96-a672-39f889f1fd5e1677634713591
+  y = 0
+  backgroundnormal = resources/fancymainmenu/menu_buttons/ticker_bar_blank.png
+  height = 32
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.038","decimal":"true"}}
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink;{"placeholder":"json","values":{"source":"https://rotn-webflow-menu-news-sync.s3.us-east-2.amazonaws.com/ticker_live/ticker_2.json","json_path":"$.url"}}%btnaction_splitter_fm%
+  backgroundhovered = resources/fancymainmenu/menu_buttons/ticker_bar_h.png
+  description = {"placeholder":"local","values":{"key":"rotnfmm.mainmenu.tooltip.newsticker"}}
+  label = 
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726"}}*0.108","decimal":"true"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726"}}*0.796","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726"}}*1.588","decimal":"true"}}
+  loopbackgroundanimations = true
+  orientation_element = c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726
+  x = 0
+  width = 176
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if][req_id:fd0532e6-2591-4695-98ae-46e0eed00dda1681250124740] = 1919
+  action = addbutton
+  actionid = 539496cd-fe57-4351-98ca-d1d32bf562271677634723141
+  y = 0
+  backgroundnormal = resources/fancymainmenu/menu_buttons/ticker_bar_blank.png
+  height = 32
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.038","decimal":"true"}}
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink;{"placeholder":"json","values":{"source":"https://rotn-webflow-menu-news-sync.s3.us-east-2.amazonaws.com/ticker_live/ticker_3.json","json_path":"$.url"}}%btnaction_splitter_fm%
+  backgroundhovered = resources/fancymainmenu/menu_buttons/ticker_bar_h.png
+  description = {"placeholder":"local","values":{"key":"rotnfmm.mainmenu.tooltip.newsticker"}}
+  label = 
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726"}}*0.108","decimal":"true"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726"}}*0.796","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726"}}*1.738","decimal":"true"}}
+  loopbackgroundanimations = true
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if][req_id:1dea8d0c-476a-4d65-9c59-a17b514f9d6f1681250159586] = 1919
+  orientation_element = c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726
+  x = 0
+  width = 176
+  action = addbutton
+  actionid = 91cec8ee-8524-48a7-819f-80df5293f0551677634727841
+  y = 0
+  backgroundnormal = resources/fancymainmenu/menu_buttons/ticker_bar_blank.png
+  height = 32
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.038","decimal":"true"}}
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink;{"placeholder":"json","values":{"source":"https://rotn-webflow-menu-news-sync.s3.us-east-2.amazonaws.com/ticker_live/ticker_4.json","json_path":"$.url"}}%btnaction_splitter_fm%
+  backgroundhovered = resources/fancymainmenu/menu_buttons/ticker_bar_h.png
+  description = {"placeholder":"local","values":{"key":"rotnfmm.mainmenu.tooltip.newsticker"}}
+  label = 
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726"}}*0.108","decimal":"true"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726"}}*0.796","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726"}}*1.885","decimal":"true"}}
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if][req_id:25acf7a8-1038-40b4-8230-8928942229fe1681250170883] = 1919
+  loopbackgroundanimations = true
+  orientation_element = c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726
+  x = 0
+  width = 176
+  action = addbutton
+  actionid = aecf4f17-0770-4a48-b24d-ec9c61fdba7b1677634731091
+  y = 0
+  backgroundnormal = resources/fancymainmenu/menu_buttons/ticker_bar_blank.png
+  height = 32
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.02","decimal":"true"}}
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 1.0
+  source = {"placeholder":"local","values":{"key":"rotnfmm.mainmenu.title.mainmenu"}}
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"d4e85385-53f1-41c5-befb-699ba0f990cb1680717122875"}}*0.01","decimal":"true"}}
+  text_border = 0
+  case_mode = normal
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"d4e85385-53f1-41c5-befb-699ba0f990cb1680717122875"}}*1","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"d4e85385-53f1-41c5-befb-699ba0f990cb1680717122875"}}*0.595","decimal":"true"}}
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if_not][req_id:5646b50a-706c-4c2a-9469-ce36d168fc351680903507326] = 2559
+  source_mode = direct
+  line_spacing = 1
+  x = 1
+  width = 222
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 1b260787-818d-4ab9-bb38-05e9f4fe121a1680903540284
+  y = 0
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if][req_id:74a5499c-893e-48e8-b7a9-6258e64664491680903922825] = 1919
+  alignment = centered
+  height = 17
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.02","decimal":"true"}}
+  orientation = element
+  enable_scrolling = false
+  shadow = true
+  scale = 1.0
+  source = {"placeholder":"local","values":{"key":"rotnfmm.mainmenu.title.newsticker"}}
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726"}}*0.01","decimal":"true"}}
+  text_border = 0
+  case_mode = normal
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726"}}*1","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726"}}*1.37","decimal":"true"}}
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if_not][req_id:5646b50a-706c-4c2a-9469-ce36d168fc351680903507326] = 2559
+  source_mode = direct
+  line_spacing = 1
+  orientation_element = c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726
+  x = 1
+  width = 222
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = d4181200-13e1-4e7c-87f8-be63831496ae1680903584983
+  y = 0
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if][req_id:74a5499c-893e-48e8-b7a9-6258e64664491680903922825] = 1919
+  alignment = centered
+  height = 17
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.033","decimal":"true"}}
+  orientation = element
+  enable_scrolling = false
+  shadow = true
+  scale = 0.6
+  source = https://rotn-webflow-menu-news-sync.s3.us-east-2.amazonaws.com/ticker_live/ticker_1_en_us.txt
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726"}}*0.28","decimal":"true"}}
+  text_border = 1
+  case_mode = normal
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726"}}*0.596","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726"}}*1.451","decimal":"true"}}
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if_not][req_id:5646b50a-706c-4c2a-9469-ce36d168fc351680903507326] = 2559
+  source_mode = web
+  line_spacing = 1
+  orientation_element = c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726
+  x = 1
+  width = 132
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 91bb7940-3310-423d-b6a3-fff5be1e21541680903618270
+  y = 0
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if][req_id:74a5499c-893e-48e8-b7a9-6258e64664491680903922825] = 1919
+  alignment = left
+  height = 28
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.033","decimal":"true"}}
+  orientation = element
+  enable_scrolling = false
+  shadow = true
+  scale = 0.6
+  source = https://rotn-webflow-menu-news-sync.s3.us-east-2.amazonaws.com/ticker_live/ticker_2_en_us.txt
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726"}}*0.28","decimal":"true"}}
+  text_border = 1
+  case_mode = normal
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726"}}*0.596","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726"}}*1.601","decimal":"true"}}
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if_not][req_id:5646b50a-706c-4c2a-9469-ce36d168fc351680903507326] = 2559
+  source_mode = web
+  line_spacing = 1
+  orientation_element = c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726
+  x = 1
+  width = 132
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = bd176281-077f-4bd0-933a-ba48a27258821680903641309
+  y = 0
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if][req_id:74a5499c-893e-48e8-b7a9-6258e64664491680903922825] = 1919
+  alignment = left
+  height = 28
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.033","decimal":"true"}}
+  orientation = element
+  enable_scrolling = false
+  shadow = true
+  scale = 0.6
+  source = https://rotn-webflow-menu-news-sync.s3.us-east-2.amazonaws.com/ticker_live/ticker_3_en_us.txt
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726"}}*0.28","decimal":"true"}}
+  text_border = 1
+  case_mode = normal
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726"}}*0.596","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726"}}*1.751","decimal":"true"}}
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if_not][req_id:5646b50a-706c-4c2a-9469-ce36d168fc351680903507326] = 2559
+  source_mode = web
+  line_spacing = 1
+  orientation_element = c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726
+  x = 1
+  width = 132
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 3a067407-6eba-4ccc-bb88-078d82cf628b1680903658232
+  y = 0
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if][req_id:74a5499c-893e-48e8-b7a9-6258e64664491680903922825] = 1919
+  alignment = left
+  height = 28
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.033","decimal":"true"}}
+  orientation = element
+  enable_scrolling = false
+  shadow = true
+  scale = 0.6
+  source = https://rotn-webflow-menu-news-sync.s3.us-east-2.amazonaws.com/ticker_live/ticker_4_en_us.txt
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726"}}*0.28","decimal":"true"}}
+  text_border = 1
+  case_mode = normal
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726"}}*0.596","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726"}}*1.898","decimal":"true"}}
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if_not][req_id:5646b50a-706c-4c2a-9469-ce36d168fc351680903507326] = 2559
+  source_mode = web
+  line_spacing = 1
+  orientation_element = c92768f7-2f17-4d59-8f60-d32595fc217b1680717145726
+  x = 1
+  width = 132
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = ab8c2836-03c2-4ced-8b47-575b57b0507e1680903676626
+  y = 0
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if][req_id:74a5499c-893e-48e8-b7a9-6258e64664491680903922825] = 1919
+  alignment = left
+  height = 28
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.032","decimal":"true"}}
+  orientation = element
+  enable_scrolling = false
+  shadow = true
+  scale = 1.3
+  source = {"placeholder":"local","values":{"key":"rotnfmm.mainmenu.button.singleplayer"}}
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"d4e85385-53f1-41c5-befb-699ba0f990cb1680717122875"}}*0.1","decimal":"true"}}
+  text_border = 0
+  case_mode = normal
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.21","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"d4e85385-53f1-41c5-befb-699ba0f990cb1680717122875"}}*0.71","decimal":"true"}}
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if_not][req_id:5646b50a-706c-4c2a-9469-ce36d168fc351680903507326] = 2559
+  source_mode = direct
+  line_spacing = 1
+  orientation_element = 2d11d394-a817-417f-9cd9-f889422b95051677556391530
+  x = 1
+  width = 179
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = c8a3c593-1010-469c-99f9-d8db0d7902c31680903689933
+  y = 0
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if][req_id:74a5499c-893e-48e8-b7a9-6258e64664491680903922825] = 1919
+  alignment = centered
+  height = 27
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.032","decimal":"true"}}
+  orientation = element
+  enable_scrolling = false
+  shadow = true
+  scale = 1.3
+  source = {"placeholder":"local","values":{"key":"rotnfmm.mainmenu.button.multiplayer"}}
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"d4e85385-53f1-41c5-befb-699ba0f990cb1680717122875"}}*0.1","decimal":"true"}}
+  text_border = 0
+  case_mode = normal
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.21","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"d4e85385-53f1-41c5-befb-699ba0f990cb1680717122875"}}*0.91","decimal":"true"}}
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if_not][req_id:5646b50a-706c-4c2a-9469-ce36d168fc351680903507326] = 2559
+  source_mode = direct
+  line_spacing = 1
+  orientation_element = 4fcf31e3-b7fa-4a95-ae53-2a1476aab60d1677595635371
+  x = 1
+  width = 179
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = b21b23ea-b75f-49fd-a668-0492a40e1e9c1680903704749
+  y = 0
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if][req_id:74a5499c-893e-48e8-b7a9-6258e64664491680903922825] = 1919
+  alignment = centered
+  height = 27
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"2b773da4-337a-4550-aed8-622c72a779741677979183582"}}*0.4823","decimal":"true"}}
+  orientation = top-left
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"d4e85385-53f1-41c5-befb-699ba0f990cb1680717122875"}}*0.75","decimal":"true"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.18","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"d4e85385-53f1-41c5-befb-699ba0f990cb1680717122875"}}*0.33","decimal":"true"}}
+  path = resources/fancymainmenu/menu_assets/splash_rat.png
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if][req_id:9bfbd558-e296-4b2f-be04-9eb5e029ffdb1681253307638] = 1919
+  x = 0
+  width = 0
+  actionid = 2b773da4-337a-4550-aed8-622c72a779741677979183582
+  action = addtexture
+  y = 0
+  height = 73
+}
+
+customization {
+  orientation = element
+  basecolor = #ffff00
+  shadow = true
+  splashfilepath = oresources/minecraft/texts/splashes.txt
+  rotation = -2.5
+  scale = 1.5
+  refresh = false
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"2b773da4-337a-4550-aed8-622c72a779741677979183582"}}*2","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"2b773da4-337a-4550-aed8-622c72a779741677979183582"}}*0.53","decimal":"true"}}
+  bouncing = true
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:7a1dd282-a488-4f6d-b758-6bf63fb6446c1680715824361] = ["mode":"equals","text":"04/03/2023","compare_with":"{"placeholder":"webtext","values":{"link":"https://violetmoon.org/rotn/today/"}}"]$
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if][req_id:d83fc780-0765-47fc-85bd-2cc2732dab2a1681253417928] = 1919
+  vanilla-like = false
+  orientation_element = 2b773da4-337a-4550-aed8-622c72a779741677979183582
+  x = 0
+  actionid = 5327b630-b4fb-4c47-bf54-ef670bac51621677979535432
+  action = addsplash
+  y = 0
+}
+
+customization {
+  orientation = element
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if][req_id:d444409f-55f7-4292-9639-4256fa79e3be1680715824365] = ["mode":"equals","text":"04/03/2023","compare_with":"{"placeholder":"webtext","values":{"link":"https://violetmoon.org/rotn/today/"}}"]$
+  basecolor = #ffff00
+  shadow = true
+  rotation = -2.5
+  scale = 1.2
+  refresh = false
+  bouncing = true
+  vanilla-like = false
+  orientation_element = 2b773da4-337a-4550-aed8-622c72a779741677979183582
+  x = 107
+  actionid = 5caab8d8-046d-409c-996a-4e841a3e623a1677991230587
+  action = addsplash
+  y = 11
+  text = Today is my birthday!
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if][req_id:534a98b7-6a91-4dbd-9099-d440583e20e41681253405431] = 1919
+}
+
+customization {
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if][req_id:fcbb6f62-6a7e-49ee-80ca-a8c3b4edb62b1680715824364] = ["mode":"equals","text":"04/03/2023","compare_with":"{"placeholder":"webtext","values":{"link":"https://violetmoon.org/rotn/today/"}}"]$
+  path = resources/fancymainmenu/menu_assets/splash_rat_birthday.png
+  orientation = element
+  orientation_element = 2b773da4-337a-4550-aed8-622c72a779741677979183582
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if][req_id:de8bbe41-2337-42d5-b23f-bdfeb108e88c1681253434679] = 1919
+  x = 10
+  width = 31
+  actionid = 9aba71e5-7523-4edb-a2be-9c9e9fe43bf11677991020091
+  action = addtexture
+  y = 6
+  height = 26
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"abb672fe-5f59-4e06-b8e5-da25c3f29e041681251120514"}}*0.58","decimal":"true"}}
+  path = resources/fancymainmenu/menu_assets/rotn_logo_main.png
+  orientation = top-left
+  x = -1
+  width = 50
+  actionid = abb672fe-5f59-4e06-b8e5-da25c3f29e041681251120514
+  action = addtexture
+  y = -3
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.4","decimal":"true"}}
+  height = 50
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if_not][req_id:2b4517d2-929f-4623-9b6f-dad6da5ef4871680920822334] = 1919
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"334d390b-6985-42bb-874e-71b0012eb5881681252639420"}}*0.88","decimal":"true"}}
+  orientation = top-left
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if_not][req_id:2d31338d-29e3-43b5-a8e3-1cbc52fb6ff01680920854982] = 1919
+  advanced_posx = 0
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"abb672fe-5f59-4e06-b8e5-da25c3f29e041681251120514"}}*1","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"abb672fe-5f59-4e06-b8e5-da25c3f29e041681251120514"}}*0.52","decimal":"true"}}
+  path = resources/fancymainmenu/menu_assets/main_menu_base_.png
+  x = 1
+  width = 50
+  actionid = 334d390b-6985-42bb-874e-71b0012eb5881681252639420
+  action = addtexture
+  y = 0
+  height = 50
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.0805","decimal":"true"}}
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = opengui;net.minecraft.client.gui.GuiWorldSelection%btnaction_splitter_fm%
+  backgroundhovered = resources/fancymainmenu/menu_buttons/button_play_h.png
+  label = 
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"334d390b-6985-42bb-874e-71b0012eb5881681252639420"}}*0.1","decimal":"true"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.322","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"334d390b-6985-42bb-874e-71b0012eb5881681252639420"}}*0.66","decimal":"true"}}
+  loopbackgroundanimations = true
+  x = 1
+  width = 274
+  action = addbutton
+  actionid = 59c2497e-c35e-4973-aff6-45ed04d6568b1681263674955
+  y = 0
+  backgroundnormal = resources/fancymainmenu/menu_buttons/button_play_n.png
+  height = 68
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if_not][req_id:b5d06a0b-fe67-41b8-8b87-7c4cd8b1b8231680922087634] = 1919
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.0805","decimal":"true"}}
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = opengui;net.minecraft.client.gui.GuiMultiplayer%btnaction_splitter_fm%
+  backgroundhovered = resources/fancymainmenu/menu_buttons/button_mp_h.png
+  label = 
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"334d390b-6985-42bb-874e-71b0012eb5881681252639420"}}*0.1","decimal":"true"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.322","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"334d390b-6985-42bb-874e-71b0012eb5881681252639420"}}*0.863","decimal":"true"}}
+  loopbackgroundanimations = true
+  x = 1
+  width = 274
+  action = addbutton
+  actionid = b9752d14-58fe-417a-8a06-0fb0511a88421681263733765
+  y = 0
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if_not][req_id:72ee792f-2170-4f5a-8ee8-b56f745a79151680922103784] = 1919
+  backgroundnormal = resources/fancymainmenu/menu_buttons/button_mp_n.png
+  height = 68
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.0805","decimal":"true"}}
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = quitgame%btnaction_splitter_fm%
+  backgroundhovered = resources/fancymainmenu/menu_buttons/exit_h.png
+  description = {"placeholder":"local","values":{"key":"rotnfmm.mainmenu.tooltip.quitgame"}}
+  label = 
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"334d390b-6985-42bb-874e-71b0012eb5881681252639420"}}*0.71","decimal":"true"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.0805","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"334d390b-6985-42bb-874e-71b0012eb5881681252639420"}}*1.065","decimal":"true"}}
+  loopbackgroundanimations = true
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if_not][req_id:2105d183-b381-4fa1-ab5f-853bfb3add1f1680922119424] = 1919
+  x = 369
+  width = 68
+  action = addbutton
+  actionid = 8a386f82-0489-4cf5-a5f9-a94575401c4f1681263756353
+  y = 118
+  backgroundnormal = resources/fancymainmenu/menu_buttons/exit_n.png
+  height = 68
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.0805","decimal":"true"}}
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = opengui;net.minecraft.client.gui.GuiOptions%btnaction_splitter_fm%
+  backgroundhovered = resources/fancymainmenu/menu_buttons/settings_h.png
+  description = {"placeholder":"local","values":{"key":"rotnfmm.mainmenu.tooltip.options"}}
+  label = 
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"334d390b-6985-42bb-874e-71b0012eb5881681252639420"}}*0.506","decimal":"true"}}
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if_not][req_id:7f66e9a3-5e7a-48fb-ac2b-1275079438011680922137777] = 1919
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.0805","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"334d390b-6985-42bb-874e-71b0012eb5881681252639420"}}*1.065","decimal":"true"}}
+  loopbackgroundanimations = true
+  x = 238
+  width = 68
+  action = addbutton
+  actionid = 2148e16e-00e1-46fa-a7d6-c54f42dc89791681263776223
+  y = 115
+  backgroundnormal = resources/fancymainmenu/menu_buttons/settings_n.png
+  height = 68
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.0805","decimal":"true"}}
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui;rotn.client.gui.GuiInfoResources%btnaction_splitter_fm%
+  backgroundhovered = resources/fancymainmenu/menu_buttons/wiki_h.png
+  description = {"placeholder":"local","values":{"key":"rotnfmm.mainmenu.tooltip.info"}}
+  label = 
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"334d390b-6985-42bb-874e-71b0012eb5881681252639420"}}*0.3034","decimal":"true"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.0805","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"334d390b-6985-42bb-874e-71b0012eb5881681252639420"}}*1.065","decimal":"true"}}
+  loopbackgroundanimations = true
+  x = 1
+  width = 68
+  action = addbutton
+  actionid = 9a857692-7d84-4e80-b274-707e289fbc081681263799297
+  y = 0
+  backgroundnormal = resources/fancymainmenu/menu_buttons/wiki_n.png
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if_not][req_id:8aa0f1c9-5483-4b64-a70b-0d49c04e6c361680922153828] = 1919
+  height = 68
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.0805","decimal":"true"}}
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://discord.gg/rotn%btnaction_splitter_fm%
+  backgroundhovered = resources/fancymainmenu/menu_buttons/discord_h.png
+  description = {"placeholder":"local","values":{"key":"rotnfmm.mainmenu.tooltip.discord"}}
+  label = 
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"334d390b-6985-42bb-874e-71b0012eb5881681252639420"}}*0.10","decimal":"true"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.0805","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"334d390b-6985-42bb-874e-71b0012eb5881681252639420"}}*1.065","decimal":"true"}}
+  loopbackgroundanimations = true
+  x = 1
+  width = 68
+  action = addbutton
+  actionid = cb582137-5580-40cf-a17e-e345711c9b9d1681263830305
+  y = 0
+  backgroundnormal = resources/fancymainmenu/menu_buttons/discord_n.png
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if_not][req_id:846cb5b9-1f57-4f71-afca-cda067b3d96c1680922195332] = 1919
+  height = 68
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.05","decimal":"true"}}
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 1.1
+  source = {"placeholder":"local","values":{"key":"rotnfmm.mainmenu.title.mainmenu"}}
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"d4e85385-53f1-41c5-befb-699ba0f990cb1680717122875"}}*0.285","decimal":"true"}}
+  text_border = 0
+  case_mode = normal
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"d4e85385-53f1-41c5-befb-699ba0f990cb1680717122875"}}*1","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"d4e85385-53f1-41c5-befb-699ba0f990cb1680717122875"}}*0.918","decimal":"true"}}
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if_not][req_id:5646b50a-706c-4c2a-9469-ce36d168fc351680903507326] = 1919
+  source_mode = direct
+  line_spacing = 1
+  x = 1
+  width = 222
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = bbc015a8-4eb9-4100-9310-324696d912631681326861797
+  y = 0
+  alignment = centered
+  height = 42
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.05","decimal":"true"}}
+  orientation = element
+  enable_scrolling = false
+  shadow = true
+  scale = 1.1
+  source = {"placeholder":"local","values":{"key":"rotnfmm.mainmenu.title.newsticker"}}
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if_not][req_id:15b5b890-34b1-4df4-908e-47aeb4ec4f501680903491973] = 1919
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"4d86d0eb-2533-448c-99dc-5febfa5faf711680728389662"}}*1.515","decimal":"true"}}
+  text_border = 0
+  case_mode = normal
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"4d86d0eb-2533-448c-99dc-5febfa5faf711680728389662"}}*1","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}-{"placeholder":"elementheight","values":{"id":"abb672fe-5f59-4e06-b8e5-da25c3f29e041681251120514"}}/0.71","decimal":"true"}}
+  source_mode = direct
+  line_spacing = 1
+  orientation_element = 4d86d0eb-2533-448c-99dc-5febfa5faf711680728389662
+  x = 1
+  width = 341
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = b31607ac-697f-4d5f-82b8-8c391aeb736c1681327631620
+  y = 0
+  alignment = centered
+  height = 42
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"2bdb2835-d76f-4dec-b57c-47e2398cfba81681331736722"}}","decimal":"true"}}
+  orientation = top-left
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if_not][req_id:69cd1001-76a4-4e30-a709-05d69477335a1681250285438] = 1919
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}-{"placeholder":"elementwidth","values":{"id":"abb672fe-5f59-4e06-b8e5-da25c3f29e041681251120514"}}*0.855","decimal":"true"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"abb672fe-5f59-4e06-b8e5-da25c3f29e041681251120514"}}*0.118","decimal":"true"}}
+  url = {"placeholder":"json","values":{"source":"https://rotn-webflow-menu-news-sync.s3.us-east-2.amazonaws.com/ticker_live/ticker_1.json","json_path":"$.icon"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}-{"placeholder":"elementheight","values":{"id":"abb672fe-5f59-4e06-b8e5-da25c3f29e041681251120514"}}/0.788","decimal":"true"}}
+  x = 0
+  width = 100
+  actionid = 2bdb2835-d76f-4dec-b57c-47e2398cfba81681331736722
+  action = addwebtexture
+  y = 0
+  height = 100
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"22e384df-ac88-442c-852a-56cbf97776b91681341067905"}}","decimal":"true"}}
+  orientation = top-left
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if_not][req_id:69cd1001-76a4-4e30-a709-05d69477335a1681250285438] = 1919
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}-{"placeholder":"elementwidth","values":{"id":"abb672fe-5f59-4e06-b8e5-da25c3f29e041681251120514"}}*0.855","decimal":"true"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"abb672fe-5f59-4e06-b8e5-da25c3f29e041681251120514"}}*0.118","decimal":"true"}}
+  url = {"placeholder":"json","values":{"source":"https://rotn-webflow-menu-news-sync.s3.us-east-2.amazonaws.com/ticker_live/ticker_2.json","json_path":"$.icon"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}-{"placeholder":"elementheight","values":{"id":"abb672fe-5f59-4e06-b8e5-da25c3f29e041681251120514"}}/1.008","decimal":"true"}}
+  x = 0
+  width = 100
+  actionid = 22e384df-ac88-442c-852a-56cbf97776b91681341067905
+  action = addwebtexture
+  y = 0
+  height = 0
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"d7205c3a-121d-4a82-981a-ede76dad03731681343868454"}}","decimal":"true"}}
+  orientation = top-left
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if_not][req_id:69cd1001-76a4-4e30-a709-05d69477335a1681250285438] = 1919
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}-{"placeholder":"elementwidth","values":{"id":"abb672fe-5f59-4e06-b8e5-da25c3f29e041681251120514"}}*0.855","decimal":"true"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"abb672fe-5f59-4e06-b8e5-da25c3f29e041681251120514"}}*0.118","decimal":"true"}}
+  url = {"placeholder":"json","values":{"source":"https://rotn-webflow-menu-news-sync.s3.us-east-2.amazonaws.com/ticker_live/ticker_3.json","json_path":"$.icon"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}-{"placeholder":"elementheight","values":{"id":"abb672fe-5f59-4e06-b8e5-da25c3f29e041681251120514"}}/1.3488","decimal":"true"}}
+  x = 0
+  width = 100
+  actionid = d7205c3a-121d-4a82-981a-ede76dad03731681343868454
+  action = addwebtexture
+  y = 0
+  height = 0
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"f0fc7bee-5403-4d1a-bca2-388d51e866cc1681345561326"}}","decimal":"true"}}
+  orientation = top-left
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if_not][req_id:69cd1001-76a4-4e30-a709-05d69477335a1681250285438] = 1919
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}-{"placeholder":"elementwidth","values":{"id":"abb672fe-5f59-4e06-b8e5-da25c3f29e041681251120514"}}*0.855","decimal":"true"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"abb672fe-5f59-4e06-b8e5-da25c3f29e041681251120514"}}*0.118","decimal":"true"}}
+  url = {"placeholder":"json","values":{"source":"https://rotn-webflow-menu-news-sync.s3.us-east-2.amazonaws.com/ticker_live/ticker_4.json","json_path":"$.icon"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}-{"placeholder":"elementheight","values":{"id":"abb672fe-5f59-4e06-b8e5-da25c3f29e041681251120514"}}/2.08","decimal":"true"}}
+  x = 0
+  width = 100
+  actionid = f0fc7bee-5403-4d1a-bca2-388d51e866cc1681345561326
+  action = addwebtexture
+  y = 0
+  height = 0
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.04","decimal":"true"}}
+  orientation = element
+  enable_scrolling = false
+  shadow = true
+  scale = 1.3
+  source = {"placeholder":"local","values":{"key":"rotnfmm.mainmenu.button.singleplayer"}}
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"334d390b-6985-42bb-874e-71b0012eb5881681252639420"}}*.01","decimal":"true"}}
+  text_border = 0
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if_not][req_id:fdad9d2d-967d-4e3d-946e-f6fdb71cae931680903458927] = 1919
+  case_mode = normal
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"334d390b-6985-42bb-874e-71b0012eb5881681252639420"}}","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"334d390b-6985-42bb-874e-71b0012eb5881681252639420"}}*0.705","decimal":"true"}}
+  source_mode = direct
+  line_spacing = 1
+  orientation_element = 334d390b-6985-42bb-874e-71b0012eb5881681252639420
+  x = 1
+  width = 341
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = c0e7004d-baf5-4299-99c2-89b93bdcde7d1681406445921
+  y = 0
+  alignment = centered
+  height = 34
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.04","decimal":"true"}}
+  orientation = element
+  enable_scrolling = false
+  shadow = true
+  scale = 1.3
+  source = {"placeholder":"local","values":{"key":"rotnfmm.mainmenu.button.multiplayer"}}
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"334d390b-6985-42bb-874e-71b0012eb5881681252639420"}}*.01","decimal":"true"}}
+  text_border = 0
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if_not][req_id:fdad9d2d-967d-4e3d-946e-f6fdb71cae931680903458927] = 1919
+  case_mode = normal
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"334d390b-6985-42bb-874e-71b0012eb5881681252639420"}}","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"334d390b-6985-42bb-874e-71b0012eb5881681252639420"}}*0.905","decimal":"true"}}
+  source_mode = direct
+  line_spacing = 1
+  orientation_element = 334d390b-6985-42bb-874e-71b0012eb5881681252639420
+  x = 2
+  width = 341
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = c2941907-0600-48f4-80a1-b3244c7937d41685820105432
+  y = 0
+  alignment = centered
+  height = 34
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"2bdb2835-d76f-4dec-b57c-47e2398cfba81681331736722"}}","decimal":"true"}}
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if_not][req_id:69cd1001-76a4-4e30-a709-05d69477335a1681250285438] = 1919
+  scale = 0.6
+  source = https://rotn-webflow-menu-news-sync.s3.us-east-2.amazonaws.com/ticker_live/ticker_1_en_us.txt
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}-{"placeholder":"elementwidth","values":{"id":"abb672fe-5f59-4e06-b8e5-da25c3f29e041681251120514"}}*0.725","decimal":"true"}}
+  text_border = 1
+  case_mode = normal
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"abb672fe-5f59-4e06-b8e5-da25c3f29e041681251120514"}}*0.62","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}-{"placeholder":"elementheight","values":{"id":"abb672fe-5f59-4e06-b8e5-da25c3f29e041681251120514"}}/0.7888","decimal":"true"}}
+  source_mode = web
+  line_spacing = 1
+  x = 1
+  width = 211
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = e6f58d5b-140c-4d8a-b2ed-3286ba3699f31685821938944
+  y = 0
+  alignment = left
+  height = 40
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"2bdb2835-d76f-4dec-b57c-47e2398cfba81681331736722"}}","decimal":"true"}}
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if_not][req_id:69cd1001-76a4-4e30-a709-05d69477335a1681250285438] = 1919
+  scale = 0.6
+  source = https://rotn-webflow-menu-news-sync.s3.us-east-2.amazonaws.com/ticker_live/ticker_2_en_us.txt
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}-{"placeholder":"elementwidth","values":{"id":"abb672fe-5f59-4e06-b8e5-da25c3f29e041681251120514"}}*0.725","decimal":"true"}}
+  text_border = 1
+  case_mode = normal
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"abb672fe-5f59-4e06-b8e5-da25c3f29e041681251120514"}}*0.62","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}-{"placeholder":"elementheight","values":{"id":"abb672fe-5f59-4e06-b8e5-da25c3f29e041681251120514"}}/0.9888","decimal":"true"}}
+  source_mode = web
+  line_spacing = 1
+  x = 2
+  width = 211
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 8e520b4c-1188-4c5d-aca1-f876c3e336d81685822803838
+  y = 0
+  alignment = left
+  height = 40
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"2bdb2835-d76f-4dec-b57c-47e2398cfba81681331736722"}}","decimal":"true"}}
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if_not][req_id:69cd1001-76a4-4e30-a709-05d69477335a1681250285438] = 1919
+  scale = 0.6
+  source = https://rotn-webflow-menu-news-sync.s3.us-east-2.amazonaws.com/ticker_live/ticker_3_en_us.txt
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}-{"placeholder":"elementwidth","values":{"id":"abb672fe-5f59-4e06-b8e5-da25c3f29e041681251120514"}}*0.725","decimal":"true"}}
+  text_border = 1
+  case_mode = normal
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"abb672fe-5f59-4e06-b8e5-da25c3f29e041681251120514"}}*0.62","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}-{"placeholder":"elementheight","values":{"id":"abb672fe-5f59-4e06-b8e5-da25c3f29e041681251120514"}}/1.324","decimal":"true"}}
+  source_mode = web
+  line_spacing = 1
+  x = 2
+  width = 211
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 9cf79e27-79d0-435e-a1aa-9029e59ca65e1685822804998
+  y = 0
+  alignment = left
+  height = 40
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"2bdb2835-d76f-4dec-b57c-47e2398cfba81681331736722"}}","decimal":"true"}}
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if_not][req_id:69cd1001-76a4-4e30-a709-05d69477335a1681250285438] = 1919
+  scale = 0.6
+  source = https://rotn-webflow-menu-news-sync.s3.us-east-2.amazonaws.com/ticker_live/ticker_4_en_us.txt
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}-{"placeholder":"elementwidth","values":{"id":"abb672fe-5f59-4e06-b8e5-da25c3f29e041681251120514"}}*0.725","decimal":"true"}}
+  text_border = 1
+  case_mode = normal
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"abb672fe-5f59-4e06-b8e5-da25c3f29e041681251120514"}}*0.62","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}-{"placeholder":"elementheight","values":{"id":"abb672fe-5f59-4e06-b8e5-da25c3f29e041681251120514"}}/2.0","decimal":"true"}}
+  source_mode = web
+  line_spacing = 1
+  x = 2
+  width = 211
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 0bfe84dd-0069-46a7-a733-426fc231498a1685822806173
+  y = 0
+  alignment = left
+  height = 40
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"2bdb2835-d76f-4dec-b57c-47e2398cfba81681331736722"}}*1.3","decimal":"true"}}
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = openlink;{"placeholder":"json","values":{"source":"https://rotn-webflow-menu-news-sync.s3.us-east-2.amazonaws.com/ticker_live/ticker_1.json","json_path":"$.url"}}%btnaction_splitter_fm%
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if_not][req_id:69cd1001-76a4-4e30-a709-05d69477335a1681250285438] = 1919
+  backgroundhovered = resources/fancymainmenu/menu_buttons/ticker_bar_h.png
+  description = {"placeholder":"local","values":{"key":"rotnfmm.mainmenu.tooltip.newsticker"}}
+  label = 
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}-{"placeholder":"elementwidth","values":{"id":"abb672fe-5f59-4e06-b8e5-da25c3f29e041681251120514"}}*0.8988","decimal":"true"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"abb672fe-5f59-4e06-b8e5-da25c3f29e041681251120514"}}*0.79888","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}-{"placeholder":"elementheight","values":{"id":"abb672fe-5f59-4e06-b8e5-da25c3f29e041681251120514"}}/0.776","decimal":"true"}}
+  loopbackgroundanimations = true
+  x = 1
+  width = 272
+  action = addbutton
+  actionid = b6f87f66-df4b-4e7a-a9be-ef0bd0ec1b2d1685823227223
+  y = 0
+  backgroundnormal = resources/fancymainmenu/menu_buttons/ticker_bar_blank.png
+  height = 52
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"2bdb2835-d76f-4dec-b57c-47e2398cfba81681331736722"}}*1.3","decimal":"true"}}
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = openlink;{"placeholder":"json","values":{"source":"https://rotn-webflow-menu-news-sync.s3.us-east-2.amazonaws.com/ticker_live/ticker_2.json","json_path":"$.url"}}%btnaction_splitter_fm%
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if_not][req_id:69cd1001-76a4-4e30-a709-05d69477335a1681250285438] = 1919
+  backgroundhovered = resources/fancymainmenu/menu_buttons/ticker_bar_h.png
+  description = {"placeholder":"local","values":{"key":"rotnfmm.mainmenu.tooltip.newsticker"}}
+  label = 
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}-{"placeholder":"elementwidth","values":{"id":"abb672fe-5f59-4e06-b8e5-da25c3f29e041681251120514"}}*0.8988","decimal":"true"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"abb672fe-5f59-4e06-b8e5-da25c3f29e041681251120514"}}*0.79888","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}-{"placeholder":"elementheight","values":{"id":"abb672fe-5f59-4e06-b8e5-da25c3f29e041681251120514"}}/0.9698","decimal":"true"}}2
+  loopbackgroundanimations = true
+  x = 2
+  width = 272
+  action = addbutton
+  actionid = 5c5d2a0b-6490-43b1-b46d-7fd53335271b1685824998082
+  y = 0
+  backgroundnormal = resources/fancymainmenu/menu_buttons/ticker_bar_blank.png
+  height = 52
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"2bdb2835-d76f-4dec-b57c-47e2398cfba81681331736722"}}*1.3","decimal":"true"}}
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = openlink;{"placeholder":"json","values":{"source":"https://rotn-webflow-menu-news-sync.s3.us-east-2.amazonaws.com/ticker_live/ticker_3.json","json_path":"$.url"}}%btnaction_splitter_fm%
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if_not][req_id:69cd1001-76a4-4e30-a709-05d69477335a1681250285438] = 1919
+  backgroundhovered = resources/fancymainmenu/menu_buttons/ticker_bar_h.png
+  description = {"placeholder":"local","values":{"key":"rotnfmm.mainmenu.tooltip.newsticker"}}
+  label = 
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}-{"placeholder":"elementwidth","values":{"id":"abb672fe-5f59-4e06-b8e5-da25c3f29e041681251120514"}}*0.8988","decimal":"true"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"abb672fe-5f59-4e06-b8e5-da25c3f29e041681251120514"}}*0.79888","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}-{"placeholder":"elementheight","values":{"id":"abb672fe-5f59-4e06-b8e5-da25c3f29e041681251120514"}}/1.28898","decimal":"true"}}
+  loopbackgroundanimations = true
+  x = 2
+  width = 272
+  action = addbutton
+  actionid = 50cec5e2-5599-424a-9506-64d3226de2851685824998694
+  y = 0
+  backgroundnormal = resources/fancymainmenu/menu_buttons/ticker_bar_blank.png
+  height = 52
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"2bdb2835-d76f-4dec-b57c-47e2398cfba81681331736722"}}*1.3","decimal":"true"}}
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = openlink;{"placeholder":"json","values":{"source":"https://rotn-webflow-menu-news-sync.s3.us-east-2.amazonaws.com/ticker_live/ticker_4.json","json_path":"$.url"}}%btnaction_splitter_fm%
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if_not][req_id:69cd1001-76a4-4e30-a709-05d69477335a1681250285438] = 1919
+  backgroundhovered = resources/fancymainmenu/menu_buttons/ticker_bar_h.png
+  description = {"placeholder":"local","values":{"key":"rotnfmm.mainmenu.tooltip.newsticker"}}
+  label = 
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}-{"placeholder":"elementwidth","values":{"id":"abb672fe-5f59-4e06-b8e5-da25c3f29e041681251120514"}}*0.8988","decimal":"true"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"abb672fe-5f59-4e06-b8e5-da25c3f29e041681251120514"}}*0.79888","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}-{"placeholder":"elementheight","values":{"id":"abb672fe-5f59-4e06-b8e5-da25c3f29e041681251120514"}}/1.92022","decimal":"true"}}
+  loopbackgroundanimations = true
+  x = 2
+  width = 272
+  action = addbutton
+  actionid = 2b30797b-da4d-47ea-9050-0eac18f1a2901685824999320
+  y = 0
+  backgroundnormal = resources/fancymainmenu/menu_buttons/ticker_bar_blank.png
+  height = 52
+}
+
