@@ -19,7 +19,7 @@ I:defaultguiscale = '3';
 ##[customization]
 
 B:advancedmode = 'true';
-B:showcustomizationbuttons = 'true';
+B:showcustomizationbuttons = 'false';
 
 
 ##[mainmenu]
