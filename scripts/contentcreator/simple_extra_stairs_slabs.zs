@@ -10,6 +10,7 @@ import crafttweaker.block.IMaterial as Mat;
 
 GenericBlock.createStairs("limestone_cobblestone_stairs", <blockstate:minecraft:stone_stairs>).register();
 GenericBlock.createStairs("chalk_cobblestone_stairs", <blockstate:minecraft:stone_stairs>).register();
+GenericBlock.createStairs("shale_cobblestone_stairs", <blockstate:minecraft:stone_stairs>).register();
 GenericBlock.createStairs("siltstone_cobblestone_stairs", <blockstate:minecraft:stone_stairs>).register();
 GenericBlock.createStairs("dolomite_cobblestone_stairs", <blockstate:minecraft:stone_stairs>).register();
 GenericBlock.createStairs("greywacke_cobblestone_stairs", <blockstate:minecraft:stone_stairs>).register();
@@ -17,6 +18,7 @@ GenericBlock.createStairs("chert_cobblestone_stairs", <blockstate:minecraft:ston
 
 GenericBlock.createStairs("limestone_brick_stairs", <blockstate:minecraft:stone_stairs>).register();
 GenericBlock.createStairs("chalk_brick_stairs", <blockstate:minecraft:stone_stairs>).register();
+GenericBlock.createStairs("shale_brick_stairs", <blockstate:minecraft:stone_stairs>).register();
 GenericBlock.createStairs("siltstone_brick_stairs", <blockstate:minecraft:stone_stairs>).register();
 GenericBlock.createStairs("dolomite_brick_stairs", <blockstate:minecraft:stone_stairs>).register();
 GenericBlock.createStairs("greywacke_brick_stairs", <blockstate:minecraft:stone_stairs>).register();
@@ -44,6 +46,7 @@ val iron = Mat.iron();
 
 GenericBlock.createSlab(rock, "limestone_cobblestone_slab").register();
 GenericBlock.createSlab(rock, "chalk_cobblestone_slab").register();
+GenericBlock.createSlab(rock, "shale_cobblestone_slab").register();
 GenericBlock.createSlab(rock, "siltstone_cobblestone_slab").register();
 GenericBlock.createSlab(rock, "dolomite_cobblestone_slab").register();
 GenericBlock.createSlab(rock, "greywacke_cobblestone_slab").register();
@@ -51,6 +54,7 @@ GenericBlock.createSlab(rock, "chert_cobblestone_slab").register();
 
 GenericBlock.createSlab(rock, "limestone_brick_slab").register();
 GenericBlock.createSlab(rock, "chalk_brick_slab").register();
+GenericBlock.createSlab(rock, "shale_brick_slab").register();
 GenericBlock.createSlab(rock, "siltstone_brick_slab").register();
 GenericBlock.createSlab(rock, "dolomite_brick_slab").register();
 GenericBlock.createSlab(rock, "greywacke_brick_slab").register();
