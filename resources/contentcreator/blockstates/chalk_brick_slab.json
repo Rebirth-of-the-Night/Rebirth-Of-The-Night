@@ -4,9 +4,9 @@
 		"transform":"forge:default-block",
 		"model":"half_slab",
 		"textures":{
-			"top":"contenttweaker:blocks/big_limestone_bricks",
-			"bottom":"contenttweaker:blocks/big_limestone_bricks",
-			"side":"contenttweaker:blocks/big_limestone_bricks"
+			"top":"contenttweaker:blocks/big_chalk_bricks",
+			"bottom":"contenttweaker:blocks/big_chalk_bricks",
+			"side":"contenttweaker:blocks/big_chalk_bricks"
 		}
 	},
 	"variants":{
