@@ -106,4 +106,72 @@ recipes.addShapeless("greywacke_button",<undergroundbiomes:sedimentary_stone_but
 recipes.remove(<undergroundbiomes:sedimentary_stone_button:3>);
 recipes.addShapeless("siltstone_button",<undergroundbiomes:sedimentary_stone_button:3>, [<pyrotech_compat:rock_sedimentary:2>]);
 
+// Custom decoration
 
+// Bricks map
+val stonebrickDecoMap = {
+    <contenttweaker:big_limestone_bricks> : [<contentcreator:limestone_brick_slab>,<contentcreator:limestone_brick_stairs>],
+    <contenttweaker:big_chalk_bricks> : [<contentcreator:chalk_brick_slab>,<contentcreator:chalk_brick_slab>],
+	<contenttweaker:big_shale_bricks> : [<contentcreator:shale_brick_slab>,<contentcreator:shale_brick_stairs>],
+	<contenttweaker:big_siltstone_bricks> : [<contentcreator:siltstone_brick_slab>,<contentcreator:siltstone_brick_stairs>],
+	<contenttweaker:big_dolomite_bricks> : [<contentcreator:dolomite_brick_slab>, <contentcreator:dolomite_brick_stairs>],
+	<contenttweaker:big_greywacke_bricks> : [<contentcreator:greywacke_brick_slab>,<contentcreator:greywacke_brick_stairs>],
+    <contenttweaker:big_chert_bricks> : [<contentcreator:chert_brick_slab>,<contentcreator:chert_brick_stairs>]
+} as IItemStack[][IItemStack];
+
+for fullBrick, brickDeco in stonebrickDecoMap{ // brickDeco[0] is for slabs, brickDeco[1] is for stairs
+    
+	recipes.addShaped(brickDeco[0]*6,[ // slabs
+		[fullBrick,fullBrick,fullBrick]
+	]);
+	recipes.addShapedMirrored(brickDeco[1]*8,[ // stairs from blocks
+		[fullBrick, null, null],
+		[fullBrick, fullBrick, null],
+		[fullBrick, fullBrick, fullBrick]
+	]);
+    recipes.addShapedMirrored(brickDeco[1]*4,[ // stairs from slabs
+		[brickDeco[0], null, null],
+		[brickDeco[0], brickDeco[0], null],
+		[brickDeco[0], brickDeco[0], brickDeco[0]]
+	]);
+	recipes.addShapeless(fullBrick*3, // blocks from stairs
+		[brickDeco[1],brickDeco[1],brickDeco[1],brickDeco[1]
+	]);
+	recipes.addShapeless(fullBrick, // blocks from slabs
+		[brickDeco[0],brickDeco[0]
+	]);
+}	
+
+// Cobbles map
+val stonecobbleDecoMap = {
+    <contenttweaker:limestone_cobble> : [<contentcreator:limestone_cobblestone_slab>,<contentcreator:limestone_cobblestone_stairs>],
+    <contenttweaker:chalk_cobble> : [<contentcreator:chalk_cobblestone_slab>,<contentcreator:chalk_cobblestone_slab>],
+	<contenttweaker:shale_cobble> : [<contentcreator:shale_cobblestone_slab>,<contentcreator:shale_cobblestone_stairs>],
+	<contenttweaker:siltstone_cobble> : [<contentcreator:siltstone_cobblestone_slab>,<contentcreator:siltstone_cobblestone_stairs>],
+	<contenttweaker:dolomite_cobble> : [<contentcreator:dolomite_cobblestone_slab>, <contentcreator:dolomite_cobblestone_stairs>],
+	<contenttweaker:greywacke_cobble> : [<contentcreator:greywacke_cobblestone_slab>,<contentcreator:greywacke_cobblestone_stairs>],
+    <contenttweaker:chert_cobble> : [<contentcreator:chert_cobblestone_slab>,<contentcreator:chert_cobblestone_stairs>]
+} as IItemStack[][IItemStack];
+
+for fullCobble, cobbleDeco in stonecobbleDecoMap{ // cobbleDeco[0] is for slabs, cobbleDeco[1] is for stairs
+    
+	recipes.addShaped(cobbleDeco[0]*6,[ // slabs
+		[fullCobble,fullCobble,fullCobble]
+	]);
+	recipes.addShapedMirrored(cobbleDeco[1]*8,[ // stairs from blocks
+		[fullCobble, null, null],
+		[fullCobble, fullCobble, null],
+		[fullCobble, fullCobble, fullCobble]
+	]);
+    recipes.addShapedMirrored(cobbleDeco[1]*4,[ // stairs from slabs
+		[cobbleDeco[0], null, null],
+		[cobbleDeco[0], cobbleDeco[0], null],
+		[cobbleDeco[0], cobbleDeco[0], cobbleDeco[0]]
+	]);
+	recipes.addShapeless(fullCobble*3, // blocks from stairs
+		[cobbleDeco[1],cobbleDeco[1],cobbleDeco[1],cobbleDeco[1]
+	]);
+	recipes.addShapeless(fullCobble, // blocks from slabs
+		[cobbleDeco[0],cobbleDeco[0]
+	]);
+}

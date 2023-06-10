@@ -1,0 +1,52 @@
+tile.contentcreator.example_stairs.name=example stairs
+
+// UBC Stairs
+
+tile.contentcreator.limestone_cobblestone_stairs.name=Limestone Cobblestone Stairs
+tile.contentcreator.chalk_cobblestone_stairs.name=Chalk Cobblestone Stairs
+tile.contentcreator.shale_cobblestone_stairs.name=Shale Cobblestone Stairs
+tile.contentcreator.siltstone_cobblestone_stairs.name=Siltstone Cobblestone Stairs
+tile.contentcreator.dolomite_cobblestone_stairs.name=Dolomite Cobblestone Stairs
+tile.contentcreator.greywacke_cobblestone_stairs.name=Greywacke Cobblestone Stairs
+tile.contentcreator.chert_cobblestone_stairs.name=Chert Cobblestone Stairs
+
+tile.contentcreator.limestone_brick_stairs.name=Limestone Brick Stairs
+tile.contentcreator.chalk_brick_stairs.name=Chalk Brick Stairs
+tile.contentcreator.shale_brick_stairs.name=Shale Brick Stairs
+tile.contentcreator.siltstone_brick_stairs.name=Siltstone Brick Stairs
+tile.contentcreator.dolomite_brick_stairs.name=Dolomite Brick Stairs
+tile.contentcreator.greywacke_brick_stairs.name=Greywacke Brick Stairs
+tile.contentcreator.chert_brick_stairs.name=Chert Brick Stairs
+
+// UBC Slabs
+
+tile.contentcreator.limestone_cobblestone_slab.name=Limestone Cobblestone Slab
+tile.contentcreator.chalk_cobblestone_slab.name=Chalk Cobblestone Slab
+tile.contentcreator.shale_cobblestone_slab.name=Shale Cobblestone Slab
+tile.contentcreator.siltstone_cobblestone_slab.name=Siltstone Cobblestone Slab
+tile.contentcreator.dolomite_cobblestone_slab.name=Dolomite Cobblestone Slab
+tile.contentcreator.greywacke_cobblestone_slab.name=Greywacke Cobblestone Slab
+tile.contentcreator.chert_cobblestone_slab.name=Chert Cobblestone Slab
+
+tile.contentcreator.limestone_brick_slab.name=Limestone Brick Slab
+tile.contentcreator.chalk_brick_slab.name=Chalk Brick Slab
+tile.contentcreator.shale_brick_slab.name=Shale Brick Slab
+tile.contentcreator.siltstone_brick_slab.name=Siltstone Brick Slab
+tile.contentcreator.dolomite_brick_slab.name=Dolomite Brick Slab
+tile.contentcreator.greywacke_brick_slab.name=Greywacke Brick Slab
+tile.contentcreator.chert_brick_slab.name=Chert Brick Slab
+
+// CoT Stairs
+
+tile.contentcreator.blendrein_stairs.name=Blendrein Stairs
+tile.contentcreator.coade_stone_polished_stairs.name=Polished Coade Stone Stairs
+tile.contentcreator.ferrought_corrugated_stairs.name=Corrugated Ferrought Stairs
+tile.contentcreator.ferrought_plate_stairs.name=Plate Ferrought Stairs
+
+// CoT Slabs
+
+tile.contentcreator.blendrein_slab.name=Blendrein Slab
+tile.contentcreator.coade_stone_polished_slab.name=Polished Coade Stone Slab
+tile.contentcreator.coade_stone_ornate_slab.name=Ornate Coade Stone Slab
+tile.contentcreator.ferrought_corrugated_slab.name=Corrugated Ferrought Slab
+tile.contentcreator.ferrought_plate_slab.name=Plate Ferrought Slab
