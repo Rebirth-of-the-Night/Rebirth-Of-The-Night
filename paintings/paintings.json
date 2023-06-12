@@ -48,13 +48,19 @@
 		"isCreative": true
     },
 	{
-        "motive": "the_world",
-        "width": 5,
-        "height": 8,
+        "motive": "The Holy Memory",
+        "width": 4,
+        "height": 4,
 		"isCreative": true
     },
 	{
-        "motive": "Wanderer_above_the_sea_of_fog",
+        "motive": "Wings of Hatred",
+        "width": 4,
+        "height": 4,
+		"isCreative": true
+    },
+	{
+        "motive": "Wanderer Above The Sea of Fog",
         "width": 4,
         "height": 6,
 		"isCreative": true
@@ -66,19 +72,25 @@
 		"isCreative": true
     },
 	{
-        "motive": "Minetta_Stone",
+        "motive": "Minetta Stone",
         "width": 4,
         "height": 6,
 		"isCreative": true
     },
 	{
-        "motive": "Fight_the_divine",
+        "motive": "The World",
+        "width": 5,
+        "height": 8,
+		"isCreative": true
+    },
+	{
+        "motive": "Fight the Divine",
         "width": 6,
         "height": 4,
 		"isCreative": true
     },
 	{
-        "motive": "wroughtclad",
+        "motive": "Wroughtclad",
         "width": 7,
         "height": 4,
 		"isCreative": true
@@ -210,6 +222,12 @@
 		"isCreative": false
     },
 	{
+        "motive": "Mountain Range",
+        "width": 2,
+        "height": 1,
+		"isCreative": false
+    },
+	{
         "motive": "ender_letters",
         "width": 1,
         "height": 2,
@@ -217,6 +235,12 @@
     },
 	{
         "motive": "ai",
+        "width": 1,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "Lunarin View",
         "width": 1,
         "height": 2,
 		"isCreative": false
@@ -282,13 +306,19 @@
 		"isCreative": false
     },
 	{
-        "motive": "i_was_regent",
+        "motive": "I Was Regent",
         "width": 2,
         "height": 2,
 		"isCreative": false
     },
 	{
         "motive": "Bane of Arthropods",
+        "width": 2,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "Ancient Currency",
         "width": 2,
         "height": 2,
 		"isCreative": false
@@ -321,6 +351,12 @@
         "motive": "old_tapestry_red",
         "width": 1,
         "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "Disharmony",
+        "width": 5,
+        "height": 1,
 		"isCreative": false
     },
 	{
@@ -462,6 +498,18 @@
 		"isCreative": false
     },
 	{
+        "motive": "Wizard Tower",
+        "width": 3,
+        "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "Fractured Tower",
+        "width": 3,
+        "height": 3,
+		"isCreative": false
+    },
+	{
         "motive": "Ghast_god",
         "width": 4,
         "height": 2,
@@ -552,7 +600,7 @@
 		"isCreative": false
     },
 	{
-        "motive": "The_scourge",
+        "motive": "The Scourge",
         "width": 3,
         "height": 4,
 		"isCreative": false
@@ -570,7 +618,7 @@
 		"isCreative": false
     },
 	{
-        "motive": "A_friend_in_need",
+        "motive": "A Wolf in Need",
         "width": 6,
         "height": 4,
 		"isCreative": false
