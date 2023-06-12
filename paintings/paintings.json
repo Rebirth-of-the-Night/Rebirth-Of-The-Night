@@ -504,6 +504,12 @@
 		"isCreative": false
     },
 	{
+        "motive": "Fractured Tower",
+        "width": 3,
+        "height": 3,
+		"isCreative": false
+    },
+	{
         "motive": "Ghast_god",
         "width": 4,
         "height": 2,
