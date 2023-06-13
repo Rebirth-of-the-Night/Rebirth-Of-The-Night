@@ -404,3 +404,9 @@ giant_yellow_flower_petal.register();
 
 val giant_blue_flower_petal = VanillaFactory.createItem("giant_blue_flower_petal");
 giant_blue_flower_petal.register();
+
+val xp_tome_mundane = VanillaFactory.createItem("xp_tome_mundane");
+xp_tome_mundane.register();
+
+val xp_tome_arcane = VanillaFactory.createItem("xp_tome_arcane");
+xp_tome_arcane.register();

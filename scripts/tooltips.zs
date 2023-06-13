@@ -165,7 +165,8 @@ for w, weapon in sapphireweps{
 <iceandfire:pixie_dust:*>.addTooltip("What would happen if I had a taste...?");
 <contenttweaker:invasion_debug_tool:*>.addTooltip(format.red("Immediately stops invasions. Only use this if your invasion is bugged!"));
 <contenttweaker:invasion_debug_tool:*>.addTooltip(format.red("Or use it to cheat if you want, I'm not your parents."));
-
+<contenttweaker:xp_tome_mundane>.addTooltip("Grants 500 XP on use.");
+<contenttweaker:xp_tome_arcane>.addTooltip("Grants 5 LEVELS on use.");
 
 // Arcane Archives
 <arcanearchives:raw_quartz:*>.addTooltip("Right-click on any chest to convert it to a Radiant Chest.");

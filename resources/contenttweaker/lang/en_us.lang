@@ -583,6 +583,9 @@ item.contenttweaker.unspoken_ripple.name=Unspoken Ripple
 item.contenttweaker.withering_bone.name=Withering Bone
 item.contenttweaker.scapula.name=Scapula
 
+item.contenttweaker.xp_tome_mundane.name=Experience Scroll
+item.contenttweaker.xp_tome_arcane.name=Experience Codex
+
 #------------------------------------------------------------------------------
 # Food
 #------------------------------------------------------------------------------
