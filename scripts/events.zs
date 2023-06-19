@@ -608,3 +608,27 @@ function addBlockTransformSet(ar as string[], bState as IBlockState) {
 		blockBreakTransforms[bs] = bState;
 	}
 }
+
+// Xp tomes
+// Gives the player variable amounts of XP
+static xp_tome_mundane as IItemStack = <contenttweaker:xp_tome_mundane>;
+static xp_tome_arcane as IItemStack = <contenttweaker:xp_tome_arcane>;
+events.onPlayerRightClickItem(function(event as crafttweaker.event.PlayerRightClickItemEvent){
+    if(!event.world.isRemote()){
+        val itemStack = event.item as IItemStack;
+		if(!isNull(itemStack1)){
+			if ((itemStack.definition.id).matches(xp_tome_mundane.definition.id)) {
+				Commands.call("playsound dsurround:wind player @p", event.player, event.world, true, true);
+				Commands.call("xp 500 @p", event.player, event.world, true, true);
+				itemStack.mutable().shrink(1);
+			}
+		}
+		if(!isNull(itemStack1)){
+			if ((itemStack.definition.id).matches(xp_tome_arcane.definition.id)) {
+				Commands.call("playsound dsurround:wind player @p", event.player, event.world, true, true);
+				Commands.call("xp 5L @p", event.player, event.world, true, true);
+				itemStack.mutable().shrink(1);
+			}
+		}
+    }
+});

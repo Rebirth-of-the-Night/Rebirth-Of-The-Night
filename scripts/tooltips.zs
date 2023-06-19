@@ -162,8 +162,9 @@ for w, weapon in sapphireweps{
 <dungeontactics:trap_ailment:*>.addTooltip("Must be reset with an Engineer's Wrench after use.");
 <dungeontactics:trap_spectral:*>.addTooltip("Makes its victim glow, allowing it to be seen through walls.");
 <dungeontactics:trap_spectral:*>.addTooltip("Must be reset with an Engineer's Wrench after use.");
-<iceandfire:pixie_dust:*>.addTooltip("What would happen if I had a taste...?");
-
+<iceandfire:pixie_dust:*>.addTooltip("I should not have a taste...");
+<contenttweaker:xp_tome_mundane>.addTooltip("Grants 500 XP on use.");
+<contenttweaker:xp_tome_arcane>.addTooltip("Grants 5 LEVELS on use.");
 
 // Arcane Archives
 <arcanearchives:raw_quartz:*>.addTooltip("Right-click on any chest to convert it to a Radiant Chest.");
