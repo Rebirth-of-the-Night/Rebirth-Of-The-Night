@@ -1,0 +1,770 @@
+[    
+	{
+        "motive": "sigil Mono no aware",
+        "width": 1,
+        "height": 1,
+		"isCreative": true
+    },
+	{
+        "motive": "sigil Cantus planus",
+        "width": 1,
+        "height": 1,
+		"isCreative": true
+    },
+    {
+        "motive": "sigil Logos",
+        "width": 1,
+        "height": 1,
+		"isCreative": true
+    },
+	{
+        "motive": "sigil Episteme",
+        "width": 1,
+        "height": 1,
+		"isCreative": true
+    },
+	{
+        "motive": "sigil Kinisi",
+        "width": 1,
+        "height": 1,
+		"isCreative": true
+    },
+	{
+        "motive": "sigil Soter",
+        "width": 1,
+        "height": 1,
+		"isCreative": true
+    },
+	{
+        "motive": "sigil Fatum",
+        "width": 1,
+        "height": 1,
+		"isCreative": true
+    },
+	{
+        "motive": "Ritual of Below",
+        "width": 2,
+        "height": 2,
+		"isCreative": true
+    },
+	{
+        "motive": "Mother of Change",
+        "width": 2,
+        "height": 2,
+		"isCreative": true
+    },
+	{
+        "motive": "Yearn",
+        "width": 4,
+        "height": 3,
+		"isCreative": true
+    },
+	{
+        "motive": "The Holy Memory",
+        "width": 4,
+        "height": 4,
+		"isCreative": true
+    },
+	{
+        "motive": "Wings of Hatred",
+        "width": 4,
+        "height": 4,
+		"isCreative": true
+    },
+	{
+        "motive": "Wanderer Above The Sea of Fog",
+        "width": 4,
+        "height": 6,
+		"isCreative": true
+    },
+	{
+        "motive": "Justice",
+        "width": 4,
+        "height": 6,
+		"isCreative": true
+    },
+	{
+        "motive": "Minetta Stone",
+		"textures": {
+            "back": "paintings:null"
+        },
+        "width": 4,
+        "height": 6,
+		"isCreative": true
+    },
+	{
+        "motive": "The World",
+        "width": 5,
+        "height": 8,
+		"isCreative": true
+    },
+	{
+        "motive": "Fight the Divine",
+        "width": 6,
+        "height": 4,
+		"isCreative": true
+    },
+	{
+        "motive": "Wroughtclad",
+        "width": 7,
+        "height": 4,
+		"isCreative": true
+    },
+	{
+        "motive": "Bob-omb",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "fox",
+		"textures": {
+            "back": "paintings:null"
+        },
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "grass",
+		"textures": {
+            "back": "paintings:null"
+        },
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Trapped Soul",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "s",
+		"textures": {
+            "back": "paintings:null"
+        },
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "biohazard",
+		"textures": {
+            "back": "paintings:null"
+        },
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "barrier",
+		"textures": {
+            "back": "paintings:null"
+        },
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "radioactive",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "cooking implements",
+		"textures": {
+            "back": "paintings:null"
+        },
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "pipes - parallel to one",
+		"textures": {
+            "back": "paintings:null"
+        },
+        "width": 2,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "pipes - one to parallel",
+		"textures": {
+            "back": "paintings:null"
+        },
+        "width": 2,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "pipes - parallel",
+		"textures": {
+            "back": "paintings:null"
+        },
+        "width": 2,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "pipes - parallel downward",
+		"textures": {
+            "back": "paintings:null"
+        },
+        "width": 2,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "pipes - down to right",
+		"textures": {
+            "back": "paintings:null"
+        },
+        "width": 1,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "crafting tools",
+		"textures": {
+            "back": "paintings:null"
+        },
+        "width": 2,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "sign - go away",
+		"textures": {
+            "back": "paintings:null"
+        },
+        "width": 3,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "sign - keep out",
+		"textures": {
+            "back": "paintings:null"
+        },
+        "width": 3,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "The Titans Small",
+        "width": 2,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Invader",
+        "width": 2,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Happy Creebet",
+        "width": 2,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Mountain Range",
+        "width": 2,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "ender letters",
+		"textures": {
+            "back": "paintings:null"
+        },
+        "width": 1,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "ai",
+        "width": 1,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "Lunarin View",
+        "width": 1,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "Supper",
+        "width": 3,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "gold spear",
+		"textures": {
+            "back": "paintings:null"
+        },
+        "width": 3,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "trans",
+        "width": 3,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "lgqbtp",
+        "width": 3,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Sunset Vista",
+        "width": 4,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Lighthouse Vista",
+        "width": 4,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Water",
+        "width": 2,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "Wind",
+        "width": 2,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "Earth",
+        "width": 2,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "Fire",
+        "width": 2,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "I Was Regent",
+        "width": 2,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "Bane of Arthropods",
+        "width": 2,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "Ancient Currency",
+        "width": 2,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "Banner Drake",
+        "width": 1,
+        "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "banner Lion",
+        "width": 1,
+        "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "banner Gryph",
+        "width": 1,
+        "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "banner Witha",
+        "width": 1,
+        "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "ornate tapestry - red",
+        "width": 1,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "Disharmony",
+        "width": 5,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "ornate tapestry - cyan",
+        "width": 3,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "ornate tapestry - orange",
+        "width": 3,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "grafitti - arrow head",
+		"textures": {
+            "back": "paintings:null"
+        },
+        "width": 3,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "grafitti - shop",
+		"textures": {
+            "back": "paintings:null"
+        },
+        "width": 3,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "sign - shop",
+		"textures": {
+            "back": "paintings:null"
+        },
+        "width": 3,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "Jungle Spider Vanguard",
+        "width": 3,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "The Great Wave of Kanagawa",
+        "width": 3,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "The Ambassadors",
+        "width": 3,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "Wololo",
+        "width": 3,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "Ungoliant",
+        "width": 3,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "papyrus - Tree of Life",
+        "width": 3,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "Grove",
+        "width": 3,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "Fog Weaver",
+        "width": 2,
+        "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "Herald",
+        "width": 2,
+        "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "Harbinger",
+        "width": 2,
+        "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "Retired Hero",
+        "width": 2,
+        "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "Minecraft Gothic",
+        "width": 2,
+        "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "Sky Dragon",
+        "width": 2,
+        "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "The Scream",
+        "width": 2,
+        "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "Withered",
+        "width": 2,
+        "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "Castle in the Occasus",
+        "width": 3,
+        "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "Castle in the Twilight",
+        "width": 3,
+        "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "Starry Night",
+        "width": 3,
+        "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "Pesistence of Time",
+        "width": 3,
+        "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "Wizard Tower",
+        "width": 3,
+        "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "Fractured Tower",
+        "width": 3,
+        "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "Ur",
+        "width": 4,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "The Gentle Beast",
+        "width": 4,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "On Guard",
+        "width": 4,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "Saturn Devouring His Son",
+        "width": 2,
+        "height": 4,
+		"isCreative": false
+    },
+	{
+        "motive": "Lilith",
+        "width": 2,
+        "height": 4,
+		"isCreative": false
+    },
+	{
+        "motive": "Misshap",
+        "width": 4,
+        "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "Firelink Shrine",
+        "width": 4,
+        "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "Sky map of Rim",
+        "width": 4,
+        "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "Blood Moon",
+        "width": 4,
+        "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "Soul of the Warrior",
+        "width": 4,
+        "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "The Titans",
+        "width": 4,
+        "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "Vwoops",
+        "width": 4,
+        "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "Venus",
+        "width": 4,
+        "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "Turin Turambar",
+        "width": 3,
+        "height": 4,
+		"isCreative": false
+    },
+	{
+        "motive": "Mona Lisa",
+        "width": 3,
+        "height": 4,
+		"isCreative": false
+    },
+	{
+        "motive": "The Scourge",
+        "width": 3,
+        "height": 4,
+		"isCreative": false
+    },
+	{
+        "motive": "Windmill",
+        "width": 6,
+        "height": 4,
+		"isCreative": false
+    },
+	{
+        "motive": "Crusaders",
+        "width": 6,
+        "height": 4,
+		"isCreative": false
+    },
+	{
+        "motive": "A Wolf in Need",
+        "width": 6,
+        "height": 4,
+		"isCreative": false
+    },
+	{
+        "motive": "A Place for Retribution",
+        "width": 8,
+        "height": 4,
+		"isCreative": true
+    },
+	{
+        "motive": "Supporter - Blu Toon - a",
+        "width": 3,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "Supporter - Blu Toon - b",
+        "width": 3,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "Supporter - Akkiruk",
+        "width": 2,
+        "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "Supporter - Kate",
+        "width": 3,
+        "height": 4,
+		"isCreative": false
+    },
+	{
+        "motive": "Helper - John",
+        "width": 2,
+        "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "Ex-dev - Mari",
+        "width": 2,
+        "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "Ex-dev - Moondiver",
+        "width": 2,
+        "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "Dev - Foreck",
+        "width": 2,
+        "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "Dev - Ozymandias",
+        "width": 2,
+        "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "Dev - Providence Daemon",
+        "width": 2,
+        "height": 3,
+		"isCreative": false
+    },
+    {
+        "motive": "Apple",
+        "textures": {
+            "front": "items/apple"
+        }
+    }
+]
