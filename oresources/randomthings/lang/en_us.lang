@@ -203,8 +203,8 @@ tile.biomeStone.chiseled.name=Chiseled Biome Stone Bricks
 tile.specialChest.nature.name=Nature Chest
 tile.specialChest.water.name=Water Chest
 
-tile.platform.oak.name=Oak Platform
-tile.platform.spruce.name=Spruce Platform
+tile.platform.oak.name=Wicker Net
+tile.platform.spruce.name=Viridium Stems
 tile.platform.birch.name=Birch Platform
 tile.platform.acacia.name=Acacia Platform
 tile.platform.jungle.name=Jungle Platform

@@ -1,0 +1,32 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "contenttweaker:blocks/voided_rock",
+		"particle": "contenttweaker:blocks/voided_rock"
+	},
+	"elements": [
+		{
+			"from": [7, 13, 7],
+			"to": [9, 16, 9],
+			"faces": {
+				"north": {"uv": [9, 8, 11, 11], "texture": "#0"},
+				"east": {"uv": [9, 8, 11, 11], "texture": "#0"},
+				"south": {"uv": [9, 8, 11, 11], "texture": "#0"},
+				"west": {"uv": [9, 8, 11, 11], "texture": "#0"},
+				"up": {"uv": [5, 11, 7, 13], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [6, 8, 6],
+			"to": [10, 13, 10],
+			"faces": {
+				"north": {"uv": [9, 9, 13, 14], "texture": "#0"},
+				"east": {"uv": [9, 9, 13, 14], "texture": "#0"},
+				"south": {"uv": [9, 9, 13, 14], "texture": "#0"},
+				"west": {"uv": [9, 9, 13, 14], "texture": "#0"},
+				"up": {"uv": [5, 11, 9, 15], "texture": "#0"},
+				"down": {"uv": [6, 4, 10, 8], "texture": "#0"}
+			}
+		}
+	]
+}

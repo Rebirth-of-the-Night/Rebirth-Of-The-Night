@@ -366,6 +366,12 @@
 		"isCreative": false
     },
 	{
+        "motive": "old_tapestry_orange",
+        "width": 3,
+        "height": 2,
+		"isCreative": false
+    },
+	{
         "motive": "dead_head_graffiti",
         "width": 3,
         "height": 2,
