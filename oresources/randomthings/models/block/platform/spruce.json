@@ -1,0 +1,24 @@
+{
+	"parent": "block/block",   
+	"elements": [ 
+	{
+		"from": [ 0, 14, 0 ],
+		"to": [ 16, 16, 16 ],
+		"faces": {
+			"down":  { "uv": [ 16, 16, 0, 0 ], "texture": "#texture" },
+			"up":    { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
+			"north": { "uv": [ 0, 0, 16, 2 ], "texture": "#side" },
+			"south": { "uv": [ 0, 0, 16, 2 ], "texture": "#side" },
+			"west":  { "uv": [ 0, 0, 16, 2 ], "texture": "#side" },
+			"east":  { "uv": [ 0, 0, 16, 2 ], "texture": "#side" }
+		}
+	}
+	],
+	
+	"textures":
+	{
+		"texture" : "aesthetics:blocks/adamantium_stems",
+		"side" : "contenttweaker:blocks/raw_viridium_block",
+		"particle" : "aesthetics:blocks/adamantium_stems"
+	}
+}

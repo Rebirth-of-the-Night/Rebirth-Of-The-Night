@@ -1,3 +1,5 @@
+#loader crafttweaker reloadable
+
 import crafttweaker.block.IBlock;
 import crafttweaker.block.IBlockState;
 
@@ -25,6 +27,8 @@ import crafttweaker.command.ICommandManager;
 import crafttweaker.command.ICommand;
 import crafttweaker.command.ICommandSender;
 import mods.contenttweaker.IItemRightClick;
+import mods.contenttweaker.Commands;
+import mods.contenttweaker.ActionResult;
 import crafttweaker.world.IWorld;
 
 import crafttweaker.item.IItemStack;
@@ -615,19 +619,197 @@ static xp_tome_mundane as IItemStack = <contenttweaker:xp_tome_mundane>;
 static xp_tome_arcane as IItemStack = <contenttweaker:xp_tome_arcane>;
 events.onPlayerRightClickItem(function(event as crafttweaker.event.PlayerRightClickItemEvent){
     if(!event.world.isRemote()){
-        val itemStack = event.item as IItemStack;
+        val itemStack1 = event.item as IItemStack;
 		if(!isNull(itemStack1)){
-			if ((itemStack.definition.id).matches(xp_tome_mundane.definition.id)) {
+			if ((itemStack1.definition.id).matches(xp_tome_mundane.definition.id)) {
 				Commands.call("playsound dsurround:wind player @p", event.player, event.world, true, true);
 				Commands.call("xp 500 @p", event.player, event.world, true, true);
-				itemStack.mutable().shrink(1);
+				itemStack1.mutable().shrink(1);
 			}
 		}
 		if(!isNull(itemStack1)){
-			if ((itemStack.definition.id).matches(xp_tome_arcane.definition.id)) {
+			if ((itemStack1.definition.id).matches(xp_tome_arcane.definition.id)) {
 				Commands.call("playsound dsurround:wind player @p", event.player, event.world, true, true);
 				Commands.call("xp 5L @p", event.player, event.world, true, true);
-				itemStack.mutable().shrink(1);
+				itemStack1.mutable().shrink(1);
+			}
+		}
+    }
+});
+
+// Spine bud light
+// Breaking the dark fruit on the bottom of the structure replaces the block above with a glaretorch illuminating the area
+events.onBlockBreak(function(event as crafttweaker.event.BlockBreakEvent){
+    if event.world.remote{
+        return;
+    }
+	
+	var flagCheck = crafttweaker.util.Position3f.create(event.position.x, event.position.y + 3, event.position.z).asBlockPos();
+
+    var blockToReplace_e1 = crafttweaker.util.Position3f.create(event.position.x + 7, event.position.y, event.position.z).asBlockPos();
+    var blockToReplace_w1 = crafttweaker.util.Position3f.create(event.position.x - 7, event.position.y, event.position.z).asBlockPos();
+    var blockToReplace_s1 = crafttweaker.util.Position3f.create(event.position.x, event.position.y, event.position.z + 7).asBlockPos();
+    var blockToReplace_n1 = crafttweaker.util.Position3f.create(event.position.x, event.position.y, event.position.z - 7).asBlockPos();
+	
+	var blockToReplace_e2 = crafttweaker.util.Position3f.create(event.position.x + 14, event.position.y, event.position.z).asBlockPos();
+    var blockToReplace_w2 = crafttweaker.util.Position3f.create(event.position.x - 14, event.position.y, event.position.z).asBlockPos();
+    var blockToReplace_s2 = crafttweaker.util.Position3f.create(event.position.x, event.position.y, event.position.z + 14).asBlockPos();
+    var blockToReplace_n2 = crafttweaker.util.Position3f.create(event.position.x, event.position.y, event.position.z - 14).asBlockPos();
+	
+	var blockToReplace_e3 = crafttweaker.util.Position3f.create(event.position.x + 21, event.position.y, event.position.z).asBlockPos();
+    var blockToReplace_w3 = crafttweaker.util.Position3f.create(event.position.x - 21, event.position.y, event.position.z).asBlockPos();
+    var blockToReplace_s3 = crafttweaker.util.Position3f.create(event.position.x, event.position.y, event.position.z + 21).asBlockPos();
+    var blockToReplace_n3 = crafttweaker.util.Position3f.create(event.position.x, event.position.y, event.position.z - 21).asBlockPos();
+	
+	var blockToReplace_e4 = crafttweaker.util.Position3f.create(event.position.x + 28, event.position.y, event.position.z).asBlockPos();
+    var blockToReplace_w4 = crafttweaker.util.Position3f.create(event.position.x - 28, event.position.y, event.position.z).asBlockPos();
+    var blockToReplace_s4 = crafttweaker.util.Position3f.create(event.position.x, event.position.y, event.position.z + 28).asBlockPos();
+    var blockToReplace_n4 = crafttweaker.util.Position3f.create(event.position.x, event.position.y, event.position.z - 28).asBlockPos();
+		
+	var blockToReplace_e1up = crafttweaker.util.Position3f.create(event.position.x + 7, event.position.y + 6, event.position.z).asBlockPos();
+    var blockToReplace_w1up = crafttweaker.util.Position3f.create(event.position.x - 7, event.position.y + 6, event.position.z).asBlockPos();
+    var blockToReplace_s1up = crafttweaker.util.Position3f.create(event.position.x, event.position.y + 6, event.position.z + 7).asBlockPos();
+    var blockToReplace_n1up = crafttweaker.util.Position3f.create(event.position.x, event.position.y + 6, event.position.z - 7).asBlockPos();
+	
+	var blockToReplace_e1down = crafttweaker.util.Position3f.create(event.position.x + 7, event.position.y - 6, event.position.z).asBlockPos();
+    var blockToReplace_w1down = crafttweaker.util.Position3f.create(event.position.x - 7, event.position.y - 6, event.position.z).asBlockPos();
+    var blockToReplace_s1down = crafttweaker.util.Position3f.create(event.position.x, event.position.y - 6, event.position.z + 7).asBlockPos();
+    var blockToReplace_n1down = crafttweaker.util.Position3f.create(event.position.x, event.position.y - 6, event.position.z - 7).asBlockPos();
+	
+	var blockToReplace_ne = crafttweaker.util.Position3f.create(event.position.x + 7, event.position.y, event.position.z + 7).asBlockPos();
+    var blockToReplace_se = crafttweaker.util.Position3f.create(event.position.x + 7, event.position.y, event.position.z - 7).asBlockPos();
+    var blockToReplace_nw = crafttweaker.util.Position3f.create(event.position.x - 7, event.position.y, event.position.z + 7).asBlockPos();
+    var blockToReplace_sw = crafttweaker.util.Position3f.create(event.position.x - 7, event.position.y, event.position.z - 7).asBlockPos();
+	
+	var blockToReplace_nne = crafttweaker.util.Position3f.create(event.position.x + 7, event.position.y, event.position.z + 14).asBlockPos();
+    var blockToReplace_sse = crafttweaker.util.Position3f.create(event.position.x + 7, event.position.y, event.position.z - 14).asBlockPos();
+    var blockToReplace_nnw = crafttweaker.util.Position3f.create(event.position.x - 7, event.position.y, event.position.z + 14).asBlockPos();
+    var blockToReplace_ssw = crafttweaker.util.Position3f.create(event.position.x - 7, event.position.y, event.position.z - 14).asBlockPos();
+	
+	var blockToReplace_nee = crafttweaker.util.Position3f.create(event.position.x + 14, event.position.y, event.position.z + 7).asBlockPos();
+    var blockToReplace_see = crafttweaker.util.Position3f.create(event.position.x + 14, event.position.y, event.position.z - 7).asBlockPos();
+    var blockToReplace_nww = crafttweaker.util.Position3f.create(event.position.x - 14, event.position.y, event.position.z + 7).asBlockPos();
+    var blockToReplace_sww = crafttweaker.util.Position3f.create(event.position.x - 14, event.position.y, event.position.z - 7).asBlockPos();
+
+    if (event.block.definition.id.matches("contenttweaker:dark_fruit")){
+	
+		if (event.world.getBlock(flagCheck).definition.id.matches("endreborn:block_wolframium")){
+
+			if (event.world.getBlock(blockToReplace_e1).definition.id.matches("minecraft:air")){
+				event.world.setBlockState(<blockstate:glaretorch:blocklight>, blockToReplace_e1);
+			}
+			if (event.world.getBlock(blockToReplace_w1).definition.id.matches("minecraft:air")){
+				event.world.setBlockState(<blockstate:glaretorch:blocklight>, blockToReplace_w1);
+			}
+			if (event.world.getBlock(blockToReplace_s1).definition.id.matches("minecraft:air")){
+				event.world.setBlockState(<blockstate:glaretorch:blocklight>, blockToReplace_s1);
+			}
+			if (event.world.getBlock(blockToReplace_n1).definition.id.matches("minecraft:air")){
+				event.world.setBlockState(<blockstate:glaretorch:blocklight>, blockToReplace_n1);
+			}
+			
+			if (event.world.getBlock(blockToReplace_e2).definition.id.matches("minecraft:air")){
+				event.world.setBlockState(<blockstate:glaretorch:blocklight>, blockToReplace_e2);
+			}
+			if (event.world.getBlock(blockToReplace_w2).definition.id.matches("minecraft:air")){
+				event.world.setBlockState(<blockstate:glaretorch:blocklight>, blockToReplace_w2);
+			}
+			if (event.world.getBlock(blockToReplace_s2).definition.id.matches("minecraft:air")){
+				event.world.setBlockState(<blockstate:glaretorch:blocklight>, blockToReplace_s2);
+			}
+			if (event.world.getBlock(blockToReplace_n2).definition.id.matches("minecraft:air")){
+				event.world.setBlockState(<blockstate:glaretorch:blocklight>, blockToReplace_n2);
+			}
+			
+			if (event.world.getBlock(blockToReplace_e3).definition.id.matches("minecraft:air")){
+				event.world.setBlockState(<blockstate:glaretorch:blocklight>, blockToReplace_e3);
+			}
+			if (event.world.getBlock(blockToReplace_w3).definition.id.matches("minecraft:air")){
+				event.world.setBlockState(<blockstate:glaretorch:blocklight>, blockToReplace_w3);
+			}
+			if (event.world.getBlock(blockToReplace_s3).definition.id.matches("minecraft:air")){
+				event.world.setBlockState(<blockstate:glaretorch:blocklight>, blockToReplace_s3);
+			}
+			if (event.world.getBlock(blockToReplace_n3).definition.id.matches("minecraft:air")){
+				event.world.setBlockState(<blockstate:glaretorch:blocklight>, blockToReplace_n3);
+			}
+			
+			if (event.world.getBlock(blockToReplace_e4).definition.id.matches("minecraft:air")){
+				event.world.setBlockState(<blockstate:glaretorch:blocklight>, blockToReplace_e4);
+			}
+			if (event.world.getBlock(blockToReplace_w4).definition.id.matches("minecraft:air")){
+				event.world.setBlockState(<blockstate:glaretorch:blocklight>, blockToReplace_w4);
+			}
+			if (event.world.getBlock(blockToReplace_s4).definition.id.matches("minecraft:air")){
+				event.world.setBlockState(<blockstate:glaretorch:blocklight>, blockToReplace_s4);
+			}
+			if (event.world.getBlock(blockToReplace_n4).definition.id.matches("minecraft:air")){
+				event.world.setBlockState(<blockstate:glaretorch:blocklight>, blockToReplace_n4);
+			}
+			
+			if (event.world.getBlock(blockToReplace_e1up).definition.id.matches("minecraft:air")){
+				event.world.setBlockState(<blockstate:glaretorch:blocklight>, blockToReplace_e1up);
+			}
+			if (event.world.getBlock(blockToReplace_w1up).definition.id.matches("minecraft:air")){
+				event.world.setBlockState(<blockstate:glaretorch:blocklight>, blockToReplace_w1up);
+			}
+			if (event.world.getBlock(blockToReplace_s1up).definition.id.matches("minecraft:air")){
+				event.world.setBlockState(<blockstate:glaretorch:blocklight>, blockToReplace_s1up);
+			}
+			if (event.world.getBlock(blockToReplace_n1up).definition.id.matches("minecraft:air")){
+				event.world.setBlockState(<blockstate:glaretorch:blocklight>, blockToReplace_n1up);
+			}
+			
+			if (event.world.getBlock(blockToReplace_e1down).definition.id.matches("minecraft:air")){
+				event.world.setBlockState(<blockstate:glaretorch:blocklight>, blockToReplace_e1down);
+			}
+			if (event.world.getBlock(blockToReplace_w1down).definition.id.matches("minecraft:air")){
+				event.world.setBlockState(<blockstate:glaretorch:blocklight>, blockToReplace_w1down);
+			}
+			if (event.world.getBlock(blockToReplace_s1down).definition.id.matches("minecraft:air")){
+				event.world.setBlockState(<blockstate:glaretorch:blocklight>, blockToReplace_s1down);
+			}
+			if (event.world.getBlock(blockToReplace_n1down).definition.id.matches("minecraft:air")){
+				event.world.setBlockState(<blockstate:glaretorch:blocklight>, blockToReplace_n1down);
+			}
+			
+			if (event.world.getBlock(blockToReplace_ne).definition.id.matches("minecraft:air")){
+				event.world.setBlockState(<blockstate:glaretorch:blocklight>, blockToReplace_ne);
+			}
+			if (event.world.getBlock(blockToReplace_se).definition.id.matches("minecraft:air")){
+				event.world.setBlockState(<blockstate:glaretorch:blocklight>, blockToReplace_se);
+			}
+			if (event.world.getBlock(blockToReplace_nw).definition.id.matches("minecraft:air")){
+				event.world.setBlockState(<blockstate:glaretorch:blocklight>, blockToReplace_nw);
+			}
+			if (event.world.getBlock(blockToReplace_sw).definition.id.matches("minecraft:air")){
+				event.world.setBlockState(<blockstate:glaretorch:blocklight>, blockToReplace_sw);
+			}
+			
+			if (event.world.getBlock(blockToReplace_nne).definition.id.matches("minecraft:air")){
+				event.world.setBlockState(<blockstate:glaretorch:blocklight>, blockToReplace_nne);
+			}
+			if (event.world.getBlock(blockToReplace_sse).definition.id.matches("minecraft:air")){
+				event.world.setBlockState(<blockstate:glaretorch:blocklight>, blockToReplace_sse);
+			}
+			if (event.world.getBlock(blockToReplace_nnw).definition.id.matches("minecraft:air")){
+				event.world.setBlockState(<blockstate:glaretorch:blocklight>, blockToReplace_nnw);
+			}
+			if (event.world.getBlock(blockToReplace_ssw).definition.id.matches("minecraft:air")){
+				event.world.setBlockState(<blockstate:glaretorch:blocklight>, blockToReplace_ssw);
+			}
+			
+			if (event.world.getBlock(blockToReplace_nee).definition.id.matches("minecraft:air")){
+				event.world.setBlockState(<blockstate:glaretorch:blocklight>, blockToReplace_nee);
+			}
+			if (event.world.getBlock(blockToReplace_see).definition.id.matches("minecraft:air")){
+				event.world.setBlockState(<blockstate:glaretorch:blocklight>, blockToReplace_see);
+			}
+			if (event.world.getBlock(blockToReplace_nww).definition.id.matches("minecraft:air")){
+				event.world.setBlockState(<blockstate:glaretorch:blocklight>, blockToReplace_nww);
+			}
+			if (event.world.getBlock(blockToReplace_sww).definition.id.matches("minecraft:air")){
+				event.world.setBlockState(<blockstate:glaretorch:blocklight>, blockToReplace_sww);
 			}
 		}
     }

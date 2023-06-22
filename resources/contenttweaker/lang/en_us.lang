@@ -605,6 +605,7 @@ item.contenttweaker.wiener.name=Wiener
 tile.contenttweaker.abyss_pizza_block.name=Raw Abyss Pizza
 tile.contenttweaker.chicken_pizza_block.name=Raw Chicken Pizza
 tile.contenttweaker.plain_pizza_block.name=Raw Plain Pizza
+tile.contenttweaker.dark_fruit.name=Vlump
 tile.contenttweaker.yeast.name=Yeast
 tile.contenttweaker.yeast_flour.name=Yeast in the Making
 
@@ -642,7 +643,7 @@ tile.contenttweaker.shale_cobble.name=Shale Cobblestone
 tile.contenttweaker.serpentinite_cobblestone.name=Serpentinite Cobblestone
 tile.contenttweaker.siltstone_cobble.name=Siltstone Cobblestone
 
-tile.contenttweaker.rocky_dirt.name=Rocky Dirt
+tile.contenttweaker.rocky_dirt.name=Rocky Composite Dirt
 tile.contenttweaker.serpentinite.name=Serpentinite
 tile.contenttweaker.weathered_dirt.name=Weathered Dirt
 

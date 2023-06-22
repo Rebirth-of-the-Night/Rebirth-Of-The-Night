@@ -29,8 +29,13 @@ Chopping.addRecipe("minecraft:log", 8, "hitwithaxe:debarked_oak", 2, <hitwithaxe
 Chopping.addRecipe("hitwithaxe:debarked_oak", 32767, <minecraft:planks>);
 recipes.addShaped("oak_boards", <contenttweaker:oak_boards>*8,[
 	[<minecraft:planks>, <minecraft:planks>, <minecraft:planks>],
-    [<minecraft:planks>, <minetraps:nails>,<minecraft:planks>],
+    [<minecraft:planks>, <minetraps:nails>, <minecraft:planks>],
     [<minecraft:planks>, <minecraft:planks>, <minecraft:planks>]
+]);
+recipes.addShaped("oak_lacquered", <contenttweaker:oak_lacquered>*8,[
+	[<contenttweaker:oak_boards>, <contenttweaker:oak_boards>, <contenttweaker:oak_boards>],
+    [<contenttweaker:oak_boards>, <pyrotech:material:4>, <contenttweaker:oak_boards>],
+    [<contenttweaker:oak_boards>, <contenttweaker:oak_boards>, <contenttweaker:oak_boards>]
 ]);
 
 //Birch
@@ -56,8 +61,13 @@ Chopping.addRecipe("minecraft:log", 10, "hitwithaxe:debarked_birch", 2, <hitwith
 Chopping.addRecipe("hitwithaxe:debarked_birch", 32767, <minecraft:planks:2>);
 recipes.addShaped("birch_boards", <contenttweaker:birch_boards>*8,[
 	[<minecraft:planks:2>, <minecraft:planks:2>, <minecraft:planks:2>],
-    [<minecraft:planks:2>, <minetraps:nails>,	 <minecraft:planks:2>],
+    [<minecraft:planks:2>, <minetraps:nails>, <minecraft:planks:2>],
     [<minecraft:planks:2>, <minecraft:planks:2>, <minecraft:planks:2>]
+]);
+recipes.addShaped("birch_lacquered", <contenttweaker:birch_lacquered>*8,[
+	[<contenttweaker:birch_boards>, <contenttweaker:birch_boards>,<contenttweaker:birch_boards>],
+    [<contenttweaker:birch_boards>, <pyrotech:material:4>, <contenttweaker:birch_boards>],
+    [<contenttweaker:birch_boards>, <contenttweaker:birch_boards>, <contenttweaker:birch_boards>]
 ]);
 
 //Spruce
@@ -86,6 +96,11 @@ recipes.addShaped("spruce_boards", <contenttweaker:spruce_boards>*8,[
     [<minecraft:planks:1>, <minetraps:nails>,	 <minecraft:planks:1>],
     [<minecraft:planks:1>, <minecraft:planks:1>, <minecraft:planks:1>]
 ]);
+recipes.addShaped("spruce_lacquered", <contenttweaker:spruce_lacquered>*8,[
+	[<contenttweaker:spruce_boards>, <contenttweaker:spruce_boards>, <contenttweaker:spruce_boards>],
+    [<contenttweaker:spruce_boards>, <pyrotech:material:4>, <contenttweaker:spruce_boards>],
+    [<contenttweaker:spruce_boards>, <contenttweaker:spruce_boards>, <contenttweaker:spruce_boards>]
+]);
 
 //Jungle
 recipes.removeByRecipeName("minecraft:jungle_planks");
@@ -112,6 +127,11 @@ recipes.addShaped("jungle_boards", <contenttweaker:jungle_boards>*8,[
 	[<minecraft:planks:3>, <minecraft:planks:3>, <minecraft:planks:3>],
     [<minecraft:planks:3>, <minetraps:nails>,	 <minecraft:planks:3>],
     [<minecraft:planks:3>, <minecraft:planks:3>, <minecraft:planks:3>]
+]);
+recipes.addShaped("jungle_lacquered", <contenttweaker:jungle_lacquered>*8,[
+	[<contenttweaker:jungle_boards>, <contenttweaker:jungle_boards>, <contenttweaker:jungle_boards>],
+    [<contenttweaker:jungle_boards>, <pyrotech:material:4>, <contenttweaker:jungle_boards>],
+    [<contenttweaker:jungle_boards>, <contenttweaker:jungle_boards>, <contenttweaker:jungle_boards>]
 ]);
 
 //Dark Oak
@@ -140,6 +160,11 @@ recipes.addShaped("dark_oak_boards", <contenttweaker:dark_oak_boards>*8,[
     [<minecraft:planks:5>, <minetraps:nails>,	 <minecraft:planks:5>],
     [<minecraft:planks:5>, <minecraft:planks:5>, <minecraft:planks:5>]
 ]);
+recipes.addShaped("dark_oak_lacquered", <contenttweaker:dark_oak_lacquered>*8,[
+	[<contenttweaker:dark_oak_boards>, <contenttweaker:dark_oak_boards>, <contenttweaker:dark_oak_boards>],
+    [<contenttweaker:dark_oak_boards>, <pyrotech:material:4>, <contenttweaker:dark_oak_boards>],
+    [<contenttweaker:dark_oak_boards>, <contenttweaker:dark_oak_boards>, <contenttweaker:dark_oak_boards>]
+]);
 
 //Acacia
 recipes.removeByRecipeName("minecraft:acacia_planks");
@@ -166,6 +191,11 @@ recipes.addShaped("acacia_boards", <contenttweaker:acacia_boards>*8,[
 	[<minecraft:planks:4>, <minecraft:planks:4>, <minecraft:planks:4>],
     [<minecraft:planks:4>, <minetraps:nails>,	 <minecraft:planks:4>],
     [<minecraft:planks:4>, <minecraft:planks:4>, <minecraft:planks:4>]
+]);
+recipes.addShaped("acacia_lacquered", <contenttweaker:acacia_lacquered>*8,[
+	[<contenttweaker:acacia_boards>, <contenttweaker:acacia_boards>, <contenttweaker:acacia_boards>],
+    [<contenttweaker:acacia_boards>, <pyrotech:material:4>, <contenttweaker:acacia_boards>],
+    [<contenttweaker:acacia_boards>, <contenttweaker:acacia_boards>, <contenttweaker:acacia_boards>]
 ]);
 
 //Spectre
@@ -200,6 +230,11 @@ recipes.addShaped("olive_boards", <contenttweaker:olive_boards>*8,[
     [<rustic:planks>, <minetraps:nails>,<rustic:planks>],
     [<rustic:planks>, <rustic:planks>, 	  <rustic:planks>]
 ]);
+recipes.addShaped("olive_lacquered", <contenttweaker:olive_lacquered>*8,[
+	[<contenttweaker:olive_boards>, <contenttweaker:olive_boards>, <contenttweaker:olive_boards>],
+    [<contenttweaker:olive_boards>, <pyrotech:material:4>, <contenttweaker:olive_boards>],
+    [<contenttweaker:olive_boards>, <contenttweaker:olive_boards>,  <contenttweaker:olive_boards>]
+]);
 
 // Ironwood
 recipes.removeByRecipeName("rustic:ironwood_planks");
@@ -226,6 +261,11 @@ recipes.addShaped("ironwood_boards", <contenttweaker:ironwood_boards>*8,[
 	[<rustic:planks:1>, <rustic:planks:1>,	  <rustic:planks:1>],
     [<rustic:planks:1>, <minetraps:nails>,  <rustic:planks:1>],
     [<rustic:planks:1>, <rustic:planks:1>, 	  <rustic:planks:1>]
+]);
+recipes.addShaped("ironwood_lacquered", <contenttweaker:ironwood_lacquered>*8,[
+	[<contenttweaker:ironwood_boards>, <contenttweaker:ironwood_boards>, <contenttweaker:ironwood_boards>],
+    [<contenttweaker:ironwood_boards>, <pyrotech:material:4>, <contenttweaker:ironwood_boards>],
+    [<contenttweaker:ironwood_boards>, <contenttweaker:ironwood_boards>, <contenttweaker:ironwood_boards>]
 ]);
 
 // Sacred Oak
@@ -254,6 +294,11 @@ recipes.addShaped("sacred_oak_boards", <contenttweaker:sacred_oak_boards>*8,[
     [<biomesoplenty:planks_0:0>, <minetraps:nails>,  		 <biomesoplenty:planks_0:0>],
     [<biomesoplenty:planks_0:0>, <biomesoplenty:planks_0:0>, <biomesoplenty:planks_0:0>]
 ]);
+recipes.addShaped("sacred_oak_lacquered", <contenttweaker:sacred_oak_lacquered>*8,[
+	[<contenttweaker:sacred_oak_boards>, <contenttweaker:sacred_oak_boards>, <contenttweaker:sacred_oak_boards>],
+    [<contenttweaker:sacred_oak_boards>, <pyrotech:material:4>, <contenttweaker:sacred_oak_boards>],
+    [<contenttweaker:sacred_oak_boards>, <contenttweaker:sacred_oak_boards>, <contenttweaker:sacred_oak_boards>]
+]);
 
 // Cherry
 recipes.removeByRecipeName("biomesoplenty:cherry_planks");
@@ -280,6 +325,11 @@ recipes.addShaped("cherry_boards", <contenttweaker:cherry_boards>*8,[
 	[<biomesoplenty:planks_0:1>, <biomesoplenty:planks_0:1>, <biomesoplenty:planks_0:1>],
     [<biomesoplenty:planks_0:1>, <minetraps:nails>,  		 <biomesoplenty:planks_0:1>],
     [<biomesoplenty:planks_0:1>, <biomesoplenty:planks_0:1>, <biomesoplenty:planks_0:1>]
+]);
+recipes.addShaped("cherry_lacquered", <contenttweaker:cherry_lacquered>*8,[
+	[<contenttweaker:cherry_boards>, <contenttweaker:cherry_boards>, <contenttweaker:cherry_boards>],
+    [<contenttweaker:cherry_boards>, <pyrotech:material:4>, <contenttweaker:cherry_boards>],
+    [<contenttweaker:cherry_boards>, <contenttweaker:cherry_boards>, <contenttweaker:cherry_boards>]
 ]);
 
 // Umbran
@@ -308,6 +358,11 @@ recipes.addShaped("umbran_boards", <contenttweaker:umbran_boards>*8,[
     [<biomesoplenty:planks_0:2>, <minetraps:nails>,  		 <biomesoplenty:planks_0:2>],
     [<biomesoplenty:planks_0:2>, <biomesoplenty:planks_0:2>, <biomesoplenty:planks_0:2>]
 ]);
+recipes.addShaped("umbran_lacquered", <contenttweaker:umbran_lacquered>*8,[
+	[<contenttweaker:umbran_boards>, <contenttweaker:umbran_boards>, <contenttweaker:umbran_boards>],
+    [<contenttweaker:umbran_boards>, <pyrotech:material:4>, <contenttweaker:umbran_boards>],
+    [<contenttweaker:umbran_boards>, <contenttweaker:umbran_boards>, <contenttweaker:umbran_boards>]
+]);
 
 // Fir
 recipes.removeByRecipeName("biomesoplenty:fir_planks");
@@ -334,6 +389,11 @@ recipes.addShaped("fir_boards", <contenttweaker:fir_boards>*8,[
 	[<biomesoplenty:planks_0:3>, <biomesoplenty:planks_0:3>, <biomesoplenty:planks_0:3>],
     [<biomesoplenty:planks_0:3>, <minetraps:nails>,  		 <biomesoplenty:planks_0:3>],
     [<biomesoplenty:planks_0:3>, <biomesoplenty:planks_0:3>, <biomesoplenty:planks_0:3>]
+]);
+recipes.addShaped("fir_lacquered", <contenttweaker:fir_lacquered>*8,[
+	[<contenttweaker:fir_boards>, <contenttweaker:fir_boards>, <contenttweaker:fir_boards>],
+    [<contenttweaker:fir_boards>, <pyrotech:material:4>, <contenttweaker:fir_boards>],
+    [<contenttweaker:fir_boards>, <contenttweaker:fir_boards>, <contenttweaker:fir_boards>]
 ]);
 
 // Ethereal
@@ -384,6 +444,11 @@ recipes.addShaped("magic_boards", <contenttweaker:magic_boards>*8,[
     [<biomesoplenty:planks_0:5>, <minetraps:nails>, <biomesoplenty:planks_0:5>],
     [<biomesoplenty:planks_0:5>, <biomesoplenty:planks_0:5>, <biomesoplenty:planks_0:5>]
 ]);
+recipes.addShaped("magic_lacquered", <contenttweaker:magic_lacquered>*8,[
+	[<contenttweaker:magic_boards>, <contenttweaker:magic_boards>, <contenttweaker:magic_boards>],
+    [<contenttweaker:magic_boards>, <minetraps:nails>, <contenttweaker:magic_boards>],
+    [<contenttweaker:magic_boards>, <contenttweaker:magic_boards>, <contenttweaker:magic_boards>]
+]);
 
 // Mangroove
 recipes.removeByRecipeName("biomesoplenty:mangroove_planks");
@@ -410,6 +475,11 @@ recipes.addShaped("bop_mangrove_boards", <contenttweaker:mangrove_boards>*8,[
 	[<biomesoplenty:planks_0:6>, <biomesoplenty:planks_0:6>, <biomesoplenty:planks_0:6>],
     [<biomesoplenty:planks_0:6>, <minetraps:nails>, 		 <biomesoplenty:planks_0:6>],
     [<biomesoplenty:planks_0:6>, <biomesoplenty:planks_0:6>, <biomesoplenty:planks_0:6>]
+]);
+recipes.addShaped("bop_mangrove_lacquered", <contenttweaker:mangrove_lacquered>*8,[
+	[<contenttweaker:mangrove_boards>, <contenttweaker:mangrove_boards>, <contenttweaker:mangrove_boards>],
+    [<contenttweaker:mangrove_boards>, <pyrotech:material:4>, <contenttweaker:mangrove_boards>],
+    [<contenttweaker:mangrove_boards>, <contenttweaker:mangrove_boards>, <contenttweaker:mangrove_boards>]
 ]);
 
 // Palm
@@ -438,6 +508,11 @@ recipes.addShaped("palm_boards", <contenttweaker:palm_boards>*8,[
     [<biomesoplenty:planks_0:7>, <minetraps:nails>, 		 <biomesoplenty:planks_0:7>],
     [<biomesoplenty:planks_0:7>, <biomesoplenty:planks_0:7>, <biomesoplenty:planks_0:7>]
 ]);
+recipes.addShaped("palm_lacquered", <contenttweaker:palm_lacquered>*8,[
+	[<contenttweaker:palm_boards>, <contenttweaker:palm_boards>, <contenttweaker:palm_boards>],
+    [<contenttweaker:palm_boards>, <pyrotech:material:4>, <contenttweaker:palm_boards>],
+    [<contenttweaker:palm_boards>, <contenttweaker:palm_boards>, <contenttweaker:palm_boards>]
+]);
 
 // Redwood
 recipes.removeByRecipeName("biomesoplenty:redwood_planks");
@@ -464,6 +539,11 @@ recipes.addShaped("redwood_boards", <contenttweaker:redwood_boards>*8,[
 	[<biomesoplenty:planks_0:8>, <biomesoplenty:planks_0:8>, <biomesoplenty:planks_0:8>],
     [<biomesoplenty:planks_0:8>, <minetraps:nails>, 		 <biomesoplenty:planks_0:8>],
     [<biomesoplenty:planks_0:8>, <biomesoplenty:planks_0:8>, <biomesoplenty:planks_0:8>]
+]);
+recipes.addShaped("redwood_lacquered", <contenttweaker:redwood_lacquered>*8,[
+	[<contenttweaker:redwood_boards>, <contenttweaker:redwood_boards>, <contenttweaker:redwood_boards>],
+    [<contenttweaker:redwood_boards>, <pyrotech:material:4>, <contenttweaker:redwood_boards>],
+    [<contenttweaker:redwood_boards>, <contenttweaker:redwood_boards>, <contenttweaker:redwood_boards>]
 ]);
 
 // Willow bop
@@ -492,6 +572,11 @@ recipes.addShaped("willow_bop_boards", <contenttweaker:willow_boards>*8,[
     [<biomesoplenty:planks_0:9>, <minetraps:nails>, 		 <biomesoplenty:planks_0:9>],
     [<biomesoplenty:planks_0:9>, <biomesoplenty:planks_0:9>, <biomesoplenty:planks_0:9>]
 ]);
+recipes.addShaped("willow_bop_lacquered", <contenttweaker:willow_lacquered>*8,[
+	[<contenttweaker:willow_boards>, <contenttweaker:willow_boards>, <contenttweaker:willow_boards>],
+    [<contenttweaker:willow_boards>, <pyrotech:material:4>, <contenttweaker:willow_boards>],
+    [<contenttweaker:willow_boards>, <contenttweaker:willow_boards>, <contenttweaker:willow_boards>]
+]);
 
 // Pine
 recipes.removeByRecipeName("biomesoplenty:pine_planks");
@@ -518,6 +603,11 @@ recipes.addShaped("pine_boards", <contenttweaker:pine_boards>*8,[
 	[<biomesoplenty:planks_0:10>, <biomesoplenty:planks_0:10>, <biomesoplenty:planks_0:10>],
     [<biomesoplenty:planks_0:10>, <minetraps:nails>, 		   <biomesoplenty:planks_0:10>],
     [<biomesoplenty:planks_0:10>, <biomesoplenty:planks_0:10>, <biomesoplenty:planks_0:10>]
+]);
+recipes.addShaped("pine_lacquered", <contenttweaker:pine_lacquered>*8,[
+	[<contenttweaker:pine_boards>, <contenttweaker:pine_boards>, <contenttweaker:pine_boards>],
+    [<contenttweaker:pine_boards>, <pyrotech:material:4>, <contenttweaker:pine_boards>],
+    [<contenttweaker:pine_boards>, <contenttweaker:pine_boards>, <contenttweaker:pine_boards>]
 ]);
 
 // Hellbark
@@ -546,6 +636,11 @@ recipes.addShaped("hellbark_boards", <contenttweaker:hellbark_boards>*8,[
     [<biomesoplenty:planks_0:11>, <minetraps:nails>, 		   <biomesoplenty:planks_0:11>],
     [<biomesoplenty:planks_0:11>, <biomesoplenty:planks_0:11>, <biomesoplenty:planks_0:11>]
 ]);
+recipes.addShaped("hellbark_lacquered", <contenttweaker:hellbark_lacquered>*8,[
+	[<contenttweaker:hellbark_boards>, <contenttweaker:hellbark_boards>, <contenttweaker:hellbark_boards>],
+    [<contenttweaker:hellbark_boards>, <pyrotech:material:4>, <contenttweaker:hellbark_boards>],
+    [<contenttweaker:hellbark_boards>, <contenttweaker:hellbark_boards>, <contenttweaker:hellbark_boards>]
+]);
 
 // Jacaranda
 recipes.removeByRecipeName("biomesoplenty:jacaranda_planks");
@@ -572,6 +667,11 @@ recipes.addShaped("jacaranda_boards", <contenttweaker:jacaranda_boards>*8,[
 	[<biomesoplenty:planks_0:12>, <biomesoplenty:planks_0:12>, <biomesoplenty:planks_0:12>],
     [<biomesoplenty:planks_0:12>, <minetraps:nails>, 		   <biomesoplenty:planks_0:12>],
     [<biomesoplenty:planks_0:12>, <biomesoplenty:planks_0:12>, <biomesoplenty:planks_0:12>]
+]);
+recipes.addShaped("jacaranda_lacquered", <contenttweaker:jacaranda_lacquered>*8,[
+	[<contenttweaker:jacaranda_boards>, <contenttweaker:jacaranda_boards>, <contenttweaker:jacaranda_boards>],
+    [<contenttweaker:jacaranda_boards>, <pyrotech:material:4>, <contenttweaker:jacaranda_boards>],
+    [<contenttweaker:jacaranda_boards>, <contenttweaker:jacaranda_boards>, <contenttweaker:jacaranda_boards>]
 ]);
 
 // mahogany
@@ -600,6 +700,11 @@ recipes.addShaped("mahogany_boards", <contenttweaker:mahogany_boards>*8,[
     [<biomesoplenty:planks_0:13>, <minetraps:nails>, 		   <biomesoplenty:planks_0:13>],
     [<biomesoplenty:planks_0:13>, <biomesoplenty:planks_0:13>, <biomesoplenty:planks_0:13>]
 ]);
+recipes.addShaped("mahogany_lacquered", <contenttweaker:mahogany_lacquered>*8,[
+	[<contenttweaker:mahogany_boards>, <contenttweaker:mahogany_boards>, <contenttweaker:mahogany_boards>],
+    [<contenttweaker:mahogany_boards>, <pyrotech:material:4>, <contenttweaker:mahogany_boards>],
+    [<contenttweaker:mahogany_boards>, <contenttweaker:mahogany_boards>, <contenttweaker:mahogany_boards>]
+]);
 
 // Ebony
 recipes.removeByRecipeName("biomesoplenty:ebony_planks");
@@ -627,6 +732,11 @@ recipes.addShaped("ebony_boards", <contenttweaker:ebony_boards>*8,[
     [<biomesoplenty:planks_0:14>, <minetraps:nails>, 		   <biomesoplenty:planks_0:14>],
     [<biomesoplenty:planks_0:14>, <biomesoplenty:planks_0:14>, <biomesoplenty:planks_0:14>]
 ]);
+recipes.addShaped("ebony_lacquered", <contenttweaker:ebony_lacquered>*8,[
+	[<contenttweaker:ebony_boards>, <contenttweaker:ebony_boards>, <contenttweaker:ebony_boards>],
+    [<contenttweaker:ebony_boards>, <pyrotech:material:4>, <contenttweaker:ebony_boards>],
+    [<contenttweaker:ebony_boards>, <contenttweaker:ebony_boards>, <contenttweaker:ebony_boards>]
+]);
 
 // Eucalyptus
 recipes.removeByRecipeName("biomesoplenty:eucalyptus_planks");
@@ -653,6 +763,11 @@ recipes.addShaped("eucalyptus_boards", <contenttweaker:eucalyptus_boards>*8,[
 	[<biomesoplenty:planks_0:15>, <biomesoplenty:planks_0:15>, <biomesoplenty:planks_0:15>],
     [<biomesoplenty:planks_0:15>, <minetraps:nails>, 		   <biomesoplenty:planks_0:15>],
     [<biomesoplenty:planks_0:15>, <biomesoplenty:planks_0:15>, <biomesoplenty:planks_0:15>]
+]);
+recipes.addShaped("eucalyptus_lacquered", <contenttweaker:eucalyptus_lacquered>*8,[
+	[<contenttweaker:eucalyptus_boards>, <contenttweaker:eucalyptus_boards>, <contenttweaker:eucalyptus_boards>],
+    [<contenttweaker:eucalyptus_boards>, <pyrotech:material:4>, <contenttweaker:eucalyptus_boards>],
+    [<contenttweaker:eucalyptus_boards>, <contenttweaker:eucalyptus_boards>, <contenttweaker:eucalyptus_boards>]
 ]);
 
 // Dead
@@ -703,6 +818,11 @@ recipes.addShaped("tenebra_boards", <contenttweaker:tenebra_boards>*8,[
     [<defiledlands:tenebra_planks>, <minetraps:nails>, 		 <defiledlands:tenebra_planks>],
     [<defiledlands:tenebra_planks>, <defiledlands:tenebra_planks>, <defiledlands:tenebra_planks>]
 ]);
+recipes.addShaped("tenebra_lacquered", <contenttweaker:tenebra_lacquered>*8,[
+	[<contenttweaker:tenebra_boards>, <contenttweaker:tenebra_boards>, <contenttweaker:tenebra_boards>],
+    [<contenttweaker:tenebra_boards>, <pyrotech:material:4>, <contenttweaker:tenebra_boards>],
+    [<contenttweaker:tenebra_boards>, <contenttweaker:tenebra_boards>, <contenttweaker:tenebra_boards>]
+]);
 
 // Dreadwood planks
 recipes.removeByRecipeName("iceandfire:dread_wood_planks");
@@ -726,6 +846,11 @@ recipes.addShaped("dreadwood_boards", <contenttweaker:dreadwood_boards>*8,[
     [<iceandfire:dreadwood_planks>, <minetraps:nails>, 		   <iceandfire:dreadwood_planks>],
     [<iceandfire:dreadwood_planks>, <iceandfire:dreadwood_planks>, <iceandfire:dreadwood_planks>]
 ]);
+recipes.addShaped("dreadwood_lacquered", <contenttweaker:dreadwood_lacquered>*8,[
+	[<contenttweaker:dreadwood_boards>, <iceandfire:dreadwood_planks>, <contenttweaker:dreadwood_boards>],
+    [<contenttweaker:dreadwood_boards>, <pyrotech:material:4>, <contenttweaker:dreadwood_boards>],
+    [<contenttweaker:dreadwood_boards>, <iceandfire:dreadwood_planks>, <contenttweaker:dreadwood_boards>]
+]);
 
 // Skyroot planks
 recipes.removeByRecipeName("aether_legacy:skyroot_planks");
@@ -748,6 +873,11 @@ recipes.addShaped("skyroot_boards", <contenttweaker:skywood_boards>*8,[
 	[<aether_legacy:skyroot_plank>, <aether_legacy:skyroot_plank>, <aether_legacy:skyroot_plank>],
     [<aether_legacy:skyroot_plank>, <minetraps:nails>, 		   <aether_legacy:skyroot_plank>],
     [<aether_legacy:skyroot_plank>, <aether_legacy:skyroot_plank>, <aether_legacy:skyroot_plank>]
+]);
+recipes.addShaped("skyroot_lacquered", <contenttweaker:skywood_lacquered>*8,[
+	[<contenttweaker:skywood_boards>, <aether_legacy:skyroot_plank>, <contenttweaker:skywood_boards>],
+    [<contenttweaker:skywood_boards>, <pyrotech:material:4>, <contenttweaker:skywood_boards>],
+    [<contenttweaker:skywood_boards>, <aether_legacy:skyroot_plank>, <contenttweaker:skywood_boards>]
 ]);
 
 // Canopy planks
@@ -878,8 +1008,13 @@ recipes.addHiddenShaped("sort_planks2", <twilightforest:sort_planks>*3,[
 
 // Wyrmwood
 recipes.addShaped("wyrmwood_boards", <contenttweaker:wyrmwood_boards>*8,[
+	[<stygian:endplanks>, <stygian:endplanks>, <stygian:endplanks>],
+    [<stygian:endplanks>, <minetraps:nails>, <stygian:endplanks>],
+    [<stygian:endplanks>, <stygian:endplanks>, <stygian:endplanks>]
+]);
+recipes.addShaped("wyrmwood_lacquered", <contenttweaker:wyrmwood_lacquered>*8,[
 	[<contenttweaker:wyrmwood_boards>, <contenttweaker:wyrmwood_boards>, <contenttweaker:wyrmwood_boards>],
-    [<contenttweaker:wyrmwood_boards>, <minetraps:nails>, 		     <contenttweaker:wyrmwood_boards>],
+    [<contenttweaker:wyrmwood_boards>, <pyrotech:material:4>, <contenttweaker:wyrmwood_boards>],
     [<contenttweaker:wyrmwood_boards>, <contenttweaker:wyrmwood_boards>, <contenttweaker:wyrmwood_boards>]
 ]);
 
