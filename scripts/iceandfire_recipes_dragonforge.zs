@@ -15,3 +15,7 @@ mods.iceandfire.recipes.addIceDragonForgeRecipe(<dungeontactics:steel_ingot>, <i
 // Ender Elevator
 mods.iceandfire.recipes.addFireDragonForgeRecipe(<contenttweaker:elevator>, <quark:blaze_lantern>, <advancedliftingmethods:ultimate_ender_elevator>); 
 mods.iceandfire.recipes.addIceDragonForgeRecipe(<contenttweaker:elevator>, <quark:blaze_lantern>, <advancedliftingmethods:ultimate_ender_elevator>);
+
+//Better Fiery
+mods.iceandfire.recipes.addFireDragonForgeRecipe(<dungeontactics:steel_ingot>, <twilightforest:fiery_tears>, <twilightforest:fiery_ingot>); 
+mods.iceandfire.recipes.addFireDragonForgeRecipe(<dungeontactics:steel_ingot>, <twilightforest:fiery_blood>, <twilightforest:fiery_ingot>);
