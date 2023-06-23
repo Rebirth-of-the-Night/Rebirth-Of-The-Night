@@ -1,0 +1,16 @@
+{
+  "forge_marker": 1,
+  "variants": {
+	"normal": [
+      {
+        "model": "contenttweaker:dark_fruit"
+      }
+    ],
+	"inventory": [
+		{"model": "contenttweaker:item/dark_fruit", "textures": {
+			"layer0": "contenttweaker:items/dark_fruit"
+			}
+		}
+	]
+  }
+}

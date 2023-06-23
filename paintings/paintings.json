@@ -1,36 +1,48 @@
-[
+[    
+	{
+        "motive": "sigil Mono no aware",
+        "width": 1,
+        "height": 1,
+		"isCreative": true
+    },
+	{
+        "motive": "sigil Cantus planus",
+        "width": 1,
+        "height": 1,
+		"isCreative": true
+    },
     {
-        "motive": "Logos_sigil",
+        "motive": "sigil Logos",
         "width": 1,
         "height": 1,
 		"isCreative": true
     },
 	{
-        "motive": "Episteme_sigil",
+        "motive": "sigil Episteme",
         "width": 1,
         "height": 1,
 		"isCreative": true
     },
 	{
-        "motive": "Kinisi_sigil",
+        "motive": "sigil Kinisi",
         "width": 1,
         "height": 1,
 		"isCreative": true
     },
 	{
-        "motive": "Soter_sigil",
+        "motive": "sigil Soter",
         "width": 1,
         "height": 1,
 		"isCreative": true
     },
 	{
-        "motive": "Fatum_sigil",
+        "motive": "sigil Fatum",
         "width": 1,
         "height": 1,
 		"isCreative": true
     },
 	{
-        "motive": "ritual_of_below",
+        "motive": "Ritual of Below",
         "width": 2,
         "height": 2,
 		"isCreative": true
@@ -42,7 +54,7 @@
 		"isCreative": true
     },
 	{
-        "motive": "yearn",
+        "motive": "Yearn",
         "width": 4,
         "height": 3,
 		"isCreative": true
@@ -73,6 +85,9 @@
     },
 	{
         "motive": "Minetta Stone",
+		"textures": {
+            "back": "paintings:null"
+        },
         "width": 4,
         "height": 6,
 		"isCreative": true
@@ -103,36 +118,51 @@
     },
 	{
         "motive": "fox",
+		"textures": {
+            "back": "paintings:null"
+        },
         "width": 1,
         "height": 1,
 		"isCreative": false
     },
 	{
-        "motive": "Grass",
+        "motive": "grass",
+		"textures": {
+            "back": "paintings:null"
+        },
         "width": 1,
         "height": 1,
 		"isCreative": false
     },
 	{
-        "motive": "Trapped_soul",
+        "motive": "Trapped Soul",
         "width": 1,
         "height": 1,
 		"isCreative": false
     },
 	{
         "motive": "s",
+		"textures": {
+            "back": "paintings:null"
+        },
         "width": 1,
         "height": 1,
 		"isCreative": false
     },
 	{
         "motive": "biohazard",
+		"textures": {
+            "back": "paintings:null"
+        },
         "width": 1,
         "height": 1,
 		"isCreative": false
     },
 	{
         "motive": "barrier",
+		"textures": {
+            "back": "paintings:null"
+        },
         "width": 1,
         "height": 1,
 		"isCreative": false
@@ -144,67 +174,88 @@
 		"isCreative": false
     },
 	{
-        "motive": "cooking_implements",
+        "motive": "cooking implements",
+		"textures": {
+            "back": "paintings:null"
+        },
         "width": 1,
         "height": 1,
 		"isCreative": false
     },
 	{
-        "motive": "parallel_to_one_pipe",
+        "motive": "pipes - parallel to one",
+		"textures": {
+            "back": "paintings:null"
+        },
         "width": 2,
         "height": 1,
 		"isCreative": false
     },
 	{
-        "motive": "one_to_parallel_pipes",
+        "motive": "pipes - one to parallel",
+		"textures": {
+            "back": "paintings:null"
+        },
         "width": 2,
         "height": 1,
 		"isCreative": false
     },
 	{
-        "motive": "parallel_pipes",
+        "motive": "pipes - parallel",
+		"textures": {
+            "back": "paintings:null"
+        },
         "width": 2,
         "height": 1,
 		"isCreative": false
     },
 	{
-        "motive": "parallel_downward_pipes",
+        "motive": "pipes - parallel downward",
+		"textures": {
+            "back": "paintings:null"
+        },
         "width": 2,
         "height": 1,
 		"isCreative": false
     },
 	{
-        "motive": "down_to_right_pipes",
+        "motive": "pipes - down to right",
+		"textures": {
+            "back": "paintings:null"
+        },
         "width": 1,
         "height": 2,
 		"isCreative": false
     },
 	{
-        "motive": "crafting_tools",
+        "motive": "crafting tools",
+		"textures": {
+            "back": "paintings:null"
+        },
         "width": 2,
         "height": 1,
 		"isCreative": false
     },
 	{
-        "motive": "crafting_tools",
-        "width": 2,
-        "height": 1,
-		"isCreative": false
-    },
-	{
-        "motive": "go_away",
+        "motive": "sign - go away",
+		"textures": {
+            "back": "paintings:null"
+        },
         "width": 3,
         "height": 1,
 		"isCreative": false
     },
 	{
-        "motive": "keep_out",
+        "motive": "sign - keep out",
+		"textures": {
+            "back": "paintings:null"
+        },
         "width": 3,
         "height": 1,
 		"isCreative": false
     },
 	{
-        "motive": "The_titans_small",
+        "motive": "The Titans Small",
         "width": 2,
         "height": 1,
 		"isCreative": false
@@ -216,7 +267,7 @@
 		"isCreative": false
     },
 	{
-        "motive": "Happy_creebet",
+        "motive": "Happy Creebet",
         "width": 2,
         "height": 1,
 		"isCreative": false
@@ -228,7 +279,10 @@
 		"isCreative": false
     },
 	{
-        "motive": "ender_letters",
+        "motive": "ender letters",
+		"textures": {
+            "back": "paintings:null"
+        },
         "width": 1,
         "height": 2,
 		"isCreative": false
@@ -252,7 +306,10 @@
 		"isCreative": false
     },
 	{
-        "motive": "gold_spear",
+        "motive": "gold spear",
+		"textures": {
+            "back": "paintings:null"
+        },
         "width": 3,
         "height": 1,
 		"isCreative": false
@@ -270,13 +327,13 @@
 		"isCreative": false
     },
 	{
-        "motive": "sunset_vista",
+        "motive": "Sunset Vista",
         "width": 4,
         "height": 1,
 		"isCreative": false
     },
 	{
-        "motive": "lighthouse_vista",
+        "motive": "Lighthouse Vista",
         "width": 4,
         "height": 1,
 		"isCreative": false
@@ -324,31 +381,31 @@
 		"isCreative": false
     },
 	{
-        "motive": "banner_drake",
+        "motive": "Banner Drake",
         "width": 1,
         "height": 3,
 		"isCreative": false
     },
 	{
-        "motive": "banner_lion",
+        "motive": "banner Lion",
         "width": 1,
         "height": 3,
 		"isCreative": false
     },
 	{
-        "motive": "banner_gryph",
+        "motive": "banner Gryph",
         "width": 1,
         "height": 3,
 		"isCreative": false
     },
 	{
-        "motive": "banner_witha",
+        "motive": "banner Witha",
         "width": 1,
         "height": 3,
 		"isCreative": false
     },
 	{
-        "motive": "old_tapestry_red",
+        "motive": "ornate tapestry - red",
         "width": 1,
         "height": 2,
 		"isCreative": false
@@ -360,49 +417,58 @@
 		"isCreative": false
     },
 	{
-        "motive": "old_tapestry_cyan",
+        "motive": "ornate tapestry - cyan",
         "width": 3,
         "height": 2,
 		"isCreative": false
     },
 	{
-        "motive": "old_tapestry_orange",
+        "motive": "ornate tapestry - orange",
         "width": 3,
         "height": 2,
 		"isCreative": false
     },
 	{
-        "motive": "dead_head_graffiti",
+        "motive": "grafitti - arrow head",
+		"textures": {
+            "back": "paintings:null"
+        },
         "width": 3,
         "height": 2,
 		"isCreative": false
     },
 	{
-        "motive": "shop_graffiti",
+        "motive": "grafitti - shop",
+		"textures": {
+            "back": "paintings:null"
+        },
         "width": 3,
         "height": 2,
 		"isCreative": false
     },
 	{
-        "motive": "shop_sign",
+        "motive": "sign - shop",
+		"textures": {
+            "back": "paintings:null"
+        },
         "width": 3,
         "height": 2,
 		"isCreative": false
     },
 	{
-        "motive": "jungle_spider_vanguard",
+        "motive": "Jungle Spider Vanguard",
         "width": 3,
         "height": 2,
 		"isCreative": false
     },
 	{
-        "motive": "The_great_wave_of_kanagawa",
+        "motive": "The Great Wave of Kanagawa",
         "width": 3,
         "height": 2,
 		"isCreative": false
     },
 	{
-        "motive": "The_ambassadors",
+        "motive": "The Ambassadors",
         "width": 3,
         "height": 2,
 		"isCreative": false
@@ -420,7 +486,7 @@
 		"isCreative": false
     },
 	{
-        "motive": "papyrus_Tree_of_life",
+        "motive": "papyrus - Tree of Life",
         "width": 3,
         "height": 2,
 		"isCreative": false
@@ -432,7 +498,7 @@
 		"isCreative": false
     },
 	{
-        "motive": "fog_weaver",
+        "motive": "Fog Weaver",
         "width": 2,
         "height": 3,
 		"isCreative": false
@@ -444,7 +510,7 @@
 		"isCreative": false
     },
 	{
-        "motive": "Harvinger",
+        "motive": "Harbinger",
         "width": 2,
         "height": 3,
 		"isCreative": false
@@ -456,19 +522,19 @@
 		"isCreative": false
     },
 	{
-        "motive": "Minecraft_gothic",
+        "motive": "Minecraft Gothic",
         "width": 2,
         "height": 3,
 		"isCreative": false
     },
 	{
-        "motive": "sky_dragon",
+        "motive": "Sky Dragon",
         "width": 2,
         "height": 3,
 		"isCreative": false
     },
 	{
-        "motive": "The_scream",
+        "motive": "The Scream",
         "width": 2,
         "height": 3,
 		"isCreative": false
@@ -480,25 +546,25 @@
 		"isCreative": false
     },
 	{
-        "motive": "castle_in_the_occasus",
+        "motive": "Castle in the Occasus",
         "width": 3,
         "height": 3,
 		"isCreative": false
     },
 	{
-        "motive": "castle_in_the_twilight",
+        "motive": "Castle in the Twilight",
         "width": 3,
         "height": 3,
 		"isCreative": false
     },
 	{
-        "motive": "starry_night",
+        "motive": "Starry Night",
         "width": 3,
         "height": 3,
 		"isCreative": false
     },
 	{
-        "motive": "pesistence_of_time",
+        "motive": "Pesistence of Time",
         "width": 3,
         "height": 3,
 		"isCreative": false
@@ -516,25 +582,25 @@
 		"isCreative": false
     },
 	{
-        "motive": "Ghast_god",
+        "motive": "Ur",
         "width": 4,
         "height": 2,
 		"isCreative": false
     },
 	{
-        "motive": "the_gentle_beast",
+        "motive": "The Gentle Beast",
         "width": 4,
         "height": 2,
 		"isCreative": false
     },
 	{
-        "motive": "On_guard",
+        "motive": "On Guard",
         "width": 4,
         "height": 2,
 		"isCreative": false
     },
 	{
-        "motive": "Saturn_devouring_his_son",
+        "motive": "Saturn Devouring His Son",
         "width": 2,
         "height": 4,
 		"isCreative": false
@@ -552,31 +618,31 @@
 		"isCreative": false
     },
 	{
-        "motive": "Firelink_shrine",
+        "motive": "Firelink Shrine",
         "width": 4,
         "height": 3,
 		"isCreative": false
     },
 	{
-        "motive": "sky_map_of_rim",
+        "motive": "Sky map of Rim",
         "width": 4,
         "height": 3,
 		"isCreative": false
     },
 	{
-        "motive": "Blood_moon",
+        "motive": "Blood Moon",
         "width": 4,
         "height": 3,
 		"isCreative": false
     },
 	{
-        "motive": "Soul_of_the_warrior",
+        "motive": "Soul of the Warrior",
         "width": 4,
         "height": 3,
 		"isCreative": false
     },
 	{
-        "motive": "The_titans",
+        "motive": "The Titans",
         "width": 4,
         "height": 3,
 		"isCreative": false
@@ -594,13 +660,13 @@
 		"isCreative": false
     },
 	{
-        "motive": "Turin_Turambar",
+        "motive": "Turin Turambar",
         "width": 3,
         "height": 4,
 		"isCreative": false
     },
 	{
-        "motive": "Mona_Lisa",
+        "motive": "Mona Lisa",
         "width": 3,
         "height": 4,
 		"isCreative": false
@@ -636,55 +702,61 @@
 		"isCreative": true
     },
 	{
-        "motive": "supporter_blu_toon_a",
+        "motive": "Supporter - Blu Toon - a",
         "width": 3,
         "height": 2,
 		"isCreative": false
     },
 	{
-        "motive": "supporter_blu_toon_b",
+        "motive": "Supporter - Blu Toon - b",
         "width": 3,
         "height": 2,
 		"isCreative": false
     },
 	{
-        "motive": "supporter_akkiruk",
+        "motive": "Supporter - Akkiruk",
         "width": 2,
         "height": 3,
 		"isCreative": false
     },
 	{
-        "motive": "supporter_kate",
+        "motive": "Supporter - Kate",
         "width": 3,
         "height": 4,
 		"isCreative": false
     },
 	{
-        "motive": "helper_john",
+        "motive": "Helper - John",
         "width": 2,
         "height": 3,
 		"isCreative": false
     },
 	{
-        "motive": "helper_providence_daemon",
+        "motive": "Ex-dev - Mari",
         "width": 2,
         "height": 3,
 		"isCreative": false
     },
 	{
-        "motive": "ex_dev_mari",
+        "motive": "Ex-dev - Moondiver",
         "width": 2,
         "height": 3,
 		"isCreative": false
     },
 	{
-        "motive": "ex_dev_moondiver",
+        "motive": "Dev - Foreck",
         "width": 2,
         "height": 3,
 		"isCreative": false
     },
 	{
-        "motive": "dev_foreck",
+        "motive": "Dev - Ozymandias",
+        "width": 2,
+        "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "Dev - Providence Daemon",
         "width": 2,
         "height": 3,
 		"isCreative": false
