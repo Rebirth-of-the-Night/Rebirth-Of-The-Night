@@ -980,5 +980,18 @@
 		"player": true,
 		"item": "iceandfire:dread_shard",
 		"itemcount": "2"
+	},
+
+	//I'M CRAZZZZZZZZZZZZY
+	{
+		"mob":["ancientbeasts:giant"],
+		"player": true,
+		"item": "exsartagine:pan",
+		"random": "0.05",
+		"nbt": {
+			"display":{
+				"Lore":	["Why did I give that giant my pan? BECAUSE I'M CRAZZZZZZZZZZZZZZZZY!"]
+			}
+		}
 	}
 ]
