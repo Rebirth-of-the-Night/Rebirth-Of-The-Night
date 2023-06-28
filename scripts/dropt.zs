@@ -289,7 +289,7 @@ Dropt.list("native_copper_red")
 Dropt.list("Well_Worth")
 
   .add(Dropt.rule()
-      .matchBlocks(["harvestcraft:well"])
+      .matchBlocks(["well:well"])
       .dropStrategy("UNIQUE")
       .dropCount(Dropt.range(2))
 	  .addDrop(Dropt.drop()

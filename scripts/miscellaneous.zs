@@ -57,6 +57,14 @@ recipes.addShapedMirrored("black_tapestry", <contenttweaker:tapestry_black>*4, [
     [null, <ore:woolBlack>, null]
 ]);
 
+//Well
+recipes.remove(<well:well>);
+recipes.addShaped("water_well", <well:well>,[
+	[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
+    [<contenttweaker:masonry_brick>, <betterwithmods:bucket>, <contenttweaker:masonry_brick>],
+    [<contenttweaker:masonry_brick>, <betterwithmods:screw_pump>, <contenttweaker:masonry_brick>]
+]);
+
 // assorted hiding
 
 # minecraft
