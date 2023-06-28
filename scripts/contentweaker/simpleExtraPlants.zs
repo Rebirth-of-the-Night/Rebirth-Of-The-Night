@@ -208,6 +208,7 @@ dark_fruit.setFullBlock(false);
 dark_fruit.setReplaceable(false);
 dark_fruit.setLightOpacity(0);
 dark_fruit.setLightValue(0.5);
+dark_fruit.setBlockLayer("CUTOUT");
 dark_fruit.setBlockSoundType(<soundtype:plant>);
 dark_fruit.setToolClass("none");
 dark_fruit.register();
