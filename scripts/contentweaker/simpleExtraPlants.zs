@@ -205,9 +205,9 @@ dark_fruit.axisAlignedBB = AxisAlignedBB.create(
 dark_fruit.setBlockHardness(3.0);
 dark_fruit.setBlockResistance(2.0);
 dark_fruit.setFullBlock(false);
-clover4.setReplaceable(false);
+dark_fruit.setReplaceable(false);
 dark_fruit.setLightOpacity(0);
-clover4.setLightValue(0.3);
+dark_fruit.setLightValue(0.5);
 dark_fruit.setBlockSoundType(<soundtype:plant>);
 dark_fruit.setToolClass("none");
 dark_fruit.register();

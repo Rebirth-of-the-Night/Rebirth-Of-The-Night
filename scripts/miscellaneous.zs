@@ -36,6 +36,26 @@ recipes.addShapedMirrored("cyan_tapestry", <contenttweaker:tapestry_cyan>*4, [
 	[<ore:woolCyan>, null, <ore:woolCyan>],
     [null, <ore:woolCyan>, null]
 ]);
+recipes.addShapedMirrored("white_tapestry", <contenttweaker:tapestry_white>*4, [
+    [null, <ore:woolWhite>, null],
+	[<ore:woolWhite>, null, <ore:woolWhite>],
+    [null, <ore:woolWhite>, null]
+]);
+recipes.addShapedMirrored("orange_tapestry", <contenttweaker:tapestry_orange>*4, [
+    [null, <ore:woolOrange>, null],
+	[<ore:woolOrange>, null, <ore:woolOrange>],
+    [null, <ore:woolOrange>, null]
+]);
+recipes.addShapedMirrored("blue_tapestry", <contenttweaker:tapestry_blue>*4, [
+    [null, <ore:woolBlue>, null],
+	[<ore:woolBlue>, null, <ore:woolBlue>],
+    [null, <ore:woolBlue>, null]
+]);
+recipes.addShapedMirrored("black_tapestry", <contenttweaker:tapestry_black>*4, [
+    [null, <ore:woolBlack>, null],
+	[<ore:woolBlack>, null, <ore:woolBlack>],
+    [null, <ore:woolBlack>, null]
+]);
 
 // assorted hiding
 

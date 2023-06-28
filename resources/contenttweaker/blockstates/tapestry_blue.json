@@ -2,8 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "all": "contenttweaker:blocks/voided_rock",
-      "particle": "contenttweaker:blocks/voided_rock"
+      "all": "contenttweaker:blocks/tapestry/tapestry_blue",
+      "particle": "contenttweaker:blocks/tapestry/tapestry_blue"
     },
     "model": "contenttweaker:base_block",
     "uvlock": true,
