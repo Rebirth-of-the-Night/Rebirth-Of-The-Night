@@ -94,15 +94,21 @@ val cob = <earthworks:block_cob>;
 val cob_item = <earthworks:item_cob>;
 val log = <ore:logWood>;
 val rammed = <contenttweaker:rammed_earth_vanilla_dirt>;
+val rammed_stairs = <earthworks:stair_rammed_earth>;
+val rammed_slab = <earthworks:itemslab_rammed_earth>;
+val rammed_wall = <earthworks:wall_rammed_earth>;
 val rammed_loamy = <contenttweaker:rammed_earth_loamy_dirt>;
 val loamy_stairs = <quark:stone_andesite_bricks_stairs>;
 val loamy_slab = <quark:stone_andesite_bricks_slab>;
+val loamy_wall = <quark:stone_andesite_bricks_wall>;
 val rammed_sandy = <contenttweaker:rammed_earth_sandy_dirt>;
 val sandy_stairs = <quark:stone_diorite_bricks_stairs>;
 val sandy_slab = <quark:stone_diorite_bricks_slab>;
+val sandy_wall = <quark:stone_diorite_bricks_wall>;
 val rammed_silty = <contenttweaker:rammed_earth_silty_dirt>;
 val silty_stairs = <quark:stone_granite_bricks_stairs>;
 val silty_slab = <quark:stone_granite_bricks_slab>;
+val silty_wall = <quark:stone_granite_bricks_wall>;
 val sandPile = <ore:pileSand>;
 val timber = <earthworks:item_timber>;
 val wattle = <earthworks:block_wattle>;
@@ -166,6 +172,31 @@ recipes.addShapedMirrored("timber",timber*12,[
 
 // Rammed Earth
 recipes.remove(<earthworks:block_rammed_earth>); // Gets rammed using compactor in pyrotech_recipes_other.zs
+// Rammed
+recipes.addShaped("stairs_rammed",rammed*3,[
+    [rammed_stairs,rammed_stairs],
+	[rammed_stairs,rammed_stairs]
+]);
+recipes.addShaped("slabs_rammed",rammed*1,[
+    [rammed_slab,rammed_slab]
+]);
+recipes.addShaped("rammed_stairs1",rammed_stairs*8,[
+    [rammed, null, null],
+	[rammed, rammed, null],
+	[rammed, rammed, rammed]
+]);
+recipes.addShaped("rammed_stairs2",rammed_stairs*4,[
+    [rammed_slab, null, null],
+	[rammed_slab, rammed_slab, null],
+	[rammed_slab, rammed_slab, rammed_slab]
+]);
+recipes.addShaped("rammed_slab",rammed_slab*6,[
+	[rammed, rammed, rammed]
+]);
+recipes.addShaped("rammed_wall",rammed_wall*6,[
+	[rammed, rammed, rammed],
+	[rammed, rammed, rammed]
+]);
 // Rammed Loamy
 recipes.addShaped("stairs_rammed_loamy",rammed_loamy*3,[
     [loamy_stairs,loamy_stairs],
@@ -185,6 +216,10 @@ recipes.addShaped("rammed_loamy_stairs2",loamy_stairs*4,[
 	[loamy_slab, loamy_slab, loamy_slab]
 ]);
 recipes.addShaped("rammed_loamy_slab",loamy_slab*6,[
+	[rammed_loamy, rammed_loamy, rammed_loamy]
+]);
+recipes.addShaped("rammed_loamy_wall",loamy_wall*6,[
+	[rammed_loamy, rammed_loamy, rammed_loamy],
 	[rammed_loamy, rammed_loamy, rammed_loamy]
 ]);
 // rammed sandy
@@ -208,6 +243,10 @@ recipes.addShaped("rammed_sandy_stairs2",sandy_stairs*4,[
 recipes.addShaped("rammed_sandy_slab",sandy_slab*6,[
 	[rammed_sandy, rammed_sandy, rammed_sandy]
 ]);
+recipes.addShaped("rammed_sandy_wall",sandy_wall*6,[
+	[rammed_sandy, rammed_sandy, rammed_sandy],
+	[rammed_sandy, rammed_sandy, rammed_sandy]
+]);
 // rammed silty
 recipes.addShaped("stairs_rammed_silty",rammed_silty*3,[
     [silty_stairs,silty_stairs],
@@ -227,6 +266,10 @@ recipes.addShaped("rammed_silty_stairs2",silty_stairs*4,[
 	[silty_slab, silty_slab, silty_slab]
 ]);
 recipes.addShaped("rammed_silty_slab",silty_slab*6,[
+	[rammed_silty, rammed_silty, rammed_silty]
+]);
+recipes.addShaped("rammed_silty_wall",silty_wall*6,[
+	[rammed_silty, rammed_silty, rammed_silty],
 	[rammed_silty, rammed_silty, rammed_silty]
 ]);
 
