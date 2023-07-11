@@ -43,7 +43,6 @@ tile.contenttweaker.codex_junk.name=Discarded Codex
 tile.contenttweaker.columnar_jointing_red_granite.name=Red Granite Columnar Jointing
 tile.contenttweaker.copper_patined.name=Patinated Copper
 tile.contenttweaker.copper_plate.name=Copper Plate
-tile.contenttweaker.crucible.name=Unfired Crucible
 tile.contenttweaker.dark_oak_boards.name=Dark Oak Nailed Boards
 tile.contenttweaker.dark_oak_lacquered.name=Dark Oak Lacquered Boards
 tile.contenttweaker.dhvara_knot.name=Knotted Dhvara
@@ -109,7 +108,6 @@ tile.contenttweaker.petal_blue_big_flower.name=Giant Blue Flower Petal
 tile.contenttweaker.pine_boards.name=Pine Nailed Boards
 tile.contenttweaker.pine_lacquered.name=Pine Lacquered Boards
 tile.contenttweaker.planarspsp2.name=Worldspine
-tile.contenttweaker.pot_unfired.name=Unfired Pot
 tile.contenttweaker.raw_ferrought_block.name=Raw Ferrought Block
 tile.contenttweaker.raw_wrought_iron.name=Ancient Wrought Iron
 tile.contenttweaker.redwood_boards.name=Redwood Nailed Boards
@@ -156,10 +154,6 @@ tile.contenttweaker.tenebra_lacquered.name=Tenebra Lacquered Boards
 tile.contenttweaker.tin_plate.name=Tin Plate
 tile.contenttweaker.umbran_boards.name=Umbran Nailed Boards
 tile.contenttweaker.umbran_lacquered.name=Umbran Lacquered Boards
-tile.contenttweaker.unfired_clay_collector.name=Unfired Clay Collector
-tile.contenttweaker.unfired_clay_drain.name=Unfired Clay Drain
-tile.contenttweaker.unfired_clay_faucet.name=Unfired Clay Faucet
-tile.contenttweaker.unfiredrefractory.name=Unfired Refractory Block
 tile.contenttweaker.venerable_stump.name=Venerable Stump
 tile.contenttweaker.void_block.name=Unflame
 tile.contenttweaker.voided_rock.name=Voided Rock
@@ -314,12 +308,6 @@ tile.contenttweaker.lunarinsfsbrick.name=Lunarin Style Soulforged Steel Brick
 tile.contenttweaker.lunarinsilverbrick.name=Lunarin Style Silver Brick
 tile.contenttweaker.lunarinsteelbrick.name=Lunarin Style Steel Brick
 tile.contenttweaker.lunarinviridiumbrick.name=Lunarin Style Viridium Brick
-
-tile.contenttweaker.unfired_adobe_brick.name=Unfired Adobe Brick
-tile.contenttweaker.unfired_mud_brick.name=Unfired Mud Brick
-tile.contenttweaker.unfired_fiery_brick.name=Unfired Fiery Brick
-tile.contenttweaker.unfired_refractory_brick.name=Unfired Refractory Brick
-tile.contenttweaker.unfired_porcelain_brick.name=Unfired Porcelain Brick
 
 tile.contenttweaker.loose_adobe_bricks.name=Loose Adobe Bricks
 tile.contenttweaker.loose_basalt_nether_bricks.name=Loose Nether Basalt Bricks
@@ -592,6 +580,10 @@ item.contenttweaker.xp_tome_arcane.name=Experience Codex
 
 item.contenttweaker.abyss_pizza.name=Abyss Pizza
 item.contenttweaker.cooking_kit.name=Cooking Kit
+item.contenttweaker.cooking_kit_quality.name=Quality Cooking Kit
+item.contenttweaker.cooking_kit_elite.name=Elite Cooking Kit
+item.contenttweaker.cooking_kit_premium.name=Premium Cooking Kit
+item.contenttweaker.cooking_kit_master.name=Master Cooking Kit
 item.contenttweaker.cattail_root_raw.name=Raw Cattail Root
 item.contenttweaker.cattail_root_cooked.name=Cooked Cattail Root
 item.contenttweaker.ground_beef.name=Ground Beef
@@ -713,3 +705,24 @@ tile.contenttweaker.viridea.name=Viridea
 #------------------------------------------------------------------------------
 
 item.contenttweaker.stream_crown.name=Soul of Blue Fire
+
+#------------------------------------------------------------------------------
+# Unfired Items
+#------------------------------------------------------------------------------
+
+tile.contenttweaker.crucible.name=Unfired Crucible
+tile.contenttweaker.unfired_cooking_pot.name=Unfired Cooking Pot
+tile.contenttweaker.unfired_drying_basin.name=Unfired Drying Basin
+tile.contenttweaker.unfired_flower_pot.name=Unfired Flower Pot
+tile.contenttweaker.pot_unfired.name=Unfired Pot
+tile.contenttweaker.unfired_clay_collector.name=Unfired Clay Collector
+tile.contenttweaker.unfired_clay_drain.name=Unfired Clay Drain
+tile.contenttweaker.unfired_clay_faucet.name=Unfired Clay Faucet
+tile.contenttweaker.unfiredrefractory.name=Unfired Refractory Block
+item.contenttweaker.unfired_totem_base.name=Unfired Totem Base
+
+tile.contenttweaker.unfired_adobe_brick.name=Unfired Adobe Brick
+tile.contenttweaker.unfired_mud_brick.name=Unfired Mud Brick
+tile.contenttweaker.unfired_fiery_brick.name=Unfired Fiery Brick
+tile.contenttweaker.unfired_refractory_brick.name=Unfired Refractory Brick
+tile.contenttweaker.unfired_porcelain_brick.name=Unfired Porcelain Brick

@@ -26,7 +26,3 @@ harvestcraft:grapeitem
 harvestcraft:grapeseeditem
 harvestcraft:greengrapeitem
 harvestcraft:greengrapeseeditem
-harvestcraft:riceitem
-harvestcraft:riceseeditem
-harvestcraft:tomatoitem
-harvestcraft:tomatoseeditem

@@ -1594,6 +1594,12 @@ BaconEggs.remove(<mod_lavacow:green_bacon_and_eggs>);
 val tallow = <ore:tallow>;
 rawBeef.remove(<harvestcraft:groundbeefitem>);
 
+val tomato = <ore:cropTomato>;
+tomato.remove(<harvestcraft:tomatoitem>);
+
+val rice = <ore:listAllRice>;
+rice.remove(<harvestcraft:riceitem>);
+
 val animal_fat = <ore:burnable_fat>;
 animal_fat.addItems([<quark:tallow>, <betteranimalsplus:blubber>, <rustic:beeswax>]);
 
