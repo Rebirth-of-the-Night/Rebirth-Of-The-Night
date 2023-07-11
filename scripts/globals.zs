@@ -103,9 +103,9 @@ global disableItem as function(IItemStack)void = function(item as IItemStack) as
 
     // ExSartagine
     mods.exsartagine.ExSartagine.removePotRecipe(item);
-    mods.exsartagine.ExSartagine.removePanRecipe(item);
+    //mods.exsartagine.ExSartagine.removeWokRecipe(item);
     mods.exsartagine.ExSartagine.removeSmelterRecipe(item);
-    mods.exsartagine.ExSartagine.removeKettleRecipe(item);
+    //mods.exsartagine.ExSartagine.removeKettleRecipe(item);
 
     // Foundry
     mods.foundry.Melting.removeRecipe(item);
