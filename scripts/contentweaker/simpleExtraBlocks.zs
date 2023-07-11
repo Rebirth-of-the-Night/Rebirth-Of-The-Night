@@ -406,6 +406,60 @@ pot_unfired.setToolLevel(0);
 pot_unfired.setToolClass("shovel");
 pot_unfired.register();
 
+// Unfired Rustic Basin
+var unfired_drying_basin = VanillaFactory.createBlock("unfired_drying_basin", <blockmaterial:Clay>);
+unfired_drying_basin.axisAlignedBB = AxisAlignedBB.create(
+     1.0 / 16.0,
+     0.0 / 16.0,
+     1.0 / 16.0,
+	15.0 / 16.0,
+    12.0 / 16.0,
+    15.0 / 16.0
+	);
+unfired_drying_basin.setFullBlock(false);
+unfired_drying_basin.setLightOpacity(0);
+unfired_drying_basin.setCreativeTab(<creativetab:rotn_blocks>);
+unfired_drying_basin.setBlockSoundType(<soundtype:ground>);
+unfired_drying_basin.setToolLevel(0);
+unfired_drying_basin.setToolClass("shovel");
+unfired_drying_basin.register();
+
+// Unfired Cooking Pot
+var unfired_cooking_pot = VanillaFactory.createBlock("unfired_cooking_pot", <blockmaterial:Clay>);
+unfired_cooking_pot.axisAlignedBB = AxisAlignedBB.create(
+     2.0 / 16.0,
+     0.0 / 16.0,
+     2.0 / 16.0,
+	14.0 / 16.0,
+     9.0 / 16.0,
+    14.0 / 16.0
+	);
+unfired_cooking_pot.setFullBlock(false);
+unfired_cooking_pot.setLightOpacity(0);
+unfired_cooking_pot.setCreativeTab(<creativetab:rotn_blocks>);
+unfired_cooking_pot.setBlockSoundType(<soundtype:ground>);
+unfired_cooking_pot.setToolLevel(0);
+unfired_cooking_pot.setToolClass("shovel");
+unfired_cooking_pot.register();
+
+// Unfired flower Pot
+var unfired_flower_pot = VanillaFactory.createBlock("unfired_flower_pot", <blockmaterial:Clay>);
+unfired_flower_pot.axisAlignedBB = AxisAlignedBB.create(
+     5.0 / 16.0,
+     0.0 / 16.0,
+     5.0 / 16.0,
+	11.0 / 16.0,
+    10.0 / 16.0,
+    11.0 / 16.0
+	);
+unfired_flower_pot.setFullBlock(false);
+unfired_flower_pot.setLightOpacity(0);
+unfired_flower_pot.setCreativeTab(<creativetab:rotn_blocks>);
+unfired_flower_pot.setBlockSoundType(<soundtype:ground>);
+unfired_flower_pot.setToolLevel(0);
+unfired_flower_pot.setToolClass("shovel");
+unfired_flower_pot.register();
+
 // Broken Elevator
 var elevator = VanillaFactory.createBlock("elevator", <blockmaterial:Ground>);
 elevator.setCreativeTab(<creativetab:redstone>);
