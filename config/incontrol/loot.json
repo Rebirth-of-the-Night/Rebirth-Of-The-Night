@@ -986,7 +986,7 @@
 	{
 		"mob":"ancientbeasts:giant_zombie",
 		"player": true,
-		"item": "exsartagine:pan",
+		"item": "harvestcraft:saucepanitem",
 		"random": "0.02",
 		"nbt": {
 			"display":{
