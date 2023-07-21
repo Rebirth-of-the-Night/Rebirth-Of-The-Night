@@ -64,7 +64,7 @@ recipes.addShaped("star_block", <contenttweaker:star_block>, [
     [<nyx:fallen_star>, <nyx:fallen_star>, <nyx:fallen_star>]
 ]);
 recipes.addShapeless("star_block_to_star", <nyx:fallen_star>*9,
-   	[<contenttweaker:star_block>);
+   	[<contenttweaker:star_block>]);
 
 //Well
 recipes.remove(<well:well>);
