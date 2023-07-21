@@ -984,10 +984,10 @@
 
 	//I'M CRAZZZZZZZZZZZZY
 	{
-		"mob":["ancientbeasts:giant"],
+		"mob":"ancientbeasts:giant_zombie",
 		"player": true,
 		"item": "exsartagine:pan",
-		"random": "0.05",
+		"random": "0.02",
 		"nbt": {
 			"display":{
 				"Lore":	["Why did I give that giant my pan? BECAUSE I'M CRAZZZZZZZZZZZZZZZZY!"]
