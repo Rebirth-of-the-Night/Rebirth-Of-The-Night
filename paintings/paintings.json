@@ -54,6 +54,12 @@
 		"isCreative": true
     },
 	{
+        "motive": "Undefinable",
+        "width": 2,
+        "height": 4,
+		"isCreative": true
+    },
+	{
         "motive": "Yearn",
         "width": 4,
         "height": 3,
@@ -67,6 +73,12 @@
     },
 	{
         "motive": "Wings of Hatred",
+        "width": 4,
+        "height": 4,
+		"isCreative": true
+    },
+	{
+        "motive": "Cause for Strife",
         "width": 4,
         "height": 4,
 		"isCreative": true
@@ -93,6 +105,18 @@
 		"isCreative": true
     },
 	{
+        "motive": "Disharmony",
+        "width": 5,
+        "height": 1,
+		"isCreative": true
+    },
+	{
+        "motive": "Remnant",
+        "width": 5,
+        "height": 1,
+		"isCreative": true
+    },
+	{
         "motive": "The World",
         "width": 5,
         "height": 8,
@@ -109,6 +133,24 @@
         "width": 7,
         "height": 4,
 		"isCreative": true
+    },
+	{
+        "motive": "Stairs",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Creatura",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Noodle",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
     },
 	{
         "motive": "Bob-omb",
@@ -255,6 +297,12 @@
 		"isCreative": false
     },
 	{
+        "motive": "Other Souls",
+        "width": 2,
+        "height": 1,
+		"isCreative": false
+    },
+	{
         "motive": "The Titans Small",
         "width": 2,
         "height": 1,
@@ -327,6 +375,18 @@
 		"isCreative": false
     },
 	{
+        "motive": "impending",
+        "width": 3,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "Ender of Worlds",
+        "width": 1,
+        "height": 4,
+		"isCreative": false
+    },
+	{
         "motive": "Sunset Vista",
         "width": 4,
         "height": 1,
@@ -336,6 +396,12 @@
         "motive": "Lighthouse Vista",
         "width": 4,
         "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Lux Aeterna",
+        "width": 2,
+        "height": 2,
 		"isCreative": false
     },
 	{
@@ -405,15 +471,15 @@
 		"isCreative": false
     },
 	{
-        "motive": "ornate tapestry - red",
-        "width": 1,
-        "height": 2,
+        "motive": "It Who Sees",
+        "width": 3,
+        "height": 1,
 		"isCreative": false
     },
 	{
-        "motive": "Disharmony",
-        "width": 5,
-        "height": 1,
+        "motive": "ornate tapestry - red",
+        "width": 1,
+        "height": 2,
 		"isCreative": false
     },
 	{
@@ -675,6 +741,12 @@
         "motive": "The Scourge",
         "width": 3,
         "height": 4,
+		"isCreative": false
+    },
+	{
+        "motive": "Beneath",
+        "width": 5,
+        "height": 3,
 		"isCreative": false
     },
 	{

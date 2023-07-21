@@ -3616,7 +3616,7 @@ ExSartagine.addKettleRecipe([soybean,soybean,soybean,koji_mold,salt],null,waterB
 //Raw End Pizza
 RecipeBuilder.get("chef")
   .setName("abysspizza")
-  .setShapeless([<contenttweaker:blendrein_block>,<endreborn:food_ender_flesh>])
+  .setShapeless([<contenttweaker:blendrein_block>,<contenttweaker:dark_fruit>])
   .setFluid(acid250)
   .addOutput(<contenttweaker:abyss_pizza_block>)
   .create();
