@@ -1493,3 +1493,4 @@ if (!isNull(<undergroundbiomes:metamorphic_brick_stairs_north:14>)) {<undergroun
 if (!isNull(<undergroundbiomes:metamorphic_brick_stairs_north:15>)) {<undergroundbiomes:metamorphic_brick_stairs_north:15>.hardness = 18;}
 if (!isNull(<villagenames:lunaringoldbrick:0>)) {<villagenames:lunaringoldbrick:0>.hardness = 20;}
 if (!isNull(<villagenames:lunarinironbrick:0>)) {<villagenames:lunarinironbrick:0>.hardness = 20;}
+if (!isNull(<contenttweaker:brick_pyrotech_masonry>)) {<contenttweaker:brick_pyrotech_masonry>.hardness = 18;}

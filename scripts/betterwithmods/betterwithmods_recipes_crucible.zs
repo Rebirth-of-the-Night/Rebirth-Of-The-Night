@@ -322,6 +322,17 @@ Crucible.addStoked(
     ]
 );
 
+//Brimstone Production
+Crucible.addStoked(
+    [
+        <ore:stoneIgneous>,
+        <biomesoplenty:ash_block>
+    ],
+    [
+        <quark:biome_cobblestone>
+    ]
+);
+
 // Salvaging
 furnace.remove(<minecraft:iron_nugget>);
 furnace.remove(<minecraft:gold_nugget>);

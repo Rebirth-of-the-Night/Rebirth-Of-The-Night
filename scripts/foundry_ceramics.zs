@@ -679,7 +679,7 @@ Casting.addRecipe(<minecraft:golden_pickaxe>, <liquid:gold>*((144*3)-(16*2*3)), 
 Casting.addRecipe(<atop:mud_pickaxe>, <liquid:bronze>*((144*3)-(16*2*3)), <foundry:mold:8>, <ore:stickWood>*2);//bronze
 Casting.addRecipe(<iceandfire:silver_pickaxe>, <liquid:silver>*((144*3)-(16*2*3)), <foundry:mold:8>, <ore:stickWood>*2);//silver
 Casting.addRecipe(<dungeontactics:steel_pickaxe>, <liquid:steel>*((144*3)-(16*2*3)), <foundry:mold:8>, <ore:stickWood>*2);//steel
-Casting.addRecipe(<aether_legacy:gravitite_pickaxe>, <liquid:gravitite>*((144*3)-(16*2*3)), <foundry:mold:8>, <ore:stickWood>*2);//gravitite
+Casting.addRecipe(<atop:amber_pickaxe>, <liquid:gravitite>*((144*3)-(16*2*3)), <foundry:mold:8>, <ore:stickWood>*2);//gravitite
 Casting.addRecipe(<simpleores:adamantium_pickaxe>, <liquid:viridium>*((144*5)-(16*2*5)), <foundry:mold:8>, <minecraft:blaze_rod>*2);//viridium
 Casting.addRecipe(<simpleores:mythril_pickaxe>, <liquid:mythril>*((144*5)-(16*2*5)), <foundry:mold:8>, <minecraft:blaze_rod>*2);//mythril
 Casting.addRecipe(<simpleores:onyx_pickaxe>, <liquid:onyx_alloy>*((144*5)-(16*2*5)), <foundry:mold:8>, <minecraft:blaze_rod>*2);//onyx
@@ -706,7 +706,7 @@ Casting.addRecipe(<minecraft:golden_axe>, <liquid:gold>*((144*3)-(16*2*3)), <fou
 Casting.addRecipe(<atop:mud_axe>, <liquid:bronze>*((144*3)-(16*2*3)), <foundry:mold:9>, <ore:stickWood>*2);//bronze
 Casting.addRecipe(<iceandfire:silver_axe>, <liquid:silver>*((144*3)-(16*2*3)), <foundry:mold:9>, <ore:stickWood>*2);//silver
 Casting.addRecipe(<dungeontactics:steel_axe>, <liquid:steel>*((144*3)-(16*2*3)), <foundry:mold:9>, <ore:stickWood>*2);//steel
-Casting.addRecipe(<aether_legacy:gravitite_axe>, <liquid:gravitite>*((144*3)-(16*2*3)), <foundry:mold:9>, <ore:stickWood>*2);//gravitite
+Casting.addRecipe(<atop:amber_axe>, <liquid:gravitite>*((144*3)-(16*2*3)), <foundry:mold:9>, <ore:stickWood>*2);//gravitite
 Casting.addRecipe(<simpleores:adamantium_axe>, <liquid:viridium>*((144*5)-(16*2*5)), <foundry:mold:9>, <minecraft:blaze_rod>*2);//viridium
 Casting.addRecipe(<simpleores:mythril_axe>, <liquid:mythril>*((144*5)-(16*2*5)), <foundry:mold:9>, <minecraft:blaze_rod>*2);//mythril
 Casting.addRecipe(<simpleores:onyx_axe>, <liquid:onyx_alloy>*((144*5)-(16*2*5)), <foundry:mold:9>, <minecraft:blaze_rod>*2);//onyx
@@ -723,7 +723,7 @@ Casting.addRecipe(<minecraft:golden_shovel>, <liquid:gold>*((144)-(16*2)), <foun
 Casting.addRecipe(<atop:mud_shovel>, <liquid:bronze>*((144)-(16*2)), <foundry:mold:11>, <ore:stickWood>*2);//bronze
 Casting.addRecipe(<iceandfire:silver_shovel>, <liquid:silver>*((144)-(16*2)), <foundry:mold:11>, <ore:stickWood>*2);//silver
 Casting.addRecipe(<dungeontactics:steel_shovel>, <liquid:steel>*((144)-(16*2)), <foundry:mold:11>, <ore:stickWood>*2);//steel
-Casting.addRecipe(<aether_legacy:gravitite_shovel>, <liquid:gravitite>*((144)-(16*2)), <foundry:mold:11>, <ore:stickWood>*2);//gravitite
+Casting.addRecipe(<atop:amber_shovel>, <liquid:gravitite>*((144)-(16*2)), <foundry:mold:11>, <ore:stickWood>*2);//gravitite
 Casting.addRecipe(<simpleores:adamantium_shovel>, <liquid:viridium>*((144*3)-(16*2*3)), <foundry:mold:11>, <minecraft:blaze_rod>*2);//viridium
 Casting.addRecipe(<simpleores:mythril_shovel>, <liquid:mythril>*((144*3)-(16*2*3)), <foundry:mold:11>, <minecraft:blaze_rod>*2);//mythril
 Casting.addRecipe(<simpleores:onyx_shovel>, <liquid:onyx_alloy>*((144*3)-(16*2*3)), <foundry:mold:11>, <minecraft:blaze_rod>*2);//onyx

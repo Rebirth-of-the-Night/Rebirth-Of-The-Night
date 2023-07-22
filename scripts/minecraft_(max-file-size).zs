@@ -183,6 +183,7 @@ var rtb as IItemStack[IItemStack] = {
   <contenttweaker:raw_iron_block> : <contenttweaker:raw_iron>,
   <contenttweaker:raw_silver_block> : <contenttweaker:raw_silver>,
   <contenttweaker:raw_gold_block> : <contenttweaker:raw_gold>,
+  <contenttweaker:raw_gravitite_block> : <contenttweaker:raw_gravitite>,
   <contenttweaker:raw_viridium_block> : <contenttweaker:raw_viridium>,
   <contenttweaker:raw_mythril_block> : <contenttweaker:raw_mythril>,
   <contenttweaker:raw_wrought_iron> : <contenttweaker:material_part:52> //wrought iron
@@ -830,7 +831,13 @@ recipes.addShaped("quality_bucket", <minecraft:bucket>,[
     [<ore:glue>,<ore:glue>,<ore:glue>],
     [<pyrotech:material:4>, <contenttweaker:crucible>, <pyrotech:material:4>]
 ]);
-
+// new redstone recipes
+recipes.remove(<minecraft:daylight_detector>);
+recipes.addShaped("daylightsensor", <minecraft:daylight_detector>,[
+    [<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>],
+    [<ore:ingotCopper>, <minecraft:clock>, <ore:ingotCopper>],
+    [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
+]);
 
 recipes.remove(<minecraft:concrete_powder:*>);
 recipes.addShapeless("white_concrete_powder",<minecraft:concrete_powder:0>*8,[<ore:dyeWhite>,<ore:sand>,<ore:sand>,<ore:sand>,<ore:sand>,<ore:gravel>,<ore:gravel>,<ore:gravel>,<ore:gravel>]);
