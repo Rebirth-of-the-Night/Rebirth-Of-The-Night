@@ -1885,7 +1885,10 @@ val lunarinlikeBricks = {
     <contenttweaker:lunarinfierybrick> : <ore:ingotFiery>,
     <contenttweaker:farlanderexoritebrick> : <rotn_blocks:exorite_crystal>,
     <contenttweaker:farlanderzanitebrick> : <ore:gemZanite>,
-    <contenttweaker:farlanderdiamondbrick> : <ore:gemDiamond>
+    <contenttweaker:farlanderdiamondbrick> : <ore:gemDiamond>,
+    <contenttweaker:lunarinfirebrick> : <iceandfire:dragonsteel_fire_ingot>,
+    <contenttweaker:lunarinicebrick> : <iceandfire:dragonsteel_ice_ingot>,
+    <contenttweaker:lunarinknightbrick> : <twilightforest:knightmetal_ingot>
 } as IIngredient[IItemStack];
 
 for lunarinBrick, lunarinIngot in lunarinlikeBricks {
