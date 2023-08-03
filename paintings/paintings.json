@@ -42,6 +42,12 @@
 		"isCreative": true
     },
 	{
+        "motive": "sigil Relata",
+        "width": 1,
+        "height": 1,
+		"isCreative": true
+    },
+	{
         "motive": "Ritual of Below",
         "width": 2,
         "height": 2,
@@ -50,6 +56,12 @@
 	{
         "motive": "Mother of Change",
         "width": 2,
+        "height": 2,
+		"isCreative": true
+    },
+	{
+        "motive": "In the Mouth of Knowledge",
+        "width": 3,
         "height": 2,
 		"isCreative": true
     },
@@ -153,6 +165,12 @@
 		"isCreative": false
     },
 	{
+        "motive": "Small nod",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
         "motive": "Bob-omb",
         "width": 1,
         "height": 1,
@@ -217,6 +235,15 @@
     },
 	{
         "motive": "cooking implements",
+		"textures": {
+            "back": "paintings:null"
+        },
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "small nod",
 		"textures": {
             "back": "paintings:null"
         },
@@ -327,6 +354,18 @@
 		"isCreative": false
     },
 	{
+        "motive": "Sunrise",
+        "width": 2,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Sunset",
+        "width": 2,
+        "height": 1,
+		"isCreative": false
+    },
+	{
         "motive": "ender letters",
 		"textures": {
             "back": "paintings:null"
@@ -342,13 +381,55 @@
 		"isCreative": false
     },
 	{
+        "motive": "Cherry Tree",
+        "width": 1,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "Giant petal collection",
+        "width": 1,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "Hemp at the Lake",
+        "width": 1,
+        "height": 2,
+		"isCreative": false
+    },
+	{
         "motive": "Lunarin View",
         "width": 1,
         "height": 2,
 		"isCreative": false
     },
 	{
+        "motive": "Skylands View",
+        "width": 1,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "Jar 2",
+        "width": 1,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "Nascent",
+        "width": 1,
+        "height": 2,
+		"isCreative": false
+    },
+	{
         "motive": "Supper",
+        "width": 3,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Baby sea serpent trophy",
         "width": 3,
         "height": 1,
 		"isCreative": false
@@ -372,12 +453,6 @@
         "motive": "lgqbtp",
         "width": 3,
         "height": 1,
-		"isCreative": false
-    },
-	{
-        "motive": "impending",
-        "width": 3,
-        "height": 2,
 		"isCreative": false
     },
 	{
@@ -447,6 +522,18 @@
 		"isCreative": false
     },
 	{
+        "motive": "Big nod",
+        "width": 2,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "With Soul",
+        "width": 2,
+        "height": 2,
+		"isCreative": false
+    },
+	{
         "motive": "Banner Drake",
         "width": 1,
         "height": 3,
@@ -475,6 +562,12 @@
         "width": 3,
         "height": 1,
 		"isCreative": false
+    },
+	{
+        "motive": "It Who Smells",
+        "width": 1,
+        "height": 3,
+		"isCreative": true
     },
 	{
         "motive": "ornate tapestry - red",
@@ -558,6 +651,18 @@
 		"isCreative": false
     },
 	{
+        "motive": "impending",
+        "width": 3,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "bark",
+        "width": 3,
+        "height": 2,
+		"isCreative": false
+    },
+	{
         "motive": "Grove",
         "width": 3,
         "height": 2,
@@ -608,6 +713,12 @@
 	{
         "motive": "Withered",
         "width": 2,
+        "height": 3,
+		"isCreative": false
+    },
+	{
+        "motive": "Two Legends",
+        "width": 3,
         "height": 3,
 		"isCreative": false
     },
