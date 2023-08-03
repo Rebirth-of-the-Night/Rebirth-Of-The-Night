@@ -32,10 +32,6 @@ import mods.jei.JEI;
 <animania:animania_manual:*>.addTooltip(format.aqua("Guidebook"));
 <animania:animania_manual:*>.addTooltip("All you need to know about keeping livestock.");
 
-<betterwithmods:manual>.removeTooltip("Book of Single");
-<betterwithmods:manual:*>.addTooltip(format.aqua("Guidebook"));
-<betterwithmods:manual:*>.addTooltip("How to construct and operate millstones, saws, windmills, and more.");
-
 <arcanearchives:tome_arcana>.removeTooltip("documentation");
 <arcanearchives:tome_arcana:*>.addTooltip(format.aqua("Guidebook"));
 <arcanearchives:tome_arcana:*>.addTooltip("How to store your items efficiently.");

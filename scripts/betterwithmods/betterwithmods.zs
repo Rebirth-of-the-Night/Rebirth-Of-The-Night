@@ -32,14 +32,12 @@ recipes.removeByRecipeName("betterwithmods:piles/gravel_pile");
 recipes.removeByRecipeName("betterwithmods:piles/sand_pile");
 recipes.removeByRecipeName("betterwithmods:piles/red_sand_pile");
 recipes.removeByRecipeName("betterwithmods:piles/dirt_0");
-recipes.removeByRecipeName("betterwithmods:items/patchouli_manual");
 recipes.removeByRecipeName("betterwithmods:blocks/candle/candle");
 
 recipes.removeByRecipeName("betterwithmods:items/material/material.padding");
 recipes.addShapeless("betterwithmods_items/material/material_padding_feather", <betterwithmods:material:41>, [<ore:feather>,<betterwithmods:material:4>]);
 recipes.addShapeless("betterwithmods_items/material/material_padding_wool", <betterwithmods:material:41>, [<ore:woolBlock>,<betterwithmods:material:4>]);
 
-JEI.removeAndHide(<betterwithmods:manual>);
 JEI.removeAndHide(<betterwithmods:bark:*>);
 JEI.removeAndHide(<betterwithmods:nether_growth>);
 JEI.removeAndHide(<betterwithmods:steel_saw>);
@@ -215,9 +213,6 @@ var tanned_hide = <ore:hideTanned>;
 var paper = <ore:paper>;
 var spring = <betterwithmods:material:49>;
 val bark_strips = <primallib:bark_strips_generic>;
-
-// guide
-recipes.remove(<betterwithmods:manual>);
 
 // gear wood
 recipes.remove(gear_wood);

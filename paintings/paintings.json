@@ -243,15 +243,6 @@
 		"isCreative": false
     },
 	{
-        "motive": "small nod",
-		"textures": {
-            "back": "paintings:null"
-        },
-        "width": 1,
-        "height": 1,
-		"isCreative": false
-    },
-	{
         "motive": "pipes - parallel to one",
 		"textures": {
             "back": "paintings:null"
