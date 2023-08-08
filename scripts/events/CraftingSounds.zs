@@ -79,7 +79,7 @@ function playSounds(event as crafttweaker.event.PlayerCraftedEvent,canPlay as bo
 }
 
 events.onPlayerCrafted(function(event as crafttweaker.event.PlayerCraftedEvent) {
-    if (isNull(event.player.world) || event.player.world.isRemote()) {
+    if (isNull(event.player.world) || event.player.world.isRemote() || isNull(event.output)) {
         return;
     }
 
