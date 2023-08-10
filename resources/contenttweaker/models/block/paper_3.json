@@ -1,0 +1,36 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "blocks/tinkering_detail",
+		"particle": "blocks/tinkering_detail"
+	},
+	"elements": [
+		{
+			"name": "paper",
+			"from": [3, 0.01, 1],
+			"to": [9, 0.01, 5],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 16.01, 6]},
+			"faces": {
+				"up": {"uv": [10, 0, 16, 4], "texture": "#0"}
+			}
+		},
+		{
+			"name": "paper",
+			"from": [1, 0.01, 8],
+			"to": [7, 0.01, 12],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [8, 16.01, 6]},
+			"faces": {
+				"up": {"uv": [10, 0, 16, 4], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"name": "paper",
+			"from": [9, 0.01, 6],
+			"to": [13, 0.01, 12],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [8, 16.01, 6]},
+			"faces": {
+				"up": {"uv": [10, 0, 16, 4], "rotation": 90, "texture": "#0"}
+			}
+		}
+	]
+}
