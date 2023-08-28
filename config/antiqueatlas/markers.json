@@ -19,6 +19,10 @@
       "centerX": "[Default: 0.5] The point in the image that should be at the location of the marker (0-1)",
       "centerY": "[Default: 0.5] The point in the image that should be at the location of the marker (0-1)"
     },
+    "ancientspellcraft:ancient_vault": {},
+    "ancientspellcraft:battlemage_camp": {},
+    "ancientspellcraft:battlemage_keep": {},
+    "ancientspellcraft:sage_hill": {},
     "antiqueatlas:bed": {},
     "antiqueatlas:diamond": {},
     "antiqueatlas:end_city": {},
@@ -33,6 +37,10 @@
     "antiqueatlas:sword": {},
     "antiqueatlas:tomb": {},
     "antiqueatlas:tower": {},
-    "antiqueatlas:village": {}
+    "antiqueatlas:village": {},
+    "ebwizardry:library_ruins": {},
+    "ebwizardry:obelisk": {},
+    "ebwizardry:shrine": {},
+    "ebwizardry:wizard_tower": {}
   }
 }
