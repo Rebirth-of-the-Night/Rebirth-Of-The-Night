@@ -217,6 +217,8 @@ val hide_tiny_tanned = VanillaFactory.createItem("hide_tiny_tanned");
 hide_tiny_tanned.register();
 val leather_tiny = VanillaFactory.createItem("leather_tiny");
 leather_tiny.register();
+val unfired_totem_base = VanillaFactory.createItem("unfired_totem_base");
+unfired_totem_base.register();
 
 val cooking_kit = VanillaFactory.createItem("cooking_kit");
 cooking_kit.maxDamage = 420;
@@ -226,6 +228,10 @@ val cooking_kit_quality = VanillaFactory.createItem("cooking_kit_quality");
 cooking_kit_quality.maxDamage = 840;
 cooking_kit_quality.maxStackSize = 1;
 cooking_kit_quality.register();
+val cooking_kit_elite = VanillaFactory.createItem("cooking_kit_elite");
+cooking_kit_elite.maxDamage = 1260;
+cooking_kit_elite.maxStackSize = 1;
+cooking_kit_elite.register();
 val cooking_kit_premium = VanillaFactory.createItem("cooking_kit_premium");
 cooking_kit_premium.maxDamage = 2100;
 cooking_kit_premium.maxStackSize = 1;
@@ -441,3 +447,9 @@ xp_tome_mundane.register();
 
 val xp_tome_arcane = VanillaFactory.createItem("xp_tome_arcane");
 xp_tome_arcane.register();
+
+val gem_eye_sun = VanillaFactory.createItem("gem_eye_sun");
+gem_eye_sun.register();
+
+val gem_eye_delta = VanillaFactory.createItem("gem_eye_delta");
+gem_eye_delta.register();

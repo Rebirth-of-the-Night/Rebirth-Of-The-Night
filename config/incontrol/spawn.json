@@ -87,7 +87,7 @@
 
 ////////// BOSS BUFF YEAHHHHHHHHH ///////////
 {  
-    "mob": ["mod_lavacow:sludgelord", "harvestersnight:harvester","betterslimes:quazar","minecraft:wither","minecraft:ender_dragon","rats:black_death","betteranimalsplus:hirschgeist","aether_legacy:sun_spirit","aether_legacy:slider","iceandfire:icedragon","iceandfire:firedragon","twilightforest:naga","twilightforest:lich","twilightforest:minoshroom","twilightforest:hydra","twilightforest:knight_phantom","twilightforest:ur_ghast","twilightforest:yeti_alpha","twilightforest:snow_queen","iceandfire:seaserpent","iceandfire:cyclops","iceandfire:if_hydra","mowziesmobs:ferrous_wroughtnaught","mowziesmobs:frostmaw","mowziesmobs:barako"],
+    "mob": ["mod_lavacow:sludgelord", "harvestersnight:harvester","betterslimes:quazar","minecraft:wither","minecraft:ender_dragon","rats:black_death","betteranimalsplus:hirschgeist","aether_legacy:sun_spirit","aether_legacy:slider","iceandfire:icedragon","iceandfire:firedragon","twilightforest:naga","twilightforest:lich","twilightforest:minoshroom","twilightforest:hydra","twilightforest:knight_phantom","twilightforest:ur_ghast","twilightforest:yeti_alpha","twilightforest:snow_queen","iceandfire:seaserpent","iceandfire:cyclops","iceandfire:if_hydra","mowziesmobs:ferrous_wroughtnaught","mowziesmobs:frostmaw","mowziesmobs:barako","ancientbeasts:sandy"],
     "onjoin": true,
     "potion": ["potioncore:magic_shield,1000000,1"]
 
@@ -3070,9 +3070,16 @@
 	"onjoin": true,
 	"result": "default",
 	"nbt": {"DeathLootTable": "rotn:bap_badger"}
-	}
+	},
 
 
 ////// Seasonal Changes 
 
+//////Sandy
+{
+   "mob": "ancientbeasts:sandy",
+   "onjoin":true,
+   "damagemultiply": 2.5
+   
+}
 ]

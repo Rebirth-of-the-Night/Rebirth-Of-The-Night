@@ -415,8 +415,8 @@ mods.betterwithmods.Anvil.addShaped(<msmlegacy:glacial_blade>.withTag(({"Quark:R
 
 var khopesh_handle = <simpleores:mythril_rod>;
 var m_shard = <nyx:meteor_shard>;
-var gem_water = <contenttweaker:waterlogged_sapphire>;
-var gem_fire = <contenttweaker:earthen_ruby>;
+var gem_water = <contenttweaker:gem_eye_delta>;
+var gem_fire = <contenttweaker:gem_eye_sun>;
 var v_shard = <contenttweaker:material_part:10>;
 
 mods.betterwithmods.Anvil.addShapedFixed(<msmlegacy:relic_infinity>, 
