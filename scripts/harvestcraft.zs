@@ -20,6 +20,7 @@ JEI.removeAndHide(<harvestcraft:pammaple>);
 JEI.removeAndHide(<harvestcraft:pamcinnamon>);
 JEI.removeAndHide(<harvestcraft:pampaperbark>);
 JEI.removeAndHide(<harvestcraft:mortarandpestleitem>);
+JEI.removeAndHide(<harvestcraft:well>);
 
 <ore:foodHoneydrop>.remove(<harvestcraft:honeyitem>);
 <ore:dropHoney>.remove(<harvestcraft:honeyitem>);
@@ -297,13 +298,6 @@ recipes.addShaped("Bakeware", <harvestcraft:bakewareitem> * 3,[
 // leather yogurt wtf
 recipes.remove(<harvestcraft:plainyogurtitem>);
 recipes.addShapeless ("harvestcraft_yogurt", <harvestcraft:plainyogurtitem>*4, [<ore:toolPot>,<ore:listAllmilk>]);
-
-// Hyper hardcore well
-recipes.addShaped("water_well", <harvestcraft:well>,[
-	[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
-    [<contenttweaker:masonry_brick>, <betterwithmods:bucket>, <contenttweaker:masonry_brick>],
-    [<contenttweaker:masonry_brick>, <betterwithmods:screw_pump>, <contenttweaker:masonry_brick>]
-]);
 
 // Hyper hardcore presser
 recipes.addShaped("food_presser", <harvestcraft:presser>, [

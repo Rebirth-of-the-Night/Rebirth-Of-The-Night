@@ -29,6 +29,9 @@ LootTable.removeGlobalItem("bountifulbaubles:phantomprism");
 LootTable.removeGlobalItem("bountifulbaubles:reforger");
 LootTable.removeGlobalItem("bountifulbaubles:ringiron");
 
+JEI.removeAndHide(<bountifulbaubles:spectralsilt>);
+LootTable.removeGlobalItem("bountifulbaubles:spectralsilt");
+
 JEI.removeAndHide(<artifacts:ultimate_pendant>);
 LootTable.removeGlobalItem("artifacts:ultimate_pendant");
 
@@ -539,7 +542,6 @@ RecipeBuilder.get("mage")
   .create();
 
 // Ender dragon drops cracked scales AND scale fragments. Use fragments to craft into cracked scales. Use cracked scales to craft into the scale bauble.
-
 // Cracked Ender Dragon Scale
 recipes.remove(<bountifulbaubles:brokenblackdragonscale>);
 recipes.addShapeless("Cracked Scale", <bountifulbaubles:brokenblackdragonscale>,

@@ -155,7 +155,7 @@ Dropt.list("magic_lantern")
 Dropt.list("brambles")
 
   .add(Dropt.rule()
-      .matchBlocks(["biomesoplenty:bramble_plant:*"])
+      .matchBlocks(["biomesoplenty:bramble_plant"])
       .replaceStrategy("REPLACE_ALL_IF_SELECTED")
       .addDrop(Dropt.drop()
           .selector(Dropt.weight(1), "EXCLUDED") // Drop nothing without silk touch
@@ -170,6 +170,16 @@ Dropt.list("dimstack_bedrock")
           .force() // Always drop nothing
       )
   );
+
+Dropt.list("sun_altar")
+
+  .add(Dropt.rule()
+      .matchBlocks(["aether_legacy:sun_altar"])
+      .addDrop(Dropt.drop()
+          .force() // Disabled, drop nothing
+      )
+  );
+
 
 Dropt.list("dormant_onyx")
 
@@ -304,7 +314,7 @@ Dropt.list("native_copper_red")
 Dropt.list("Well_Worth")
 
   .add(Dropt.rule()
-      .matchBlocks(["harvestcraft:well"])
+      .matchBlocks(["well:well", "well:white_well", "well:orange_well", "well:magenta_well", "well:light_blue_well", "well:yellow_well", "well:lime_well", "well:pink_well", "well:gray_well", "well:silver_well", "well:cyan_well", "well:purple_well", "well:blue_well", "well:brown_well", "well:green_well", "well:red_well", "well:black_well"])
       .dropStrategy("UNIQUE")
       .dropCount(Dropt.range(2))
 	  .addDrop(Dropt.drop()
@@ -1023,3 +1033,45 @@ Dropt.list("grape_seed_begone")
       .replaceStrategy("REPLACE_ITEMS")
         .addDrop(Dropt.drop())
   );
+
+// Duplicate blocks unification
+
+Dropt.list("charm_to_futuremc_lamp")
+
+  .add(Dropt.rule()
+      .matchBlocks(["charm:iron_lantern"])
+  	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(1))
+       	   .items([<futuremc:lantern>])
+      )
+  ); 
+
+Dropt.list("charm_to_futuremc_lamp_hanging")
+
+  .add(Dropt.rule()
+      .matchBlocks(["charm:iron_lantern:1"])
+  	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(1))
+       	   .items([<futuremc:lantern>])
+      )
+  ); 
+
+Dropt.list("futuremc_to_quark_sandstone")
+
+  .add(Dropt.rule()
+      .matchBlocks(["futuremc:smooth_sandstone"])
+  	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(1))
+       	   .items([<quark:sandstone_new>])
+      )
+  ); 
+
+Dropt.list("futuremc_to_quark_redsandstone")
+
+  .add(Dropt.rule()
+      .matchBlocks(["futuremc:smooth_red_sandstone"])
+  	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(1))
+       	   .items([<quark:sandstone_new:2>])
+      )
+  ); 

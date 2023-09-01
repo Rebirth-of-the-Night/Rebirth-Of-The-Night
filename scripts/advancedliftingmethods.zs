@@ -2,7 +2,8 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import mods.jei.JEI;
 
-
+JEI.removeAndHide(<advancedliftingmethods:ender_elevator>);
+JEI.removeAndHide(<advancedliftingmethods:advanced_ender_elevator>);
 JEI.removeAndHide(<advancedliftingmethods:advanced_blowing_elevator>);
 JEI.removeAndHide(<advancedliftingmethods:ultimate_blowing_elevator>);
 JEI.removeAndHide(<advancedliftingmethods:advanced_rotor>);

@@ -103,7 +103,7 @@ recipes.addShaped("canepork", <mod_lavacow:canepork>,[
 recipes.addShapeless("greeneggsham", <mod_lavacow:green_bacon_and_eggs>,[<mod_lavacow:plagued_porkchop>, <harvestcraft:friedeggitem>, <harvestcraft:friedeggitem>, <rats:herb_bundle>, <ore:listAllsugar>]);
 
 //new weapon recipes
-recipes.addShaped(<mod_lavacow:war>,[
+recipes.addShaped("nether_cannon", <mod_lavacow:war>,[
 [<quark:pipe>, <mod_lavacow:mootenheart>, <betterwithmods:material:27>],
 [<betternether:cincinnasite>, <betternether:cincinnasite>, <minecraft:repeater>],
 [null, null, <betternether:cincinnasite>]
@@ -222,6 +222,14 @@ RecipeBuilder.get("mage")
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
+
+// mycelium recipe
+recipes.removeByRecipeName("mod_lavacow:mycelium");
+recipes.addShaped("hyphae_to_mycelium", <minecraft:mycelium>,[
+[null, null, null],
+[<mod_lavacow:hyphae>, <mod_lavacow:hyphae>, <mod_lavacow:hyphae>],
+[null, <minecraft:dirt>, null]
+]);
 
 
 

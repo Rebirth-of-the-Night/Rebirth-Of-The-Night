@@ -43,8 +43,8 @@ val hydraco = VanillaFactory.createItemFood("hydraco", 24);
 hydraco.setSaturation(44.0);
 hydraco.register();
 
-val abyss_pizza_item = VanillaFactory.createItemFood("abyss_pizza", 1);
-abyss_pizza_item.setSaturation(120.0);
+val abyss_pizza_item = VanillaFactory.createItemFood("abyss_pizza", 16);
+abyss_pizza_item.setSaturation(18.0);
 abyss_pizza_item.register();
 
 //BLOCKS

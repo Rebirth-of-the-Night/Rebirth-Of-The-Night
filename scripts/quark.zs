@@ -292,6 +292,17 @@ for i in crystals {
 	oreMagicite.add(i);
 }
 
+<quark:crystal>.asBlock().definition.lightLevel = 0.1;
+<quark:crystal:1>.asBlock().definition.lightLevel = 0.1;
+<quark:crystal:2>.asBlock().definition.lightLevel = 0.1;
+<quark:crystal:3>.asBlock().definition.lightLevel = 0.1;
+<quark:crystal:4>.asBlock().definition.lightLevel = 0.1;
+<quark:crystal:5>.asBlock().definition.lightLevel = 0.1;
+<quark:crystal:6>.asBlock().definition.lightLevel = 0.1;
+<quark:crystal:7>.asBlock().definition.lightLevel = 0.1;
+<quark:crystal:8>.asBlock().definition.lightLevel = 0.1;
+
+
 // cheaper buttons
 
 recipes.remove(<quark:iron_button>);

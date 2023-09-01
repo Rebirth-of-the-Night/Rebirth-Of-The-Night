@@ -9,6 +9,10 @@ JEI.hide(<spartanweaponry:arrow_wood_tipped>);
 JEI.hide(<spartanweaponry:arrow_iron_tipped>);
 JEI.hide(<spartanweaponry:arrow_diamond_tipped>);
 
+JEI.removeAndHide(<spartanshields:shield_riot_enderio>);
+JEI.removeAndHide(<spartanshields:shield_riot_rftools>);
+JEI.removeAndHide(<spartanshields:shield_flux_ra>);
+
 // Hide stock Diamond weapons
 // *JEI.removeAndHide(<spartanweaponry:dagger_diamond>);
 /* JEI.removeAndHide(<spartanweaponry:longsword_diamond>);

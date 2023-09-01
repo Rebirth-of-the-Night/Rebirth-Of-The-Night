@@ -6,7 +6,6 @@ import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.artisanworktables.builder.RecipeBuilder;
 
-JEI.removeAndHide(<biomesoplenty:peach>);
 JEI.removeAndHide(<biomesoplenty:plant_1:3>);
 JEI.removeAndHide(<biomesoplenty:ricebowl>);
 
@@ -44,6 +43,8 @@ JEI.removeAndHide(<pyrotech:bucket_stone>.withTag({fluids: {FluidName: "honey", 
 
 JEI.removeAndHide(<biomesoplenty:mushroom:5>);
 JEI.removeAndHide(<biomesoplenty:grass>);
+JEI.removeAndHide(<biomesoplenty:grass:8>);
+JEI.removeAndHide(<biomesoplenty:grass:6>);
 
 <ore:foodFilledhoneycomb>.remove(<biomesoplenty:filled_honeycomb>);
 
@@ -57,9 +58,8 @@ furnace.setFuel(<biomesoplenty:ash_block>, 150);
 
 RecipeBuilder.get("mage")
   .setShaped([
-    [<biomesoplenty:fleshchunk>, <biomesoplenty:fleshchunk>, <biomesoplenty:fleshchunk>],
-    [<biomesoplenty:fleshchunk>, <biomesoplenty:fleshchunk>, <biomesoplenty:fleshchunk>],
-    [<biomesoplenty:fleshchunk>, <biomesoplenty:fleshchunk>, <biomesoplenty:fleshchunk>]])
+    [<biomesoplenty:fleshchunk>, <biomesoplenty:fleshchunk>],
+    [<biomesoplenty:fleshchunk>, <biomesoplenty:fleshchunk>]])
   .addTool(<contenttweaker:life_rune>, 1)
   .addTool(<contenttweaker:creation_rune>, 1)
   .addOutput(<biomesoplenty:flesh>)

@@ -19,6 +19,7 @@ JEI.removeAndHide(<endreborn:block_rune>);
 JEI.removeAndHide(<endreborn:item_world_mirror>);
 JEI.removeAndHide(<endreborn:entropy_wand>);
 JEI.removeAndHide(<endreborn:broken_ender_flower>);
+JEI.removeAndHide(<endreborn:ingot_infused>);
 JEI.removeAndHide(<patchouli:guide_book>.withTag({"patchouli:book": "endreborn:book"}));
 recipes.removeByRecipeName("endreborn:book");
 

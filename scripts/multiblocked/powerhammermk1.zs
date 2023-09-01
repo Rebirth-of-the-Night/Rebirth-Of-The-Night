@@ -397,7 +397,7 @@ for i, input in PowerHammerItemInputs {
     newRP.start()
     .duration(PowerHammerNumModifier[i] * 20)
     .inputItems(PowerHammerItemInputs[i])
-    .inputFluids(<fluid:unstable_spiritfire> * ((PowerHammerNumModifier[i] * 20) as int))
+    .inputFluids(<fluid:blood> * ((PowerHammerNumModifier[i] * 5) as int))
     .outputItems(PowerHammerItemOutputs[i])
     .buildAndRegister();
 }
@@ -406,7 +406,7 @@ for i, input in PowerHammerItemInputs1 {
     newRP.start()
     .duration(PowerHammerNumModifier1[i] * 20)
     .inputItems(PowerHammerItemInputs1[i])
-    .inputFluids(<fluid:unstable_spiritfire> * ((PowerHammerNumModifier[i] * 20) as int))
+    .inputFluids(<fluid:blood> * ((PowerHammerNumModifier[i] * 5) as int))
     .outputItems(PowerHammerItemOutputs1[i])
     .buildAndRegister();
 }
@@ -415,7 +415,7 @@ for i in 0 to 16 {
     newRP.start()
     .duration(20)
     .inputItems(<minecraft:stained_glass>.definition.makeStack(i))
-    .inputFluids(<fluid:unstable_spiritfire> * 20)
+    .inputFluids(<fluid:blood> * 5)
     .outputItems(<quark:glass_shards>.definition.makeStack(i+1) * 4)
     .buildAndRegister();
 }

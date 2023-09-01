@@ -12,13 +12,17 @@ import mods.futuremc.BlastFurnace;
 import mods.futuremc.Smoker;
 import mods.futuremc.Campfire;
 
-JEI.removeAndHide(<futuremc:lantern>);
-
 JEI.removeAndHide(<futuremc:honeycomb>);
 JEI.removeAndHide(<futuremc:honey_bottle>);
 JEI.removeAndHide(<futuremc:beehive>);
 
 JEI.removeAndHide(<futuremc:suspicious_stew>);
+
+JEI.removeAndHide(<futuremc:smooth_sandstone>);
+JEI.removeAndHide(<futuremc:smooth_red_sandstone>);
+
+furnace.remove(<futuremc:smooth_sandstone>);
+furnace.remove(<futuremc:smooth_red_sandstone>);
 
 
 recipes.removeByRecipeName("futuremc:nether_brick_fence");
@@ -34,6 +38,13 @@ recipes.addShaped("lantern_chain", <futuremc:chain>, [
     [null, <ore:genericMetalNuggets>, null],
     [null, <iceandfire:chain_link>, null],
     [null,<ore:genericMetalNuggets>,null,]
+]);
+
+recipes.remove(<futuremc:lantern>);
+recipes.addShaped("metal_oil_lantern", <futuremc:lantern>, [
+    [<ore:genericMetalNuggets>, <iceandfire:chain_link>, <ore:genericMetalNuggets>],
+    [<minecraft:stick>, <betterwithaddons:decomat>, <minecraft:stick>],
+    [<ore:genericMetalNuggets>,<ore:genericMetalNuggets>,<ore:genericMetalNuggets>,]
 ]);
 
 recipes.remove(<futuremc:soul_fire_lantern>);
@@ -394,7 +405,7 @@ for brickArr in bricks {
 
 // Masonry bricks use oredict, an exception
 // <pyrotech:material:16>, <contenttweaker:brick_pyrotech_masonry>, <contenttweaker:loose_stone_bricks>, <ore:stone>, <ore:rock>
-Stonecutter.addOutputs(<ore:stone>, <contenttweaker:masonry_brick>*4, <contenttweaker:loose_stone_bricks>*1);
+Stonecutter.addOutputs(<ore:stoneMetamorphic>, <contenttweaker:masonry_brick>*4, <contenttweaker:loose_stone_bricks>*1);
 Stonecutter.addOutputs(<ore:rock>, [<contenttweaker:masonry_brick>*1]);
 
 
@@ -550,6 +561,16 @@ var smokerRecipes as IItemStack[IItemStack] = {
 	<harvestcraft:rawtofenisonitem> : <harvestcraft:cookedtofenisonitem>,
 	<harvestcraft:rawtofuduckitem> : <harvestcraft:cookedtofuduckitem>,
 
+	/****** DT Potion Fish ******/
+
+	<dungeontactics:fish_swift> : <dungeontactics:fish_swift_cooked>,
+	<dungeontactics:fish_flying> : <dungeontactics:fish_flying_cooked>,
+	<dungeontactics:fish_lava> : <dungeontactics:fish_lava_cooked>,
+	<dungeontactics:fish_muscle> : <dungeontactics:fish_muscle_cooked>,
+	<dungeontactics:fish_lung> : <dungeontactics:fish_lung_cooked>,
+	<dungeontactics:fish_obsidian> : <dungeontactics:fish_obsidian_cooked>,
+	<dungeontactics:fish_tunnel> : <dungeontactics:fish_tunnel_cooked>,
+
 	/****** LAVACOWWW ******/
 
 	<mod_lavacow:piranha> : <mod_lavacow:piranha_cooked>,
@@ -658,6 +679,16 @@ var campfireRecipes600 as IItemStack[IItemStack] = {
 	<harvestcraft:rawtofenisonitem> : <harvestcraft:cookedtofenisonitem>,
 	<harvestcraft:rawtofuduckitem> : <harvestcraft:cookedtofuduckitem>,
 	<harvestcraft:sweetpotatoitem> : <harvestcraft:bakedsweetpotatoitem>,
+
+	/****** DT Potion Fish ******/
+
+	<dungeontactics:fish_swift> : <dungeontactics:fish_swift_cooked>,
+	<dungeontactics:fish_flying> : <dungeontactics:fish_flying_cooked>,
+	<dungeontactics:fish_lava> : <dungeontactics:fish_lava_cooked>,
+	<dungeontactics:fish_muscle> : <dungeontactics:fish_muscle_cooked>,
+	<dungeontactics:fish_lung> : <dungeontactics:fish_lung_cooked>,
+	<dungeontactics:fish_obsidian> : <dungeontactics:fish_obsidian_cooked>,
+	<dungeontactics:fish_tunnel> : <dungeontactics:fish_tunnel_cooked>,
 
 	/****** LAVACOWWW ******/
 

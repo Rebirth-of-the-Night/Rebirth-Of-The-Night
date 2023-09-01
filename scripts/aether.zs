@@ -202,27 +202,33 @@ recipes.addShaped("quicksoil", quicks*8,[
 recipes.remove(<aether_legacy:holystone_button>);
 recipes.addShapeless("holystone_button",<aether_legacy:holystone_button>,[<pyrotech_compat:rock_sedimentary_sand:15>]);
 
-// Consistency with stone tools for holystone tools
+// Consistency with stone tools for holystone tools (disabled due to ridiculous ambrosium dupes)
 recipes.remove(<aether_legacy:holystone_axe>);
-recipes.addShapedMirrored("holystone_axe", <aether_legacy:holystone_axe>,
+/* recipes.addShapedMirrored("holystone_axe", <aether_legacy:holystone_axe>,
  [[<pyrotech_compat:rock_sedimentary_sand:15>,<pyrotech_compat:rock_sedimentary_sand:15>,null],
   [<pyrotech_compat:rock_sedimentary_sand:15>,<aether_legacy:skyroot_stick>,null],
-  [null,<aether_legacy:skyroot_stick>,null]]);
+  [null,<aether_legacy:skyroot_stick>,null]]); */
 
 recipes.remove(<aether_legacy:holystone_pickaxe>);
-recipes.addShaped("holystone_pickaxe", <aether_legacy:holystone_pickaxe>,
+/* recipes.addShaped("holystone_pickaxe", <aether_legacy:holystone_pickaxe>,
  [[<pyrotech_compat:rock_sedimentary_sand:15>,<pyrotech_compat:rock_sedimentary_sand:15>,<pyrotech_compat:rock_sedimentary_sand:15>],
   [null,<aether_legacy:skyroot_stick>,null],
-  [null,<aether_legacy:skyroot_stick>,null]]);
+  [null,<aether_legacy:skyroot_stick>,null]]); */
 
 recipes.remove(<aether_legacy:holystone_shovel>);
-recipes.addShaped("holystone_shovel", <aether_legacy:holystone_shovel>,
+/* recipes.addShaped("holystone_shovel", <aether_legacy:holystone_shovel>,
  [[null,<pyrotech_compat:rock_sedimentary_sand:15>,null],
   [null,<aether_legacy:skyroot_stick>,null],
-  [null,<aether_legacy:skyroot_stick>,null]]);
+  [null,<aether_legacy:skyroot_stick>,null]]); */
+
+JEI.removeAndHide(<aether_legacy:holystone_axe>);
+JEI.removeAndHide(<aether_legacy:holystone_pickaxe>);
+JEI.removeAndHide(<aether_legacy:holystone_shovel>);
+LootTable.removeGlobalItem("aether_legacy:holystone_axe");
+LootTable.removeGlobalItem("aether_legacy:holystone_pickaxe");
+LootTable.removeGlobalItem("aether_legacy:holystone_shovel");
 
 // Gravitite ingot rework
-
 var gravitite_ingot = <ore:ingotGravitite>;
 var gravitite_block = <ore:blockEnchantedGravitite>;
 

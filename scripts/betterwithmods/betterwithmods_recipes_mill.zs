@@ -239,3 +239,15 @@ Mill.builder()
 .setPriority(3)
 .setGrindType("mowziesmobs:geomancy.breakmedium3")
 .build();
+
+//Porcelain Recipes
+Mill.builder()
+.buildRecipe([<minecraft:clay_ball>*8, <pyrotech:material:37>], [<ceramics:unfired_clay:4>])
+.setPriority(1)
+.setGrindType("mowziesmobs:geomancy.breakmedium3")
+.build();
+Mill.builder()
+.buildRecipe([<pyrotech:material:4>*8, <pyrotech:material:37>], [<ceramics:unfired_clay:4>*9])
+.setPriority(1)
+.setGrindType("mowziesmobs:geomancy.breakmedium3")
+.build();

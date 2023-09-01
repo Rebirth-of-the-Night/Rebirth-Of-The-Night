@@ -296,7 +296,7 @@ tile.pyrotech.wood_tar_block.name=Tar Bale
 tile.pyrotech.living_tar.name=Living Tar
 tile.pyrotech.dense_redstone_ore.name=Dense Redstone Crystal
 tile.pyrotech.dense_quartz_ore.name=Dense Quartz Crystal
-tile.pyrotech.straw_bed.name=Straw Bed
+tile.pyrotech.straw_bed.name=Hay Bed
 
 tile.pyrotech.rock_stone.name=Quartzite Rock
 tile.pyrotech.rock_andesite.name=Zinc Bits

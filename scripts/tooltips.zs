@@ -514,11 +514,15 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <futuremc:smoker>.addShiftTooltip(format.gold("Fuel Capacity:") + format.yellow(" full stack; 1 at a time."));
 <futuremc:smoker>.addShiftTooltip(format.gold("Fuel Modifier:") + format.yellow(" 100%; 2x cooking speed"));
 
-<exsartagine:wok>.addShiftTooltip(format.white("Can be heated by:") + "" + format.yellow(" CAMPFIRE, FURNACE, SMOKER, BLAST FURNACE, COOKING RANGE, STOKED FLAME"), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
-<exsartagine:pot>.addShiftTooltip(format.white("Can be heated by:") + "" + format.yellow(" CAMPFIRE, FURNACE, SMOKER, BLAST FURNACE, COOKING RANGE, STOKED FLAME"), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
-<exsartagine:kettle>.addShiftTooltip(format.white("Can be heated by:") + "" + format.yellow(" CAMPFIRE, FURNACE, SMOKER, BLAST FURNACE, COOKING RANGE, STOKED FLAME"), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<exsartagine:wok>.addShiftTooltip(format.white("Can be heated by:") + "" + format.yellow(" CAMPFIRE, FURNACE, SMOKER, BLAST FURNACE, STOVE, HEARTH, STOKED FLAME"), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<exsartagine:pot>.addShiftTooltip(format.white("Can be heated by:") + "" + format.yellow(" CAMPFIRE, FURNACE, SMOKER, BLAST FURNACE, STOVE, HEARTH, STOKED FLAME"), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<exsartagine:kettle>.addShiftTooltip(format.white("Can be heated by:") + "" + format.yellow(" CAMPFIRE, FURNACE, SMOKER, BLAST FURNACE, STOVE, HEARTH, STOKED FLAME"), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <exsartagine:range:*>.addTooltip("Efficiently heats cooking appliances for fuel.");
-<exsartagine:range>.addShiftTooltip("Turns up to four furnaces to its right into part of the cooking range, offering 4 surfaces on which to place woks, pots and kettles.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<exsartagine:range>.addShiftTooltip("Supports up to three Stove Extensions to on either side, offering four total surfaces on which to place woks, pots and kettles.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<exsartagine:hearth:*>.addTooltip("Handily heats cooking appliances for fuel.");
+<exsartagine:hearth>.addShiftTooltip("Supports one Hearth Extension to its side, offering two total surfaces on which to place woks, pots and kettles.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+
+
 <advancedliftingmethods:blowing_elevator>.addShiftTooltip(format.gold("Pushes:") + "" + format.yellow(" Living entities."), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <advancedliftingmethods:blowing_elevator>.addShiftTooltip(format.gold("Chute Compat.:") + format.green(" YES."));
 <advancedliftingmethods:blowing_elevator>.addShiftTooltip(format.gold("Fueled:") + format.red(" NO"));
@@ -566,7 +570,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <globalxp:xp_block:*>.addTooltip("Shift + Right click to deposit all XP.");
 <globalxp:xp_block:*>.addTooltip("Right click to retrieve a level.");
 <aether_legacy:enchanted_blueberry:*>.addTooltip("Hippogryph treat.");
-<minecraft:torch:*>.addTooltip("Visible light attracts mobs.");
+<minecraft:torch:*>.addTooltip("Visible light attracts monsters.");
 
 <iceandfire:sapphire_gem>.addTooltip("This sapphire seems too polished to use in many recipes.");
 
@@ -659,8 +663,10 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <aether_legacy:pig_slayer:*>.addTooltip(format.green("- Stealthy Strike I"));
 
 <demonic_scythe:demonic_scythe:*>.addTooltip("You feel your lifeforce corrupt as you hold this horrible weapon. Right click to perform a special AOE attack!");
+<demonic_scythe:demonic_scythe:*>.addTooltip(format.red("RIGHT CLICK CURRENTLY BUGGED"));
 <demonic_scythe:demonic_scythe:*>.addTooltip(format.darkPurple("Epic Weapon"));
 <demonic_scythe:awakened_demonic_scythe:*>.addTooltip("You feel your lifeforce corrupt as you hold this dreadful weapon. Right click to perform a special AOE attack which heals you!");
+<demonic_scythe:awakened_demonic_scythe:*>.addTooltip(format.red("RIGHT CLICK CURRENTLY BUGGED"));
 <demonic_scythe:awakened_demonic_scythe:*>.addTooltip(format.gold("Legendary Weapon"));
 
 // Longbows

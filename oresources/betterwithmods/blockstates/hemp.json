@@ -1,0 +1,52 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "cross": "betterwithmods:blocks/hemp_stage_7"
+    },
+    "model": "cross"
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {
+        "transform": "forge:default-block",
+        "model": "betterwithmods:items/default"
+      }
+    ],
+    "top": {
+      "false": {
+		"model": "betterwithmods:hemp_7"
+      },
+      "true": {
+		"model": "betterwithmods:hemp_top"
+      }
+    },
+    "age": {
+      "0": {
+        "model": "betterwithmods:hemp_0"
+      },
+      "1": {
+        "model": "betterwithmods:hemp_1"
+      },
+      "2": {
+        "model": "betterwithmods:hemp_2"
+      },
+      "3": {
+        "model": "betterwithmods:hemp_3"
+      },
+      "4": {
+        "model": "betterwithmods:hemp_4"
+      },
+      "5": {
+        "model": "betterwithmods:hemp_5"
+      },
+	  "6": {
+        "model": "betterwithmods:hemp_6"
+      },
+      "7": {}
+    }
+  }
+}

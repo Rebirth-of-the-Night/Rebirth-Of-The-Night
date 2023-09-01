@@ -1,26 +1,26 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "blocks/tinkering_detail",
-		"particle": "blocks/tinkering_detail"
+		"0": "contenttweaker:blocks/paper",
+		"particle": "contenttweaker:blocks/paper"
 	},
 	"elements": [
 		{
 			"name": "paper",
-			"from": [4, 0.01, 2],
-			"to": [10, 0.01, 6],
+			"from": [3, 0.01, 1],
+			"to": [10, 0.01, 7],
 			"rotation": {"angle": 22.5, "axis": "y", "origin": [8, 16.01, 6]},
 			"faces": {
-				"up": {"uv": [10, 0, 16, 4], "texture": "#0"}
+				"up": {"uv": [9, 6, 16, 12], "texture": "#0"}
 			}
 		},
 		{
 			"name": "paper",
 			"from": [10, 0.01, 6],
-			"to": [14, 0.01, 12],
+			"to": [16, 0.01, 13],
 			"rotation": {"angle": -22.5, "axis": "y", "origin": [8, 16.01, 6]},
 			"faces": {
-				"up": {"uv": [10, 0, 16, 4], "rotation": 90, "texture": "#0"}
+				"up": {"uv": [9, 0, 16, 6], "rotation": 90, "texture": "#0"}
 			}
 		}
 	]

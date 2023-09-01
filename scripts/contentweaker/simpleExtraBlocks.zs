@@ -154,8 +154,8 @@ codex_junk.setBlockLayer("CUTOUT");
 codex_junk.setToolClass("none");
 codex_junk.register();
 
-var paper_one = VanillaFactory.createBlock("paper_one", <blockmaterial:Grass>);
-paper_one.axisAlignedBB = AxisAlignedBB.create(
+var paper_1 = VanillaFactory.createBlock("paper_1", <blockmaterial:Grass>);
+paper_1.axisAlignedBB = AxisAlignedBB.create(
      0.0 / 16.0,
      0.0 / 16.0,
      0.0 / 16.0,
@@ -163,16 +163,17 @@ paper_one.axisAlignedBB = AxisAlignedBB.create(
 	1.0 / 16.0,
     16.0 / 16.0
 	);
-paper_one.setBlockHardness(0.1);
-paper_one.setBlockResistance(1.0);
-paper_one.setFullBlock(false);
-paper_one.setLightOpacity(0);
-paper_one.setBlockLayer("CUTOUT");
-paper_one.setToolClass("none");
-paper_one.register();
+paper_1.setCreativeTab(<creativetab:rotn_blocks>);
+paper_1.setBlockHardness(0.1);
+paper_1.setBlockResistance(1.0);
+paper_1.setFullBlock(false);
+paper_1.setLightOpacity(0);
+paper_1.setBlockLayer("CUTOUT");
+paper_1.setToolClass("none");
+paper_1.register();
 
-var paper_two = VanillaFactory.createBlock("paper_two", <blockmaterial:Grass>);
-paper_two.axisAlignedBB = AxisAlignedBB.create(
+var paper_2 = VanillaFactory.createBlock("paper_2", <blockmaterial:Grass>);
+paper_2.axisAlignedBB = AxisAlignedBB.create(
      0.0 / 16.0,
      0.0 / 16.0,
      0.0 / 16.0,
@@ -180,16 +181,17 @@ paper_two.axisAlignedBB = AxisAlignedBB.create(
 	1.0 / 16.0,
     16.0 / 16.0
 	);
-paper_two.setBlockHardness(0.1);
-paper_two.setBlockResistance(1.0);
-paper_two.setFullBlock(false);
-paper_two.setLightOpacity(0);
-paper_two.setBlockLayer("CUTOUT");
-paper_two.setToolClass("none");
-paper_two.register();
+paper_2.setCreativeTab(<creativetab:rotn_blocks>);
+paper_2.setBlockHardness(0.1);
+paper_2.setBlockResistance(1.0);
+paper_2.setFullBlock(false);
+paper_2.setLightOpacity(0);
+paper_2.setBlockLayer("CUTOUT");
+paper_2.setToolClass("none");
+paper_2.register();
 
-var paper_three = VanillaFactory.createBlock("paper_three", <blockmaterial:Grass>);
-paper_three.axisAlignedBB = AxisAlignedBB.create(
+var paper_3 = VanillaFactory.createBlock("paper_3", <blockmaterial:Grass>);
+paper_3.axisAlignedBB = AxisAlignedBB.create(
      0.0 / 16.0,
      0.0 / 16.0,
      0.0 / 16.0,
@@ -197,13 +199,14 @@ paper_three.axisAlignedBB = AxisAlignedBB.create(
 	1.0 / 16.0,
     16.0 / 16.0
 	);
-paper_three.setBlockHardness(0.1);
-paper_three.setBlockResistance(1.0);
-paper_three.setFullBlock(false);
-paper_three.setLightOpacity(0);
-paper_three.setBlockLayer("CUTOUT");
-paper_three.setToolClass("none");
-paper_three.register();
+paper_3.setCreativeTab(<creativetab:rotn_blocks>);
+paper_3.setBlockHardness(0.1);
+paper_3.setBlockResistance(1.0);
+paper_3.setFullBlock(false);
+paper_3.setLightOpacity(0);
+paper_3.setBlockLayer("CUTOUT");
+paper_3.setToolClass("none");
+paper_3.register();
 
 var bowl = VanillaFactory.createBlock("bowl", <blockmaterial:Wood>);
 bowl.axisAlignedBB = AxisAlignedBB.create(
@@ -214,12 +217,151 @@ bowl.axisAlignedBB = AxisAlignedBB.create(
 	3.0 / 16.0,
     12.0 / 16.0
 	);
+bowl.setCreativeTab(<creativetab:rotn_blocks>);
 bowl.setBlockHardness(2.0);
 bowl.setBlockResistance(1.0);
 bowl.setFullBlock(false);
 bowl.setLightOpacity(0);
 bowl.setBlockLayer("CUTOUT");
 bowl.register();
+
+// Bones (add with content creator when possible to take advantage of blockstates and rotations)
+// human(?
+var bone_1 = VanillaFactory.createBlock("bone_1", <blockmaterial:Wood>);
+bone_1.axisAlignedBB = AxisAlignedBB.create(
+     4.0 / 16.0,
+     0.0 / 16.0,
+     4.0 / 16.0,
+	12.0 / 16.0,
+	16.0 / 16.0,
+    12.0 / 16.0
+	);
+bone_1.setCreativeTab(<creativetab:rotn_blocks>);
+bone_1.setBlockHardness(2.0);
+bone_1.setBlockResistance(1.0);
+bone_1.setFullBlock(false);
+bone_1.setLightOpacity(0);
+bone_1.setBlockLayer("CUTOUT");
+bone_1.register();
+
+var bone_2 = VanillaFactory.createBlock("bone_2", <blockmaterial:Wood>);
+bone_2.axisAlignedBB = AxisAlignedBB.create(
+     4.0 / 16.0,
+     0.0 / 16.0,
+     4.0 / 16.0,
+	12.0 / 16.0,
+	16.0 / 16.0,
+    12.0 / 16.0
+	);
+bone_2.setCreativeTab(<creativetab:rotn_blocks>);
+bone_2.setBlockHardness(2.0);
+bone_2.setBlockResistance(1.0);
+bone_2.setFullBlock(false);
+bone_2.setLightOpacity(0);
+bone_2.setBlockLayer("CUTOUT");
+bone_2.register();
+
+var bone_3 = VanillaFactory.createBlock("bone_3", <blockmaterial:Wood>);
+bone_3.axisAlignedBB = AxisAlignedBB.create(
+     4.0 / 16.0,
+     0.0 / 16.0,
+     4.0 / 16.0,
+	12.0 / 16.0,
+	16.0 / 16.0,
+    12.0 / 16.0
+	);
+bone_3.setCreativeTab(<creativetab:rotn_blocks>);
+bone_3.setBlockHardness(2.0);
+bone_3.setBlockResistance(1.0);
+bone_3.setFullBlock(false);
+bone_3.setLightOpacity(0);
+bone_3.setBlockLayer("CUTOUT");
+bone_3.register();
+
+var bone_4 = VanillaFactory.createBlock("bone_4", <blockmaterial:Wood>);
+bone_4.axisAlignedBB = AxisAlignedBB.create(
+     4.0 / 16.0,
+     0.0 / 16.0,
+     4.0 / 16.0,
+	12.0 / 16.0,
+	16.0 / 16.0,
+    12.0 / 16.0
+	);
+bone_4.setCreativeTab(<creativetab:rotn_blocks>);
+bone_4.setBlockHardness(2.0);
+bone_4.setBlockResistance(1.0);
+bone_4.setFullBlock(false);
+bone_4.setLightOpacity(0);
+bone_4.setBlockLayer("CUTOUT");
+bone_4.register();
+//wither
+var wither_bone_1 = VanillaFactory.createBlock("wither_bone_1", <blockmaterial:Wood>);
+wither_bone_1.axisAlignedBB = AxisAlignedBB.create(
+     4.0 / 16.0,
+     0.0 / 16.0,
+     4.0 / 16.0,
+	12.0 / 16.0,
+	16.0 / 16.0,
+    12.0 / 16.0
+	);
+wither_bone_1.setCreativeTab(<creativetab:rotn_blocks>);
+wither_bone_1.setBlockHardness(2.0);
+wither_bone_1.setBlockResistance(1.0);
+wither_bone_1.setFullBlock(false);
+wither_bone_1.setLightOpacity(0);
+wither_bone_1.setBlockLayer("CUTOUT");
+wither_bone_1.register();
+
+var wither_bone_2 = VanillaFactory.createBlock("wither_bone_2", <blockmaterial:Wood>);
+wither_bone_2.axisAlignedBB = AxisAlignedBB.create(
+     4.0 / 16.0,
+     0.0 / 16.0,
+     4.0 / 16.0,
+	12.0 / 16.0,
+	16.0 / 16.0,
+    12.0 / 16.0
+	);
+wither_bone_2.setCreativeTab(<creativetab:rotn_blocks>);
+wither_bone_2.setBlockHardness(2.0);
+wither_bone_2.setBlockResistance(1.0);
+wither_bone_2.setFullBlock(false);
+wither_bone_2.setLightOpacity(0);
+wither_bone_2.setBlockLayer("CUTOUT");
+wither_bone_2.register();
+
+var wither_bone_3 = VanillaFactory.createBlock("wither_bone_3", <blockmaterial:Wood>);
+wither_bone_3.axisAlignedBB = AxisAlignedBB.create(
+     4.0 / 16.0,
+     0.0 / 16.0,
+     4.0 / 16.0,
+	12.0 / 16.0,
+	16.0 / 16.0,
+    12.0 / 16.0
+	);
+wither_bone_3.setCreativeTab(<creativetab:rotn_blocks>);
+wither_bone_3.setBlockHardness(2.0);
+wither_bone_3.setBlockResistance(1.0);
+wither_bone_3.setFullBlock(false);
+wither_bone_3.setLightOpacity(0);
+wither_bone_3.setBlockLayer("CUTOUT");
+wither_bone_3.register();
+
+var wither_bone_4 = VanillaFactory.createBlock("wither_bone_4", <blockmaterial:Wood>);
+wither_bone_4.axisAlignedBB = AxisAlignedBB.create(
+     4.0 / 16.0,
+     0.0 / 16.0,
+     4.0 / 16.0,
+	12.0 / 16.0,
+	16.0 / 16.0,
+    12.0 / 16.0
+	);
+wither_bone_4.setCreativeTab(<creativetab:rotn_blocks>);
+wither_bone_4.setBlockHardness(2.0);
+wither_bone_4.setBlockResistance(1.0);
+wither_bone_4.setFullBlock(false);
+wither_bone_4.setLightOpacity(0);
+wither_bone_4.setBlockLayer("CUTOUT");
+wither_bone_4.register();
 
 // Speleothems
 var dolomite_straws = VanillaFactory.createBlock("dolomite_straws", <blockmaterial:Rock>);
@@ -380,12 +522,12 @@ seasoned_stump.register();
 // cincinnasite chandellier
 var cincinnasite_chandelier = VanillaFactory.createBlock("cincinnasite_chandelier", <blockmaterial:Wood>);
 cincinnasite_chandelier.axisAlignedBB = AxisAlignedBB.create(
-	-15.0 / 16.0,
 	0.0 / 16.0,
-	-15.0 / 16.0,
-	31.0 / 16.0,
+	0.0 / 16.0,
+	0.0 / 16.0,
+	16.0 / 16.0,
 	9.0 / 16.0,
-	31.0 / 16.0
+	16.0 / 16.0
 	);
 cincinnasite_chandelier.setFullBlock(false);
 cincinnasite_chandelier.setBlockHardness(8);
@@ -491,6 +633,60 @@ pot_unfired.setBlockSoundType(<soundtype:ground>);
 pot_unfired.setToolLevel(0);
 pot_unfired.setToolClass("shovel");
 pot_unfired.register();
+
+// Unfired Rustic Basin
+var unfired_drying_basin = VanillaFactory.createBlock("unfired_drying_basin", <blockmaterial:Clay>);
+unfired_drying_basin.axisAlignedBB = AxisAlignedBB.create(
+     1.0 / 16.0,
+     0.0 / 16.0,
+     1.0 / 16.0,
+	15.0 / 16.0,
+    12.0 / 16.0,
+    15.0 / 16.0
+	);
+unfired_drying_basin.setFullBlock(false);
+unfired_drying_basin.setLightOpacity(0);
+unfired_drying_basin.setCreativeTab(<creativetab:rotn_blocks>);
+unfired_drying_basin.setBlockSoundType(<soundtype:ground>);
+unfired_drying_basin.setToolLevel(0);
+unfired_drying_basin.setToolClass("shovel");
+unfired_drying_basin.register();
+
+// Unfired Cooking Pot
+var unfired_cooking_pot = VanillaFactory.createBlock("unfired_cooking_pot", <blockmaterial:Clay>);
+unfired_cooking_pot.axisAlignedBB = AxisAlignedBB.create(
+     2.0 / 16.0,
+     0.0 / 16.0,
+     2.0 / 16.0,
+	14.0 / 16.0,
+     9.0 / 16.0,
+    14.0 / 16.0
+	);
+unfired_cooking_pot.setFullBlock(false);
+unfired_cooking_pot.setLightOpacity(0);
+unfired_cooking_pot.setCreativeTab(<creativetab:rotn_blocks>);
+unfired_cooking_pot.setBlockSoundType(<soundtype:ground>);
+unfired_cooking_pot.setToolLevel(0);
+unfired_cooking_pot.setToolClass("shovel");
+unfired_cooking_pot.register();
+
+// Unfired flower Pot
+var unfired_flower_pot = VanillaFactory.createBlock("unfired_flower_pot", <blockmaterial:Clay>);
+unfired_flower_pot.axisAlignedBB = AxisAlignedBB.create(
+     5.0 / 16.0,
+     0.0 / 16.0,
+     5.0 / 16.0,
+	11.0 / 16.0,
+    10.0 / 16.0,
+    11.0 / 16.0
+	);
+unfired_flower_pot.setFullBlock(false);
+unfired_flower_pot.setLightOpacity(0);
+unfired_flower_pot.setCreativeTab(<creativetab:rotn_blocks>);
+unfired_flower_pot.setBlockSoundType(<soundtype:ground>);
+unfired_flower_pot.setToolLevel(0);
+unfired_flower_pot.setToolClass("shovel");
+unfired_flower_pot.register();
 
 // Broken Elevator
 var elevator = VanillaFactory.createBlock("elevator", <blockmaterial:Ground>);
@@ -1799,6 +1995,24 @@ tapestry_red.setBlockSoundType(<soundtype:cloth>);
 tapestry_red.setBlockHardness(0.8);
 tapestry_red.setBlockResistance(0.8);
 tapestry_red.register();
+var tapestry_orange = VanillaFactory.createBlock("tapestry_orange", <blockmaterial:Ground>);
+tapestry_orange.setCreativeTab(<creativetab:rotn_blocks>);
+tapestry_orange.setBlockSoundType(<soundtype:cloth>);
+tapestry_orange.setBlockHardness(0.8);
+tapestry_orange.setBlockResistance(0.8);
+tapestry_orange.register();
+var tapestry_blue = VanillaFactory.createBlock("tapestry_blue", <blockmaterial:Ground>);
+tapestry_blue.setCreativeTab(<creativetab:rotn_blocks>);
+tapestry_blue.setBlockSoundType(<soundtype:cloth>);
+tapestry_blue.setBlockHardness(0.8);
+tapestry_blue.setBlockResistance(0.8);
+tapestry_blue.register();
+var tapestry_black = VanillaFactory.createBlock("tapestry_black", <blockmaterial:Ground>);
+tapestry_black.setCreativeTab(<creativetab:rotn_blocks>);
+tapestry_black.setBlockSoundType(<soundtype:cloth>);
+tapestry_black.setBlockHardness(0.8);
+tapestry_black.setBlockResistance(0.8);
+tapestry_black.register();
 var tapestry_green = VanillaFactory.createBlock("tapestry_green", <blockmaterial:Ground>);
 tapestry_green.setCreativeTab(<creativetab:rotn_blocks>);
 tapestry_green.setBlockSoundType(<soundtype:cloth>);

@@ -228,6 +228,27 @@
 		"rustic:tomato_crop": "bluntwood",
 		"rustic:stake_tied": "bluntwood",
 		"betterwithmods:stake": "bluntwood",
-		"dynamictreesbop:deadbranch": "log"
+		"charm:crate_sealed": "bluntwood",
+		"aesthetics:iron_brick_stairs": "metalbar",
+		"betterwithaddons:wrought_bars": "metalbar",
+		"betterwithaddons:wrought_lamp": "metalbar",
+		"betterwithmods:vase": "sandstone",
+		"futuremc:smooth_sandstone": "sandstone",
+		"futuremc:smooth_red_sandstone": "sandstone",
+		"exsartagine:hearth": "sandstone",
+		"exsartagine:hearth_extended": "sandstone",
+		"exsartagine:range_extended": "hardmetal",
+		"exsartagine:hearth_extended_lit": "sandstone",
+		"exsartagine:range_extended_lit": "hardmetal",
+		"exsartagine:pot": "sandstone",
+		"exsartagine:kettle": "metalbar",
+		"advancedliftingmethods:double_purpur_stairs": "brickstone",
+		"advancedliftingmethods:double_purpur_stairs_top": "brickstone",
+		"advancedliftingmethods:double_sandstone_stairs": "sandstone",
+		"advancedliftingmethods:double_sandstone_stairs_top": "sandstone",
+		"advancedliftingmethods:double_red_sandstone_stairs": "sandstone",
+		"advancedliftingmethods:double_red_sandstone_stairs_top": "sandstone",
+		"advancedliftingmethods:double_quartz_stairs": "marble",
+		"advancedliftingmethods:double_quartz_stairs_top": "marble"
 	}
 }

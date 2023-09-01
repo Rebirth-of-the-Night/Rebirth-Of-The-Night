@@ -56,6 +56,8 @@ JEI.removeAndHide(<minecraft:end_portal_frame>);
 JEI.removeAndHide(<minecraft:anvil:2>);
 JEI.removeAndHide(<minecraft:anvil:1>);
 JEI.removeAndHide(<minecraft:chorus_plant>);
+JEI.removeAndHide(<minecraft:filled_map>);
+JEI.removeAndHide(<minecraft:written_book>);
 
 <ore:blockMossy>.addItems([<minecraft:mossy_cobblestone>]);
 JEI.removeAndHide(<forge:bucketfilled:*>);
@@ -70,6 +72,9 @@ recipes.remove(<rats:feral_bagh_nakhs>);
 JEI.removeAndHide(<rats:feral_bagh_nakhs>);
 
 JEI.removeAndHide(<iceandfire:stymphalian_bird_dagger>);
+
+recipes.remove(<spartanweaponry:arrow_explosive>);
+JEI.removeAndHide(<spartanweaponry:arrow_explosive>);
 
 recipes.remove(<minecraft:minecart>);
 recipes.addShaped("minecart", <minecraft:minecart>, [
@@ -146,6 +151,7 @@ furnace.setFuel(<contenttweaker:peat>, 1600);
 furnace.setFuel(<contenttweaker:charmpeat>, 4800);
 furnace.setFuel(<betterwithmods:stake>, 80);
 furnace.setFuel(<rustic:crop_stake>, 240);
+furnace.setFuel(<contenttweaker:broken_stick>, 150);
 
 <ore:sourceCopper>.addItems([<contenttweaker:raw_copper>,<simpleores:copper_ingot>]);
 <ore:sourceCopper>.addAll(<ore:oreCopper>);
@@ -165,6 +171,7 @@ furnace.setFuel(<rustic:crop_stake>, 240);
 <ore:sourceBronze>.addAll(<ore:ingotBronze>);
 <ore:sourceBrass>.addAll(<ore:ingotBrass>);
 
+
 val rock_dictionary = <ore:rock>;
 rock_dictionary.remove([<pyrotech_compat:rock_sedimentary_sand:11>,<pyrotech_compat:rock_sedimentary_sand:12>,<pyrotech_compat:rock_metamorphic_sand:15>,<pyrotech_compat:rock_metamorphic_sand:14>,<pyrotech_compat:rock_metamorphic_sand:13>,<pyrotech_compat:rock_metamorphic_sand:12>,<pyrotech_compat:rock_metamorphic_sand:11>,<pyrotech_compat:rock_metamorphic_sand:10>,<pyrotech_compat:rock_metamorphic_sand:9>,<pyrotech_compat:rock_igneous_sand:15>,<pyrotech_compat:rock_igneous_sand:14>,<pyrotech_compat:rock_igneous_sand:13>,<pyrotech_compat:rock_igneous_sand:12>,<pyrotech_compat:rock_igneous_sand:11>,<pyrotech_compat:rock_igneous_sand:10>,<pyrotech_compat:rock_igneous_sand:8>,<pyrotech:rock:1>,<pyrotech:rock:2>,<pyrotech:rock:3>,<pyrotech_compat:rock_netherrack>,<pyrotech_compat:rock_sedimentary_sand:15>]);
 
@@ -183,6 +190,7 @@ var rtb as IItemStack[IItemStack] = {
   <contenttweaker:raw_iron_block> : <contenttweaker:raw_iron>,
   <contenttweaker:raw_silver_block> : <contenttweaker:raw_silver>,
   <contenttweaker:raw_gold_block> : <contenttweaker:raw_gold>,
+  <contenttweaker:raw_gravitite_block> : <contenttweaker:raw_gravitite>,
   <contenttweaker:raw_viridium_block> : <contenttweaker:raw_viridium>,
   <contenttweaker:raw_mythril_block> : <contenttweaker:raw_mythril>,
   <contenttweaker:raw_wrought_iron> : <contenttweaker:material_part:52> //wrought iron
@@ -322,6 +330,12 @@ LootTable.removeGlobalItem("minecraft:bucket");
 
 recipes.addShapeless("gravel_to_flint", <minecraft:flint>*2, [<ore:gravel>, <ore:gravel>]);
 
+val dyeBlack = <ore:dyeBlack>;
+dyeBlack.remove(<netherex:wither_dust>);
+
+val boneWithered = <ore:boneWithered>;
+boneWithered.remove(<netherex:wither_bone>);
+
 val stone = <ore:stone>;
 stone.add(<aether_legacy:holystone>);
 stone.add(<contenttweaker:serpentinite>);
@@ -368,6 +382,9 @@ gbars.add(<aesthetics:copper_bars>);
 gbars.add(<aesthetics:tin_bars>);
 gbars.add(<betterwithaddons:wrought_bars:0>);
 
+val nuggetSteel = <ore:nuggetSteel>;
+nuggetSteel.remove(<primal:steel_nugget>);
+
 val gnugs = <ore:genericMetalNuggets>;
 gnugs.addAll(<ore:nuggetCopper>);
 gnugs.addAll(<ore:nuggetTin>);
@@ -375,6 +392,7 @@ gnugs.addAll(<ore:nuggetIron>);
 gnugs.addAll(<ore:nuggetBronze>);
 gnugs.addAll(<ore:nuggetSilver>);
 gnugs.addAll(<ore:nuggetSteel>);
+gnugs.remove(<primal:steel_nugget>);
 
 val bars = <ore:bars>;
 bars.addAll(<ore:genericMetalBars>);
@@ -452,11 +470,25 @@ recipes.addShaped("jukebox",<minecraft:jukebox>,[
     [<ore:plankWood>,<ore:plankWood>,<ore:plankWood>]
 ]);
 
+// Makes vanilla comparator and repeater use clay plates to match charset redstone stuff
+recipes.remove(<minecraft:repeater>);
+recipes.removeByRecipeName("quark:repeater");
+recipes.addShaped("clay_repeater", <minecraft:repeater>, [
+    [null, null, null],
+    [<minecraft:redstone_torch>, <minecraft:redstone>, <minecraft:redstone_torch>],
+    [null, <ceramics:unfired_clay:9>, null]
+]);
+recipes.addShaped("convenient_clay_repeater", <minecraft:repeater>, [
+    [<minecraft:redstone>, null, <minecraft:redstone>],
+    [<minecraft:stick>, <minecraft:redstone>, <minecraft:stick>],
+    [null, <ceramics:unfired_clay:9>, null]
+]);
+
 recipes.remove(<minecraft:comparator>);
-recipes.addShaped("comparator",<minecraft:comparator>,[
+recipes.addShaped("clay_comparator",<minecraft:comparator>,[
     [null,<minecraft:redstone_torch>,null],
     [<minecraft:redstone_torch>,<pyrotech:cog_gold>|<minecraft:quartz>,<minecraft:redstone_torch>],
-    [<ore:stone>,<ore:stone>,<ore:stone>]
+    [null,<ceramics:unfired_clay:9>,null]
 ]);
 
 recipes.addShapeless("spider_silk_to_string",<minecraft:string>,[<contenttweaker:spider_silk>,<contenttweaker:spider_silk>,<contenttweaker:spider_silk>]);
@@ -838,6 +870,13 @@ recipes.addShaped("quality_bucket", <minecraft:bucket>,[
     [<pyrotech:material:4>, <contenttweaker:crucible>, <pyrotech:material:4>]
 ]);
 
+// new redstone recipes
+recipes.remove(<minecraft:daylight_detector>);
+recipes.addShaped("daylightsensor", <minecraft:daylight_detector>,[
+    [<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>],
+    [<ore:ingotCopper>, <minecraft:clock>, <ore:ingotCopper>],
+    [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
+]);
 
 recipes.remove(<minecraft:concrete_powder:*>);
 recipes.addShapeless("white_concrete_powder",<minecraft:concrete_powder:0>*8,[<ore:dyeWhite>,<ore:sand>,<ore:sand>,<ore:sand>,<ore:sand>,<ore:gravel>,<ore:gravel>,<ore:gravel>,<ore:gravel>]);
@@ -934,28 +973,6 @@ JEI.removeAndHide(<quark:custom_chest_trap:1>);
 JEI.removeAndHide(<quark:custom_chest_trap:2>);
 JEI.removeAndHide(<quark:custom_chest_trap:3>);
 JEI.removeAndHide(<quark:custom_chest_trap:4>);
-
-// Basket Case hiding
-JEI.removeAndHide(<basketcase:twig_acacia>);
-JEI.removeAndHide(<basketcase:twig_birch>);
-JEI.removeAndHide(<basketcase:twig_dark_oak>);
-JEI.removeAndHide(<basketcase:twig_jungle>);
-JEI.removeAndHide(<basketcase:twig_oak>);
-JEI.removeAndHide(<basketcase:twig_spruce>);
-
-// PrimalLib Hiding
-JEI.removeAndHide(<primallib:plant_fiber>);
-JEI.removeAndHide(<primallib:twine>);
-JEI.removeAndHide(<primallib:bark_oak>);
-JEI.removeAndHide(<primallib:bark_spruce>);
-JEI.removeAndHide(<primallib:bark_birch>);
-JEI.removeAndHide(<primallib:bark_jungle>);
-JEI.removeAndHide(<primallib:bark_acacia>);
-JEI.removeAndHide(<primallib:bark_dark_oak>);
-JEI.removeAndHide(<primallib:wooden_shaft>);
-JEI.removeAndHide(<primallib:twig_generic>);
-JEI.removeAndHide(<primallib:branch>);
-JEI.removeAndHide(<primallib:twine>);
 
 // Iron Furnaces Hiding
 JEI.removeAndHide(<ironfurnaces:iron_furnace_active>);
@@ -1341,6 +1358,9 @@ brown.remove(<betterwithmods:material:5>);
 
 <ore:fenceGateWood>.addItems([<betternether:stalagnate_planks_gate>,<betternether:reeds_gate>,<rustic:fence_gate_olive>,<rustic:fence_gate_ironwood>]);
 
+val terracotta = <ore:terracotta>;
+terracotta.addItems([<minecraft:stained_hardened_clay:1>,<minecraft:stained_hardened_clay:2>,<minecraft:stained_hardened_clay:3>,<minecraft:stained_hardened_clay:4>,<minecraft:stained_hardened_clay:5>,<minecraft:stained_hardened_clay:6>,<minecraft:stained_hardened_clay:7>,<minecraft:stained_hardened_clay:8>,<minecraft:stained_hardened_clay:9>,<minecraft:stained_hardened_clay:10>,<minecraft:stained_hardened_clay:11>,<minecraft:stained_hardened_clay:12>,<minecraft:stained_hardened_clay:12>,<minecraft:stained_hardened_clay:13>,<minecraft:stained_hardened_clay:14>,<minecraft:stained_hardened_clay:15>,<minecraft:hardened_clay>]);
+
 val trapdoorWood = <ore:trapdoorWood>;
 trapdoorWood.addItems([<twilightforest:twilight_oak_trapdoor>,<twilightforest:canopy_trapdoor>,<twilightforest:mangrove_trapdoor>,<twilightforest:dark_trapdoor>,<twilightforest:time_trapdoor>,<twilightforest:trans_trapdoor>,<twilightforest:mine_trapdoor>,<twilightforest:sort_trapdoor>,<aether_legacy:skyroot_trapdoor>]);
 
@@ -1348,7 +1368,7 @@ val pressurePlateWood = <ore:pressurePlateWood>;
 pressurePlateWood.addItems([<aether_legacy:skyroot_pressure_plate>,<betternether:stalagnate_planks_plate>,<betternether:reeds_plate>,<twilightforest:twilight_oak_plate>,<twilightforest:canopy_plate>,<twilightforest:mangrove_plate>,<twilightforest:dark_plate>,<twilightforest:time_plate>,<twilightforest:trans_plate>,<twilightforest:mine_plate>,<twilightforest:sort_plate>]);
 
 val buttonWood = <ore:buttonWood>;
-buttonWood.addItems([<aether_legacy:skyroot_button>,<betternether:reeds_button>,<betternether:stalagnate_planks_button>]);
+buttonWood.addItems([<aether_legacy:skyroot_button>,<betternether:reeds_button>,<betternether:stalagnate_planks_button>,<twilightforest:twilight_oak_button>,<twilightforest:canopy_button>,<twilightforest:mangrove_button>,<twilightforest:dark_button>,<twilightforest:time_button>,<twilightforest:trans_button>,<twilightforest:mine_button>,<twilightforest:sort_button>]);
 
 val allStoneSlab = <ore:stoneSlab>;
 allStoneSlab.addItems([<minecraft:stone_slab:*>, <undergroundbiomes:igneous_stone_halfslab:*>, <undergroundbiomes:metamorphic_stone_halfslab:*>, <undergroundbiomes:igneous_cobble_halfslab:*>, <undergroundbiomes:metamorphic_cobble_halfslab:*>, <undergroundbiomes:sedimentary_stone_halfslab:*>, <quark:sandstone_smooth_slab:*>, <quark:red_sandstone_smooth_slab:*>, <biomesoplenty:other_slab:1>, <minecraft:stone_slab2:*>, <aether_legacy:holystone_slab:*>, <aether_legacy:mossy_holystone_slab:*>, <quark:fire_stone_slab:*>, <quark:icy_stone_slab:*>, <quark:cobbed_stone_slab:*>, <quark:soul_sandstone_slab:*>, <minecraft:purpur_slab:*>, <aether_legacy:carved_slab:*>, <aether_legacy:angelic_slab:*>, <aether_legacy:hellfire_slab:*>, <aether_legacy:holystone_brick_slab:*>, <betternether:nether_brick_tile_slab_half:*>, <netherex:red_nether_brick_slab:*>, <netherex:gloomy_nether_brick_slab:*>, <netherex:lively_nether_brick_slab:*>, <netherex:fiery_nether_brick_slab:*>, <netherex:icy_nether_brick_slab:*>, <netherex:basalt_slab:*>, <netherex:smooth_basalt_slab:*>, <netherex:basalt_brick_slab:*>, <netherex:basalt_pillar_slab:*>, <quark:biotite_slab:*>, <quark:fire_stone_brick_slab:*>, <quark:icy_stone_brick_slab:*>, <quark:elder_prismarine_slab:*>, <quark:elder_prismarine_bricks_slab:*>, <quark:elder_prismarine_dark_slab:*>, <quark:sandstone_bricks_slab:*>, <quark:red_sandstone_bricks_slab:*>, <quark:soul_sandstone_smooth_slab:*>, <quark:soul_sandstone_bricks_slab:*>, <quark:sandy_bricks_slab:*>, <quark:stone_granite_slab:*>, <quark:stone_diorite_slab:*>, <quark:stone_andesite_slab:*>, <quark:end_bricks_slab:*>, <quark:prismarine_slab:*>, <quark:prismarine_bricks_slab:*>, <quark:prismarine_dark_slab:*>, <quark:cobblestone_mossy_slab:*>, <quark:stonebrick_mossy_slab:*>, <quark:charred_nether_brick_slab:*>, <quark:stone_granite_bricks_slab:*>, <quark:stone_diorite_bricks_slab:*>, <quark:stone_andesite_bricks_slab:*>, <quark:midori_block_slab:*>, <quark:magma_bricks_slab:*>, <quark:duskbound_block_slab:*>, <quark:polished_netherrack_bricks_slab:*>, <undergroundbiomes:igneous_brick_halfslab:*>, <undergroundbiomes:metamorphic_brick_halfslab:*>]);
@@ -1390,6 +1410,10 @@ genericMetal.addAll(<ore:ingotBronze>);
 genericMetal.addAll(<ore:ingotSilver>);
 genericMetal.addAll(<ore:ingotSteel>);
 genericMetal.addAll(<ore:ingotWroughtIron>);
+genericMetal.remove(<primal:steel_ingot>);
+
+val ingotSteel = <ore:ingotSteel>;
+ingotSteel.remove(<primal:steel_ingot>);
 
 val wolfCape = <ore:wolfCape>;
 wolfCape.addItems([<betteranimalsplus:wolf_cape_classic>,<betteranimalsplus:wolf_cape_timber>,<betteranimalsplus:wolf_cape_black>,<betteranimalsplus:wolf_cape_arctic>,<betteranimalsplus:wolf_cape_red>,<betteranimalsplus:wolf_cape_brown>]);
@@ -1601,6 +1625,12 @@ BaconEggs.remove(<mod_lavacow:green_bacon_and_eggs>);
 
 val tallow = <ore:tallow>;
 rawBeef.remove(<harvestcraft:groundbeefitem>);
+
+val tomato = <ore:cropTomato>;
+tomato.remove(<harvestcraft:tomatoitem>);
+
+val rice = <ore:listAllRice>;
+rice.remove(<harvestcraft:riceitem>);
 
 val animal_fat = <ore:burnable_fat>;
 animal_fat.addItems([<quark:tallow>, <betteranimalsplus:blubber>, <rustic:beeswax>]);
@@ -1879,7 +1909,10 @@ val lunarinlikeBricks = {
     <contenttweaker:lunarinfierybrick> : <ore:ingotFiery>,
     <contenttweaker:farlanderexoritebrick> : <rotn_blocks:exorite_crystal>,
     <contenttweaker:farlanderzanitebrick> : <ore:gemZanite>,
-    <contenttweaker:farlanderdiamondbrick> : <ore:gemDiamond>
+    <contenttweaker:farlanderdiamondbrick> : <ore:gemDiamond>,
+    <contenttweaker:lunarinfirebrick> : <iceandfire:dragonsteel_fire_ingot>,
+    <contenttweaker:lunarinicebrick> : <iceandfire:dragonsteel_ice_ingot>,
+    <contenttweaker:lunarinknightbrick> : <twilightforest:knightmetal_ingot>
 } as IIngredient[IItemStack];
 
 for lunarinBrick, lunarinIngot in lunarinlikeBricks {

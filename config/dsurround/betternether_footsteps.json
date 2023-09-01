@@ -27,6 +27,11 @@
 		"betternether:quartz_glass_framed_pane": "hardmetal,glass",
 		"betternether:quartz_stained_glass_framed": "hardmetal,glass",
 		"betternether:netherrack_moss": "grass,stone",
-		"betternether:netherrack_furnace": "brickstone"
+		"betternether:netherrack_furnace": "brickstone",
+		"betternether:orange_mushroom": "organic",
+		"betternether:brown_large_mushroom": "organic",
+		"betternether:red_large_mushroom": "organic",
+		"betternether:lucis_mushroom": "organic",
+		"betternether:wart_seed": "organic"
 	}
 }

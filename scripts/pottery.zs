@@ -95,6 +95,16 @@ RecipeBuilder.get("potter")
  .setExtraOutputOne(<minecraft:clay_ball>, 0.4)
  .create();
 
+// Clay to cooking pot
+RecipeBuilder.get("potter")
+ .setShaped([
+	[<minecraft:clay_ball>, null, <minecraft:clay_ball>],
+    [<minecraft:clay_ball>, null, <minecraft:clay_ball>],
+    [null, <minecraft:clay_ball>, null]])
+ .addTool(<ore:artisansCarver>, 4)
+ .addOutput(<contenttweaker:unfired_cooking_pot>)
+ .create();
+
 // Clay to bucket
 RecipeBuilder.get("potter")
  .setShaped([
@@ -103,6 +113,15 @@ RecipeBuilder.get("potter")
  .addTool(<ore:artisansCarver>, 1)
  .addOutput(<pyrotech:bucket_clay_unfired>)
  .create();
+
+// Soapstone Bucket
+RecipeBuilder.get("potter")
+  .setShaped([
+    [<pyrotech_compat:rock_metamorphic:6>, <ore:twine>, <pyrotech_compat:rock_metamorphic:6>],
+    [null, <pyrotech_compat:rock_metamorphic:6>, null]])
+  .addTool(<ore:artisansCarver>, 4)
+  .addOutput(<pyrotech:bucket_clay>)
+  .create();
 
 // Clay to faucet
 RecipeBuilder.get("potter")
@@ -113,13 +132,40 @@ RecipeBuilder.get("potter")
  .addOutput(<contenttweaker:unfired_clay_faucet>)
  .create();
 
+// Soapstone to faucet
+RecipeBuilder.get("potter")
+ .setShaped([
+    [<pyrotech_compat:rock_metamorphic:6>, null, <pyrotech_compat:rock_metamorphic:6>],
+    [null, <pyrotech_compat:rock_metamorphic:6>, null]])
+ .addTool(<ore:artisansCarver>, 4)
+ .addOutput(<pyrotech:faucet_stone>)
+ .create();
+
 // Clay Drying Basin
 RecipeBuilder.get("potter")
   .setShaped([
     [<minecraft:clay_ball>, null, <minecraft:clay_ball>],
     [<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>]])
   .addTool(<ore:artisansCarver>, 1)
+  .addOutput(<contenttweaker:unfired_drying_basin>)
+  .create();
+
+// Soapstone Drying Basin
+RecipeBuilder.get("potter")
+  .setShaped([
+    [<pyrotech_compat:rock_metamorphic:6>, null, <pyrotech_compat:rock_metamorphic:6>],
+    [<pyrotech_compat:rock_metamorphic:6>, <pyrotech_compat:rock_metamorphic:6>, <pyrotech_compat:rock_metamorphic:6>]])
+  .addTool(<ore:artisansCarver>, 4)
   .addOutput(<rustic:evaporating_basin>)
+  .create();
+
+// Clay flower pot
+RecipeBuilder.get("potter")
+  .setShaped([
+    [null, <minecraft:clay_ball>, null],
+    [null, <minecraft:clay_ball>, null]])
+  .addTool(<ore:artisansCarver>, 1)
+  .addOutput(<contenttweaker:unfired_flower_pot>)
   .create();
 
 // Clay to collector
@@ -132,6 +178,16 @@ RecipeBuilder.get("potter")
  .addOutput(<contenttweaker:unfired_clay_collector>)
  .create();
 
+// Soapstone to collector
+RecipeBuilder.get("potter")
+ .setShaped([
+	[<pyrotech_compat:rock_metamorphic:6>, <ore:stickWood>, <pyrotech_compat:rock_metamorphic:6>],
+    [<pyrotech_compat:rock_metamorphic:6>, null, <pyrotech_compat:rock_metamorphic:6>],
+    [null, <pyrotech_compat:rock_metamorphic:6>, null]])
+ .addTool(<ore:artisansCarver>, 12)
+ .addOutput(<pyrotech:tar_collector>)
+ .create();
+
 // Clay to drain
 RecipeBuilder.get("potter")
  .setShaped([
@@ -142,13 +198,23 @@ RecipeBuilder.get("potter")
  .addOutput(<contenttweaker:unfired_clay_drain>)
  .create();
 
+// Soapstone to drain
+RecipeBuilder.get("potter")
+ .setShaped([
+    [<pyrotech_compat:rock_metamorphic:6>, <pyrotech_compat:rock_metamorphic:6>, <pyrotech_compat:rock_metamorphic:6>],
+	[null, null, <pyrotech_compat:rock_metamorphic:6>],
+    [<pyrotech_compat:rock_metamorphic:6>, <pyrotech_compat:rock_metamorphic:6>, <pyrotech_compat:rock_metamorphic:6>]])
+ .addTool(<ore:artisansCarver>, 12)
+ .addOutput(<pyrotech:tar_drain>)
+ .create();
+
 // Clay Totem Base
 RecipeBuilder.get("potter")
   .setShaped([
     [null, <ore:stickWood>, null],
     [<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>],
     [null, <minecraft:clay_ball>, null]])
-  .addOutput(<totemexpansion:totem_base>)
+  .addOutput(<contenttweaker:unfired_totem_base>)
   .create();
 
 // Soapstone Totem Base
@@ -157,17 +223,8 @@ RecipeBuilder.get("potter")
     [null, <ore:stickWood>, null],
     [<pyrotech_compat:rock_metamorphic:6>, <pyrotech_compat:rock_metamorphic:6>, <pyrotech_compat:rock_metamorphic:6>],
     [null, <pyrotech_compat:rock_metamorphic:6>, null]])
-  .addTool(<ore:artisansCarver>, 2)
+  .addTool(<ore:artisansCarver>, 6)
   .addOutput(<totemexpansion:totem_base>)
-  .create();
-  
-// Soapstone Bucket
-RecipeBuilder.get("potter")
-  .setShaped([
-    [<pyrotech_compat:rock_metamorphic:6>, <ore:twine>, <pyrotech_compat:rock_metamorphic:6>],
-    [null, <pyrotech_compat:rock_metamorphic:6>, null]])
-  .addTool(<ore:artisansCarver>, 2)
-  .addOutput(<pyrotech:bucket_clay>)
   .create();
   
 // Soapstone Wok
@@ -175,44 +232,6 @@ RecipeBuilder.get("potter")
   .setShaped([
     [<pyrotech_compat:rock_metamorphic:6>, null, <ore:stickWood>],
     [<pyrotech_compat:rock_metamorphic:6>, <pyrotech_compat:rock_metamorphic:6>, <pyrotech_compat:rock_metamorphic:6>]])
-  .addTool(<ore:artisansCarver>, 2)
+  .addTool(<ore:artisansCarver>, 8)
   .addOutput(<exsartagine:wok>)
   .create();
-
-// Soapstone to faucet
-RecipeBuilder.get("potter")
- .setShaped([
-    [<pyrotech_compat:rock_metamorphic:6>, null, <pyrotech_compat:rock_metamorphic:6>],
-    [null, <pyrotech_compat:rock_metamorphic:6>, null]])
- .addTool(<ore:artisansCarver>, 2)
- .addOutput(<pyrotech:faucet_stone>)
- .create();
-
-// Soapstone Drying Basin
-RecipeBuilder.get("potter")
-  .setShaped([
-    [<pyrotech_compat:rock_metamorphic:6>, null, <pyrotech_compat:rock_metamorphic:6>],
-    [<pyrotech_compat:rock_metamorphic:6>, <pyrotech_compat:rock_metamorphic:6>, <pyrotech_compat:rock_metamorphic:6>]])
-  .addTool(<ore:artisansCarver>, 2)
-  .addOutput(<rustic:evaporating_basin>)
-  .create();
-
-// Soapstone to collector
-RecipeBuilder.get("potter")
- .setShaped([
-	[<pyrotech_compat:rock_metamorphic:6>, <ore:stickWood>, <pyrotech_compat:rock_metamorphic:6>],
-    [<pyrotech_compat:rock_metamorphic:6>, null, <pyrotech_compat:rock_metamorphic:6>],
-    [null, <pyrotech_compat:rock_metamorphic:6>, null]])
- .addTool(<ore:artisansCarver>, 8)
- .addOutput(<pyrotech:tar_collector>)
- .create();
-
-// Soapstone to drain
-RecipeBuilder.get("potter")
- .setShaped([
-    [<pyrotech_compat:rock_metamorphic:6>, <pyrotech_compat:rock_metamorphic:6>, <pyrotech_compat:rock_metamorphic:6>],
-	[null, null, <pyrotech_compat:rock_metamorphic:6>],
-    [<pyrotech_compat:rock_metamorphic:6>, <pyrotech_compat:rock_metamorphic:6>, <pyrotech_compat:rock_metamorphic:6>]])
- .addTool(<ore:artisansCarver>, 8)
- .addOutput(<pyrotech:tar_drain>)
- .create();

@@ -22,6 +22,7 @@ LootTable.removeGlobalItem("twilightforest:uncrafting_table");
 JEI.removeAndHide(<twilightforest:uncrafting_table>);
 JEI.removeAndHide(<patchouli:guide_book>.withTag({"patchouli:book": "twilightforest:guide"}));
 
+recipes.remove(<twilightforest:fiery_ingot>);
 
 recipes.remove(<twilightforest:castle_pillar:1>);
 recipes.addShaped("encased_castle_brick_tile",<twilightforest:castle_pillar:1>,[

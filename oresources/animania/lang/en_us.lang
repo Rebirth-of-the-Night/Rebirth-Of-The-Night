@@ -323,7 +323,7 @@ death.attack.killer_rabbit=%1$s didn't listen to the warnings
 
 tile.animania_block_mud.name=Mud
 tile.animania_block_seeds.name=Seeds
-tile.animania_block_straw.name=Straw
+tile.animania_block_straw.name=Hay
 tile.animania_block_trough.name=Trough
 tile.animania_block_nest.name=Nest
 tile.animania_invisiblock.name=Trough

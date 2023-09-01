@@ -1,0 +1,54 @@
+{
+	"populate": 
+	{
+		"beneath_portals": {
+			"distribution": "cave",
+			"generator": {
+				"type": "structure",
+				"ignored-block": "air",
+				"structure": [
+					{
+						"name": "/structures/portal_1.nbt",
+						"weight": 0.5
+					},
+					{
+						"name": "/structures/portal_2.nbt",
+						"weight": 1
+					},
+					{
+						"name": "/structures/portal_3.nbt",
+						"weight": 1
+					}
+				],
+				"surface": [
+					{
+					"name": "undergroundbiomes:sedimentary_stone"},
+					{
+					"name": "undergroundbiomes:metamorphic_stone"},
+					{
+					"name": "undergroundbiomes:igneous_stone"}
+				],
+				"material": [
+					{
+					"name": "undergroundbiomes:sedimentary_stone"},
+					{
+					"name": "undergroundbiomes:metamorphic_stone"},
+					{
+					"name": "undergroundbiomes:igneous_stone"}
+				],
+				"cluster-size": 1,
+				"see-sky": false
+				},
+			"cluster-count": 1,
+			"ground-level": 35,
+			"chunk-chance": 45,
+			"retrogen": true,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{"type": "id","entry": ["beneath:the_beneath"]}
+				]
+			}
+		}
+	}
+}

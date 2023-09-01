@@ -1,5 +1,7 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
 import mods.jei.JEI;
 
 // PLEASE CHECK EXISTING FILES TO SEE IF WHAT YOU TYPE CAN GO IN THERE
@@ -14,6 +16,10 @@ recipes.addShapedMirrored("transsocks2", <owo:owolegs>, [
     [wovenCotten, <ore:dyePink>, wovenCotten],
     [wovenCotten, <ore:dyeCyan>, wovenCotten]
 ]);*/
+
+val leather_sheets = <betterwithmods:material:31>;
+val durable_fabric = <betterwithmods:material:4>;
+val durable_fiber = <ore:durableFiber>;
 
 // Tapestry
 recipes.addShapedMirrored("red_tapestry", <contenttweaker:tapestry_red>*4, [
@@ -36,6 +42,51 @@ recipes.addShapedMirrored("cyan_tapestry", <contenttweaker:tapestry_cyan>*4, [
 	[<ore:woolCyan>, null, <ore:woolCyan>],
     [null, <ore:woolCyan>, null]
 ]);
+recipes.addShapedMirrored("white_tapestry", <contenttweaker:tapestry_white>*4, [
+    [null, <ore:woolWhite>, null],
+	[<ore:woolWhite>, null, <ore:woolWhite>],
+    [null, <ore:woolWhite>, null]
+]);
+recipes.addShapedMirrored("orange_tapestry", <contenttweaker:tapestry_orange>*4, [
+    [null, <ore:woolOrange>, null],
+	[<ore:woolOrange>, null, <ore:woolOrange>],
+    [null, <ore:woolOrange>, null]
+]);
+recipes.addShapedMirrored("blue_tapestry", <contenttweaker:tapestry_blue>*4, [
+    [null, <ore:woolBlue>, null],
+	[<ore:woolBlue>, null, <ore:woolBlue>],
+    [null, <ore:woolBlue>, null]
+]);
+recipes.addShapedMirrored("black_tapestry", <contenttweaker:tapestry_black>*4, [
+    [null, <ore:woolBlack>, null],
+	[<ore:woolBlack>, null, <ore:woolBlack>],
+    [null, <ore:woolBlack>, null]
+]);
+
+// Other CoT
+recipes.addShaped("star_block", <contenttweaker:star_block>, [
+    [<nyx:fallen_star>, <nyx:fallen_star>, <nyx:fallen_star>],
+	[<nyx:fallen_star>, <nyx:fallen_star>, <nyx:fallen_star>],
+    [<nyx:fallen_star>, <nyx:fallen_star>, <nyx:fallen_star>]
+]);
+recipes.addShapeless("star_block_to_star", <nyx:fallen_star>*9,
+   	[<contenttweaker:star_block>]);
+
+
+// Hyper hardcore well
+recipes.remove(<well:well>);
+recipes.addShaped("water_well", <well:well>,[
+	[<minecraft:brick>, <minecraft:brick>, <minecraft:brick>], 
+    [<contenttweaker:masonry_brick>, <betterwithmods:bucket>, <contenttweaker:masonry_brick>],
+    [<contenttweaker:masonry_brick>, <betterwithmods:screw_pump>, <contenttweaker:masonry_brick>]
+]);
+
+// Bundle pouch
+recipes.remove(<bundles:bundle>);
+recipes.addShaped("bundle_pouch", <bundles:bundle>,
+    [[null,durable_fiber,null],
+    [leather_sheets,durable_fabric,leather_sheets],
+    [null,leather_sheets,null]]);
 
 // assorted hiding
 

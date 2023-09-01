@@ -47,12 +47,8 @@ import mods.jei.JEI;
 // Minecraft
 <minecraft:chest>.displayName = "Varnished Chest";
 <minecraft:trapped_chest>.displayName = "Varnished Trapped Chest";
-<minecraft:cauldron>.displayName = "Fluid Cauldron";
-<minecraft:cookie>.displayName = "Chocolate Chip Cookie";
 <minecraft:fish>.displayName = "Raw Cod";
 <minecraft:cooked_fish>.displayName = "Cooked Cod";
-<minecraft:brick>.displayName = "Clay Brick";
-<minecraft:furnace>.displayName = "Rock Furnace";
 <minecraft:stone_button>.displayName = "Quartzite Stone Button";
 
 // Requious Frakto
@@ -113,6 +109,9 @@ import mods.jei.JEI;
 <biomesoplenty:mud_brick_block:0>.displayName = "Mud Bricks";
 <biomesoplenty:mud_brick_stairs:0>.displayName = "Mud Brick Stairs";
 <biomesoplenty:other_slab:0>.displayName = "Mud Brick Slab";
+
+// Spartan Weapony
+<spartanweaponry:arrow_explosive>.displayName = "Destructive Arrow";
 
 var potionMap = {
     "Collapse" : "randomthings:collapse",

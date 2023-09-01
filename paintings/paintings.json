@@ -41,6 +41,12 @@
         "height": 1,
 		"isCreative": true
     },
+    {
+        "motive": "sigil Relata",
+        "width": 1,
+        "height": 1,
+		"isCreative": true
+    },
 	{
         "motive": "Ritual of Below",
         "width": 2,
@@ -51,6 +57,18 @@
         "motive": "Mother of Change",
         "width": 2,
         "height": 2,
+		"isCreative": true
+    },
+    {
+        "motive": "In the Mouth of Knowledge",
+        "width": 3,
+        "height": 2,
+		"isCreative": true
+    },
+    {
+        "motive": "Undefinable",
+        "width": 2,
+        "height": 4,
 		"isCreative": true
     },
 	{
@@ -67,6 +85,12 @@
     },
 	{
         "motive": "Wings of Hatred",
+        "width": 4,
+        "height": 4,
+		"isCreative": true
+    },
+    {
+        "motive": "Cause for Strife",
         "width": 4,
         "height": 4,
 		"isCreative": true
@@ -92,6 +116,18 @@
         "height": 6,
 		"isCreative": true
     },
+    {
+        "motive": "Disharmony",
+        "width": 5,
+        "height": 1,
+		"isCreative": true
+    },
+	{
+        "motive": "Remnant",
+        "width": 5,
+        "height": 1,
+		"isCreative": true
+    },
 	{
         "motive": "The World",
         "width": 5,
@@ -109,6 +145,30 @@
         "width": 7,
         "height": 4,
 		"isCreative": true
+    },
+    {
+        "motive": "Stairs",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Creatura",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Noodle",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+    {
+        "motive": "Small nod",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
     },
 	{
         "motive": "Bob-omb",
@@ -254,6 +314,12 @@
         "height": 1,
 		"isCreative": false
     },
+    {
+        "motive": "Other Souls",
+        "width": 2,
+        "height": 1,
+		"isCreative": false
+    },
 	{
         "motive": "The Titans Small",
         "width": 2,
@@ -278,6 +344,18 @@
         "height": 1,
 		"isCreative": false
     },
+    {
+        "motive": "Sunrise",
+        "width": 2,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Sunset",
+        "width": 2,
+        "height": 1,
+		"isCreative": false
+    },
 	{
         "motive": "ender letters",
 		"textures": {
@@ -293,14 +371,56 @@
         "height": 2,
 		"isCreative": false
     },
+    {
+        "motive": "Cherry Tree",
+        "width": 1,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "Giant petal collection",
+        "width": 1,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "Hemp at the Lake",
+        "width": 1,
+        "height": 2,
+		"isCreative": false
+    },
 	{
         "motive": "Lunarin View",
         "width": 1,
         "height": 2,
 		"isCreative": false
     },
+    {
+        "motive": "Skylands View",
+        "width": 1,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "Jar 2",
+        "width": 1,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "Nascent",
+        "width": 1,
+        "height": 2,
+		"isCreative": false
+    },
 	{
         "motive": "Supper",
+        "width": 3,
+        "height": 1,
+		"isCreative": false
+    },
+    {
+        "motive": "Baby sea serpent trophy",
         "width": 3,
         "height": 1,
 		"isCreative": false
@@ -327,6 +447,12 @@
 		"isCreative": false
     },
 	{
+        "motive": "Ender of Worlds",
+        "width": 1,
+        "height": 4,
+		"isCreative": false
+    },
+	{
         "motive": "Sunset Vista",
         "width": 4,
         "height": 1,
@@ -336,6 +462,12 @@
         "motive": "Lighthouse Vista",
         "width": 4,
         "height": 1,
+		"isCreative": false
+    },
+    {
+        "motive": "Lux Aeterna",
+        "width": 2,
+        "height": 2,
 		"isCreative": false
     },
 	{
@@ -380,6 +512,18 @@
         "height": 2,
 		"isCreative": false
     },
+    {
+        "motive": "Big nod",
+        "width": 2,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "With Soul",
+        "width": 2,
+        "height": 2,
+		"isCreative": false
+    },
 	{
         "motive": "Banner Drake",
         "width": 1,
@@ -405,15 +549,21 @@
 		"isCreative": false
     },
 	{
+        "motive": "It Who Sees",
+        "width": 3,
+        "height": 1,
+		"isCreative": false
+    },
+    {
+        "motive": "It Who Smells",
+        "width": 1,
+        "height": 3,
+		"isCreative": true
+    },
+	{
         "motive": "ornate tapestry - red",
         "width": 1,
         "height": 2,
-		"isCreative": false
-    },
-	{
-        "motive": "Disharmony",
-        "width": 5,
-        "height": 1,
 		"isCreative": false
     },
 	{
@@ -491,6 +641,18 @@
         "height": 2,
 		"isCreative": false
     },
+    {
+        "motive": "impending",
+        "width": 3,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "bark",
+        "width": 3,
+        "height": 2,
+		"isCreative": false
+    },
 	{
         "motive": "Grove",
         "width": 3,
@@ -542,6 +704,12 @@
 	{
         "motive": "Withered",
         "width": 2,
+        "height": 3,
+		"isCreative": false
+    },
+    {
+        "motive": "Two Legends",
+        "width": 3,
         "height": 3,
 		"isCreative": false
     },
@@ -675,6 +843,12 @@
         "motive": "The Scourge",
         "width": 3,
         "height": 4,
+		"isCreative": false
+    },
+    {
+        "motive": "Beneath",
+        "width": 5,
+        "height": 3,
 		"isCreative": false
     },
 	{

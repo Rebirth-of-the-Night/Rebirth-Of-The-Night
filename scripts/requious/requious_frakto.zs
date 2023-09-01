@@ -195,6 +195,28 @@ JEI.removeAndHide(<requious:cell>.withTag({fluidContent: {FluidName: "fiery", Am
 JEI.removeAndHide(<requious:cell>.withTag({fluidContent: {FluidName: "unstable_spiritfire", Amount: 1000}}));
 JEI.removeAndHide(<requious:cell>.withTag({fluidContent: {FluidName: "methanol", Amount: 1000}}));
 JEI.removeAndHide(<requious:cell>.withTag({fluidContent: {FluidName: "dread_cold", Amount: 1000}}));
+JEI.removeAndHide(<requious:cell>.withTag({fluidContent: {FluidName: "urushi", Amount: 1000}}));
+JEI.removeAndHide(<requious:cell>.withTag({fluidContent: {FluidName: "gloamberry_wine", Amount: 1000}}));
+JEI.removeAndHide(<requious:cell>.withTag({fluidContent: {FluidName: "bitumen_boiling", Amount: 1000}}));
+JEI.removeAndHide(<requious:cell>.withTag({fluidContent: {FluidName: "ovis_atre_milk", Amount: 1000}}));
+JEI.removeAndHide(<requious:cell>.withTag({fluidContent: {FluidName: "brine_netjry", Amount: 1000}}));
+JEI.removeAndHide(<requious:cell>.withTag({fluidContent: {FluidName: "pyroberry_wine", Amount: 1000}}));
+JEI.removeAndHide(<requious:cell>.withTag({fluidContent: {FluidName: "acid", Amount: 1000}}));
+JEI.removeAndHide(<requious:cell>.withTag({fluidContent: {FluidName: "magma_basaltic", Amount: 1000}}));
+JEI.removeAndHide(<requious:cell>.withTag({fluidContent: {FluidName: "sharacid", Amount: 1000}}));
+JEI.removeAndHide(<requious:cell>.withTag({fluidContent: {FluidName: "paraffin", Amount: 1000}}));
+JEI.removeAndHide(<requious:cell>.withTag({fluidContent: {FluidName: "vesspoison", Amount: 1000}}));
+JEI.removeAndHide(<requious:cell>.withTag({fluidContent: {FluidName: "bitumen", Amount: 1000}}));
+JEI.removeAndHide(<requious:cell>.withTag({fluidContent: {FluidName: "veshoney", Amount: 1000}}));
+JEI.removeAndHide(<requious:cell>.withTag({fluidContent: {FluidName: "ooze", Amount: 1000}}));
+JEI.removeAndHide(<requious:cell>.withTag({fluidContent: {FluidName: "moglava", Amount: 1000}}));
+JEI.removeAndHide(<requious:cell>.withTag({fluidContent: {FluidName: "lamp_oil", Amount: 1000}}));
+JEI.removeAndHide(<requious:cell>.withTag({fluidContent: {FluidName: "creosote", Amount: 1000}}));
+JEI.removeAndHide(<requious:cell>.withTag({fluidContent: {FluidName: "freckleberry_wine", Amount: 1000}}));
+JEI.removeAndHide(<requious:cell>.withTag({fluidContent: {FluidName: "steam", Amount: 1000}}));
+JEI.removeAndHide(<requious:cell>.withTag({fluidContent: {FluidName: "waste", Amount: 1000}}));
+JEI.removeAndHide(<requious:cell>.withTag({fluidContent: {FluidName: "smoke", Amount: 1000}}));
+JEI.removeAndHide(<requious:cell>.withTag({fluidContent: {FluidName: "rabbitooze", Amount: 1000}}));
 
 JEI.removeAndHide(<requious:laser>);
 

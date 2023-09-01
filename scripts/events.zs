@@ -645,6 +645,12 @@ events.onBlockBreak(function(event as crafttweaker.event.BlockBreakEvent){
     }
 	
 	var flagCheck = crafttweaker.util.Position3f.create(event.position.x, event.position.y + 3, event.position.z).asBlockPos();
+	var blockToReplace_middle = crafttweaker.util.Position3f.create(event.position.x, event.position.y - 1, event.position.z).asBlockPos();
+	
+	var blockToReplace_e = crafttweaker.util.Position3f.create(event.position.x + 3, event.position.y, event.position.z).asBlockPos();
+    var blockToReplace_w = crafttweaker.util.Position3f.create(event.position.x - 3, event.position.y, event.position.z).asBlockPos();
+    var blockToReplace_s = crafttweaker.util.Position3f.create(event.position.x, event.position.y, event.position.z + 3).asBlockPos();
+    var blockToReplace_n = crafttweaker.util.Position3f.create(event.position.x, event.position.y, event.position.z - 3).asBlockPos();
 
     var blockToReplace_e1 = crafttweaker.util.Position3f.create(event.position.x + 7, event.position.y, event.position.z).asBlockPos();
     var blockToReplace_w1 = crafttweaker.util.Position3f.create(event.position.x - 7, event.position.y, event.position.z).asBlockPos();
@@ -694,7 +700,23 @@ events.onBlockBreak(function(event as crafttweaker.event.BlockBreakEvent){
     if (event.block.definition.id.matches("contenttweaker:dark_fruit")){
 	
 		if (event.world.getBlock(flagCheck).definition.id.matches("endreborn:block_wolframium")){
+			if (event.world.getBlock(blockToReplace_middle).definition.id.matches("minecraft:air")){
+				event.world.setBlockState(<blockstate:glaretorch:blocklight>, blockToReplace_middle);
+			}
 
+			if (event.world.getBlock(blockToReplace_e).definition.id.matches("minecraft:air")){
+				event.world.setBlockState(<blockstate:glaretorch:blocklight>, blockToReplace_e);
+			}
+			if (event.world.getBlock(blockToReplace_w).definition.id.matches("minecraft:air")){
+				event.world.setBlockState(<blockstate:glaretorch:blocklight>, blockToReplace_w);
+			}
+			if (event.world.getBlock(blockToReplace_s).definition.id.matches("minecraft:air")){
+				event.world.setBlockState(<blockstate:glaretorch:blocklight>, blockToReplace_s);
+			}
+			if (event.world.getBlock(blockToReplace_n).definition.id.matches("minecraft:air")){
+				event.world.setBlockState(<blockstate:glaretorch:blocklight>, blockToReplace_n);
+			}
+			
 			if (event.world.getBlock(blockToReplace_e1).definition.id.matches("minecraft:air")){
 				event.world.setBlockState(<blockstate:glaretorch:blocklight>, blockToReplace_e1);
 			}

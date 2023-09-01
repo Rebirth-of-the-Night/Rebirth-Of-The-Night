@@ -215,19 +215,20 @@ petal_blue_big_flower.register();
 
 var dark_fruit = VanillaFactory.createBlock("dark_fruit", <blockmaterial:Plants>);
 dark_fruit.axisAlignedBB = AxisAlignedBB.create(
-	 6.0 / 16.0,
-	 8.0 / 16.0,
-	 6.0 / 16.0,
-	12.0 / 16.0,
-	16.0 / 16.0,
-	12.0 / 16.0
+     6.0 / 16.0,
+     8.0 / 16.0,
+     6.0 / 16.0,
+	10.0 / 16.0,
+    16.0 / 16.0,
+    10.0 / 16.0
 	);
 dark_fruit.setBlockHardness(3.0);
 dark_fruit.setBlockResistance(2.0);
 dark_fruit.setFullBlock(false);
-clover4.setReplaceable(false);
+dark_fruit.setReplaceable(false);
 dark_fruit.setLightOpacity(0);
-clover4.setLightValue(0.3);
+dark_fruit.setLightValue(0.5);
+dark_fruit.setBlockLayer("CUTOUT");
 dark_fruit.setBlockSoundType(<soundtype:plant>);
 dark_fruit.setToolClass("none");
 dark_fruit.register();

@@ -2265,7 +2265,7 @@
  {
     "dimension": [0,10,1,-1],
     "mob": "specialmobs:blindingenderman",
-    "gamestage": "minedMythril",
+    "gamestage": "killedEnderDragon",
     "random": 0.225,
     "maxlight": 7,
 
@@ -2324,7 +2324,7 @@
     "dimension": [0,10,1],
     "mob": "endreborn:watcher",
     "gamestage": "killedEnderDragon",
-    "random": 0.1,
+    "random": 0.2,
     "result": "default"
  },
  {
@@ -2337,7 +2337,7 @@
     "dimension": [0,10,1],
     "mob": "endreborn:chronologist",
     "gamestage": "killedEnderDragon",
-    "random": 0.1,
+    "random": 0.2,
     "result": "default"
  },
  {
