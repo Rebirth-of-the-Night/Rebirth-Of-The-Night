@@ -1,0 +1,67 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "AbandonedWoodTowerCrate",
+  "items": [
+    {
+      "weight": 0.5354365706443787,
+      "min": 6,
+      "max": 9,
+      "item": {
+        "id": "minecraft:stick",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.35883715748786926,
+      "min": 1,
+      "max": 13,
+      "item": {
+        "id": "hitwithaxe:bark",
+        "damage": 15,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.1442086547613144,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "futuremc:lantern",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.0034870589151978493,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "atop:mud_axe",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.20703016221523285,
+      "min": 4,
+      "max": 9,
+      "item": {
+        "id": "contenttweaker:redstuff",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.009064221754670143,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "simpleores:tin_ingot",
+        "damage": 0,
+        "count": 1
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}

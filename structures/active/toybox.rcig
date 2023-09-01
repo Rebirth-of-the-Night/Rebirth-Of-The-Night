@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "toybox",
+  "items": [
+    {
+      "weight": 99.99998474121094,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:paper",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "display": {
+              "nbtType": "compound",
+              "nbt": {
+                "LocName": {
+                  "nbtType": "string",
+                  "nbt": "Sheet Music"
+                },
+                "Lore": {
+                  "nbtType": "list",
+                  "nbt": [
+                    {
+                      "nbtType": "string",
+                      "nbt": "The paper is torn and wrinkled by blood..."
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}

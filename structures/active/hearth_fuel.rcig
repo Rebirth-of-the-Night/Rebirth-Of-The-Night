@@ -1,0 +1,67 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "hearth_fuel",
+  "items": [
+    {
+      "weight": 0.024237150326371193,
+      "min": 1,
+      "max": 9,
+      "item": {
+        "id": "pyrotech:material",
+        "damage": 21,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.020207388326525688,
+      "min": 1,
+      "max": 6,
+      "item": {
+        "id": "pyrotech:material",
+        "damage": 15,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.002661055652424693,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "minecraft:coal",
+        "damage": 1,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.004506520461291075,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:coal",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.0472542829811573,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "pyrotech:rock",
+        "damage": 7,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.1442086547613144,
+      "min": 4,
+      "max": 12,
+      "item": {
+        "id": "contenttweaker:broken_stick",
+        "damage": 0,
+        "count": 1
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}
