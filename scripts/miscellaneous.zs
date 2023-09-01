@@ -1,5 +1,7 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
 import mods.jei.JEI;
 
 // PLEASE CHECK EXISTING FILES TO SEE IF WHAT YOU TYPE CAN GO IN THERE
@@ -14,6 +16,10 @@ recipes.addShapedMirrored("transsocks2", <owo:owolegs>, [
     [wovenCotten, <ore:dyePink>, wovenCotten],
     [wovenCotten, <ore:dyeCyan>, wovenCotten]
 ]);*/
+
+val leather_sheets = <betterwithmods:material:31>;
+val durable_fabric = <betterwithmods:material:4>;
+val durable_fiber = <ore:durableFiber>;
 
 // Tapestry
 recipes.addShapedMirrored("red_tapestry", <contenttweaker:tapestry_red>*4, [
@@ -66,13 +72,20 @@ recipes.addShaped("star_block", <contenttweaker:star_block>, [
 recipes.addShapeless("star_block_to_star", <nyx:fallen_star>*9,
    	[<contenttweaker:star_block>]);
 
-//Well
+// Well
 recipes.remove(<well:well>);
 recipes.addShaped("water_well", <well:well>,[
 	[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
     [<contenttweaker:masonry_brick>, <betterwithmods:bucket>, <contenttweaker:masonry_brick>],
     [<contenttweaker:masonry_brick>, <betterwithmods:screw_pump>, <contenttweaker:masonry_brick>]
 ]);
+
+// Bundle pouch
+recipes.remove(<bundles:bundle>);
+recipes.addShaped("bundle_pouch", <bundles:bundle>,
+    [[null,durable_fiber,null],
+    [leather_sheets,durable_fabric,leather_sheets],
+    [null,leather_sheets,null]]);
 
 // assorted hiding
 
