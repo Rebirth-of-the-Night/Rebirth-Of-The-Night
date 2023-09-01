@@ -166,6 +166,22 @@ tile.contenttweaker.willow_lacquered.name=Willow Lacquered Boards
 tile.contenttweaker.witheredblock.name=Block of Wither Ashes
 tile.contenttweaker.wyrmwood_boards.name=Wyrmwood Nailed Boards
 tile.contenttweaker.wyrmwood_lacquered.name=Wyrmwood lacquered Boards
+tile.contenttweaker.paper_1.name=Paper
+tile.contenttweaker.paper_2.name=Papers
+tile.contenttweaker.paper_3.name=Papers
+tile.contenttweaker.bowl.name=Bowl
+tile.contenttweaker.bone_1.name=Standing Bone
+tile.contenttweaker.bone_2.name=Standing Bones
+tile.contenttweaker.bone_3.name=Standing Bones
+tile.contenttweaker.bone_4.name=Standing Bones
+tile.contenttweaker.wither_bone_1.name=Standing Wither Bone
+tile.contenttweaker.wither_bone_2.name=Standing Wither Bones
+tile.contenttweaker.wither_bone_3.name=Standing Wither Bones
+tile.contenttweaker.wither_bone_4.name=Standing Wither Bones
+tile.contenttweaker.cincinnasite_chandelier.name=Cincinnasite Chandelier
+tile.contenttweaker.coade_stone_polished.name=Polished Coade Stone
+tile.contenttweaker.wolf_statue.name=Wolf Statue
+
 
 #------------------------------------------------------------------------------
 # Unorganized items A-Z

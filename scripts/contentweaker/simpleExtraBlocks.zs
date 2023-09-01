@@ -154,6 +154,215 @@ codex_junk.setBlockLayer("CUTOUT");
 codex_junk.setToolClass("none");
 codex_junk.register();
 
+var paper_1 = VanillaFactory.createBlock("paper_1", <blockmaterial:Grass>);
+paper_1.axisAlignedBB = AxisAlignedBB.create(
+     0.0 / 16.0,
+     0.0 / 16.0,
+     0.0 / 16.0,
+	16.0 / 16.0,
+	1.0 / 16.0,
+    16.0 / 16.0
+	);
+paper_1.setCreativeTab(<creativetab:rotn_blocks>);
+paper_1.setBlockHardness(0.1);
+paper_1.setBlockResistance(1.0);
+paper_1.setFullBlock(false);
+paper_1.setLightOpacity(0);
+paper_1.setBlockLayer("CUTOUT");
+paper_1.setToolClass("none");
+paper_1.register();
+
+var paper_2 = VanillaFactory.createBlock("paper_2", <blockmaterial:Grass>);
+paper_2.axisAlignedBB = AxisAlignedBB.create(
+     0.0 / 16.0,
+     0.0 / 16.0,
+     0.0 / 16.0,
+	16.0 / 16.0,
+	1.0 / 16.0,
+    16.0 / 16.0
+	);
+paper_2.setCreativeTab(<creativetab:rotn_blocks>);
+paper_2.setBlockHardness(0.1);
+paper_2.setBlockResistance(1.0);
+paper_2.setFullBlock(false);
+paper_2.setLightOpacity(0);
+paper_2.setBlockLayer("CUTOUT");
+paper_2.setToolClass("none");
+paper_2.register();
+
+var paper_3 = VanillaFactory.createBlock("paper_3", <blockmaterial:Grass>);
+paper_3.axisAlignedBB = AxisAlignedBB.create(
+     0.0 / 16.0,
+     0.0 / 16.0,
+     0.0 / 16.0,
+	16.0 / 16.0,
+	1.0 / 16.0,
+    16.0 / 16.0
+	);
+paper_3.setCreativeTab(<creativetab:rotn_blocks>);
+paper_3.setBlockHardness(0.1);
+paper_3.setBlockResistance(1.0);
+paper_3.setFullBlock(false);
+paper_3.setLightOpacity(0);
+paper_3.setBlockLayer("CUTOUT");
+paper_3.setToolClass("none");
+paper_3.register();
+
+var bowl = VanillaFactory.createBlock("bowl", <blockmaterial:Wood>);
+bowl.axisAlignedBB = AxisAlignedBB.create(
+     4.0 / 16.0,
+     0.0 / 16.0,
+     4.0 / 16.0,
+	12.0 / 16.0,
+	3.0 / 16.0,
+    12.0 / 16.0
+	);
+bowl.setCreativeTab(<creativetab:rotn_blocks>);
+bowl.setBlockHardness(2.0);
+bowl.setBlockResistance(1.0);
+bowl.setFullBlock(false);
+bowl.setLightOpacity(0);
+bowl.setBlockLayer("CUTOUT");
+bowl.register();
+
+// Bones (add with content creator when possible to take advantage of blockstates and rotations)
+// human(?
+var bone_1 = VanillaFactory.createBlock("bone_1", <blockmaterial:Wood>);
+bone_1.axisAlignedBB = AxisAlignedBB.create(
+     4.0 / 16.0,
+     0.0 / 16.0,
+     4.0 / 16.0,
+	12.0 / 16.0,
+	16.0 / 16.0,
+    12.0 / 16.0
+	);
+bone_1.setCreativeTab(<creativetab:rotn_blocks>);
+bone_1.setBlockHardness(2.0);
+bone_1.setBlockResistance(1.0);
+bone_1.setFullBlock(false);
+bone_1.setLightOpacity(0);
+bone_1.setBlockLayer("CUTOUT");
+bone_1.register();
+
+var bone_2 = VanillaFactory.createBlock("bone_2", <blockmaterial:Wood>);
+bone_2.axisAlignedBB = AxisAlignedBB.create(
+     4.0 / 16.0,
+     0.0 / 16.0,
+     4.0 / 16.0,
+	12.0 / 16.0,
+	16.0 / 16.0,
+    12.0 / 16.0
+	);
+bone_2.setCreativeTab(<creativetab:rotn_blocks>);
+bone_2.setBlockHardness(2.0);
+bone_2.setBlockResistance(1.0);
+bone_2.setFullBlock(false);
+bone_2.setLightOpacity(0);
+bone_2.setBlockLayer("CUTOUT");
+bone_2.register();
+
+var bone_3 = VanillaFactory.createBlock("bone_3", <blockmaterial:Wood>);
+bone_3.axisAlignedBB = AxisAlignedBB.create(
+     4.0 / 16.0,
+     0.0 / 16.0,
+     4.0 / 16.0,
+	12.0 / 16.0,
+	16.0 / 16.0,
+    12.0 / 16.0
+	);
+bone_3.setCreativeTab(<creativetab:rotn_blocks>);
+bone_3.setBlockHardness(2.0);
+bone_3.setBlockResistance(1.0);
+bone_3.setFullBlock(false);
+bone_3.setLightOpacity(0);
+bone_3.setBlockLayer("CUTOUT");
+bone_3.register();
+
+var bone_4 = VanillaFactory.createBlock("bone_4", <blockmaterial:Wood>);
+bone_4.axisAlignedBB = AxisAlignedBB.create(
+     4.0 / 16.0,
+     0.0 / 16.0,
+     4.0 / 16.0,
+	12.0 / 16.0,
+	16.0 / 16.0,
+    12.0 / 16.0
+	);
+bone_4.setCreativeTab(<creativetab:rotn_blocks>);
+bone_4.setBlockHardness(2.0);
+bone_4.setBlockResistance(1.0);
+bone_4.setFullBlock(false);
+bone_4.setLightOpacity(0);
+bone_4.setBlockLayer("CUTOUT");
+bone_4.register();
+//wither
+var wither_bone_1 = VanillaFactory.createBlock("wither_bone_1", <blockmaterial:Wood>);
+wither_bone_1.axisAlignedBB = AxisAlignedBB.create(
+     4.0 / 16.0,
+     0.0 / 16.0,
+     4.0 / 16.0,
+	12.0 / 16.0,
+	16.0 / 16.0,
+    12.0 / 16.0
+	);
+wither_bone_1.setCreativeTab(<creativetab:rotn_blocks>);
+wither_bone_1.setBlockHardness(2.0);
+wither_bone_1.setBlockResistance(1.0);
+wither_bone_1.setFullBlock(false);
+wither_bone_1.setLightOpacity(0);
+wither_bone_1.setBlockLayer("CUTOUT");
+wither_bone_1.register();
+
+var wither_bone_2 = VanillaFactory.createBlock("wither_bone_2", <blockmaterial:Wood>);
+wither_bone_2.axisAlignedBB = AxisAlignedBB.create(
+     4.0 / 16.0,
+     0.0 / 16.0,
+     4.0 / 16.0,
+	12.0 / 16.0,
+	16.0 / 16.0,
+    12.0 / 16.0
+	);
+wither_bone_2.setCreativeTab(<creativetab:rotn_blocks>);
+wither_bone_2.setBlockHardness(2.0);
+wither_bone_2.setBlockResistance(1.0);
+wither_bone_2.setFullBlock(false);
+wither_bone_2.setLightOpacity(0);
+wither_bone_2.setBlockLayer("CUTOUT");
+wither_bone_2.register();
+
+var wither_bone_3 = VanillaFactory.createBlock("wither_bone_3", <blockmaterial:Wood>);
+wither_bone_3.axisAlignedBB = AxisAlignedBB.create(
+     4.0 / 16.0,
+     0.0 / 16.0,
+     4.0 / 16.0,
+	12.0 / 16.0,
+	16.0 / 16.0,
+    12.0 / 16.0
+	);
+wither_bone_3.setCreativeTab(<creativetab:rotn_blocks>);
+wither_bone_3.setBlockHardness(2.0);
+wither_bone_3.setBlockResistance(1.0);
+wither_bone_3.setFullBlock(false);
+wither_bone_3.setLightOpacity(0);
+wither_bone_3.setBlockLayer("CUTOUT");
+wither_bone_3.register();
+
+var wither_bone_4 = VanillaFactory.createBlock("wither_bone_4", <blockmaterial:Wood>);
+wither_bone_4.axisAlignedBB = AxisAlignedBB.create(
+     4.0 / 16.0,
+     0.0 / 16.0,
+     4.0 / 16.0,
+	12.0 / 16.0,
+	16.0 / 16.0,
+    12.0 / 16.0
+	);
+wither_bone_4.setCreativeTab(<creativetab:rotn_blocks>);
+wither_bone_4.setBlockHardness(2.0);
+wither_bone_4.setBlockResistance(1.0);
+wither_bone_4.setFullBlock(false);
+wither_bone_4.setLightOpacity(0);
+wither_bone_4.setBlockLayer("CUTOUT");
+wither_bone_4.register();
+
 // Speleothems
 var dolomite_straws = VanillaFactory.createBlock("dolomite_straws", <blockmaterial:Rock>);
 dolomite_straws.axisAlignedBB = AxisAlignedBB.create(
@@ -309,6 +518,25 @@ seasoned_stump.setBlockLayer("CUTOUT");
 seasoned_stump.setToolClass("axe");
 seasoned_stump.setCreativeTab(<creativetab:rotn_blocks>);
 seasoned_stump.register();
+
+// cincinnasite chandellier
+var cincinnasite_chandelier = VanillaFactory.createBlock("cincinnasite_chandelier", <blockmaterial:Wood>);
+cincinnasite_chandelier.axisAlignedBB = AxisAlignedBB.create(
+	0.0 / 16.0,
+	0.0 / 16.0,
+	0.0 / 16.0,
+	16.0 / 16.0,
+	9.0 / 16.0,
+	16.0 / 16.0
+	);
+cincinnasite_chandelier.setFullBlock(false);
+cincinnasite_chandelier.setBlockHardness(8);
+cincinnasite_chandelier.setLightOpacity(0);
+cincinnasite_chandelier.setLightValue(1);
+cincinnasite_chandelier.setBlockLayer("CUTOUT");
+cincinnasite_chandelier.setToolClass("pickaxe");
+cincinnasite_chandelier.setCreativeTab(<creativetab:rotn_blocks>);
+cincinnasite_chandelier.register();
 
 // Raw Ores
 // raw_tin
