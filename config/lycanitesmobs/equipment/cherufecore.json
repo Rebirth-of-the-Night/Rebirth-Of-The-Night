@@ -1,9 +1,9 @@
 {
   "itemName": "cherufecore",
-  "loadDefault": true,
+  "loadDefault": false,
   "slotType": "jewel",
-  "dropMobId": "lycanitesmobs:lobber",
-  "dropChance": 0.05,
+  "dropMobId": "",
+  "dropChance": 0,
   "levelMin": 1,
   "levelMax": 3,
   "elements": [

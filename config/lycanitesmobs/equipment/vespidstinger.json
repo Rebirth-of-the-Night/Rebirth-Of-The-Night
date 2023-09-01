@@ -1,9 +1,9 @@
 {
   "itemName": "vespidstinger",
-  "loadDefault": true,
+  "loadDefault": false,
   "slotType": "pommel",
-  "dropMobId": "lycanitesmobs:vespid",
-  "dropChance": 0.05,
+  "dropMobId": "",
+  "dropChance": 0,
   "levelMin": 1,
   "levelMax": 3,
   "elements": [

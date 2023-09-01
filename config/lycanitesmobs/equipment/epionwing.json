@@ -1,9 +1,9 @@
 {
   "itemName": "epionwing",
-  "loadDefault": true,
+  "loadDefault": false,
   "slotType": "axe",
-  "dropMobId": "lycanitesmobs:epion",
-  "dropChance": 0.2,
+  "dropMobId": "",
+  "dropChance": 0,
   "levelMin": 1,
   "levelMax": 3,
   "elements": [

@@ -1,9 +1,9 @@
 {
   "itemName": "malwratheye",
-  "loadDefault": true,
+  "loadDefault": false,
   "slotType": "jewel",
-  "dropMobId": "lycanitesmobs:cacodemon",
-  "dropChance": 0.2,
+  "dropMobId": "",
+  "dropChance": 0,
   "levelMin": 1,
   "levelMax": 3,
   "elements": [

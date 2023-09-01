@@ -1,9 +1,9 @@
 {
   "itemName": "ironpikejoint",
-  "loadDefault": true,
+  "loadDefault": false,
   "slotType": "head",
   "dropMobId": "",
-  "dropChance": 0.1,
+  "dropChance": 0,
   "levelMin": 1,
   "levelMax": 1,
   "features": [

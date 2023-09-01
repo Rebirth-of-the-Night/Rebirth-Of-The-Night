@@ -1,9 +1,9 @@
 {
   "itemName": "astarothclaw",
-  "loadDefault": true,
+  "loadDefault": false,
   "slotType": "head",
-  "dropMobId": "lycanitesmobs:astaroth",
-  "dropChance": 0.2,
+  "dropMobId": "",
+  "dropChance": 0,
   "levelMin": 1,
   "levelMax": 3,
   "elements": [

@@ -1,6 +1,6 @@
 {
   "itemName": "goldscepterhead",
-  "loadDefault": true,
+  "loadDefault": false,
   "slotType": "head",
   "dropMobId": "",
   "dropChance": 0.1,

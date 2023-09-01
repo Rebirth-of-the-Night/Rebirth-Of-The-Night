@@ -1,9 +1,9 @@
 {
   "itemName": "conbabutt",
-  "loadDefault": true,
+  "loadDefault": false,
   "slotType": "jewel",
-  "dropMobId": "lycanitesmobs:conba",
-  "dropChance": 0.1,
+  "dropMobId": "",
+  "dropChance": 0,
   "levelMin": 1,
   "levelMax": 3,
   "elements": [

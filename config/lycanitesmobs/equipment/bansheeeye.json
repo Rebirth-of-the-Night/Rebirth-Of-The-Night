@@ -1,9 +1,9 @@
 {
   "itemName": "bansheeeye",
-  "loadDefault": true,
+  "loadDefault": false,
   "slotType": "head",
-  "dropMobId": "lycanitesmobs:banshee",
-  "dropChance": 0.1,
+  "dropMobId": "",
+  "dropChance": 0,
   "levelMin": 2,
   "levelMax": 3,
   "elements": [

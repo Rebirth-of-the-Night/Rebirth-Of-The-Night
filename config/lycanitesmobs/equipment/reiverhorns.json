@@ -1,9 +1,9 @@
 {
   "itemName": "reiverhorns",
-  "loadDefault": true,
+  "loadDefault": false,
   "slotType": "pike",
-  "dropMobId": "lycanitesmobs:reiver",
-  "dropChance": 0.1,
+  "dropMobId": "",
+  "dropChance": 0,
   "levelMin": 1,
   "levelMax": 3,
   "elements": [
