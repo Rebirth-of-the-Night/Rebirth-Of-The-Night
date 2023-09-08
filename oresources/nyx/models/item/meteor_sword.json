@@ -1,41 +1,42 @@
 {
-	"credit": "Made with Blockbench",
-	"parent": "item/handheld",
-	"textures": {
-		"layer0": "nyx:items/meteor_sword"
-	},
-	"display": {
-		"thirdperson_righthand": {
-			"rotation": [0, -90, 55],
-			"translation": [0, 11, 0],
-			"scale": [1.7, 1.7, 1.7]
-		},
-		"thirdperson_lefthand": {
-			"rotation": [0, 90, -55],
-			"translation": [0, 11.25, -0.5],
-			"scale": [1.7, 1.7, 1.7]
-		},
-		"firstperson_righthand": {
-			"rotation": [-32.75, -90, 0],
-			"translation": [2.13, 3.2, 1.13],
-			"scale": [1.36, 1.36, 1.36]
-		},
-		"firstperson_lefthand": {
-			"rotation": [-34.25, 90, 0],
-			"translation": [2.13, 3.2, 1.13],
-			"scale": [1.36, 1.36, 1.36]
-		},
-		"ground": {
-			"translation": [0, 2, 0]
-		},
-		"head": {
-			"rotation": [0, 180, 0],
-			"translation": [0, 13, 7],
-			"scale": [2, 2, 2]
-		},
-		"fixed": {
-			"rotation": [0, 180, 0],
-			"scale": [1.2, 1.2, 1]
-		}
-	}
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "nyx:items/meteor_sword"
+    },
+    "display": {
+        "ground": {
+            "rotation": [0, 0, 0],
+            "translation": [0, 2, 0],
+            "scale": [1, 1, 1]
+        },
+        "head": {
+            "rotation": [0, 180, 0],
+            "translation": [0, 13, 7],
+            "scale": [2, 2, 1]
+        },
+        "fixed": {
+            "rotation": [0, 180, 0],
+            "scale": [2, 2, 1]
+        },
+        "thirdperson_righthand": {
+            "rotation": [0, -90, 55],
+            "translation": [0, 10.0, 0.5],
+            "scale": [1.7, 1.7, 1]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [0, 90, -55],
+            "translation": [0, 10.0, 0.5],
+            "scale": [1.7, 1.7, 1]
+        },
+        "firstperson_righthand": {
+            "rotation": [0, -90, 25],
+            "translation": [1.13, 3.2, 1.13],
+            "scale": [1.36, 1.36, 1]
+        },
+        "firstperson_lefthand": {
+            "rotation": [0, 90, -25],
+            "translation": [1.13, 3.2, 1.13],
+            "scale": [1.36, 1.36, 1]
+        }
+    }
 }
