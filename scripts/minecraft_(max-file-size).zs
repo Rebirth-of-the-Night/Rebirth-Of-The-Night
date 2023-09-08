@@ -839,6 +839,20 @@ recipes.addShaped("daylightsensor", <minecraft:daylight_detector>,[
     [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
 ]);
 
+recipes.remove(<minecraft:redstone_lamp>);
+recipes.addShaped("redstonelamp", <minecraft:redstone_lamp>,[
+    [null, <quark:framed_glass>, null],
+    [null, <ore:filament>, null],
+    [null, <minecraft:redstone>, null]
+]);
+
+recipes.remove(<betterwithmods:light>);
+recipes.addShaped("lightblock", <betterwithmods:light>,[
+    [null, <betternether:quartz_glass>, null],
+    [null, <ore:filament>, null],
+    [null, <minecraft:redstone>, null]
+]);
+
 recipes.remove(<minecraft:concrete_powder:*>);
 recipes.addShapeless("white_concrete_powder",<minecraft:concrete_powder:0>*8,[<ore:dyeWhite>,<ore:sand>,<ore:sand>,<ore:sand>,<ore:sand>,<ore:gravel>,<ore:gravel>,<ore:gravel>,<ore:gravel>]);
 recipes.addShapeless("orange_concrete_powder",<minecraft:concrete_powder:1>*8,[<ore:dyeOrange>,<ore:sand>,<ore:sand>,<ore:sand>,<ore:sand>,<ore:gravel>,<ore:gravel>,<ore:gravel>,<ore:gravel>]);
