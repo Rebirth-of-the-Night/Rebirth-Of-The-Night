@@ -129,6 +129,11 @@ recipes.remove(<spartanweaponry:staff_stone>);
 
 recipes.remove(<spartanshields:shield_basic_lead>);
 recipes.remove(<spartanshields:shield_basic_diamond>);
+JEI.removeAndHide(<spartanshields:shield_tower_diamond>);
+JEI.removeAndHide(<spartanshields:shield_tower_bronze>);
+JEI.removeAndHide(<spartanshields:shield_tower_lead>);
+JEI.removeAndHide(<spartanshields:shield_basic_platinum>);
+JEI.removeAndHide(<spartanshields:shield_tower_platinum>);
 
 // Craftable skyroot longbows
 var bowMat = <minecraft:planks:*>|<biomesoplenty:planks_0>|<biomesoplenty:planks_0:1>|<biomesoplenty:planks_0:2>|<biomesoplenty:planks_0:3>|<biomesoplenty:planks_0:4>|<biomesoplenty:planks_0:5>|<biomesoplenty:planks_0:6>|<biomesoplenty:planks_0:7>|<biomesoplenty:planks_0:8>|<biomesoplenty:planks_0:9>|<biomesoplenty:planks_0:10>|<biomesoplenty:planks_0:11>|<biomesoplenty:planks_0:12>|<biomesoplenty:planks_0:13>|<biomesoplenty:planks_0:14>|<biomesoplenty:planks_0:15>|<betternether:stalagnate_planks>|<betternether:reeds_block>|<randomthings:spectreplank>|<rustic:planks>|<rustic:planks:1>|<betterwithaddons:planks_sakura>|<betterwithaddons:planks_mulberry>|<stygian:endplanks>|<quark:stained_planks:*>|<quark:vertical_planks:*>|<quark:vertical_stained_planks:*>|<twilightforest:tower_wood:*>|<twilightforest:twilight_oak_planks>|<twilightforest:canopy_planks>|<twilightforest:mangrove_planks>|<twilightforest:dark_planks>|<twilightforest:time_planks>|<twilightforest:trans_planks>|<twilightforest:mine_planks>|<twilightforest:sort_planks>;
