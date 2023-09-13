@@ -147,6 +147,8 @@ Valkyrien Plate - Japes#8538
 Electrum Core - Japes#8538
 Animated Brain - Ozymandias#6988 (Texture) & Japes#8538 (Animation)
 Inventory Food - SoulRacer65#3745
+Bonfire - lilypuree (Decorative Blocks)
+Soul Bonfire - lilypuree (Decorative Blocks)
 
 
 §r~ ~ ~ §nScreenshots§r ~ ~ ~

@@ -948,3 +948,21 @@ Dropt.list("grape_seed_begone")
       .replaceStrategy("REPLACE_ITEMS")
         .addDrop(Dropt.drop())
   );
+
+Dropt.list("bonfire")
+
+  .add(Dropt.rule()
+      .matchBlocks(["contenttweaker:bonfire"])
+      .addDrop(Dropt.drop()
+          .force() // drop nothing
+      )
+  );
+
+Dropt.list("soul_bonfire")
+
+  .add(Dropt.rule()
+      .matchBlocks(["contenttweaker:soul_bonfire"])
+      .addDrop(Dropt.drop()
+          .force() // drop nothing
+      )
+  );

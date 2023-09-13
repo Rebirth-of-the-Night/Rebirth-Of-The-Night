@@ -208,7 +208,7 @@
     "dropCount": "1"
   },
   {
-    "targetBlock": "minecraft:fire",
+    "targetBlock": "pyrotech:campfire",
     "heldItem": "betterwithmods:material:16",
     "replacementBlock": "contenttweaker:bonfire",
     "damage": "1",
@@ -218,10 +218,10 @@
   },
   {
     "targetBlock": "contenttweaker:bonfire",
-    "heldItem": "contenttweaker:soul_rune",
+    "heldItem": "betterwithaddons:soulsand_pile",
     "replacementBlock": "contenttweaker:soul_bonfire",
     "damage": "1",
-    "particleType": "soulFlame",
+    "particleType": "enchantmenttable",
     "particleArea": "out",
     "particleCount": "8:80"
   }
