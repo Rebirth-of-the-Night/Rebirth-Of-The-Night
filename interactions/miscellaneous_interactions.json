@@ -206,5 +206,23 @@
     "damage": "1",
     "dropItem": "animania:milk_bottle",
     "dropCount": "1"
+  },
+  {
+    "targetBlock": "minecraft:fire",
+    "heldItem": "betterwithmods:material:16",
+    "replacementBlock": "contenttweaker:bonfire",
+    "damage": "1",
+    "particleType": "lava",
+    "particleArea": "out",
+    "particleCount": "8:80"
+  },
+  {
+    "targetBlock": "contenttweaker:bonfire",
+    "heldItem": "contenttweaker:soul_rune",
+    "replacementBlock": "contenttweaker:soul_bonfire",
+    "damage": "1",
+    "particleType": "soulFlame",
+    "particleArea": "out",
+    "particleCount": "8:80"
   }
 ]
