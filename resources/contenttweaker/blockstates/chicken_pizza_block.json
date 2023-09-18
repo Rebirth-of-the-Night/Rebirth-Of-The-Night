@@ -2,10 +2,10 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "all": "contenttweaker:blocks/chicken_pizza_block",
-      "particle": "contenttweaker:blocks/chicken_pizza_block"
+      "0": "contenttweaker:blocks/chicken_pizza",
+      "particle": "contenttweaker:blocks/chicken_pizza"
     },
-    "model": "contenttweaker:base_block",
+    "model": "contenttweaker:pizza",
     "uvlock": true,
     "transform": "forge:default-block"
   },

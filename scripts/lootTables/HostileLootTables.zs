@@ -61,7 +61,6 @@ LootTable.removeGlobalItem("msmlegacy:relic_pie");
 <entity:mowziesmobs:grottol>.addDrop(<arcanearchives:radiant_dust>,2,5);
 <entity:mowziesmobs:grottol>.addDrop(<arcanearchives:raw_quartz>,2,3);
 
-
 // aether
 LootTable.removeGlobalItem("aether_legacy:life_shard");
 
@@ -269,8 +268,8 @@ var hauntedTools as int[string] = {
     "spartanweaponry:halberd_gold" : 3,
     "spartanweaponry:pike_gold" : 3,
     "spartanweaponry:lance_gold" : 3,
-  "spartanweaponry:throwing_knife_gold" : 3,
-  "spartanweaponry:throwing_axe_gold" : 3,
+    "spartanweaponry:throwing_knife_gold" : 3,
+    "spartanweaponry:throwing_axe_gold" : 3,
     "spartanweaponry:javelin_gold" : 3,
     "spartanweaponry:battleaxe_gold" : 3,
     "spartanweaponry:mace_gold" : 3,
@@ -296,8 +295,8 @@ var hauntedTools as int[string] = {
     "spartanweaponry:halberd_silver" : 2,
     "spartanweaponry:pike_silver" : 2,
     "spartanweaponry:lance_silver" : 2,
-  "spartanweaponry:throwing_knife_silver" : 2,
-  "spartanweaponry:throwing_axe_silver" : 2,
+    "spartanweaponry:throwing_knife_silver" : 2,
+    "spartanweaponry:throwing_axe_silver" : 2,
     "spartanweaponry:javelin_silver" : 2,
     "spartanweaponry:battleaxe_silver" : 2,
     "spartanweaponry:mace_silver" : 2,
@@ -342,3 +341,8 @@ lscuttlerMain.removeEntry("minecraft:string");
 lscuttlerMain.addItemEntry(<contenttweaker:spider_silk>, 100, 0, [Functions.setCount(0, 2)], []);
 lscuttlerMain.addItemEntry(<contenttweaker:spider_silk>, 50, 0, [Functions.setCount(0, 5)], []);
 lscuttlerMain.addItemEntry(<contenttweaker:spider_silk>, 1, 1000, [Functions.setCount(2, 10)], []);
+
+// Fish's undead rising formerly lavacow
+val scarecrow = LootTweaker.getTable("mod_lavacow:scarecrow");
+val night_shard = scarecrow.addPool("night_shard", 0, 1, 2, 9);
+night_shard.addItemEntry(<contenttweaker:shard_of_night>, 1, 1, [Functions.setCount(0, 1), Functions.lootingEnchantBonus(0, 1, 64)], []);

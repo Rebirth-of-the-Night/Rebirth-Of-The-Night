@@ -1980,7 +1980,49 @@ var big_serpentinite_bricks = VanillaFactory.createBlock("big_serpentinite_brick
 big_serpentinite_bricks.setCreativeTab(<creativetab:rotn_blocks>);
 big_serpentinite_bricks.setToolLevel(2);
 big_serpentinite_bricks.setBlockHardness(35);
+big_serpentinite_bricks.setBlockResistance(50);
 big_serpentinite_bricks.register();
+
+// Greatbricks
+var greatbrick_terracotta = VanillaFactory.createBlock("greatbrick_terracotta", <blockmaterial:Rock>);
+greatbrick_terracotta.setCreativeTab(<creativetab:rotn_blocks>);
+greatbrick_terracotta.setBlockSoundType(<soundtype:stone>);
+greatbrick_terracotta.setBlockHardness(29.0);
+greatbrick_terracotta.setBlockResistance(20.0);
+greatbrick_terracotta.setToolLevel(1);
+greatbrick_terracotta.register();
+
+var greatbrick_clay_brick = VanillaFactory.createBlock("greatbrick_clay_brick", <blockmaterial:Rock>);
+greatbrick_clay_brick.setCreativeTab(<creativetab:rotn_blocks>);
+greatbrick_clay_brick.setBlockSoundType(<soundtype:stone>);
+greatbrick_clay_brick.setBlockHardness(25.0);
+greatbrick_clay_brick.setBlockResistance(10.0);
+greatbrick_clay_brick.setToolLevel(1);
+greatbrick_clay_brick.register();
+
+var greatbrick_gneiss = VanillaFactory.createBlock("greatbrick_gneiss", <blockmaterial:Rock>);
+greatbrick_gneiss.setCreativeTab(<creativetab:rotn_blocks>);
+greatbrick_gneiss.setBlockSoundType(<soundtype:stone>);
+greatbrick_gneiss.setBlockHardness(29.0);
+greatbrick_gneiss.setBlockResistance(20.0);
+greatbrick_gneiss.setToolLevel(1);
+greatbrick_gneiss.register();
+
+var greatbrick_red_granite = VanillaFactory.createBlock("greatbrick_red_granite", <blockmaterial:Rock>);
+greatbrick_red_granite.setCreativeTab(<creativetab:rotn_blocks>);
+greatbrick_red_granite.setBlockSoundType(<soundtype:stone>);
+greatbrick_red_granite.setBlockHardness(48.0);
+greatbrick_red_granite.setBlockResistance(20.0);
+greatbrick_red_granite.setToolLevel(1);
+greatbrick_red_granite.register();
+
+var greatbrick_bleakseal = VanillaFactory.createBlock("greatbrick_bleakseal", <blockmaterial:Rock>);
+greatbrick_bleakseal.setCreativeTab(<creativetab:rotn_blocks>);
+greatbrick_bleakseal.setBlockSoundType(<soundtype:stone>);
+greatbrick_bleakseal.setBlockHardness(100.0);
+greatbrick_bleakseal.setBlockResistance(20.0);
+greatbrick_bleakseal.setToolLevel(1);
+greatbrick_bleakseal.register();
 
 // Tapestry Wool
 var tapestry_purple = VanillaFactory.createBlock("tapestry_purple", <blockmaterial:Ground>);
@@ -2445,6 +2487,22 @@ coade_stone_polished.setBlockResistance(5.0);
 coade_stone_polished.setToolLevel(1);
 coade_stone_polished.register();
 
+// Extra concrete
+var concrete_gray_chiseled = VanillaFactory.createBlock("concrete_gray_chiseled", <blockmaterial:Rock>);
+concrete_gray_chiseled.setCreativeTab(<creativetab:rotn_blocks>);
+concrete_gray_chiseled.setBlockSoundType(<soundtype:stone>);
+concrete_gray_chiseled.setBlockHardness(28.0);
+concrete_gray_chiseled.setBlockResistance(5.0);
+concrete_gray_chiseled.setToolLevel(1);
+concrete_gray_chiseled.register();
+
+var concrete_gray_brick = VanillaFactory.createBlock("concrete_gray_brick", <blockmaterial:Rock>);
+concrete_gray_brick.setCreativeTab(<creativetab:rotn_blocks>);
+concrete_gray_brick.setBlockSoundType(<soundtype:stone>);
+concrete_gray_brick.setBlockHardness(40.0);
+concrete_gray_brick.setBlockResistance(5.0);
+concrete_gray_brick.setToolLevel(1);
+concrete_gray_brick.register();
 
 // Liquids
 var ender_slag = VanillaFactory.createFluid("ender_slag", Color.fromHex("fffdd0"));
