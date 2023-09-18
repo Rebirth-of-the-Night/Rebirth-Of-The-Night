@@ -2026,6 +2026,7 @@ var big_serpentinite_bricks = VanillaFactory.createBlock("big_serpentinite_brick
 big_serpentinite_bricks.setCreativeTab(<creativetab:rotn_blocks>);
 big_serpentinite_bricks.setToolLevel(2);
 big_serpentinite_bricks.setBlockHardness(35);
+big_serpentinite_bricks.setBlockResistance(50);
 big_serpentinite_bricks.register();
 
 // Tapestry Wool

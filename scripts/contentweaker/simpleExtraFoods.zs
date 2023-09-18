@@ -42,8 +42,8 @@ hydraco.setSaturation(44.0);
 hydraco.setCreativeTab(<creativetab:harvestCraft>);
 hydraco.register();
 
-val abyss_pizza_item = VanillaFactory.createItemFood("abyss_pizza", 16);
-abyss_pizza_item.setSaturation(18.0);
+val abyss_pizza_item = VanillaFactory.createItemFood("abyss_pizza", 32);
+abyss_pizza_item.setSaturation(36.0);
 abyss_pizza_item.setCreativeTab(<creativetab:harvestCraft>);
 abyss_pizza_item.register();
 
