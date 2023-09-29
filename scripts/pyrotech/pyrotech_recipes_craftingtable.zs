@@ -453,53 +453,53 @@ recipes.addShaped("lead", <minecraft:lead>,
  [[durable_fiber|durable_twine|leather_sheet,durable_fiber|durable_twine|leather_sheet,null],
   [durable_fiber|durable_twine|leather_sheet,durable_fiber|durable_twine|leather_sheet,null],
   [null,null,durable_fiber|durable_twine|leather_sheet]]);
-recipes.addShaped("spartanweaponry:caestus_a", <spartanweaponry:caestus>,
+recipes.addShaped("spartanweaponry_caestus_a", <spartanweaponry:caestus>,
  [[<ore:pelt>],
   [<ore:pelt>]]);  
-recipes.addShaped("spartanweaponry:caestus_b", <spartanweaponry:caestus>,
+recipes.addShaped("spartanweaponry_caestus_b", <spartanweaponry:caestus>,
  [[<contenttweaker:tattered_hide>],
   [<contenttweaker:tattered_hide>]]);
-recipes.addShaped("doggytalents:treat_bag", <doggytalents:treat_bag>,
+recipes.addShaped("doggytalents_treat_bag", <doggytalents:treat_bag>,
  [[leather_sheet,<doggytalents:chew_stick>,leather_sheet],
   [null,leather_sheet,null]]);
-recipes.addShaped("doggytalents:leather_jacket", <doggytalents:leather_jacket>,
+recipes.addShaped("doggytalents_leather_jacket", <doggytalents:leather_jacket>,
  [[leather_sheet,null,leather_sheet],
   [leather_sheet,<minecraft:wool>,leather_sheet],
   [leather_sheet,<minecraft:wool>,leather_sheet]]);
-recipes.addShaped("doggytalents:cape_coloured", <doggytalents:cape_coloured>,
+recipes.addShaped("doggytalents_cape_coloured", <doggytalents:cape_coloured>,
  [[<ore:string>,null,<ore:string>],
   [leather_sheet,leather_sheet,leather_sheet],
   [leather_sheet,leather_sheet,leather_sheet]]);
-recipes.addShaped("doggytalents:cape", <doggytalents:cape>,
+recipes.addShaped("doggytalents_cape", <doggytalents:cape>,
  [[<ore:string>,null,<ore:string>],
   [leather_sheet,<minecraft:wool>,leather_sheet],
   [<minecraft:wool>,leather_sheet,<minecraft:wool>]]);
-recipes.addShaped("dungeontactics:magic_pouch", <dungeontactics:magic_pouch:639>,
+recipes.addShaped("dungeontactics_magic_pouch", <dungeontactics:magic_pouch:639>,
  [[<ore:string>,leather_sheet,<ore:string>],
   [leather_sheet,<dungeontactics:magic_powder>,leather_sheet],
   [leather_sheet,leather_sheet,leather_sheet]]);
-recipes.addShaped("rats:rat_sack", <rats:rat_sack>,
+recipes.addShaped("rats_rat_sack", <rats:rat_sack>,
  [[<ore:string>,leather_sheet,<ore:string>],
   [leather_sheet,<ore:foodCheese>,leather_sheet],
   [leather_sheet,leather_sheet,leather_sheet]]);
-recipes.addShaped("iceandfire:blindfold", <iceandfire:blindfold>,
+recipes.addShaped("iceandfire_blindfold", <iceandfire:blindfold>,
  [[leather_strip,leather_strip,leather_strip]]);
-recipes.addShaped("spartanweaponry:longbow_leather", <spartanweaponry:longbow_leather>,
+recipes.addShaped("spartanweaponry_longbow_leather", <spartanweaponry:longbow_leather>,
  [[handle,stick,leather_sheet],
   [stick,null,<ore:string>],
   [leather_sheet,<ore:string>,<ore:string>]]);
-recipes.addShaped("spartanweaponry:quiver_bolt", <spartanweaponry:quiver_bolt>,
+recipes.addShaped("spartanweaponry_quiver_bolt", <spartanweaponry:quiver_bolt>,
  [[leather_sheet,<ore:string>,leather_sheet],
   [leather_sheet,<ore:itemBolt>,leather_sheet],
   [iron_ingot,iron_ingot,iron_ingot]]);
-recipes.addShaped("spartanweaponry:quiver_arrow", <spartanweaponry:quiver_arrow>,
+recipes.addShaped("spartanweaponry_quiver_arrow", <spartanweaponry:quiver_arrow>,
  [[leather_sheet,<ore:string>,leather_sheet],
   [leather_sheet,<ore:itemArrow>,leather_sheet],
   [iron_ingot,iron_ingot,iron_ingot]]);
-recipes.addShaped("spartanweaponry:quiver_bolt_moderate", <spartanweaponry:quiver_bolt_moderate>,
+recipes.addShaped("spartanweaponry_quiver_bolt_moderate", <spartanweaponry:quiver_bolt_moderate>,
  [[leather_sheet,<spartanweaponry:quiver_bolt>,leather_sheet],
   [brass_ingot,brass_ingot,brass_ingot]]);
-recipes.addShaped("spartanweaponry:quiver_arrow_moderate", <spartanweaponry:quiver_arrow_moderate>,
+recipes.addShaped("spartanweaponry_quiver_arrow_moderate", <spartanweaponry:quiver_arrow_moderate>,
  [[leather_sheet,<spartanweaponry:quiver_arrow>,leather_sheet],
   [brass_ingot,brass_ingot,brass_ingot]]);
 

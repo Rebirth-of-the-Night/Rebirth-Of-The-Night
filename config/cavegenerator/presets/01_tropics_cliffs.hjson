@@ -46,13 +46,13 @@
       }
     } ]
   caveBlocks: [
-    { states: "biomesoplenty:grass:1", height: [ 0, 255 ] }
+    { states: "undergroundbiomes:sedimentary_overgrown", height: [ 0, 255 ] }
   ]
   wallDecorators: [
     {
       states: undergroundbiomes:sedimentary_stone
       directions: down
-      matchers: biomesoplenty:grass:1
+      matchers: undergroundbiomes:sedimentary_overgrown
       height: [ 0, 255 ]
       placement: EMBED
       integrity: 1
