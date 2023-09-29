@@ -481,6 +481,46 @@ dimensional_vortex.setToolClass("pickaxe");
 dimensional_vortex.setToolLevel(99);
 dimensional_vortex.register();
 
+//bonfire
+var bonfire = VanillaFactory.createBlock("bonfire", <blockmaterial:Fire>);
+bonfire.axisAlignedBB = AxisAlignedBB.create(
+     0.0 / 16.0,
+     0.0 / 16.0,
+     0.0 / 16.0,
+	16.0 / 16.0,
+    0.5 / 16.0,
+    16.0 / 16.0
+	);
+bonfire.setBlockSoundType(<soundtype:sand>);
+bonfire.setFullBlock(false);
+bonfire.setBlockHardness(0);
+bonfire.setLightOpacity(0);
+bonfire.setLightValue(15);
+bonfire.setBlockLayer("TRANSLUCENT");
+bonfire.setPassable(true);
+bonfire.setCreativeTab(<creativetab:rotn_blocks>);
+bonfire.register();
+
+//soul bonfire
+var soul_bonfire = VanillaFactory.createBlock("soul_bonfire", <blockmaterial:Fire>);
+soul_bonfire.axisAlignedBB = AxisAlignedBB.create(
+     0.0 / 16.0,
+     0.0 / 16.0,
+     0.0 / 16.0,
+	16.0 / 16.0,
+    0.5 / 16.0,
+    16.0 / 16.0
+	);
+soul_bonfire.setBlockSoundType(<soundtype:sand>);
+soul_bonfire.setFullBlock(false);
+soul_bonfire.setBlockHardness(0);
+soul_bonfire.setLightOpacity(0);
+soul_bonfire.setLightValue(15);
+soul_bonfire.setBlockLayer("TRANSLUCENT");
+soul_bonfire.setPassable(true);
+soul_bonfire.setCreativeTab(<creativetab:rotn_blocks>);
+soul_bonfire.register();
+
 // venerable_stump
 var venerable_stump = VanillaFactory.createBlock("venerable_stump", <blockmaterial:Wood>);
 venerable_stump.axisAlignedBB = AxisAlignedBB.create(

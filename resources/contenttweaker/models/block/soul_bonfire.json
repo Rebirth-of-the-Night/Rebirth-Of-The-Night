@@ -1,0 +1,227 @@
+{
+  "__comment": "Designed by Stohun with Cubik Studio - https://cubik.studio",
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "contenttweaker:blocks/soul_bonfire",
+    "texture": "contenttweaker:blocks/soul_bonfire",
+    "cross": "contenttweaker:blocks/soul_bonfire_x"
+  },
+  "elements": [
+    {
+      "from": [
+        -3,
+        0,
+        -8
+      ],
+      "to": [
+        -2.999,
+        32,
+        24
+      ],
+      "rotation": {
+        "origin": [
+          -3,
+          0,
+          -8
+        ],
+        "axis": "z",
+        "angle": -22.5
+      },
+      "shade": false,
+      "faces": {
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#texture"
+        }
+      }
+    },
+    {
+      "from": [
+        19,
+        0,
+        -8
+      ],
+      "to": [
+        19.001,
+        32,
+        24
+      ],
+      "rotation": {
+        "origin": [
+          19,
+          0,
+          -8
+        ],
+        "axis": "z",
+        "angle": 22.5
+      },
+      "shade": false,
+      "faces": {
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#texture"
+        }
+      }
+    },
+    {
+      "from": [
+        -8,
+        0,
+        -3
+      ],
+      "to": [
+        24,
+        32,
+        -2.999
+      ],
+      "rotation": {
+        "origin": [
+          -8,
+          0,
+          -3
+        ],
+        "axis": "x",
+        "angle": 22.5
+      },
+      "shade": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#texture"
+        }
+      }
+    },
+    {
+      "from": [
+        -8,
+        0,
+        19
+      ],
+      "to": [
+        24,
+        32,
+        19.001
+      ],
+      "rotation": {
+        "origin": [
+          -8,
+          0,
+          19
+        ],
+        "axis": "x",
+        "angle": -22.5
+      },
+      "shade": false,
+      "faces": {
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#texture"
+        }
+      }
+    },
+    {
+      "from": [
+        8,
+        0,
+        -8
+      ],
+      "to": [
+        8.001,
+        32,
+        24
+      ],
+      "rotation": {
+        "origin": [
+          8,
+          0,
+          8
+        ],
+        "axis": "y",
+        "angle": 45
+      },
+      "shade": false,
+      "faces": {
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#cross"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#cross"
+        }
+      }
+    },
+    {
+      "from": [
+        8.0001,
+        0,
+        -8
+      ],
+      "to": [
+        8.001101,
+        32,
+        24
+      ],
+      "rotation": {
+        "origin": [
+          8,
+          0,
+          8
+        ],
+        "axis": "y",
+        "angle": -45
+      },
+      "shade": false,
+      "faces": {
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#cross"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#cross"
+        }
+      }
+    }
+  ]
+}

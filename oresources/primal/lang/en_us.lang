@@ -1396,8 +1396,8 @@ tile.primal.grate_thatch.name=Thatch Grate
 tile.primal.grate_sarsen_smooth.name=Smooth Sarsen Grate
 
 # -- stairs
-tile.primal.stairs_dirt.name=Dirt Stairs
-tile.primal.stairs_grass.name=Grass Stairs
+tile.primal.stairs_dirt.name=Composite Dirt Stairs
+tile.primal.stairs_grass.name=Composite Grass Stairs
 tile.primal.stairs_netherrack.name=Netherrack Stairs
 tile.primal.stairs_mud.name=Mud Stairs
 tile.primal.stairs_carbonate_brick.name=Limestone Brick Stairs
@@ -1411,7 +1411,7 @@ tile.primal.stairs_cobblestone_mossy.name=Mossy Cobblestone Stairs
 tile.primal.stairs_stonebrick_mossy.name=Mossy Stonebrick Stairs
 tile.primal.stairs_soulstone.name=Soulstone Stairs
 tile.primal.stairs_sarsen_smooth.name=Smooth Sarsen Stairs
-tile.primal.stairs_path.name=Grass Path Stairs
+tile.primal.stairs_path.name=Composite Grass Path Stairs
 tile.primal.stairs_nether_earth.name=Nether Dirt Stairs
 tile.primal.stairs_nether_path.name=Nether Dirt Path Stairs
 tile.primal.stairs_night_stone.name=Hornblende Idolum Stairs
@@ -1420,8 +1420,8 @@ tile.primal.stairs_scoria.name=Scoria Stairs
 tile.primal.stairs_sarsen.name=Sarsen Stairs
 
 # -- pressure plates
-tile.primal.pressplate_dirt.name=Dirt Pressure Plate
-tile.primal.pressplate_grass.name=Grass Pressure Plate
+tile.primal.pressplate_dirt.name=Composite Dirt Pressure Plate
+tile.primal.pressplate_grass.name=Composite Grass Pressure Plate
 tile.primal.pressplate_glass.name=Glass Pressure Plate
 tile.primal.pressplate_netherrack.name=Netherrack Pressure Plate
 tile.primal.pressplate_corypha.name=Corphyry Pressure Plate

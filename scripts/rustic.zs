@@ -205,6 +205,9 @@ val nightvisionObsceneExtendedElixir = <rustic:elixir>.withTag({ElixirEffects: [
 val ironskinElixir = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "rustic:ironskin", Duration: 3600, Amplifier: 0}]});
 val ironskinElixirLong = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "rustic:ironskin", Duration: 9600, Amplifier: 0}]});
 val ironskinElixirStrong = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "rustic:ironskin", Duration: 1800, Amplifier: 1}]});
+val magneticElixir = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "extraalchemy:effect.magnetism", Duration: 3600, Amplifier: 0}]});
+val magneticElixirLong = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "extraalchemy:effect.magnetism", Duration: 9600, Amplifier: 0}]});
+val magneticElixirStrong = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "extraalchemy:effect.magnetism", Duration: 3600, Amplifier: 1}]});
 
 Condenser.removeRecipe(regenerationElixir);
 Condenser.removeRecipe(regenerationElixirLong);
@@ -245,6 +248,9 @@ Condenser.removeRecipe(<rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecr
 Condenser.addRecipe(nightvisionElixir, [wheatmat, glowjelly, radiantdust]);
 Condenser.addRecipe(nightvisionExtendedElixir, [wheatmat, glowjelly, radiantdust], <minecraft:golden_carrot>);
 Condenser.addRecipe(nightvisionObsceneExtendedElixir, [wheatmat, glowjelly, radiantdust], <twilightforest:moonworm>);
+Condenser.addRecipe(magneticElixir, [ironBerry, genericNugg]);
+Condenser.addRecipe(magneticElixirLong, [ironBerry, genericNugg], <quark:chain>);
+Condenser.addRecipe(magneticElixirStrong, [ironBerry, genericNugg], <ore:ingotSteel>);
 
 // Rework rustic furniture to use BWM miniblocks
 var furnitureWood as IIngredient[string] = {

@@ -206,5 +206,23 @@
     "damage": "1",
     "dropItem": "animania:milk_bottle",
     "dropCount": "1"
+  },
+  {
+    "targetBlock": "pyrotech:campfire",
+    "heldItem": "betterwithmods:material:16",
+    "replacementBlock": "contenttweaker:bonfire",
+    "damage": "1",
+    "particleType": "lava",
+    "particleArea": "out",
+    "particleCount": "8:80"
+  },
+  {
+    "targetBlock": "contenttweaker:bonfire",
+    "heldItem": "betterwithaddons:soulsand_pile",
+    "replacementBlock": "contenttweaker:soul_bonfire",
+    "damage": "1",
+    "particleType": "enchantmenttable",
+    "particleArea": "out",
+    "particleCount": "8:80"
   }
 ]
