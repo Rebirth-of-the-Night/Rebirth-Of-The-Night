@@ -7,7 +7,6 @@ import crafttweaker.oredict.IOreDictEntry;
 JEI.removeAndHide(<charm:rune_portal_frame:*>);
 JEI.removeAndHide(<charm:rune_portal>);
 JEI.removeAndHide(<charm:bound_compass>);
-JEI.removeAndHide(<charm:totem_of_returning>);
 JEI.removeAndHide(<charm:iron_lantern>);
 
 JEI.removeAndHide(<charm:crate>);

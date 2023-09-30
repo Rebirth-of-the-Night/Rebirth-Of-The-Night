@@ -28,8 +28,8 @@ death.attack.gloom=%s was consumed by the darkness
 
 tooltip.rotate_with_hand.name=Shift-Click with both hands empty to rotate this block.
 tooltip.chime.name=Emits a redstone signal when raining, or when an entity passes through it.
-tooltip.gearbox.name=Gearboxes get overpowered when a windmill spins too quickly. Disable its gearbox before this happens!
-tooltip.broken_gearbox.name=Gearboxes get overpowered when a windmill spins too quickly. Disable it with a redstone signal before this happens!
+tooltip.gearbox.name=Gearboxes get overpowered when a windmill spins too quickly. Disable the gearbox with a redstone signal before this happens!
+tooltip.broken_gearbox.name=Gearboxes get overpowered when a windmill spins too quickly. Disable the gearbox with a redstone signal before this happens!
 tooltip.windmill.name=Windmills spin quicker when it's raining or storming. Check your gearboxes!
 
 advancement.betterwithmods.corner_wood.desc=Cutting Corners

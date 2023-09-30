@@ -180,7 +180,6 @@ LootTable.removeGlobalItem("aether_legacy:regeneration_stone");
 LootTable.removeGlobalItem("aether_legacy:iron_bubble");
 LootTable.removeGlobalItem("aether_legacy:repulsion_shield");
 
-
 //Fix trapdoor recipes
 val skyplank = <aether_legacy:skyroot_plank>;
 recipes.remove(<aether_legacy:skyroot_trapdoor>);

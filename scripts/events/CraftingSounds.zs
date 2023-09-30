@@ -92,11 +92,11 @@ events.onPlayerCrafted(function(event as crafttweaker.event.PlayerCraftedEvent) 
     if (!canPlay[0] && doCatenation[0]) {
         event.player.world.catenation()
             .sleep(1)
-            .run(function(world) {
+            .run(function(world, context) {
                 canPlay[0] = true;
                 doCatenation[0] = true;
             })
-            .stopWhen(function(world) {
+            .stopWhen(function(world, context) {
                 return !event.player.alive;
             })
             .start();
