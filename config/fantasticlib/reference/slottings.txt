@@ -1,0 +1,19 @@
+None
+Mainhand
+Offhand
+Hand
+Head
+Chest
+Legs
+Feet
+Armor
+Hotbar
+Cargo
+Any
+Baubles Amulet
+Baubles Ring
+Baubles Belt
+Baubles Head
+Baubles Body
+Baubles Charm
+Baubles Trinket
