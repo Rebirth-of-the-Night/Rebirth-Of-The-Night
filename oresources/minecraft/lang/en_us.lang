@@ -36,7 +36,20 @@ tile.netherWartBlock.name=Block of Nether Wart
 tile.purpurBlock.name=Block of Purpur
 tile.brick.name=Block of Bricks
 tile.netherBrick.name=Block of Nether Bricks
+
+item.cauldron.name=Fluid Cauldron
 tile.hayBlock.name=Straw Bale
+tile.furnace.name=Rock Furnace
+tile.dirt.name=Composite Dirt
+tile.dirt.default.name=Composite Dirt
+tile.dirt.coarse.name=Coarse Composite Dirt
+tile.grass.name=Composite Grass Block
+tile.grassPath.name=Composite Grass Path
+tile.mycel.name=Composite Mycelium
+tile.farmland.name=Composite Farmlan
+
+tile.sandStone.smooth.name=Smooth Sandstone
+tile.redSandStone.smooth.name=Smooth Red Sandstone
 
 item.totem.name=§bTotem of Undying
 tile.flower1.dandelion.name=Marigold
@@ -44,6 +57,8 @@ item.dyePowder.yellow.name=Yellow Dye
 item.netherStar.name=§6Nether Star
 item.slimeball.name=Green Slimeball
 item.arrow.name=Flint Arrow
+item.cookie.name=Chocolate Chip Cookie
+item.brick.name=Clay Brick
 
 item.swordIron.name=Iron Arming Sword
 item.swordStone.name=Stone Arming Sword
@@ -67,6 +82,14 @@ tile.stoneSlab.stone.name=Coade Stone Slab
 tile.stoneSlab.cobble.name=Coade Cobblestone Slab
 tile.stoneSlab.smoothStoneBrick.name=Coade Stone Bricks Slab
 tile.stairsStone.name=Coade Cobblestone Stairs
+
+tile.oreGold.name=Gold Ore
+tile.oreIron.name=Iron Ore
+tile.oreCoal.name=Coal Ore
+tile.oreDiamond.name=Diamond Ore
+tile.oreRedstone.name=Redstone Ore
+tile.oreLapis.name=Lapis Lazuli Ore
+tile.oreEmerald.name=Emerald Ore
 
 tile.pressurePlateStone.name=Entity Pressure Plate
 

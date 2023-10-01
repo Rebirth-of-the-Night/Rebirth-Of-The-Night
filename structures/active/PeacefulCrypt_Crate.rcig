@@ -1,0 +1,57 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "PeacefulCrypt_Crate",
+  "items": [
+    {
+      "weight": 0.0014766963431611657,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "contenttweaker:steel_artifact",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.0019995670299977064,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:rabbit_foot",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.005751589313149452,
+      "min": 1,
+      "max": 5,
+      "item": {
+        "id": "rats:herb_bundle",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.011213661171495914,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "villagenames:codex",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.16315889358520508,
+      "min": 2,
+      "max": 3,
+      "item": {
+        "id": "betterwithaddons:rotten_food",
+        "damage": 0,
+        "count": 1
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}

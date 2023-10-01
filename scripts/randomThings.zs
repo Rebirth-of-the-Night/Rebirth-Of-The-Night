@@ -37,6 +37,7 @@ JEI.removeAndHide(<randomthings:lapisglass>);
 JEI.removeAndHide(<randomthings:lapislamp>);
 JEI.removeAndHide(<randomthings:onlinedetector>);
 JEI.removeAndHide(<randomthings:enderbridge>);
+JEI.removeAndHide(<randomthings:chatdetector>);
 JEI.removeAndHide(<randomthings:prismarineenderbridge>);
 JEI.removeAndHide(<randomthings:beanstalk>);
 JEI.removeAndHide(<randomthings:lesserbeanstalk>);
@@ -68,6 +69,7 @@ JEI.removeAndHide(<randomthings:notificationinterface>);
 JEI.removeAndHide(<randomthings:glowingmushroom>);
 JEI.removeAndHide(<randomthings:inventorytester>);
 JEI.removeAndHide(<randomthings:superlubricentstone>);
+JEI.removeAndHide(<randomthings:globalchatdetector>);
 JEI.removeAndHide(<randomthings:triggerglass>);
 JEI.removeAndHide(<randomthings:blockdestabilizer>);
 JEI.removeAndHide(<randomthings:lotus>);
@@ -251,7 +253,7 @@ RecipeBuilder.get("mage")
 
 recipes.removeShapeless(<randomthings:ingredient:5>, []);
 recipes.remove(<randomthings:ingredient:5>);
-recipes.addShapeless(<randomthings:ingredient:5> * 4, [<minecraft:glowstone_dust>,<betterwithaddons:wheatmat>]);
+recipes.addShapeless(<randomthings:ingredient:5> * 4, [<betterwithmods:material:37>|<minecraft:redstone>|<betterwithmods:material:26>|<betterwithmods:material:18>|<minecraft:glowstone_dust>,<betterwithaddons:wheatmat>]);
 
 //dyeing machine / Prismatic Infuser
 recipes.remove(<randomthings:dyeingmachine>);

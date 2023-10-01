@@ -29,7 +29,6 @@ JEI.removeAndHide(<cyclicmagic:imbuer>);
 JEI.removeAndHide(<cyclicmagic:plate_push_slow>);
 JEI.removeAndHide(<cyclicmagic:plate_push_slow_corner>);
 JEI.removeAndHide(<cyclicmagic:plate_push_slow_angle>);
-JEI.removeAndHide(<cyclicmagic:builder_block>);
 JEI.removeAndHide(<cyclicmagic:target>);
 JEI.removeAndHide(<cyclicmagic:horse_upgrade_type>);
 JEI.removeAndHide(<cyclicmagic:horse_upgrade_health>);
@@ -149,7 +148,7 @@ RecipeBuilder.get("mage")
   .setShaped([
     [null, <contenttweaker:sapphire_ingot>, <contenttweaker:waterlogged_sapphire>],
     [null, <contenttweaker:vis_shard>, <contenttweaker:sapphire_ingot>],
-    [<pyrotech:brick_tank>, null, null]])
+    [<spartanweaponry:caestus_studded>, null, null]])
   .addTool(<contenttweaker:water_rune>, 1)
   .addTool(<contenttweaker:nature_rune>, 1)
   .addOutput(<cyclicmagic:water_spreader>)

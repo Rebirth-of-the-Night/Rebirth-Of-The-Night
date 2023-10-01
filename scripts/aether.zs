@@ -81,6 +81,12 @@ LootTable.removeGlobalItem("aether_legacy:swetty_ball");
 JEI.removeAndHide(<aether_legacy:lightning_knife>);
 LootTable.removeGlobalItem("aether_legacy:lightning_knife");
 
+JEI.removeAndHide(<aether_legacy:sun_altar>);
+LootTable.removeGlobalItem("aether_legacy:sun_altar");
+
+JEI.removeAndHide(<aether_legacy:golden_feather>);
+LootTable.removeGlobalItem("aether_legacy:golden_feather");
+
 recipes.remove(<aether_legacy:aetherium_core>);
 RecipeBuilder.get("mage")
   .setShaped([
@@ -103,14 +109,76 @@ LootTable.removeGlobalItem("aether_legacy:obsidian_helmet");
 LootTable.removeGlobalItem("aether_legacy:obsidian_boots");
 LootTable.removeGlobalItem("aether_legacy:obsidian_leggings");
 
+JEI.removeAndHide(<aether_legacy:iron_ring>);
+JEI.removeAndHide(<aether_legacy:golden_ring>);
+JEI.removeAndHide(<aether_legacy:zanite_ring>);
+JEI.removeAndHide(<aether_legacy:ice_ring>);
+JEI.removeAndHide(<aether_legacy:iron_pendant>);
+JEI.removeAndHide(<aether_legacy:golden_pendant>);
+JEI.removeAndHide(<aether_legacy:zanite_pendant>);
+JEI.removeAndHide(<aether_legacy:ice_pendant>);
 JEI.removeAndHide(<aether_legacy:candy_cane_sword>);
 JEI.removeAndHide(<aether_legacy:candy_cane>);
 JEI.removeAndHide(<aether_legacy:ginger_bread_man>);
+JEI.removeAndHide(<aether_legacy:zanite_gloves>);
+JEI.removeAndHide(<aether_legacy:phoenix_gloves>);
+JEI.removeAndHide(<aether_legacy:leather_gloves>);
+JEI.removeAndHide(<aether_legacy:iron_gloves>);
+JEI.removeAndHide(<aether_legacy:golden_gloves>);
+JEI.removeAndHide(<aether_legacy:chain_gloves>);
+JEI.removeAndHide(<aether_legacy:diamond_gloves>);
+JEI.removeAndHide(<aether_legacy:gravitite_gloves>);
+JEI.removeAndHide(<aether_legacy:neptune_gloves>);
+JEI.removeAndHide(<aether_legacy:obsidian_gloves>);
+JEI.removeAndHide(<aether_legacy:valkyrie_gloves>);
+LootTable.removeGlobalItem("aether_legacy:iron_ring");
+LootTable.removeGlobalItem("aether_legacy:golden_ring");
+LootTable.removeGlobalItem("aether_legacy:zanite_ring");
+LootTable.removeGlobalItem("aether_legacy:ice_ring");
+LootTable.removeGlobalItem("aether_legacy:iron_pendant");
+LootTable.removeGlobalItem("aether_legacy:golden_pendant");
+LootTable.removeGlobalItem("aether_legacy:zanite_pendant");
+LootTable.removeGlobalItem("aether_legacy:ice_pendant");
 LootTable.removeGlobalItem("aether_legacy:white_apple");
 LootTable.removeGlobalItem("aether_legacy:candy_cane_sword");
 LootTable.removeGlobalItem("aether_legacy:candy_cane");
 LootTable.removeGlobalItem("aether_legacy:ginger_bread_man");
+LootTable.removeGlobalItem("aether_legacy:zanite_gloves");
+LootTable.removeGlobalItem("aether_legacy:phoenix_gloves");
+LootTable.removeGlobalItem("aether_legacy:leather_gloves");
+LootTable.removeGlobalItem("aether_legacy:iron_gloves");
+LootTable.removeGlobalItem("aether_legacy:golden_gloves");
+LootTable.removeGlobalItem("aether_legacy:chain_gloves");
+LootTable.removeGlobalItem("aether_legacy:diamond_gloves");
+LootTable.removeGlobalItem("aether_legacy:gravitite_gloves");
+LootTable.removeGlobalItem("aether_legacy:neptune_gloves");
+LootTable.removeGlobalItem("aether_legacy:obsidian_gloves");
+LootTable.removeGlobalItem("aether_legacy:valkyrie_gloves");
 LootTable.removeGlobalItem("aether_legacy:cloud_staff");
+
+JEI.removeAndHide(<aether_legacy:red_cape>);
+JEI.removeAndHide(<aether_legacy:blue_cape>);
+JEI.removeAndHide(<aether_legacy:yellow_cape>);
+JEI.removeAndHide(<aether_legacy:white_cape>);
+JEI.removeAndHide(<aether_legacy:swet_cape>);
+JEI.removeAndHide(<aether_legacy:invisibility_cape>);
+JEI.removeAndHide(<aether_legacy:agility_cape>);
+JEI.removeAndHide(<aether_legacy:valkyrie_cape>);
+LootTable.removeGlobalItem("aether_legacy:red_cape");
+LootTable.removeGlobalItem("aether_legacy:blue_cape");
+LootTable.removeGlobalItem("aether_legacy:yellow_cape");
+LootTable.removeGlobalItem("aether_legacy:white_cape");
+LootTable.removeGlobalItem("aether_legacy:swet_cape");
+LootTable.removeGlobalItem("aether_legacy:invisibility_cape");
+LootTable.removeGlobalItem("aether_legacy:agility_cape");
+LootTable.removeGlobalItem("aether_legacy:valkyrie_cape");
+
+JEI.removeAndHide(<aether_legacy:regeneration_stone>);
+JEI.removeAndHide(<aether_legacy:iron_bubble>);
+JEI.removeAndHide(<aether_legacy:repulsion_shield>);
+LootTable.removeGlobalItem("aether_legacy:regeneration_stone");
+LootTable.removeGlobalItem("aether_legacy:iron_bubble");
+LootTable.removeGlobalItem("aether_legacy:repulsion_shield");
 
 //Fix trapdoor recipes
 val skyplank = <aether_legacy:skyroot_plank>;
@@ -133,27 +201,33 @@ recipes.addShaped("quicksoil", quicks*8,[
 recipes.remove(<aether_legacy:holystone_button>);
 recipes.addShapeless("holystone_button",<aether_legacy:holystone_button>,[<pyrotech_compat:rock_sedimentary_sand:15>]);
 
-// Consistency with stone tools for holystone tools
+// Consistency with stone tools for holystone tools (disabled due to ridiculous ambrosium dupes)
 recipes.remove(<aether_legacy:holystone_axe>);
-recipes.addShapedMirrored("holystone_axe", <aether_legacy:holystone_axe>,
+/* recipes.addShapedMirrored("holystone_axe", <aether_legacy:holystone_axe>,
  [[<pyrotech_compat:rock_sedimentary_sand:15>,<pyrotech_compat:rock_sedimentary_sand:15>,null],
   [<pyrotech_compat:rock_sedimentary_sand:15>,<aether_legacy:skyroot_stick>,null],
-  [null,<aether_legacy:skyroot_stick>,null]]);
+  [null,<aether_legacy:skyroot_stick>,null]]); */
 
 recipes.remove(<aether_legacy:holystone_pickaxe>);
-recipes.addShaped("holystone_pickaxe", <aether_legacy:holystone_pickaxe>,
+/* recipes.addShaped("holystone_pickaxe", <aether_legacy:holystone_pickaxe>,
  [[<pyrotech_compat:rock_sedimentary_sand:15>,<pyrotech_compat:rock_sedimentary_sand:15>,<pyrotech_compat:rock_sedimentary_sand:15>],
   [null,<aether_legacy:skyroot_stick>,null],
-  [null,<aether_legacy:skyroot_stick>,null]]);
+  [null,<aether_legacy:skyroot_stick>,null]]); */
 
 recipes.remove(<aether_legacy:holystone_shovel>);
-recipes.addShaped("holystone_shovel", <aether_legacy:holystone_shovel>,
+/* recipes.addShaped("holystone_shovel", <aether_legacy:holystone_shovel>,
  [[null,<pyrotech_compat:rock_sedimentary_sand:15>,null],
   [null,<aether_legacy:skyroot_stick>,null],
-  [null,<aether_legacy:skyroot_stick>,null]]);
+  [null,<aether_legacy:skyroot_stick>,null]]); */
+
+JEI.removeAndHide(<aether_legacy:holystone_axe>);
+JEI.removeAndHide(<aether_legacy:holystone_pickaxe>);
+JEI.removeAndHide(<aether_legacy:holystone_shovel>);
+LootTable.removeGlobalItem("aether_legacy:holystone_axe");
+LootTable.removeGlobalItem("aether_legacy:holystone_pickaxe");
+LootTable.removeGlobalItem("aether_legacy:holystone_shovel");
 
 // Gravitite ingot rework
-
 var gravitite_ingot = <ore:ingotGravitite>;
 var gravitite_block = <ore:blockEnchantedGravitite>;
 

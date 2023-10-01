@@ -16,6 +16,9 @@ JEI.removeAndHide(<malisisdoors:trapdoor_jungle>);
 JEI.removeAndHide(<malisisdoors:trapdoor_spruce>);
 JEI.removeAndHide(<malisisdoors:customdooritem>);
 // JEI.removeAndHide(<malisisdoors:laboratory_door>);
+JEI.removeAndHide(<malisisdoors:rustyhatch>);
+JEI.removeAndHide(<malisisdoors:rustyhandle>);
+JEI.removeAndHide(<malisisdoors:rustyladder>);
 recipes.remove(<malisisdoors:rustyhatch>);
 recipes.remove(<malisisdoors:rustyhandle>);
 recipes.remove(<malisisdoors:rustyladder>);
@@ -28,7 +31,7 @@ recipes.remove(<malisisdoors:laboratory_door>);
 recipes.remove(<malisisdoors:carriage_door>);
 
 // Rusty
-recipes.addShaped("Bunker Handle", <malisisdoors:rustyhandle>,[
+/* recipes.addShaped("Bunker Handle", <malisisdoors:rustyhandle>,[
     [null, null, null],
     [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>],
     [null, <ore:ingotCopper>, null]
@@ -37,34 +40,34 @@ recipes.addShaped("Bunker Ladder", <malisisdoors:rustyladder>,[
     [<ore:ingotCopper>, null, <ore:ingotCopper>],
     [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>],
     [<ore:ingotCopper>, null, <ore:ingotCopper>]
-]);
+]); */
 
 
 // Doors
 recipes.addShapeless("Camouflaged Fence Gate", <malisisdoors:camofencegate>,[
 	<ore:fenceGateWood>,<primitivemobs:camouflage_dye>
 ]);
-recipes.addShaped("Rusty Hatch", <malisisdoors:rustyhatch>,[
+/* recipes.addShaped("Rusty Hatch", <malisisdoors:rustyhatch>,[
 	  [<simpleores:copper_ingot>],
     [<simpleores:copper_ingot>, <malisisdoors:rustyhandle>],
     [<simpleores:copper_ingot>]
-]);
+]); */
 recipes.addShaped("Factory Door", <malisisdoors:factory_door> * 3,[
-	  [<ore:ingotTin>, <ore:ingotTin>],
+	[<ore:ingotTin>, <ore:ingotTin>],
     [<ore:latchRedstone>, <ore:latchRedstone>],
     [<ore:ingotTin>, <ore:ingotTin>]
 ]);
-recipes.addShaped("Rampart Trapdoor", <malisisdoors:sliding_trapdoor> * 3,[
-  	[<ore:latchRedstone>, <ore:ingotTin>, <ore:ingotTin>],
-	  [<ore:latchRedstone>, <ore:ingotTin>, <ore:ingotTin>]
+recipes.addShaped("Mechanical Cincinnasite Door", <malisisdoors:sliding_trapdoor> * 3,[
+  	[<ore:latchRedstone>, <betternether:nether_brick_tile_large>],
+	[<betternether:cincinnasite_forged>, <ore:latchRedstone>]
 ]);
-recipes.addShaped("Rampart Door", <malisisdoors:laboratory_door> * 3,[
-	  [<betternether:cincinnasite_forged>, <ore:latchRedstone>],
+recipes.addShaped("Mechanical Cincinnasite Trapdoor", <malisisdoors:laboratory_door> * 3,[
+	[<betternether:cincinnasite_forged>, <ore:latchRedstone>],
     [<betternether:nether_brick_tile_large>, <betternether:nether_brick_tile_large>],
     [<ore:latchRedstone>, <betternether:cincinnasite_forged>]
 ]);
 recipes.addShaped("Reinforced Door", <malisisdoors:jail_door> * 3,[
-	  [<minecraft:iron_bars>, <minecraft:iron_bars>],
+	[<minecraft:iron_bars>, <minecraft:iron_bars>],
     [<ore:plankWood>, <ore:plankWood>],
     [<minecraft:iron_bars>, <minecraft:iron_bars>]
 ]);

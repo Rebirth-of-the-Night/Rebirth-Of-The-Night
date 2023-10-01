@@ -5,3 +5,15 @@ tile.weathered_copper_block.name=Weathered Block of Copper
 
 tile.mushroom_lamp_0.name=Unlit Mushroom Lamp
 tile.mushroom_lamp_1.name=Lit Mushroom Lamp
+
+tile.stalactite_1.name=Stalactite
+tile.stalactite_0.name=Stalactite
+tile.stalactite_3.name=Stalactite
+
+tile.verribyne_0.name=Verribyne
+tile.wonder_geode.name=Wonder Geode
+tile.exorite_crystal.name=Exorite Crystal
+tile.cave_moss.name=Block of Moss
+tile.verribyne_1.name=Verribyne
+tile.charred_log_pile.name=Charred Log Pile
+tile.scuttling_block.name=Scuttling Block

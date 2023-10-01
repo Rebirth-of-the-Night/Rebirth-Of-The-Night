@@ -270,7 +270,7 @@
     "random": 0.1,
 	"helditem": ["4=spartanweaponry:club_wood", "2=minecraft:iron_pickaxe", "2=mod_lavacow:tooth_dagger", "3=mod_lavacow:vespa_dagger", "1=mod_lavacow:bonesword", "1=spartanweaponry:dagger_bronze", "2=spartanweaponry:dagger_iron", "2=spartanweaponry:dagger_copper", "4=dungeontactics:bone_knife", "2=dungeontactics:sharp_stick", "1=spartanweaponry:throwing_axe_stone", "1=spartanweaponry:throwing_axe_iron"],
 	"maxcount": {
-        "amount": 10,
+        "amount": 6,
         "perplayer": true
     },
 	"result": "allow"
@@ -2265,7 +2265,7 @@
  {
     "dimension": [0,10,1,-1],
     "mob": "specialmobs:blindingenderman",
-    "gamestage": "minedMythril",
+    "gamestage": "killedEnderDragon",
     "random": 0.225,
     "maxlight": 7,
 
@@ -2324,7 +2324,7 @@
     "dimension": [0,10,1],
     "mob": "endreborn:watcher",
     "gamestage": "killedEnderDragon",
-    "random": 0.1,
+    "random": 0.2,
     "result": "default"
  },
  {
@@ -2337,7 +2337,7 @@
     "dimension": [0,10,1],
     "mob": "endreborn:chronologist",
     "gamestage": "killedEnderDragon",
-    "random": 0.1,
+    "random": 0.2,
     "result": "default"
  },
  {

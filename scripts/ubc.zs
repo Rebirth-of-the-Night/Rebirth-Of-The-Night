@@ -9,6 +9,17 @@ import mods.artisanworktables.builder.RecipeBuilder;
 recipes.removeByRecipeName("undergroundbiomes:vanilla_button");
 recipes.removeByRecipeName("undergroundbiomes:vanilla_sandstone");
 
+// Because ubc is not smart with its ore generation, there needs to be at least one ore - otherwise it crashes
+// But we can hide it anyway...
+var stone_types as [string] = [
+    "igneous",
+    "metamorphic",
+    "sedimentary"
+] as [string];
+for type in stone_types {
+    JEI.removeAndHide(itemUtils.getItem("undergroundbiomes:"~type~"_stone_endreborn_block_wolframium_ore"));
+}
+
 // Remove charbiotite
 JEI.removeAndHide(<undergroundbiomes:lignite_coal>);
 

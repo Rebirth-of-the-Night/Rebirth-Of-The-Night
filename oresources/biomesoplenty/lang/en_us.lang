@@ -1,11 +1,14 @@
 item.berries.name=Hawberry
 tile.plant_0.berrybush.name=Hawthorn Bush
 
+item.jar_empty.name=Mason Jar
 tile.blue_fire.name=Cursed Fire
-item.jar_filled_blue_fire.name=Cursed Fire Jar
+item.jar_filled_blue_fire.name=Cursed Fire Mason Jar
 item.gem_peridot.name=Alexandrite
 tile.gem_block.peridot_block.name=Block of Alexandrite
 tile.gem_ore.peridot_ore.name=Alexandrite Ore
+
+item.jar_filled_honey.name=Honey Mason Jar
 
 potion.curse=Pandemonium
 
@@ -17,6 +20,8 @@ tile.gem_block.amethyst_block.name=Block of Exorite
 tile.gem_ore.amethyst_ore.name=Exorite Ore
 
 tile.ash_block.name=Block of Ashes
+
+tile.grass.daisy_grass_block.name=Composite Flowering Grass Block
 
 tile.log_0.sacred_oak_log.name=Sacred Oak Log
 tile.log_0.cherry_log.name=Cherry Log

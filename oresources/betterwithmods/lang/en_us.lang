@@ -15,8 +15,8 @@ item.bwm:wool_chest.name=Incomplete Developer Chestplate
 item.bwm:wool_pants.name=Incomplete Developer Leggings
 item.bwm:wool_boots.name=Incomplete Developer Boots
 
-tile.bwm:aesthetic.0.name=Stone Chopping Block
-tile.bwm:aesthetic.1.name=Bloodied Stone Chopping Block
+tile.bwm:aesthetic.0.name=Chopping Block
+tile.bwm:aesthetic.1.name=Bloodied Chopping Block
 tile.bwm:aesthetic.3.name=Block of Concentrated Hellfire
 tile.bwm:aesthetic.4.name=Block of Rope Cords
 tile.bwm:aesthetic.7.name=White Cobblestone
@@ -24,12 +24,12 @@ tile.bwm:aesthetic.7.name=White Cobblestone
 inv.cauldron.name=Cooking Cauldron
 inv.cauldron.stoked.name=Stoked Cooking Cauldron
 
-death.attack.gloom=%s was consumed by the shadows
+death.attack.gloom=%s was consumed by the darkness
 
 tooltip.rotate_with_hand.name=Shift-Click with both hands empty to rotate this block.
-tooltip.chime.name=Emits a Redstone Signal when raining, or when an entity passes through it.
-tooltip.gearbox.name=Gearboxes get overpowered when a windmill spins too quickly. Disable it with redstone before this happens!
-tooltip.broken_gearbox.name=Gearboxes get overpowered when a windmill spins too quickly. Disable it with redstone before this happens!
+tooltip.chime.name=Emits a redstone signal when raining, or when an entity passes through it.
+tooltip.gearbox.name=Gearboxes get overpowered when a windmill spins too quickly. Disable the gearbox with a redstone signal before this happens!
+tooltip.broken_gearbox.name=Gearboxes get overpowered when a windmill spins too quickly. Disable the gearbox with a redstone signal before this happens!
 tooltip.windmill.name=Windmills spin quicker when it's raining or storming. Check your gearboxes!
 
 advancement.betterwithmods.corner_wood.desc=Cutting Corners
@@ -95,7 +95,7 @@ tile.bwm:windmill.waterwheel.name=Waterwheel
 tile.bwm:windmill.windmill_vertical.name=Vertical Windmill
 
 tile.bwm:planter.0.name=Planter
-tile.bwm:planter.1.name=Farmland Planter
+tile.bwm:planter.1.name=Composite Farmland Planter
 tile.bwm:planter.2.name=Grass Planter
 tile.bwm:planter.3.name=Soul Sand Planter
 tile.bwm:planter.4.name=Fertile Planter
@@ -103,7 +103,7 @@ tile.bwm:planter.5.name=Sand Planter
 tile.bwm:planter.6.name=Water Planter
 tile.bwm:planter.7.name=Gravel Planter
 tile.bwm:planter.8.name=Red Sand Planter
-tile.bwm:planter.9.name=Dirt Planter
+tile.bwm:planter.9.name=Composite Dirt Planter
 
 tile.bwm:vase.0.name=White Vase
 tile.bwm:vase.1.name=Orange Vase
@@ -287,9 +287,9 @@ tile.bwm:stump.2.name=Birch Stump
 tile.bwm:stump.3.name=Jungle Stump
 tile.bwm:stump.4.name=Acacia Stump
 tile.bwm:stump.5.name=Dark Oak Stump
-tile.bwm:dirt_slab.0.name=Dirt Slab
-tile.bwm:dirt_slab.1.name=Grass Slab
-tile.bwm:dirt_slab.2.name=Mycelium Slab
+tile.bwm:dirt_slab.0.name=Composite Dirt Slab
+tile.bwm:dirt_slab.1.name=Composite Grass Slab
+tile.bwm:dirt_slab.2.name=Composite Mycelium Slab
 
 tile.bwm:infernal_enchanter.name=Infernal Enchanter
 tile.bwm:candle_holder.name=Candle Holder
@@ -343,7 +343,7 @@ item.bwm:material.potash.name=Potash
 item.bwm:material.sawdust.name=Sawdust
 item.bwm:material.soul_dust.name=Soul Dust
 item.bwm:material.screw.name=Archimedes Screw
-item.bwm:material.brimstone.name=Brimstone
+item.bwm:material.brimstone.name=Brimstone Dust
 item.bwm:material.niter.name=Niter
 item.bwm:material.element.name=Heating Element
 item.bwm:material.fuse.name=Explosive Fuse
@@ -463,7 +463,7 @@ item.bwm:stump_remover.name=Stump Remover
 item.bwm:stump_remover_kf.name=Stump Remover
 
 item.bwm:gravel_pile.name=Pile of Gravel
-item.bwm:dirt_pile.name=Dirt Clump
+item.bwm:dirt_pile.name=Composite Dirt Clump
 item.bwm:sand_pile.name=Pile of Sand
 item.bwm:red_sand_pile.name=Pile of Red Sand
 

@@ -75,7 +75,7 @@ recipes.addShapeless("star_block_to_star", <nyx:fallen_star>*9,
 // Well
 recipes.remove(<well:well>);
 recipes.addShaped("water_well", <well:well>,[
-	[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
+	[<minecraft:brick>, <minecraft:brick>, <minecraft:brick>],
     [<contenttweaker:masonry_brick>, <betterwithmods:bucket>, <contenttweaker:masonry_brick>],
     [<contenttweaker:masonry_brick>, <betterwithmods:screw_pump>, <contenttweaker:masonry_brick>]
 ]);

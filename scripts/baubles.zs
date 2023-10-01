@@ -29,6 +29,9 @@ LootTable.removeGlobalItem("bountifulbaubles:phantomprism");
 LootTable.removeGlobalItem("bountifulbaubles:reforger");
 LootTable.removeGlobalItem("bountifulbaubles:ringiron");
 
+JEI.removeAndHide(<bountifulbaubles:spectralsilt>);
+LootTable.removeGlobalItem("bountifulbaubles:spectralsilt");
+
 JEI.removeAndHide(<artifacts:ultimate_pendant>);
 LootTable.removeGlobalItem("artifacts:ultimate_pendant");
 
@@ -70,6 +73,25 @@ JEI.removeAndHide(<bountifulbaubles:shieldcobalt>);
 JEI.removeAndHide(<bountifulbaubles:trinketballoon>);
 JEI.removeAndHide(<bountifulbaubles:shieldobsidian>);
 JEI.removeAndHide(<bountifulbaubles:trinketluckyhorseshoe>);
+
+JEI.removeAndHide(<artifacts:everlasting_porkchop>);
+JEI.removeAndHide(<artifacts:everlasting_cooked_porkchop>);
+JEI.removeAndHide(<artifacts:everlasting_beef>);
+JEI.removeAndHide(<artifacts:everlasting_cooked_beef>);
+JEI.removeAndHide(<artifacts:everlasting_chicken>);
+JEI.removeAndHide(<artifacts:everlasting_cooked_chicken>);
+JEI.removeAndHide(<artifacts:everlasting_rotten_flesh>);
+JEI.removeAndHide(<artifacts:everlasting_spider_eye>);
+JEI.removeAndHide(<artifacts:everlasting_rabbit>);
+JEI.removeAndHide(<artifacts:everlasting_cooked_rabbit>);
+JEI.removeAndHide(<artifacts:everlasting_mutton>);
+JEI.removeAndHide(<artifacts:everlasting_cooked_mutton>);
+JEI.removeAndHide(<artifacts:everlasting_rabbit_stew>);
+JEI.removeAndHide(<artifacts:everlasting_cod>);
+JEI.removeAndHide(<artifacts:everlasting_cooked_cod>);
+JEI.removeAndHide(<artifacts:everlasting_salmon>);
+JEI.removeAndHide(<artifacts:everlasting_cooked_salmon>);
+JEI.removeAndHide(<artifacts:everlasting_clownfish>);
 
 
 // Remove tooltips

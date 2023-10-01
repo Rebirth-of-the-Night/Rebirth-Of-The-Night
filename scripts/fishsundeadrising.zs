@@ -222,5 +222,13 @@ RecipeBuilder.get("mage")
   .setMaximumTier(1)
   .create();
 
+// mycelium recipe
+recipes.removeByRecipeName("mod_lavacow:mycelium");
+recipes.addShaped("hyphae_to_mycelium", <minecraft:mycelium>,[
+    [null, null, null],
+    [<mod_lavacow:hyphae>, <mod_lavacow:hyphae>, <mod_lavacow:hyphae>],
+    [null, <minecraft:dirt>, null]
+  ]);
+
 
 

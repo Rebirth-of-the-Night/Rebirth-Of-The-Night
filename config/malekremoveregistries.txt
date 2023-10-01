@@ -14,12 +14,6 @@ behgameon:shield7
 behgameon:shield8
 behgameon:shield9
 dungeontactics:alchemist_brew
-futuremc:barrel
-futuremc:cartography_table
-futuremc:composter
-futuremc:fletching_table
-futuremc:grindstone
-futuremc:loom
 harvestcraft:chilipepperitem
 harvestcraft:chilipepperseeditem
 harvestcraft:grapeitem

@@ -33,7 +33,7 @@ RecipeBuilder.get("mage")
   .setMaximumTier(1)
   .create();
 
-// Animated Brain & Rocket
+// Animated Brain
 RecipeBuilder.get("mage")
   .setShaped([
     [<contenttweaker:vis_speck>, <simpleores:adamantium_ingot>, <contenttweaker:vis_speck>],

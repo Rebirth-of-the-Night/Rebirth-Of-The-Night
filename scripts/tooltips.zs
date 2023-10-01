@@ -163,8 +163,6 @@ for w, weapon in sapphireweps{
 <dungeontactics:trap_spectral:*>.addTooltip("Makes its victim glow, allowing it to be seen through walls.");
 <dungeontactics:trap_spectral:*>.addTooltip("Must be reset with an Engineer's Wrench after use.");
 <iceandfire:pixie_dust:*>.addTooltip("What would happen if I had a taste...?");
-<contenttweaker:invasion_debug_tool:*>.addTooltip(format.red("Immediately stops invasions. Only use this if your invasion is bugged!"));
-<contenttweaker:invasion_debug_tool:*>.addTooltip(format.red("Or use it to cheat if you want, I'm not your parents."));
 <contenttweaker:xp_tome_mundane>.addTooltip("Grants 500 XP on use.");
 <contenttweaker:xp_tome_arcane>.addTooltip("Grants 5 LEVELS on use.");
 
@@ -509,11 +507,15 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <futuremc:smoker>.addShiftTooltip(format.gold("Fuel Capacity:") + format.yellow(" full stack; 1 at a time."));
 <futuremc:smoker>.addShiftTooltip(format.gold("Fuel Modifier:") + format.yellow(" 100%; 2x cooking speed"));
 
-<exsartagine:wok>.addShiftTooltip(format.white("Can be heated by:") + "" + format.yellow(" CAMPFIRE, FURNACE, SMOKER, BLAST FURNACE, COOKING RANGE, STOKED FLAME"), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
-<exsartagine:pot>.addShiftTooltip(format.white("Can be heated by:") + "" + format.yellow(" CAMPFIRE, FURNACE, SMOKER, BLAST FURNACE, COOKING RANGE, STOKED FLAME"), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
-<exsartagine:kettle>.addShiftTooltip(format.white("Can be heated by:") + "" + format.yellow(" CAMPFIRE, FURNACE, SMOKER, BLAST FURNACE, COOKING RANGE, STOKED FLAME"), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<exsartagine:wok>.addShiftTooltip(format.white("Can be heated by:") + "" + format.yellow(" CAMPFIRE, FURNACE, SMOKER, BLAST FURNACE, STOVE, HEARTH, STOKED FLAME"), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<exsartagine:pot>.addShiftTooltip(format.white("Can be heated by:") + "" + format.yellow(" CAMPFIRE, FURNACE, SMOKER, BLAST FURNACE, STOVE, HEARTH, STOKED FLAME"), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<exsartagine:kettle>.addShiftTooltip(format.white("Can be heated by:") + "" + format.yellow(" CAMPFIRE, FURNACE, SMOKER, BLAST FURNACE, STOVE, HEARTH, STOKED FLAME"), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <exsartagine:range:*>.addTooltip("Efficiently heats cooking appliances for fuel.");
-<exsartagine:range>.addShiftTooltip("Turns up to four furnaces to its right into part of the cooking range, offering 4 surfaces on which to place pans, pots and kettles.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<exsartagine:range>.addShiftTooltip("Supports up to three Stove Extensions to on either side, offering four total surfaces on which to place woks, pots and kettles.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<exsartagine:hearth:*>.addTooltip("Handily heats cooking appliances for fuel.");
+<exsartagine:hearth>.addShiftTooltip("Supports one Hearth Extension to its side, offering two total surfaces on which to place woks, pots and kettles.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+
+
 <advancedliftingmethods:blowing_elevator>.addShiftTooltip(format.gold("Pushes:") + "" + format.yellow(" Living entities."), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <advancedliftingmethods:blowing_elevator>.addShiftTooltip(format.gold("Chute Compat.:") + format.green(" YES."));
 <advancedliftingmethods:blowing_elevator>.addShiftTooltip(format.gold("Fueled:") + format.red(" NO"));
@@ -560,7 +562,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <globalxp:xp_block:*>.addTooltip("Shift + Right click to deposit all XP.");
 <globalxp:xp_block:*>.addTooltip("Right click to retrieve a level.");
 <aether_legacy:enchanted_blueberry:*>.addTooltip("Hippogryph treat.");
-<minecraft:torch:*>.addTooltip("Visible light attracts mobs.");
+<minecraft:torch:*>.addTooltip("Visible light attracts monsters.");
 
 <iceandfire:sapphire_gem>.addTooltip("This sapphire seems too polished to use in many recipes.");
 

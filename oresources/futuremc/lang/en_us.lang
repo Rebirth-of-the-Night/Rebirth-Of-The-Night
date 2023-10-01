@@ -1,5 +1,5 @@
 # Functional Block
-tile.futuremc.lantern.name=Lantern
+tile.futuremc.lantern.name=Metal Oil Lamp
 tile.futuremc.barrel.name=Barrel
 tile.futuremc.loom.name=Loom
 tile.futuremc.stonecutter.name=Stonecutter
@@ -51,8 +51,8 @@ tile.futuremc.stone_slab.name=Coade Stone Slab
 tile.futuremc.prismarine_slab.name=Prismarine Slab
 tile.futuremc.dark_prismarine_slab.name=Dark Prismarine Slab
 tile.futuremc.prismarine_brick_slab.name=Prismarine Brick Slab
-tile.futuremc.smooth_red_sandstone_slab.name=Smooth Red Sandstone Slab
-tile.futuremc.smooth_sandstone_slab.name=Smooth Sandstone Slab
+tile.futuremc.smooth_red_sandstone_slab.name=Polished Red Sandstone Slab
+tile.futuremc.smooth_sandstone_slab.name=Polished Sandstone Slab
 tile.futuremc.mossy_stone_brick_slab.name=Mossy Coade Stone Brick Slab
 tile.futuremc.mossy_stone_slab.name=Mossy Coade Stone Slab
 tile.futuremc.smooth_quartz_slab.name=Smooth Quartz Slab
@@ -66,8 +66,8 @@ tile.futuremc.honeycomb_block.name=Block of Honeycombs
 
 # Decorative Block
 tile.futuremc.smooth_stone.name=Smooth Coade Stone
-tile.futuremc.smooth_sandstone.name=Smooth Sandstone
-tile.futuremc.smooth_red_sandstone.name=Smooth Red Sandstone
+tile.futuremc.smooth_sandstone.name=Polished Sandstone
+tile.futuremc.smooth_red_sandstone.name=Polished Red Sandstone
 tile.futuremc.smooth_quartz.name=Smooth Quartz
 tile.futuremc.soul_soil.name=Soul Soil
 tile.futuremc.fletching_table.name=Fletching Table

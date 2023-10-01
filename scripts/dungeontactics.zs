@@ -76,7 +76,7 @@ JEI.removeAndHide(<dungeontactics:osmium_cluster>);
 
 
 JEI.removeAndHide(<dungeontactics:guardian_alter>);
-JEI.removeAndHide(<dungeontactics:alchemical_cauldron>);
+JEI.removeAndHide(<dungeontactics:alchemical_cauldron>); 
 JEI.removeAndHide(<dungeontactics:trickortreat_bag>);
 JEI.removeAndHide(<dungeontactics:fire_starter>);
 JEI.removeAndHide(<dungeontactics:solstice_gift>);
@@ -122,6 +122,7 @@ JEI.removeAndHide(<dungeontactics:silver_helmet>);
 
 JEI.removeAndHide(<dungeontactics:silver_ingot>);
 JEI.removeAndHide(<dungeontactics:silver_nugget>);
+JEI.removeAndHide(<dungeontactics:silver_ore>);
 JEI.removeAndHide(<dungeontactics:silver_block>);
 
 JEI.removeAndHide(<dungeontactics:wither_web>);
@@ -176,6 +177,8 @@ recipes.addShaped("flight_googles",<dungeontactics:flight_goggles>,[
 
 // broken item
 // https://www.curseforge.com/minecraft/mc-mods/dungeon-tactics/issues/156
+/* LootTable.removeGlobalItem("dungeontactics:alchemist_brew"); #removed via malek's gauntlet
+JEI.removeAndHide(<dungeontactics:alchemist_brew>); */
 
 
 
@@ -228,7 +231,17 @@ JEI.removeAndHide(<dungeontactics:copper_cluster>);
 furnace.remove(<simpleores:copper_ore>, <dungeontactics:iron_cluster>);
 
 JEI.removeAndHide(<dungeontactics:bottled_milk>);
+JEI.removeAndHide(<dungeontactics:bread_slice>);
+JEI.removeAndHide(<dungeontactics:toast_slice>);
+JEI.removeAndHide(<dungeontactics:jam_on_toast>);
+JEI.removeAndHide(<dungeontactics:jam>);
+JEI.removeAndHide(<dungeontactics:ration_standard>);
+JEI.removeAndHide(<dungeontactics:ration_iron>);
+JEI.removeAndHide(<dungeontactics:ration_gold>);
+JEI.removeAndHide(<dungeontactics:ration_silver>);
+JEI.removeAndHide(<dungeontactics:spidereye_soup>);
 JEI.removeAndHide(<dungeontactics:mince_pie>);
+JEI.removeAndHide(<dungeontactics:stonequartz_ore>);
 JEI.removeAndHide(<dungeontactics:wooden_chair>);
 JEI.removeAndHide(<dungeontactics:wooden_table>);
 JEI.removeAndHide(<dungeontactics:radio>);
@@ -299,6 +312,7 @@ recipes.removeByRecipeName("dungeontactics:misc/mithril_nugget");
 recipes.removeByRecipeName("dungeontactics:misc/convenience/clayball_from_clay");
 recipes.removeByRecipeName("dungeontactics:misc/convenience/flint_from_gravel");
 JEI.removeAndHide(<dungeontactics:mithril_cluster>);
+JEI.removeAndHide(<dungeontactics:mithril_ore>);
 JEI.removeAndHide(<dungeontactics:mithril_ingot>);
 JEI.removeAndHide(<dungeontactics:mithril_nugget>);
 JEI.removeAndHide(<dungeontactics:mithril_hoe>);
@@ -498,6 +512,13 @@ recipes.addShaped("steel_sword", <dungeontactics:steel_cutlass>,[
     [<ore:ingotSteel>],
     [<spartanweaponry:material>]
 ]);
+
+JEI.removeAndHide(<dungeontactics:tunnelling_device>);
+JEI.removeAndHide(<dungeontactics:piston_glove>);
+JEI.removeAndHide(<dungeontactics:piston_glove_sticky>);
+LootTable.removeGlobalItem("dungeontactics:tunnelling_device");
+LootTable.removeGlobalItem("dungeontactics:piston_glove");
+LootTable.removeGlobalItem("dungeontactics:piston_glove_sticky");
 
 recipes.remove(<dungeontactics:powered_bars>);
 recipes.addShaped("Powered Bars", <dungeontactics:powered_bars>,[

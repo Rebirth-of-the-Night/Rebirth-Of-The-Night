@@ -1,1 +1,78 @@
++wok.gui=Frying Pan
+tile.exsartagine.wok.name=Wok
+
+smelter.gui=Smelter
+tile.exsartagine.smelter.name=Smelter
+
+tile.exsartagine.pot.name=Cooking Pot
+pot.gui=Cooking Pot
+
+range.gui=Stove
+tile.exsartagine.range.name=Stove
+
+tile.exsartagine.range_extended.name=Stove Extension
+tile.exsartagine.range_extended_lit.name=Lit Stove Extension
+
+hearth.gui=Hearth
+tile.exsartagine.hearth.name=Hearth
+
+tile.exsartagine.hearth_extended.name=Hearth Extension
+tile.exsartagine.hearth_extended_lit.name=Lit Hearth Extension
+
+kettle.gui=Kettle
+tile.exsartagine.kettle.name=Bake Kettle
+
+item.exsartagine.boiled_egg.name=Boiled Egg
+item.exsartagine.boiled_beans.name=Cooked "Beans"
+item.exsartagine.boiled_potato.name=Cooked Potato
+
+item.exsartagine.dough.name=Dough
+item.exsartagine.pizza_dough.name=Pizza Dough
+item.exsartagine.bread_dough.name=Bread Dough
+
+item.exsartagine.bread_meat_raw.name=Raw Meat Roll
+item.exsartagine.veggie_bread_raw.name=Raw Vegetable Bread
+
+item.exsartagine.bread_meat.name=Meat Roll
+item.exsartagine.veggie_bread.name=Vegetable Bread
+item.exsartagine.fine_bread.name=Fine Bread
+
+item.exsartagine.curd.name=Curd
+item.exsartagine.flour.name=Flour
 item.exsartagine.yeast.name=Baker's Yeast
+item.exsartagine.salt.name=Salt
+
+item.exsartagine.pizza_plain.name=Plain Pizza
+
+item.exsartagine.pizza_fish_raw.name=Uncooked Fish Pizza
+item.exsartagine.pizza_meat_raw.name=Uncooked Meat Pizza
+item.exsartagine.pizza_sweet_raw.name=Uncooked Sweet Pizza
+item.exsartagine.pizza_chicken_raw.name=Uncooked Chicken Pizza
+
+item.exsartagine.pizza_meat.name=Meat Pizza
+item.exsartagine.pizza_sweet.name=Sweet Pizza
+item.exsartagine.pizza_chicken.name=Chicken Pizza
+item.exsartagine.pizza_fish.name=Fish Pizza
+
+item.exsartagine.dry_noodles.name=Raw Udon
+
+item.exsartagine.noodles_chicken.name=Uncooked Chicken Udon
+item.exsartagine.noodles_meat.name=Uncooked Meat Udon
+item.exsartagine.noodles_fish.name=Uncooked Fish Udon
+item.exsartagine.noodles_veggie.name=Uncooked Veggie Udon
+
+item.exsartagine.noodles_chicken_cooked.name=Chicken Udon
+item.exsartagine.noodles_meat_cooked.name=Meat Udon
+item.exsartagine.noodles_fish_cooked.name=Fish Udon
+item.exsartagine.noodles_veggie_cooked.name=Veggie Udon
+
+item.exsartagine.spaghetti_raw.name=Raw Spaghetti
+
+item.exsartagine.spaghetti_cooked.name=Spaghetti
+item.exsartagine.spaghetti_sauced.name=Spaghetti With Sauce
+item.exsartagine.spaghetti_bolognaise.name=Bolognaise Spaghetti
+item.exsartagine.spaghetti_cheese.name=Bolognaise Spaghetti with cheese
+item.exsartagine.spaghetti_veggie.name=Veggie Spaghetti
+
+itemGroup.potsnpans=Pots 'n Pans
+itemGroup.exsartaginefoods=Ex Sartagine Foods

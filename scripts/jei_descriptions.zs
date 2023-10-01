@@ -165,6 +165,22 @@ JEI.addDescription(windmillBlade,"Can be crafted using any wooden slab, or cheap
 JEI.addDescription(millstone,"A necessary machine for every starting mechanist! Needs mechanical power from the top or bottom.");
 JEI.addDescription(<betterwithmods:saw>,["Requires continuous mechanical power to work. A windmill or waterwheel will suffice.","","The saw can also be used to obtain heads from creatures that die to it if the creature is standing on a stone chopping block."]);
 JEI.addDescription(<well:well>,"Wells drill deep into the earth in search of renewable water. Stressing these delicate components by destroying this block means it cannot be retrieved if broken - only some of the parts will be returned.");
+JEI.addDescription(<well:white_well>,"Wells drill deep into the earth in search of renewable water. Stressing these delicate components by destroying this block means it cannot be retrieved if broken - only some of the parts will be returned.");
+JEI.addDescription(<well:orange_well>,"Wells drill deep into the earth in search of renewable water. Stressing these delicate components by destroying this block means it cannot be retrieved if broken - only some of the parts will be returned.");
+JEI.addDescription(<well:magenta_well>,"Wells drill deep into the earth in search of renewable water. Stressing these delicate components by destroying this block means it cannot be retrieved if broken - only some of the parts will be returned.");
+JEI.addDescription(<well:light_blue_well>,"Wells drill deep into the earth in search of renewable water. Stressing these delicate components by destroying this block means it cannot be retrieved if broken - only some of the parts will be returned.");
+JEI.addDescription(<well:yellow_well>,"Wells drill deep into the earth in search of renewable water. Stressing these delicate components by destroying this block means it cannot be retrieved if broken - only some of the parts will be returned.");
+JEI.addDescription(<well:lime_well>,"Wells drill deep into the earth in search of renewable water. Stressing these delicate components by destroying this block means it cannot be retrieved if broken - only some of the parts will be returned.");
+JEI.addDescription(<well:pink_well>,"Wells drill deep into the earth in search of renewable water. Stressing these delicate components by destroying this block means it cannot be retrieved if broken - only some of the parts will be returned.");
+JEI.addDescription(<well:gray_well>,"Wells drill deep into the earth in search of renewable water. Stressing these delicate components by destroying this block means it cannot be retrieved if broken - only some of the parts will be returned.");
+JEI.addDescription(<well:silver_well>,"Wells drill deep into the earth in search of renewable water. Stressing these delicate components by destroying this block means it cannot be retrieved if broken - only some of the parts will be returned.");
+JEI.addDescription(<well:cyan_well>,"Wells drill deep into the earth in search of renewable water. Stressing these delicate components by destroying this block means it cannot be retrieved if broken - only some of the parts will be returned.");
+JEI.addDescription(<well:purple_well>,"Wells drill deep into the earth in search of renewable water. Stressing these delicate components by destroying this block means it cannot be retrieved if broken - only some of the parts will be returned.");
+JEI.addDescription(<well:blue_well>,"Wells drill deep into the earth in search of renewable water. Stressing these delicate components by destroying this block means it cannot be retrieved if broken - only some of the parts will be returned.");
+JEI.addDescription(<well:brown_well>,"Wells drill deep into the earth in search of renewable water. Stressing these delicate components by destroying this block means it cannot be retrieved if broken - only some of the parts will be returned.");
+JEI.addDescription(<well:green_well>,"Wells drill deep into the earth in search of renewable water. Stressing these delicate components by destroying this block means it cannot be retrieved if broken - only some of the parts will be returned.");
+JEI.addDescription(<well:red_well>,"Wells drill deep into the earth in search of renewable water. Stressing these delicate components by destroying this block means it cannot be retrieved if broken - only some of the parts will be returned.");
+JEI.addDescription(<well:black_well>,"Wells drill deep into the earth in search of renewable water. Stressing these delicate components by destroying this block means it cannot be retrieved if broken - only some of the parts will be returned.");
 JEI.addDescription(<harvestcraft:well>,"Well well well. How do you have this?");
 JEI.addDescription(<betterwithmods:wooden_gearbox>, ["One input and multiple outputs; insert a powered axle on the side marked with arrows to redirect rotatory energy to the other sides.","","Remember, wooden axles can only transfer energy up to three blocks of distance (unless they act as a frame for a vertical windmill).","Can be turned off by giving it a redstone signal; attaching a chime will output a redstone signal if it is raining."]);
 JEI.addDescription(<betterwithmods:material>,"Broken gears result from overstressed or damaged machinery. Luckily, they can be repaired fairly easily.");
@@ -215,11 +231,14 @@ JEI.addDescription([<contenttweaker:brick_pyrotech_refractory>, refractoryBrick]
 JEI.addDescription(<pyrotech:refractory_door>, "A refractory burning structure works by burning without actually starting a fire, thus, it is of tremendous importance than no air gap is present between the walls of the structure and the material being burned; that includes the door...");
 JEI.addDescription(<pyrotech:living_tar>, 'Burning slowly, this tarry meat substance is in the words of its inventor, "A strong candidate for the most loathsome of fuels."');
 JEI.addDescription(<pyrotech:tinder>, "Placing it on the ground and directly adding some logs, then lighting it up, will create a functional campfire for primitive cooking and outdoors camping.");
-JEI.addDescription(<exsartagine:range>, "The most efficient way to power up a kitchen. Adding fuel to it will power a Pot, Pan or Kettle above it; additionally, up to three furnaces to the right of this block will turn into part of the range and power appliances above them for the same fuel cost.");
+JEI.addDescription(<exsartagine:range>, "The most efficient way to power up a kitchen. Adding fuel to it will power a Cooking Pot, Wok or Bake Kettle above it; additionally, it can fuel up to three Stove Extensions to its sides, powering appliances above them for the same fuel cost.");
+JEI.addDescription(<exsartagine:range_extended>, "An extension for the Stove. Place up to three of these on either side of a Stove block to capitalize on the Stove's efficiency and heating capabilities!");
+JEI.addDescription(<exsartagine:hearth>, "A rudimentary but effective way to set up a kitchen. Can power itself and one Hearth Extension to its side, fueling Cooking Pots, Wok or Bake Kettles above them.");
+JEI.addDescription(<exsartagine:hearth_extended>, "An extension for the Hearth. Place one to the side of the Hearth for an extra space to heat up your cooking appliances for no extra fuel cost! Look to the Stove for an upgrade, which supports three extensions at a time.");
 JEI.addDescription(<exsartagine:wok>, "Excellent for frying singular ingredients.");
 JEI.addDescription(<exsartagine:pot>, "Excellent for boiling singular ingredients.");
 JEI.addDescription(<exsartagine:kettle>, "Excellent for all types of cooking. The most versatile cooking appliance you will ever need!");
-JEI.addDescription(<minecraft:furnace>, "A versatile machine for smelting ores and certain other substances; not as specialized as a kiln or powerful as a crucible. It's not quite an oven either, but the heat it emanates can be taken advantage of by Pans, Pots and Kettles placed above it.");
+JEI.addDescription(<minecraft:furnace>, "A versatile machine for smelting ores and certain other substances; not as specialized as a kiln or powerful as a crucible. It's not quite an oven either, but the heat it emanates can be taken advantage of by Woks, Cooking Pots and Bake Kettles placed above it.");
 
 
 /* Plants */
@@ -469,6 +488,8 @@ JEI.addDescription(<contenttweaker:volatile_core>,"The turbulent essence of an e
 JEI.addDescription(<contenttweaker:ardicite>,"A naturally occurring form of pure hellfire that can host Onyx formations. It is a fiery material that can be found in the Nether in pockets of flammable sulfur.");
 JEI.addDescription(<contenttweaker:ofuda>,"An old sheet of paper with indecipherable writing on it. Often found hanging in places believed to have been highly dangerous or cursed, these were likely used as some sort of charm to ward off danger or ailment. Whoever made these are probably no longer around; these ofuda were probably a last ditch attempt at saving themselves from disaster... or a warning for whoever may stumble upon them in the future. It faintly glows by unknown methods.");
 JEI.addDescription(<betterwithaddons:ancestry_bottle>,"Spirits extracted from souls; little remains of the original entity. Keep a bottle in your inventory when killing paranormal undead to snatch the spirit before it returns to the spiritual realm.");
+JEI.addDescription(<iceandfire:fire_lily>,"An uncommon sight in the overworld, dragon lilies can be found at extremities corresponding to their name; ice lilies in freezing cold places, and fire lilies in scorching hot regions. These flowers were once a favored treat of the fearsome and mystical dragon; however, the beasts have not been seen in the overworld for eons...");
+JEI.addDescription(<iceandfire:frost_lily>,"An uncommon sight in the overworld, dragon lilies can be found at extremities corresponding to their name; ice lilies in freezing cold places, and fire lilies in scorching hot regions. These flowers were once a favored treat of the fearsome and mystical dragon; however, the beasts have not been seen in the overworld for eons...");
 
 /* Miscellaneous (and I mean TRUE miscellaneous) */
 val arcaneBarrier = <dimstack:bedrock:0>;
@@ -545,3 +566,5 @@ JEI.addDescription(<growthcraft_cellar:yeast:4>, "A yeast which appears to be qu
 
 /* Misc */
 JEI.addItem(<biomesoplenty:farmland_0:1>);
+JEI.addItem(<biomesoplenty:grass_path:1>);
+JEI.addItem(<biomesoplenty:grass_path:2>);

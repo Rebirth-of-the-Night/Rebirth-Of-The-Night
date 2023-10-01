@@ -23,12 +23,35 @@ val charcoalBlock = <pyrotech:charcoal_block>;
 val ironBlock = <ore:blockIron>;
 val ejectionPipe = <dungpipe:sewer_pipe>;
 val masonryBrick = <contenttweaker:masonry_brick>;
+val ash = <biomesoplenty:ash>;
+val flakes = <pyrotech:material:15>;
+val bigAsh = <pyrotech:material>;
+val coalDust = <betterwithmods:material:18>;
+val charcoalDust = <betterwithmods:material:37>;
+val woodChips = <pyrotech:rock:7>;
+val clayPlate = <ceramics:unfired_clay:9>;
+val rock = <ore:rock>;
+
+// dungpipe recipe change
+// wooden ejection pipe
+recipes.remove(<dungpipe:dung_pipe>);
+recipes.addShaped("dungpipe_wood", <dungpipe:dung_pipe>, [
+    [null, <ore:buttonWood>, null],
+    [<ore:buttonWood>, null, <ore:buttonWood>],
+    [null, <ore:buttonWood>, null]
+]);
+
+// extended ejection pipe
+recipes.remove(ejectionPipe);
+recipes.addShaped("dungpipe_metal", ejectionPipe, [
+    [<dungpipe:dung_pipe>, genericMetalNugget, genericMetalNugget]
+]);
 
 recipes.remove(<exsartagine:kettle>); // no built-in recipe yet
 recipes.addShaped("exsar_kettle", <exsartagine:kettle>, [
     [null, genericMetal, null],
-    [genericMetal, genericBars, genericMetal],
-    [genericMetalNugget, null, genericMetalNugget]
+    [genericMetal, null, genericMetal],
+    [genericMetalNugget, genericBars, genericMetalNugget]
 ]);
 
 recipes.remove(<exsartagine:wok>);
@@ -37,18 +60,40 @@ recipes.addShaped("exsar_wok", <exsartagine:wok>, [
     [genericMetal | brick, genericMetal | brick, genericMetal | brick]
 ]);
 
+// unfired pot now exists; refer to pottery.zs for recipe
 recipes.remove(<exsartagine:pot>);
-recipes.addShaped("exsar_pot", <exsartagine:pot>, [
+/* recipes.addShaped("exsar_pot", <exsartagine:pot>, [
     [genericMetal, null, genericMetal],
     [cobble, bucket, cobble],
     [cobble, cobble, cobble]
-]);
+]); */ 
 
 recipes.remove(<exsartagine:range>);
 recipes.addShaped("exsar_range", <exsartagine:range>, [
-    [ejectionPipe, genericMetal | brick, genericMetal | brick],
-    [masonryBrick, <minecraft:furnace>, <ore:bars>],
+    [masonryBrick, genericMetal, genericMetal],
+    [ejectionPipe, ash | flakes | bigAsh | coalDust | charcoalDust | woodChips, <ore:bars>],
     [masonryBrick, masonryBrick, masonryBrick]
+]);
+
+recipes.remove(<exsartagine:range_extended>);
+recipes.addShaped("exsar_range_extension", <exsartagine:range_extended>, [
+    [masonryBrick, genericMetal, genericMetal],
+    [masonryBrick, null, masonryBrick],
+    [masonryBrick, masonryBrick, masonryBrick]
+]);
+
+recipes.remove(<exsartagine:hearth>);
+recipes.addShaped("exsar_hearth", <exsartagine:hearth>, [
+    [clayPlate, clayPlate, clayPlate],
+    [rock, ash | flakes | bigAsh | coalDust | charcoalDust | woodChips, rock],
+    [rock, <earthworks:itemslab_dry_stone>, rock]
+]);
+
+recipes.remove(<exsartagine:hearth_extended>);
+recipes.addShaped("exsar_hearth_extension", <exsartagine:hearth_extended>, [
+    [null, clayPlate, null],
+    [null, <ore:terracotta>, null],
+    [rock, <earthworks:itemslab_dry_stone>, rock]
 ]);
 
 val basicWorktable = <artisanworktables:worktable:5> | <minecraft:crafting_table>;

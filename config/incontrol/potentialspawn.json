@@ -131,7 +131,7 @@
         "mob": "primitivemobs:goblin",
         "weight": 3,
         "groupcountmin": 1,
-        "groupcountmax": 32
+        "groupcountmax": 2
       }
     ]
   },

@@ -66,4 +66,10 @@ recipes.addShaped("cincinnasite_fire_bowl",<betternether:cincinnasite_fire_bowl>
     [null,<betternether:cincinnasite_forged>,null]
 ]);
 
+recipes.addShapedMirrored("hyphae_to_nether_mycelium", <betternether:nether_mycelium>,[
+    [null, null, null],
+    [<mod_lavacow:hyphae>, <mod_lavacow:hyphae>, <mod_lavacow:hyphae>],
+    [null, <minecraft:netherrack>, null]
+]);
+
 brewing.addBrew(<minecraft:glass_bottle>, <betternether:nether_reed>, <harvestcraft:maplesyrupitem>);

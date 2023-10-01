@@ -26,7 +26,7 @@ recipes.addShapeless("marbled_cheese_grass",<rats:marbled_cheese_grass>,[<rats:m
 
 ///////////////completely hidden upgrades. we can add some of these later
 //will never add these ones due to mod incompatibility or just not in spirit of the pack
-/*JEI.removeAndHide(<rats:rat_upgrade_ore_doubling>);
+JEI.removeAndHide(<rats:rat_upgrade_ore_doubling>);
 JEI.removeAndHide(<rats:rat_upgrade_basic_energy>);
 JEI.removeAndHide(<rats:rat_upgrade_advanced_energy>);
 JEI.removeAndHide(<rats:rat_upgrade_elite_energy>);
@@ -35,7 +35,7 @@ JEI.removeAndHide(<rats:rat_upgrade_milker>);
 JEI.removeAndHide(<rats:rat_upgrade_breeder>);
 JEI.removeAndHide(<rats:rat_upgrade_lumberjack>);
 JEI.removeAndHide(<rats:rat_upgrade_disenchanter>);
-JEI.removeAndHide(<rats:rat_upgrade_enchanter>);*/
+JEI.removeAndHide(<rats:rat_upgrade_enchanter>);
 
 // maybe add these later with magic mods and/or Twilight Forest progression
 JEI.removeAndHide(<rats:rat_upgrade_basic_ratlantean>);
@@ -53,6 +53,7 @@ JEI.removeAndHide(<rats:rat_upgrade_aristocrat>);
 JEI.removeAndHide(<rats:rat_upgrade_bucket>);
 JEI.removeAndHide(<rats:rat_upgrade_big_bucket>);
 JEI.removeAndHide(<rats:rat_upgrade_miner>);
+JEI.removeAndHide(<rats:rat_upgrade_voodoo>);
 
 //more removed items
 JEI.hide(<rats:rat_cage_decorated>);
@@ -81,6 +82,7 @@ JEI.removeAndHide(<rats:psionic_rat_brain>);
 JEI.removeAndHide(<rats:pirat_hat>);
 JEI.removeAndHide(<rats:pirat_cutlass>);
 JEI.removeAndHide(<rats:rat_nugget>);
+JEI.removeAndHide(<rats:rat_nugget_ore>);
 /*JEI.removeAndHide(<rats:ratlantean_flame>);*/
 JEI.removeAndHide(<rats:cheese_cannonball>);
 JEI.removeAndHide(<rats:feral_rat_claw>);
@@ -100,9 +102,12 @@ recipes.remove(<rats:feathery_wing>);
 recipes.remove(<rats:cheese>);
 recipes.remove(<rats:rat_burger>);
 recipes.remove(<rats:potato_pancake>);
+recipes.remove(<rats:rat_upgrade_disenchanter>);
 recipes.remove(<rats:rat_upgrade_armor>);
+recipes.remove(<rats:rat_upgrade_enchanter>);
 recipes.remove(<rats:rat_upgrade_replanter>);
 recipes.remove(<rats:rat_upgrade_jury_rigged>);
+recipes.remove(<rats:rat_upgrade_voodoo>);
 recipes.removeByRecipeName("rats:rat_upgrade_basic");
 recipes.remove(<rats:rat_upgrade_gemcutter>);
 recipes.remove(<rats:rat_upgrade_warrior>);
