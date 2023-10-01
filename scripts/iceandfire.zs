@@ -20,6 +20,7 @@ JEI.removeAndHide(<iceandfire:dragonforge_fire_core>);
 JEI.removeAndHide(<iceandfire:dread_stone_slab_double>);
 JEI.removeAndHide(<iceandfire:dragon_debug_stick>);
 JEI.removeAndHide(<iceandfire:stone_statue>);
+JEI.removeAndHide(<iceandfire:stymphalian_bird_dagger>);
 
 JEI.removeAndHide(<iceandfire:dragon_horn_ice>);
 JEI.removeAndHide(<iceandfire:dragon_horn_fire>);
