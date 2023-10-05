@@ -14,10 +14,13 @@ Kiln.registerBlock(<contenttweaker:brick_ceramics_porcelain>);
 Kiln.removeAll();
 
 var kilnFood as IItemStack[][IIngredient] = {
-	<minecraft:fence> : [<minecraft:stick>,<minecraft:stick>],		//Fence Destroyer
 	<contenttweaker:salty_crust> : [<animania:salt>],		//Salt
 	<quark:biome_cobblestone> : [<betterwithmods:material:25>],			// Brimstone
-	<contenttweaker:plain_pizza_block> : [<harvestcraft:pizzaitem>],		 //Plain Pizza
+	<contenttweaker:plain_pizza_block> : [<contenttweaker:plain_pizza>],		 //Plain Pizza
+	<contenttweaker:meat_pizza_block>	:	[<exsartagine:pizza_meat>],
+	<contenttweaker:chicken_pizza_block>:	[<exsartagine:pizza_chicken>],
+	<contenttweaker:fish_pizza_block>	:	[<exsartagine:pizza_fish>],
+	<contenttweaker:sweet_pizza_block>	:	[<exsartagine:pizza_sweet>],
 	<contenttweaker:abyss_pizza_block> : [<contenttweaker:abyss_pizza>],		//Abyss Pizza
 	<iceandfire:ash> : [<aether_legacy:dungeon_block:4>]		// Cosmetic
 };
