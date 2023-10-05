@@ -2,10 +2,10 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/concrete_gray_brick",
+      "all": "contenttweaker:blocks/concrete_gray_brick",
       "particle": "contenttweaker:blocks/concrete_gray_brick"
     },
-    "model": "base:storage",
+    "model": "contenttweaker:base_block",
     "uvlock": true,
     "transform": "forge:default-block"
   },
