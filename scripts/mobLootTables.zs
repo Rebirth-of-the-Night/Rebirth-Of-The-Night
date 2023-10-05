@@ -392,6 +392,12 @@ lscuttlerMain.addItemEntry(<contenttweaker:spider_silk>, 100, 0, [Functions.setC
 lscuttlerMain.addItemEntry(<contenttweaker:spider_silk>, 50, 0, [Functions.setCount(0, 5)], []);
 lscuttlerMain.addItemEntry(<contenttweaker:spider_silk>, 1, 1000, [Functions.setCount(2, 10)], []);
 
+// Fish's undead rising formerly lavacow
+val scarecrow = LootTweaker.getTable("mod_lavacow:scarecrow");
+val night_shard = scarecrow.addPool("night_shard", 0, 1, 2, 9);
+night_shard.addItemEntry(<contenttweaker:shard_of_night>, 1, 1, [Functions.setCount(0, 1), Functions.lootingEnchantBonus(0, 1, 64)], []);
+
+
 // new loot tables must be assigned to entities via spawn.json, within Incontrol's config folder 
 
 // Badger Loot
