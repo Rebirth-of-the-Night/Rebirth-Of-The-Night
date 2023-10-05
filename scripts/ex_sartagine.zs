@@ -142,7 +142,7 @@ recipes.remove(<harvestcraft:potatosoupitem>);
 recipes.remove(<solcarrot:food_book>);
 recipes.addShapeless("food_book",<solcarrot:food_book>,[<minecraft:book>,<ore:listAllveggie>]);
 
-//ExSartagine.removeWokRecipe(<minecraft:leather>);
+ExSartagine.removeWokRecipe("test:recipe");
 
 JEI.removeAndHide(<exsartagine:fine_bread>);
 JEI.removeAndHide(<exsartagine:flour>);
