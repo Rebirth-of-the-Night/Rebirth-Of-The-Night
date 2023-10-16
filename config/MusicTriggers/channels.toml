@@ -1,0 +1,8 @@
+# This mod does not create custom sound categories on it's own, but categories registered from other mods will still work.
+# These are the normal categories: master, music, record, weather, block, hostile, neutral, player, ambient, voice
+# Note that you can nest config files in folders by specifying the folder before it like folder/filename.
+
+[example]
+	pause_overrides = false
+	explicit_overrides = false
+
