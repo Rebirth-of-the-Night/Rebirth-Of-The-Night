@@ -1,5 +1,5 @@
 # Show the debug info
-SHOW_DEBUG = true
+SHOW_DEBUG = false
 
 # If SHOW_DEBUG is set to true, but you only want to see the song name
 CURRENT_SONG_ONLY = false
