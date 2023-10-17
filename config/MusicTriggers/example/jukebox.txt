@@ -1,0 +1,6 @@
+Format this like name = key
+The key refers to a lang key in the format of record.musictriggers.key which 
+determines the description of the registered disc
+Any lines with Format in the name or = not present will not be read in
+Make sure each new entry is on a new line
+
