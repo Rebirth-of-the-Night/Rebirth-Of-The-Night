@@ -366,6 +366,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <pyrotech:bucket_stone>.removeTooltip("Uses:");
 <pyrotech:bucket_stone>.removeTooltip("Can hold hot fluids.");
 <pyrotech:coal_coke_block>.addShiftTooltip("Valid fuel for Burner Heater");
+<contenttweaker:peat:*>.addTooltip("Can be used as fuel or to create Mossy Peat");
 <contenttweaker:mossy_peat:*>.addTooltip("Place besides coalbed methane to create Mossthane");
 <contenttweaker:charmpeat:*>.addTooltip("Valid fuel for Burner Heater");
 <pyrotech:coal_coke_block>.removeTooltip("Efficiency:");
