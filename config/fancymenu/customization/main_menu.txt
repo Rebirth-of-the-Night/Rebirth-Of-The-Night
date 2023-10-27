@@ -1556,3 +1556,7 @@ customization {
   height = 52
 }
 
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
