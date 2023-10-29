@@ -23,7 +23,6 @@ JEI.removeAndHide(<cyclicmagic:bundled_pipe>);
 JEI.removeAndHide(<cyclicmagic:block_library>);
 JEI.removeAndHide(<cyclicmagic:block_library_ctrl>);
 JEI.removeAndHide(<cyclicmagic:magic_net>);
-JEI.removeAndHide(<cyclicmagic:melter>);
 JEI.removeAndHide(<cyclicmagic:laser>);
 JEI.removeAndHide(<cyclicmagic:imbuer>);
 JEI.removeAndHide(<cyclicmagic:plate_push_slow>);
