@@ -2248,6 +2248,16 @@ n_copper_sandstone_red.setBeaconBase(true);
 n_copper_sandstone_red.setToolLevel(0);
 n_copper_sandstone_red.register();
 
+// cobbled pavement
+var cobbled_pavement = VanillaFactory.createBlock("cobbled_pavement", <blockmaterial:Rock>);
+cobbled_pavement.setCreativeTab(<creativetab:rotn_blocks>);
+cobbled_pavement.setBlockSoundType(<soundtype:stone>);
+cobbled_pavement.setBlockHardness(10.0);
+cobbled_pavement.setBlockResistance(15.0);
+cobbled_pavement.setBeaconBase(true);
+cobbled_pavement.setToolLevel(1);
+cobbled_pavement.register();
+
 // cobblestone paths
 // Quartzite
 var cobblestone_path_quartzite = VanillaFactory.createBlock("cobblestone_path_quartzite", <blockmaterial:Rock>);
