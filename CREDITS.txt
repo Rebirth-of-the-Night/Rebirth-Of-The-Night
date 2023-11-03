@@ -149,7 +149,6 @@ Animated Brain - Ozymandias#6988 (Texture) & Japes#8538 (Animation)
 Inventory Food - SoulRacer65#3745
 Bonfire - lilypuree (Decorative Blocks)
 Soul Bonfire - lilypuree (Decorative Blocks)
-Cyclops - sbom_xela (Original textures)
 
 
 §r~ ~ ~ §nScreenshots§r ~ ~ ~
