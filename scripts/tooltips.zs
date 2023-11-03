@@ -694,6 +694,9 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <nyx:meteor_bow:*>.addTooltip(format.darkAqua("Arrow Speed: ") + format.gray("x1.3"));
 <nyx:meteor_bow:*>.addTooltip(format.darkAqua("Damage Multiplier: ") + format.gray("x1.5"));
 
+// Liquids
+<liquid:concentrated_bioflow>.addTooltip("You can tell that in this form it is highly toxical.");
+
 // BUGS
 #<aether_legacy:enchanted_blueberry:*>.addTooltip(format.red("DO NOT FEED TO HYPPOGRYPHS; CURRENTLY BUGGED AND UNTAMABLE."));
 <iceandfire:dragon_horn:*>.addTooltip(format.red("DO NOT USE ON YOUR DRAGONS, IT WILL DELETE THEM!"));
