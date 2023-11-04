@@ -446,7 +446,7 @@ recipes.addShaped("magic_boards", <contenttweaker:magic_boards>*8,[
 ]);
 recipes.addShaped("magic_lacquered", <contenttweaker:magic_lacquered>*8,[
 	[<contenttweaker:magic_boards>, <contenttweaker:magic_boards>, <contenttweaker:magic_boards>],
-    [<contenttweaker:magic_boards>, <minetraps:nails>, <contenttweaker:magic_boards>],
+    [<contenttweaker:magic_boards>, <pyrotech:material:4>, <contenttweaker:magic_boards>],
     [<contenttweaker:magic_boards>, <contenttweaker:magic_boards>, <contenttweaker:magic_boards>]
 ]);
 
