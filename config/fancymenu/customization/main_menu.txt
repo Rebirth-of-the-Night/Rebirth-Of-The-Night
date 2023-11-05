@@ -50,7 +50,17 @@ customization {
 }
 
 customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = hidebutton
+}
+
+customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   action = hidebutton
 }
 
@@ -88,16 +98,6 @@ customization {
   action = setbuttontexture
   backgroundhovered = resources/fancymainmenu/menu_buttons/button_play_h.png
   backgroundnormal = resources/fancymainmenu/menu_buttons/button_play_n.png
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
-  action = hidebutton
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
-  action = hidebutton
 }
 
 customization {
@@ -1554,5 +1554,10 @@ customization {
   y = 0
   backgroundnormal = resources/fancymainmenu/menu_buttons/ticker_bar_blank.png
   height = 52
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
 }
 

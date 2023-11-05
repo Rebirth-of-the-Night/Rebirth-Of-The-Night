@@ -12,9 +12,6 @@ net.minecraftforge.fml.client.GuiModList {
 net.minecraft.client.gui.GuiOptions {
 }
 
-net.minecraft.client.gui.GuiMainMenu {
-}
-
 net.minecraft.client.gui.GuiCreateWorld {
 }
 
@@ -67,5 +64,8 @@ guichaguri.betterfps.gui.GuiBetterFpsConfig {
 }
 
 net.minecraft.client.gui.inventory.GuiInventory {
+}
+
+net.minecraft.client.gui.GuiMainMenu {
 }
 
