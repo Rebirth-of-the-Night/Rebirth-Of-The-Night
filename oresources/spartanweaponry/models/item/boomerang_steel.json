@@ -1,0 +1,14 @@
+{
+    "parent":"spartanweaponry:item/boomerang_base",
+    "textures": {
+        "layer0":"spartanweaponry:items/boomerang_steel"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "empty": 1
+            },
+            "model": "spartanweaponry:item/boomerang_steel_empty"
+        }
+    ]
+}
