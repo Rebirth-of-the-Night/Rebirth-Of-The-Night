@@ -2,11 +2,10 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "plank": "biomesoplenty:blocks/hellbark_planks",
-	  "particle": "biomesoplenty:blocks/hellbark_planks",
-	  "lacquer": "contenttweaker:blocks/lacquer"
+      "all": "contenttweaker:blocks/lacquered/hellbark_lacquered",
+      "particle": "contenttweaker:blocks/lacquered/hellbark_lacquered"
     },
-    "model": "contenttweaker:lacquered_wood",
+    "model": "contenttweaker:base_block",
     "uvlock": true,
     "transform": "forge:default-block"
   },

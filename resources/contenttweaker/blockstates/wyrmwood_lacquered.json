@@ -2,11 +2,10 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "plank": "stygian:block/endplanks",
-	  "particle": "stygian:block/endplanks",
-	  "lacquer": "contenttweaker:blocks/lacquer"
+      "all": "contenttweaker:blocks/lacquered/wyrmwood_lacquered",
+      "particle": "contenttweaker:blocks/lacquered/wyrmwood_lacquered"
     },
-    "model": "contenttweaker:lacquered_wood",
+    "model": "contenttweaker:base_block",
     "uvlock": true,
     "transform": "forge:default-block"
   },

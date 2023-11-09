@@ -2,11 +2,10 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "plank": "iceandfire:blocks/dreadwood_planks",
-	  "particle": "iceandfire:blocks/dreadwood_planks",
-	  "lacquer": "contenttweaker:blocks/lacquer"
+      "all": "contenttweaker:blocks/lacquered/dreadwood_lacquered",
+      "particle": "contenttweaker:blocks/lacquered/dreadwood_lacquered"
     },
-    "model": "contenttweaker:lacquered_wood",
+    "model": "contenttweaker:base_block",
     "uvlock": true,
     "transform": "forge:default-block"
   },
