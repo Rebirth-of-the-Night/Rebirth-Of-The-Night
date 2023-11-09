@@ -36,11 +36,18 @@ effect.healthBoost.4.desc=+4 Maximum Health per level.
 effect.absorption.4.desc=+4 temporary Extra Health per level.
 effect.saturation.4.desc=Regenerates (lvl) point(s) in Hunger Bar and (2*lvl) in Health Bar per tick.
 effect.glowing.0.desc=Highlights the entities. The glowing outlines could be seen through blockings.
-effect.luck.4.desc=+1 Luck per level.
-effect.unluck.4.desc=-1 Luck per level.
+effect.luck.4.desc=+1 Luck per level. Affects fishing and certain chest and mob loot.
+effect.unluck.4.desc=-1 Luck per level. Affects fishing and certain chest and mob loot.
 effect.levitation.4.desc=Floats up (0.9*lvl) blocks per second unconditionally.
 
 bountifulbaubles.effect.sinful.0.desc=Grants Strength and extra Armor Points.
 potion.sunsBlessing.0.desc=With an empty main hand, right click the ground to summon unlimited Sun Blasts from the unobstructed sky. Crouch and right-click with an empty hand to fire a Solar Beam at the cost of -2 minutes of effect time.
 potion.geomancy.0.desc=With an empty main hand, right click the ground to summon earthen projectiles which can be punched to launch. Hold right click to summon larger projectiles. Projectiles can be ridden if large enough.
 effects.totemexpansion.spelunking.0.desc=Marks nearby ores through solid blocks.
+
+effect.feathers.4.desc=+4 temporary Extra Feathers per level.
+effect.replenishment.4.desc=Increases feather regeneration speed.
+effect.endurance.0.desc=Each level unlocks 2 steel feathers.
+effect.forceful.0.desc=Increases dodge distance.
+effect.weight.4.desc=Turns all feathers to steel and will remove Endurance effect.
+effect.feeble.4.desc=Decreases dodge distance.
