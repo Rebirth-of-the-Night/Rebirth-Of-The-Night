@@ -2,11 +2,10 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "plank": "minecraft:blocks/planks_spruce",
-	  "particle": "minecraft:blocks/planks_spruce",
-	  "lacquer": "contenttweaker:blocks/lacquer"
+      "all": "contenttweaker:blocks/lacquered/spruce_lacquered",
+      "particle": "contenttweaker:blocks/lacquered/spruce_lacquered"
     },
-    "model": "contenttweaker:lacquered_wood",
+    "model": "contenttweaker:base_block",
     "uvlock": true,
     "transform": "forge:default-block"
   },

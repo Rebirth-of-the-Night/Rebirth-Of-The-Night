@@ -2,11 +2,10 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "plank": "biomesoplenty:blocks/sacred_oak_planks",
-	  "particle": "biomesoplenty:blocks/sacred_oak_planks",
-	  "lacquer": "contenttweaker:blocks/lacquer"
+      "all": "contenttweaker:blocks/lacquered/sacred_oak_lacquered",
+      "particle": "contenttweaker:blocks/lacquered/sacred_oak_lacquered"
     },
-    "model": "contenttweaker:lacquered_wood",
+    "model": "contenttweaker:base_block",
     "uvlock": true,
     "transform": "forge:default-block"
   },

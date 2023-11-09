@@ -2,11 +2,10 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "plank": "aether_legacy:blocks/skyroot_plank",
-	  "particle": "aether_legacy:blocks/skyroot_plank",
-	  "lacquer": "contenttweaker:blocks/lacquer"
+      "all": "contenttweaker:blocks/lacquered/skywood_lacquered",
+      "particle": "contenttweaker:blocks/lacquered/skywood_lacquered"
     },
-    "model": "contenttweaker:lacquered_wood",
+    "model": "contenttweaker:base_block",
     "uvlock": true,
     "transform": "forge:default-block"
   },

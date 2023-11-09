@@ -2,11 +2,10 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "plank": "minecraft:blocks/planks_big_oak",
-	  "particle": "minecraft:blocks/planks_big_oak",
-	  "lacquer": "contenttweaker:blocks/lacquer"
+      "all": "contenttweaker:blocks/lacquered/dark_oak_lacquered",
+      "particle": "contenttweaker:blocks/lacquered/dark_oak_lacquered"
     },
-    "model": "contenttweaker:lacquered_wood",
+    "model": "contenttweaker:base_block",
     "uvlock": true,
     "transform": "forge:default-block"
   },
