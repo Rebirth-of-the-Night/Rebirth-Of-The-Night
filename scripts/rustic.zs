@@ -208,8 +208,8 @@ val ironskinElixirLong = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "rust
 val ironskinElixirStrong = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "rustic:ironskin", Duration: 1800, Amplifier: 1}]});
 val magneticElixir = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "extraalchemy:effect.magnetism", Duration: 3600, Amplifier: 0}]});
 val magneticElixirLong = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "extraalchemy:effect.magnetism", Duration: 9600, Amplifier: 0}]});
-val magneticElixirStrong = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "extraalchemy:effect.magnetism", Duration: 3600, Amplifier: 1}]});z
-val featherElixir = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "elenaidodge2:feathers", Duration: 1200, Amplifier: 4]});
+val magneticElixirStrong = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "extraalchemy:effect.magnetism", Duration: 3600, Amplifier: 1}]});
+val featherElixir = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "elenaidodge2:feathers", Duration: 1200, Amplifier: 4}]});
 
 Condenser.removeRecipe(regenerationElixir);
 Condenser.removeRecipe(regenerationElixirLong);
