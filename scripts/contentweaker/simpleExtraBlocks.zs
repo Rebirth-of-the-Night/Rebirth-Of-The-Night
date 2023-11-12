@@ -2464,6 +2464,22 @@ coade_stone_polished.setBlockResistance(5.0);
 coade_stone_polished.setToolLevel(1);
 coade_stone_polished.register();
 
+// Extra concrete
+var concrete_gray_chiseled = VanillaFactory.createBlock("concrete_gray_chiseled", <blockmaterial:Rock>);
+concrete_gray_chiseled.setCreativeTab(<creativetab:rotn_blocks>);
+concrete_gray_chiseled.setBlockSoundType(<soundtype:stone>);
+concrete_gray_chiseled.setBlockHardness(28.0);
+concrete_gray_chiseled.setBlockResistance(5.0);
+concrete_gray_chiseled.setToolLevel(1);
+concrete_gray_chiseled.register();
+
+var concrete_gray_brick = VanillaFactory.createBlock("concrete_gray_brick", <blockmaterial:Rock>);
+concrete_gray_brick.setCreativeTab(<creativetab:rotn_blocks>);
+concrete_gray_brick.setBlockSoundType(<soundtype:stone>);
+concrete_gray_brick.setBlockHardness(40.0);
+concrete_gray_brick.setBlockResistance(5.0);
+concrete_gray_brick.setToolLevel(1);
+concrete_gray_brick.register();
 
 //Liquids
 var ender_slag = VanillaFactory.createFluid("ender_slag", Color.fromHex("fffdd0"));

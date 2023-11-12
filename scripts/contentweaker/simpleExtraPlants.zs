@@ -145,6 +145,26 @@ perforata.setBlockSoundType(<soundtype:plant>);
 perforata.setToolClass("none");
 perforata.register();
 
+var nether_flower = VanillaFactory.createBlock("nether_flower", <blockmaterial:Plants>);
+nether_flower.axisAlignedBB = AxisAlignedBB.create(
+	 4.0 / 16.0,
+	 0.0 / 16.0,
+	 4.0 / 16.0,
+	12.0 / 16.0,
+	16.0 / 16.0,
+	12.0 / 16.0
+	);
+nether_flower.setBlockHardness(0.0);
+nether_flower.setBlockResistance(2.0);
+nether_flower.setFullBlock(false);
+nether_flower.setPassable(true);
+nether_flower.setReplaceable(false);
+nether_flower.setLightOpacity(0);
+nether_flower.setBlockLayer("CUTOUT");
+nether_flower.setBlockSoundType(<soundtype:plant>);
+nether_flower.setToolClass("none");
+nether_flower.register();
+
 var clover3 = VanillaFactory.createBlock("clover_3_block", <blockmaterial:Plants>);
 clover3.axisAlignedBB = AxisAlignedBB.create(
      3.0 / 16.0,
