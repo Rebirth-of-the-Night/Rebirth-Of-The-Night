@@ -397,6 +397,11 @@ val scarecrow = LootTweaker.getTable("mod_lavacow:scarecrow");
 val night_shard = scarecrow.addPool("night_shard", 0, 1, 2, 9);
 night_shard.addItemEntry(<contenttweaker:shard_of_night>, 1, 1, [Functions.setCount(0, 1), Functions.lootingEnchantBonus(0, 1, 64)], []);
 
+// Defiled Lands' Mourner
+val lootMourner = LootTweaker.getTable("defiledlands:entities/the_mourner")
+val lmournerMain = lootMourner.getPool("the_mourner")
+lmournerMain.removeEntry("defiledlands:scarlite");
+lmournerMain.addItemEntry(<contenttweaker:earthen_ruby>, 1, 1, [Functions.setCount(4, 8)], []);
 
 // new loot tables must be assigned to entities via spawn.json, within Incontrol's config folder 
 
