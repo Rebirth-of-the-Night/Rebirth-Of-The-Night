@@ -148,5 +148,23 @@
     "heldItem": "contenttweaker:defiled_dirt_pile",
     "replacementBlock": "defiledlands:grass_defiled",
     "damage": "1"
+  },
+  {
+    "targetBlock": "minecraft:farmland:*",
+    "heldItem": "primitivemobs:wonder_sap",
+    "replacementBlock": "rustic:fertile_soil",
+    "damage": "1",
+    "particleType": "happyVillager",
+    "particleArea": "out",
+    "particleCount": "30"
+  },
+  {
+    "targetBlock": "biomesoplenty:farmland_*",
+    "heldItem": "primitivemobs:wonder_sap",
+    "replacementBlock": "rustic:fertile_soil",
+    "damage": "1",
+    "particleType": "happyVillager",
+    "particleArea": "out",
+    "particleCount": "30"
   }
 ]
