@@ -1,6 +1,5 @@
 {
-  "catalyst": "{id:\"contenttweaker:block_brass\",Count:2,Damage:0s}",
-  "consumeCatalyst": true,
+  "version": 2,
   "location": "multiblocked:pyro_reactor",
   "traits": {
     "item": [
@@ -30,26 +29,49 @@
       }
     ]
   },
-  "allowRotate": true,
-  "showInJei": true,
-  "baseRenderer": {
-    "state": {
-      "id": "multiblockmobs:soul_chassis",
-      "meta": 0
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": false,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "multiblockmobs:soul_chassis",
+          "meta": 0
+        },
+        "type": "blockstate"
+      }
     },
-    "type": "blockstate"
+    "idle": {
+      "renderer": {
+        "modelName": "pyroreactorv2",
+        "type": "geo"
+      },
+      "parent": "unformed"
+    },
+    "working": {
+      "renderer": {
+        "modelName": "pyroreactorv2",
+        "type": "geo"
+      },
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
   },
-  "formedRenderer": {
-    "modelName": "pyroreactorv2",
-    "isGlobal": true,
-    "type": "geo"
-  },
-  "workingRenderer": {
-    "modelName": "pyroreactorv2",
-    "isGlobal": true,
-    "type": "geo"
-  },
-  "isOpaqueCube": false,
+  "recipeMap": "unstable_spiritfire",
+  "catalyst": "{id:\"contenttweaker:block_brass\",Count:2,Damage:0s}",
+  "consumeCatalyst": "CONSUMED",
+  "noNeedController": false,
   "basePattern": {
     "structureDir": [
       "BACK",
@@ -273,6 +295,5 @@
         "itemin"
       ]
     }
-  },
-  "recipeMap": "unstable_spiritfire"
+  }
 }
