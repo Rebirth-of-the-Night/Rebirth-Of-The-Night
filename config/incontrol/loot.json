@@ -485,6 +485,13 @@
 		"itemcount": "1",
 		"random": "0.1"
 	},
+	{
+		"mob": "primitivemobs:mimic",
+		"player": true,
+		"item": "effortlessbuilding:reach_upgrade2",
+		"itemcount": "1",
+		"random": "0.1"
+	},
 	
 	// Slimes
 	// Brain Slime
