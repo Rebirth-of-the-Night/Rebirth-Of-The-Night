@@ -28,8 +28,8 @@ recipes.addShaped("mossyStoneBrick_Bridge", <mcwbridges:mossy_stone_brick_bridge
 
 recipes.remove(<mcwbridges:stone_brick_bridge>*4);
 recipes.addShaped("genericStoneSlabBridge", <mcwbridges:stone_brick_bridge>, [
-	[<ore:genericWoodSlabs>, null, <ore:genericWoodSlabs>],
-	[<ore:genericWoodSlabs>, <ore:genericWoodSlabs>, <ore:genericWoodSlabs>]
+	[<ore:StoneHugeBrick>, null, <ore:StoneHugeBrick>],
+	[<ore:StoneHugeBrick>, <ore:StoneHugeBrick>, <ore:StoneHugeBrick>]
 ]);
 
 // Metal bridge recipes

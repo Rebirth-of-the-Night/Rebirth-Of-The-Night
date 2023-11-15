@@ -57,6 +57,14 @@ Anvil.addShaped(steelGear * 2,
 
 recipes.removeByRecipeName("betterwithmods:blocks/mech/fix_steel_gearbox");
 
+Anvil.removeShaped(<betterwithmods:siding_rock>.withTag({texture: {Properties: {variant: "stonebrick"}, Name: "minecraft:stonebrick"}}));
+Anvil.addShaped(<betterwithmods:siding_rock>.withTag({texture: {Properties: {variant: "stonebrick"}, Name: "minecraft:stonebrick"}}), [
+    [<contenttweaker:brick_minecraft_stone>, <contenttweaker:brick_minecraft_stone>, <contenttweaker:brick_minecraft_stone>, <contenttweaker:brick_minecraft_stone>],
+    [null, null, null, null], 
+    [null, null, null, null], 
+    [null, null, null, null]
+]);
+
 // Heart of diamond
 Anvil.addShaped(<quark:diamond_heart>, 
 [
