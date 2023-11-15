@@ -707,4 +707,4 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 
 // PIPES
 <inspirations:pipe>.addTooltip(format.gold("Basic item pipe. Can only move items in one direction similar to a hopper."));
-<quark:pipe>.addTooltip(format.gold("Advanced item pipe. Can move items in multiple directions and take dropped items from an open end."))
+<quark:pipe>.addTooltip(format.gold("Advanced item pipe. Can move items in multiple directions and take dropped items from an open end."));
