@@ -48,6 +48,7 @@
         },
         "type": "blockstate"
       },
+      "lightEmissive": 1,
       "parent": "unformed"
     },
     "working": {
@@ -58,6 +59,7 @@
         },
         "type": "blockstate"
       },
+      "lightEmissive": 7,
       "parent": "idle"
     },
     "suspend": {

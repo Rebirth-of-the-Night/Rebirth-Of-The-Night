@@ -41,10 +41,19 @@
       }
     },
     "idle": {
+      "lightEmissive": 1,
       "parent": "unformed"
     },
     "working": {
-      "parent": "idle"
+      "lightEmissive": 7,
+      "parent": "idle",
+      "sound": {
+        "sound": "charm:wood_smash",
+        "loop": true,
+        "delay": 0,
+        "volume": 1.0,
+        "pitch": 1.0
+      }
     },
     "suspend": {
       "parent": "working"
@@ -336,8 +345,7 @@
             "id": "contenttweaker:viridea"
           }
         ],
-        "type": "blocks",
-        "disableRenderFormed": true
+        "type": "blocks"
       },
       "viridiumbrick": {
         "blocks": [

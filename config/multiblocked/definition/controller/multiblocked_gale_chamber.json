@@ -44,10 +44,19 @@
       }
     },
     "idle": {
+      "lightEmissive": 7,
       "parent": "unformed"
     },
     "working": {
-      "parent": "idle"
+      "lightEmissive": 15,
+      "parent": "idle",
+      "sound": {
+        "sound": "mowziesmobs:frostmaw.icebreath",
+        "loop": true,
+        "delay": 0,
+        "volume": 0.5,
+        "pitch": 1.0
+      }
     },
     "suspend": {
       "parent": "working"
@@ -302,8 +311,7 @@
             "id": "dungeontactics:fan_block"
           }
         ],
-        "type": "blocks",
-        "nbtParser": "1b"
+        "type": "blocks"
       }
     },
     "symbolMap": {

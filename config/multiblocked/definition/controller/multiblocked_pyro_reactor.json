@@ -51,10 +51,19 @@
       }
     },
     "idle": {
+      "lightEmissive": 7,
       "parent": "unformed"
     },
     "working": {
-      "parent": "idle"
+      "lightEmissive": 15,
+      "parent": "idle",
+      "sound": {
+        "sound": "minecraft:entity.generic.burn",
+        "loop": true,
+        "delay": 0,
+        "volume": 1.0,
+        "pitch": 1.0
+      }
     },
     "suspend": {
       "parent": "working"

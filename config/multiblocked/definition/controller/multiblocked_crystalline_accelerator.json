@@ -51,10 +51,19 @@
       }
     },
     "idle": {
+      "lightEmissive": 7,
       "parent": "unformed"
     },
     "working": {
-      "parent": "idle"
+      "lightEmissive": 15,
+      "parent": "idle",
+      "sound": {
+        "sound": "minecraft:block.enchantment_table.use",
+        "loop": true,
+        "delay": 0,
+        "volume": 0.5,
+        "pitch": 2.0
+      }
     },
     "suspend": {
       "parent": "working"

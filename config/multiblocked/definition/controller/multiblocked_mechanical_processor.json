@@ -73,10 +73,19 @@
       }
     },
     "idle": {
+      "lightEmissive": 7,
       "parent": "unformed"
     },
     "working": {
-      "parent": "idle"
+      "lightEmissive": 15,
+      "parent": "idle",
+      "sound": {
+        "sound": "minecraft:block.brewing_stand.brew",
+        "loop": true,
+        "delay": 0,
+        "volume": 1.0,
+        "pitch": 1.0
+      }
     },
     "suspend": {
       "parent": "working"
@@ -175,14 +184,6 @@
         "type": "capability",
         "io": "IN"
       },
-      "pipe": {
-        "blocks": [
-          {
-            "id": "quark:pipe"
-          }
-        ],
-        "type": "blocks"
-      },
       "gearbox": {
         "blocks": [
           {
@@ -206,7 +207,6 @@
           }
         ],
         "type": "blocks",
-        "disableRenderFormed": true,
         "nbtParser": "power:1"
       }
     },
@@ -247,9 +247,7 @@
       "J": [
         "outfluid"
       ],
-      "K": [
-        "pipe"
-      ]
+      "K": []
     }
   }
 }

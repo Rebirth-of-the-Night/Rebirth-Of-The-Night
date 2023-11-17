@@ -65,10 +65,19 @@
       }
     },
     "idle": {
+      "lightEmissive": 7,
       "parent": "unformed"
     },
     "working": {
-      "parent": "idle"
+      "lightEmissive": 15,
+      "parent": "idle",
+      "sound": {
+        "sound": "exsartagine:bubbling",
+        "loop": true,
+        "delay": 0,
+        "volume": 1.0,
+        "pitch": 0.5
+      }
     },
     "suspend": {
       "parent": "working"
@@ -184,14 +193,6 @@
         "type": "capability",
         "io": "IN"
       },
-      "pipe": {
-        "blocks": [
-          {
-            "id": "quark:pipe"
-          }
-        ],
-        "type": "blocks"
-      },
       "any": {
         "type": "any"
       },
@@ -201,8 +202,7 @@
             "id": "betterwithmods:steel_axle"
           }
         ],
-        "type": "blocks",
-        "disableRenderFormed": true
+        "type": "blocks"
       }
     },
     "symbolMap": {
@@ -245,9 +245,7 @@
       "K": [
         "outputs"
       ],
-      "L": [
-        "pipe"
-      ]
+      "L": []
     }
   }
 }

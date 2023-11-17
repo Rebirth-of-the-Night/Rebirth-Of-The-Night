@@ -51,10 +51,19 @@
       }
     },
     "idle": {
+      "lightEmissive": 1,
       "parent": "unformed"
     },
     "working": {
-      "parent": "idle"
+      "lightEmissive": 7,
+      "parent": "idle",
+      "sound": {
+        "sound": "minecraft:block.anvil.fall",
+        "loop": true,
+        "delay": 0,
+        "volume": 0.5,
+        "pitch": 1.0
+      }
     },
     "suspend": {
       "parent": "working"
@@ -134,8 +143,7 @@
             "id": "minecraft:iron_block"
           }
         ],
-        "type": "blocks",
-        "disableRenderFormed": true
+        "type": "blocks"
       }
     },
     "symbolMap": {
