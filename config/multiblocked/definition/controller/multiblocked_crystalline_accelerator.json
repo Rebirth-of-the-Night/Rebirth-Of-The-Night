@@ -1,5 +1,5 @@
 {
-  "consumeCatalyst": false,
+  "version": 2,
   "location": "multiblocked:crystalline_accelerator",
   "traits": {
     "item": [
@@ -29,26 +29,38 @@
       }
     ]
   },
-  "allowRotate": true,
-  "showInJei": true,
-  "baseRenderer": {
-    "state": {
-      "id": "aesthetics:mythril_bars",
-      "meta": 0
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": false,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "aesthetics:mythril_bars",
+          "meta": 0
+        },
+        "type": "blockstate"
+      }
     },
-    "type": "blockstate"
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
   },
-  "formedRenderer": {
-    "modelName": "crystallineaccelerator",
-    "isGlobal": true,
-    "type": "geo"
-  },
-  "workingRenderer": {
-    "modelName": "crystallineaccelerator",
-    "isGlobal": true,
-    "type": "geo"
-  },
-  "isOpaqueCube": false,
+  "recipeMap": "accelerator",
   "basePattern": {
     "structureDir": [
       "LEFT",
@@ -205,6 +217,5 @@
         "K"
       ]
     }
-  },
-  "recipeMap": "accelerator"
+  }
 }

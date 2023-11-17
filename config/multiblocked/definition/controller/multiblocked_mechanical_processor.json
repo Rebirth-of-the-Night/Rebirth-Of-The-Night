@@ -1,5 +1,5 @@
 {
-  "consumeCatalyst": false,
+  "version": 2,
   "location": "multiblocked:mechanical_processor",
   "traits": {
     "item": [
@@ -51,26 +51,38 @@
       }
     ]
   },
-  "allowRotate": true,
-  "showInJei": true,
-  "baseRenderer": {
-    "state": {
-      "id": "betterwithmods:wooden_axle",
-      "meta": 4
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": false,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "betterwithmods:wooden_axle",
+          "meta": 4
+        },
+        "type": "blockstate"
+      }
     },
-    "type": "blockstate"
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
   },
-  "formedRenderer": {
-    "modelName": "mechanicalprocessor",
-    "isGlobal": true,
-    "type": "geo"
-  },
-  "workingRenderer": {
-    "modelName": "mechanicalprocessor",
-    "isGlobal": true,
-    "type": "geo"
-  },
-  "isOpaqueCube": false,
+  "recipeMap": "mechanical_processor",
   "basePattern": {
     "structureDir": [
       "BACK",
@@ -239,6 +251,5 @@
         "pipe"
       ]
     }
-  },
-  "recipeMap": "mechanical_processor"
+  }
 }
