@@ -1,5 +1,5 @@
 {
-  "consumeCatalyst": false,
+  "version": 2,
   "location": "multiblocked:power_hammer_mk2",
   "traits": {
     "item": [
@@ -29,26 +29,38 @@
       }
     ]
   },
-  "allowRotate": true,
-  "showInJei": true,
-  "baseRenderer": {
-    "state": {
-      "id": "minecraft:sticky_piston",
-      "meta": 0
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": false,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "minecraft:sticky_piston",
+          "meta": 0
+        },
+        "type": "blockstate"
+      }
     },
-    "type": "blockstate"
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
   },
-  "formedRenderer": {
-    "modelName": "powerhammer2",
-    "isGlobal": true,
-    "type": "geo"
-  },
-  "workingRenderer": {
-    "modelName": "powerhammer2",
-    "isGlobal": true,
-    "type": "geo"
-  },
-  "isOpaqueCube": false,
+  "recipeMap": "empty",
   "basePattern": {
     "structureDir": [
       "LEFT",
@@ -157,6 +169,5 @@
         "itemoutput"
       ]
     }
-  },
-  "recipeMap": "empty"
+  }
 }

@@ -1,6 +1,5 @@
 {
-  "catalyst": "{id:\"contenttweaker:block_brass\",Count:2,Damage:0s}",
-  "consumeCatalyst": true,
+  "version": 2,
   "location": "multiblocked:biotic_incubator",
   "traits": {
     "item": [
@@ -20,26 +19,41 @@
       }
     ]
   },
-  "allowRotate": true,
-  "showInJei": true,
-  "baseRenderer": {
-    "state": {
-      "id": "simpleores:adamantium_block",
-      "meta": 0
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": false,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "simpleores:adamantium_block",
+          "meta": 0
+        },
+        "type": "blockstate"
+      }
     },
-    "type": "blockstate"
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
   },
-  "formedRenderer": {
-    "modelName": "bioticincubator",
-    "isGlobal": true,
-    "type": "geo"
-  },
-  "workingRenderer": {
-    "modelName": "bioticincubator",
-    "isGlobal": true,
-    "type": "geo"
-  },
-  "isOpaqueCube": false,
+  "recipeMap": "viridea_biomatter",
+  "catalyst": "{id:\"contenttweaker:block_brass\",Count:2,Damage:0s}",
+  "consumeCatalyst": "CONSUMED",
+  "noNeedController": false,
   "basePattern": {
     "structureDir": [
       "FRONT",
@@ -402,6 +416,5 @@
         "soil"
       ]
     }
-  },
-  "recipeMap": "viridea_biomatter"
+  }
 }

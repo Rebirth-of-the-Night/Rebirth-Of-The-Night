@@ -656,10 +656,10 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <aether_legacy:pig_slayer:*>.addTooltip(format.green("- Stealthy Strike I"));
 
 <demonic_scythe:demonic_scythe:*>.addTooltip("You feel your lifeforce corrupt as you hold this horrible weapon. Right click to perform a special AOE attack!");
-<demonic_scythe:demonic_scythe:*>.addTooltip(format.red("RIGHT CLICK CURRENTLY BUGGED"));
+# <demonic_scythe:demonic_scythe:*>.addTooltip(format.red("RIGHT CLICK CURRENTLY BUGGED"));
 <demonic_scythe:demonic_scythe:*>.addTooltip(format.darkPurple("Epic Weapon"));
 <demonic_scythe:awakened_demonic_scythe:*>.addTooltip("You feel your lifeforce corrupt as you hold this dreadful weapon. Right click to perform a special AOE attack which heals you!");
-<demonic_scythe:awakened_demonic_scythe:*>.addTooltip(format.red("RIGHT CLICK CURRENTLY BUGGED"));
+# <demonic_scythe:awakened_demonic_scythe:*>.addTooltip(format.red("RIGHT CLICK CURRENTLY BUGGED"));
 <demonic_scythe:awakened_demonic_scythe:*>.addTooltip(format.gold("Legendary Weapon"));
 
 // Longbows

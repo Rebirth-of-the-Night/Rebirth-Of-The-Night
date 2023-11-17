@@ -51,17 +51,9 @@
       }
     },
     "idle": {
-      "renderer": {
-        "modelName": "pyroreactorv2",
-        "type": "geo"
-      },
       "parent": "unformed"
     },
     "working": {
-      "renderer": {
-        "modelName": "pyroreactorv2",
-        "type": "geo"
-      },
       "parent": "idle"
     },
     "suspend": {
