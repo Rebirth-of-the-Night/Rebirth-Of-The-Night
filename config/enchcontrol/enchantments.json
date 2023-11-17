@@ -4268,8 +4268,8 @@
   {
     "id": "mod_lavacow:lifesteal",
     "name": "enchantment.mod_lavacow.Lifesteal",
-    "enabled": false,
-    "hide_on_item": true,
+    "enabled": true,
+    "hide_on_item": false,
     "hide_on_book": true,
     "rarity": "VERY_RARE",
     "treasure": false,
