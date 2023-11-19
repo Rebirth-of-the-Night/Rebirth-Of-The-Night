@@ -5,4 +5,4 @@ title @p subtitle {"text":"You hear a terrifying roar in the distance...", "colo
 title @p title {"text":"The Twilight Forest", "bold":false, "italic":false, "color":"blue"}
 playsound iceandfire:firedragon_adult_roar ambient @p ~ ~ ~ 0.5 0.7
 tellraw @p {"text":"More ley lines have opened; magicite has been infused with new quintessences...","color":"gold"}
-gamestage silentadd @a enteredTwilightForest
+gamestage silentadd @p enteredTwilightForest

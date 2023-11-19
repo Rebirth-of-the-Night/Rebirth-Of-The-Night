@@ -1,8 +1,8 @@
 gamerule commandBlockOutput false
 gamerule sendCommandFeedback false
-title @a[r=50] times 40 120 60
-title @a[r=50] subtitle {"text":"Visions of mythical beings flash through your mind...", "color":"yellow"}
-title @a[r=50] title {"text":"The Rebirth of the Forest", "bold":false, "italic":true, "color":"red"}
+title @a times 40 120 60
+title @a subtitle {"text":"Visions of mythical beings flash through your mind...", "color":"yellow"}
+title @a title {"text":"The Rebirth of the Forest", "bold":false, "italic":true, "color":"red"}
 give @p scalinghealth:crystalshard 6
-gamestage silentadd @a[r=50] killedGhastQueen
+gamestage silentadd @p killedGhastQueen
 tellraw @p {"text":"More ley lines have opened; magicite has been infused with new quintessences...","color":"gold"}

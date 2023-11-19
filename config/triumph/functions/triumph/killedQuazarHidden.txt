@@ -4,7 +4,7 @@ title @p times 40 120 60
 title @p subtitle {"text":"Tremors vibrate deep beneath the world..., "color":"yellow"}
 title @p title {"text":"The Rebirth of the Galaxy", "bold":false, "italic":false, "color":"red"}
 gamestage silentadd @p killedQuazar
-gamestage silentremove @a start
+gamestage silentremove @p start
 give @p scalinghealth:crystalshard 4
 playsound minecraft:ambient.cave ambient @p ~ ~ ~ 100 0.5
 tellraw @p {"text":"More ley lines have opened; magicite has been infused with new quintessences...","color":"gold"}

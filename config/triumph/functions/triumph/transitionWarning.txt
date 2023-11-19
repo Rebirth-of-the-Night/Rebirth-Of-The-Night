@@ -1,6 +1,6 @@
 gamerule commandBlockOutput false
 gamerule sendCommandFeedback false
-tellraw @p ["",{"text":"The barrier wavers. You sense a foul presence yearning to break free...","color":"gold","italic":true}]
-playsound zombieawareness:investigate ambient @p ~ ~ ~ 0.8 0.1
-gamestage silentadd @a enteredBeneath
+tellraw @a ["",{"text":"The barrier wavers. You sense a foul presence yearning to break free...","color":"gold","italic":true}]
+playsound zombieawareness:investigate ambient @a ~ ~ ~ 0.8 0.1
+gamestage silentadd @p enteredBeneath
 tellraw @p {"text":"tellraw @p {"text":"More ley lines have opened; magicite has been infused with new quintessences...","color":"gold"}","color":"gold"}

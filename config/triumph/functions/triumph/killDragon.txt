@@ -1,9 +1,9 @@
 gamerule commandBlockOutput false
 gamerule sendCommandFeedback false
-title @a[r=50] times 40 120 60
-title @a[r=50] subtitle {"text":"The world trembles with fury at your deeds.", "color":"yellow"}
-title @a[r=50] title {"text":"Rebirth of the Realm", "bold":false, "italic":true, "color":"red"}
-playsound iceandfire:icedragon_adult_death ambient @a[r=50] ~ ~ ~ 1 0.5
+title @a times 40 120 60
+title @a subtitle {"text":"The world trembles with fury at your deeds.", "color":"yellow"}
+title @a title {"text":"Rebirth of the Realm", "bold":false, "italic":true, "color":"red"}
+playsound iceandfire:icedragon_adult_death ambient @a ~ ~ ~ 1 0.5
 give @p scalinghealth:crystalshard 6
-gamestage silentadd @a[r=50] killedDragon
+gamestage silentadd @p killedDragon
 tellraw @p {"text":"Your transgressions will not go unpunished.","bold":true,"italic":true,"obfuscated":true,"color":"dark_red"}

@@ -11,4 +11,4 @@ playsound minecraft:entity.spider.step ambient @p ~ ~ ~ 0.9 0.5
 playsound rats:rat_plague ambient @p ~ ~ ~ 0.04 0.5
 playsound minecraft:entity.endermen.ambient ambient @a ~ ~ ~ 0.2 0.7
 playsound minecraft:entity.endermen.scream ambient @a ~ ~ ~ 0.08 0.4
-gamestage silentadd @a enteredBeneath
+gamestage silentadd @p enteredBeneath
