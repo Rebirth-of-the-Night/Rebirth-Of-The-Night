@@ -31,7 +31,6 @@ val bwaArray = [
     <betterwithaddons:decomat:1>,
     <betterwithaddons:decomat:2>,
     <betterwithaddons:tweakmat>,
-    <betterwithaddons:rotten_food>,
     <betterwithaddons:katana>,
     <betterwithaddons:tanto>,
     <betterwithaddons:yumi>,
