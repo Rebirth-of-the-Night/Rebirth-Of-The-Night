@@ -153,8 +153,15 @@ recipes.addShaped("high_grade_arrow",<spartanweaponry:arrow_diamond>*4,[
     [<ore:feather>]
 ]);
 
-recipes.remove(<spartanweaponry:bolt_diamond>);
+// Let iron bolt use any nugget
+recipes.remove(<spartanweaponry:bolt>);
+recipes.addShapedMirrored("iron_bolt", <spartanweaponry:bolt> * 4, [
+    [null, null, <ore:ingotIron>],
+    [null, <ore:genericMetalNuggets>, null], 
+    [<ore:feather>, null, null]
+]);
 
+recipes.remove(<spartanweaponry:bolt_diamond>);
 recipes.addShapedMirrored("high_grade_bolt", <spartanweaponry:bolt_diamond> * 4, [
     [null, null, <ore:ingotableGem>],
     [null, <ore:genericMetalNuggets>, null], 

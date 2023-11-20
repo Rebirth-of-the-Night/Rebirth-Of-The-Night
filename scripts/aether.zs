@@ -334,3 +334,5 @@ recipes.remove(<arcaneworld:molten_core>);
 
 recipes.addShapeless("plate_to_electrum", <ore:ingotElectrum>.firstItem, [<contenttweaker:valkyrien_plate>]);
 recipes.addShapeless("core_to_electrum", <ore:ingotElectrum>.firstItem*2, [<contenttweaker:electrum_core>]);
+
+recipes.addShapeless("white_apple_to_pip",<dynamictreestheaether:crystalseed>,[<aether_legacy:white_apple>]);
