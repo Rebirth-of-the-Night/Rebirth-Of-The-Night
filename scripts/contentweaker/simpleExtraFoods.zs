@@ -45,10 +45,6 @@ hydraco.register();
 
 val abyss_pizza_item = VanillaFactory.createItemFood("abyss_pizza", 32);
 abyss_pizza_item.setSaturation(36.0);
-plain_pizza_item.register();
-
-val abyss_pizza_item = VanillaFactory.createItemFood("abyss_pizza", 16);
-abyss_pizza_item.setSaturation(18.0);
 abyss_pizza_item.register();
 
 //BLOCKS
