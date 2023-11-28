@@ -1,10 +1,10 @@
 gamerule commandBlockOutput false
 gamerule sendCommandFeedback false
-title @a[r=50] times 40 120 60
-title @a[r=50] subtitle {"text":"Voices of lost souls scream in fury...", "color":"yellow"}
-title @a[r=50] title {"text":"The Rebirth of the Nether", "bold":false, "italic":true, "color":"red"}
+title @a times 40 120 60
+title @a subtitle {"text":"Voices of lost souls scream in fury...", "color":"yellow"}
+title @a title {"text":"The Rebirth of the Nether", "bold":false, "italic":true, "color":"red"}
 playsound minecraft:entity.wither.hurt ambient @a[r=50] ~ ~ ~ 0.8 0.5
 give @p scalinghealth:crystalshard 5
-gamestage silentadd @a[r=50] killedWither
+gamestage silentadd @p killedWither
 tellraw @p {"text":"More ley lines have opened; magicite has been infused with new quintessences...","color":"gold"}
 tellraw @p {"text":"A necrotic pulse expels from the star of the Nether; a jet black ore is vulnerable once again...","color":"red"}

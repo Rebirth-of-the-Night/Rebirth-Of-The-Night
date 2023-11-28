@@ -155,3 +155,4 @@ Infuser.addShapeless(<defiledlands:tears_flame>,
 [<defiledlands:tears_flame>.anyDamage(),<contenttweaker:vis_speck>], 32);
 
 recipes.remove(<defiledlands:tears_shulker>);
+recipes.removeByRecipeName("defiledlands:misc/arrow_vilespine"); // remove vanilla arrows being crafted with vilespine

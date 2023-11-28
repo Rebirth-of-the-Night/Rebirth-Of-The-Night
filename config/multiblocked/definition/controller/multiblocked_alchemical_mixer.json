@@ -1,5 +1,5 @@
 {
-  "consumeCatalyst": false,
+  "version": 2,
   "location": "multiblocked:alchemical_mixer",
   "traits": {
     "item": [
@@ -43,26 +43,47 @@
       }
     ]
   },
-  "allowRotate": true,
-  "showInJei": true,
-  "baseRenderer": {
-    "state": {
-      "id": "betterwithmods:steel_axle",
-      "meta": 4
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": false,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "betterwithmods:steel_axle",
+          "meta": 4
+        },
+        "type": "blockstate"
+      }
     },
-    "type": "blockstate"
+    "idle": {
+      "lightEmissive": 7,
+      "parent": "unformed"
+    },
+    "working": {
+      "lightEmissive": 15,
+      "parent": "idle",
+      "sound": {
+        "sound": "exsartagine:bubbling",
+        "loop": true,
+        "delay": 0,
+        "volume": 1.0,
+        "pitch": 0.5
+      }
+    },
+    "suspend": {
+      "parent": "working"
+    }
   },
-  "formedRenderer": {
-    "modelName": "aetherialmixer",
-    "isGlobal": true,
-    "type": "geo"
-  },
-  "workingRenderer": {
-    "modelName": "aetherialmixer",
-    "isGlobal": true,
-    "type": "geo"
-  },
-  "isOpaqueCube": false,
+  "recipeMap": "alchemical_mixer",
   "basePattern": {
     "structureDir": [
       "BACK",
@@ -172,14 +193,6 @@
         "type": "capability",
         "io": "IN"
       },
-      "pipe": {
-        "blocks": [
-          {
-            "id": "quark:pipe"
-          }
-        ],
-        "type": "blocks"
-      },
       "any": {
         "type": "any"
       },
@@ -189,8 +202,7 @@
             "id": "betterwithmods:steel_axle"
           }
         ],
-        "type": "blocks",
-        "disableRenderFormed": true
+        "type": "blocks"
       }
     },
     "symbolMap": {
@@ -233,10 +245,7 @@
       "K": [
         "outputs"
       ],
-      "L": [
-        "pipe"
-      ]
+      "L": []
     }
-  },
-  "recipeMap": "alchemical_mixer"
+  }
 }

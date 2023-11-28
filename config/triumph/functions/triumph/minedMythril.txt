@@ -4,5 +4,5 @@ tellraw @a ["",{"text":"The darkness erupts with distant screeches as the last m
 playsound mowziesmobs:geomancy.breaklarge2 ambient @p ~ ~ ~ 0.8 1.0
 playsound mod_lavacow:entity.wendigo.attack ambient @p ~ ~ ~ 0.5 0.9
 playsound ambience:horn1 ambient @p ~ ~ ~ 1.5 0.9
-gamestage silentadd @a minedMythril
+gamestage silentadd @p minedMythril
 tellraw @p {"text":"tellraw @p {"text":"More ley lines have opened; magicite has been infused with new quintessences...","color":"gold"}","color":"gold"}

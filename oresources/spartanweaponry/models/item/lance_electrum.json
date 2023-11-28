@@ -2,8 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"1": "spartanweaponry:items/lance_electrum",
-		"3": "vanilla 1.14:block/acacia_log_top",
-		"particle": "spartanweaponry:items/lance_electrum"
+		"3": "blocks/log_acacia_top"
 	},
 	"elements": [
 		{

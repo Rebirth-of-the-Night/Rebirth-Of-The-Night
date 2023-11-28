@@ -1,6 +1,5 @@
 {
-  "catalyst": "{id:\"contenttweaker:block_brass\",Count:2,Damage:0s}",
-  "consumeCatalyst": false,
+  "version": 2,
   "location": "multiblocked:gale_chamber",
   "traits": {
     "item": [
@@ -23,26 +22,50 @@
       }
     ]
   },
-  "allowRotate": true,
-  "showInJei": true,
-  "baseRenderer": {
-    "state": {
-      "id": "aether_legacy:enchanted_gravitite",
-      "meta": 0
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": false,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "aether_legacy:enchanted_gravitite",
+          "meta": 0
+        },
+        "type": "blockstate"
+      }
     },
-    "type": "blockstate"
+    "idle": {
+      "lightEmissive": 7,
+      "parent": "unformed"
+    },
+    "working": {
+      "lightEmissive": 15,
+      "parent": "idle",
+      "sound": {
+        "sound": "mowziesmobs:frostmaw.icebreath",
+        "loop": true,
+        "delay": 0,
+        "volume": 0.5,
+        "pitch": 1.0
+      }
+    },
+    "suspend": {
+      "parent": "working"
+    }
   },
-  "formedRenderer": {
-    "modelName": "galechamber",
-    "isGlobal": true,
-    "type": "geo"
-  },
-  "workingRenderer": {
-    "modelName": "galechamber",
-    "isGlobal": true,
-    "type": "geo"
-  },
-  "isOpaqueCube": false,
+  "recipeMap": "dread_cold",
+  "catalyst": "{id:\"contenttweaker:block_brass\",Count:2,Damage:0s}",
+  "consumeCatalyst": "NOT_CONSUMED",
+  "noNeedController": false,
   "basePattern": {
     "structureDir": [
       "LEFT",
@@ -288,8 +311,7 @@
             "id": "dungeontactics:fan_block"
           }
         ],
-        "type": "blocks",
-        "nbtParser": "1b"
+        "type": "blocks"
       }
     },
     "symbolMap": {
@@ -331,6 +353,5 @@
         "any"
       ]
     }
-  },
-  "recipeMap": "dread_cold"
+  }
 }

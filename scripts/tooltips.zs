@@ -370,6 +370,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <pyrotech:bucket_stone>.removeTooltip("Uses:");
 <pyrotech:bucket_stone>.removeTooltip("Can hold hot fluids.");
 <pyrotech:coal_coke_block>.addShiftTooltip("Valid fuel for Burner Heater");
+<contenttweaker:peat:*>.addTooltip("Can be used as fuel or to create Mossy Peat");
 <contenttweaker:mossy_peat:*>.addTooltip("Place besides coalbed methane to create Mossthane");
 <contenttweaker:charmpeat:*>.addTooltip("Valid fuel for Burner Heater");
 <pyrotech:coal_coke_block>.removeTooltip("Efficiency:");
@@ -519,7 +520,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <exsartagine:kettle>.addShiftTooltip(format.white("Can be heated by:") + "" + format.yellow(" CAMPFIRE, FURNACE, SMOKER, BLAST FURNACE, STOVE, HEARTH, STOKED FLAME"), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <exsartagine:range:*>.addTooltip("Efficiently heats cooking appliances for fuel.");
 <exsartagine:range>.addShiftTooltip("Supports up to three Stove Extensions to on either side, offering four total surfaces on which to place woks, pots and kettles.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
-<exsartagine:hearth:*>.addTooltip("Handily heats cooking appliances for fuel.");
+<exsartagine:hearth:*>.addTooltip("Handily heats cooking appliances for fuel. Requires ignition");
 <exsartagine:hearth>.addShiftTooltip("Supports one Hearth Extension to its side, offering two total surfaces on which to place woks, pots and kettles.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 
 
@@ -663,10 +664,8 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <aether_legacy:pig_slayer:*>.addTooltip(format.green("- Stealthy Strike I"));
 
 <demonic_scythe:demonic_scythe:*>.addTooltip("You feel your lifeforce corrupt as you hold this horrible weapon. Right click to perform a special AOE attack!");
-<demonic_scythe:demonic_scythe:*>.addTooltip(format.red("RIGHT CLICK CURRENTLY BUGGED"));
 <demonic_scythe:demonic_scythe:*>.addTooltip(format.darkPurple("Epic Weapon"));
 <demonic_scythe:awakened_demonic_scythe:*>.addTooltip("You feel your lifeforce corrupt as you hold this dreadful weapon. Right click to perform a special AOE attack which heals you!");
-<demonic_scythe:awakened_demonic_scythe:*>.addTooltip(format.red("RIGHT CLICK CURRENTLY BUGGED"));
 <demonic_scythe:awakened_demonic_scythe:*>.addTooltip(format.gold("Legendary Weapon"));
 
 // Longbows
@@ -707,3 +706,14 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 // BUGS
 #<aether_legacy:enchanted_blueberry:*>.addTooltip(format.red("DO NOT FEED TO HYPPOGRYPHS; CURRENTLY BUGGED AND UNTAMABLE."));
 <iceandfire:dragon_horn:*>.addTooltip(format.red("DO NOT USE ON YOUR DRAGONS, IT WILL DELETE THEM!"));
+
+// MACHINES
+<multiblocked:gale_chamber>.addTooltip(format.gold("Right click with two brass blocks to construct!"));
+<multiblocked:biotic_incubator>.addTooltip(format.gold("Right click with two brass blocks to construct!"));
+<multiblocked:pyro_reactor>.addTooltip(format.gold("WIP, do not use."));
+<multiblocked:multiblock_builder>.addTooltip(format.gold("Right click on a controller to build the multiblock machine automatically!"));
+<multiblocked:multiblock_builder>.removeTooltip("auto build");
+
+// PIPES
+<inspirations:pipe>.addTooltip(format.gold("Basic item pipe. Can only move items in one direction similar to a hopper."));
+<quark:pipe>.addTooltip(format.gold("Advanced item pipe. Can move items in multiple directions and take dropped items from an open end."));

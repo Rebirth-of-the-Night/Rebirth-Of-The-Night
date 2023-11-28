@@ -16,7 +16,7 @@
 			"type": "item",
 			"item": "#a",
 			"x": 0,
-			"y": 68
+			"y": 71
 		},
 		{
 			"type": "tooltip",
@@ -32,13 +32,13 @@
 			"width": 16, "height": 16,
 			"texture_width": 16, "texture_height": 16,
 			"x": 1,
-			"y": 56
+			"y": 58
 		},
 		{
 			"type": "item",
 			"item": "#b",
 			"x": 16,
-			"y": 68
+			"y": 71
 		},
 		{
 			"type": "tooltip",
@@ -54,13 +54,13 @@
 			"width": 16, "height": 16,
 			"texture_width": 16, "texture_height": 16,
 			"x": 17,
-			"y": 56
+			"y": 58
 		},
 		{
 			"type": "item",
 			"item": "#c",
 			"x": 32,
-			"y": 68
+			"y": 71
 		},
 		{
 			"type": "tooltip",
@@ -76,13 +76,13 @@
 			"width": 16, "height": 16,
 			"texture_width": 16, "texture_height": 16,
 			"x": 33,
-			"y": 56
+			"y": 58
 		},
 		{
 			"type": "item",
 			"item": "#d",
 			"x": 48,
-			"y": 68
+			"y": 71
 		},
 		{
 			"type": "tooltip",
@@ -98,13 +98,13 @@
 			"width": 16, "height": 16,
 			"texture_width": 16, "texture_height": 16,
 			"x": 49,
-			"y": 56
+			"y": 58
 		},
 		{
 			"type": "item",
 			"item": "#e",
 			"x": 64,
-			"y": 68
+			"y": 71
 		},
 		{
 			"type": "tooltip",
@@ -120,13 +120,13 @@
 			"width": 16, "height": 16,
 			"texture_width": 16, "texture_height": 16,
 			"x": 65,
-			"y": 56
+			"y": 58
 		},
 		{
 			"type": "item",
 			"item": "#f",
 			"x": 80,
-			"y": 68
+			"y": 71
 		},
 		{
 			"type": "tooltip",
@@ -142,13 +142,13 @@
 			"width": 16, "height": 16,
 			"texture_width": 16, "texture_height": 16,
 			"x": 81,
-			"y": 56
+			"y": 58
 		},
 		{
 			"type": "item",
 			"item": "#g",
 			"x": 96,
-			"y": 68
+			"y": 71
 		},
 		{
 			"type": "tooltip",
@@ -164,7 +164,7 @@
 			"width": 16, "height": 16,
 			"texture_width": 16, "texture_height": 16,
 			"x": 97,
-			"y": 56
+			"y": 58
 		},
 		{
 			"type": "text",

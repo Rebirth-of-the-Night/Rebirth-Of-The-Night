@@ -3,6 +3,6 @@ gamerule sendCommandFeedback false
 title @p times 40 120 60
 title @p subtitle {"text":"Cries of the damned echo around you...", "color":"yellow"}
 title @p title {"text":"The Nether", "bold":false, "italic":false, "color":"red"}
-gamestage silentadd @a enteredNether
+gamestage silentadd @p enteredNether
 tellraw @p {"text":"More ley lines have opened; magicite has been infused with new quintessences...","color":"gold"}
-gamestage silentremove @a start
+gamestage silentremove @p start

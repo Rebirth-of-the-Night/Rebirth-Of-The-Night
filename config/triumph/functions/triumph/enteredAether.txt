@@ -6,4 +6,4 @@ title @p title {"text":"The Aether", "bold":false, "italic":false, "color":"whit
 tellraw @p {"text":"More ley lines have opened; magicite has been infused with new quintessences...","color":"gold"}
 playsound mowziesmobs:frostmaw.icebreathstart ambient @p ~ ~ ~ 1 0.6
 playsound mowziesmobs:frostmaw.icebreath ambient @p ~ ~ ~ 0.1 1
-gamestage silentadd @a enteredAether
+gamestage silentadd @p enteredAether

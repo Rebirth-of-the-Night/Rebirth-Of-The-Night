@@ -1,0 +1,22 @@
+{
+  "name": "Setting Up Defenses",
+  "icon": "minecraft:stonebrick",
+  "category": "survival_shelter",
+  "advancement": "triumph:advancements/progression/guidebook/improvingShelter",
+  "pages": [
+	  {
+      "type": "text",
+      "text": "I've gotten a decent base setup after obtaining stone bricks and caltrops. Now, placing these caltrops anywhere won't help much. I have to be strategic. I could try making a moat around my base and put the caltrops at the bottom. I'd have to be careful for monsters digging from below the base, so it'd be worth it to explore the caves in the area."
+    },
+    {
+      "type": "text",
+      "text": "Mountain-side bases wouldn't be able to have a traditional moat. Either way, it would be wise to mine a perimeter around the mountain-side part of the base and leave a little space between the base and the mountain, so that I can place traps, sorta like a moat for monsters that try digging from inside the mountain."
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "gather/sticks"
+      ]
+    }
+  ]
+}

@@ -1,9 +1,9 @@
 gamerule commandBlockOutput false
 gamerule sendCommandFeedback false
-title @a[r=50] times 40 120 60
-title @a[r=50] subtitle {"text":"You have done a wonderful job.", "color":"yellow"}
-title @a[r=50] title {"text":"Legendary Forger", "bold":false, "italic":true, "color":"red"}
+title @p times 40 120 60
+title @p subtitle {"text":"You have done a wonderful job.", "color":"yellow"}
+title @p title {"text":"Legendary Forger", "bold":false, "italic":true, "color":"red"}
 playsound minecraft:ambient.cave ambient @a[r=50] ~ ~ ~ 1 0.5
-gamestage silentadd @a[r=50] legendaryForger
+gamestage silentadd @p legendaryForger
 give @p msmlegacy:adminium_ark
 tellraw @p ["",{"text":"My, how far you've come. I watched you from the very beginning and knew you would become this powerful. Here, you may have my blade, I no longer have any use for it. Fight well, adventurer, I will talk to you again when the time comes.","color":"dark_red","italic":true}]

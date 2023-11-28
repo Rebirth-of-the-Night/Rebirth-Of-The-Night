@@ -1,0 +1,11 @@
+{
+  "name": "Base Defense Trapping",
+  "icon": "minetraps:spikes",
+  "category": "construction_basedefense",
+  "pages": [
+  {
+      "type": "text",
+      "text": "By looking at different schematics for things like traps, caltrops, and spikes, I believe I am more adequately prepared for any foe who might dare to attack my base."
+    }
+  ]
+}

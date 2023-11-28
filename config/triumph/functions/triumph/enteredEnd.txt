@@ -4,4 +4,4 @@ title @p times 40 120 60
 title @p subtitle {"text":"If you stare at the Void long enough, it stares back at you.", "color":"yellow"}
 title @p title {"text":"The End", "bold":false, "italic":false, "color":"white"}
 tellraw @p {"text":"More ley lines have opened; magicite has been infused with new quintessences...","color":"gold"}
-gamestage silentadd @a enteredEnd
+gamestage silentadd @p enteredEnd

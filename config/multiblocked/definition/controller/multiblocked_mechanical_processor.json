@@ -1,5 +1,5 @@
 {
-  "consumeCatalyst": false,
+  "version": 2,
   "location": "multiblocked:mechanical_processor",
   "traits": {
     "item": [
@@ -51,26 +51,47 @@
       }
     ]
   },
-  "allowRotate": true,
-  "showInJei": true,
-  "baseRenderer": {
-    "state": {
-      "id": "betterwithmods:wooden_axle",
-      "meta": 4
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": false,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "betterwithmods:wooden_axle",
+          "meta": 4
+        },
+        "type": "blockstate"
+      }
     },
-    "type": "blockstate"
+    "idle": {
+      "lightEmissive": 7,
+      "parent": "unformed"
+    },
+    "working": {
+      "lightEmissive": 15,
+      "parent": "idle",
+      "sound": {
+        "sound": "minecraft:block.brewing_stand.brew",
+        "loop": true,
+        "delay": 0,
+        "volume": 1.0,
+        "pitch": 1.0
+      }
+    },
+    "suspend": {
+      "parent": "working"
+    }
   },
-  "formedRenderer": {
-    "modelName": "mechanicalprocessor",
-    "isGlobal": true,
-    "type": "geo"
-  },
-  "workingRenderer": {
-    "modelName": "mechanicalprocessor",
-    "isGlobal": true,
-    "type": "geo"
-  },
-  "isOpaqueCube": false,
+  "recipeMap": "mechanical_processor",
   "basePattern": {
     "structureDir": [
       "BACK",
@@ -163,14 +184,6 @@
         "type": "capability",
         "io": "IN"
       },
-      "pipe": {
-        "blocks": [
-          {
-            "id": "quark:pipe"
-          }
-        ],
-        "type": "blocks"
-      },
       "gearbox": {
         "blocks": [
           {
@@ -194,7 +207,6 @@
           }
         ],
         "type": "blocks",
-        "disableRenderFormed": true,
         "nbtParser": "power:1"
       }
     },
@@ -235,10 +247,7 @@
       "J": [
         "outfluid"
       ],
-      "K": [
-        "pipe"
-      ]
+      "K": []
     }
-  },
-  "recipeMap": "mechanical_processor"
+  }
 }

@@ -5,7 +5,7 @@ title @a subtitle {"text":"Remnants of a lost empire echo around you...", "color
 title @a title {"text":"The Rebirth of the Void", "bold":false, "italic":true, "color":"black"}
 tellraw @p {"text":"More ley lines have opened; magicite has been infused with new quintessences...","color":"gold"}
 give @p scalinghealth:crystalshard 6
-gamestage silentadd @a killedEnderDragon
-gamestage silentadd @a killedHarvester
-gamestage silentadd @a killedQuazar
-gamestage silentadd @a minedMythril
+gamestage silentadd @p killedEnderDragon
+gamestage silentadd @p killedHarvester
+gamestage silentadd @p killedQuazar
+gamestage silentadd @p minedMythril

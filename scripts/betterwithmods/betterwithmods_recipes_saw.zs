@@ -81,9 +81,30 @@ Saw.add(MiniBlocks.getMiniBlock("corner", <ore:plankWood>),[<pyrotech:rock:7>*2,
 val PlanksList = [<minecraft:planks:4>, <minecraft:planks:2>, <minecraft:planks:5>, <minecraft:planks:3>, <minecraft:planks>, <minecraft:planks:1>, <rustic:planks:1>, <rustic:planks>, <biomesoplenty:planks_0:13>, <biomesoplenty:planks_0:5>, <biomesoplenty:planks_0:12>, <biomesoplenty:planks_0:11>, <biomesoplenty:planks_0:3>, <biomesoplenty:planks_0:15>, <biomesoplenty:planks_0:4>, <biomesoplenty:planks_0:14>, <biomesoplenty:planks_0:1>, <biomesoplenty:planks_0:9>, <biomesoplenty:planks_0:2>, <biomesoplenty:planks_0>, <biomesoplenty:planks_0:8>, <biomesoplenty:planks_0:10>, <biomesoplenty:planks_0:7>, <biomesoplenty:planks_0:6>] as IItemStack[];
 val DebarkedLogsList = [<hitwithaxe:debarked_acacia>, <hitwithaxe:debarked_birch>, <hitwithaxe:debarked_dark_oak>, <hitwithaxe:debarked_jungle>, <hitwithaxe:debarked_oak>, <hitwithaxe:debarked_spruce>, <hitwithaxe:debarked_ironwood>, <hitwithaxe:debarked_olive>, <hitwithaxe:debarked_mahogany>, <hitwithaxe:debarked_magic>, <hitwithaxe:debarked_jacaranda>, <hitwithaxe:debarked_hellbark>, <hitwithaxe:debarked_fir_bop>, <hitwithaxe:debarked_eucalyptus_bop>, <hitwithaxe:debarked_ethereal>, <hitwithaxe:debarked_ebony>, <hitwithaxe:debarked_cherry>, <hitwithaxe:debarked_willow_bop>, <hitwithaxe:debarked_umbran>, <hitwithaxe:debarked_sacred_oak>, <hitwithaxe:debarked_redwood>,<hitwithaxe:debarked_pine>, <hitwithaxe:debarked_palm>, <hitwithaxe:debarked_mangrove>] as IItemStack[];
 
-for i, plank in PlanksList {
-    Saw.add(DebarkedLogsList[i], [PlanksList[i]*5, <pyrotech:rock:7>*2]);
-}
+Saw.add(<hitwithaxe:debarked_acacia>, [<minecraft:planks:4>*5, <pyrotech:rock:7>*2]);
+Saw.add(<hitwithaxe:debarked_birch>, [<minecraft:planks:2>*5, <pyrotech:rock:7>*2]);
+Saw.add(<hitwithaxe:debarked_dark_oak>, [<minecraft:planks:5>*5, <pyrotech:rock:7>*2]);
+Saw.add(<hitwithaxe:debarked_jungle>, [<minecraft:planks:3>*5, <pyrotech:rock:7>*2]);
+Saw.add(<hitwithaxe:debarked_oak>, [<minecraft:planks>*5, <pyrotech:rock:7>*2]);
+Saw.add(<hitwithaxe:debarked_spruce>, [<minecraft:planks:1>*5, <pyrotech:rock:7>*2]);
+Saw.add(<hitwithaxe:debarked_ironwood>, [<rustic:planks:1>*5, <pyrotech:rock:7>*2]);
+Saw.add(<hitwithaxe:debarked_olive>, [<rustic:planks>*5, <pyrotech:rock:7>*2]);
+Saw.add(<hitwithaxe:debarked_mahogany>, [<biomesoplenty:planks_0:13>*5, <pyrotech:rock:7>*2]);
+Saw.add(<hitwithaxe:debarked_magic>, [<biomesoplenty:planks_0:5>*5, <pyrotech:rock:7>*2]);
+Saw.add(<hitwithaxe:debarked_jacaranda>, [<biomesoplenty:planks_0:12>*5, <pyrotech:rock:7>*2]);
+Saw.add(<hitwithaxe:debarked_hellbark>, [<biomesoplenty:planks_0:11>*5, <pyrotech:rock:7>*2]);
+Saw.add(<hitwithaxe:debarked_fir_bop>, [<biomesoplenty:planks_0:3>*5, <pyrotech:rock:7>*2]);
+Saw.add(<hitwithaxe:debarked_eucalyptus_bop>, [<biomesoplenty:planks_0:15>*5, <pyrotech:rock:7>*2]);
+Saw.add(<hitwithaxe:debarked_ethereal>, [<biomesoplenty:planks_0:4>*5, <pyrotech:rock:7>*2]);
+Saw.add(<hitwithaxe:debarked_ebony>, [<biomesoplenty:planks_0:14>*5, <pyrotech:rock:7>*2]);
+Saw.add(<hitwithaxe:debarked_cherry>, [<biomesoplenty:planks_0:1>*5, <pyrotech:rock:7>*2]);
+Saw.add(<hitwithaxe:debarked_willow_bop>, [<biomesoplenty:planks_0:9>*5, <pyrotech:rock:7>*2]);
+Saw.add(<hitwithaxe:debarked_umbran>, [<biomesoplenty:planks_0:2>*5, <pyrotech:rock:7>*2]);
+Saw.add(<hitwithaxe:debarked_sacred_oak>, [<biomesoplenty:planks_0>*5, <pyrotech:rock:7>*2]);
+Saw.add(<hitwithaxe:debarked_redwood>, [<biomesoplenty:planks_0:8>*5, <pyrotech:rock:7>*2]);
+Saw.add(<hitwithaxe:debarked_pine>, [<biomesoplenty:planks_0:10>*5, <pyrotech:rock:7>*2]);
+Saw.add(<hitwithaxe:debarked_palm>, [<biomesoplenty:planks_0:7>*5, <pyrotech:rock:7>*2]);
+Saw.add(<hitwithaxe:debarked_mangrove>, [<biomesoplenty:planks_0:6>*5, <pyrotech:rock:7>*2]);
 
 // Cutting Blue Slate
 Saw.add(<earthworks:block_slate>, [<contenttweaker:raw_dread_slate>]);

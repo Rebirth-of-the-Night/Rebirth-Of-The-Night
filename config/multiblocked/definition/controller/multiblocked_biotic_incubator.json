@@ -1,6 +1,5 @@
 {
-  "catalyst": "{id:\"contenttweaker:block_brass\",Count:2,Damage:0s}",
-  "consumeCatalyst": true,
+  "version": 2,
   "location": "multiblocked:biotic_incubator",
   "traits": {
     "item": [
@@ -20,26 +19,50 @@
       }
     ]
   },
-  "allowRotate": true,
-  "showInJei": true,
-  "baseRenderer": {
-    "state": {
-      "id": "simpleores:adamantium_block",
-      "meta": 0
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": false,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "simpleores:adamantium_block",
+          "meta": 0
+        },
+        "type": "blockstate"
+      }
     },
-    "type": "blockstate"
+    "idle": {
+      "lightEmissive": 1,
+      "parent": "unformed"
+    },
+    "working": {
+      "lightEmissive": 7,
+      "parent": "idle",
+      "sound": {
+        "sound": "charm:wood_smash",
+        "loop": true,
+        "delay": 0,
+        "volume": 1.0,
+        "pitch": 1.0
+      }
+    },
+    "suspend": {
+      "parent": "working"
+    }
   },
-  "formedRenderer": {
-    "modelName": "bioticincubator",
-    "isGlobal": true,
-    "type": "geo"
-  },
-  "workingRenderer": {
-    "modelName": "bioticincubator",
-    "isGlobal": true,
-    "type": "geo"
-  },
-  "isOpaqueCube": false,
+  "recipeMap": "viridea_biomatter",
+  "catalyst": "{id:\"contenttweaker:block_brass\",Count:2,Damage:0s}",
+  "consumeCatalyst": "CONSUMED",
+  "noNeedController": false,
   "basePattern": {
     "structureDir": [
       "FRONT",
@@ -322,8 +345,7 @@
             "id": "contenttweaker:viridea"
           }
         ],
-        "type": "blocks",
-        "disableRenderFormed": true
+        "type": "blocks"
       },
       "viridiumbrick": {
         "blocks": [
@@ -402,6 +424,5 @@
         "soil"
       ]
     }
-  },
-  "recipeMap": "viridea_biomatter"
+  }
 }

@@ -3204,7 +3204,7 @@
   {
     "id": "randomenchantments:true_lifesteal",
     "name": "enchantment.true_lifesteal",
-    "enabled": false,
+    "enabled": true,
     "hide_on_item": true,
     "hide_on_book": true,
     "rarity": "VERY_RARE",

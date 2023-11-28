@@ -24,7 +24,6 @@ JEI.removeAndHide(<futuremc:smooth_red_sandstone>);
 furnace.remove(<futuremc:smooth_sandstone>);
 furnace.remove(<futuremc:smooth_red_sandstone>);
 
-
 recipes.removeByRecipeName("futuremc:nether_brick_fence");
 recipes.removeByRecipeName("futuremc:else/smooth_stonerecipe");
 recipes.removeByRecipeName("futuremc:else/scaffolding");
@@ -283,13 +282,13 @@ Stonecutter.removeOutputs(<minecraft:brick_block>,
 							<ceramics:clay_wall>);
 
 Stonecutter.addOutputs(<contenttweaker:brick_minecraft_stone>,
-							<quark:stone_stairs>,
-							<quark:stone_wall>,
+							<minecraft:stone_brick_stairs>,
+							<futuremc:stone_brick_wall>,
 							<minecraft:stone_slab:5>*2);
 
 Stonecutter.removeOutputs(<minecraft:stonebrick>,
-							<quark:stone_stairs>,
-							<quark:stone_wall>,
+							<minecraft:stone_brick_stairs>,
+							<futuremc:stone_brick_wall>,
 							<minecraft:stone_slab:5>*2);
 
 Stonecutter.addOutputs(<contenttweaker:brick_minecraft_nether>,
@@ -571,6 +570,7 @@ var smokerRecipes as IItemStack[IItemStack] = {
 	<dungeontactics:fish_obsidian> : <dungeontactics:fish_obsidian_cooked>,
 	<dungeontactics:fish_tunnel> : <dungeontactics:fish_tunnel_cooked>,
 
+
 	/****** LAVACOWWW ******/
 
 	<mod_lavacow:piranha> : <mod_lavacow:piranha_cooked>,
@@ -689,6 +689,7 @@ var campfireRecipes600 as IItemStack[IItemStack] = {
 	<dungeontactics:fish_lung> : <dungeontactics:fish_lung_cooked>,
 	<dungeontactics:fish_obsidian> : <dungeontactics:fish_obsidian_cooked>,
 	<dungeontactics:fish_tunnel> : <dungeontactics:fish_tunnel_cooked>,
+
 
 	/****** LAVACOWWW ******/
 

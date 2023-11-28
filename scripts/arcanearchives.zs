@@ -7,6 +7,24 @@ import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.item.IItemTransformer;
 
 recipes.removeByRecipeName("arcanearchives:diorite");
+// Hidden arsenal items because A: they are not consistent with the rest, and B: HEI update shows them in HEI
+JEI.removeAndHide(<arcanearchives:slaughtergleam>);
+JEI.removeAndHide(<arcanearchives:murdergleam>);
+JEI.removeAndHide(<arcanearchives:agegleam>);
+JEI.removeAndHide(<arcanearchives:cleansegleam>);
+JEI.removeAndHide(<arcanearchives:switchgleam>);
+JEI.removeAndHide(<arcanearchives:salvegleam>);
+JEI.removeAndHide(<arcanearchives:munchstone>);
+JEI.removeAndHide(<arcanearchives:orderstone>);
+JEI.removeAndHide(<arcanearchives:mindspindle>);
+JEI.removeAndHide(<arcanearchives:elixirspindle>);
+JEI.removeAndHide(<arcanearchives:chromatic_powder>);
+JEI.removeAndHide(<arcanearchives:full_spectrum_chromatic_powder>);
+JEI.removeAndHide(<arcanearchives:mountaintear>);
+JEI.removeAndHide(<arcanearchives:rivertear>);
+JEI.removeAndHide(<arcanearchives:parchtear>);
+JEI.removeAndHide(<arcanearchives:phoenixway>);
+JEI.removeAndHide(<arcanearchives:stormway>);
 
 // Radiant Resonator
 recipes.remove(<arcanearchives:radiant_resonator>);

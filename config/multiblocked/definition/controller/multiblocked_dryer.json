@@ -1,5 +1,5 @@
 {
-  "consumeCatalyst": false,
+  "version": 2,
   "location": "multiblocked:dryer",
   "traits": {
     "item": [
@@ -19,30 +19,54 @@
       }
     ]
   },
-  "allowRotate": true,
-  "showInJei": true,
-  "baseRenderer": {
-    "state": {
-      "id": "minecraft:glass",
-      "meta": 0
-    },
-    "type": "blockstate"
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": false,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
   },
-  "formedRenderer": {
-    "state": {
-      "id": "minecraft:glass",
-      "meta": 0
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "minecraft:glass",
+          "meta": 0
+        },
+        "type": "blockstate"
+      }
     },
-    "type": "blockstate"
-  },
-  "workingRenderer": {
-    "state": {
-      "id": "minecraft:glass",
-      "meta": 0
+    "idle": {
+      "renderer": {
+        "state": {
+          "id": "minecraft:glass",
+          "meta": 0
+        },
+        "type": "blockstate"
+      },
+      "lightEmissive": 1,
+      "parent": "unformed"
     },
-    "type": "blockstate"
+    "working": {
+      "renderer": {
+        "state": {
+          "id": "minecraft:glass",
+          "meta": 0
+        },
+        "type": "blockstate"
+      },
+      "lightEmissive": 7,
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
   },
-  "isOpaqueCube": false,
+  "recipeMap": "empty",
   "basePattern": {
     "structureDir": [
       "BACK",
@@ -392,6 +416,5 @@
         "out"
       ]
     }
-  },
-  "recipeMap": "empty"
+  }
 }

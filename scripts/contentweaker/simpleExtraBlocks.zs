@@ -99,6 +99,17 @@ charmpeat.setToolLevel(0);
 charmpeat.setBlockHardness(3.7);
 charmpeat.register();
 
+// Halite /salt ore/
+var halite = VanillaFactory.createBlock("halite", <blockmaterial:Rock>);
+halite.setCreativeTab(<creativetab:rotn_blocks>);
+halite.setFullBlock(false);
+halite.setBlockSoundType(<soundtype:glass>);
+halite.setBlockLayer("TRANSLUCENT");
+halite.setTranslucent(true);
+halite.setLightOpacity(0);
+halite.setToolLevel(0);
+halite.register();
+
 // Salt pan
 var salt_pan = VanillaFactory.createBlock("salt_pan", <blockmaterial:Grass>);
 salt_pan.axisAlignedBB = AxisAlignedBB.create(
@@ -132,9 +143,6 @@ pumice.setBlockSoundType(<soundtype:stone>);
 pumice.setToolLevel(1);
 pumice.setBlockHardness(1.0);
 pumice.register();
-
-
-
 
 // Codex junk
 var codex_junk = VanillaFactory.createBlock("codex_junk", <blockmaterial:Grass>);
@@ -387,7 +395,7 @@ wolf_statue.axisAlignedBB = AxisAlignedBB.create(
      0.0 / 16.0,
      2.0 / 16.0,
 	14.0 / 16.0,
-    16.0 / 16.0,
+    17.0 / 16.0,
     14.0 / 16.0
 	);
 wolf_statue.setFullBlock(false);
@@ -1083,6 +1091,14 @@ witheredblock.setToolLevel(1);
 witheredblock.setToolClass("shovel");
 witheredblock.register();
 
+var ardicite = VanillaFactory.createBlock("ardicite", <blockmaterial:Glass>);
+ardicite.setCreativeTab(<creativetab:decorations>);
+ardicite.setLightValue(0.8);
+ardicite.setBlockSoundType(<soundtype:stone>);
+ardicite.setBlockHardness(20);
+ardicite.setBlockMaterial(<blockmaterial:fire>);
+ardicite.register();
+
 var star_block = VanillaFactory.createBlock("star_block", <blockmaterial:Glass>);
 star_block.setCreativeTab(<creativetab:rotn_blocks>);
 star_block.setLightValue(1.0);
@@ -1091,14 +1107,6 @@ star_block.setBlockHardness(10);
 star_block.setBlockMaterial(<blockmaterial:glass>);
 witheredblock.setToolLevel(1);
 star_block.register();
-
-var ardicite = VanillaFactory.createBlock("ardicite", <blockmaterial:Glass>);
-ardicite.setCreativeTab(<creativetab:decorations>);
-ardicite.setLightValue(0.8);
-ardicite.setBlockSoundType(<soundtype:stone>);
-ardicite.setBlockHardness(20);
-ardicite.setBlockMaterial(<blockmaterial:fire>);
-ardicite.register();
 
 var unfiredrefractory = VanillaFactory.createBlock("unfiredrefractory", <blockmaterial:Ground>);
 unfiredrefractory.setCreativeTab(<creativetab:rotn_blocks>);
@@ -2182,16 +2190,16 @@ ofuda.register();
 var serpentinite = VanillaFactory.createBlock("serpentinite", <blockmaterial:Rock>);
 serpentinite.setCreativeTab(<creativetab:rotn_blocks>);
 serpentinite.setBlockSoundType(<soundtype:stone>);
-serpentinite.setBlockHardness(18.0);
-serpentinite.setBlockResistance(15.0);
+serpentinite.setBlockHardness(20.0);
+serpentinite.setBlockResistance(20.0);
 serpentinite.setToolLevel(2);
 serpentinite.register();
 
 var serpentinite_cobblestone = VanillaFactory.createBlock("serpentinite_cobblestone", <blockmaterial:Rock>);
 serpentinite_cobblestone.setCreativeTab(<creativetab:rotn_blocks>);
 serpentinite_cobblestone.setBlockSoundType(<soundtype:stone>);
-serpentinite_cobblestone.setBlockHardness(13.0);
-serpentinite_cobblestone.setBlockResistance(15.0);
+serpentinite_cobblestone.setBlockHardness(15.0);
+serpentinite_cobblestone.setBlockResistance(20.0);
 serpentinite_cobblestone.setToolLevel(2);
 serpentinite_cobblestone.register();
 
