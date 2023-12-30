@@ -1,0 +1,34 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "aesthetics:blocks/copper_bars",
+		"edge": "aesthetics:blocks/copper_bars"
+	},
+	"elements": [
+		{
+			"from": [8, 0, 8],
+			"to": [8, 16, 9],
+			"faces": {
+				"north": {"uv": [0, 0, 0, 0], "texture": "#edge"},
+				"east": {"uv": [0, 0, 1, 16], "texture": "#edge"},
+				"south": {"uv": [5, 0, 5, 0], "texture": "#edge"},
+				"west": {"uv": [1, 0, 0, 16], "texture": "#edge"},
+				"up": {"uv": [0, 0, 0, 0], "texture": "#edge"},
+				"down": {"uv": [0, 0, 0, 0], "texture": "#edge"}
+			}
+		},
+		{
+			"from": [7, 0, 9],
+			"to": [9, 16, 9],
+			"faces": {
+				"north": {"uv": [14, 0, 12, 16], "texture": "#edge"},
+				"east": {"uv": [0, 0, 0, 0], "texture": "#edge"},
+				"south": {"uv": [12, 0, 14, 16], "texture": "#edge"},
+				"west": {"uv": [0, 0, 0, 0], "texture": "#edge"},
+				"up": {"uv": [0, 0, 0, 0], "texture": "#edge"},
+				"down": {"uv": [0, 0, 0, 0], "texture": "#edge"}
+			}
+		}
+	]
+}

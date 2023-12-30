@@ -1,0 +1,144 @@
+{
+	"credit": "Made by Foreck with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"0": "blocks/tinkering_top",
+		"1": "blocks/tinkering_detail",
+		"3": "blocks/tinkering_base",
+		"particle": "blocks/tinkering_base"
+	},
+	"elements": [
+		{
+			"name": "Anvil base",
+			"from": [2, 0, 2],
+			"to": [14, 4, 14],
+			"faces": {
+				"north": {"uv": [2, 12, 14, 16], "texture": "#3"},
+				"east": {"uv": [2, 12, 14, 16], "texture": "#3"},
+				"south": {"uv": [2, 12, 14, 16], "texture": "#3"},
+				"west": {"uv": [2, 12, 14, 16], "texture": "#3"},
+				"up": {"uv": [2, 1, 14, 13], "rotation": 180, "texture": "#3"},
+				"down": {"uv": [2, 1, 14, 13], "rotation": 180, "texture": "#3", "cullface": "down"}
+			}
+		},
+		{
+			"name": "Wider section beneath top portion",
+			"from": [6, 4, 4],
+			"to": [10, 12, 12],
+			"faces": {
+				"north": {"uv": [3, 4, 7, 12], "texture": "#1"},
+				"east": {"uv": [1, 12, 9, 4], "texture": "#1"},
+				"south": {"uv": [3, 4, 7, 12], "texture": "#1"},
+				"west": {"uv": [1, 4, 9, 12], "texture": "#1"}
+			}
+		},
+		{
+			"name": "Anvil top",
+			"from": [2, 12, 0],
+			"to": [14, 16, 16],
+			"faces": {
+				"north": {"uv": [12, 2, 16, 14], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [16, 0, 12, 16], "rotation": 270, "texture": "#0"},
+				"south": {"uv": [12, 2, 16, 14], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [12, 0, 16, 16], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [0, 0, 12, 16], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [2, 0, 14, 16], "rotation": 180, "texture": "#3"}
+			}
+		},
+		{
+			"name": "Sout leather",
+			"from": [3, 8, 16],
+			"to": [13, 12, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 16]},
+			"faces": {
+				"north": {"uv": [0, 0, 9.975, 4], "texture": "#1"},
+				"south": {"uv": [0, 0, 9.975, 4], "texture": "#1"}
+			}
+		},
+		{
+			"name": "Sout leather",
+			"from": [3, 8, 0],
+			"to": [13, 12, 0],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 16]},
+			"faces": {
+				"north": {"uv": [0, 0, 9.975, 4], "texture": "#1"},
+				"south": {"uv": [0, 0, 9.975, 4], "texture": "#1"}
+			}
+		},
+		{
+			"name": "Sout leather",
+			"from": [14, 8, 3],
+			"to": [14, 12, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 16]},
+			"faces": {
+				"east": {"uv": [0, 0, 9.975, 4], "texture": "#1"},
+				"west": {"uv": [0, 0, 9.975, 4], "texture": "#1"}
+			}
+		},
+		{
+			"name": "Sout leather",
+			"from": [2, 8, 3],
+			"to": [2, 12, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 16]},
+			"faces": {
+				"east": {"uv": [0, 0, 9.975, 4], "texture": "#1"},
+				"west": {"uv": [0, 0, 9.975, 4], "texture": "#1"}
+			}
+		},
+		{
+			"from": [3, 7, 2],
+			"to": [13, 9, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 16]},
+			"faces": {
+				"north": {"uv": [3, 0, 13, 2], "texture": "#3"},
+				"east": {"uv": [2, 0, 14, 2], "texture": "#3"},
+				"south": {"uv": [3, 0, 13, 2], "texture": "#3"},
+				"west": {"uv": [2, 0, 14, 2], "texture": "#3"},
+				"up": {"uv": [2, 2, 14, 12], "rotation": 270, "texture": "#3"},
+				"down": {"uv": [2, 2, 14, 12], "rotation": 90, "texture": "#3"}
+			}
+		},
+		{
+			"name": "paper",
+			"from": [5, 16.01, 1],
+			"to": [11, 16.01, 5],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [8, 16.01, 6]},
+			"faces": {
+				"up": {"uv": [10, 0, 16, 4], "texture": "#1"}
+			}
+		},
+		{
+			"name": "tool_pointy",
+			"from": [3, 9.01, 3],
+			"to": [6, 9.01, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-1.46297, 16.01, 6.67251]},
+			"faces": {
+				"up": {"uv": [5, 13, 15, 16], "rotation": 270, "texture": "#1"}
+			}
+		},
+		{
+			"name": "tool_pliers",
+			"from": [5.99, 4, 5],
+			"to": [5.99, 7, 11],
+			"rotation": {"angle": 0, "axis": "z", "origin": [7.5, 9.01, 12.5]},
+			"faces": {
+				"west": {"uv": [10, 5, 16, 8], "rotation": 180, "texture": "#1"}
+			}
+		},
+		{
+			"name": "tool_saw",
+			"from": [10, 9.01, 4],
+			"to": [13, 9.01, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-1.46297, 16.01, 6.67251]},
+			"faces": {
+				"up": {"uv": [13, 4.025, 16, 13], "rotation": 180, "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [0, 90, 0],
+			"scale": [0.5, 0.5, 0.5]
+		}
+	}
+}

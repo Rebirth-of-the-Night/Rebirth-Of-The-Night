@@ -1,0 +1,8 @@
+{
+	"parent": "block/stairs",
+	"textures": {
+        "bottom": "undergroundbiomes:blocks/greywacke_cobble",
+        "top": "undergroundbiomes:blocks/greywacke_cobble",
+        "side": "undergroundbiomes:blocks/greywacke_cobble"
+	}
+}

@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "ceramics:barrel"
+  },
+  "variants": {
+    "color": {
+      "black": { "textures": { "texture": "contenttweaker:blocks/refracotta/refracotta_black" }},
+      "red": { "textures": { "texture": "contenttweaker:blocks/refracotta/refracotta_red" }},
+      "green": { "textures": { "texture": "contenttweaker:blocks/refracotta/refracotta_green" }},
+      "brown": { "textures": { "texture": "contenttweaker:blocks/refracotta/refracotta_brown" }},
+      "blue": { "textures": { "texture": "contenttweaker:blocks/refracotta/refracotta_blue" }},
+      "purple": { "textures": { "texture": "contenttweaker:blocks/refracotta/refracotta_purple" }},
+      "cyan": { "textures": { "texture": "contenttweaker:blocks/refracotta/refracotta_cyan" }},
+      "silver": { "textures": { "texture": "contenttweaker:blocks/refracotta/refracotta_light_gray" }},
+      "gray": { "textures": { "texture": "contenttweaker:blocks/refracotta/refracotta_gray" }},
+      "pink": { "textures": { "texture": "contenttweaker:blocks/refracotta/refracotta_pink" }},
+      "lime": { "textures": { "texture": "contenttweaker:blocks/refracotta/refracotta_lime" }},
+      "yellow": { "textures": { "texture": "contenttweaker:blocks/refracotta/refracotta_yellow" }},
+      "light_blue": { "textures": { "texture": "contenttweaker:blocks/refracotta/refracotta_light_blue" }},
+      "magenta": { "textures": { "texture": "contenttweaker:blocks/refracotta/refracotta_magenta" }},
+      "orange": { "textures": { "texture": "contenttweaker:blocks/refracotta/refracotta_orange" }},
+      "white": { "textures": { "texture": "contenttweaker:blocks/refracotta/refracotta_white" }}
+    }
+  }
+}

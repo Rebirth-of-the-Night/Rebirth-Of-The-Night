@@ -14,20 +14,11 @@
 		"logo":
         {
             "image" : "rotn:textures/rotn.png",
-            "posX" : 30,
-            "posY" : 20,
+            "posX" : 10,
+            "posY" : 10,
             "width" : 512,
             "height" : 512,
             "alignment" : "top_left"
-        },
-        "akliz":
-        {
-            "image" : "rotn:textures/AklizBadge.png",
-            "posX" : -50,
-            "posY" : -25,
-            "width" : 50,
-            "height" : 24,
-            "alignment" : "bottom_right"
         }
 	
 	},
@@ -54,55 +45,6 @@
             }
         },	
 
-        "optifineRequired":
-        {
-            "text" : "Required!",
-            "normalTextColor" : 16711680,
-            "hoverTextColor" : 16711680,
-			"texture" : "rotn:textures/btn.png",
-            "posX" : -100,
-            "posY" : 10,
-            "width" : 100,
-            "height" : 20,
-			"imageWidth" : 0,
-			"imageHeight" : 0,
-			"alignment" : "top_right"
-        },
-
-        "musicRecommended":
-        {
-            "text" : "Recommended!",
-            "normalTextColor" : 65280,
-            "hoverTextColor" : 65280,
-			"texture" : "rotn:textures/btn.png",
-            "posX" : -100,
-            "posY" : 37,
-            "width" : 100,
-            "height" : 20,
-			"imageWidth" : 0,
-			"imageHeight" : 0,
-			"alignment" : "top_right"
-        },
-
-        "optifine":
-        {
-            "text" : "Install OptiFine",
-			"normalTextColor" : 12303291,
-			"hoverTextColor" : 3125670,
-			"texture" : "rotn:textures/btn.png",
-            "posX" : -100,
-            "posY" : -2,
-            "width" : 100,
-            "height" : 27,
-			"imageWidth" : 100,
-			"imageHeight" : 50,
-			"alignment" : "top_right",
-            "action" : 
-            {
-                "type" : "openLink",
-                "link" : "https://rebirth-of-the-night-mod-pack.fandom.com/wiki/Installation#Installing_OptiFine_.28required.21.29"
-            }
-        },
         "music":
         {
             "text" : "Install Custom Music",
@@ -157,7 +99,7 @@
             "action" : 
             {
                 "type" : "openLink",
-                "link" : "https://rebirth-of-the-night-mod-pack.fandom.com/wiki/Rebirth_of_the_Night_Mod_Pack_Wiki"
+                "link" : "https://rotn.wiki.gg/wiki/Rebirth_of_the_Night_Wiki"
             }
         },
         "tips":
@@ -176,7 +118,7 @@
             "action" : 
             {
                 "type" : "openLink",
-                "link" : "https://rebirth-of-the-night-mod-pack.fandom.com/wiki/Tips"
+                "link" : "https://rotn.wiki.gg/wiki/Tips"
             }
         },
         "patreon":
@@ -196,26 +138,6 @@
             {
                 "type" : "openLink",
                 "link" : "https://www.patreon.com/rebirthofthenight"
-            }
-        },
-
-        "server":
-        {
-            "text" : "Get A Server!",
-            "normalTextColor" : 16776960,
-            "hoverTextColor" : 3125670,
-            "texture" : "rotn:textures/btn.png",
-            "posX" : -137,
-            "posY" : -23,
-            "width" : 100,
-            "height" : 20,
-            "imageWidth" : 100,
-            "imageHeight" : 50,
-            "alignment" : "bottom_right",
-            "action" : 
-            {
-                "type" : "openLink",
-                "link" : "https://www.akliz.net/rebirthofthenight"
             }
         },
 
@@ -340,7 +262,7 @@
     "labels":
     {
         "packName": {
-            "text": "Version 2.77.5 (In Development)",
+            "text": "Version 2.777",
             "posX": 2,
             "posY": -10,
             "color": 450,
@@ -352,7 +274,7 @@
     {
         "splash-text":
         {
-            "posX" : -40,
+            "posX" : 5,
             "posY" : 70,
             "color" : -256,
             "alignment" : "top_center",
@@ -364,20 +286,7 @@
             "image" : "",
             "slideshow":
             {
-                "images" : ["rotn:textures/background/1.png","rotn:textures/background/2.png","rotn:textures/background/3.png","rotn:textures/background/4.png","rotn:textures/background/5.png",
-                    "rotn:textures/background/6.png","rotn:textures/background/7.png","rotn:textures/background/8.png","rotn:textures/background/9.png",
-                    "rotn:textures/background/10.png","rotn:textures/background/11.png","rotn:textures/background/12.png","rotn:textures/background/13.png","rotn:textures/background/14.png",
-                    "rotn:textures/background/15.png",
-                    "rotn:textures/background/16.png","rotn:textures/background/17.png","rotn:textures/background/18.png","rotn:textures/background/19.png",
-                    "rotn:textures/background/20.png","rotn:textures/background/21.png","rotn:textures/background/22.png","rotn:textures/background/23.png","rotn:textures/background/24.png",
-                    "rotn:textures/background/25.png",
-                    "rotn:textures/background/26.png","rotn:textures/background/27.png","rotn:textures/background/28.png","rotn:textures/background/29.png",
-                    "rotn:textures/background/30.png","rotn:textures/background/31.png","rotn:textures/background/32.png","rotn:textures/background/33.png","rotn:textures/background/34.png",
-                    "rotn:textures/background/35.png",
-                    "rotn:textures/background/36.png","rotn:textures/background/37.png","rotn:textures/background/38.png","rotn:textures/background/39.png",
-                    "rotn:textures/background/40.png","rotn:textures/background/41.png","rotn:textures/background/42.png","rotn:textures/background/43.png","rotn:textures/background/44.png",
-                    "rotn:textures/background/45.png",
-                    "rotn:textures/background/46.png","rotn:textures/background/47.png"],
+                "images" : ["rotn:textures/background/1.png","rotn:textures/background/2.png"],
                 "displayDuration" : 100,
                 "fadeDuration" : 40,
                 "shuffle": true

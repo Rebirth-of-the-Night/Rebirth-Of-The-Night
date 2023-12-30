@@ -1,0 +1,73 @@
+{
+	"credit": "ozymandias",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "cyclicmagic:items/water_spreader"
+	},
+	"elements": [
+		{
+			"name": "gauntlet",
+			"from": [5, 0, 6],
+			"to": [10, 9, 11],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 4.5], "texture": "#0"},
+				"east": {"uv": [2.5, 0, 5, 4.5], "texture": "#0"},
+				"south": {"uv": [0, 4.5, 2.5, 9], "texture": "#0"},
+				"west": {"uv": [2.5, 4.5, 5, 9], "texture": "#0"},
+				"up": {"uv": [7.5, 2.5, 5, 0], "texture": "#0"},
+				"down": {"uv": [7.5, 2.5, 5, 5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "spell",
+			"from": [2, 10, 3],
+			"to": [13, 10, 14],
+			"faces": {
+				"north": {"uv": [0, 0, 4.25, 0], "texture": "#0"},
+				"east": {"uv": [0, 0, 4.25, 0], "texture": "#0"},
+				"south": {"uv": [0, 0, 4.25, 0], "texture": "#0"},
+				"west": {"uv": [0, 0, 4.25, 0], "texture": "#0"},
+				"up": {"uv": [13.5, 13.5, 5, 5], "texture": "#0"},
+				"down": {"uv": [13.5, 5, 5, 13.5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-88.25, 0, 0],
+			"translation": [0.5, -2.25, -0.25],
+			"scale": [0.9, 0.9, 0.9]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-88.25, 0, 0],
+			"translation": [0.5, -2.25, -0.25],
+			"scale": [0.9, 0.9, 0.9]
+		},
+		"firstperson_righthand": {
+			"rotation": [110.91, -62.57, -174.47],
+			"translation": [1.13, 3.2, -0.12],
+			"scale": [0.68, 0.68, 0.68]
+		},
+		"firstperson_lefthand": {
+			"rotation": [110.91, -62.57, -174.47],
+			"translation": [1.13, 3.2, -0.12],
+			"scale": [0.68, 0.68, 0.68]
+		},
+		"ground": {
+			"rotation": [24.64, 13.11, 55.43],
+			"translation": [0, 0.25, 0],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"gui": {
+			"rotation": [-133.82, -27.84, -153.35],
+			"translation": [1, 0.75, 0]
+		},
+		"head": {
+			"translation": [1.25, 9.75, 0],
+			"scale": [2, 2, 2]
+		},
+		"fixed": {
+			"rotation": [0, 180, 0]
+		}
+	}
+}

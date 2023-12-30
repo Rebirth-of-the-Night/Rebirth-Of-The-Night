@@ -1,0 +1,27 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "textures": {
+            "texture": "aether_legacy:blocks/zanite_trapdoor"
+        }
+    },
+    "variants": {
+        "inventory": { "model": "minecraft:trapdoor_bottom", "textures": {"texture": "aether_legacy:blocks/zanite_trapdoor"} },
+        "facing=north,half=bottom,open=false": { "model": "minecraft:trapdoor_bottom", "textures": {"texture": "aether_legacy:blocks/zanite_trapdoor"} },
+        "facing=south,half=bottom,open=false": { "model": "minecraft:trapdoor_bottom", "textures": {"texture": "aether_legacy:blocks/zanite_trapdoor"}, "y": 180 },
+        "facing=east,half=bottom,open=false": { "model": "minecraft:trapdoor_bottom", "textures": {"texture": "aether_legacy:blocks/zanite_trapdoor"}, "y": 90 },
+        "facing=west,half=bottom,open=false": { "model": "minecraft:trapdoor_bottom", "textures": {"texture": "aether_legacy:blocks/zanite_trapdoor"}, "y": 270 },
+        "facing=north,half=top,open=false": { "model": "minecraft:trapdoor_top", "textures": {"texture": "aether_legacy:blocks/zanite_trapdoor"} },
+        "facing=south,half=top,open=false": { "model": "minecraft:trapdoor_top", "textures": {"texture": "aether_legacy:blocks/zanite_trapdoor"}, "y": 180 },
+        "facing=east,half=top,open=false": { "model": "minecraft:trapdoor_top", "textures": {"texture": "aether_legacy:blocks/zanite_trapdoor"}, "y": 90 },
+        "facing=west,half=top,open=false": { "model": "minecraft:trapdoor_top", "textures": {"texture": "aether_legacy:blocks/zanite_trapdoor"}, "y": 270 },
+        "facing=north,half=bottom,open=true": { "model": "minecraft:trapdoor_open", "textures": {"texture": "aether_legacy:blocks/zanite_trapdoor"} },
+        "facing=south,half=bottom,open=true": { "model": "minecraft:trapdoor_open", "textures": {"texture": "aether_legacy:blocks/zanite_trapdoor"}, "y": 180 },
+        "facing=east,half=bottom,open=true": { "model": "minecraft:trapdoor_open", "textures": {"texture": "aether_legacy:blocks/zanite_trapdoor"}, "y": 90 },
+        "facing=west,half=bottom,open=true": { "model": "minecraft:trapdoor_open", "textures": {"texture": "aether_legacy:blocks/zanite_trapdoor"}, "y": 270 },
+        "facing=north,half=top,open=true": { "model": "minecraft:trapdoor_open", "textures": {"texture": "aether_legacy:blocks/zanite_trapdoor"} },
+        "facing=south,half=top,open=true": { "model": "minecraft:trapdoor_open", "textures": {"texture": "aether_legacy:blocks/zanite_trapdoor"}, "y": 180 },
+        "facing=east,half=top,open=true": { "model": "minecraft:trapdoor_open", "textures": {"texture": "aether_legacy:blocks/zanite_trapdoor"}, "y": 90 },
+        "facing=west,half=top,open=true": { "model": "minecraft:trapdoor_open", "textures": {"texture": "aether_legacy:blocks/zanite_trapdoor"}, "y": 270 }
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+	  "end": "contenttweaker:blocks/diatomite_top",
+      "side": "contenttweaker:blocks/diatomite",
+      "particle": "contenttweaker:blocks/diatomite"
+    },
+    "model": "contenttweaker:diatomite",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

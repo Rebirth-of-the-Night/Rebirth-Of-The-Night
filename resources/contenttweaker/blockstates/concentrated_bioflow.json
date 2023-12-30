@@ -1,0 +1,12 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "forge:fluid",
+    "custom": {
+      "fluid": "concentrated_bioflow"
+    }
+  },
+  "variants": {
+    "normal": [{}]
+  }
+}

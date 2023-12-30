@@ -1,0 +1,44 @@
+item.berries.name=Hawberry
+tile.plant_0.berrybush.name=Hawthorn Bush
+
+item.jar_empty.name=Mason Jar
+tile.blue_fire.name=Cursed Fire
+item.jar_filled_blue_fire.name=Cursed Fire Mason Jar
+item.gem_peridot.name=Peridot
+tile.gem_block.peridot_block.name=Block of Peridot
+tile.gem_ore.peridot_ore.name=Peridot Ore
+
+item.jar_filled_honey.name=Honey Mason Jar
+
+
+potion.curse=Pandemonium
+
+entity.wasp.name=Helwasp
+
+tile.honey_block.name=Honey Residue
+
+tile.gem_block.amethyst_block.name=Block of Exorite
+tile.gem_ore.amethyst_ore.name=Exorite Ore
+
+tile.ash_block.name=Block of Ashes
+
+tile.grass.daisy_grass_block.name=Composite Flowering Grass Block
+tile.grass.overgrown_stone.name=Limestone Overgrown Stone
+
+tile.log_0.sacred_oak_log.name=Sacred Oak Log
+tile.log_0.cherry_log.name=Cherry Log
+tile.log_0.umbran_log.name=Umbran Log
+tile.log_0.fir_log.name=Fir Log
+tile.log_1.ethereal_log.name=Ethereal Log
+tile.log_1.magic_log.name=Magic Log
+tile.log_1.mangrove_log.name=Mangrove Log
+tile.log_1.palm_log.name=Palm Log
+tile.log_2.redwood_log.name=Redwood Log
+tile.log_2.willow_log.name=Willow Log
+tile.log_2.pine_log.name=Pine Log
+tile.log_2.hellbark_log.name=Hellbark Log
+tile.log_3.jacaranda_log.name=Jacaranda Log
+tile.log_3.mahogany_log.name=Mahogany Log
+tile.log_3.ebony_log.name=Ebony Log
+tile.log_3.eucalyptus_log.name=Eucalyptus Log
+tile.log_4.dead_log.name=Dead Log

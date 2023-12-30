@@ -1,0 +1,6 @@
+{
+    "parent":"spartanweaponry:item/battleaxe_wood",
+    "textures": {
+        "layer0":"spartanweaponry:items/battleaxe_bronze"
+    }
+}

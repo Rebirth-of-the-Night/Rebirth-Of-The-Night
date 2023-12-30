@@ -1,0 +1,6 @@
+{
+    "parent":"spartanweaponry:item/longsword_wood",
+    "textures": {
+        "layer0":"spartanweaponry:items/longsword_bronze"
+    }
+}

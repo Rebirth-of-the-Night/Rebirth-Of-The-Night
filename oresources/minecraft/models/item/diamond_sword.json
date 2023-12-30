@@ -1,0 +1,41 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "items/diamond_sword"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 55],
+			"translation": [0, 13.5, -0.75],
+			"scale": [1.8, 1.8, 1.8]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, -55],
+			"translation": [0, 12.75, -0.5],
+			"scale": [1.7, 1.7, 1.7]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -90, 30],
+			"translation": [1, 8, 1.75],
+			"scale": [1.6, 1.6, 1.6]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 90, -30],
+			"translation": [1.75, 8.75, 1],
+			"scale": [1.6, 1.6, 1.6]
+		},
+		"ground": {
+			"translation": [0, 6.5, 0],
+			"scale": [1.6, 1.6, 1.6]
+		},
+		"gui": {
+			"translation": [4, 4, 0],
+			"scale": [1.48, 1.48, 1.7]
+		},
+		"fixed": {
+			"translation": [4.5, 4.5, 0],
+			"scale": [1.7, 1.7, 1.6]
+		}
+	}
+}

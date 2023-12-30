@@ -1,0 +1,23 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+	  "0": "contenttweaker:blocks/jungle_mossy",
+	  "1": "contenttweaker:blocks/jungle_mossy_top",
+	  "2": "contenttweaker:blocks/redwood_mossy_bot",
+	  "particle": "contenttweaker:blocks/jungle_mossy_top"
+    },
+    "model": "contenttweaker:seasoned_stump",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{
+      "model": "contenttweaker:item/seasoned_stump",
+      "textures": {
+        "layer0": "contenttweaker:items/seasoned_stump"
+      }
+    }]
+  }
+}

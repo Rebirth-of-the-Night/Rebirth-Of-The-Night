@@ -1,0 +1,43 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "textures": {
+			"bottom": "aether_legacy:blocks/door_skyroot_lower",
+			"top": "aether_legacy:blocks/door_skyroot_upper"
+		}
+    },
+    "variants": {
+        "facing=east,half=lower,hinge=left,open=false":  { "model": "minecraft:door_bottom", "textures": {"texture": "aether_legacy:blocks/door_skyroot_lower"} },
+        "facing=south,half=lower,hinge=left,open=false": { "model": "minecraft:door_bottom", "textures": {"texture": "aether_legacy:blocks/door_skyroot_lower"}, "y": 90 },
+        "facing=west,half=lower,hinge=left,open=false":  { "model": "minecraft:door_bottom", "textures": {"texture": "aether_legacy:blocks/door_skyroot_lower"}, "y": 180 },
+        "facing=north,half=lower,hinge=left,open=false": { "model": "minecraft:door_bottom", "textures": {"texture": "aether_legacy:blocks/door_skyroot_lower"}, "y": 270 },
+        "facing=east,half=lower,hinge=right,open=false":  { "model": "minecraft:door_bottom_rh", "textures": {"texture": "aether_legacy:blocks/door_skyroot_lower"} },
+        "facing=south,half=lower,hinge=right,open=false": { "model": "minecraft:door_bottom_rh", "textures": {"texture": "aether_legacy:blocks/door_skyroot_lower"}, "y": 90 },
+        "facing=west,half=lower,hinge=right,open=false":  { "model": "minecraft:door_bottom_rh", "textures": {"texture": "aether_legacy:blocks/door_skyroot_lower"}, "y": 180 },
+        "facing=north,half=lower,hinge=right,open=false": { "model": "minecraft:door_bottom_rh", "textures": {"texture": "aether_legacy:blocks/door_skyroot_lower"}, "y": 270 },
+        "facing=east,half=lower,hinge=left,open=true":  { "model": "minecraft:door_bottom_rh", "textures": {"texture": "aether_legacy:blocks/door_skyroot_lower"}, "y": 90 },
+        "facing=south,half=lower,hinge=left,open=true": { "model": "minecraft:door_bottom_rh", "textures": {"texture": "aether_legacy:blocks/door_skyroot_lower"}, "y": 180 },
+        "facing=west,half=lower,hinge=left,open=true":  { "model": "minecraft:door_bottom_rh", "textures": {"texture": "aether_legacy:blocks/door_skyroot_lower"}, "y": 270 },
+        "facing=north,half=lower,hinge=left,open=true": { "model": "minecraft:door_bottom_rh", "textures": {"texture": "aether_legacy:blocks/door_skyroot_lower"} },
+        "facing=east,half=lower,hinge=right,open=true":  { "model": "minecraft:door_bottom", "textures": {"texture": "aether_legacy:blocks/door_skyroot_lower"}, "y": 270 },
+        "facing=south,half=lower,hinge=right,open=true": { "model": "minecraft:door_bottom", "textures": {"texture": "aether_legacy:blocks/door_skyroot_lower"} },
+        "facing=west,half=lower,hinge=right,open=true":  { "model": "minecraft:door_bottom", "textures": {"texture": "aether_legacy:blocks/door_skyroot_lower"}, "y": 90 },
+        "facing=north,half=lower,hinge=right,open=true": { "model": "minecraft:door_bottom", "textures": {"texture": "aether_legacy:blocks/door_skyroot_lower"}, "y": 180 },
+        "facing=east,half=upper,hinge=left,open=false":  { "model": "minecraft:door_top", "textures": {"texture": "aether_legacy:blocks/door_skyroot_upper"} },
+        "facing=south,half=upper,hinge=left,open=false": { "model": "minecraft:door_top", "textures": {"texture": "aether_legacy:blocks/door_skyroot_upper"}, "y": 90 },
+        "facing=west,half=upper,hinge=left,open=false":  { "model": "minecraft:door_top", "textures": {"texture": "aether_legacy:blocks/door_skyroot_upper"}, "y": 180 },
+        "facing=north,half=upper,hinge=left,open=false": { "model": "minecraft:door_top", "textures": {"texture": "aether_legacy:blocks/door_skyroot_upper"}, "y": 270 },
+        "facing=east,half=upper,hinge=right,open=false":  { "model": "minecraft:door_top_rh", "textures": {"texture": "aether_legacy:blocks/door_skyroot_upper"} },
+        "facing=south,half=upper,hinge=right,open=false": { "model": "minecraft:door_top_rh", "textures": {"texture": "aether_legacy:blocks/door_skyroot_upper"}, "y": 90 },
+        "facing=west,half=upper,hinge=right,open=false":  { "model": "minecraft:door_top_rh", "textures": {"texture": "aether_legacy:blocks/door_skyroot_upper"}, "y": 180 },
+        "facing=north,half=upper,hinge=right,open=false": { "model": "minecraft:door_top_rh", "textures": {"texture": "aether_legacy:blocks/door_skyroot_upper"}, "y": 270 },
+        "facing=east,half=upper,hinge=left,open=true":  { "model": "minecraft:door_top_rh", "textures": {"texture": "aether_legacy:blocks/door_skyroot_upper"}, "y": 90 },
+        "facing=south,half=upper,hinge=left,open=true": { "model": "minecraft:door_top_rh", "textures": {"texture": "aether_legacy:blocks/door_skyroot_upper"}, "y": 180 },
+        "facing=west,half=upper,hinge=left,open=true":  { "model": "minecraft:door_top_rh", "textures": {"texture": "aether_legacy:blocks/door_skyroot_upper"}, "y": 270 },
+        "facing=north,half=upper,hinge=left,open=true": { "model": "minecraft:door_top_rh", "textures": {"texture": "aether_legacy:blocks/door_skyroot_upper"} },
+        "facing=east,half=upper,hinge=right,open=true":  { "model": "minecraft:door_top", "textures": {"texture": "aether_legacy:blocks/door_skyroot_upper"}, "y": 270 },
+        "facing=south,half=upper,hinge=right,open=true": { "model": "minecraft:door_top", "textures": {"texture": "aether_legacy:blocks/door_skyroot_upper"} },
+        "facing=west,half=upper,hinge=right,open=true":  { "model": "minecraft:door_top", "textures": {"texture": "aether_legacy:blocks/door_skyroot_upper"}, "y": 90 },
+        "facing=north,half=upper,hinge=right,open=true": { "model": "minecraft:door_top", "textures": {"texture": "aether_legacy:blocks/door_skyroot_upper"}, "y": 180 }
+    }
+}

@@ -1,0 +1,16 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+		"0": "betterwithaddons:blocks/ancestry_sand",
+		"1": "betterwithaddons:blocks/ancestry_yuck"
+    },
+    "model": "betterwithaddons:ancestry_sand",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

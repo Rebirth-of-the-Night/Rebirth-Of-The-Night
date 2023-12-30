@@ -1,6 +1,0 @@
-{
-    "parent":"spartanweaponry:item/boomerang_base",
-    "textures": {
-        "layer0":"spartanweaponry:items/boomerang_bronze"
-    }
-}

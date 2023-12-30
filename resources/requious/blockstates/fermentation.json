@@ -1,0 +1,26 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "requious:fermentation",
+        "transform": "forge:default-block"
+    },
+  "variants":{
+    "normal":[{}],
+    "inventory":[{
+      "model": "requious:fermentation",
+      "transform": "forge:default-item"
+    }],
+    "facing": {
+		"down":  { },
+        "up":    { },
+        "north": { },
+        "south": { },
+        "west":  { },
+        "east":  { }
+    },
+    "active": {
+      "true": {},
+      "false": {}
+    }
+  }
+}

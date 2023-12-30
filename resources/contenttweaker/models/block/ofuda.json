@@ -1,0 +1,17 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "contenttweaker:blocks/ofuda",
+		"particle": "contenttweaker:blocks/ofuda"
+	},
+	"elements": [
+		{
+			"from": [4, 0, 8],
+			"to": [12, 16, 8],
+			"faces": {
+				"north": {"uv": [4, 0, 12, 16], "texture": "#0"},
+				"south": {"uv": [4, 0, 12, 16], "texture": "#0"}
+			}
+		}
+	]
+}

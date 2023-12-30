@@ -1,0 +1,21 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "texture": "contenttweaker:items/viridea",
+      "particle": "contenttweaker:blocks/raw_viridium_block"
+    },
+    "model": "contenttweaker:viridea",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{
+      "model": "contenttweaker:items/viridea",
+      "textures": {
+        "layer0": "contenttweaker:items/viridea"
+      }
+    }]
+  }
+}

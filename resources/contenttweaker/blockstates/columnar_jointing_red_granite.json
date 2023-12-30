@@ -1,0 +1,17 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "top": "undergroundbiomes:blocks/columnar_jointing_red_granite_top",
+	  "side": "undergroundbiomes:blocks/columnar_jointing_red_granite_side",
+      "particle": "undergroundbiomes:blocks/columnar_jointing_red_granite_top"
+    },
+    "model": "contenttweaker:base_column",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

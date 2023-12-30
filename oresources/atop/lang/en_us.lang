@@ -1,0 +1,91 @@
+item.amber_helmet.name=Amber Helmet
+item.amber_chestplate.name=Amber Chestplate
+item.amber_leggings.name=Amber Leggings
+item.amber_boots.name=Amber Boots
+item.amber_shovel.name=Gravitite Shovel
+item.amber_pickaxe.name=Gravitite Pickaxe
+item.amber_axe.name=Gravitite Axe
+item.amber_hoe.name=Amber Hoe
+item.amber_sword.name=§dCalaMariGold マリ
+
+item.amethyst_helmet.name=Exorite Helmet
+item.amethyst_chestplate.name=Exorite Chestplate
+item.amethyst_leggings.name=Exorite Leggings
+item.amethyst_boots.name=Exorite Boots
+item.amethyst_shovel.name=Exorite Shovel
+item.amethyst_pickaxe.name=Exorite Pickaxe
+item.amethyst_axe.name=Exorite Axe
+item.amethyst_hoe.name=Exorite Hoe
+item.amethyst_sword.name=§dConvergence
+
+item.malachite_helmet.name=Malachite Helmet
+item.malachite_chestplate.name=Malachite Chestplate
+item.malachite_leggings.name=Malachite Leggings
+item.malachite_boots.name=Malachite Boots
+item.malachite_shovel.name=Malachite Shovel
+item.malachite_pickaxe.name=Malachite Pickaxe
+item.malachite_axe.name=Malachite Axe
+item.malachite_hoe.name=Malachite Hoe
+item.malachite_sword.name=Malachite Arming Sword
+
+item.mud_helmet.name=Bronze Helmet
+item.mud_chestplate.name=Bronze Cuirass
+item.mud_leggings.name=Bronze Leggings
+item.mud_boots.name=Bronze Boots
+item.mud_shovel.name=Bronze Shovel
+item.mud_pickaxe.name=Bronze Pickaxe
+item.mud_axe.name=Bronze Axe
+item.mud_hoe.name=Bronze Hoe
+item.mud_sword.name=Bronze Gladius
+
+item.peridot_helmet.name=§aPeridot Helmet
+item.peridot_chestplate.name=§aPeridot Chestplate
+item.peridot_leggings.name=§aPeridot Leggings
+item.peridot_boots.name=§aPeridot Boots
+item.peridot_shovel.name=§aPeridot Shovel
+item.peridot_pickaxe.name=§aPeridot Pickaxe
+item.peridot_axe.name=§aPeridot Axe
+item.peridot_hoe.name=§aPeridot Hoe
+item.peridot_sword.name=§aPeridot Scimitar
+
+item.ruby_helmet.name=§cRuby Helmet
+item.ruby_chestplate.name=§cRuby Chestplate
+item.ruby_leggings.name=§cRuby Leggings
+item.ruby_boots.name=§cRuby Boots
+item.ruby_shovel.name=§cRuby Shovel
+item.ruby_pickaxe.name=§cRuby Pickaxe
+item.ruby_axe.name=§cRuby Axe
+item.ruby_hoe.name=§cRuby Hoe
+item.ruby_sword.name=§cRuby Rondel
+
+item.sapphire_helmet.name=§9Sapphire Helmet
+item.sapphire_chestplate.name=§9Sapphire Chestplate
+item.sapphire_leggings.name=§9Sapphire Leggings
+item.sapphire_boots.name=§9Sapphire Boots
+item.sapphire_shovel.name=§9Sapphire Shovel
+item.sapphire_pickaxe.name=§9Sapphire Pickaxe
+item.sapphire_axe.name=§9Sapphire Axe
+item.sapphire_hoe.name=§9Sapphire Hoe
+item.sapphire_sword.name=§9Sapphire Kriegsmesser
+
+item.tanzanite_helmet.name=Floral Crown
+item.tanzanite_chestplate.name=Floral Mantle
+item.tanzanite_leggings.name=Floral Wrappings
+item.tanzanite_boots.name=Floral Anklets 
+item.tanzanite_shovel.name=Tanzanite Shovel
+item.tanzanite_pickaxe.name=Tanzanite Pickaxe
+item.tanzanite_axe.name=Tanzanite Axe
+item.tanzanite_hoe.name=Tanzanite Hoe
+item.tanzanite_sword.name=Tanzanite Sword
+
+item.topaz_helmet.name=Topaz Helmet
+item.topaz_chestplate.name=Topaz Chestplate
+item.topaz_leggings.name=Topaz Leggings
+item.topaz_boots.name=Topaz Boots
+item.topaz_shovel.name=Topaz Shovel
+item.topaz_pickaxe.name=Topaz Pickaxe
+item.topaz_axe.name=Topaz Axe
+item.topaz_hoe.name=Topaz Hoe
+item.topaz_sword.name=§dCovenant
+
+itemGroup.tabATOP=ATOP

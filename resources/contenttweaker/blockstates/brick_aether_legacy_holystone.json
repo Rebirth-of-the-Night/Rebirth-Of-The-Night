@@ -1,0 +1,16 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "all": "aether_legacy:blocks/holystone_brick",
+      "particle": "aether_legacy:blocks/holystone_brick"
+    },
+    "model": "contenttweaker:base_block",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

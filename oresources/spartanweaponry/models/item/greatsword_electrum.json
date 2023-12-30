@@ -1,0 +1,33 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "spartanweaponry:items/greatsword_electrum"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 55],
+			"translation": [0, 13.25, -0.75],
+			"scale": [1.9, 1.9, 1.7]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, -55],
+			"translation": [0, 13.5, 0.75],
+			"scale": [1.9, 1.9, 1.7]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -90, 55],
+			"translation": [1, 6, -1.75],
+			"scale": [1.6, 1.6, 0.95]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 90, -55],
+			"translation": [1, 6, -1.75],
+			"scale": [1.6, 1.6, 0.95]
+		},
+		"ground": {
+			"translation": [0, 4.25, 0],
+			"scale": [1.6, 1.6, 0.95]
+		}
+	}
+}

@@ -1,0 +1,18 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "bucket": "blocks/clay"
+    }
+  },
+  "variants": {
+    "normal": {
+      "model": "ceramics:bucket"
+    },
+    "inventory": {
+      "transform": "forge:default-item",
+      "model": "forge:item-layer",
+      "textures": { "layer0": "ceramics:items/unfired_bucket" }
+    }
+  }
+}

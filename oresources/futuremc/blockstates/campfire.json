@@ -1,0 +1,64 @@
+{
+    "variants": {
+        "facing=north,lit=false,signal=false": {
+            "model": "futuremc:campfire"
+        },
+        "facing=south,lit=false,signal=false": {
+            "model": "futuremc:campfire",
+            "y": 180
+        },
+        "facing=west,lit=false,signal=false": {
+            "model": "futuremc:campfire",
+            "y": 270
+        },
+        "facing=east,lit=false,signal=false": {
+            "model": "futuremc:campfire",
+            "y": 90
+        },
+        "facing=north,lit=true,signal=false": {
+            "model": "futuremc:campfire_on"
+        },
+        "facing=south,lit=true,signal=false": {
+            "model": "futuremc:campfire_on",
+            "y": 180
+        },
+        "facing=west,lit=true,signal=false": {
+            "model": "futuremc:campfire_on",
+            "y": 270
+        },
+        "facing=east,lit=true,signal=false": {
+            "model": "futuremc:campfire_on",
+            "y": 90
+        },
+        "facing=north,lit=false,signal=true": {
+            "model": "futuremc:campfire"
+        },
+        "facing=south,lit=false,signal=true": {
+            "model": "futuremc:campfire",
+            "y": 180
+        },
+        "facing=west,lit=false,signal=true": {
+            "model": "futuremc:campfire",
+            "y": 270
+        },
+        "facing=east,lit=false,signal=true": {
+            "model": "futuremc:campfire",
+            "y": 90
+        },
+        "facing=north,lit=true,signal=true": {
+            "model": "futuremc:campfire_on"
+        },
+        "facing=south,lit=true,signal=true": {
+            "model": "futuremc:campfire_on",
+            "y": 180
+        },
+        "facing=west,lit=true,signal=true": {
+            "model": "futuremc:campfire_on",
+            "y": 270
+        },
+        "facing=east,lit=true,signal=true": {
+            "model": "futuremc:campfire_on",
+            "y": 90
+        }
+    }
+}

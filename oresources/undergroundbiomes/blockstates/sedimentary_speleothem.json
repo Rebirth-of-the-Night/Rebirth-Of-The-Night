@@ -1,0 +1,266 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "uvlock": true,
+        "transform": "forge:default-block",
+        "model": "quark:speleothem_medium"
+    },
+    "variants": {
+        "type=limestone": [
+            {
+                "model": "quark:speleothem_medium",
+                "textures": {
+                    "block": "undergroundbiomes:blocks/limestone"
+                }
+            }
+        ],
+        "size=small,type=limestone": [
+            {
+                "model": "quark:speleothem_small",
+                "textures": {
+                    "block": "undergroundbiomes:blocks/limestone"
+                }
+            }
+        ],
+        "size=medium,type=limestone": [
+            {
+                "model": "quark:speleothem_medium",
+                "textures": {
+                    "block": "undergroundbiomes:blocks/limestone"
+                }
+            }
+        ],
+        "size=big,type=limestone": [
+            {
+                "model": "quark:speleothem_big",
+                "textures": {
+                    "block": "undergroundbiomes:blocks/limestone"
+                }
+            }
+        ],
+        "type=chalk": [
+            {
+                "model": "quark:speleothem_medium",
+                "textures": {
+                    "block": "undergroundbiomes:blocks/chalk"
+                }
+            }
+        ],
+        "size=small,type=chalk": [
+            {
+                "model": "quark:speleothem_small",
+                "textures": {
+                    "block": "undergroundbiomes:blocks/chalk"
+                }
+            }
+        ],
+        "size=medium,type=chalk": [
+            {
+                "model": "quark:speleothem_medium",
+                "textures": {
+                    "block": "undergroundbiomes:blocks/chalk"
+                }
+            }
+        ],
+        "size=big,type=chalk": [
+            {
+                "model": "quark:speleothem_big",
+                "textures": {
+                    "block": "undergroundbiomes:blocks/chalk"
+                }
+            }
+        ],
+        "type=shale": [
+            {
+                "model": "quark:speleothem_medium",
+                "textures": {
+                    "block": "undergroundbiomes:blocks/shale"
+                }
+            }
+        ],
+        "size=small,type=shale": [
+            {
+                "model": "quark:speleothem_small",
+                "textures": {
+                    "block": "undergroundbiomes:blocks/shale"
+                }
+            }
+        ],
+        "size=medium,type=shale": [
+            {
+                "model": "quark:speleothem_medium",
+                "textures": {
+                    "block": "undergroundbiomes:blocks/shale"
+                }
+            }
+        ],
+        "size=big,type=shale": [
+            {
+                "model": "quark:speleothem_big",
+                "textures": {
+                    "block": "undergroundbiomes:blocks/shale"
+                }
+            }
+        ],
+        "type=siltstone": [
+            {
+                "model": "quark:speleothem_medium",
+                "textures": {
+                    "block": "undergroundbiomes:blocks/siltstone"
+                }
+            }
+        ],
+        "size=small,type=siltstone": [
+            {
+                "model": "quark:speleothem_small",
+                "textures": {
+                    "block": "undergroundbiomes:blocks/siltstone"
+                }
+            }
+        ],
+        "size=medium,type=siltstone": [
+            {
+                "model": "quark:speleothem_medium",
+                "textures": {
+                    "block": "undergroundbiomes:blocks/siltstone"
+                }
+            }
+        ],
+        "size=big,type=siltstone": [
+            {
+                "model": "quark:speleothem_big",
+                "textures": {
+                    "block": "undergroundbiomes:blocks/siltstone"
+                }
+            }
+        ],
+        "type=lignite": [
+            {
+                "model": "quark:speleothem_medium",
+                "textures": {
+                    "block": "undergroundbiomes:blocks/lignite"
+                }
+            }
+        ],
+        "size=small,type=lignite": [
+            {
+                "model": "quark:speleothem_small",
+                "textures": {
+                    "block": "undergroundbiomes:blocks/lignite"
+                }
+            }
+        ],
+        "size=medium,type=lignite": [
+            {
+                "model": "quark:speleothem_medium",
+                "textures": {
+                    "block": "undergroundbiomes:blocks/lignite"
+                }
+            }
+        ],
+        "size=big,type=lignite": [
+            {
+                "model": "quark:speleothem_big",
+                "textures": {
+                    "block": "undergroundbiomes:blocks/lignite"
+                }
+            }
+        ],
+        "type=dolomite": [
+            {
+                "model": "quark:speleothem_medium",
+                "textures": {
+                    "block": "defiledlands:blocks/stone_defiled"
+                }
+            }
+        ],
+        "size=small,type=dolomite": [
+            {
+                "model": "quark:speleothem_small",
+                "textures": {
+                    "block": "defiledlands:blocks/stone_defiled"
+                }
+            }
+        ],
+        "size=medium,type=dolomite": [
+            {
+                "model": "quark:speleothem_medium",
+                "textures": {
+                    "block": "defiledlands:blocks/stone_defiled"
+                }
+            }
+        ],
+        "size=big,type=dolomite": [
+            {
+                "model": "quark:speleothem_big",
+                "textures": {
+                    "block": "defiledlands:blocks/stone_defiled"
+                }
+            }
+        ],
+        "type=greywacke": [
+            {
+                "model": "quark:speleothem_medium",
+                "textures": {
+                    "block": "undergroundbiomes:blocks/greywacke"
+                }
+            }
+        ],
+        "size=small,type=greywacke": [
+            {
+                "model": "quark:speleothem_small",
+                "textures": {
+                    "block": "undergroundbiomes:blocks/greywacke"
+                }
+            }
+        ],
+        "size=medium,type=greywacke": [
+            {
+                "model": "quark:speleothem_medium",
+                "textures": {
+                    "block": "undergroundbiomes:blocks/greywacke"
+                }
+            }
+        ],
+        "size=big,type=greywacke": [
+            {
+                "model": "quark:speleothem_big",
+                "textures": {
+                    "block": "undergroundbiomes:blocks/greywacke"
+                }
+            }
+        ],
+        "type=chert": [
+            {
+                "model": "quark:speleothem_medium",
+                "textures": {
+                    "block": "undergroundbiomes:blocks/chert"
+                }
+            }
+        ],
+        "size=small,type=chert": [
+            {
+                "model": "quark:speleothem_small",
+                "textures": {
+                    "block": "undergroundbiomes:blocks/chert"
+                }
+            }
+        ],
+        "size=medium,type=chert": [
+            {
+                "model": "quark:speleothem_medium",
+                "textures": {
+                    "block": "undergroundbiomes:blocks/chert"
+                }
+            }
+        ],
+        "size=big,type=chert": [
+            {
+                "model": "quark:speleothem_big",
+                "textures": {
+                    "block": "undergroundbiomes:blocks/chert"
+                }
+            }
+        ]
+    }
+}

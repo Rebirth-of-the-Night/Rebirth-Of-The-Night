@@ -1,0 +1,17 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "0": "undergroundbiomes:blocks/andesite_cobble",
+	  "1": "contenttweaker:blocks/cobbled_path/cobblestone_path_andesite",
+	  "particle": "undergroundbiomes:blocks/andesite_cobble"
+    },
+    "model": "contenttweaker:cobblestone_path",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

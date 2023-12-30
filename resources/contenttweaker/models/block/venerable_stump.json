@@ -1,0 +1,24 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [48, 48],
+	"textures": {
+		"0": "contenttweaker:blocks/redwood_mossy",
+		"1": "contenttweaker:blocks/redwood_mossy_top",
+		"2": "contenttweaker:blocks/redwood_mossy_bot",
+		"particle": "contenttweaker:blocks/redwood_mossy_top"
+	},
+	"elements": [
+		{
+			"from": [-13, 0, -13],
+			"to": [29, 14, 29],
+			"faces": {
+				"north": {"uv": [0, 12, 14, 15.5], "texture": "#0"},
+				"east": {"uv": [0, 12, 14, 15.5], "texture": "#0"},
+				"south": {"uv": [0, 12, 14, 15.5], "texture": "#0"},
+				"west": {"uv": [0, 12, 14, 15.5], "texture": "#0"},
+				"up": {"uv": [0, 0, 14, 14], "texture": "#1"},
+				"down": {"uv": [0, 0, 14, 14], "texture": "#2"}
+			}
+		}
+	]
+}

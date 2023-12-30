@@ -1,0 +1,6 @@
+{
+    "parent":"spartanweaponry:item/katana_wood",
+    "textures": {
+        "layer0":"spartanweaponry:items/katana_bronze"
+    }
+}

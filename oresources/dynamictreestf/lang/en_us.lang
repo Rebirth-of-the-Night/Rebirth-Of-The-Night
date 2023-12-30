@@ -1,0 +1,59 @@
+item.dynamictreesttf:sicklytwilightoakseed.name=Sickly Twilight Oak Acorn
+item.dynamictreesttf:canopyseed.name=Canopy Seed
+item.dynamictreesttf:mangroveseed.name=Twilight Mangrove Propagule
+item.dynamictreesttf:darkwoodseed.name=Darkwood Seed
+item.dynamictreesttf:robusttwilightoakseed.name=Robust Twilight Oak Acorn
+item.dynamictreesttf:treeoftimeseed.name=Seed of Time
+item.dynamictreesttf:treeoftransformationseed.name=Seed of Transformation
+item.dynamictreesttf:minerstreeseed.name=Miner's Tree Seed
+item.dynamictreesttf:sortingtreeseed.name=Sorting Tree Seed
+item.dynamictreesttf:rainbowoakseed.name=Rainbow Oak Acorn
+
+species.dynamictreesttf:sicklytwilightoak.name=Sickly Twilight Oak
+species.dynamictreesttf:twilightoaksickly.name=Sickly Twilight Oak
+species.dynamictreesttf:canopy.name=Canopy
+species.dynamictreesttf:canopyspooky.name=Spooky Canopy
+species.dynamictreesttf:mangrove.name=Twilight Mangrove
+species.dynamictreesttf:darkwood.name=Darkwood
+species.dynamictreesttf:robusttwilightoak.name=Robust Twilight Oak
+species.dynamictreesttf:twilightoakrobust.name=Robust Twilight Oak
+species.dynamictreesttf:rainbowoak.name=Rainbow Oak
+species.dynamictreesttf:treeoftime.name=Tree of Time
+species.dynamictreesttf:treeoftransformation.name=Tree of Transformation
+species.dynamictreesttf:minerstree.name=Miner's Tree
+species.dynamictreesttf:sortingtree.name=Sorting Tree
+species.dynamictreesttf:hugemegaspruce.name=Huge Mega Spruce
+species.dynamictreesttf:oakspooky.name=Spooky Oak
+
+tile.dynamictreesttf:underground_roots=Roots
+tile.dynamictreesttf:underground_roots_exposed=Roots
+tile.dynamictreesttf:underground_roots_green=Roots
+tile.dynamictreesttf:underground_roots_green_exposed=Roots
+
+tile.dynamictreesttf:leaves0.name=Leaves
+tile.dynamictreesttf:leaves1.name=Leaves
+tile.dynamictreesttf:leaves2.name=Leaves
+tile.dynamictreesttf:leaves_of_transformation.name=Leaves
+tile.dynamictreesttf:leaves_darkwood.name=Leaves
+
+tile.dynamictreesttf:twilightoakbranch.name=Twilight Oak Tree
+tile.dynamictreesttf:sicklytwilightoakbranch.name=Sickly Twilight Oak Tree
+tile.dynamictreesttf:canopybranch.name=Canopy Tree
+tile.dynamictreesttf:mangrovebranch.name=Twilight Mangrove Tree
+tile.dynamictreesttf:darkwoodbranch.name=Darkwood Tree
+tile.dynamictreesttf:robusttwilightoakbranch.name=Robust Twilight Oak Tree
+tile.dynamictreesttf:rainbowoakbranch.name=Rainbow Oak Tree
+tile.dynamictreesttf:treeoftimebranch.name=Tree of Time
+tile.dynamictreesttf:treeoftransformationbranch.name=Tree of Transformation
+tile.dynamictreesttf:minerstreebranch.name=Miner's Tree
+tile.dynamictreesttf:sortingtreebranch.name=Sorting Tree
+tile.dynamictreesttf:treeoftimecorebranch.name=Timewood Clock
+tile.dynamictreesttf:treeoftimecorebranchoff.name=Timewood Clock
+tile.dynamictreesttf:treeoftransformationcorebranch.name=Heart of Transformation
+tile.dynamictreesttf:treeoftransformationcorebranchoff.name=Heart of Transformation
+tile.dynamictreesttf:minerstreecorebranch.name=Minewood Core
+tile.dynamictreesttf:minerstreecorebranchoff.name=Minewood Core
+tile.dynamictreesttf:sortingtreecorebranch.name=Sortingwood Engine
+tile.dynamictreesttf:sortingtreecorebranchoff.name=Sortingwood Engine
+
+tile.dynamictreesttf:rootywater.name=Twilight Mangrove Roots

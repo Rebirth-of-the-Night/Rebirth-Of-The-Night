@@ -1,0 +1,6 @@
+{
+    "parent":"spartanweaponry:item/warhammer_wood",
+    "textures": {
+        "layer0":"spartanweaponry:items/warhammer_bronze"
+    }
+}

@@ -1,0 +1,15 @@
+#Item
+item.ice_wand.name=Cryomancer's Staff
+#Mobs
+entity.Iceologer.name=Chillager
+entity.IceCube.name=Ice Boulder
+#Tabs
+itemGroup.iceologertab=Frozen Fiend
+#Subtitle
+subtitles.iceologer_ambient=Chillager murmurs
+subtitles.iceologer_hurt=Chillager hurts
+subtitles.iceologer_death=Chillager dies
+subtitles.iceologer_cast_spell=Chillager casts spell
+subtitles.iceologer_prepare_spell=Ice Boulder is conjured
+subtitles.ice_cube_hit=Ice Boulder hits ground
+subtitles.ice_cube_ambient=Ice Boulder levitates

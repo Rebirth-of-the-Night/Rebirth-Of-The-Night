@@ -1,0 +1,21 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "texture": "contenttweaker:items/koji_mold",
+      "particle": "contenttweaker:blocks/koji_mold"
+    },
+    "model": "contenttweaker:koji_mold",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{
+      "model": "contenttweaker:items/koji_mold",
+      "textures": {
+        "layer0": "contenttweaker:items/koji_mold"
+      }
+    }]
+  }
+}

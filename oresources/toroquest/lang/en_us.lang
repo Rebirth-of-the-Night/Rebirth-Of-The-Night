@@ -1,0 +1,1533 @@
+﻿civilization.earth.name=Terra
+civilization.wind.name=Gustaberg
+civilization.fire.name=Emberium
+civilization.moon.name=Shadits
+civilization.sun.name=Lumens
+civilization.water.name=Umbertau
+
+################## CRIME REPORTED ##################
+
+text.toroquest.crime_reported=§oCrime reported!§r
+
+################## ENTITIES ##################
+
+entity.toroquest_toro_villager.name=Villager
+entity.toroquest_caravan.name=Caravan
+entity.toroquest_smart_arrow.name=Arrow
+entity.toroquest_guard.name=Guard
+entity.toroquest_village_lord.name=Village Lord
+entity.toroquest_shopkeeper.name=Shopkeeper
+entity.toroquest_fugitive.name=Fugitive
+entity.toroquest_vampire_bat.name=Vampire Bat
+entity.toroquest_construct.name=Steam Golem
+entity.toroquest_sentry.name=Bandit
+entity.toroquest_orc.name=Piglin
+entity.toroquest_wolf_raider.name=Feral Wolf
+entity.toroquest_zombie_raider.name=Zombie
+entity.toroquest_zombie_villager_raider.name=Zombie Villager
+entity.toroquest_adventurer.name=Adventurer
+
+################## ITEMS ##################
+
+item.ender_idol.name=§bEnder Idol§r
+
+item.trophy_pig.name=§6Heart of the Demon-Pig§r
+item.trophy_skeleton.name=§6Fang of the Vampire Lord§r
+item.legendary_bandit_helmet.name=§6Mask of the Bandit Boss§r
+item.trophy_spider.name=§6Pedipalp of the Spider Queen§r
+item.trophy_archmage.name=§6Staff of the Archmage§r
+item.trophy_titan.name=§6Nose of the Grave Titan§r
+item.trophy_beholder.name=§6Eye of the Obsidian Horror§r
+item.dwarven_artifact.name=§6Dwarven Alternator§r
+item.royal_helmet.name=§eRoyal Crown§r
+
+item.samurai_boots.name=Ō-yoroi Fauld
+item.samurai_helmet.name=Ō-yoroi Helm
+item.samurai_leggings.name=Ō-yoroi Greaves
+item.samurai_chestplate.name=Ō-yoroi Cuirass
+
+item.toro_leather.name=Heavy Leather
+item.toro_armor_boots.name=Heavy Leather Boots
+item.toro_armor_helmet.name=Heavy Leather Helmet
+item.toro_armor_leggings.name=Heavy Leather Leggings
+item.toro_armor_chestplate.name=Heavy Leather Chestplate
+
+item.bandit_helmet.name=Bandit Mask
+item.bandit_helmet.description=Give this item to a Village Lord for reputation [put this item in top-right box], or disguise yourself as a Bandit.
+item.city_key.name=Key to the City
+item.scroll_null.name=Blank Teleport Scroll
+item.recruitment_papers.name=Recruitment Papers
+item.fugitive_bindings.name=Fugitive Bindings
+item.sheep_bindings.name=Sheep Lasso
+
+item.artifact_red.name=§eAncient Artifact§r
+item.artifact_yellow.name=§eAncient Artifact§r
+item.artifact_green.name=§eAncient Artifact§r
+item.artifact_blue.name=§eAncient Artifact§r
+item.artifact_black.name=§eAncient Artifact§r
+item.artifact_brown.name=§eAncient Artifact§r
+
+################## LEGENDARY HORROR QUEST ##################
+
+entity.toroquest_monolitheye.name=K'Varn, the Obsidian Horror
+quests.legendary_monolith.title=§6§lThe Obsidian Horror§r
+quests.legendary_monolith.map=§lMap to the Obsidian Rift
+quests.legendary_monolith.description=§lSlay§r the legendary Obsidian Horror%s§lReward:§r %s%s Reputation
+quests.legendary_monolith.incomplete=My scouts report the Horror has not yet been slain!
+quests.legendary_monolith.accept=Please help us, @p! A tear in reality has materialized an Obsidian Horror in our plane of existence... we must destroy it before it grows in power and consumes the life of every living thing here! I have marked the location of the rift on this map for you, go at once!
+quests.legendary_monolith.reject=We are all doomed!
+quests.legendary_monolith.complete=You are a hero, @p! You have slain the Obsidian Horror! We am truly grateful for your bravery.
+quests.legendary_monolith.slain=§lThe Obsidian Horror has been slain!
+
+################## LEGENDARY ARCHMAGE QUEST ##################
+
+entity.toroquest_mage.name=Voidwracked Ascendant
+quests.legendary_mage.title=§6§lVoidwracked Tower§r
+quests.legendary_mage.map=§lMap to the Voidwracked Tower§r
+quests.legendary_mage.description=§lSlay§r the Voidwracked Ascendant%s§lReward:§r %s%s Reputation
+quests.legendary_mage.complete=You have done us a great service protecting our people from evil magics and mages. We thank you, @p.
+quests.legendary_mage.incomplete=My scouts report the Voidwracked Ascendant still lives!
+quests.legendary_mage.accept=There has been reports of an evil entity who has constructed a tower not too far from here. He can only be up to no good! Vanquish that evil, @p, before it wreaks havoc on our village!
+quests.legendary_mage.reject=You fear for your life, but I know your nature. Please use your gift to save my people! 
+quests.legendary_mage.slain=Voidwracked Ascendant has been slain!
+
+################## LEGENDARY SPIDER QUEST ##################
+
+entity.toroquest_spider_lord.name=Elise, the Spider Queen
+quests.legendary_spider.title=§6§lThe Spider's Nest§r
+quests.legendary_spider.map=§lMap to the Spider's Nest§r
+quests.legendary_spider.description=§lSlay§r the legendary Spider Queen%s§lReward:§r %s%s Reputation
+quests.legendary_spider.accept=A spider queen and her nest have been spotted near our province! Slay this creature before it spawns more young and becomes an even greater danger to us all. Be careful, @p, the mercenaries I hired were all found dead... bodies splattered across the ground. Take this map, my scouts have marked its location for you.
+quests.legendary_spider.reject=I understand your unease. I can only hope this monstrosity will not be the end of us in a few weeks time.
+quests.legendary_spider.complete=You are a hero, @p! You have slain the monstrosity! I am truly grateful for your bravery.
+quests.legendary_spider.incomplete=My scouts report the Spider Queen still lives!
+quests.legendary_spider.slain=§lThe Spider Queen has been slain!
+
+################## LEGENDARY VAMPIRE QUEST ##################
+
+entity.toroquest_bas.name=Withering Lich
+quests.legendary_skeleton.title=§6§lThe Lich's Lair§r
+quests.legendary_skeleton.map=§lMap to the Lich's Lair§r
+quests.legendary_skeleton.description=§lSlay§r the a legendary Withering Lich%s§lReward:§r %s%s Reputation
+quests.legendary_skeleton.incomplete=My scouts report the Lich has not yet been slain!
+quests.legendary_skeleton.complete=You are a true hero, @p! You have put the Lich to rest! Our people are forever in your debt.
+quests.legendary_skeleton.accept=Our village was attacked by bats. They must be feeding our lifeforce to a Lich, @p. You must slay it at once!
+quests.legendary_skeleton.reject=We are all doomed!
+quests.legendary_skeleton.slain=§lThe Withering Lich has been slain!
+
+################## LEGENDARY PIG-DEMON QUEST ##################
+
+entity.toroquest_pig_lord.name=Nago, the Demon-Pig
+quests.legendary_pig.title=§6§lThe Demon-Pig's Portal§r
+quests.legendary_pig.map=§lMap to the Demon-Pig's Portal§r
+quests.legendary_pig.description=§lSlay§r the legendary Demon-Pig%s§lReward:§r %s%s Reputation
+quests.legendary_pig.incomplete=My scouts report the Demon-Pig has not yet been slain!
+quests.legendary_pig.complete=You have slain the Demon-Pig! Our people are forever in your debt.
+quests.legendary_pig.accept=A massive Demon-Pig from the underworld has found its way to the surface! It has not found us yet, but it will feast on the flesh of villagers if does! I can only trust your expertise to slay this beast.
+quests.legendary_pig.reject=Coward! I demand this beast be slain at once!
+quests.legendary_pig.slain=§lThe Demon-Pig has been slain!
+
+################## LEGENDARY BANDIT QUEST ##################
+
+entity.toroquest_bandit_lord.name=Sledge, the Bandit Boss
+quests.legendary_bandit.title=§6§lThe Underground Hideout§r
+quests.legendary_bandit.map=§lMap to the Underground Hideout§r
+quests.legendary_bandit.description=§lSlay§r the legendary Bandit%s§lReward:§r %s%s Reputation
+quests.legendary_bandit.incomplete=My scouts report the bandit has not yet been slain!
+quests.legendary_bandit.complete=You have saved us, @p! I will tell the people of your heroic deeds!
+quests.legendary_bandit.reject=You reject my quest? Do you wish for us to all die at the hands of bandits?!
+quests.legendary_bandit.accept=The infamous bandit, Sledge, has crowned himself as a lord! Preposterous, I cannot have this be! It will only inspire others to turn against the law. Defeat this so-called bandit lord so we can put an end to this madness.
+quests.legendary_bandit.slain=§lThe Bandit Boss has been slain!
+
+################## LEGENDARY ZOMBIE QUEST ##################
+
+entity.toroquest_grave_titan.name=Grave Titan
+quests.grave_titan.title=§6§lThe Titan's Grave§r
+quests.grave_titan.map=§lMap to the Titan's Grave§r
+quests.grave_titan.description=§lSlay§r the legendary Grave Titan%s§lReward:§r %s%s Reputation
+quests.grave_titan.accept=An unusually large number of zombie hoards have been making their way to our village... I am afraid a Grave Titan has amassed and is responsible for the severity these zombie sieges. Take this map, @p, my scouts have reported the hoards are coming from this direction. Slay this monstrosity, and put an end to its unholy existence!
+quests.grave_titan.reject=But @p, the monstrosity will only grow stronger and stronger with each day that passes...
+quests.grave_titan.complete=You are a hero, @p! You have slain the Grave Titan! Our people are forever in your debt.
+quests.grave_titan.incomplete=My scouts report the Grave Titan still lives!
+quests.grave_titan.slain=§lThe Grave Titan has been slain!
+
+################## LEGENDARY STEAM GOLEM QUEST ##################
+
+entity.toroquest_construct_quest.name=Dwarven Colossus
+quests.steam_golem.title=§6§lLost Secrets§r
+quests.steam_golem.map=Map to the Dwarven Ruins§r
+quests.steam_golem.description=§lExplore§r ancient Dwarven ruins%s§lReward:§r %s%s Reputation
+quests.steam_golem.accept=I wish to learn more about the secrets of ancient Dwarven technology. My scouts found what appears to be Dwarven ruins. I have marked the location on a map, see what you can uncover and return to me.
+quests.steam_golem.reject=Ah, I understand. A task too difficult for you then?
+quests.steam_golem.complete=Ah, magnificent! This is truly fascinating, @p.
+quests.steam_golem.incomplete=Have you found anything yet, @p?
+quests.steam_golem.slain=§lThe Dwarven Colossus has been slain!
+
+################## REPUTATION ##################
+
+civilization.entering.friendly=Welcome to §l%s§r of §l%s
+civilization.entering.neutral=Entering §l%s§r of §l%s
+civilization.entering.hostile=Trespassing into §l%s§r of §l%s
+civilization.leaving.friendly=Farewell from §l%s§r of §l%s
+civilization.leaving.neutral=Leaving §l%s§r of §l%s
+civilization.leaving.hostile=Escaped §l%s§r of §l%s
+
+civilization.reputation_level.legend=Legend
+civilization.reputation_level.hero=Hero
+civilization.reputation_level.champion=Champion
+
+civilization.reputation_level.exalted=Exalted
+civilization.reputation_level.revered=Revered
+civilization.reputation_level.honored=Honored
+civilization.reputation_level.friendly=Friendly
+
+civilization.reputation_level.neutral=Neutral
+
+civilization.reputation_level.unfriendly=Unfriendly
+civilization.reputation_level.hostile=Hostile
+civilization.reputation_level.hated=Hated
+civilization.reputation_level.exiled=Exiled
+
+################## QUEST UI ##################
+
+quest.quest_complete_message=§e§lQuest complete!§r
+quest.gui.title=Lord of %s
+quest.gui.rep_for=%d Reputation
+quest.gui.reply=Get Reply
+quest.gui.stolen_item=Return Artifact
+quest.gui.empty=
+quest.gui.trophy=Give Trophy
+quest.gui.button.donate=Give
+quest.gui.button.accept=Accept
+quest.gui.button.complete=§7Complete
+quest.gui.button.questcomplete=§aComplete
+quest.gui.button.reject=§cAbandon
+quest.gui.button.rejectcomplete=§7Abandon
+quest.directions=%s blocks at %s, %s
+
+################## QUEST GENERAL ##################
+
+quests.completereturnitem=Could you also return the tool I gave you? Or 5 emeralds to pay for it. §7[put the items in left column]
+quests.rejectreturnitem=Return the tool I gave you, or 5 emeralds to pay for it. §7[put the items in left column]
+
+################## QUEST COURIER ##################
+
+quests.courier.notetooltip=§7[put this item in top-right box]§r
+quests.courier.notename=Deliver to the Lord of 
+quests.courier.title=§lCourier§r
+quests.courier.description=§lDeliver§r this letter to %s%s and return his reply%s§lReward:§r %s%s Reputation
+quests.courier.accept=I need this letter sent to the lord of @e immediately. Be swift, @p.
+quests.courier.complete=Ah yes, thank you for the reply note, @p.
+quests.courier.incomplete=I need the reply note, @p. §7[put the note in left column]
+quests.courier.description=The lord of %s and I have much to discuss. Make sure this letter gets to him%s§lReward:§r %s%s Reputation
+quests.courier.reject=You reject my request? Surely your actions will not bode well for your reputation.
+
+################## QUEST BANDIT CAMP ##################
+
+quests.enemy_encampment.title=§lClear Encampment§r
+quests.enemy_encampment.description=§lClear§r the %s encampment%s§lReward:§r %s%s Reputation
+quests.enemy_encampment.nokills=Do you take me for a fool? You haven't killed any bandits yet!
+quests.enemy_encampment.incomplete=My scouts report the bandits have not yet been done away with!
+quests.enemy_encampment.help=Not all bandits kills have been accounted for, you must have scared them off!
+quests.enemy_encampment.complete=I knew I could count on your expertise, @p.
+quests.enemy_encampment.reject=My guards lack your expertise in combat, @p. But, I understand you have other matters to attend to.
+
+quests.enemy_encampment.accept=3
+quests.enemy_encampment.accept0=Bandits have established a camp not far from here. Wipe them out before they prepare their raid on our village.
+quests.enemy_encampment.accept1=My scouts have discovered a bandit encampment nearby. Put an end to them before they reach us!
+quests.enemy_encampment.accept2=Bandits have set up an outpost and are attacking one of our trade routes. I can trust you to take care of this matter, @p.
+
+quests.bandit_camp.map=§lMap to Bandit Encampment
+
+################## QUEST FUGITIVES ##################
+
+quests.capture_fugitives.title=§lBounty Hunter§r
+quests.capture_fugitives.description=§lCapture§r %s fugitives hiding in %s and turn them over to my guards. You have captured %s§lReward:§r %s%s Reputation
+quests.capture_fugitives.reject=Crime will continue to run rampant in our province then. That is most unfortunate.
+quests.capture_fugitives.incomplete=You haven't captured all the fugitives yet!
+quests.capture_fugitives.complete=You have done a great service for @e and the safety of its people.
+
+quests.capture_fugitives.accept=7
+quests.capture_fugitives.accept0=My guards have failed to keep crime under control. Do them a service, @p and show them how it's done.
+quests.capture_fugitives.accept1=Several fugitives have managed to break free from their dungeon cells. Find and turn them over to my guards.
+quests.capture_fugitives.accept2=Investigate the streets of @e and seize the band of fugitives.
+quests.capture_fugitives.accept3=Crime is running rampant on my streets... show the citizens of @e what happens to those who break the law!
+quests.capture_fugitives.accept4=Find and bring the band of fugitives to justice, here in @e.
+quests.capture_fugitives.accept5=Hunt down the band of fugitives dwelling amongst us, and bring them to justice!
+quests.capture_fugitives.accept6=Capture the band of fugitives dwelling amongst us, and seize them to my guards.
+
+################## QUEST FARM ##################
+
+quests.farm.title=§lFeast or Famine§r
+quests.farm.description=§lPlant§r %s crops in %s, you have currently planted %s§lReward:§r %s%s Reputation
+quests.farm.reject=But @p, our people will starve!
+quests.farm.incomplete=You haven't planted enough crops, @p. You will need to plant @e more.
+quests.farm.complete=Our harvest will be bountiful! The farmers appreciate your efforts.
+
+quests.farm.accept=4
+quests.farm.accept0=I need you to plant @e crops in preparation for the seasons ahead.
+quests.farm.accept1=Our granary is a bit low on food, we need you to plant @e crops or the villagers will go hungry.
+quests.farm.accept2=Our granary stocks are nearly empty, @p. Plant @e crops to prepare for the seasons ahead.
+quests.farm.accept3=Our food stocks are dwindling. We need you to plant @e crops before the planting season is over.
+
+################## QUEST BUILD ##################
+
+quests.build.title=§lPut Your Walls Up§r
+quests.build.description=§lBuild§r walls around %s by placing stone blocks. You have currently placed %s out of %s§lReward:§r %s%s Reputation
+quests.build.complete=Those walls look magnificent! Well done.
+quests.build.incomplete=You haven't built enough of the wall, @p.
+
+quests.build.reject=3
+quests.build.reject0=How hard is it for you to place just a §olittle§r cobblestone around the village?! Unbelievable! I bet you have chests full of that $#!* just laying around.
+quests.build.reject1=Excuse me? You expect the §obandits§r to pay for the wall?
+quests.build.reject2=The village needs walls to protect itself against bandits and monsters. Will you reconsider?
+
+quests.build.accept=4
+quests.build.accept0=The guards are having trouble securing certain areas around the village. I'll need you to set up walls to bolster the province's defenses.
+quests.build.accept1=Our province's defenses are lacking! We have lost several villagers because of it. @p, I need you to build more walls around the province to keep them safe.
+quests.build.accept2=the province is in desperate need of walls to keep our villagers protected.
+quests.build.accept3=This province is becoming overwhelmed by bandits and creatures of the night. We need you to start building walls around the province to keep them out and our villagers safe.
+
+################## QUEST MAGIC ITEMS ##################
+
+quests.gather.title=§lA Touch of Magic§r
+quests.gather.description=§lGather§r 4 enchanted items and gift them to me%s§lReward:§r %s%s Reputation
+quests.gather.reject=Ah, I understand. You'd rather keep them for yourself?
+quests.gather.complete=Fascinating! These will do nicely.
+quests.gather.incomplete=You did not bring me enough magical items! §7[put the items in left column]
+
+quests.gather.accept=3
+quests.gather.accept0=My mages are in need of magical items to disenchant. Do them a favor and bring me several enchanted items.
+quests.gather.accept1=My mages wish to research more about the magical properties of powerful enchantments. Do them a favor and bring me several enchanted items.
+quests.gather.accept2=Please bring me enough enchanted items so my mages may study their properties.
+
+################## QUEST KILL MOBS ##################
+
+quests.killmobs.title=§lKill or be Killed§r
+quests.killmobs.description=§lSlay§r %s %s, you have currently slain %s§lReward:§r %s%s Reputation
+quests.killmobs.incomplete=You haven't slain enough @e!
+quests.killmobs.monsters=monsters
+
+quests.killmobs.complete=3
+quests.killmobs.complete0=Evil is no match for you, @p!
+quests.killmobs.complete1=Hah! Your ability to slay @e is unmatched!
+quests.killmobs.complete2=Your combat expertise in most impressive, @p.
+
+quests.killmobs.reject=What, scared of @e are you?
+
+quests.killmobs.accept=7
+quests.killmobs.accept0=Our village has been rampaged by creatures of the night for too long! Kill them, @p. Kill them all!
+quests.killmobs.accept1=We cannot afford another raid on the city, @p. You must help us. Kill the vile creatures of night which frighten our people!
+quests.killmobs.accept2=Looking to wet your blade, @p? Slay these vile creatures that attack our city and I will reward you handsomely.
+quests.killmobs.accept3=Put an end to the attacks on the city. Slay as many of those vicious creatures as you can... you will be rewarded, of course.
+quests.killmobs.accept4=The guard have been struggling to deal with raids on the city. @p, come to their aid and help them fight off these attackers.
+quests.killmobs.accept5=The villagers are fearful. Bandits... wolves... undead... it just won't stop. We need your expertise in combat, @p. Help protect the city and it's people!
+quests.killmobs.accept6=We have lost too many villagers to these creatures of the night. I need you to put a stop to their rampage, and kill these monsters.
+
+################## QUEST RECRUIT ##################
+
+quests.recruit.title=§lDraft Pick§r
+quests.recruit.description=§lRecruit§r %s %s in %s, you have currently recruited %s§lReward:§r %s%s Reputation
+quests.recruit.reject=You will not help? Without further aid I can only hope we survive the harsh nights to come...
+quests.recruit.complete=Our numbers are strong! Thank you, @p.
+quests.recruit.incomplete=You haven't recruited enough guards!
+
+quests.recruit.accept=4
+quests.recruit.accept0=I am not sure how many more nights the village can survive with our current defenses. @p, I need you to recruit and arm several of the villagers.
+quests.recruit.accept1=The villagers are fearful of the nights to come. Recruit several guards to better bolster our defenses.
+quests.recruit.accept2=We have lost good men in the last raid. Recruit more guards to help protect the village.
+quests.recruit.accept3=I need you to recruit more guards. The people respect you, @p, and they are willing to follow you into battle.
+
+################## QUEST MINE ##################
+
+quests.mine.title=§lWhat's Yours Is Mine§r
+quests.chop.title=§lA Woody For Wood§r
+quests.dig.title=§lI Totally Dig It§r
+quests.mine.description=§lMine§r %s %s and bring the materials to me %s§lReward:§r %s%s Reputation
+quests.chop.description=§lChop§r %s %s and bring the supplies to me %s§lReward:§r %s%s Reputation
+quests.dig.description=§lDig§r %s %s and bring the fresh soil to me %s§lReward:§r %s%s Reputation
+quests.mine.reject=You have brought me back nothing but disappointment!
+
+quests.log.itemname=Trees
+quests.dirt.itemname=Dirt
+quests.stone.itemname=Stone
+quests.coal.itemname=Coal
+quests.redstone.itemname=Redstone Dust
+quests.obsidian.itemname=Obsidian
+quests.glowstone.itemname=Glowstone Dust
+quests.lapis.itemname=Lapis
+quests.diamond.itemname=Diamonds
+
+quests.mine.loggathered.incomplete=This wood is rotten! I'll need you to cut down trees with healthier wood, then, return to me with the new resources.
+
+quests.mine.dirtgathered.incomplete=No no no, this soil won't do. The farmers need §ofresh§r soil for their crops.
+
+quests.mine.stonegathered.incomplete=Hmm... this stone is too brittle. I need stone sturdy enough for village walls. Try mining deeper, perhaps?
+
+quests.mine.coalgathered.incomplete=This coal is of very low quality. Would you care to mine a few more coal veins and return the resources to me?
+
+quests.mine.redstonegathered.incomplete=This redstone is somewhat depleted... my engineers need resources powerful enough for their creations. You'll need to mine some new redstone deposits, @p.
+
+quests.mine.obsidiangathered.incomplete=This obsidian is far too brittle, @p. I'll need you to mine new obsidian for me.
+
+quests.mine.glowstonegathered.incomplete=This glowstone dust does not look vibrant enough for my alchemists, would you mind gathering new dust for me?
+
+quests.mine.lapisgathered.incomplete=This lapis is void of any magical properties... do you mind mining a new vein of lapis?
+
+quests.mine.diamondgathered.incomplete=This diamond is not quite large enough for my crown. Go find a new vein that will yield a diamond large enough.
+
+quests.mine.logresource.incomplete=My builders need @e more of the resource requested! §7[put the items in left column]
+quests.mine.dirtresource.incomplete=My farmers need still needs fertile soil for their crops! §7[put the items in left column]
+quests.mine.stoneresource.incomplete=My builders need @e more of the resource requested! §7[put the items in left column]
+quests.mine.coalresource.incomplete=My blacksmiths need @e more of the resource requested! §7[put the items in left column]
+quests.mine.redstoneresource.incomplete=My engineers need @e more of the resource requested! §7[put the items in left column]
+quests.mine.obsidianresource.incomplete=My enchanters need @e more of the resource requested! §7[put the items in left column]
+quests.mine.glowstoneresource.incomplete=My alchemists need @e more of the resource requested! §7[put the items in left column]
+quests.mine.lapisresource.incomplete=My enchanters need @e more of the resource requested! §7[put the items in left column]
+quests.mine.diamondresource.incomplete=I need @e more diamonds! §7[put the items in left column]
+
+quests.mine.dirt.accept=My farmers need fertile soil for their crops. Gather some fresh dirt and return the supplies to me.
+
+quests.mine.log.accept=My builders need wood to repair several houses after the last storm. Take to the forest and bring back the supplies.
+
+quests.mine.stone.accept=My builders need stone to repair several houses after the last bandit raid. Take to the mines and bring back the supplies!
+
+quests.mine.coal.accept=The blacksmiths are low on coal for their furnaces. I'll need you to mine some and return the supplies.
+
+quests.mine.redstone.accept=My engineers need redstone for their latest invention. If you could do them a favor and mine some, I will certainly reward you.
+
+quests.mine.obsidian.accept=My enchanters are low on obsidian. I'll need you to mine some and bring it to me.
+
+quests.mine.glowstone.accept=My alchemists are low on glowstone dust for their potions. I'll need you to mine some and return the supplies.
+
+quests.mine.lapis.accept=The enchanters are low on supplies. I'll need you to mine some lapis and bring it to me.
+
+quests.mine.diamond.accept=I wish to replace my crown's gemstone with larger one. Go mining for diamonds and return to me the largest you can find!
+
+quests.mine.complete=Thank you for the resources, @p. We will put them to good use.
+
+################## QUEST SPIDER DUNGEON ##################
+
+quests.spider_pit.title=§lA Lost Heirloom§r
+quests.spider_pit.description=§lReturn§r the lost buried treasure%s§lReward:§r %s%s Reputation
+quests.spider_pit.complete=Ah, magnificent! This is just what I was looking for, @p!
+quests.spider_pit.incomplete=Have you found the heirloom yet, @p? §7[put the item in left column]
+quests.spider_pit.reject=Ah, I understand. A task too difficult for you then?
+quests.spider_pit.accept=I wish to recover an ancient heirloom to learn more about the history of our people. This heirloom was from a civilization lost long ago... buried deep beneath the surface. I have marked the location on a map for you.
+quests.spider_pit.map=§lMap to Buried Heirloom
+################## QUEST TRADE ##################
+
+quests.trade_villagers.title=§lTools of the Trade§r
+quests.trade_villagers.description=Make %s §lTrades§r with villagers in %s. You have currently made %s trades.%s§lReward:§r %s%s Reputation
+quests.trade.complete=Trade in the village is booming! You have my gratitude, @p.
+quests.trade.incomplete=You haven't made enough trades with the villagers!
+quests.trade.reject=What use are the villagers if you will not trade with them?! Preposterous!
+
+quests.trade.accept=3
+quests.trade.accept0=Trade has been cut off with one of our allied provinces and the market has suffered from it. Trade with some of the villagers to push along the economy.
+quests.trade.accept1=The most recent attack on one of trade routes has slowed the economy. I need you to trade with the villagers and get things moving again.
+quests.trade.accept2=The market has been stagnant. I need you to trade with some of the villagers to help keep the economy moving.
+
+################## QUEST CAPTURE SHEEP ##################
+
+quests.capture_entity.title=§lI Had a §oBaaad§r §lDay§r
+quests.capture_entity.description=§lCapture§r and return to my guards the sheep %s using a lasso%s§lReward:§r %s%s Reputation
+quests.capture_entity.description_null=Oh, woe is me! My prized sheep is gone!
+quests.capture_entity.incomplete=You haven't returned my prized sheep yet!
+quests.capture_entity.acceptnobandits=Please you have to help me, @p... my prized sheep has broken loose from her pen. Find and return her to one of my guards as soon as possible!
+quests.capture_entity.acceptbandits=Bandits have stolen my prized sheep! Return her safely to one of my guards, please — I will reward you!
+quests.capture_entity.reject=B-but... my beautiful sheep! Oh, how I long for her company...
+quests.capture_entity.complete=THANK YOU SO MUCH. I missed my beautiful, §obeautiful§r sheep oh so dearly...
+
+################## QUEST BREED ##################
+
+quests.breed.title=§lThe Need For Breed§r
+quests.breed.description=§lBreed§r %s %s in %s, you have currently bred %s§lReward:§r %s%s Reputation
+quests.breed.reject=Ah, I understand. Does causing animals to love each other make you uncomfortable, then?
+quests.breed.complete=Thank you, we appreciate the help, @p.
+quests.breed.incomplete=You have not bred enough of the requested animals, @p.
+
+quests.breed.acceptcow=2
+quests.breed.acceptcow0=The bandits in the last raid stole a herd of cattle from one of the cowherds. Help them out and breed a few cows.
+quests.breed.acceptcow1=I will need you to breed more cows to strengthen their numbers.
+
+quests.breed.acceptsheep=Un§obaa§rlievable! A pack of wolves wiped out a flock of sheep a few days ago. I'll need you to breed more for the shepherds.
+
+quests.breed.acceptchicken=2
+quests.breed.acceptchicken0=Some creature broke into the coop and devoured most of our chickens, bloody mess it was! I will need you to breed more chickens because a lot of them died.
+quests.breed.acceptchicken1=A §ofowl§r disease has wiped out most of our chickens. Get it? A §oFOWL§r disease? Haha... ha... anyways... I will need you to breed more chickens because most of them are dead now.
+
+quests.breed.acceptpig=As you know, the villagers love having bacon for breakfast. I'll need you to breed more pigs because we want more bacon.
+
+quests.breed.acceptany=2
+quests.breed.acceptany0=We had to slaughter some of our livestock in preparation for a great feast! I will need you to breed several animals to strengthen their numbers.
+quests.breed.acceptany1=A terrible disease has wiped out much of our livestock. I will need you to breed several animals to strengthen their numbers.
+
+################## CIVILIZATION NAMES ##################
+
+civilization.earth.name=Terra
+civilization.wind.name=Gustaberg
+civilization.fire.name=Emberium
+civilization.moon.name=Shadits
+civilization.sun.name=Lumens
+civilization.water.name=Umbertau
+
+civilization.green.name=Wild
+civilization.brown.name=Mithril
+civilization.red.name=Briar
+civilization.black.name=Moor
+civilization.yellow.name=Dawn
+civilization.teal.name=Glacier
+
+civilization.null.name=our village
+civilization.house.name=House
+
+################## GUARD INVISIBLE ##################
+
+entity.toroquest.guard.invisible=13
+entity.toroquest.guard.invisible0=Huh? Who goes there?
+entity.toroquest.guard.invisible1=I must be hearing things.
+entity.toroquest.guard.invisible2=Hello..? Is someone there?
+entity.toroquest.guard.invisible3=Huh?
+entity.toroquest.guard.invisible4=Who's there?
+entity.toroquest.guard.invisible5=Is... someone there?
+entity.toroquest.guard.invisible6=...Hello?
+entity.toroquest.guard.invisible7=Am I hearing things..?
+entity.toroquest.guard.invisible8=I swear I heard something...
+entity.toroquest.guard.invisible9=I must be tired. I'm seeing things.
+entity.toroquest.guard.invisible10=I must be seeing things...
+entity.toroquest.guard.invisible11=Is... is that a ghost?!
+entity.toroquest.guard.invisible12=W-what is this magic?!
+
+################## GUARD INSULT ##################
+
+entity.toroquest.guard.insult=47
+entity.toroquest.guard.insult0=Taste my steel!
+entity.toroquest.guard.insult1=How dare you show your face here, criminal!
+entity.toroquest.guard.insult2=I will paint the earth red with your blood, filthy outlaw!
+entity.toroquest.guard.insult3=You will pay for your crimes!
+entity.toroquest.guard.insult4=How dare you show your face here, criminal!
+entity.toroquest.guard.insult5=Die, you coward!
+entity.toroquest.guard.insult6=I'll break you like you broke the law!
+entity.toroquest.guard.insult7=Pay with your blood!
+entity.toroquest.guard.insult8=I'll gut you!
+entity.toroquest.guard.insult9=Die, filth!
+entity.toroquest.guard.insult10=Weakling!
+entity.toroquest.guard.insult11=Griefer!
+entity.toroquest.guard.insult12=Burn in the Nether!
+entity.toroquest.guard.insult13=Criminal!
+entity.toroquest.guard.insult14=Your kind disgusts me!
+entity.toroquest.guard.insult15=Your death will be swift!
+entity.toroquest.guard.insult16=There will be justice!
+entity.toroquest.guard.insult17=You're no match for me!
+entity.toroquest.guard.insult18=Filthy outlaw!
+entity.toroquest.guard.insult19=I hope you rot in the Nether!
+entity.toroquest.guard.insult20=Burn in the Nether, you scum.
+entity.toroquest.guard.insult21=This is The End for you, criminal.
+entity.toroquest.guard.insult22=I will be your End.
+entity.toroquest.guard.insult23=You'll pay for your crimes against @e!
+entity.toroquest.guard.insult24=You've committed crimes against @e!
+entity.toroquest.guard.insult25=The village lord will hear of your crimes!
+entity.toroquest.guard.insult26=You're weak.
+entity.toroquest.guard.insult27=Hah! Take that!
+entity.toroquest.guard.insult28=For @e!
+entity.toroquest.guard.insult29=Why... won't you die?!
+entity.toroquest.guard.insult30=Coward!
+entity.toroquest.guard.insult31=You're as good as dead.
+entity.toroquest.guard.insult32=Give up, you scoundrel!
+entity.toroquest.guard.insult33=Die, you cur!
+entity.toroquest.guard.insult34=Die!
+entity.toroquest.guard.insult35=Is that all you got?!
+entity.toroquest.guard.insult36=I will defend @e with my life!
+entity.toroquest.guard.insult37=You die where you stand!
+entity.toroquest.guard.insult38=You're pathetic.
+entity.toroquest.guard.insult39=I've fought Silverfish tougher than you.
+entity.toroquest.guard.insult40=You better run, criminal.
+entity.toroquest.guard.insult41=Lay down your weapons!
+entity.toroquest.guard.insult42=Stand down!
+entity.toroquest.guard.insult43=Give up already!
+entity.toroquest.guard.insult44=You're already dead.
+entity.toroquest.guard.insult45=I will cut you down!
+entity.toroquest.guard.insult46=Rot in the Nether, you coward!
+
+################## GUARD INSULT ##################
+
+entity.toroquest.guard.dropplayeraggro=23
+entity.toroquest.guard.dropplayeraggro0=That'll show you, coward.
+entity.toroquest.guard.dropplayeraggro1=Ready to follow the law now, @p?
+entity.toroquest.guard.dropplayeraggro2=You'd better run, @p.
+entity.toroquest.guard.dropplayeraggro3=Disobey the law again and next time I won't stop.
+entity.toroquest.guard.dropplayeraggro4=You've had enough, criminal?
+entity.toroquest.guard.dropplayeraggro5=I hope you've learned your lesson, griefer.
+entity.toroquest.guard.dropplayeraggro6=Don't show your face here again, outlaw.
+entity.toroquest.guard.dropplayeraggro7=One more mistake and I'll put you down for good.
+entity.toroquest.guard.dropplayeraggro8=Abide by the law or die.
+entity.toroquest.guard.dropplayeraggro9=Break the law again and you're as good as dead.
+entity.toroquest.guard.dropplayeraggro10=That'll teach you, outlaw.
+entity.toroquest.guard.dropplayeraggro11=Leave and never come back!
+entity.toroquest.guard.dropplayeraggro12=Run away, you cur!
+entity.toroquest.guard.dropplayeraggro13=Don't break the law next time, you pathetic criminal.
+entity.toroquest.guard.dropplayeraggro14=You didn't even put up a good fight, coward!
+entity.toroquest.guard.dropplayeraggro15=This is your last warning. Follow the law or else...
+entity.toroquest.guard.dropplayeraggro16=I don't know why we allow your kind here.
+entity.toroquest.guard.dropplayeraggro17=You're not worth my time, pathetic criminal.
+entity.toroquest.guard.dropplayeraggro18=Consider this your last warning, @p.
+entity.toroquest.guard.dropplayeraggro19=Last warning, @p.
+entity.toroquest.guard.dropplayeraggro20=Grief @e again and I'll gut you myself.
+entity.toroquest.guard.dropplayeraggro21=Stop griefing @e and we'll stop attacking you, @p.
+entity.toroquest.guard.dropplayeraggro22=Giving up so easy? @e pities your cowardice.
+
+################## GUARD CONDITIONS ##################
+
+entity.toroquest.guard.wounded=7
+entity.toroquest.guard.wounded0=I am quite wounded.
+entity.toroquest.guard.wounded1=I got pretty scraped up, I may need a healer.
+entity.toroquest.guard.wounded2=That one got me right in the knee. How bad does it look?
+entity.toroquest.guard.wounded3=Ah bloody Nether! I need a healing potion to fix this wound.
+entity.toroquest.guard.wounded4=It hurts... I think I'm bleeding.
+entity.toroquest.guard.wounded5=I took some damage, I need healing.
+entity.toroquest.guard.wounded6=I... am in pain...
+
+entity.toroquest.guard.sword=4
+entity.toroquest.guard.sword0=Careful where you swing that weapon!
+entity.toroquest.guard.sword1=Impressive weapon you got there.
+entity.toroquest.guard.sword2=That looks like the perfect bandit-killing weapon!
+entity.toroquest.guard.sword3=That weapon looks like it could deal some damage!
+
+entity.toroquest.guard.axe=4
+entity.toroquest.guard.axe0=That axe is for chopping trees, I hope.
+entity.toroquest.guard.axe1=That's a hefty axe. You off to go chop up some bandits?
+entity.toroquest.guard.axe2=Can I AXE what you plan to do with that? Haha... ha... sorry won't happen again sir.
+entity.toroquest.guard.axe3=I prefer axes over blades, if I'm being honest.
+
+entity.toroquest.guard.hoe=4
+entity.toroquest.guard.hoe0=Planting more crops, I see. We can use all the help we can get.
+entity.toroquest.guard.hoe1=Y'know what they say... never spend diamonds on a hoe.
+entity.toroquest.guard.hoe2=I took you for a fighter not a farmer.
+entity.toroquest.guard.hoe3=Ha! Leave the farming to the villagers.
+
+entity.toroquest.guard.pickaxe=5
+entity.toroquest.guard.pickaxe0=Mining for some diamonds now, are we?"
+entity.toroquest.guard.pickaxe1=May you find many diamonds!
+entity.toroquest.guard.pickaxe2=What are you mining for, exactly?
+entity.toroquest.guard.pickaxe3=Off to the mines, eh?
+entity.toroquest.guard.pickaxe4=Mining again, are we? How many diamonds have you found?
+
+entity.toroquest.guard.spade=4
+entity.toroquest.guard.spade0=You off to play in the dirt?
+entity.toroquest.guard.spade1=Digging the graves of your enemies, I see.
+entity.toroquest.guard.spade2=Dig up any treasure?
+entity.toroquest.guard.spade3=You mind digging us a moat while you're at it?
+
+entity.toroquest.guard.bow=4
+entity.toroquest.guard.bow0=May your arrows fly true!
+entity.toroquest.guard.bow1=Fine looking bow you've got there.
+entity.toroquest.guard.bow2=Don't shoot my knees with that! Haha.
+entity.toroquest.guard.bow3=Looks like you could really use a bow job, I know a guy.
+
+entity.toroquest.guard.evening=2
+entity.toroquest.guard.evening0=Good evening.
+entity.toroquest.guard.evening1=What a pleasant evening.
+
+entity.toroquest.guard.morning=2
+entity.toroquest.guard.morning0=Good morning.
+entity.toroquest.guard.morning1=§oUhg§r. I hate the morning.
+
+entity.toroquest.guard.afternoon=2
+entity.toroquest.guard.afternoon0=Good afternoon.
+entity.toroquest.guard.afternoon1=I need lunch, I'm starving.
+
+entity.toroquest.guard.night=4
+entity.toroquest.guard.night0=It's too dark out there I can't see anything.
+entity.toroquest.guard.night1=Stay safe... monsters roam the night.
+entity.toroquest.guard.night2=I wouldn't go out there... dangers are lurking about.
+entity.toroquest.guard.night3=I thought I heard something...
+
+entity.toroquest.guard.rain=6
+entity.toroquest.guard.rain0=§oUhg§r. Why does it always seem to rain?
+entity.toroquest.guard.rain1=Rain again? §oGreaaat§r.
+entity.toroquest.guard.rain2=It's raining it's pouring the Enderman is teleporting...
+entity.toroquest.guard.rain3=It always rains when I'm on duty.
+entity.toroquest.guard.rain4=Is it just me? Or does it rain too much.
+entity.toroquest.guard.rain5=My armor is soaked from all this rain...
+
+entity.toroquest.guard.snow=7
+entity.toroquest.guard.snow0=Wish all this snow would just melt...
+entity.toroquest.guard.snow1=It's really snowing again, huh?
+entity.toroquest.guard.snow2=All this snow... I can't feel my toes.
+entity.toroquest.guard.snow3=More snow? §oGreaaat§r.
+entity.toroquest.guard.snow4=It's always snowing here... I picked the wrong biome to live in.
+entity.toroquest.guard.snow5=Enjoying the snow?
+entity.toroquest.guard.snow6=They should make socks for your hands.
+
+################## GUARD ANNOYED ##################
+
+entity.toroquest.guard.annoyed=50
+entity.toroquest.guard.annoyed0=Stop. You're causing a disturbance.
+entity.toroquest.guard.annoyed1=Criminal.
+entity.toroquest.guard.annoyed2=This is your last warning.
+entity.toroquest.guard.annoyed3=You're causing a disturbance...
+entity.toroquest.guard.annoyed4=One more mistake and you're dead.
+entity.toroquest.guard.annoyed5=I'd be careful if I were you.
+entity.toroquest.guard.annoyed6=Stay out of trouble.
+entity.toroquest.guard.annoyed7=Go ahead. Try me.
+entity.toroquest.guard.annoyed8=You're overstaying your welcome, @p.
+entity.toroquest.guard.annoyed9=If you are here to cause trouble, I'd suggest you leave.
+entity.toroquest.guard.annoyed10=Keep it up and there will be a bounty on your head.
+entity.toroquest.guard.annoyed11=I could take you. Easy.
+entity.toroquest.guard.annoyed12=I'd suggest you leave...
+entity.toroquest.guard.annoyed13=Disrespect the law, and you disrespect me.
+entity.toroquest.guard.annoyed14=You are disrupting the peace.
+entity.toroquest.guard.annoyed15=Causing trouble now, are we?
+entity.toroquest.guard.annoyed16=I've been told you're causing problems. Is that so?
+entity.toroquest.guard.annoyed17=Last warning.
+entity.toroquest.guard.annoyed18=Time for you to leave.
+entity.toroquest.guard.annoyed19=Leave now, or I'll §omake§r you leave.
+entity.toroquest.guard.annoyed20=We warned you, but you just §ohad§r to cause trouble.
+entity.toroquest.guard.annoyed21=You've committed crimes against our province. Leave.
+entity.toroquest.guard.annoyed22=Your crimes will not go unnoticed.
+entity.toroquest.guard.annoyed23=Criminals, such as yourself, will be dealt with swiftly.
+entity.toroquest.guard.annoyed24=Commit any more crimes and you're as good as dead.
+entity.toroquest.guard.annoyed25=You're on thin ice, @p.
+entity.toroquest.guard.annoyed26=You causing trouble?
+entity.toroquest.guard.annoyed27=We don't take kindly to troublemakers here in @e.
+entity.toroquest.guard.annoyed28=I'd suggest you leave @e and do not return.
+entity.toroquest.guard.annoyed29=I'll send you to the Nether, you troublemaker.
+entity.toroquest.guard.annoyed30=Why don't you make like an Enderman and teleport away.
+entity.toroquest.guard.annoyed31=You drifters only bring trouble wherever you go.
+entity.toroquest.guard.annoyed32=Go play in lava why don't you.
+entity.toroquest.guard.annoyed33=Why don't you go toss some Ender Pearls in a fire?
+entity.toroquest.guard.annoyed34=We don't tolerate griefing here in @e.
+entity.toroquest.guard.annoyed35=Look who we have here. A filthy griefer.
+entity.toroquest.guard.annoyed36=Griefer.
+entity.toroquest.guard.annoyed37=I heard you've been causing trouble.
+entity.toroquest.guard.annoyed38=We don't allow criminals like you in @e.
+entity.toroquest.guard.annoyed39=There's a bounty on your head, @p.
+entity.toroquest.guard.annoyed40=If I throw a stick, will you leave?
+entity.toroquest.guard.annoyed41=Your recent actions have not proven favorable.
+entity.toroquest.guard.annoyed42=I have heard of your crimes, @p. Leave.
+entity.toroquest.guard.annoyed43=No griefing allowed. You broke the law.
+entity.toroquest.guard.annoyed44=Griefing has no place in @e. You are not welcome here.
+entity.toroquest.guard.annoyed45=Your crimes have not gone unnoticed, @p.
+entity.toroquest.guard.annoyed46=Stop, you've violated the law.
+entity.toroquest.guard.annoyed47=You there! You're wanted for crimes against @e.
+entity.toroquest.guard.annoyed48=There is a bounty on your head.
+entity.toroquest.guard.annoyed49=Go dance with Creepers why don't you.
+
+################## GUARD NO LORD ##################
+
+entity.toroquest.guard.nolord=22
+entity.toroquest.guard.nolord0=The attacks were too much for us, our village is in ruin!
+entity.toroquest.guard.nolord1=The village lord is dead, woe is me!
+entity.toroquest.guard.nolord2=I have failed to protect our village lord...
+entity.toroquest.guard.nolord3=How are we to prosper with no leader?
+entity.toroquest.guard.nolord4=@e is in shambles!
+entity.toroquest.guard.nolord5=Guard..? Guard of what?! The village lord is dead!
+entity.toroquest.guard.nolord6=The attacks on @e were too devastating...
+entity.toroquest.guard.nolord7=@e has no lord to guide its people. We are doomed!
+entity.toroquest.guard.nolord8=The lord of @e is dead... may he rest in peace.
+entity.toroquest.guard.nolord9=There were too many of them... they took everything...
+entity.toroquest.guard.nolord10=Our defenses were not enough...
+entity.toroquest.guard.nolord11=The village lord is dead... and we might as well be too.
+entity.toroquest.guard.nolord12=We were not prepared for the attacks... they were too much for us...
+entity.toroquest.guard.nolord13=The village lord was slain! I have failed my duties...
+entity.toroquest.guard.nolord14=@e is in ruin!
+entity.toroquest.guard.nolord15=May the lord of @e rest in peace.
+entity.toroquest.guard.nolord16=@e could not withstand the onslaught... they were too much for us.
+entity.toroquest.guard.nolord17=May the lord of @e rest in peace.
+entity.toroquest.guard.nolord17=The village lord has fallen! @e is ill-omened...
+entity.toroquest.guard.nolord18=What are the people of @e to do? We have no village lord!
+entity.toroquest.guard.nolord19=The people of @e are in chaos! The village lord has been slain!
+entity.toroquest.guard.nolord20=May the lord of @e rest in the Aether...
+entity.toroquest.guard.nolord21=How will we recover with no lord?!
+
+################## FALSE LORD ##################
+
+entity.toroquest.guard.falselord=10
+entity.toroquest.guard.falselord0=You are no lord!
+entity.toroquest.guard.falselord1=Imposter!
+entity.toroquest.guard.falselord2=You are not our village lord!
+entity.toroquest.guard.falselord3=A self-proclaimed lord?! You have no such authority!
+entity.toroquest.guard.falselord4=You dare proclaim yourself as lord?!
+entity.toroquest.guard.falselord5=You're not Lord of @e... filthy imposter!
+entity.toroquest.guard.falselord6=You're a fraud!
+entity.toroquest.guard.falselord7=You hold no claim to @e!
+entity.toroquest.guard.falselord8=You're no village lord!
+entity.toroquest.guard.falselord9=You will NOT overthrow our village lord!
+
+################## FALSE LORD ##################
+
+entity.toroquest.guard.lord=8
+entity.toroquest.guard.lord0=M'lord.
+entity.toroquest.guard.lord1=Greetings, my lord.
+entity.toroquest.guard.lord2=Hail, Lord of @e.
+entity.toroquest.guard.lord3=What do you ask of me, Lord of @e?
+entity.toroquest.guard.lord4=I am at your service, Lord of @e.
+entity.toroquest.guard.lord5=Your Majesty.
+entity.toroquest.guard.lord6=Greetings, Lord of @e.
+entity.toroquest.guard.lord7=At your service, m'lord.
+
+################## GUARD LOW REP ##################
+
+entity.toroquest.guard.lowrep=56
+entity.toroquest.guard.lowrep0=Watch yourself, traveler.
+entity.toroquest.guard.lowrep1=I'd be careful if I were you.
+entity.toroquest.guard.lowrep2=You're a bit far from home, traveler.
+entity.toroquest.guard.lowrep3=Causing trouble now, are we?
+entity.toroquest.guard.lowrep4=Stay out of trouble, traveler.
+entity.toroquest.guard.lowrep5=Disrespect the law, and you disrespect me.
+entity.toroquest.guard.lowrep6=Trouble always seems to follow your kind, drifter.
+entity.toroquest.guard.lowrep7=Make it quick, traveler.
+entity.toroquest.guard.lowrep8=Huh? What do you want?
+entity.toroquest.guard.lowrep9=What are §oyou§r looking at?
+entity.toroquest.guard.lowrep10=Greetings, traveler.
+entity.toroquest.guard.lowrep11=§oGreat...§r more outsiders.
+entity.toroquest.guard.lowrep12=Move along.
+entity.toroquest.guard.lowrep13=Which province do you hail from?
+entity.toroquest.guard.lowrep14=Keep the peace or keep out.
+entity.toroquest.guard.lowrep15=I haven't seen you before. Welcome.
+entity.toroquest.guard.lowrep16=You won't survive very long out there on your own.
+entity.toroquest.guard.lowrep17=You're not one of them bandits, are ya?
+entity.toroquest.guard.lowrep18=We have much trade here in the village.
+entity.toroquest.guard.lowrep19=Can I... help you?
+entity.toroquest.guard.lowrep20=Welcome. Our village has much to offer.
+entity.toroquest.guard.lowrep21=I wish I was an adventurer like you...
+entity.toroquest.guard.lowrep22=Get out of my face.
+entity.toroquest.guard.lowrep23=I'm keeping an eye on you...
+entity.toroquest.guard.lowrep24=Stay out of trouble.
+entity.toroquest.guard.lowrep25=What?
+entity.toroquest.guard.lowrep26=Do you... need something?
+entity.toroquest.guard.lowrep27=Piss off.
+entity.toroquest.guard.lowrep28=I don't fancy outsiders.
+entity.toroquest.guard.lowrep29=Move.
+entity.toroquest.guard.lowrep30=Don't go causing any trouble.
+entity.toroquest.guard.lowrep31=What is it, outsider?
+entity.toroquest.guard.lowrep32=Get out of my way.
+entity.toroquest.guard.lowrep33=What is it?
+entity.toroquest.guard.lowrep34=Some more emeralds would be nice...
+entity.toroquest.guard.lowrep35=Yeah?
+entity.toroquest.guard.lowrep36=What do you need?
+entity.toroquest.guard.lowrep37=Welcome to @e.
+entity.toroquest.guard.lowrep38=Welcome to @e, traveler.
+entity.toroquest.guard.lowrep39=Come to do trade in @e?
+entity.toroquest.guard.lowrep40=What business do you have in @e?
+entity.toroquest.guard.lowrep41=Been to @e before?
+entity.toroquest.guard.lowrep42=What in the Nether do §oyou§r want?
+entity.toroquest.guard.lowrep43=Have you come to do trade in @e?
+entity.toroquest.guard.lowrep44=Not many visitors here in @e. State your business.
+entity.toroquest.guard.lowrep45=State your business, traveler.
+entity.toroquest.guard.lowrep46=Looking to settle in @e?
+entity.toroquest.guard.lowrep47=@e sells the finest bread in all of the provinces!
+entity.toroquest.guard.lowrep48=And you are...?
+entity.toroquest.guard.lowrep49=I'm kinda busy.
+entity.toroquest.guard.lowrep50=What brings you here?
+entity.toroquest.guard.lowrep51=Have you nothing better to do than bother me?
+entity.toroquest.guard.lowrep52=Stop wasting my time.
+entity.toroquest.guard.lowrep53=@e has much to offer.
+entity.toroquest.guard.lowrep54=Are you new in @e?
+entity.toroquest.guard.lowrep55=What brings you to @e?
+
+################## GUARD MEDIUM REP ##################
+
+entity.toroquest.guard.mediumrep=38
+entity.toroquest.guard.mediumrep0=Please, stay awhile and enjoy your welcome.
+entity.toroquest.guard.mediumrep1=You're, @p, aren't you?
+entity.toroquest.guard.mediumrep2=You're making quite the name for yourself around here.
+entity.toroquest.guard.mediumrep3=Yes, citizen? How may I help you?
+entity.toroquest.guard.mediumrep4=Gut anymore of those filthy bandits?
+entity.toroquest.guard.mediumrep5=It's good to see you.
+entity.toroquest.guard.mediumrep6=I hope you don't turn out to be one of those excentric drifters.
+entity.toroquest.guard.mediumrep7=Greetings, @p.
+entity.toroquest.guard.mediumrep8=You have our thanks.
+entity.toroquest.guard.mediumrep9=Thank you for keeping the village safe.
+entity.toroquest.guard.mediumrep10=Citizen.
+entity.toroquest.guard.mediumrep11=Is there anything I can do for you, @p?
+entity.toroquest.guard.mediumrep12=Is there a disturbance to report?
+entity.toroquest.guard.mediumrep13=How may I assist you?
+entity.toroquest.guard.mediumrep14=How are you enjoying your time in @e?
+entity.toroquest.guard.mediumrep15=We appreciate your help, @p.
+entity.toroquest.guard.mediumrep16=The lord of @e is quite pleased with your service.
+entity.toroquest.guard.mediumrep17=We appreciate your service to @e.
+entity.toroquest.guard.mediumrep18=Thank you for keeping @e safe.
+entity.toroquest.guard.mediumrep19=Greetings, citizen.
+entity.toroquest.guard.mediumrep20=Yes, citizen?
+entity.toroquest.guard.mediumrep21=Glad to see you are back in @e.
+entity.toroquest.guard.mediumrep22=Good to see you again.
+entity.toroquest.guard.mediumrep23=You look familiar...
+entity.toroquest.guard.mediumrep24=You're @p, right?
+entity.toroquest.guard.mediumrep25=You are always welcome here.
+entity.toroquest.guard.mediumrep26=How's @e treating you?
+entity.toroquest.guard.mediumrep27=I'm listening.
+entity.toroquest.guard.mediumrep28=How can I help?
+entity.toroquest.guard.mediumrep29=Welcome friend.
+entity.toroquest.guard.mediumrep30=Can I assist you?
+entity.toroquest.guard.mediumrep31=I'm listening.
+entity.toroquest.guard.mediumrep32=You have my attention.
+entity.toroquest.guard.mediumrep33=What troubles you?
+entity.toroquest.guard.mediumrep34=What can I help you with?
+entity.toroquest.guard.mediumrep35=Enjoying your stay here in @e?
+entity.toroquest.guard.mediumrep36=@p, is it? Good to meet you.
+entity.toroquest.guard.mediumrep37=How goes it?
+
+################## GUARD HIGH REP ##################
+
+entity.toroquest.guard.highrep=58
+entity.toroquest.guard.highrep0=Welcome, my friend.
+entity.toroquest.guard.highrep1=It is an honor, @p.
+entity.toroquest.guard.highrep2=Hail, @p.
+entity.toroquest.guard.highrep3=Greetings, @p.
+entity.toroquest.guard.highrep4=Good to see you, @p.
+entity.toroquest.guard.highrep5=Hail, @p.
+entity.toroquest.guard.highrep6=What is your command?
+entity.toroquest.guard.highrep7=We appreciate your service to @e.
+entity.toroquest.guard.highrep8=@p! My hero...
+entity.toroquest.guard.highrep9=Your orders?
+entity.toroquest.guard.highrep10=If you're ever in trouble, come to us.
+entity.toroquest.guard.highrep11=I've heard tales of your heroic deeds!
+entity.toroquest.guard.highrep12=We stand at the ready.
+entity.toroquest.guard.highrep13=You have my deepest respect.
+entity.toroquest.guard.highrep14=I am at your command, @p.
+entity.toroquest.guard.highrep15=We've sent a party of scouts to investigate the recent attacks, @p.
+entity.toroquest.guard.highrep16=Nothing to report, @p.
+entity.toroquest.guard.highrep17=Reporting for duty!
+entity.toroquest.guard.highrep18=The people of @e adore you, @p.
+entity.toroquest.guard.highrep19=It is an honor.
+entity.toroquest.guard.highrep20=We are forever in your debt. Thank you, @p.
+entity.toroquest.guard.highrep21=It's good to see you again.
+entity.toroquest.guard.highrep22=May the Aether bless you, @p.
+entity.toroquest.guard.highrep23=How goes your journeys?
+entity.toroquest.guard.highrep24=I envy your heroism.
+entity.toroquest.guard.highrep25=May the Aether watch over you.
+entity.toroquest.guard.highrep26=If you ever need anything, let me know.
+entity.toroquest.guard.highrep27=We stand by your side!
+entity.toroquest.guard.highrep28=The honor is mine.
+entity.toroquest.guard.highrep29=I am honored to be in your presence.
+entity.toroquest.guard.highrep30=The world needs more heroes like you.
+entity.toroquest.guard.highrep31=I wish I was a hero like you.
+entity.toroquest.guard.highrep32=The people of @e envy you, @p.
+entity.toroquest.guard.highrep33=Please, stay awhile and enjoy your welcome.
+entity.toroquest.guard.highrep34=Always a pleasure to see you, @p.
+entity.toroquest.guard.highrep35=@p! Welcome welcome.
+entity.toroquest.guard.highrep36=What are your orders?
+entity.toroquest.guard.highrep37=You're looking splendid today, @p.
+entity.toroquest.guard.highrep38=We appreciate your help, @p.
+entity.toroquest.guard.highrep39=The lord of @e is quite pleased with your service.
+entity.toroquest.guard.highrep40=@e is prospering! Thank you for your assistance, @p.
+entity.toroquest.guard.highrep41=@e welcomes you!
+entity.toroquest.guard.highrep42=@e would be in shambles without your help.
+entity.toroquest.guard.highrep43=You'll always have a place in @e.
+entity.toroquest.guard.highrep44=Thank you for keeping @e safe.
+entity.toroquest.guard.highrep45=@e will always have a place for you.
+entity.toroquest.guard.highrep46=Looking as strong as ever!
+entity.toroquest.guard.highrep47=The people of @e adore you, @p.
+entity.toroquest.guard.highrep48=Aether's blessing to you.
+entity.toroquest.guard.highrep49=@p! Good to see you.
+entity.toroquest.guard.highrep50=Your command?
+entity.toroquest.guard.highrep51=May the Aether watch over you.
+entity.toroquest.guard.highrep52=Aether be with you.
+entity.toroquest.guard.highrep53=I am honored.
+entity.toroquest.guard.highrep54=Anything to report, @p?
+entity.toroquest.guard.highrep55=May your blade never dull.
+entity.toroquest.guard.highrep56=What do you ask of me?
+entity.toroquest.guard.highrep57=The people of @e adore you, @p.
+
+################## GUARD ANY REP ##################
+
+entity.toroquest.guard.anyrep=53
+entity.toroquest.guard.anyrep0=Let me guess... someone stole your diamonds.
+entity.toroquest.guard.anyrep1=Everything alright?
+entity.toroquest.guard.anyrep2=For the king!
+entity.toroquest.guard.anyrep3=I live to serve.
+entity.toroquest.guard.anyrep4=Another day another diamond...
+entity.toroquest.guard.anyrep5=What is it?
+entity.toroquest.guard.anyrep6=Yes?
+entity.toroquest.guard.anyrep7=Do you need something?
+entity.toroquest.guard.anyrep8=@e welcomes you.
+entity.toroquest.guard.anyrep9=@e is a lovely province, isn't it?
+entity.toroquest.guard.anyrep10=Speak with our village lord, he has work for you.
+entity.toroquest.guard.anyrep11=§oUhg§r. The thought of vegemite makes me sick.
+entity.toroquest.guard.anyrep12=Well met.
+entity.toroquest.guard.anyrep13=Stay safe.
+entity.toroquest.guard.anyrep14=Everything's in order.
+entity.toroquest.guard.anyrep15=Greetings.
+entity.toroquest.guard.anyrep16=How may I be of assistance?
+entity.toroquest.guard.anyrep17=These bandit raids have been getting worse...
+entity.toroquest.guard.anyrep18=Our scouts have not reported back. I'm worried...
+entity.toroquest.guard.anyrep19=When are we going to build a mill? it can't be that complicated
+entity.toroquest.guard.anyrep20=Careful out there, wouldn't want you getting hurt.
+entity.toroquest.guard.anyrep21=The village lord has some work for you.
+entity.toroquest.guard.anyrep22=We have much trade here in @e.
+entity.toroquest.guard.anyrep23=Come, come! Trade with our village!
+entity.toroquest.guard.anyrep24=Looking for work? Lord of @e could use your muscle.
+entity.toroquest.guard.anyrep25=I'm sure Lord of @e could use your help.
+entity.toroquest.guard.anyrep26=Hm?
+entity.toroquest.guard.anyrep27=Dragons are scary, but have you ever fought a Sandwich Horror?
+entity.toroquest.guard.anyrep28=Villagers have a better eye for valuables than us.
+entity.toroquest.guard.anyrep29=I stand at the ready!
+entity.toroquest.guard.anyrep30=Lord of @e has work for you.
+entity.toroquest.guard.anyrep31=The Lord of @e isn't fond of technology. What's so macabre about redstone?
+entity.toroquest.guard.anyrep32=Do you ever wonder how creepers are made?
+entity.toroquest.guard.anyrep33=I've heard there are huge cities far far away from here. I wonder if humans can live peacefully there...
+entity.toroquest.guard.anyrep34=I wonder how far down one can dig...
+entity.toroquest.guard.anyrep35=Are you... are you Herobrine?
+entity.toroquest.guard.anyrep36=Is there a point to being alive if we all turn to zombies when we die?
+entity.toroquest.guard.anyrep37=Come troll or goblin, we'll be ready.
+entity.toroquest.guard.anyrep38=Ever seen a bugbear? Me neither. Bet they don't exist.
+entity.toroquest.guard.anyrep39=I've heard Endermen were once humans long long ago... what do you think happened?
+entity.toroquest.guard.anyrep40=Anything the matter?
+entity.toroquest.guard.anyrep41=What seems to be the problem?
+entity.toroquest.guard.anyrep42=@e will persevere!
+entity.toroquest.guard.anyrep43=Well met.
+entity.toroquest.guard.anyrep44=How are you?
+entity.toroquest.guard.anyrep45=Do you know any magic spells? Like, umm... any §ogrowth§r spells?
+entity.toroquest.guard.anyrep46=May the Rainmother lead your way!
+entity.toroquest.guard.anyrep47=May The Holy Flame keep you safe!
+entity.toroquest.guard.anyrep48=Keep an eye on the Eye of Viró and you'll never lose your North!
+entity.toroquest.guard.anyrep49=I would fight a zombie over a skeleton every day; they are way more sinister...
+entity.toroquest.guard.anyrep50=Goblins are nasty little creatures, you best stay away from them.
+entity.toroquest.guard.anyrep51=You don't appear to be an ordinary human.
+entity.toroquest.guard.anyrep52=Having to burn the bodies as soon as they die... you don't get used to it.
+
+################## GUARD MURDERER ##################
+
+entity.toroquest.guard.murderer=12
+entity.toroquest.guard.murderer0=Filthy murderer!
+entity.toroquest.guard.murderer1=Die, you murderous coward!
+entity.toroquest.guard.murderer2=You will pay with your blood!
+entity.toroquest.guard.murderer3=Murderous scum!
+entity.toroquest.guard.murderer4=I will paint the earth red with your blood, filthy murderer!
+entity.toroquest.guard.murderer5=Murderer! Murderer!
+entity.toroquest.guard.murderer6=Your killing days are over!
+entity.toroquest.guard.murderer7=Taste my steel, murderer!
+entity.toroquest.guard.murderer8=Murderer!
+entity.toroquest.guard.murderer9=You will pay for murderous ways!
+entity.toroquest.guard.murderer10=I'll send you to the Harvester, you murderer!
+entity.toroquest.guard.murderer11=You are not welcome here, murderer!
+
+################## GUARD ATTACK VILLAGE ##################
+
+entity.toroquest.guard.attackvillager=22
+entity.toroquest.guard.attackvillager0=Stop attacking the villagers!
+entity.toroquest.guard.attackvillager1=Leave the traders alone, coward!
+entity.toroquest.guard.attackvillager2=Help, we're under attack!
+entity.toroquest.guard.attackvillager3=Attacking innocents? Coward!
+entity.toroquest.guard.attackvillager4=You dare attack the people of @e?!
+entity.toroquest.guard.attackvillager5=Violence is not tolerated!
+entity.toroquest.guard.attackvillager6=Get them!
+entity.toroquest.guard.attackvillager7=Violence is punishable by death!
+entity.toroquest.guard.attackvillager8=Our traders are under attack!
+entity.toroquest.guard.attackvillager9=Help, @p is attacking the villagers!
+entity.toroquest.guard.attackvillager10=Stop, you thug!
+entity.toroquest.guard.attackvillager11=Filthy thug, come fight a human!
+entity.toroquest.guard.attackvillager12=Die, you thug!
+entity.toroquest.guard.attackvillager13=I'll break a codex on your head!
+entity.toroquest.guard.attackvillager14=By the Aether... we're under attack!
+entity.toroquest.guard.attackvillager15=I will protect the people of @e with my life!
+entity.toroquest.guard.attackvillager16=@p, how could you?!
+entity.toroquest.guard.attackvillager17=Help, @p is attacking the village!
+entity.toroquest.guard.attackvillager18=@p! Your violence ends here.
+entity.toroquest.guard.attackvillager19=The villagers are under attack!
+entity.toroquest.guard.attackvillager20=Stop! Thug!
+entity.toroquest.guard.attackvillager21=You'll pay with your blood!
+
+################## GUARD ATTACK LORD ##################
+
+entity.toroquest.guard.attacklord=2
+entity.toroquest.guard.attacklord0=The Lord is under attack!
+entity.toroquest.guard.attacklord1=Save the Lord!
+
+################## GUARD PLAYER IS BANDIT ##################
+
+entity.toroquest.guard.bandit=15
+entity.toroquest.guard.bandit0=Filthy bandit!
+entity.toroquest.guard.bandit1=Die, bandit scum!
+entity.toroquest.guard.bandit2=You will pay with your blood!
+entity.toroquest.guard.bandit3=Bandit scum!
+entity.toroquest.guard.bandit4=I will paint the earth red with your blood, filthy bandit!
+entity.toroquest.guard.bandit5=Die, bandit!
+entity.toroquest.guard.bandit6=Taste my steel, bandit!
+entity.toroquest.guard.bandit7=I'll send you to Malina!
+entity.toroquest.guard.bandit8=You're no better than a piglin!
+entity.toroquest.guard.bandit9=You're no match for me, bandit coward!
+entity.toroquest.guard.bandit10=I'll enjoy slaying your zombie!
+entity.toroquest.guard.bandit11=Rot in the Nether, you bandit scum!
+entity.toroquest.guard.bandit12=You are not welcome here, bandit!
+entity.toroquest.guard.bandit13=May you rot in the Nether, bandit scum!
+entity.toroquest.guard.bandit14=Back to the Nether with you, bandit!
+
+################## GUARD CRIME GRIEFING ##################
+
+entity.toroquest.guard.grief=30
+entity.toroquest.guard.grief0=Stop! That was valuable!
+entity.toroquest.guard.grief1=Stop, criminal!
+entity.toroquest.guard.grief2=Fithy criminal!
+entity.toroquest.guard.grief3=Stop breaking things!
+entity.toroquest.guard.grief4=Please don't break that!
+entity.toroquest.guard.grief5=You really shouldn't be doing that!
+entity.toroquest.guard.grief6=@p! You need to stop.
+entity.toroquest.guard.grief7=What in the Nether? Don't go breaking that!
+entity.toroquest.guard.grief8=Hey, give that back!
+entity.toroquest.guard.grief9=Help! @p is destroying the village!
+entity.toroquest.guard.grief10=Stop right there, griefer!
+entity.toroquest.guard.grief11=Griefer!
+entity.toroquest.guard.grief12=Filthy griefer!
+entity.toroquest.guard.grief13=Please stop griefing the village!
+entity.toroquest.guard.grief14=What are you doing?!
+entity.toroquest.guard.grief15=That will be your last mistake!
+entity.toroquest.guard.grief16=Stop! That was valuable!
+entity.toroquest.guard.grief17=Stealing is not tolerated!
+entity.toroquest.guard.grief18=You really shouldn't be stealing!
+entity.toroquest.guard.grief19=Stop stealing from us, filthy rat!
+entity.toroquest.guard.grief20=Don't take what isn't yours, thief!
+entity.toroquest.guard.grief21=You little thief!
+entity.toroquest.guard.grief22=Hah! Caught you!
+entity.toroquest.guard.grief23=That wasn't yours, thief!
+entity.toroquest.guard.grief24=Don't break that!
+entity.toroquest.guard.grief25=Stealing is not tolerated!
+entity.toroquest.guard.grief26=Griefing is not allowed!
+entity.toroquest.guard.grief27=Stop griefing our village, immediately!
+entity.toroquest.guard.grief28=I saw that, criminal scum!
+entity.toroquest.guard.grief29=You stupid blockhead, stop!
+
+################## GUARD CRIME STEALING ##################
+
+entity.toroquest.guard.steal=8
+entity.toroquest.guard.steal0=Hah! Caught you!
+entity.toroquest.guard.steal1=You little thief!
+entity.toroquest.guard.steal2=Don't take what isn't yours, thief!
+entity.toroquest.guard.steal3=Stop stealing from us, filthy rat!
+entity.toroquest.guard.steal4=Stealing is not tolerated!
+entity.toroquest.guard.steal5=You really shouldn't be stealing!
+entity.toroquest.guard.steal6=Caught you! Sticky-palmed little rat!
+entity.toroquest.guard.steal7=Stay where you are, thief!
+
+################## GUARD CRIME BUTCHER ##################
+
+entity.toroquest.guard.butcher=8
+entity.toroquest.guard.butcher0=Kill our livestock and we kill you!
+entity.toroquest.guard.butcher1=What did that animal ever do to you!?
+entity.toroquest.guard.butcher2=@p is killing our livestock!
+entity.toroquest.guard.butcher3=You really shouldn't have done that...
+entity.toroquest.guard.butcher4=What are you doing!?
+entity.toroquest.guard.butcher5=You'll pay for that!
+entity.toroquest.guard.butcher6=We'll never get milk like this!
+entity.toroquest.guard.butcher7=Do you have any idea how hard it is to take care of these?!
+
+################## GUARD CRIME CROPS ##################
+
+entity.toroquest.guard.crops=33
+entity.toroquest.guard.crops0=Stop! Those crops are not yours!
+entity.toroquest.guard.crops1=Those crops aren't yours to take!
+entity.toroquest.guard.crops2=You really shouldn't be stealing crops.
+entity.toroquest.guard.crops3=Stealing crops in not tolerated!
+entity.toroquest.guard.crops4=Planting your own crops isn't so hard, stop!
+entity.toroquest.guard.crops5=Stop griefing the farmland, immediately!
+entity.toroquest.guard.crops6=I saw that, criminal scum!
+entity.toroquest.guard.crops7=You'll pay for that!
+entity.toroquest.guard.crops8=Don't take what isn't yours, thief!
+entity.toroquest.guard.crops9=What are you doing?!
+entity.toroquest.guard.crops10=Stop griefing the farmland.
+entity.toroquest.guard.crops11=Stop, criminal!
+entity.toroquest.guard.crops12=Fithy criminal!
+entity.toroquest.guard.crops13=Stop breaking crops!
+entity.toroquest.guard.crops14=Please don't destroy the farms!
+entity.toroquest.guard.crops15=You really shouldn't be doing that!
+entity.toroquest.guard.crops16=@p! You need to stop.
+entity.toroquest.guard.crops17=What in the Nether? Don't go stealing crops!
+entity.toroquest.guard.crops18=Hey, give that back!
+entity.toroquest.guard.crops19=Help! @p is destroying the farmland!
+entity.toroquest.guard.crops20=Stop right there, griefer!
+entity.toroquest.guard.crops21=What are you doing?!
+entity.toroquest.guard.crops22=That will be your last mistake!
+entity.toroquest.guard.crops23=Stop! That was valuable!
+entity.toroquest.guard.crops24=Stealing is not tolerated!
+entity.toroquest.guard.crops25=You really shouldn't be stealing!
+entity.toroquest.guard.crops26=Stop stealing from us, filthy rat!
+entity.toroquest.guard.crops27=You little thief!
+entity.toroquest.guard.crops28=Hah! Caught you!
+entity.toroquest.guard.crops29=That wasn't yours, thief!
+entity.toroquest.guard.crops30=Don't break that!
+entity.toroquest.guard.crops31=Stealing crops is not tolerated!
+entity.toroquest.guard.crops32=Griefing farms is not allowed!
+
+################## GUARD LAVA ALLOWED ##################
+
+entity.toroquest.guard.lavaallowed=10
+entity.toroquest.guard.lavaallowed0=Careful with that.
+entity.toroquest.guard.lavaallowed1=I hope you know what you're doing with that...
+entity.toroquest.guard.lavaallowed2=That is very dangerous.
+entity.toroquest.guard.lavaallowed3=You could hurt someone with that. Be careful.
+entity.toroquest.guard.lavaallowed4=That's to keep out monsters, right?
+entity.toroquest.guard.lavaallowed5=You're building a lava moat?
+entity.toroquest.guard.lavaallowed6=How in the Nether does that not cool off?
+entity.toroquest.guard.lavaallowed7=Building a moat with all that lava?
+entity.toroquest.guard.lavaallowed8=Pour that on anybody and you're in trouble.
+entity.toroquest.guard.lavaallowed9=That's to keep out monsters, I hope.
+
+################## GUARD CRIME TNT ##################
+
+entity.toroquest.guard.explosives=3
+entity.toroquest.guard.explosives0=What are you doing with those explosives?!
+entity.toroquest.guard.explosives1=is trying to blow up the village, help!
+entity.toroquest.guard.explosives2=Careful with those explosives!
+
+################## GUARD WATER ##################
+
+entity.toroquest.guard.water=8
+entity.toroquest.guard.water0=You're making quite the mess.
+entity.toroquest.guard.water1=You're going to get my armor soaked. Please don't.
+entity.toroquest.guard.water2=Stop being annoying...
+entity.toroquest.guard.water3=You are getting water everywhere!
+entity.toroquest.guard.water4=...
+entity.toroquest.guard.water5=You are flooding the place...
+entity.toroquest.guard.water6=Why don't you bother someone else?
+entity.toroquest.guard.water7=You are soaking the place!
+
+################## GUARD CRIME LAVA ##################
+
+entity.toroquest.guard.lavacrime=10
+entity.toroquest.guard.lavacrime0=Stop! What are you doing?!
+entity.toroquest.guard.lavacrime1=That is very dangerous, stop!
+entity.toroquest.guard.lavacrime2=@p is trying to burn down the village, help!
+entity.toroquest.guard.lavacrime3=You really shouldn't be doing that!
+entity.toroquest.guard.lavacrime4=Are you insane?! You could hurt someone!
+entity.toroquest.guard.lavacrime5=Lava! Lava!
+entity.toroquest.guard.lavacrime6=That is not allowed here!
+entity.toroquest.guard.lavacrime7=You're going to hurt someone, stop!
+entity.toroquest.guard.lavacrime8=Griefer!
+entity.toroquest.guard.lavacrime9=Stop griefing our village, immediately!
+
+################## GUARD CRIME LAVA ON PERSON ##################
+
+entity.toroquest.guard.lavaonperson=10
+entity.toroquest.guard.lavaonperson0=Watch where you're dumping that lava!
+entity.toroquest.guard.lavaonperson1=You're going to burn them, stop!
+entity.toroquest.guard.lavaonperson2=Stop!
+entity.toroquest.guard.lavaonperson3=Stop pouring lava on people!
+entity.toroquest.guard.lavaonperson4=Get them! They're pouring lava on people!
+entity.toroquest.guard.lavaonperson5=Are you trying to kill them?!
+entity.toroquest.guard.lavaonperson6=@p! You're not allowed to pour lava on people!
+entity.toroquest.guard.lavaonperson7=You're going to hurt them, stop!
+entity.toroquest.guard.lavaonperson8=Stop! You're going to burn them alive!
+entity.toroquest.guard.lavaonperson9=You're going to burn them!
+
+################## GUARD CRIME FIRE ON PERSON ##################
+
+entity.toroquest.guard.fireonperson=10
+entity.toroquest.guard.fireonperson0=Watch where you're making fires!
+entity.toroquest.guard.fireonperson1=You're going to burn them, stop!
+entity.toroquest.guard.fireonperson2=By Agfihir!
+entity.toroquest.guard.fireonperson3=Stop lighting people on fire!
+entity.toroquest.guard.fireonperson4=Get them! They're lighting people on fire!
+entity.toroquest.guard.fireonperson5=Are you trying to kill them?!
+entity.toroquest.guard.fireonperson6=@p! You're not allowed to burn people!
+entity.toroquest.guard.fireonperson7=You're going to hurt someone, stop!
+entity.toroquest.guard.fireonperson8=Stop! You're going to burn them alive!
+entity.toroquest.guard.fireonperson9=You're going to burn them!
+
+################## GUARD BOUNTY ##################
+
+entity.toroquest.guard.bountyclear=You've cleared your bounty.
+entity.toroquest.guard.bounty=There's still a bounty on your head.
+
+################## GUARD RETURN ENTITY ##################
+
+entity.toroquest.guard.fugitive=6
+entity.toroquest.guard.fugitive0=Thank you for turning in this fugitive.
+entity.toroquest.guard.fugitive1=I'll take it from here. Thank you, @p.
+entity.toroquest.guard.fugitive2=I appreciate the help. Thank you for capturing this fugitive.
+entity.toroquest.guard.fugitive3=Crime must not go unpunished! I'll escort this criminal to the stockades at once.
+entity.toroquest.guard.fugitive4=We've been looking all over for this one! The guard recognizes your service, @p.
+entity.toroquest.guard.fugitive5=Thank you for capturing this criminal.
+
+entity.toroquest.guard.returnsheep=Thank you for returning our lord's prized sheep, @p.
+
+################## PLAYER GUARD ##################
+
+entity.toroquest.guard.playersguard=50
+entity.toroquest.guard.playersguard0=Yes boss?
+entity.toroquest.guard.playersguard1=I thought I heard something...
+entity.toroquest.guard.playersguard2=Huh?
+entity.toroquest.guard.playersguard3=You should really pay us more...
+entity.toroquest.guard.playersguard4=How do you come up with all this crazy stuff?
+entity.toroquest.guard.playersguard5=Reporting for duty.
+entity.toroquest.guard.playersguard6=How goes it, @p.
+entity.toroquest.guard.playersguard7=You are looking splendid today, @p.
+entity.toroquest.guard.playersguard8=What are these gem alloys I keep hearin off?
+entity.toroquest.guard.playersguard9=What needs killing?
+entity.toroquest.guard.playersguard10=Your wish is my command.
+entity.toroquest.guard.playersguard11=How may I be of assistance?
+entity.toroquest.guard.playersguard12=§oUhg§r. More work?
+entity.toroquest.guard.playersguard13=Nothing to report, Sir.
+entity.toroquest.guard.playersguard14=S§oUhg§r. I stepped on another codex
+entity.toroquest.guard.playersguard15=Do you need something?
+entity.toroquest.guard.playersguard16=When are we getting paid next?
+entity.toroquest.guard.playersguard17=How goes it, @p?
+entity.toroquest.guard.playersguard18=I live to serve.
+entity.toroquest.guard.playersguard19=Everything's in order.
+entity.toroquest.guard.playersguard20=Your command?
+entity.toroquest.guard.playersguard21=Yes?
+entity.toroquest.guard.playersguard22=How may I assist you?
+entity.toroquest.guard.playersguard23=What are your orders?
+entity.toroquest.guard.playersguard24=Your orders?
+entity.toroquest.guard.playersguard25=Got some trouble?
+entity.toroquest.guard.playersguard26=My sword is at the ready.
+entity.toroquest.guard.playersguard27=I serve thee.
+entity.toroquest.guard.playersguard28=May the Aether watch over you, @p.
+entity.toroquest.guard.playersguard29=Where would you like me stationed?
+entity.toroquest.guard.playersguard30=My sword is yours.
+entity.toroquest.guard.playersguard31=I hope there are no imposters here!
+entity.toroquest.guard.playersguard32=I follow your command.
+entity.toroquest.guard.playersguard33=How may I be of service?
+entity.toroquest.guard.playersguard34=Killing is what I do best.
+entity.toroquest.guard.playersguard35=Refractory? no, I don't have any refractory, whatever that is.
+entity.toroquest.guard.playersguard36=I will send your enemies straight to the Nether!
+entity.toroquest.guard.playersguard37=Need some muscle?
+entity.toroquest.guard.playersguard38=Where would you like me to patrol?
+entity.toroquest.guard.playersguard39=I wish dragons still existed
+entity.toroquest.guard.playersguard40=When do I get a raise?
+entity.toroquest.guard.playersguard41=I miss the life of stealing and pillaging...
+entity.toroquest.guard.playersguard42=Honest pay for honest work.
+entity.toroquest.guard.playersguard43=And to thing we never got past crude iron.
+entity.toroquest.guard.playersguard44=You pay well, @p.
+entity.toroquest.guard.playersguard45=I follow your lead.
+entity.toroquest.guard.playersguard46=Yes boss.
+entity.toroquest.guard.playersguard47=Nothing to report here.
+entity.toroquest.guard.playersguard48=I'm bored. Let's kill something.
+entity.toroquest.guard.playersguard49=How goes your adventures?
+
+################## OTHER PLAYERS GUARD ##################
+
+entity.toroquest.guard.otherplayersguard=27
+entity.toroquest.guard.otherplayersguard0=@e pays well. You work for them too?
+entity.toroquest.guard.otherplayersguard1=As long as @e pays me, I'll kill anything. Including you.
+entity.toroquest.guard.otherplayersguard2=Does @e know you're here?
+entity.toroquest.guard.otherplayersguard3=Don't bother me.
+entity.toroquest.guard.otherplayersguard4=Do you... need something?
+entity.toroquest.guard.otherplayersguard5=Can I... help you?
+entity.toroquest.guard.otherplayersguard6=Disrespect @e and you disrespect me.
+entity.toroquest.guard.otherplayersguard7=What are you looking at?
+entity.toroquest.guard.otherplayersguard8=Don't go causing any trouble.
+entity.toroquest.guard.otherplayersguard9=Huh? What do you want.
+entity.toroquest.guard.otherplayersguard10=Hm?
+entity.toroquest.guard.otherplayersguard11=This better be a pressing matter...
+entity.toroquest.guard.otherplayersguard12=Go ahead. Try me.
+entity.toroquest.guard.otherplayersguard14=I'd be careful if I were you.
+entity.toroquest.guard.otherplayersguard15=What is it?
+entity.toroquest.guard.otherplayersguard16=Yes?
+entity.toroquest.guard.otherplayersguard17=Keep the peace or keep out.
+entity.toroquest.guard.otherplayersguard18=I'm keeping my eye on you...
+entity.toroquest.guard.otherplayersguard19=Move along.
+entity.toroquest.guard.otherplayersguard20=Well met.
+entity.toroquest.guard.otherplayersguard21=Greetings.
+entity.toroquest.guard.otherplayersguard22=I only serve @e.
+entity.toroquest.guard.otherplayersguard23=...Are you supposed to be here?
+entity.toroquest.guard.otherplayersguard24=I work for @e only.
+entity.toroquest.guard.otherplayersguard25=You on guard duty too?
+entity.toroquest.guard.otherplayersguard26=I serve @e.
+
+################## GUARD NO CIVILIZATION ##################
+
+entity.toroquest.guard.nociv=6
+entity.toroquest.guard.nociv0=Careful out here, wouldn't want you getting hurt.
+entity.toroquest.guard.nociv1=My scouting party was torn apart by a hoard of zombies... please, we need to get back to town.
+entity.toroquest.guard.nociv2=My caravan was butchered by monsters! We must get to town quickly, it is not safe here.
+entity.toroquest.guard.nociv3=I lost the rest of my scouting party from a bandit raid... we must head back to town quickly and report the attack!
+entity.toroquest.guard.nociv4=My caravan was slaughtered by filthy bandits! We must head to the nearest town before we encounter any more.
+entity.toroquest.guard.nociv5=Thank the Aether you're not a bandit, you had me worried. Please, we must make it back to town.
+
+################## GUARD CARAVAN ##################
+
+entity.toroquest.guard.caravan=8
+entity.toroquest.guard.caravan0=Will you show us to the nearest village, adventurer?
+entity.toroquest.guard.caravan1=We are quite lost, adventurer. Do you know the way to the nearest province?
+entity.toroquest.guard.caravan2=Greetings, adventurer, we are on our way to town.
+entity.toroquest.guard.caravan3=We are headed to town, but these lands are dangerous. Will you guide us?
+entity.toroquest.guard.caravan4=There is a village nearby. Do you mind escorting us there, adventurer?
+entity.toroquest.guard.caravan5=Which province do you hail from? We are headed back to town.
+entity.toroquest.guard.caravan6=Excuse me, adventurer, will you guide the way to the nearest town?
+
+################## GUARD NO CIVILIZATION ##################
+
+entity.toroquest.guard.nociv=3
+entity.toroquest.guard.nociv0=Thank the Aether you are not a bandit, you had me worried.
+entity.toroquest.guard.nociv1=Careful out here, wouldn't want you getting hurt.
+entity.toroquest.guard.nociv2=There have been reports of a bandit camp not too far from here. Be careful.
+
+################## VILLAGE LORD ##################
+
+entity.toroquest.lord.renameconsider=I would consider naming the province @e if your reputation was high enough.
+entity.toroquest.lord.rename=The province shall be renamed to @e.
+entity.toroquest.lord.incorrectname=What do you wish to rename my province to?
+
+entity.toroquest.lord.help=Help, guards!
+entity.toroquest.guard.help=Help, guards!
+
+entity.toroquest.lord.slaingeneric=§lA Lord has been slain!
+entity.toroquest.lord.slaincivilization=§lThe Lord of @e has been slain!
+
+entity.toroquest.guard.throne=3
+entity.toroquest.guard.throne0=My throne! Guards, get them!
+entity.toroquest.guard.throne1=My beautiful throne!
+entity.toroquest.guard.throne2=What are you doing to my throne?!
+
+entity.toroquest.guard.crime=6
+entity.toroquest.guard.crime0=Stop that criminal!
+entity.toroquest.guard.crime1=Guards, get them!
+entity.toroquest.guard.crime2=Help, guards!
+entity.toroquest.guard.crime3=Guards!
+entity.toroquest.guard.crime4=Stop that griefer, immediately!
+entity.toroquest.guard.crime5=Griefer!
+
+entity.toroquest.lord.annoyed=20
+entity.toroquest.lord.annoyed0=There's a bounty on your head.
+entity.toroquest.lord.annoyed1=Leave, before I call the guards...
+entity.toroquest.lord.annoyed2=Your recent actions have not proven favorable.
+entity.toroquest.lord.annoyed3=You're one of those drifters. Those that are never satisfied. Leave...
+entity.toroquest.lord.annoyed4=I am most displeased with your recent actions.
+entity.toroquest.lord.annoyed5=I have heard of your crimes, @p. Leave.
+entity.toroquest.lord.annoyed6=You have been causing a disturbance in my province. It would be best if you leave.
+entity.toroquest.lord.annoyed7=I do not tolerate criminal activity. That goes for you as well, @p.
+entity.toroquest.lord.annoyed8=The guards have told me of your crimes. Now go.
+entity.toroquest.lord.annoyed9=You have been causing a disturbance in my province, I've heard.
+entity.toroquest.lord.annoyed10=You have broken my trust, @p.
+entity.toroquest.lord.annoyed11=No griefing allowed. You broke the law.
+entity.toroquest.lord.annoyed12=I don't allow griefers in @e...
+entity.toroquest.lord.annoyed13=Griefing has no place in @e. You are not welcome here.
+entity.toroquest.lord.annoyed14=I hope criminals like you rot in the Nether.
+entity.toroquest.lord.annoyed15=Your crimes have not gone unnoticed, @p.
+entity.toroquest.lord.annoyed16=Griefing? In MY village?! Your actions are unacceptable, @p.
+entity.toroquest.lord.annoyed17=You may return when your crimes have been forgiven, @p.
+entity.toroquest.lord.annoyed18=Stop, you've violated the law.
+entity.toroquest.lord.annoyed19=You there! You're wanted for crimes against @e.
+
+################## BANDIT RECRUIT ##################
+
+entity.toroquest.guard.nocivbanditrecruit=8
+entity.toroquest.guard.nocivbanditrecruit0=I live to serve!
+entity.toroquest.guard.nocivbanditrecruit1=For honor!
+entity.toroquest.guard.nocivbanditrecruit2=For Malina!
+entity.toroquest.guard.nocivbanditrecruit3=My sword is yours!
+entity.toroquest.guard.nocivbanditrecruit4=I stand at the ready!
+entity.toroquest.guard.nocivbanditrecruit5=I am ready for battle!
+entity.toroquest.guard.nocivbanditrecruit6=Your command?
+entity.toroquest.guard.nocivbanditrecruit7=For @p!
+
+entity.toroquest.guard.civbanditrecruit=For House @e!
+
+################## VILLAGER RECRUIT ##################
+
+entity.toroquest.guard.nocivvillagerrecruit=8
+entity.toroquest.guard.nocivvillagertrecruit0=I live to serve!
+entity.toroquest.guard.nocivvillagertrecruit1=For honor!
+entity.toroquest.guard.nocivvillagertrecruit2=At your service.
+entity.toroquest.guard.nocivvillagertrecruit3=My sword is yours!
+entity.toroquest.guard.nocivvillagertrecruit4=I stand at the ready!
+entity.toroquest.guard.nocivvillagertrecruit5=I am ready for battle!
+entity.toroquest.guard.nocivvillagertrecruit6=Your command?
+entity.toroquest.guard.nocivvillagertrecruit7=For @p!
+
+entity.toroquest.guard.civvillagerrecruit=For House @e!
+
+################## BANDIT BETRAY ##################
+
+entity.toroquest.bandit.betray=9
+entity.toroquest.bandit.betray0=Haha! Your emeralds are mine!
+entity.toroquest.bandit.betray1=I'll be taking the rest of the emeralds from you, coward!
+entity.toroquest.bandit.betray2=There's no honor among thieves, fool!
+entity.toroquest.bandit.betray3=Your pockets are lined with riches and emeralds. Get em' boys!
+entity.toroquest.bandit.betray4=The mask! It was a facade!
+entity.toroquest.bandit.betray5=Must be more emeralds where that came from. Give me all your loot!
+entity.toroquest.bandit.betray6=Give me all your emeralds, weakling!
+entity.toroquest.bandit.betray7=Hand over the rest of the emeralds, or die!
+entity.toroquest.bandit.betray8=You must be loaded with emeralds... hand em' over!
+
+################## BANDIT EMERALDS ##################
+
+entity.toroquest.bandit.emeralds=10
+entity.toroquest.bandit.emeralds0=You have emeralds? And I assume mercenary work, as well?
+entity.toroquest.bandit.emeralds1=Got work? How about those emeralds first.
+entity.toroquest.bandit.emeralds2=Mercenary work ain't cheap. What's your offer?
+entity.toroquest.bandit.emeralds3=Mercenary work? Toss those emeralds our way first.
+entity.toroquest.bandit.emeralds4=I don't do mercenary work for free.
+entity.toroquest.bandit.emeralds5=Emeralds..? Pay me enough and I'll do just about §oanything§r.
+entity.toroquest.bandit.emeralds6=Toss those emeralds my way and I'll work for you.
+entity.toroquest.bandit.emeralds7=Looking to hire some mercenaries with those emeralds?
+entity.toroquest.bandit.emeralds8=I'm open to mercenary work, if you hand over those emeralds first.
+entity.toroquest.bandit.emeralds9=I'm willing to work if you're willing to pay.
+
+################## BANDIT MORE EMERALDS ##################
+
+entity.toroquest.bandit.moreemeralds=16
+entity.toroquest.bandit.moreemeralds0=How about you pay me first, then we'll talk.
+entity.toroquest.bandit.moreemeralds1=Maybe. If you can pay well enough.
+entity.toroquest.bandit.moreemeralds2=Toss some emeralds my way and I'll consider it.
+entity.toroquest.bandit.moreemeralds3=Mercenary work? How about you pay first.
+entity.toroquest.bandit.moreemeralds4=Tough luck. You'll have to pay me before I agree to mercenary work.
+entity.toroquest.bandit.moreemeralds5=No emeralds? Get lost.
+entity.toroquest.bandit.moreemeralds6=I'd never work for a weakling like you.
+entity.toroquest.bandit.moreemeralds7=Why don't you toss some Ender Pearls in a fire? Now get lost.
+entity.toroquest.bandit.moreemeralds8=Pay me first.
+entity.toroquest.bandit.moreemeralds9=Not a chance... unless you have emeralds?
+entity.toroquest.bandit.moreemeralds10=Emeralds first. Then we'll talk.
+entity.toroquest.bandit.moreemeralds11=I don't do mercenary work for free.
+entity.toroquest.bandit.moreemeralds12=Pay me enough and I'll do just about §oanything§r.
+entity.toroquest.bandit.moreemeralds13=Why don't you make like an Enderman and teleport away.
+entity.toroquest.bandit.moreemeralds14=Go play in lava why don't you.
+entity.toroquest.bandit.moreemeralds15=Emeralds first. Otherwise, don't waste my time.
+
+################## BANDIT BRIBED ##################
+
+entity.toroquest.bandit.bribed=13
+entity.toroquest.bandit.bribed0=So. You got work for me or what?
+entity.toroquest.bandit.bribed1=What is it you hired me for?
+entity.toroquest.bandit.bribed2=What’ll you have me do? Kill? Murder? Steal? All of the above I hope.
+entity.toroquest.bandit.bribed3=Get on with it then, what’s my task?
+entity.toroquest.bandit.bribed4=I’m ready to kill. Tell me your orders.
+entity.toroquest.bandit.bribed5=You got work for me, right?
+entity.toroquest.bandit.bribed6=You said the pay is half now, half later… §oright§r?
+entity.toroquest.bandit.bribed7=Ha! I would’ve done it for half the emeralds!
+entity.toroquest.bandit.bribed8=You’ve got work for me, so let’s hear it.
+entity.toroquest.bandit.bribed9=You pay handsomely, @p.
+entity.toroquest.bandit.bribed10=You are quite generous with your emeralds, @p.
+entity.toroquest.bandit.bribed11=@p? Pleased to meet you. Now, what are my orders?
+entity.toroquest.bandit.bribed12=What are my orders?
+
+################## BANDIT HELLO ##################
+
+entity.toroquest.bandit.hello=21
+entity.toroquest.bandit.hello0=What is it?
+entity.toroquest.bandit.hello1=Who you lookin' at?
+entity.toroquest.bandit.hello2=I don't recognize you...
+entity.toroquest.bandit.hello3=Nice to meet you, @p.
+entity.toroquest.bandit.hello4=Get lost.
+entity.toroquest.bandit.hello5=Get out of my face or I'll bash yours in.
+entity.toroquest.bandit.hello6=Hah. You look weak.
+entity.toroquest.bandit.hello7=Looking for trouble? You've found it.
+entity.toroquest.bandit.hello8=I'm looking for work. Got anything for me?
+entity.toroquest.bandit.hello9=You know where I can find any emeralds?
+entity.toroquest.bandit.hello10=You smell like... rotten beetroot...
+entity.toroquest.bandit.hello11=How are you?
+entity.toroquest.bandit.hello12=Greetings, @p.
+entity.toroquest.bandit.hello13=Who are you again..?
+entity.toroquest.bandit.hello14=Greetings, @p.
+entity.toroquest.bandit.hello15=You don't look so tough.
+entity.toroquest.bandit.hello16=Village nearby. Soon their emeralds will be mine...
+entity.toroquest.bandit.hello17=I enjoy killing. It's what I do best.
+entity.toroquest.bandit.hello18=Would you like to be friends? All of mine are dead.
+entity.toroquest.bandit.hello19=Piss off.
+entity.toroquest.bandit.hello20=Don't worry I won't kill you... maybe.
+
+################## BANDIT OUTLAW ##################
+
+entity.toroquest.bandit.outlaw=10
+entity.toroquest.bandit.outlaw0=@p, is it? I heard you're wanted for murder.
+entity.toroquest.bandit.outlaw1=Could it be..? I've heard tales of your crimes, @p.
+entity.toroquest.bandit.outlaw2=You're the infamous @p, aren't you?
+entity.toroquest.bandit.outlaw3=@p, right? I know not to mess with you.
+entity.toroquest.bandit.outlaw4=Word of your crimes travel quickly, @p. Greetings.
+entity.toroquest.bandit.outlaw5=A fellow outlaw. Welcome.
+entity.toroquest.bandit.outlaw6=Please... don't hurt me. I've heard of your crimes...
+entity.toroquest.bandit.outlaw7=Is it really @p?! I wish I could murder as good as you...
+entity.toroquest.bandit.outlaw8=Look, I don't want any trouble!
+entity.toroquest.bandit.outlaw9=There's a bounty on your head. I bet mine is bigger.

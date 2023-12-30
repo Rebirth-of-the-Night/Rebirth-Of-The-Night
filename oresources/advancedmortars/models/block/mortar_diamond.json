@@ -1,0 +1,7 @@
+{
+  "parent": "advancedmortars:block/mortar",
+  "textures": {
+    "mortar": "minecraft:blocks/furnace_dry_fitted",
+    "particle": "minecraft:blocks/furnace_dry_fitted"
+  }
+}

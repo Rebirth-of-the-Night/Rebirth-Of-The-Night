@@ -1,0 +1,23 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+	  "0": "contenttweaker:blocks/redwood_mossy",
+	  "1": "contenttweaker:blocks/redwood_mossy_top",
+	  "2": "contenttweaker:blocks/redwood_mossy_bot",
+	  "particle": "contenttweaker:blocks/redwood_mossy"
+    },
+    "model": "contenttweaker:venerable_stump",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{
+      "model": "contenttweaker:item/venerable_stump",
+      "textures": {
+        "layer0": "contenttweaker:items/venerable_stump"
+      }
+    }]
+  }
+}

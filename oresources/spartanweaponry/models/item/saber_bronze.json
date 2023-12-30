@@ -1,0 +1,6 @@
+{
+    "parent":"spartanweaponry:item/saber_wood",
+    "textures": {
+        "layer0":"spartanweaponry:items/saber_bronze"
+    }
+}

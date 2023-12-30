@@ -1,0 +1,16 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "all": "betterwithaddons:blocks/whitestone_brick",
+      "particle": "betterwithaddons:blocks/whitestone_brick"
+    },
+    "model": "contenttweaker:base_block",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

@@ -1,0 +1,108 @@
+selectWorld.cheats=Commands (recommended)
+selectWorld.allowCommands=Commands (recommended):
+selectWorld.allowCommands.info=Commands are used for invasions
+
+tile.anvil.name=Iron Anvil
+tile.anvil.intact.name=Iron Anvil
+tile.anvil.slightlyDamaged.name=Damaged Iron Anvil
+tile.anvil.veryDamaged.name=Crumbling Iron Anvil
+
+entity.MinecartRideable.name=Minecart
+
+screenshot.success=Saved screenshot and copied to clipboard. Press CTRL + V to paste.
+
+item.seeds.name=Wheat Seeds
+
+entity.Slime.name=Lime Slime
+entity.EnderCrystal.name=Ender Crystal
+
+item.bucket.name=Bucket
+item.bucketWater.name=Water Bucket
+item.bucketLava.name=Lava Bucket
+
+menu.singleplayer=Start Your Journey
+menu.multiplayer=Play With Friends
+
+tile.blockLapis.name=Block of Lapis Lazuli
+tile.blockGold.name=Block of Gold
+tile.blockIron.name=Block of Iron
+tile.blockCoal.name=Block of Coal
+tile.blockDiamond.name=Block of Diamond
+tile.blockEmerald.name=Block of Emerald
+tile.blockRedstone.name=Block of Redstone
+tile.quartzBlock.name=Block of Quartz
+tile.quartzBlock.default.name=Block of Quartz
+tile.netherWartBlock.name=Block of Nether Wart
+tile.purpurBlock.name=Block of Purpur
+tile.brick.name=Block of Bricks
+tile.netherBrick.name=Block of Nether Bricks
+
+item.cauldron.name=Fluid Cauldron
+tile.hayBlock.name=Straw Bale
+tile.furnace.name=Rock Furnace
+tile.dirt.name=Composite Dirt
+tile.dirt.default.name=Composite Dirt
+tile.dirt.coarse.name=Coarse Composite Dirt
+tile.grass.name=Composite Grass Block
+tile.grassPath.name=Composite Grass Path
+tile.mycel.name=Composite Mycelium
+tile.farmland.name=Composite Farmlan
+
+tile.sandStone.smooth.name=Smooth Sandstone
+tile.redSandStone.smooth.name=Smooth Red Sandstone
+
+item.totem.name=§bTotem of Undying
+tile.flower1.dandelion.name=Marigold
+item.dyePowder.yellow.name=Yellow Dye
+item.netherStar.name=§6Nether Star
+item.slimeball.name=Green Slimeball
+item.arrow.name=Flint Arrow
+item.cookie.name=Chocolate Chip Cookie
+item.brick.name=Clay Brick
+
+item.swordIron.name=Iron Arming Sword
+item.swordStone.name=Stone Arming Sword
+item.swordGold.name=Gold Arming Sword
+item.swordDiamond.name=§bDiamond Arming Sword
+item.helmetDiamond.name=§bDiamond Helmet
+item.chestplateDiamond.name=§bDiamond Chestplate
+item.leggingsDiamond.name=§bDiamond Leggings
+item.bootsDiamond.name=§bDiamond Boots
+
+tile.stone.andesite.name=Gray Andesite
+tile.stone.andesiteSmooth.name=Polished Gray Andesite
+
+tile.stoneMoss.name=Mossy Quartzite Cobblestone
+tile.cobbleWall.mossy.name=Mossy Quartzite Cobblestone Wall
+tile.cobbleWall.normal.name=Quartzite Cobblestone Wall
+tile.stone.stone.name=Quartzite
+tile.stonebrick.name=Quartzite Cobblestone
+tile.stoneSlab.name=Quartzite Slab
+tile.stoneSlab.stone.name=Quartzite Slab
+tile.stoneSlab.cobble.name=Quartzite Cobblestone Slab
+tile.stoneSlab.smoothStoneBrick.name=Quartzite Bricks Slab
+tile.stairsStone.name=Quartzite Cobblestone Stairs
+
+tile.oreGold.name=Gold Ore
+tile.oreIron.name=Iron Ore
+tile.oreCoal.name=Coal Ore
+tile.oreDiamond.name=Diamond Ore
+tile.oreRedstone.name=Redstone Ore
+tile.oreLapis.name=Lapis Lazuli Ore
+tile.oreEmerald.name=Emerald Ore
+
+tile.pressurePlateStone.name=Entity Pressure Plate
+
+tile.stonebricksmooth.name=Quartzite Bricks
+tile.stonebricksmooth.default.name=Quartzite Bricks
+tile.stonebricksmooth.mossy.name=Mossy Quartzite Bricks
+tile.stonebricksmooth.cracked.name=Cracked Quartzite Bricks
+tile.stonebricksmooth.chiseled.name=Chiseled Quartzite Bricks
+tile.monsterStoneEgg.name=Quartzite Stone Monster Egg
+tile.monsterStoneEgg.stone.name=Quartzite Monster Egg
+tile.monsterStoneEgg.cobble.name=Quartzite Cobblestone Monster Egg
+tile.monsterStoneEgg.brick.name=Quartzite Brick Monster Egg
+tile.monsterStoneEgg.mossybrick.name=Mossy Quartzite Brick Monster Egg
+tile.monsterStoneEgg.crackedbrick.name=Cracked Quartzite Brick Monster Egg
+tile.monsterStoneEgg.chiseledbrick.name=Chiseled Quartzite Brick Monster Egg
+tile.stairsStoneBrickSmooth.name=Quartzite Brick Stairs

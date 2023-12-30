@@ -1,0 +1,16 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "all": "contenttweaker:blocks/n_copper_sandstone_red",
+      "particle": "contenttweaker:blocks/n_copper_sandstone_red"
+    },
+    "model": "contenttweaker:base_block",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

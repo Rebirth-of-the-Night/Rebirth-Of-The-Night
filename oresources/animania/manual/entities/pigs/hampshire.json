@@ -1,0 +1,16 @@
+{
+  "name" : "advancements.animania.hampshire.title",
+  "contents" : [
+    "@link@animania:manual/entities/pigs/pigs.json#← advancements.animania.pigs.title",
+    "§ladvancements.animania.hampshire.title",
+    "@entity@animania:hog_hampshire,animania:sow_hampshire,animania:piglet_hampshire",
+    "advancements.animania.hampshire.title",
+    "@text@manual.pigs.meat.1#prevline",
+    "@loottable@animania:pig_prime",
+    " ",
+    "@text@manual.pigs.meat.3",
+    " ",
+    "manual.biometypes",
+    "@config@general.spawnlocations;pigHampshireBiomeTypes"
+  ]
+}

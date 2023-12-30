@@ -1,0 +1,17 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+        "0": "betterwithmods:blocks/cake_side",
+		"1": "minecraft:blocks/water_still",
+		"particle": "betterwithmods:blocks/cake_side"
+    },
+    "model": "contenttweaker:yeast_flour",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

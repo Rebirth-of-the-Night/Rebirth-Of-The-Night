@@ -1,0 +1,63 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "side": "betterwithmods:blocks/mill_side",
+      "particle": "#side",
+      "up": "betterwithmods:blocks/mill_top",
+      "down": "betterwithmods:blocks/mill_bottom",
+      "invfill": "blocks/gravel",
+      "filter": "blocks/ladder"
+    },
+    "model": "cube_column",
+    "uvlock": false
+  },
+  "variants": {
+    "active=true,type=mill": [
+		{
+		"model": "betterwithmods:mill_on"
+		}
+	],
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {
+        "transform": "forge:default-block"
+      }
+    ],
+    "type": {
+      "mill": {
+        "model": "betterwithmods:mill"
+      },
+      "pulley": {
+        "model": "betterwithmods:pulley",
+        "textures": {
+          "side": "betterwithmods:blocks/pulley_side",
+          "up": "betterwithmods:blocks/pulley_top",
+          "down": "betterwithmods:blocks/pulley_bottom",
+          "particle": "#side"
+        }
+      },
+      "hopper": {
+        "model": "betterwithmods:hopper",
+        "textures": {
+          "up": "betterwithmods:blocks/hopper_top",
+          "side": "betterwithmods:blocks/hopper_side"
+        }
+      },
+      "turntable": {
+        "textures": {
+          "up": "blocks/piston_top_normal",
+          "down": "betterwithmods:blocks/turntable_bottom",
+          "side": "betterwithmods:blocks/turntable_side",
+          "particle": "#up"
+        }
+      }
+    },
+    "active": {
+      "true": {},
+      "false": {}
+    }
+  }
+}

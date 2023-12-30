@@ -1,107 +1,275 @@
-tile.contenttweaker.bronze_plate.name=Bronze Plate 
-tile.contenttweaker.lunarinbronzebrick.name=Lunarin Style Bronze Brick
-tile.contenttweaker.lunarinsilverbrick.name=Lunarin Style Silver Brick
-tile.contenttweaker.lunarinviridiumbrick.name=Lunarin Style Viridium Brick
-tile.contenttweaker.lunarinmythrilbrick.name=Lunarin Style Mythril Brick
-tile.contenttweaker.lunarinendoriumbrick.name=Lunarin Style Endorium Brick
-tile.contenttweaker.lunarinrimebrick.name=Lunarin Style Rime Brick
-tile.contenttweaker.lunarinheartbrick.name=Lunarin Style Heart Crystal Brick
-tile.contenttweaker.lunarinicebrick.name=Lunarin Style Ice Draco-Brick
-tile.contenttweaker.lunarinfirebrick.name=Lunarin Style Fire Draco-Brick
-tile.contenttweaker.lunarinfierybrick.name=Lunarin Style Fiery Metal Brick
-tile.contenttweaker.lunarinknightbrick.name=Lunarin Style Knightly Metal Brick
-tile.contenttweaker.lunarinsteelbrick.name=Lunarin Style Steel Brick
-tile.contenttweaker.lunarinsfsbrick.name=Lunarin Style Soul Forged Steel Brick
-tile.contenttweaker.farlanderamethystbrick.name=Farlander Style Amethyst Brick
-tile.contenttweaker.farlanderzanitebrick.name=Farlander Style Zanite Brick
-tile.contenttweaker.witheredblock.name=Withered Block
-tile.contenttweaker.halite.name=Halite Crystal
+#------------------------------------------------------------------------------
+# Creative tabs
+#------------------------------------------------------------------------------
+
+itemGroup.Dunamis=Dunamis
+itemGroup.rotn_blocks=RotN Building Blocks
+
+#------------------------------------------------------------------------------
+# Unorganized blocks
+#------------------------------------------------------------------------------
+
+tile.contenttweaker.acacia_boards.name=Acacia Nailed Boards
+tile.contenttweaker.acacia_lacquered.name=Acacia Lacquered Boards
+tile.contenttweaker.ardicite.name=Ardicite
+tile.contenttweaker.birch_boards.name=Birch Nailed Boards
+tile.contenttweaker.birch_lacquered.name=Birch Lacquered Boards
+tile.contenttweaker.blendrein_block.name=Blendrein
+tile.contenttweaker.blendrein_chiseled.name=Chiseled Blendrein
+tile.contenttweaker.blendrein_nourished.name=Nourished Blendrein
+tile.contenttweaker.blendrein_reinforced.name=Reinforced Blendrein
+tile.contenttweaker.block_brass.name=Block of Brass
+tile.contenttweaker.block_bronze.name=Block of Bronze
+tile.contenttweaker.block_electrum.name=Block of Aetherial Electrum
+tile.contenttweaker.bonfire.name=Bonfire
+tile.contenttweaker.brass_plate.name=Brass Plate
+tile.contenttweaker.bronze_plate.name=Bronze Plate
+tile.contenttweaker.cave_bramble.name=Cave Bramble
 tile.contenttweaker.charcoal_pile.name=Charcoal Pile
-tile.contenttweaker.starblock.name=Star Block
-tile.contenttweaker.crucible.name=Unfired Refractory Crucible
+tile.contenttweaker.charmpeat.name=Mossthane
+tile.contenttweaker.cherry_boards.name=Cherry Nailed Boards
+tile.contenttweaker.cherry_lacquered.name=Cherry Lacquered Boards
+tile.contenttweaker.clover_3_block.name=Huge Three Leaf Clover
+tile.contenttweaker.clover_4_block.name=Huge Four Leaf Clover
+tile.contenttweaker.cobblestone_path_andesite.name=Cobbled Andesite Path
+tile.contenttweaker.cobblestone_path_basalt.name=Cobbled Basalt Path
+tile.contenttweaker.cobblestone_path_black_granite.name=Cobbled Black Granite Path
+tile.contenttweaker.cobblestone_path_quartzite.name=Cobbled Quartzite Path
+tile.contenttweaker.cobblestone_path_dacite.name=Cobbled Dacite Path
+tile.contenttweaker.cobblestone_path_gabbro.name=Cobbled Gabbro Path
+tile.contenttweaker.cobblestone_path_komatiite.name=Cobbled Komatiite Path
+tile.contenttweaker.cobblestone_path_red_granite.name=Cobbled Granite Path
+tile.contenttweaker.cobblestone_path_rhyolite.name=Cobbled Rhyolite Path
+tile.contenttweaker.codex_junk.name=Discarded Codex
+tile.contenttweaker.columnar_jointing_red_granite.name=Red Granite Columnar Jointing
+tile.contenttweaker.copper_patined.name=Patinated Copper
+tile.contenttweaker.copper_plate.name=Copper Plate
+tile.contenttweaker.dark_oak_boards.name=Dark Oak Nailed Boards
+tile.contenttweaker.dark_oak_lacquered.name=Dark Oak Lacquered Boards
+tile.contenttweaker.dhvara_knot.name=Knotted Dhvara
+tile.contenttweaker.diatomite.name=Diatomite
+tile.contenttweaker.dimensional_vortex.name=Dimensional Vortex
+tile.contenttweaker.dreadwood_boards.name=Dreadwood Nailed Boards
+tile.contenttweaker.dreadwood_lacquered.name=Dreadwood Lacquered Boards
+tile.contenttweaker.dry_block_rock.name=Dry Fitted Stone Block (Not Quite There)
+tile.contenttweaker.dry_slab_rock.name=Dry Fitted Stone Slab With A Big Rock 
+tile.contenttweaker.ebony_boards.name=Ebony Nailed Boards
+tile.contenttweaker.ebony_lacquered.name=Ebony Lacquered Boards
+tile.contenttweaker.egg_block.name=L'Egg
+tile.contenttweaker.electrum_plate.name=Aetherial Electrum Plate
 tile.contenttweaker.elevator.name=Disassembled Ender Elevator
-item.contenttweaker.copper_tin_mixture.name=Copper and Tin 
-item.contenttweaker.copper_tin_pebbles.name=Copper and Tin Pebbles
-Block of Electrum=Block of Aetherial Electrum
-item.contenttweaker.electrum_plate.name=Aetherial Electrum Plate
-Electrum Ingot=Aetherial Electrum Ingot
-item.contenttweaker.silver_gold_mixture.name=Gold, Silver, and Ambrosium
-item.contenttweaker.silver_gold_pebbles.name=Gold, Silver, and Ambrosium Pebbles
-item.contenttweaker.spectral_shard.name=Spectral Shard
-item.contenttweaker.magic_orb.name=Magic Orb
-item.contenttweaker.blank_rune.name=Blank Rune
-item.contenttweaker.disint_rune.name=Rune of Disintegration
-item.contenttweaker.sol_rune.name=Rune of Sol
-item.contenttweaker.luna_rune.name=Rune of Luna
-item.contenttweaker.air_rune.name=Rune of Air
-item.contenttweaker.water_rune.name=Rune of Water
-item.contenttweaker.fire_rune.name=Rune of Fire
-item.contenttweaker.earth_rune.name=Rune of Earth
-item.contenttweaker.balance_rune.name=Rune of Balance
-item.contenttweaker.chaos_rune.name=Rune of Chaos
-item.contenttweaker.creation_rune.name=Rune of Creation
-item.contenttweaker.death_rune.name=Rune of Death
-item.contenttweaker.energy_rune.name=Rune of Energy
-item.contenttweaker.illusion_rune.name=Rune of Illusion
-item.contenttweaker.knowledge_rune.name=Rune of Knowledge
-item.contenttweaker.life_rune.name=Rune of Life
-item.contenttweaker.mind_rune.name=Rune of Mind
-item.contenttweaker.nature_rune.name=Rune of Nature
-item.contenttweaker.order_rune.name=Rune of Order
-item.contenttweaker.poison_rune.name=Rune of Poison
-item.contenttweaker.soul_rune.name=Rune of Soul
-item.contenttweaker.strength_rune.name=Rune of Strength
-item.contenttweaker.trans_rune.name=Rune of Transformation
-item.contenttweaker.holding_rune.name=Rune of Holding
-item.contenttweaker.nether_rune.name=Rune of Nether
-item.contenttweaker.plague_rune.name=Rune of Plague
-item.contenttweaker.time_rune.name=Rune of Time
-item.contenttweaker.aether_rune.name=Rune of Aether
-item.contenttweaker.arcane_rune.name=Rune of Arcana
-item.contenttweaker.draconic_rune.name=Rune of Draconia
-item.contenttweaker.fae_rune.name=Rune of Fae
-item.contenttweaker.disint_orb.name=Disintegration Orb
-item.contenttweaker.sol_orb.name=Sol Orb
-item.contenttweaker.luna_orb.name=Luna Orb
-item.contenttweaker.air_orb.name=Air Orb
-item.contenttweaker.water_orb.name=Water Orb
-item.contenttweaker.fire_orb.name=Fire Orb
-item.contenttweaker.earth_orb.name=Earth Orb
-item.contenttweaker.balance_orb.name=Balance Orb
-item.contenttweaker.chaos_orb.name=Chaos Orb
-item.contenttweaker.creation_orb.name=Creation Orb
-item.contenttweaker.death_orb.name=Death Orb
-item.contenttweaker.energy_orb.name=Energy Orb
-item.contenttweaker.illusion_orb.name=Illusion Orb
-item.contenttweaker.knowledge_orb.name=Knowledge Orb
-item.contenttweaker.life_orb.name=Life Orb
-item.contenttweaker.mind_orb.name=Mind Orb
-item.contenttweaker.nature_orb.name=Nature Orb
-item.contenttweaker.order_orb.name=Order Orb
-item.contenttweaker.poison_orb.name=Poison Orb
-item.contenttweaker.soul_orb.name=Soul Orb
-item.contenttweaker.strength_orb.name=Strength Orb
-item.contenttweaker.trans_orb.name=Transformation Orb
-item.contenttweaker.holding_orb.name=Holding Orb
-item.contenttweaker.nether_orb.name=Nether Orb
-item.contenttweaker.plague_orb.name=Plague Orb
-item.contenttweaker.time_orb.name=Time Orb
-item.contenttweaker.aether_orb.name=Aether Orb
-item.contenttweaker.arcane_orb.name=Arcane Orb
-item.contenttweaker.draconic_orb.name=Draconic Orb
-item.contenttweaker.fae_orb.name=Fae Orb
-item.contenttweaker.end_orb.name=End Orb
-item.contenttweaker.kompy_essence.name=Kompy's Essence
-item.contenttweaker.kompy_kott.name=Kompy's Precursor
-item.contenttweaker.kompy_kantrip.name=Kompy's Kantrip
-item.contenttweaker.phosphophyllite.name=Phosphophyllite
-item.contenttweaker.nethercoin.name=Ancient Nether Currency
+tile.contenttweaker.eucalyptus_boards.name=Eucalyptus Nailed Boards
+tile.contenttweaker.eucalyptus_lacquered.name=Eucalyptus Lacquered Boards
+tile.contenttweaker.ferrought_corrugated.name=Corrugated Ferrought Block
+tile.contenttweaker.ferrought_hammered.name=Hammered Ferrought Block
+tile.contenttweaker.ferrought_plate.name=Ferrought Plate
+tile.contenttweaker.fiery_nether_sludge.name=Block of Fiery Nether Sludge
+tile.contenttweaker.fir_boards.name=Fir Nailed Boards
+tile.contenttweaker.fir_lacquered.name=Fir Lacquered Boards
+tile.contenttweaker.fire_block.name=Fire
+tile.contenttweaker.foundation_micomi.name=Foundation Micomi
+tile.contenttweaker.glareshaft_small.name=Small Glare Shaft
+tile.contenttweaker.grass_paver.name=Grass Paver
+tile.contenttweaker.halite.name=Halite Crystal
+tile.contenttweaker.halolite.name=Halolite
+tile.contenttweaker.hardened_fiery_nether_sludge.name=Block of Hardened Fiery Nether Sludge
+tile.contenttweaker.healing.name=Broken Healing Pad
+tile.contenttweaker.hellbark_boards.name=Hellbark Nailed Boards
+tile.contenttweaker.hellbark_lacquered.name=Hellbark Lacquered Boards
+tile.contenttweaker.iron_plate.name=Iron Plate
+tile.contenttweaker.ironwood_boards.name=Ironwood Nailed Boards
+tile.contenttweaker.ironwood_lacquered.name=Ironwood Lacquered Boards
+tile.contenttweaker.jacaranda_boards.name=Jacaranda Nailed Boards
+tile.contenttweaker.jacaranda_lacquered.name=Jacaranda Lacquered Boards
+tile.contenttweaker.jungle_boards.name=Jungle Nailed Boards
+tile.contenttweaker.jungle_lacquered.name=Jungle Lacquered Boards
+tile.contenttweaker.koji_mold.name=Kōji Mold
+tile.contenttweaker.magic_boards.name=Magic Nailed Boards
+tile.contenttweaker.magic_lacquered.name=Magic Lacquered Boards
+tile.contenttweaker.magicked_stone.name=Magicked Stone
+tile.contenttweaker.mahogany_boards.name=Mahogany Nailed Boards
+tile.contenttweaker.mahogany_lacquered.name=Mahogany Lacquered Boards
+tile.contenttweaker.mangrove_boards.name=Mangrove Nailed Boards
+tile.contenttweaker.mangrove_lacquered.name=Mangrove Lacquered Boards
+tile.contenttweaker.marmatite.name=Marmatite
+tile.contenttweaker.modelingrefractory.name=Modeling Refractory Material
+tile.contenttweaker.mossy_peat.name=Mossy Peat
+tile.contenttweaker.n_copper_sandstone.name=Sandstone Native Copper
+tile.contenttweaker.n_copper_sandstone_red.name=Red Sandstone Native Copper
+tile.contenttweaker.nether_flower.name=Crossroads Radiata
+tile.contenttweaker.oak_boards.name=Oak Nailed Boards
+tile.contenttweaker.oak_lacquered.name=Oak Lacquered Boards
+tile.contenttweaker.ofuda.name=Ancient Paper Talisman
+tile.contenttweaker.olive_boards.name=Olive Nailed Boards
+tile.contenttweaker.olive_lacquered.name=Olive Lacquered Boards
+tile.contenttweaker.palm_boards.name=Palm Nailed Boards
+tile.contenttweaker.palm_lacquered.name=Palm Lacquered Boards
+tile.contenttweaker.peat.name=Peat
+tile.contenttweaker.petal_blue_big_flower.name=Giant Blue Flower Petal
+tile.contenttweaker.pine_boards.name=Pine Nailed Boards
+tile.contenttweaker.pine_lacquered.name=Pine Lacquered Boards
+tile.contenttweaker.planarspsp2.name=Worldspine
+tile.contenttweaker.raw_ferrought_block.name=Raw Ferrought Block
+tile.contenttweaker.raw_wrought_iron.name=Ancient Wrought Iron
+tile.contenttweaker.redwood_boards.name=Redwood Nailed Boards
+tile.contenttweaker.redwood_lacquered.name=Redwood Lacquered Boards
+tile.contenttweaker.refracotta.name=Refracotta
+tile.contenttweaker.refracotta_black.name=Black Refracotta
+tile.contenttweaker.refracotta_blue.name=Blue Refracotta
+tile.contenttweaker.refracotta_brown.name=Brown Refracotta
+tile.contenttweaker.refracotta_cyan.name=Cyan Refracotta
+tile.contenttweaker.refracotta_gray.name=Gray Refracotta
+tile.contenttweaker.refracotta_green.name=Green Refracotta
+tile.contenttweaker.refracotta_light_blue.name=Light Blue Refracotta
+tile.contenttweaker.refracotta_light_gray.name=Light Gray Refracotta
+tile.contenttweaker.refracotta_lime.name=Lime Refracotta
+tile.contenttweaker.refracotta_magenta.name=Magenta Refracotta
+tile.contenttweaker.refracotta_orange.name=Orange Refracotta
+tile.contenttweaker.refracotta_pink.name=Pink Refracotta
+tile.contenttweaker.refracotta_purple.name=Purple Refracotta
+tile.contenttweaker.refracotta_red.name=Red Refracotta
+tile.contenttweaker.refracotta_white.name=White Refracotta
+tile.contenttweaker.refracotta_yellow.name=Yellow Refracotta
+tile.contenttweaker.rock_big.name=Big Rock
+tile.contenttweaker.sacred_oak_boards.name=Sacred Oak Nailed Boards
+tile.contenttweaker.sacred_oak_lacquered.name=Sacred Oak Lacquered Boards
+tile.contenttweaker.salt_pan.name=Salt Pan
+tile.contenttweaker.salty_crust.name=Arid Tuff
+tile.contenttweaker.scab.name=Scab Layer
+tile.contenttweaker.scaffolding.name=Decaying Scaffolding
+tile.contenttweaker.seasoned_stump.name=Seasoned Stump
+tile.contenttweaker.skywood_boards.name=Skyroot Nailed Boards
+tile.contenttweaker.skywood_lacquered.name=Skyroot Lacquered Boards
+tile.contenttweaker.soul_bonfire.name=Soul Bonfire
+tile.contenttweaker.spruce_boards.name=Spruce Nailed Boards
+tile.contenttweaker.spruce_lacquered.name=Spruce Lacquered Boards
+tile.contenttweaker.stalagnate_boards.name=Stalagnate Nailed Boards
+tile.contenttweaker.stalagnate_lacquered.name=Stalagnate Lacquered Boards
+tile.contenttweaker.star_block.name=Block of Stars
+tile.contenttweaker.sunstone_block.name=Block of Sunstone
+tile.contenttweaker.tapestry_cyan.name=Cyan Tapestry
+tile.contenttweaker.tapestry_green.name=Green Tapestry
+tile.contenttweaker.tapestry_purple.name=Purple Tapestry
+tile.contenttweaker.tapestry_red.name=Red Tapestry
+tile.contenttweaker.tapestry_white.name=White Tapestry
+tile.contenttweaker.tapestry_orange.name=Orange Tapestry
+tile.contenttweaker.tapestry_black.name=Black Tapestry
+tile.contenttweaker.tapestry_blue.name=Blue Tapestry
+tile.contenttweaker.tenebra_boards.name=Tenebra Nailed Boards
+tile.contenttweaker.tenebra_lacquered.name=Tenebra Lacquered Boards
+tile.contenttweaker.tin_plate.name=Tin Plate
+tile.contenttweaker.umbran_boards.name=Umbran Nailed Boards
+tile.contenttweaker.umbran_lacquered.name=Umbran Lacquered Boards
+tile.contenttweaker.venerable_stump.name=Venerable Stump
+tile.contenttweaker.void_block.name=Unflame
+tile.contenttweaker.voided_rock.name=Voided Rock
+tile.contenttweaker.willow_boards.name=Willow Nailed Boards
+tile.contenttweaker.willow_lacquered.name=Willow Lacquered Boards
+tile.contenttweaker.witheredblock.name=Block of Wither Ashes
+tile.contenttweaker.wyrmwood_boards.name=Wyrmwood Nailed Boards
+tile.contenttweaker.wyrmwood_lacquered.name=Wyrmwood lacquered Boards
+tile.contenttweaker.paper_1.name=Paper
+tile.contenttweaker.paper_2.name=Two Papers
+tile.contenttweaker.paper_3.name=Three Papers
+tile.contenttweaker.bowl.name=Bowl
+tile.contenttweaker.bone_1.name=Standing Bone
+tile.contenttweaker.bone_2.name=Two Standing Bones
+tile.contenttweaker.bone_3.name=Three Standing Bones
+tile.contenttweaker.bone_4.name=Four Standing Bones
+tile.contenttweaker.wither_bone_1.name=Standing Wither Bone
+tile.contenttweaker.wither_bone_2.name=Two Standing Wither Bones
+tile.contenttweaker.wither_bone_3.name=Three Standing Wither Bones
+tile.contenttweaker.wither_bone_4.name=Four Standing Wither Bones
+tile.contenttweaker.cincinnasite_chandelier.name=Cincinnasite Chandelier
+tile.contenttweaker.coade_stone_polished.name=Polished Coade Stone
+tile.contenttweaker.wolf_statue.name=Wolf Statue
+tile.contenttweaker.concrete_gray_brick.name=Ancient Gray Concrete Brick
+tile.contenttweaker.concrete_gray_chiseled.name=Ancient Chiseled Gray Concrete Brick
+
+#------------------------------------------------------------------------------
+# Unorganized items A-Z
+#------------------------------------------------------------------------------
+
+item.contenttweaker.4leaf_clover.name=Four Leaf Clover
+item.contenttweaker.5leaf_clover.name=Five Leaf Clover
+item.contenttweaker.abyssal_sapphire.name=Abyssal Sapphire
+item.contenttweaker.adhesive_shadow.name=§5Adhesive Shadow
+item.contenttweaker.aether_dirt_pile.name=Aether Dirt Clump
+item.contenttweaker.ancient_cache.name=§6Ancient Cache
+item.contenttweaker.animated_brain.name=Animated Brain
+item.contenttweaker.animated_exorite.name=Animated Exorite
+item.contenttweaker.battleaxe_mold.name=Battleaxe Mold
+item.contenttweaker.boomerang_mold.name=Boomerang Mold
+item.contenttweaker.brain.name=Brain
+item.contenttweaker.broken_stick.name=Broken Stick
 item.contenttweaker.coinT1.name=₦ 1
 item.contenttweaker.coinT2.name=₦ 10
 item.contenttweaker.coinT3.name=₦ 100
 item.contenttweaker.coinT4.name=₦ 1000
-item.contenttweaker.4leaf_clover.name=Four Leaf Clover
-item.contenttweaker.5leaf_clover.name=Five Leaf Clover
+item.contenttweaker.coke_pieces.name=Coke Pieces
+item.contenttweaker.corrupted_cincinnasite.name=Corrupted Cincinnasite
+item.contenttweaker.crafting_tools.name=Crafting Tools
+item.contenttweaker.dagger_mold.name=Dagger Mold
+item.contenttweaker.defiled_dirt_pile.name=Defiled Dirt Clump
+item.contenttweaker.draconium.name=Draconium
+item.contenttweaker.draff.name=Draff
+item.contenttweaker.earthen_ruby.name=Earthen Ruby
+item.contenttweaker.electrified_zanite.name=Electrified Zanite
+item.contenttweaker.electrum_core.name=Electrum Core
+item.contenttweaker.exorite_ingot.name=Exorite Ingot
+item.contenttweaker.faerite.name=Faerite
+item.contenttweaker.fiery_sludge.name=Fiery Sludge
+item.contenttweaker.fireetched_onyx.name=Hellbent Onyx
+item.contenttweaker.flashfired_cincinnasite.name=Flash-fired Cincinnasite
+item.contenttweaker.fortified_ruby.name=Fortified Ruby
+item.contenttweaker.giant_blue_flower_petal.name=Giant Blue Petal
+item.contenttweaker.giant_red_flower_petal.name=Giant Red Petal
+item.contenttweaker.giant_yellow_flower_petal.name=Giant Yellow Petal
+item.contenttweaker.glaive_mold.name=Glaive Mold
+item.contenttweaker.greatsword_mold.name=Greatsword Mold
+item.contenttweaker.ground_fiery_netherrack.name=Ground Fiery Netherrack
+item.contenttweaker.grove_tear.name=§bGrove Tear...
+item.contenttweaker.halberd_mold.name=Halberd Mold
+item.contenttweaker.hammer_mold.name=Hammer Mold
+item.contenttweaker.hide_tiny_scraped.name=Tiny Scraped Hide
+item.contenttweaker.hide_tiny_tanned.name=Tiny Tanned Hide
+item.contenttweaker.heart_of_fire.name=§5Heart of Fire
+item.contenttweaker.heartofthefallen.name=§6Heart of the Fallen
+item.contenttweaker.heavensheart.name=§6Heaven's Heart
+item.contenttweaker.holy_zanite.name=Holy Zanite
+item.contenttweaker.invasion_debug_tool.name=Invasion Debug Tool
+item.contenttweaker.javelin_mold.name=Javelin Mold
+item.contenttweaker.katana_mold.name=Katana Mold
+item.contenttweaker.kompy_essence.name=Kompy's Essence
+item.contenttweaker.kompy_kantrip.name=§dKompy's §aKantrip
+item.contenttweaker.kompy_kott.name=Kompy's Precursor
+item.contenttweaker.lance_mold.name=Lance Mold
+item.contenttweaker.leather_tiny.name=Tiny Leather
+item.contenttweaker.loamy_dirt_pile.name=Loamy Dirt Clump
+item.contenttweaker.longsword_mold.name=Longsword Mold
+item.contenttweaker.lucky_peridot.name=Lucky Alexandrite
+item.contenttweaker.mace_mold.name=Mace Mold
+item.contenttweaker.mason_pick_mold.name=Mason Pick Mold
+item.contenttweaker.mattock_mold.name=Mattock Mold
+item.contenttweaker.mercurial_ooze.name=§5Mercurial Ooze
+item.contenttweaker.monster_hide.name=Monster Hide
+item.contenttweaker.necromantic_brain.name=Necromantic Brain
+item.contenttweaker.nethercoin.name=Ancient Nether Currency
+item.contenttweaker.overgrown_emerald.name=Overgrown Emerald
+item.contenttweaker.parity_peridot.name=Parity Alexandrite
+item.contenttweaker.peridot_ingot.name=Alexandrite Ingot
+item.contenttweaker.pike_mold.name=Pike Mold
+item.contenttweaker.poisonetched_emerald.name=Poison Etched Emerald
+item.contenttweaker.pristine_diamond.name=Pristine Diamond
+item.contenttweaker.purifying_signet.name=§ePurifying Signet
+item.contenttweaker.pyrite.name=Pyrite
+item.contenttweaker.rapier_mold.name=Rapier Mold
+item.contenttweaker.redstuff.name=§cRed§6Stuff§7™
+item.contenttweaker.rice_paddy_dummy.name=Rice Paddy
+item.contenttweaker.ruby_ingot.name=Ruby Ingot
+item.contenttweaker.saber_mold.name=Saber Mold
+item.contenttweaker.sandy_dirt_pile.name=Sandy Dirt Clump
+item.contenttweaker.sapphire_ingot.name=Sapphire Ingot
 item.contenttweaker.sfs_artifact.name=Soul Steel Artifact Alpha
 item.contenttweaker.sfs_artifact1.name=Soul Steel Artifact Beta
 item.contenttweaker.sfs_artifact2.name=Soul Steel Artifact Gamma
@@ -111,10 +279,481 @@ item.contenttweaker.sfs_artifact5.name=Soul Steel Artifact Zeta
 item.contenttweaker.sfs_artifact6.name=Soul Steel Artifact Eta
 item.contenttweaker.sfs_artifact7.name=Soul Steel Artifact Theta
 item.contenttweaker.sfs_artifact8.name=Soul Steel Artifact Iota
-item.contenttweaker.sapphire_ingot.name=Saphire Ingot
-item.contenttweaker.ruby_ingot.name=Ruby Ingot
-item.contenttweaker.peridot_ingot.name=Peridot Ingot
-item.contenttweaker.amethyst_ingot.name=Amethyst Ingot
+item.contenttweaker.shard_of_night.name=§5Shard of Night
+item.contenttweaker.silty_dirt_pile.name=Silty Dirt Clump
+item.contenttweaker.slayers_tattered_journal.name=Slayer's Tattered Journal
+item.contenttweaker.soulinfused_onyx.name=Soul Infused Onyx
+item.contenttweaker.spear_mold.name=Spear Mold
+item.contenttweaker.spider_silk.name=Spider Silk
+item.contenttweaker.staff_mold.name=Staff Mold
+item.contenttweaker.steel_artifact.name=Old Steel Artifact
+item.contenttweaker.stormcloud.name=Stormcloud
+item.contenttweaker.suntouched_diamond.name=Sun-touched Diamond
 item.contenttweaker.tattered_hide.name=Tattered Hide
-item.contenttweaker.monster_hide.name=Monster Hide
-fluid.flowing_spirits=Flowing Spirits
+item.contenttweaker.throwing_axe_mold.name=Throwing Axe Mold
+item.contenttweaker.throwing_knife_mold.name=Throwing Knife Mold
+item.contenttweaker.valkyrien_plate.name=Valkyrien Plate
+item.contenttweaker.voids_call.name=Void's Call
+item.contenttweaker.voidseen_exorite.name=Voidseen Exorite
+item.contenttweaker.warhammer_mold.name=Warhammer Mold
+item.contenttweaker.waterlogged_sapphire.name=Waterlogged Sapphire
+item.contenttweaker.wrought_animation_core.name=Wrought Animation Core
+item.contenttweaker.zanite_ingot.name=Zanite Ingot
+
+#------------------------------------------------------------------------------
+# Tools
+#------------------------------------------------------------------------------
+
+item.contenttweaker.mythril_masonpick.name=Mythril Mason Pick
+item.contenttweaker.mythril_mattock.name=Mythril Mattock
+item.contenttweaker.sfs_masonpick.name=Soul Forged Steel Mason Pick
+item.contenttweaker.steel_crowbar.name=Steel Crowbar
+
+#------------------------------------------------------------------------------
+# Bricks
+#------------------------------------------------------------------------------
+
+tile.contenttweaker.baguettebrick.name=Hardcore Burnt Baguette Brick
+tile.contenttweaker.farlanderdiamondbrick.name=Farlander Style Diamond Brick
+tile.contenttweaker.farlanderexoritebrick.name=Farlander Style Exorite Brick
+tile.contenttweaker.farlanderzanitebrick.name=Farlander Style Zanite Brick
+tile.contenttweaker.lunarinironpillar.name=Lunarin Iron Pillar
+tile.contenttweaker.lunarinbronzebrick.name=Lunarin Style Bronze Brick
+tile.contenttweaker.lunarinendoriumbrick.name=Lunarin Style Endorium Brick
+tile.contenttweaker.lunarinfierybrick.name=Lunarin Style Fiery Metal Brick
+tile.contenttweaker.lunarinfirebrick.name=Lunarin Style Fire Draco-Brick
+tile.contenttweaker.lunarinheartbrick.name=Lunarin Style Heart Crystal Brick
+tile.contenttweaker.lunarinicebrick.name=Lunarin Style Ice Draco-Brick
+tile.contenttweaker.lunarinknightbrick.name=Lunarin Style Knightly Metal Brick
+tile.contenttweaker.lunarinmythrilbrick.name=Lunarin Style Mythril Brick
+tile.contenttweaker.lunarinrimebrick.name=Lunarin Style Rime Brick
+tile.contenttweaker.lunarinsfsbrick.name=Lunarin Style Soulforged Steel Brick
+tile.contenttweaker.lunarinsilverbrick.name=Lunarin Style Silver Brick
+tile.contenttweaker.lunarinsteelbrick.name=Lunarin Style Steel Brick
+tile.contenttweaker.lunarinviridiumbrick.name=Lunarin Style Viridium Brick
+
+tile.contenttweaker.loose_adobe_bricks.name=Loose Adobe Bricks
+tile.contenttweaker.loose_basalt_nether_bricks.name=Loose Nether Basalt Bricks
+tile.contenttweaker.loose_big_andesite_bricks.name=Loose Andesite Bricks
+tile.contenttweaker.loose_big_basalt_bricks.name=Loose Basalt Bricks
+tile.contenttweaker.loose_big_black_granite_bricks.name=Loose Black Granite Bricks
+tile.contenttweaker.loose_big_blue_slate_bricks.name=Loose Blue Slate Tiles
+tile.contenttweaker.loose_big_blueschist_bricks.name=Loose Blue Schist Bricks
+tile.contenttweaker.loose_big_brimstone_bricks.name=Loose Brimstone Bricks
+tile.contenttweaker.loose_big_chalk_bricks.name=Loose Chalk Bricks
+tile.contenttweaker.loose_big_chert_bricks.name=Loose Chert Bricks
+tile.contenttweaker.loose_big_quartzite_bricks.name=Loose Quartzite Bricks
+tile.contenttweaker.loose_big_dacite_bricks.name=Loose Dacite Bricks
+tile.contenttweaker.loose_big_dolomite_bricks.name=Loose Dolomite Bricks
+tile.contenttweaker.loose_big_dreadstone_bricks.name=Loose Dreadstone Bricks
+tile.contenttweaker.loose_big_eclogite_bricks.name=Loose Eclogite Bricks
+tile.contenttweaker.loose_big_end_bricks.name=Loose End Stone Bricks
+tile.contenttweaker.loose_big_gabbro_bricks.name=Loose Gabbro Bricks
+tile.contenttweaker.loose_big_gneiss_bricks.name=Loose Gneiss Bricks
+tile.contenttweaker.loose_big_green_slate_bricks.name=Loose Green Slate Tiles
+tile.contenttweaker.loose_big_greenschist_bricks.name=Loose Green Schist Bricks
+tile.contenttweaker.loose_big_greywacke_bricks.name=Loose Greywacke Bricks
+tile.contenttweaker.loose_big_komatiite_bricks.name=Loose Komatiite Bricks
+tile.contenttweaker.loose_big_lignite_bricks.name=Loose Lignite Bricks
+tile.contenttweaker.loose_big_limestone_bricks.name=Loose Limestone Bricks
+tile.contenttweaker.loose_big_marble_bricks.name=Loose Marble Bricks
+tile.contenttweaker.loose_big_migmatite_bricks.name=Loose Migmatite Bricks
+tile.contenttweaker.loose_big_permafrost_bricks.name=Loose Permafrost Bricks
+tile.contenttweaker.loose_big_purple_slate_bricks.name=Loose Purple Slate Tiles
+tile.contenttweaker.loose_big_quartzite_bricks.name=Loose Quartzite Bricks
+tile.contenttweaker.loose_big_red_granite_bricks.name=Loose Red Granite Bricks
+tile.contenttweaker.loose_big_rhyolite_bricks.name=Loose Rhyolite Bricks
+tile.contenttweaker.loose_big_serpentinite_bricks.name=Loose Serpentinite Bricks
+tile.contenttweaker.loose_big_shale_bricks.name=Loose Shale Bricks
+tile.contenttweaker.loose_big_siltstone_bricks.name=Loose Siltstone Bricks
+tile.contenttweaker.loose_big_slate_bricks.name=Loose Slate Bricks
+tile.contenttweaker.loose_big_soapstone_bricks.name=Loose Soapstone Bricks
+tile.contenttweaker.loose_big_white_bricks.name=Loose White Bricks
+tile.contenttweaker.loose_clay_bricks.name=Loose Clay Bricks
+tile.contenttweaker.loose_fiery_nether_bricks.name=Loose Fiery Nether Bricks
+tile.contenttweaker.loose_holystone_bricks.name=Loose Holystone Bricks
+tile.contenttweaker.loose_mud_bricks.name=Loose Mud Bricks
+tile.contenttweaker.loose_nether_bricks.name=Loose Nether Bricks
+tile.contenttweaker.loose_porcelain_bricks.name=Loose Porcelain Bricks
+tile.contenttweaker.loose_red_nether_bricks.name=Loose Red Nether Bricks
+tile.contenttweaker.loose_red_sandstone_bricks.name=Loose Red Sandstone Bricks
+tile.contenttweaker.loose_refractory_bricks.name=Loose Refractory Bricks
+tile.contenttweaker.loose_sandstone_bricks.name=Loose Sandstone Bricks
+tile.contenttweaker.loose_soulsandstone_bricks.name=Loose Soul Sandstone Bricks
+tile.contenttweaker.loose_stone_bricks.name=Loose Masonry Bricks
+tile.contenttweaker.masonry_brick.name=Masonry Brick
+tile.contenttweaker.masonry_brick_two.name=Two Masonry Bricks!
+
+tile.contenttweaker.big_limestone_bricks.name=Limestone Bricks
+tile.contenttweaker.big_greywacke_bricks.name=Greywacke Bricks
+tile.contenttweaker.big_chalk_bricks.name=Chalk Bricks
+tile.contenttweaker.big_siltstone_bricks.name=Siltstone Bricks
+tile.contenttweaker.big_shale_bricks.name=Shale Bricks
+tile.contenttweaker.big_chert_bricks.name=Chert Bricks
+tile.contenttweaker.big_dolomite_bricks.name=Dolomite Bricks
+tile.contenttweaker.big_lignite_bricks.name=Lignite Bricks
+tile.contenttweaker.big_serpentinite_bricks.name=Serpentinite Bricks
+
+item.contenttweaker.brick_quartzite.name=Quartzite Brick   
+item.contenttweaker.brick_red_granite.name=Red Granite Brick   
+item.contenttweaker.brick_black_granite.name=Black Granite Brick   
+item.contenttweaker.brick_rhyolite.name=Rhyolite Brick   
+item.contenttweaker.brick_andesite.name=Andesite Brick   
+item.contenttweaker.brick_gabbro.name=Gabbro Brick   
+item.contenttweaker.brick_basalt.name=Basalt Brick   
+item.contenttweaker.brick_komatiite.name=Komatiite Brick   
+item.contenttweaker.brick_dacite.name=Dacite Brick   
+item.contenttweaker.brick_gneiss.name=Gneiss Brick   
+item.contenttweaker.brick_eclogite.name=Eclogite Brick   
+item.contenttweaker.brick_marble.name=Marble Brick   
+item.contenttweaker.brick_quartzite.name=Quartzite Brick   
+item.contenttweaker.brick_blue_schist.name=Blue Schist Brick   
+item.contenttweaker.brick_green_schist.name=Green Schist Brick   
+item.contenttweaker.brick_soapstone.name=Soapstone Brick   
+item.contenttweaker.brick_migmatite.name=Migmatite Brick   
+item.contenttweaker.brick_blue_slate.name=Blue Slate Brick   
+item.contenttweaker.brick_green_slate.name=Green Slate Brick   
+item.contenttweaker.brick_purple_slate.name=Purple Slate Brick   
+item.contenttweaker.brick_serpentinite.name=Serpentinite Brick   
+item.contenttweaker.brick_limestone.name=Limestone Brick   
+item.contenttweaker.brick_chalk.name=Chalk Brick   
+item.contenttweaker.brick_shale.name=Shale Brick   
+item.contenttweaker.brick_siltstone.name=Siltstone Brick   
+item.contenttweaker.brick_lignite.name=Lignite Brick   
+item.contenttweaker.brick_dolomite.name=Dolomite Brick   
+item.contenttweaker.brick_greywacke.name=Greywacke Brick   
+item.contenttweaker.brick_chert.name=Chert Brick   
+item.contenttweaker.brick_brimstone.name=Brimstone Brick   
+item.contenttweaker.brick_permafrost.name=Permafrost Brick   
+item.contenttweaker.brick_dreadstone.name=Dreadstone Brick   
+item.contenttweaker.brick_holystone.name=Holystone Brick   
+item.contenttweaker.brick_sandstone.name=Sandstone Brick   
+item.contenttweaker.brick_red_sandstone.name=Red Sandstone Brick   
+item.contenttweaker.brick_soul_sandstone.name=Soul Sandstone Brick   
+item.contenttweaker.brick_black_basalt.name=Nether Basalt Brick   
+item.contenttweaker.brick_end.name=End Stone Brick   
+item.contenttweaker.brick_white.name=White Brick
+
+#------------------------------------------------------------------------------
+# Temporary Bricks
+#------------------------------------------------------------------------------
+
+tile.contenttweaker.brick_aether_legacy_holystone.name=Holystone Bricks
+tile.contenttweaker.brick_betterwithaddons_whitebrick.name=White Bricks
+tile.contenttweaker.brick_biomesoplenty_mud.name=Mud Bricks
+tile.contenttweaker.brick_ceramics_porcelain.name=Porcelain Bricks
+tile.contenttweaker.brick_earthworks_adobe.name=Adobe Bricks
+tile.contenttweaker.brick_minecraft_clay.name=Clay Bricks
+tile.contenttweaker.brick_minecraft_end.name=End Bricks
+tile.contenttweaker.brick_minecraft_nether.name=Nether Bricks
+tile.contenttweaker.brick_minecraft_stone.name=Quartzite Stone Bricks
+tile.contenttweaker.brick_netherex_fiery.name=Fiery Nether Bricks
+tile.contenttweaker.brick_pyrotech_masonry.name=Masonry Bricks
+tile.contenttweaker.brick_pyrotech_refractory.name=Refractory Bricks
+tile.contenttweaker.brick_quark_brimstone.name=Brimstone Bricks
+tile.contenttweaker.brick_quark_permafrost.name=Permafrost Bricks
+tile.contenttweaker.brick_quark_red_sandstone.name=Red Sandstone Bricks
+tile.contenttweaker.brick_quark_sandstone.name=Sandstone Bricks
+tile.contenttweaker.brick_quark_sandy.name=Sandy Bricks
+tile.contenttweaker.brick_quark_soul_sandstone.name=Soul Sandstone Bricks
+tile.contenttweaker.dry_fitted_quartzite_stone.name=Quartzite Dry Fitted Stone
+tile.contenttweaker.dry_fitted_mixed_stone.name=Mixed Dry Fitted Stone
+tile.contenttweaker.rammed_earth_loamy_dirt.name=Loamy Rammed Earth
+tile.contenttweaker.rammed_earth_sandy_dirt.name=Sandy Rammed Earth
+tile.contenttweaker.rammed_earth_silty_dirt.name=Silty Rammed Earth
+tile.contenttweaker.rammed_earth_vanilla_dirt.name=Rammed Earth
+
+#------------------------------------------------------------------------------
+# Dunamis
+#------------------------------------------------------------------------------
+
+item.contenttweaker.aether_rune.name=Rune of Aether
+item.contenttweaker.air_rune.name=Rune of Air
+item.contenttweaker.arcane_rune.name=Rune of Arcana
+item.contenttweaker.balance_rune.name=Rune of Balance
+item.contenttweaker.blank_rune.name=Blank Rune
+item.contenttweaker.chaos_rune.name=Rune of Chaos
+item.contenttweaker.creation_rune.name=Rune of Creation
+item.contenttweaker.death_rune.name=Rune of Death
+item.contenttweaker.disint_rune.name=Rune of Disintegration
+item.contenttweaker.draconic_rune.name=Rune of Draconia
+item.contenttweaker.earth_rune.name=Rune of Earth
+item.contenttweaker.energy_rune.name=Rune of Energy
+item.contenttweaker.fae_rune.name=Rune of Fae
+item.contenttweaker.fire_rune.name=Rune of Fire
+item.contenttweaker.holding_rune.name=Rune of Holding
+item.contenttweaker.illusion_rune.name=Rune of Illusion
+item.contenttweaker.knowledge_rune.name=Rune of Knowledge
+item.contenttweaker.life_rune.name=Rune of Life
+item.contenttweaker.luna_rune.name=Rune of Luna
+item.contenttweaker.mind_rune.name=Rune of Mind
+item.contenttweaker.nature_rune.name=Rune of Nature
+item.contenttweaker.nether_rune.name=Rune of Nether
+item.contenttweaker.order_rune.name=Rune of Order
+item.contenttweaker.plague_rune.name=Rune of Plague
+item.contenttweaker.poison_rune.name=Rune of Poison
+item.contenttweaker.sol_rune.name=Rune of Sol
+item.contenttweaker.soul_rune.name=Rune of Soul
+item.contenttweaker.strength_rune.name=Rune of Strength
+item.contenttweaker.time_rune.name=Rune of Time
+item.contenttweaker.trans_rune.name=Rune of Transformation
+item.contenttweaker.water_rune.name=Rune of Water
+
+item.contenttweaker.aether_orb.name=Aether Orb
+item.contenttweaker.air_orb.name=Air Orb
+item.contenttweaker.arcane_orb.name=Arcane Orb
+item.contenttweaker.balance_orb.name=Balance Orb
+item.contenttweaker.chaos_orb.name=Chaos Orb
+item.contenttweaker.creation_orb.name=Creation Orb
+item.contenttweaker.death_orb.name=Death Orb
+item.contenttweaker.disint_orb.name=Disintegration Orb
+item.contenttweaker.draconic_orb.name=Draconic Orb
+item.contenttweaker.earth_orb.name=Earth Orb
+item.contenttweaker.end_orb.name=End Orb
+item.contenttweaker.energy_orb.name=Energy Orb
+item.contenttweaker.fae_orb.name=Fae Orb
+item.contenttweaker.fire_orb.name=Fire Orb
+item.contenttweaker.holding_orb.name=Holding Orb
+item.contenttweaker.illusion_orb.name=Illusion Orb
+item.contenttweaker.knowledge_orb.name=Knowledge Orb
+item.contenttweaker.life_orb.name=Life Orb
+item.contenttweaker.luna_orb.name=Luna Orb
+item.contenttweaker.mind_orb.name=Mind Orb
+item.contenttweaker.nature_orb.name=Nature Orb
+item.contenttweaker.nether_orb.name=Nether Orb
+item.contenttweaker.order_orb.name=Order Orb
+item.contenttweaker.plague_orb.name=Plague Orb
+item.contenttweaker.poison_orb.name=Poison Orb
+item.contenttweaker.sol_orb.name=Sol Orb
+item.contenttweaker.soul_orb.name=Soul Orb
+item.contenttweaker.strength_orb.name=Strength Orb
+item.contenttweaker.time_orb.name=Time Orb
+item.contenttweaker.trans_orb.name=Transformation Orb
+item.contenttweaker.water_orb.name=Water Orb
+
+item.contenttweaker.aether_quintessence.name=Aether Quintessence
+item.contenttweaker.air_quintessence.name=Air Quintessence
+item.contenttweaker.arcane_quintessence.name=Arcane Quintessence
+item.contenttweaker.balance_quintessence.name=Balance Quintessence
+item.contenttweaker.chaos_quintessence.name=Chaos Quintessence
+item.contenttweaker.creation_quintessence.name=Creation Quintessence
+item.contenttweaker.death_quintessence.name=Death Quintessence
+item.contenttweaker.disint_quintessence.name=Disintegration Quintessence
+item.contenttweaker.draconic_quintessence.name=Draconic Quintessence
+item.contenttweaker.earth_quintessence.name=Earth Quintessence
+item.contenttweaker.end_quintessence.name=Ender Quintessence
+item.contenttweaker.energy_quintessence.name=Energy Quintessence
+item.contenttweaker.fae_quintessence.name=Fae Quintessence
+item.contenttweaker.fire_quintessence.name=Fire Quintessence
+item.contenttweaker.holding_quintessence.name=Holding Quintessence
+item.contenttweaker.illusion_quintessence.name=Illusion Quintessence
+item.contenttweaker.knowledge_quintessence.name=Knowledge Quintessence
+item.contenttweaker.life_quintessence.name=Life Quintessence
+item.contenttweaker.luna_quintessence.name=Luna Quintessence
+item.contenttweaker.mind_quintessence.name=Mind Quintessence
+item.contenttweaker.nature_quintessence.name=Nature Quintessence
+item.contenttweaker.nether_quintessence.name=Nether Quintessence
+item.contenttweaker.order_quintessence.name=Order Quintessence
+item.contenttweaker.plague_quintessence.name=Plague Quintessence
+item.contenttweaker.poison_quintessence.name=Poison Quintessence
+item.contenttweaker.sol_quintessence.name=Solar Quintessence
+item.contenttweaker.soul_quintessence.name=Soul Quintessence
+item.contenttweaker.strength_quintessence.name=Strength Quintessence
+item.contenttweaker.time_quintessence.name=Time Quintessence
+item.contenttweaker.trans_quintessence.name=Transformation Quintessence
+item.contenttweaker.water_quintessence.name=Water Quintessence
+
+item.contenttweaker.arcane_focus.name=§bArcane Focus
+item.contenttweaker.blank_charm.name=Inert Charm
+item.contenttweaker.magic_blend.name=Magic Blend
+item.contenttweaker.magic_bomb.name=Magic Bomb
+item.contenttweaker.magic_orb.name=Magic Orb
+item.contenttweaker.magicked_lens.name=§bMagicked Lens
+item.contenttweaker.scepter_base_arcane.name=§bArcane Scepter Base
+item.contenttweaker.scepter_base_mundane.name=§bMundane Scepter Base
+item.contenttweaker.scepter_base_mystical.name=§bMystical Scepter Base
+item.contenttweaker.slider_eye.name=§bSlider Eye
+item.contenttweaker.spectral_shard.name=Spectral Shard
+item.contenttweaker.unattuned_focus.name=§bUnattuned Focus
+item.contenttweaker.vis_shard.name=Vis Shard
+item.contenttweaker.vis_sliver.name=Vis Sliver
+item.contenttweaker.vis_speck.name=Vis Speck
+item.contenttweaker.volatile_core.name=§5Volatile Core
+item.contenttweaker.volatile_magic.name=Volatile Magic
+item.contenttweaker.volatile_powder.name=Volatile Powder
+item.contenttweaker.wand_base_arcane.name=Arcane Wand Base
+item.contenttweaker.wand_base_mundane.name=Mundane Wand Base
+item.contenttweaker.wand_base_mystical.name=Mystical Wand Base
+
+item.contenttweaker.halolite_shard.name=Halolite Shard
+item.contenttweaker.sunstone_shard.name=Sunstone Shard
+item.contenttweaker.sunstone_shard_ga.name=Strange Sunstone Shard
+item.contenttweaker.sunstone_shard_ag.name=Strange Sunstone Shard
+item.contenttweaker.still_gale.name=Still Gale
+item.contenttweaker.unspoken_ripple.name=Unspoken Ripple
+item.contenttweaker.withering_bone.name=Withering Bone
+item.contenttweaker.scapula.name=Scapula
+
+item.contenttweaker.xp_tome_mundane.name=Experience Scroll
+item.contenttweaker.xp_tome_arcane.name=Experience Codex
+
+#------------------------------------------------------------------------------
+# Food
+#------------------------------------------------------------------------------
+
+item.contenttweaker.abyss_pizza.name=Abyss Pizza
+item.contenttweaker.cooking_kit.name=Cooking Kit
+item.contenttweaker.cooking_kit_quality.name=Quality Cooking Kit
+item.contenttweaker.cooking_kit_elite.name=Elite Cooking Kit
+item.contenttweaker.cooking_kit_premium.name=Premium Cooking Kit
+item.contenttweaker.cooking_kit_master.name=Master Cooking Kit
+item.contenttweaker.cattail_root_raw.name=Raw Cattail Root
+item.contenttweaker.cattail_root_cooked.name=Cooked Cattail Root
+item.contenttweaker.ground_beef.name=Ground Beef
+item.contenttweaker.hydraco.name=Hydra Taco
+item.contenttweaker.patty.name=Patty
+item.contenttweaker.ratatouille.name=Ratatouille
+item.contenttweaker.raw_fries.name=Raw Fries
+item.contenttweaker.sheep_intestines.name=Sheep Intestines
+item.contenttweaker.sprinkles.name=Sprinkles
+item.contenttweaker.wiener.name=Wiener
+tile.contenttweaker.abyss_pizza_block.name=Raw Abyss Pizza
+tile.contenttweaker.chicken_pizza_block.name=Raw Chicken Pizza
+tile.contenttweaker.fish_pizza_block.name=Raw Fish Pizza
+tile.contenttweaker.meat_pizza_block.name=Raw Meat Pizza
+tile.contenttweaker.sweet_pizza_block.name=Raw Sweet Pizza
+tile.contenttweaker.plain_pizza_block.name=Raw Plain Pizza
+tile.contenttweaker.dark_fruit.name=Vlump
+tile.contenttweaker.yeast.name=Yeast
+tile.contenttweaker.yeast_flour.name=Yeast in the Making
+
+#------------------------------------------------------------------------------
+# Mining
+#------------------------------------------------------------------------------
+
+item.contenttweaker.copper_tin_mixture.name=Copper and Tin Pile
+item.contenttweaker.copper_tin_pebbles.name=Copper and Tin Pebbles
+item.contenttweaker.silver_gold_mixture.name=Silver, Ambrosium, and Gold Pile
+item.contenttweaker.silver_gold_pebbles.name=Silver, Ambrosium, and Gold Pebbles
+item.contenttweaker.raw_copper.name=Raw Copper
+item.contenttweaker.raw_gold.name=Raw Gold
+item.contenttweaker.raw_gravitite.name=Raw Gravitite
+item.contenttweaker.raw_iron.name=Raw Iron
+item.contenttweaker.raw_mythril.name=Raw Mythril
+item.contenttweaker.raw_silver.name=Raw Silver
+item.contenttweaker.raw_tin.name=Raw Tin
+item.contenttweaker.raw_viridium.name=Raw Viridium
+tile.contenttweaker.dolomite_straws.name=Dolomite Straws
+tile.contenttweaker.dormant_ardicite_onyx.name=Dormant Ardicite Onyx
+tile.contenttweaker.dormant_onyx.name=Dormant Onyx
+tile.contenttweaker.raw_copper_block.name=Block of Raw Copper
+tile.contenttweaker.raw_gold_block.name=Block of Raw Gold
+tile.contenttweaker.raw_gravitite_block.name=Block of Raw Gravitite
+tile.contenttweaker.raw_iron_block.name=Block of Raw Iron
+tile.contenttweaker.raw_mythril_block.name=Block of Raw Mythril
+tile.contenttweaker.raw_silver_block.name=Block of Raw Silver
+tile.contenttweaker.raw_tin_block.name=Block of Raw Tin
+tile.contenttweaker.raw_viridium_block.name=Block of Raw Viridium
+tile.contenttweaker.raw_viridium_vein.name=Raw Viridium Vein
+tile.contenttweaker.chalk_cobble.name=Chalk Cobblestone
+tile.contenttweaker.chert_cobble.name=Chert Cobblestone
+tile.contenttweaker.dolomite_cobble.name=Dolomite Cobblestone
+tile.contenttweaker.greywacke_cobble.name=Greywacke Cobblestone
+tile.contenttweaker.lignite_cobble.name=Lignite Cobblestone
+tile.contenttweaker.limestone_cobble.name=Limestone Cobblestone
+tile.contenttweaker.shale_cobble.name=Shale Cobblestone
+tile.contenttweaker.serpentinite_cobblestone.name=Serpentinite Cobblestone
+tile.contenttweaker.siltstone_cobble.name=Siltstone Cobblestone
+
+tile.contenttweaker.rocky_dirt.name=Rocky Composite Dirt
+tile.contenttweaker.serpentinite.name=Serpentinite
+tile.contenttweaker.weathered_dirt.name=Weathered Dirt
+
+item.contenttweaker.phosphophyllite.name=§6Phosphophyllite
+
+#------------------------------------------------------------------------------
+# Plants
+#------------------------------------------------------------------------------
+
+item.contenttweaker.greasy_stem.name=Greasy Stem
+tile.contenttweaker.cave_grass.name=Cave Grass
+tile.contenttweaker.cave_rafflesia.name=Cave Rafflesia
+tile.contenttweaker.moss_patch.name=Moss Patch
+tile.contenttweaker.perforata.name=Skewered Crassula
+
+#------------------------------------------------------------------------------
+# Thumbnail items
+#------------------------------------------------------------------------------
+
+item.contenttweaker.dummy_wand_companion.name=§bWand of Companion
+item.contenttweaker.dummy_wand_cook.name=§bWand of Cooking
+item.contenttweaker.dummy_wand_disarm.name=§bWand of Disarming
+item.contenttweaker.dummy_wand_disorient.name=§bWand of Disorienting
+item.contenttweaker.dummy_wand_forge.name=§bWand of Forging
+item.contenttweaker.dummy_wand_freeze.name=§bWand of Freezing
+item.contenttweaker.dummy_wand_mm.name=§bWand of Magic Missile
+item.contenttweaker.dummy_wand_pm.name=§bWand of Pin Missile
+item.contenttweaker.dummy_wand_punish.name=§bWand of Punishment
+item.contenttweaker.dummy_wand_rage.name=§bWand of Raging
+item.contenttweaker.dummy_wand_resto.name=§bWand of Restoration
+item.contenttweaker.dummy_wand_satiate.name=§bWand of Satiating
+item.contenttweaker.dummy_wand_smite.name=§bWand of Smiting
+item.contenttweaker.dummy_wand_transport.name=§bWand of Transportation
+item.contenttweaker.dummy_wand_uncover.name=§bWand of Uncovering
+item.contenttweaker.dummy_wand_wither.name=§bWand of Withering
+item.contenttweaker.four_gem_ingots.name=Four Gem Ingots Icon
+item.contenttweaker.four_gems.name=Four Gems Icon
+item.contenttweaker.info.name=Info Icon
+
+#------------------------------------------------------------------------------
+# Fluids
+#------------------------------------------------------------------------------
+
+fluid.ender_slag=Distilled Ender Slag
+fluid.lifeblood=Lifeblood
+fluid.milk=Milk
+fluid.residual_mythril=Arcane Mythril
+fluid.tannin=Tannin
+fluid.methanol=Wood Alcohol
+fluid.dread_cold=Dread Cold
+fluid.unstable_spiritfire=Unstable Spiritfire
+fluid.concentrated_bioflow=Concentrated Bioflow
+fluid.flowing_spirits=Flowing Arcana
+
+#------------------------------------------------------------------------------
+# Energy Items/Tiles
+#------------------------------------------------------------------------------
+
+item.contenttweaker.condensed_dread_cold.name=Condensed Dread Cold
+item.contenttweaker.raw_dread_slate.name=Dread Slate Figurine
+item.contenttweaker.condensed_vilemist.name=Condensed Vilemist
+item.contenttweaker.viridea_biomatter.name=Viridea Biomatter
+item.contenttweaker.viridea_seed.name=Viridea Seed
+tile.contenttweaker.viridea.name=Viridea
+
+#------------------------------------------------------------------------------
+# Baubles
+#------------------------------------------------------------------------------
+
+item.contenttweaker.stream_crown.name=Soul of Blue Fire
+
+#------------------------------------------------------------------------------
+# Unfired Items
+#------------------------------------------------------------------------------
+
+tile.contenttweaker.crucible.name=Unfired Crucible
+tile.contenttweaker.unfired_cooking_pot.name=Unfired Cooking Pot
+tile.contenttweaker.unfired_drying_basin.name=Unfired Drying Basin
+tile.contenttweaker.unfired_flower_pot.name=Unfired Flower Pot
+tile.contenttweaker.pot_unfired.name=Unfired Pot
+tile.contenttweaker.unfired_clay_collector.name=Unfired Clay Collector
+tile.contenttweaker.unfired_clay_drain.name=Unfired Clay Drain
+tile.contenttweaker.unfired_clay_faucet.name=Unfired Clay Faucet
+tile.contenttweaker.unfiredrefractory.name=Unfired Refractory Block
+item.contenttweaker.unfired_totem_base.name=Unfired Totem Base
+
+tile.contenttweaker.unfired_adobe_brick.name=Unfired Adobe Brick
+tile.contenttweaker.unfired_mud_brick.name=Unfired Mud Brick
+tile.contenttweaker.unfired_fiery_brick.name=Unfired Fiery Brick
+tile.contenttweaker.unfired_refractory_brick.name=Unfired Refractory Brick
+tile.contenttweaker.unfired_porcelain_brick.name=Unfired Porcelain Brick

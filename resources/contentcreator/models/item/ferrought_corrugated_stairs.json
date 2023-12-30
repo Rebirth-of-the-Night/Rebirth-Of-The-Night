@@ -1,0 +1,8 @@
+{
+	"parent": "block/stairs",
+	"textures": {
+		"top":"contenttweaker:blocks/ferrought_corrugated",
+		"bottom":"contenttweaker:blocks/ferrought_corrugated",
+		"side":"contenttweaker:blocks/ferrought_corrugated"
+	}
+}

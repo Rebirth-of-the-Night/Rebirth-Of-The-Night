@@ -1,0 +1,14 @@
+{
+    "parent":"spartanweaponry:item/parrying_dagger_wood",
+    "textures": {
+        "layer1":"spartanweaponry:items/parrying_dagger_bronze"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "blocking": 1
+            },
+            "model": "spartanweaponry:item/parrying_dagger_bronze_blocking"
+        }
+    ]
+}

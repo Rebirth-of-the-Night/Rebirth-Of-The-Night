@@ -1,0 +1,6 @@
+{
+    "parent":"spartanweaponry:item/lance_wood",
+    "textures": {
+        "layer0":"spartanweaponry:items/lance_bronze"
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+	  "all": "contenttweaker:blocks/ardicite",
+      "texture": "contenttweaker:blocks/ardicite",
+      "particle": "contenttweaker:blocks/ardicite"
+    },
+    "model": "contenttweaker:ardicite",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

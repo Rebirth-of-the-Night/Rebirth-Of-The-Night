@@ -1,0 +1,16 @@
+{
+  "forge_marker": 1,
+  "defaults": {  },
+  "variants": {
+    "normal": [
+      { "model": "contenttweaker:dry_fitted_mixed_stone" },
+      { "model": "contenttweaker:dry_fitted_mixed_stone1" },
+      { "model": "contenttweaker:dry_fitted_mixed_stone2" },
+      { "model": "contenttweaker:dry_fitted_mixed_stone3" },
+      { "model": "contenttweaker:dry_fitted_mixed_stone4" }
+    ],
+    "inventory": {
+      "model": "contenttweaker:dry_fitted_mixed_stone"
+    }
+  }
+}

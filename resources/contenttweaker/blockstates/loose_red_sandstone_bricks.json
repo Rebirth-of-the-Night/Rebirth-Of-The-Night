@@ -1,0 +1,17 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "brick": "quark:blocks/red_sandstone_bricks",
+	  "overlay": "contenttweaker:blocks/loose_bricks/brick_overlay_reddish",
+	  "particle": "quark:blocks/red_sandstone_bricks"
+    },
+    "model": "contenttweaker:loose_bricks",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "forge_marker": 1,
+  "variants": {
+    "normal": [
+      {
+        "model": "contenttweaker:clover_4_block"
+      },
+	  {
+        "model": "contenttweaker:clover_4_block_1"
+      }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "facing=up": { "model": "glaretorch:blockglaretorchlarge" },
+        "facing=east": { "model": "glaretorch:blockglaretorchlarge_wall" },
+        "facing=south": { "model": "glaretorch:blockglaretorchlarge_wall", "y": 90 },
+        "facing=west": { "model": "glaretorch:blockglaretorchlarge_wall", "y": 180 },
+        "facing=north": { "model": "glaretorch:blockglaretorchlarge_wall", "y": 270 }
+    }
+}

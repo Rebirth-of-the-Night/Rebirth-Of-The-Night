@@ -62,12 +62,6 @@ recipes.addShaped("vine_trap", <betterwithmods:vine_trap>,
   [<ore:vine>,<ore:vine>,<ore:vine>],
   [null,null,null]]);
 
-recipes.remove(<fairylights:garland>);
-recipes.addShaped("vine_garland", <fairylights:garland>,
-  [[null,null,null],
-  [<minecraft:iron_ingot>,<ore:vine>,<minecraft:iron_ingot>],
-  [null,null,null]]);
-
 recipes.remove(<rats:marbled_cheese_brick_mossy>);
 recipes.addShapeless("mossy_marbled_cheese_brick", <rats:marbled_cheese_brick_mossy>, 
 [<rats:marbled_cheese_brick>, <ore:vine>]);

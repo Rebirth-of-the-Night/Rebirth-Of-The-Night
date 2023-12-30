@@ -1,0 +1,16 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "all": "contenttweaker:blocks/petal_blue_big_flower",
+      "particle": "contenttweaker:blocks/petal_blue_big_flower"
+    },
+    "model": "contenttweaker:base_block",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

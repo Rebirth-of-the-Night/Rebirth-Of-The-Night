@@ -1,0 +1,22 @@
+{
+	"forge_marker":1,
+	"defaults":{
+		"transform":"forge:default-block",
+		"model":"half_slab",
+		"textures":{
+			"top":"undergroundbiomes:blocks/greywacke_cobble",
+			"bottom":"undergroundbiomes:blocks/greywacke_cobble",
+			"side":"undergroundbiomes:blocks/greywacke_cobble"
+		}
+	},
+	"variants":{
+		"half":{
+			"bottom":{},
+			"top":{"model":"upper_slab"}
+		},
+		"variant":{
+			"normal":{}
+		},
+		"inventory":[{}]
+	}
+}

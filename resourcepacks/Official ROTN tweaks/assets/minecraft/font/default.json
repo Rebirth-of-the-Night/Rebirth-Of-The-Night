@@ -1,0 +1,11 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "minecraft:custom/onslaught.png",
+      "ascent": 9,
+      "height": 12,
+      "chars": ["\uE001"]
+    }
+  ]
+}

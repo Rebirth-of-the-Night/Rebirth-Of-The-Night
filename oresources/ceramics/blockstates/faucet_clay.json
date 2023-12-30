@@ -1,0 +1,23 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "ceramics:faucet",
+        "textures": {
+          "tex": "blocks/hardened_clay"
+        }
+    },
+    "variants": {
+        "facing": {
+            "up": { "model": "ceramics:faucet_top" },
+            "north": { "y": 180 },
+            "east":  { "y": 270 },
+            "south": { "y": 0 },
+            "west":  { "y": 90 }
+        },
+        "connected": {
+            "true": { "model": "ceramics:faucet_connected" },
+            "false": {}
+        },
+        "inventory": [{}]
+    }
+}

@@ -1,0 +1,20 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {},
+    "model": "earthworks:adobe0",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [
+      { "model": "earthworks:adobe0" },
+      { "model": "earthworks:adobe1" },
+      { "model": "earthworks:adobe2" },
+      { "model": "earthworks:adobe3" }
+    ],
+    "inventory": {
+      "model": "earthworks:adobe0"
+    }
+  }
+}

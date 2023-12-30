@@ -1,0 +1,17 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "brick": "netherex:blocks/fiery_nether_brick",
+	  "overlay": "contenttweaker:blocks/loose_bricks/netherex_brick_overlay_fiery",
+	  "particle": "netherex:blocks/fiery_nether_brick"
+    },
+    "model": "contenttweaker:loose_bricks",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

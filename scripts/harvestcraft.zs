@@ -4,7 +4,8 @@ import mods.jei.JEI;
 
 mods.jei.JEI.removeAndHide(<harvestcraft:flouritem>);
 recipes.remove(<minecraft:bread>);
-recipes.remove(<harvestcraft:well>);
+mods.jei.JEI.removeAndHide(<harvestcraft:well>);
+recipes.remove(<well:well>);
 recipes.remove(<harvestcraft:zombiejerkyitem>);
 recipes.remove(<harvestcraft:cheeseitem>);
 recipes.remove(<harvestcraft:epicbaconitem>);
@@ -127,6 +128,7 @@ recipes.removeByRecipeName("harvestcraft:banananutbreaditem_itemsalt");
 recipes.removeByRecipeName("harvestcraft:banananutbreaditem_foodsalt");
 recipes.removeByRecipeName("harvestcraft:bakedturnipsitem_itemsalt");
 recipes.removeByRecipeName("harvestcraft:bakedturnipsitem_foodsalt");
+recipes.removeByRecipeName("harvestcraft:vegemiteitem");
 
 // removed duplicate honey recipes
 recipes.removeByRecipeName("harvestcraft:teriyakichickenitem_drophoney");
@@ -215,7 +217,7 @@ recipes.addShapeless("harvestcraft_meatstock", <harvestcraft:stockitem> * 3, [<o
 
 recipes.remove(<harvestcraft:hardenedleatheritem>);
 recipes.addShapeless("hardenedleatheritem", <harvestcraft:hardenedleatheritem>, [<harvestcraft:beeswaxitem>,<betterwithmods:material:6>]);
-
+recipes.addShapeless("vegemiteitem", <harvestcraft:vegemiteitem>, [<harvestcraft:potitem>,<harvestcraft:barleyitem>,<rustic:wildberries>,<biomesoplenty:berries>,<rustic:marsh_mallow>]);
 recipes.removeByRecipeName("harvestcraft:beeswaxitem_x8_cropcandle");
 recipes.removeByRecipeName("harvestcraft:beeswaxitem_cropcandle");
 
@@ -253,7 +255,7 @@ recipes.remove(<harvestcraft:plainyogurtitem>);
 recipes.addShapeless ("harvestcraft_yogurt", <harvestcraft:plainyogurtitem>*4, [<ore:toolPot>,<ore:listAllmilk>]);
 
 // Hyper hardcore well
-recipes.addShaped("water_well", <harvestcraft:well>,[
+recipes.addShaped("water_well", <well:well>,[
 	[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
     [<pyrotech:material:16>, <betterwithmods:bucket>, <pyrotech:material:16>],
     [<pyrotech:material:16>, <betterwithmods:screw_pump>, <pyrotech:material:16>]

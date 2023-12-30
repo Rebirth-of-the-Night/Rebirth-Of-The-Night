@@ -1,0 +1,16 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "all": "contenttweaker:blocks/lacquered/mahogany_lacquered",
+      "particle": "contenttweaker:blocks/lacquered/mahogany_lacquered"
+    },
+    "model": "contenttweaker:base_block",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

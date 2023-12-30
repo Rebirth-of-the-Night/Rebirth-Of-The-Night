@@ -1,0 +1,18 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "particle": "contenttweaker:blocks/peat",
+	  "side": "contenttweaker:blocks/peat",
+	  "top": "contenttweaker:blocks/peat",
+	  "bottom": "contenttweaker:blocks/peat"
+    },
+    "model": "cube_bottom_top",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

@@ -1,0 +1,37 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "spartanweaponry:items/longsword_electrum"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [60, -90, 55],
+			"translation": [0, 10, 13.75],
+			"scale": [1.9, 1.9, 1.7]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [60, 90, -55],
+			"translation": [0, 10, 13.75],
+			"scale": [1.9, 1.9, 1.7]
+		},
+		"firstperson_righthand": {
+			"rotation": [127, -156, -180],
+			"translation": [5.25, 10, -1.75],
+			"scale": [1.6, 1.6, 0.95]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-107, -51, -124],
+			"translation": [5.25, 10, -1.75],
+			"scale": [1.6, 1.6, 0.95]
+		},
+		"ground": {
+			"translation": [0, 4.25, 0],
+			"scale": [1.2, 1.2, 0.95]
+		},
+		"gui": {
+			"translation": [2.25, 2.25, 0],
+			"scale": [1.25, 1.25, 1.25]
+		}
+	}
+}

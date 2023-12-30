@@ -1,0 +1,21 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "texture": "contenttweaker:blocks/cave_bramble",
+      "particle": "contenttweaker:blocks/cave_bramble"
+    },
+    "model": "contenttweaker:cave_bramble",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{
+      "model": "contenttweaker:items/cave_bramble",
+      "textures": {
+        "layer0": "contenttweaker:items/cave_bramble"
+      }
+    }]
+  }
+}

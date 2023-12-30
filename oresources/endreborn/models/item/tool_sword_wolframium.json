@@ -1,0 +1,40 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "endreborn:items/tool_sword_wolframium"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-55, -90, 0],
+			"translation": [0, 26.5, -2],
+			"scale": [4.5, 4.5, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-55, 90, 0],
+			"translation": [0, 26.5, -2],
+			"scale": [4.5, 4.5, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [-45, -90, 30],
+			"translation": [1.38, 12.25, -0.25],
+			"scale": [2, 2, 1.2]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-45, 90, -30],
+			"translation": [1.38, 12.25, 0.25],
+			"scale": [2, 2, 1.2]
+		},
+		"ground": {
+			"translation": [0, 19.25, 0],
+			"scale": [3, 3, 2]
+		},
+		"gui": {
+			"translation": [2.5, 2.75, 0],
+			"scale": [1.33, 1.33, 1]
+		},
+		"fixed": {
+			"scale": [3, 3, 2.1]
+		}
+	}
+}

@@ -1,0 +1,24 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "texture": "blocks/dirt",
+      "uvlock": true
+    }
+  },
+  "multipart": {
+    {   "apply": { "model": "block/fence_post", "uvlock": false }},
+        {   "when": { "north": "true" },
+            "apply": { "model": "block/fence_side" }
+        },
+        {   "when": { "east": "true" },
+            "apply": { "model": "block/fence_side", "y": 90 }
+        },
+        {   "when": { "south": "true" },
+            "apply": { "model": "block/fence_side", "y": 180 }
+        },
+        {   "when": { "west": "true" },
+            "apply": { "model": "block/fence_side", "y": 270 }
+        }
+  }
+}

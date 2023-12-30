@@ -1,0 +1,6 @@
+{
+    "parent":"spartanweaponry:item/dagger_wood",
+    "textures": {
+        "layer0":"iceandfire:items/stymphalian_bird_dagger"
+    }
+}

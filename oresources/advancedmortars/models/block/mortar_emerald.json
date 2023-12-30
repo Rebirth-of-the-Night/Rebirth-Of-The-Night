@@ -1,0 +1,7 @@
+{
+  "parent": "advancedmortars:block/mortar",
+  "textures": {
+    "mortar": "blocks/emerald_block",
+    "particle": "blocks/emerald_block"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "cube_all"
+  },
+  "variants": {
+    "type": {
+      "porcelain": {
+        "textures": {
+          "all": "ceramics:blocks/porcelain_clay_raw"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+item.craftingcraft:inventory_crafting_table.name=Portable Crafting Mat
+item.craftingcraft:portable_crafting_table.name=Portable Crafting Mat
+
+craftingcraft:container.inventory_crafting_table=Inventory Mat Crafting
+
+key.categories.craftingcraft=CraftingCraft
+key.craftingcraft.portable_crafting=Deploy Crafting Mat
+key.craftingcraft.back_to_inventory=Back to Inventory
+
+itemGroup.craftingcraft=CraftingCraft

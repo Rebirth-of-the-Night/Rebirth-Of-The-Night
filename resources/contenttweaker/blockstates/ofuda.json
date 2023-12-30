@@ -1,0 +1,24 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"textures": {
+		"texture": "contenttweaker:blocks/ofuda",
+		"particle": "contenttweaker:blocks/ofuda"
+		},
+		"model": "contenttweaker:ofuda",
+		"uvlock": false
+	},
+	"variants": {
+		"normal": [
+			{ "model": "contenttweaker:ofuda" },
+			{ "model": "contenttweaker:ofuda_0" },
+			{ "model": "contenttweaker:ofuda_1" }
+		],
+		"inventory": [
+			{"model": "contenttweaker:item/ofuda", "textures": {
+				"layer0": "contenttweaker:items/ofuda"
+				}
+			}
+		]
+	}
+}

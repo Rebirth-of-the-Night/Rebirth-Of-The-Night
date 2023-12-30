@@ -1,0 +1,7 @@
+{
+  "parent": "advancedmortars:block/mortar",
+  "textures": {
+    "mortar": "simpleores:blocks/mythril_block",
+    "particle": "simpleores:blocks/mythril_block"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "texture": "contenttweaker:items/perforata",
+      "particle": "contenttweaker:blocks/perforata"
+    },
+    "model": "contenttweaker:perforata",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{
+      "model": "contenttweaker:items/perforata",
+      "textures": {
+        "layer0": "contenttweaker:items/perforata"
+      }
+    }]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "wood": "betterwithmods:blocks/wood_side_oak",
+      "chime": "betterwithmods:blocks/bamboo",
+      "string": "blocks/wool_colored_white",
+      "particle": "#wood"
+    },
+    "model": "betterwithmods:chime",
+    "uvlock": false
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {
+        "transform": "forge:default-block"
+      }
+    ],
+    "active": {
+      "true": {},
+      "false": {}
+    },
+    "variant": {
+      "oak": {
+		"model": "betterwithmods:bamboo_chime"
+	  },
+      "spruce": {
+        "model": "betterwithmods:reed_chime"
+      },
+      "birch": {
+	    "model": "betterwithmods:sugar_chime"
+      },
+      "jungle": {
+	    "model": "betterwithmods:river_chime"
+      },
+      "acacia": {
+	    "model": "betterwithmods:nether_chime"
+      },
+      "dark_oak": {
+	    "model": "betterwithmods:jelly_chime"
+      }
+    }
+  }
+}

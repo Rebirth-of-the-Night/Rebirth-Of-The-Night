@@ -1,0 +1,40 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "dungeontactics:items/unique_items/lithen_reaper"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-40, -90, 0],
+			"translation": [0, 8, 2],
+			"scale": [1.8, 1.8, 1.8]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-40, 90, 0],
+			"translation": [0, 8, 2],
+			"scale": [1.8, 1.8, 1.8]
+		},
+		"firstperson_righthand": {
+			"rotation": [-60, -70, -1],
+			"translation": [1.5, 6, -2.75],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-60, 115, -1],
+			"translation": [1.5, 6, -2.75],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"ground": {
+			"translation": [0, 4.25, 0],
+			"scale": [1.33, 1.33, 1.33]
+		},
+		"head": {
+			"rotation": [0, -90, 56],
+			"translation": [0, -5.25, -2.25]
+		},
+		"fixed": {
+			"scale": [1.2, 1.2, 1.2]
+		}
+	}
+}

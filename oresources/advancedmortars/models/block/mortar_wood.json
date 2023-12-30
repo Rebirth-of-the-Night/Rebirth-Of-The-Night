@@ -1,0 +1,7 @@
+{
+  "parent": "advancedmortars:block/mortar",
+  "textures": {
+    "mortar": "minecraft:blocks/gold_block",
+    "particle": "minecraft:blocks/gold_block"
+  }
+}

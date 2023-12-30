@@ -1,0 +1,17 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "brick": "ceramics:blocks/porcelain_bricks",
+	  "overlay": "contenttweaker:blocks/loose_bricks/brick_overlay_grayish",
+	  "particle": "ceramics:blocks/porcelain_bricks"
+    },
+    "model": "contenttweaker:loose_bricks",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

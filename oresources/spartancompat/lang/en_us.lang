@@ -1,0 +1,35 @@
+# Materials
+
+# SimpleOres
+material.spartanweaponry:adamantium=§2Viridium
+material.spartanweaponry:mythril=§5Mythril
+material.spartanweaponry:onyx=§6Onyx
+
+# Aether Legacy
+material.spartancompat:skyroot=Skyroot
+material.spartancompat:holystone=Holystone
+material.spartancompat:zanite=Zanite
+material.spartancompat:gravitite=Gravitite
+
+# BWM
+material.spartancompat:soulforged_steel=Refined
+
+# Items
+
+# Aether Legacy
+item.pole_skyroot.name=Skyroot Pole
+item.handle_skyroot.name=Skyroot Handle
+
+# Tooltips
+tooltip.spartancompat:flame=Flame
+tooltip.spartancompat:flame.desc=Engulfs the target in flames for 5 seconds.
+
+# Aether Legacy
+tooltip.spartancompat:skyroot_double_drops=Double Drops
+tooltip.spartancompat:skyroot_double_drops.desc=All mobs defeated with this weapon will drop 2x loot.
+tooltip.spartancompat:holystone_ambrosium=Divine Intervention
+tooltip.spartancompat:holystone_ambrosium.desc=Mobs have a 5%% chance to drop an ambrosium shard when hit.
+tooltip.spartancompat:zanite_scaling=Fallen Angel
+tooltip.spartancompat:zanite_scaling.desc=This weapon will deal significantly more damage as the weapon takes damage.
+tooltip.spartancompat:gravitite_launch=Rapture
+tooltip.spartancompat:gravitite_launch.desc=Launches enemies high into the sky on melee hit.

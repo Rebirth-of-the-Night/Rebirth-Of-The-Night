@@ -1,0 +1,7 @@
+{
+  "parent": "advancedmortars:block/mortar",
+  "textures": {
+    "mortar": "aether_legacy:blocks/enchanted_gravitite",
+    "particle": "aether_legacy:blocks/enchanted_gravitite"
+  }
+}
