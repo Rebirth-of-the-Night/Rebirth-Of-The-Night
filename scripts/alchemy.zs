@@ -7,6 +7,7 @@ import mods.rustic.Condenser;
 import mods.rustic.EvaporatingBasin;
 import mods.betterwithmods.MiniBlocks;
 
+//Define ingredients
 var thistle = <rustic:wind_thistle>;
 var fasthaw = <cyclicmagic:horse_upgrade_speed>;
 var jumphaw = <cyclicmagic:horse_upgrade_jump>;
@@ -18,6 +19,8 @@ var niter = <betterwithmods:material:26>;
 var mallow = <rustic:marsh_mallow>;
 var cloudsbluff = <rustic:cloudsbluff>;
 var cloudgold = <aether_legacy:aercloud:2>;
+var cloudblue = <aether_legacy:aercloud:1>;
+var cloudwhite = <aether_legacy:aercloud:0>;
 var cohosh = <rustic:cohosh>;
 var honeycomb = <rustic:honeycomb>;
 var chamomile = <rustic:chamomile>;
@@ -25,10 +28,26 @@ var bloodorchid = <rustic:blood_orchid>;
 var horsetail = <rustic:horsetail>;
 var fourclover = <contenttweaker:4leaf_clover>;
 var core = <rustic:core_root>;
-var hotspring = <liquid:hot_spring_water> * 125;
-var lunarwater = <liquid:lunar_water> * 125;
 var spirits = <betterwithaddons:ancestry_bottle>;
 var fleshblock = <charm:rotten_flesh_block>;
+var tarblock = <pyrotech:living_tar>;
+var tear = <minecraft:ghast_tear>;
+var petal = <aether_legacy:aechor_petal>;
+var ironW = <contenttweaker:material_part:49>;
+var aloe = <rustic:aloe_vera>;
+var blazepowder = <minecraft:blaze_powder>;
+var cincinnasite = <betternether:cincinnasite>;
+var gearsteel = <pyrotech:cog_bone>;
+var deathstalk = <rustic:deathstalk_mushroom>;
+var bronzefeather = <iceandfire:stymphalian_bird_feather>;
+
+//Define liquids
+var hotspring = <liquid:hot_spring_water>;
+var lunarwater = <liquid:lunar_water>;
+var blood = <liquid:blood>;
+var spiritfire = <liquid:unstable_spiritfire>;
+var poison = <liquid:poison>;
+var dreadcold = <liquid:dread_cold>;
 
 //Change condenser recipes
 recipes.remove(<rustic:condenser>);
@@ -131,10 +150,21 @@ val speedElixirOverworld = <rustic:elixir>.withTag({display:{LocName:"Simple Spe
 val magnetismElixirOverworld = <rustic:elixir>.withTag({display:{LocName:"Simple Magnetic Elixir"},ElixirEffects: [{Effect: "extraalchemy:effect.magnetism", Duration: 7200, Amplifier: 1}]});
 val bouncyElixirOverworld = <rustic:elixir>.withTag({display:{LocName:"Simple Bouncy Elixir"},ElixirEffects: [{Effect: "cyclicmagic:potion.bounce", Duration: 7200, Amplifier: 1}]});
 val luckElixirOverworld = <rustic:elixir>.withTag({display:{LocName:"Simple Lucky Elixir"},ElixirEffects: [{Effect: "minecraft:luck", Duration: 9600, Amplifier: 1}]});
-val featherElixirOverworld = <rustic:elixir>.withTag({display:{LocName:"Simple Feather Elixir"},ElixirEffects: [{Effect: "rustic:feather", Duration: 9600, Amplifier: 0}]});
+val featherElixirOverworld = <rustic:elixir>.withTag({display:{LocName:"Simple Featherlight Elixir"},ElixirEffects: [{Effect: "rustic:feather", Duration: 9600, Amplifier: 0}]});
 val healthboostElixirOverworld = <rustic:elixir>.withTag({display:{LocName:"Simple Health Boost Elixir"},ElixirEffects: [{Effect: "minecraft:health_boost", Duration: 7200, Amplifier: 1}]});
 val strengthElixirOverworld = <rustic:elixir>.withTag({display:{LocName:"Simple Strength Elixir"},ElixirEffects: [{Effect: "minecraft:strength", Duration: 9600, Amplifier: 0}]});
 val forcefulElixirOverworld = <rustic:elixir>.withTag({display:{LocName:"Simple Forceful Elixir"},ElixirEffects: [{Effect: "elenaidodge2:forceful", Duration: 9600, Amplifier: 1}]});
+
+val healthElixirNether = <rustic:elixir>.withTag({display:{LocName:"Simple Healing Elixir"},ElixirEffects: [{Effect: "minecraft:instant_health", Amplifier: 2}]});
+val ironskinElixirNether = <rustic:elixir>.withTag({display:{LocName:"Simple Ironskin Elixir"},ElixirEffects: [{Effect: "rustic:ironskin", Duration: 4800, Amplifier: 1}]});
+val fireresElixirNether = <rustic:elixir>.withTag({display:{LocName:"Simple Fire Resistance Elixir"},ElixirEffects: [{Effect: "minecraft:fire_resistance", Duration: 9600, Amplifier: 3}]});
+val enduranceElixirNether = <rustic:elixir>.withTag({display:{LocName:"Simple Endurance Elixir"},ElixirEffects: [{Effect: "elenaidodge2:endurance", Duration: 14400, Amplifier: 0}]});
+val hasteElixirNether = <rustic:elixir>.withTag({display:{LocName:"Simple Haste Elixir"},ElixirEffects: [{Effect: "minecraft:haste", Duration: 6000, Amplifier: 1}]});
+
+val poisonresElixirAether = <rustic:elixir>.withTag({display:{LocName:"Simple Poison Resistance Elixir"},ElixirEffects: [{Effect: "mowziesmobs:poison_resist", Duration: 9600, Amplifier: 0}]});
+val jumpboostElixirAether = <rustic:elixir>.withTag({display:{LocName:"Simple Jump Boost Elixir"},ElixirEffects: [{Effect: "minecraft:jump_boost", Duration: 9600, Amplifier: 1}]});
+val featheryElixirAether = <rustic:elixir>.withTag({display:{LocName:"Simple Feathers Elixir"},ElixirEffects: [{Effect: "elenaidodge2:feathers", Duration: 1200, Amplifier: 5}]});
+val replenishmentElixirAether = <rustic:elixir>.withTag({display:{LocName:"Simple Replenishment Elixir"},ElixirEffects: [{Effect: "minecraft:replenishment", Duration: 900, Amplifier: 0}]});
 
 //Add recipes
 //Condenser.addRecipe(output, itemstack[] inputs, modifier, bottle, fluid, time);
@@ -143,15 +173,24 @@ val forcefulElixirOverworld = <rustic:elixir>.withTag({display:{LocName:"Simple 
 Condenser.addRecipe(speedElixirOverworld, [thistle, fasthaw]);
 Condenser.addRecipe(magnetismElixirOverworld, [ironBerry, genericNugg]);
 Condenser.addRecipe(bouncyElixirOverworld, [slime, mallow]);
-Condenser.addRecipe(luckElixirOverworld, [fourclover, goldNugg], null, null, hotspring);
-Condenser.addRecipe(featherElixirOverworld, [cloudsbluff, cloudgold], null, null, hotspring);
-Condenser.addRecipe(healthboostElixirOverworld, [bloodorchid, fleshblock], null, null, lunarwater);
-Condenser.addRecipe(strengthElixirOverworld, [core, spirits], null, null, lunarwater);
-Condenser.addRecipe(forcefulElixirOverworld, [core, jumphaw], null, null, lunarwater);
+Condenser.addRecipe(luckElixirOverworld, [fourclover, goldNugg], null, null, hotspring * 125);
+Condenser.addRecipe(featherElixirOverworld, [cloudsbluff, cloudgold], null, null, hotspring * 125);
+Condenser.addRecipe(healthboostElixirOverworld, [bloodorchid, fleshblock], null, null, lunarwater * 125);
+Condenser.addRecipe(strengthElixirOverworld, [core, spirits], null, null, lunarwater * 125);
+Condenser.addRecipe(forcefulElixirOverworld, [core, jumphaw], null, null, lunarwater * 125);
 
 /////CRAFTABLE POST-NETHER\\\\\
+Condenser.addRecipe(healthElixirNether, [tear, tarblock], null, null, lunarwater * 250);
+Condenser.addRecipe(ironskinElixirNether, [ironW, horsetail], null, null, blood * 125);
+Condenser.addRecipe(fireresElixirNether, [aloe, blazepowder], null, null, blood * 125);
+Condenser.addRecipe(enduranceElixirNether, [horsetail, thistle], null, null, spiritfire * 250);
+Condenser.addRecipe(hasteElixirNether, [cincinnasite, gearsteel], null, null, spiritfire * 125);
 
 /////CRAFTABLE POST-AETHER\\\\\
+Condenser.addRecipe(poisonresElixirAether, [petal, deathstalk], null, null, poison * 125);
+Condenser.addRecipe(jumpboostElixirAether, [thistle, cloudblue], null, null, hotspring * 125);
+Condenser.addRecipe(featheryElixirAether, [bronzefeather, cloudwhite], null, null, dreadcold * 125);
+Condenser.addRecipe(replenishmentElixirAether, [cloudgold, tear], null, null, dreadcold * 125);
 
 /////CRAFTABLE POST-BENEATH\\\\\
 
