@@ -40,6 +40,7 @@ var cincinnasite = <betternether:cincinnasite>;
 var gearsteel = <pyrotech:cog_bone>;
 var deathstalk = <rustic:deathstalk_mushroom>;
 var bronzefeather = <iceandfire:stymphalian_bird_feather>;
+var bottle = <minecraft:glass_bottle>;
 
 //Define liquids
 var hotspring = <liquid:hot_spring_water>;
@@ -166,6 +167,18 @@ val jumpboostElixirAether = <rustic:elixir>.withTag({display:{LocName:"Simple Ju
 val featheryElixirAether = <rustic:elixir>.withTag({display:{LocName:"Simple Feathers Elixir"},ElixirEffects: [{Effect: "elenaidodge2:feathers", Duration: 1200, Amplifier: 5}]});
 val replenishmentElixirAether = <rustic:elixir>.withTag({display:{LocName:"Simple Replenishment Elixir"},ElixirEffects: [{Effect: "minecraft:replenishment", Duration: 900, Amplifier: 0}]});
 
+val speedElixirBeneath = <rustic:elixir>.withTag({display:{LocName:"Advanced Speed Elixir"},ElixirEffects: [{Effect: "minecraft:speed", Duration: 18000, Amplifier: 1},{Effect: "elenaidodge2:forceful", Duration: 9600, Amplifier: 1}]});
+val magnetismElixirBeneath = <rustic:elixir>.withTag({display:{LocName:"Advanced Magnetic Elixir"},ElixirEffects: [{Effect: "extraalchemy:effect.magnetism", Duration: 18000, Amplifier: 1}]});
+val bouncyElixirBeneath = <rustic:elixir>.withTag({display:{LocName:"Advanced Bouncy Elixir"},ElixirEffects: [{Effect: "cyclicmagic:potion.bounce", Duration: 18000, Amplifier: 1}]});
+val luckElixirBeneath = <rustic:elixir>.withTag({display:{LocName:"Advanced Lucky Elixir"},ElixirEffects: [{Effect: "minecraft:luck", Duration: 18000, Amplifier: 1}]});
+val featherElixirBeneath = <rustic:elixir>.withTag({display:{LocName:"Advanced Featherlight Elixir"},ElixirEffects: [{Effect: "rustic:feather", Duration: 9600, Amplifier: 0}]});
+val healthboostElixirBeneath = <rustic:elixir>.withTag({display:{LocName:"Advanced Health Boost Elixir"},ElixirEffects: [{Effect: "minecraft:health_boost", Duration: 12000, Amplifier: 2}]});
+val strengthElixirBeneath = <rustic:elixir>.withTag({display:{LocName:"Advanced Strength Elixir"},ElixirEffects: [{Effect: "minecraft:strength", Duration: 12000, Amplifier: 1}]});
+val forcefulElixirBeneath = <rustic:elixir>.withTag({display:{LocName:"Advanced Forceful Elixir"},ElixirEffects: [{Effect: "elenaidodge2:forceful", Duration: 12000, Amplifier: 2}]});
+
+
+
+
 //Add recipes
 //Condenser.addRecipe(output, itemstack[] inputs, modifier, bottle, fluid, time);
 
@@ -173,26 +186,34 @@ val replenishmentElixirAether = <rustic:elixir>.withTag({display:{LocName:"Simpl
 Condenser.addRecipe(speedElixirOverworld, [thistle, fasthaw]);
 Condenser.addRecipe(magnetismElixirOverworld, [ironBerry, genericNugg]);
 Condenser.addRecipe(bouncyElixirOverworld, [slime, mallow]);
-Condenser.addRecipe(luckElixirOverworld, [fourclover, goldNugg], null, null, hotspring * 125);
-Condenser.addRecipe(featherElixirOverworld, [cloudsbluff, cloudgold], null, null, hotspring * 125);
-Condenser.addRecipe(healthboostElixirOverworld, [bloodorchid, fleshblock], null, null, lunarwater * 125);
-Condenser.addRecipe(strengthElixirOverworld, [core, spirits], null, null, lunarwater * 125);
-Condenser.addRecipe(forcefulElixirOverworld, [core, jumphaw], null, null, lunarwater * 125);
+Condenser.addRecipe(luckElixirOverworld, [fourclover, goldNugg], null, bottle, hotspring * 125);
+Condenser.addRecipe(featherElixirOverworld, [cloudsbluff, cloudgold], null, bottle, hotspring * 125);
+Condenser.addRecipe(healthboostElixirOverworld, [bloodorchid, fleshblock], null, bottle, lunarwater * 125);
+Condenser.addRecipe(strengthElixirOverworld, [core, spirits], null, bottle, lunarwater * 125);
+Condenser.addRecipe(forcefulElixirOverworld, [core, jumphaw], null, bottle, lunarwater * 125);
 
 /////CRAFTABLE POST-NETHER\\\\\
-Condenser.addRecipe(healthElixirNether, [tear, tarblock], null, null, lunarwater * 250);
-Condenser.addRecipe(ironskinElixirNether, [ironW, horsetail], null, null, blood * 125);
-Condenser.addRecipe(fireresElixirNether, [aloe, blazepowder], null, null, blood * 125);
-Condenser.addRecipe(enduranceElixirNether, [horsetail, thistle], null, null, spiritfire * 250);
-Condenser.addRecipe(hasteElixirNether, [cincinnasite, gearsteel], null, null, spiritfire * 125);
+Condenser.addRecipe(healthElixirNether, [tear, tarblock], null, bottle, lunarwater * 250);
+Condenser.addRecipe(ironskinElixirNether, [ironW, horsetail], null, bottle, blood * 125);
+Condenser.addRecipe(fireresElixirNether, [aloe, blazepowder], null, bottle, blood * 125);
+Condenser.addRecipe(enduranceElixirNether, [horsetail, thistle], null, bottle, spiritfire * 250);
+Condenser.addRecipe(hasteElixirNether, [cincinnasite, gearsteel], null, bottle, spiritfire * 125);
 
 /////CRAFTABLE POST-AETHER\\\\\
-Condenser.addRecipe(poisonresElixirAether, [petal, deathstalk], null, null, poison * 125);
-Condenser.addRecipe(jumpboostElixirAether, [thistle, cloudblue], null, null, hotspring * 125);
-Condenser.addRecipe(featheryElixirAether, [bronzefeather, cloudwhite], null, null, dreadcold * 125);
-Condenser.addRecipe(replenishmentElixirAether, [cloudgold, tear], null, null, dreadcold * 125);
+Condenser.addRecipe(poisonresElixirAether, [petal, deathstalk], null, bottle, poison * 125);
+Condenser.addRecipe(jumpboostElixirAether, [thistle, cloudblue], null, bottle, hotspring * 125);
+Condenser.addRecipe(featheryElixirAether, [bronzefeather, cloudwhite], null, bottle, dreadcold * 125);
+Condenser.addRecipe(replenishmentElixirAether, [cloudgold, tear], null, bottle, dreadcold * 125);
 
 /////CRAFTABLE POST-BENEATH\\\\\
+Condenser.addRecipe(speedElixirBeneath, [thistle, fasthaw], null, bottle, lunarwater * 250);
+Condenser.addRecipe(magnetismElixirBeneath, [ironBerry, genericNugg], null, bottle, lunarwater * 250);
+Condenser.addRecipe(bouncyElixirBeneath, [slime, mallow], null, bottle, lunarwater * 250);
+Condenser.addRecipe(luckElixirBeneath, [fourclover, goldNugg], null, bottle, lunarwater * 250);
+Condenser.addRecipe(featherElixirBeneath, [cloudsbluff, cloudgold], null, bottle, lunarwater * 250);
+Condenser.addRecipe(healthboostElixirBeneath, [bloodorchid, fleshblock], null, bottle, lunarwater * 250);
+Condenser.addRecipe(strengthElixirBeneath, [core, spirits], null, bottle, lunarwater * 250);
+Condenser.addRecipe(forcefulElixirBeneath, [core, jumphaw], null, bottle, lunarwater * 250);
 
 /////CRAFTABLE POST-END\\\\\
 
