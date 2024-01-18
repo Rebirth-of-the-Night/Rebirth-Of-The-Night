@@ -837,3 +837,16 @@ events.onBlockBreak(function(event as crafttweaker.event.BlockBreakEvent){
 		}
     }
 });
+
+
+// Harvester is only summonable at night. This cancels the interact event during the day.
+events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteractBlockEvent){
+    if(!event.entity.world.isRemote()){
+        if(event.block.definition.id == "multiblockmobs:soul_chassis"){
+			if(event.player.world.isDayTime()){
+				event.player.sendChat("§4Only summonable at night!");
+				event.cancel();
+			}
+        }
+    }
+});
