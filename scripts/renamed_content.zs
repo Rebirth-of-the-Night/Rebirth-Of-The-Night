@@ -1,3 +1,5 @@
+#reloadable
+
 import crafttweaker.game.IGame;
 import crafttweaker.data.IData;
 import crafttweaker.item.IItemStack;
@@ -6,7 +8,7 @@ import mods.jei.JEI;
 // Progression and CoT
 <contenttweaker:slayers_tattered_journal:*>.addTooltip("A peculiar old journal... I've copied it into my guidebook.");
 
-<multiblockmobs:soul_chassis:*>.addTooltip("Used for summoning bosses");
+<multiblockmobs:soul_chassis:*>.addTooltip(format.red("The Harvester can only be summoned during the night!"));
 
 // Biomes o Plenty
 <biomesoplenty:hive>.displayName = "Giant Hive Block";

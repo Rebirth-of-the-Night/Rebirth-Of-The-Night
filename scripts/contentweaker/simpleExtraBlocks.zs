@@ -2455,6 +2455,15 @@ blendrein_reinforced.setToolLevel(3);
 blendrein_reinforced.setBlockHardness(300.0);
 blendrein_reinforced.register();
 
+// Diagonal Tiles
+var tiled_diagonal = VanillaFactory.createBlock("tiled_diagonal", <blockmaterial:Rock>);
+tiled_diagonal.setCreativeTab(<creativetab:rotn_blocks>);
+tiled_diagonal.setBlockSoundType(<soundtype:stone>);
+tiled_diagonal.setBlockHardness(25.0);
+tiled_diagonal.setBlockResistance(14.0);
+tiled_diagonal.setToolLevel(2);
+tiled_diagonal.register();
+
 // Extra coade
 var coade_stone_polished = VanillaFactory.createBlock("coade_stone_polished", <blockmaterial:Rock>);
 coade_stone_polished.setCreativeTab(<creativetab:rotn_blocks>);

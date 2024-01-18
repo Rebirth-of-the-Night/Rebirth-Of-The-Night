@@ -1,0 +1,414 @@
+{
+  "version": 2,
+  "location": "rotn:soul_reactor",
+  "traits": {
+    "background": "multiblocked:textures/gui/soul_reactor_gui.png",
+    "item": [
+      {
+        "cIO": 2,
+        "gIO": 0,
+        "mIO": 0,
+        "slotName": "R_input",
+        "x": 48,
+        "y": 40,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 0,
+        "mIO": 0,
+        "slotName": "A_input",
+        "x": 44,
+        "y": 71,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 0,
+        "mIO": 0,
+        "slotName": "G_input",
+        "x": 48,
+        "y": 102,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 0,
+        "mIO": 0,
+        "slotName": "D_input",
+        "x": 79,
+        "y": 106,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 0,
+        "mIO": 0,
+        "slotName": "L_input",
+        "x": 110,
+        "y": 102,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 0,
+        "mIO": 0,
+        "slotName": "H_input",
+        "x": 79,
+        "y": 36,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 0,
+        "mIO": 0,
+        "slotName": "S_input",
+        "x": 110,
+        "y": 40,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 0,
+        "mIO": 0,
+        "slotName": "O_input",
+        "x": 114,
+        "y": 71,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "D_output",
+        "x": 79,
+        "y": 134,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "R_output",
+        "x": 25,
+        "y": 17,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "H_output",
+        "x": 79,
+        "y": 8,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "A_output",
+        "x": 16,
+        "y": 71,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "S_output",
+        "x": 133,
+        "y": 17,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "O_output",
+        "x": 141,
+        "y": 72,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "G_output",
+        "x": 25,
+        "y": 125,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "L_output",
+        "x": 133,
+        "y": 125,
+        "autoIO": false
+      }
+    ]
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": false,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 1,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "multiblockmobs:soul_chassis",
+          "meta": 0
+        },
+        "type": "blockstate"
+      }
+    },
+    "idle": {
+      "renderer": {
+        "modelName": "soul_reactor",
+        "type": "geo"
+      },
+      "parent": "unformed"
+    },
+    "working": {
+      "renderer": {
+        "modelName": "soul_reactor",
+        "type": "geo"
+      },
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "soul_reactor",
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        " ABABA ",
+        "       ",
+        "       ",
+        "       ",
+        "       ",
+        "       ",
+        "  AAA  "
+      ],
+      [
+        "AABABAA",
+        "  BCB  ",
+        "       ",
+        "       ",
+        "       ",
+        "  AAA  ",
+        " A   A "
+      ],
+      [
+        "BBAAABB",
+        " BBBBB ",
+        "  DDD  ",
+        "  DDD  ",
+        "  DDD  ",
+        " AAAAA ",
+        "A     A"
+      ],
+      [
+        "@AAAAAA",
+        "  BEBF ",
+        "  DGD  ",
+        "  D D  ",
+        "  D D  ",
+        " AAAAA ",
+        "A     A"
+      ],
+      [
+        "BBAAABB",
+        " BBBBB ",
+        "  DDD  ",
+        "  DDD  ",
+        "  DDD  ",
+        " AAAAA ",
+        "A     A"
+      ],
+      [
+        "AABABAA",
+        "  BHB  ",
+        "       ",
+        "       ",
+        "       ",
+        "  AAA  ",
+        " A   A "
+      ],
+      [
+        " ABABA ",
+        "       ",
+        "       ",
+        "       ",
+        "       ",
+        "       ",
+        "  AAA  "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "contenttweaker:brick_minecraft_nether",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "rotn:soul_reactor",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "contenttweaker:dhvara_knot",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "minecraft:chest",
+            "meta": 4
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "betternether:quartz_glass_framed_pane",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "betterwithaddons:ancestry_sand",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "rustic:liquid_barrel",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "G": {
+        "states": [
+          {
+            "id": "contenttweaker:soul_bonfire",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "H": {
+        "states": [
+          {
+            "id": "minecraft:chest",
+            "meta": 5
+          }
+        ],
+        "type": "states"
+      },
+      "air": {
+        "type": "air"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ],
+      "H": [
+        "H"
+      ],
+      "-": [
+        "air"
+      ]
+    }
+  }
+}

@@ -30,7 +30,7 @@ texture: {
   original: pyrotech:blocks/fossil_ore
 }
 recipe: {
-  result: betterwithaddons:congealed
+  result: netherex:congealed_magma_cream
   xp: 0.10000000149011612
   quantity: 1
 }
