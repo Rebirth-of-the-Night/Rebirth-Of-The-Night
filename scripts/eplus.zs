@@ -47,7 +47,6 @@ Anvil.remove([<msmlegacy:eye_end_blade:*>]); // interdim blade
 Anvil.remove([<msmlegacy:glacial_blade:*>]); // dragons bane
 Anvil.remove([<msmlegacy:crystaline_blade:*>]); // lights edge
 Anvil.remove([<msmlegacy:wither_bane:*>]); // darks edge
-Anvil.remove([<atop:amber_sword>]); // mari
 Anvil.remove([<msmlegacy:relic_aqueous:*>]);
 Anvil.remove([<msmlegacy:relic_candy:*>]);
 
