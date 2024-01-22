@@ -641,7 +641,7 @@ events.onPlayerRightClickItem(function(event as crafttweaker.event.PlayerRightCl
 // Spine bud light
 // Breaking the dark fruit on the bottom of the structure replaces the block above with a glaretorch illuminating the area
 events.onBlockBreak(function(event as crafttweaker.event.BlockBreakEvent){
-    if event.world.remote{
+    if(event.world.isRemote()){
         return;
     }
 	
