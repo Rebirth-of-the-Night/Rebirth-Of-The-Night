@@ -1,0 +1,35 @@
+{
+	"name" : "demo:tower",
+	"tower" : {
+		"type" : "ROGUE",
+		"theme" : {
+			"primary" : {
+				"walls" : {
+					"type" : "WEIGHTED",
+					"data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "cobblestone"}, "weight" : 5},
+						{"type" : "METABLOCK", "data" : {"name" : "gravel"}, "weight" : 2},
+						{"type" : "METABLOCK", "data" : {"name" : "stonebrick"}, "weight" : 2},
+						{"type" : "METABLOCK", "data" : {"name" : "stonebrick", "meta" : 1}, "weight" : 1},
+						{"type" : "METABLOCK", "data" : {"name" : "stonebrick", "meta" : 2}, "weight" : 7},
+						{"type" : "METABLOCK", "data" : {"name" : "air"}, "weight" : 1}
+					]
+				}
+			},
+			"secondary" : {
+				"walls" : {
+					"type" : "METABLOCK",
+					"data" : {"name" : "planks"}
+				},
+				"pillar" : {
+					"type" : "METABLOCK",
+					"data" : {"name" : "log"}
+				},
+				"stair" : {
+					"type" : "METABLOCK",
+					"data" : {"name" : "oak_stairs"}
+				}
+			}
+		}
+	}
+}
