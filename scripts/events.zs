@@ -850,3 +850,22 @@ events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteract
         }
     }
 });
+
+// Warning for scroll of new life
+static lifescroll as IItemStack = <lifescroll:spawnscroll>;
+events.onPlayerRightClickItem(function(event as crafttweaker.event.PlayerRightClickItemEvent){
+    if(event.world.isRemote()){
+        return;
+    }
+    
+    val handItem = event.item as IItemStack; 
+    if(!isNull(handItem)){
+        if (lifescroll.matches(handItem)) {  
+            if(isNull(event.player.data.lifeScrollFirstTimeClick)){
+                server.commandManager.executeCommand(server, "tellraw @p [\"\",{\"text\":\"WARNING: Using this scroll is a one-time use and you can't get another one! It may be wise to use it once you've established a base. If you're sure you want to use it, right-click it again.\",\"color\":\"red\"}]");
+                event.player.update({lifeScrollFirstTimeClick: true});
+				event.cancel();
+            }
+        }
+    }
+});

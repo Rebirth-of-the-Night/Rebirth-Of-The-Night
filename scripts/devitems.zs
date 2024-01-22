@@ -101,7 +101,7 @@ events.onPlayerRightClickItem(function(event as crafttweaker.event.PlayerRightCl
                 event.player.update({mariFirstTimeClick: true});
             }
             else{
-                Commands.call("playsound customdisc:squeak ambient @p ~ ~ ~ 0.2", event.player, event.world, true, true);
+                Commands.call("playsound customdisc:squeak ambient @p ~ ~ ~ 0.1", event.player, event.world, true, true);
                 var catchPhase as string = pickRandomCatchPhase();
                 server.commandManager.executeCommand(server, "tellraw @p [\"\",{\"text\":\"" + catchPhase + "\",\"color\":\"light_purple\"}]");
                 
