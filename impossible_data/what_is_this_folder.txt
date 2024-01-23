@@ -1,0 +1,17 @@
+Hi!
+This folder is used to store data used by The Impossible Library and other mods that might use it as a dependency
+
+--------------------------------------------------
+
+For mod developers:
+If you registered any global data through The Impossible Library, this is where that gets stored! So if you see your modid here, everything is working as intended.
+
+--------------------------------------------------
+
+For modpack creators:
+This is where mods that utilize the global data system implemented by The Impossible Library have their data stored! If you want to quickly reset a specific mod's data, you can delete its file here.
+
+--------------------------------------------------
+
+For players:
+You probably do not have to worry about this folder, but if a specific mod is breaking that appears here, you can try deleting the data and seeing if the problem is fixed. Remember to report issues!
