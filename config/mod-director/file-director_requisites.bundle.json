@@ -9,6 +9,12 @@
 		},
 		{
 			"url": "https://github.com/djpadbit/Sound-Physics/releases/download/1.0.10-1/Sound-Physics-1.12.2-1.0.10-1.jar"
+		},
+		{
+			"url": "https://github.com/skmedix/NormalASM/releases/download/5.18/normalasm-5.18.jar"
+		},
+		{
+			"url": "https://cdn.modrinth.com/data/L55Wy0Fz/versions/QBprvpeM/JSON-Paintings-v1.3.0-mc1.12.2.jar"
 		}
 	]
 }
