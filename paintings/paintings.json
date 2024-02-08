@@ -66,13 +66,49 @@
 		"isCreative": true
     },
 	{
-        "motive": "Undefinable",
+        "motive": "Portraits of Madness - Red",
+        "width": 2,
+        "height": 3,
+		"isCreative": true
+    },
+	{
+        "motive": "Portraits of Madness - Blue",
+        "width": 2,
+        "height": 3,
+		"isCreative": true
+    },
+	{
+        "motive": "Portraits of Madness - Yellow",
+        "width": 2,
+        "height": 3,
+		"isCreative": true
+    },
+	{
+        "motive": "Blessed Passion",
         "width": 2,
         "height": 4,
 		"isCreative": true
     },
 	{
         "motive": "Yearn",
+        "width": 4,
+        "height": 3,
+		"isCreative": true
+    },
+	{
+        "motive": "Leave",
+        "width": 4,
+        "height": 3,
+		"isCreative": true
+	},
+	{
+        "motive": "Arrive",
+        "width": 4,
+        "height": 3,
+		"isCreative": true
+    },
+	{
+        "motive": "Grow",
         "width": 4,
         "height": 3,
 		"isCreative": true
@@ -166,6 +202,84 @@
     },
 	{
         "motive": "Small nod",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Small blink",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Silhouette",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Small moon",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Small red moon",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Small bronze moon",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Small star moon",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Small harvest moon",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Approximately One Apple",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Shiny",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Bliss 1",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "o-yoroi",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Hibiscus",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Is it a Window",
         "width": 1,
         "height": 1,
 		"isCreative": false
@@ -549,6 +663,18 @@
 		"isCreative": false
     },
 	{
+        "motive": "It who remains",
+        "width": 2,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Instigation Is a Storm",
+        "width": 3,
+        "height": 2,
+		"isCreative": false
+    },
+	{
         "motive": "It Who Sees",
         "width": 3,
         "height": 1,
@@ -574,6 +700,12 @@
     },
 	{
         "motive": "ornate tapestry - orange",
+        "width": 3,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "picture - idyllic 1",
         "width": 3,
         "height": 2,
 		"isCreative": false
@@ -643,6 +775,12 @@
     },
 	{
         "motive": "impending",
+        "width": 3,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "Times of the Biboat",
         "width": 3,
         "height": 2,
 		"isCreative": false
@@ -792,7 +930,7 @@
 		"isCreative": false
     },
 	{
-        "motive": "Sky map of Rim",
+        "motive": "Emberian peninsula",
         "width": 4,
         "height": 3,
 		"isCreative": false
@@ -858,7 +996,7 @@
 		"isCreative": false
     },
 	{
-        "motive": "Crusaders",
+        "motive": "Emberia's last stand",
         "width": 6,
         "height": 4,
 		"isCreative": false
