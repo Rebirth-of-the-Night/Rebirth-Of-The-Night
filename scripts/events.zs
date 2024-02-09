@@ -866,6 +866,9 @@ events.onPlayerRightClickItem(function(event as crafttweaker.event.PlayerRightCl
                 event.player.update({lifeScrollFirstTimeClick: true});
 				event.cancel();
             }
+			else{
+				server.commandManager.executeCommand(server, "advancement grant @p only triumph:advancements/magick/incantation/scroll_newlife");
+			}
         }
     }
 });
