@@ -52,6 +52,15 @@ var nethercoin = <contenttweaker:nethercoin>;
 var flesh = <biomesoplenty:flesh>;
 var plaguehide = <mod_lavacow:pigboarhide>;
 var voidflame = <contenttweaker:void_block>;
+var angel = <endreborn:item_angel_feather>;
+var viridea = <contenttweaker:viridea>;
+var voidseen = <contenttweaker:voidseen_exorite>;
+var ampfeather = <iceandfire:amphithere_feather>;
+var bloodeye = <netherex:wither_bone>;
+var soulurn = <betterwithmods:urn:8>;
+var earthruby = <contenttweaker:earthen_ruby>;
+var heart = <scalinghealth:heartcontainer>;
+var biotite = <quark:biotite>;
 
 //Define liquids
 var hotspring = <liquid:hot_spring_water>;
@@ -62,6 +71,8 @@ var poison = <liquid:poison>;
 var dreadcold = <liquid:dread_cold>;
 var arcmythril = <liquid:residual_mythril>;
 var bioflow = <liquid:concentrated_bioflow>;
+var gravitite = <liquid:gravitite>; 
+var placeholder = <liquid:ender_slag>;
 
 
 //Change condenser recipes
@@ -189,10 +200,10 @@ val healthboostElixirBeneath = <rustic:elixir>.withTag({display:{LocName:"Advanc
 val strengthElixirBeneath = <rustic:elixir>.withTag({display:{LocName:"Advanced Strength Elixir"},ElixirEffects:[{Effect: "minecraft:strength", Duration: 12000, Amplifier: 1}]});
 val forcefulElixirBeneath = <rustic:elixir>.withTag({display:{LocName:"Advanced Forceful Elixir"},ElixirEffects:[{Effect: "elenaidodge2:forceful", Duration: 12000, Amplifier: 2},{Effect: "elenaidodge2:feathers", Duration: 1200, Amplifier: 2}]});
 
-val demonicElixirEnd = <rustic:elixir>.withTag({display:{LocName:"Demonic Strength Elixir"},ElixirEffects:[{Effect: "minecraft:strength", Duration: 12000, Amplifier: 6},{Effect: "demonic_scythe:demonic_corruption", Duration: 12000, Amplifier: 9},{Effect: "potioncore:vulnerable", Duration: 12000, Amplifier: 1}]});
+val demonicElixirEnd = <rustic:elixir>.withTag({display:{LocName:"Demonic Strength Elixir"},ElixirEffects:[{Effect: "minecraft:strength", Duration: 12000, Amplifier: 6},{Effect: "demonic_scythe:demonic_corruption", Duration: 12000, Amplifier: 8},{Effect: "potioncore:vulnerable", Duration: 12000, Amplifier: 1}]});
 val geomancyElixirEnd = <rustic:elixir>.withTag({display:{LocName:"Earth Master's Elixir"},ElixirEffects:[{Effect: "mowziesmobs:geomancy", Duration: 12000, Amplifier: 1},{Effect: "defiledlands:grounded", Duration: 12000, Amplifier: 2},{Effect: "extraalchemy:effect.magnetism", Duration: 12000, Amplifier: 3},{Effect: "rustic:ironskin", Duration: 12000, Amplifier: 3},{Effect: "potioncore:solid_core", Duration: 12000, Amplifier: 3}]});
 val sunElixirEnd = <rustic:elixir>.withTag({display:{LocName:"Elixir of the Solar Master"},ElixirEffects:[{Effect: "mowziesmobs:suns_blessing", Duration: 12000, Amplifier: 0},{Effect: "minecraft:fire_resistance", Duration: 12000, Amplifier: 7},{Effect: "rustic:blazing_trail", Duration: 12000, Amplifier: 0}]});
-val flightElixirEnd = <rustic:elixir>.withTag({display:{LocName:"Air Master's Elixir"},ElixirEffects:[{Effect: "potioncore:flight", Duration: 1200, Amplifier: 0}]});
+val flightElixirEnd = <rustic:elixir>.withTag({display:{LocName:"Air Master's Elixir"},ElixirEffects:[{Effect: "potioncore:flight", Duration: 1800, Amplifier: 0}]});
 
 
 //Add recipes
@@ -231,9 +242,9 @@ Condenser.addRecipe(strengthElixirBeneath, [core, spirits, voidflame], null, bot
 Condenser.addRecipe(forcefulElixirBeneath, [core, jumphaw, cocaine], null, bottle, lunarwater * 250);
 
 /////CRAFTABLE POST-END\\\\\
-Condenser.addRecipe(geomancyElixirEnd, [metdust, steeldust, mooncap], zanitegem, bottle, arcmythril * 500);
-Condenser.addRecipe(demonicElixirEnd, [metdust, steeldust, mooncap], zanitegem, bottle, arcmythril * 500);
-Condenser.addRecipe(sunElixirEnd, [metdust, steeldust, mooncap], zanitegem, bottle, arcmythril * 500));
-Condenser.addRecipe(flightElixirEnd, [metdust, steeldust, mooncap], zanitegem, bottle, arcmythril * 500));
+Condenser.addRecipe(geomancyElixirEnd, [earthruby, steeldust, mooncap], biotite, bottle, arcmythril * 1000);
+Condenser.addRecipe(demonicElixirEnd, [bloodeye, soulurn, core], biotite, bottle, placeholder * 500);
+Condenser.addRecipe(sunElixirEnd, [metdust, steeldust, mooncap], biotite, bottle, arcmythril * 1000);
+Condenser.addRecipe(flightElixirEnd, [heart, angel, ampfeather], voidseen, bottle, gravitite * 1000);
 
 /////CRAFTABLE POST-TWILIGHT FOREST\\\\\

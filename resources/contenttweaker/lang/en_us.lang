@@ -728,6 +728,8 @@ tile.contenttweaker.viridea.name=Viridea
 #------------------------------------------------------------------------------
 
 item.contenttweaker.stream_crown.name=Soul of Blue Fire
+item.contenttweaker.clockwork_heart.name=Imperfect Brass Heart
+item.contenttweaker.doll_heart.name=Perfect Heart
 
 #------------------------------------------------------------------------------
 # Unfired Items
