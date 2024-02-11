@@ -177,6 +177,12 @@
 		"isCreative": true
     },
 	{
+        "motive": "Emberia's last stand",
+        "width": 6,
+        "height": 4,
+		"isCreative": true
+    },
+	{
         "motive": "Wroughtclad",
         "width": 7,
         "height": 4,
@@ -991,12 +997,6 @@
     },
 	{
         "motive": "Windmill",
-        "width": 6,
-        "height": 4,
-		"isCreative": false
-    },
-	{
-        "motive": "Emberia's last stand",
         "width": 6,
         "height": 4,
 		"isCreative": false
