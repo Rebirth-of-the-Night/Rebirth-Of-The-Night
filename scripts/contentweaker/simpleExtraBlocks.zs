@@ -2405,6 +2405,13 @@ dhvara_knot.setToolLevel(2);
 dhvara_knot.setBlockHardness(25);
 dhvara_knot.register();
 
+// Emberium blocks
+var emblem_stone_red = VanillaFactory.createBlock("emblem_stone_red", <blockmaterial:Iron>);
+emblem_stone_red.setCreativeTab(<creativetab:rotn_blocks>);
+emblem_stone_red.setToolLevel(2);
+emblem_stone_red.setBlockHardness(25);
+emblem_stone_red.register();
+
 // Sunstone
 var sunstone_block = VanillaFactory.createBlock("sunstone_block", <blockmaterial:Iron>);
 sunstone_block.setCreativeTab(<creativetab:rotn_blocks>);
@@ -2463,6 +2470,18 @@ tiled_diagonal.setBlockHardness(25.0);
 tiled_diagonal.setBlockResistance(14.0);
 tiled_diagonal.setToolLevel(2);
 tiled_diagonal.register();
+
+// Special/Ornate Stone Variants
+var fancy_limestone = VanillaFactory.createBlock("fancy_limestone", <blockmaterial:Rock>);
+fancy_limestone.setCreativeTab(<creativetab:rotn_blocks>);
+fancy_limestone.setToolLevel(1);
+fancy_limestone.setBlockHardness(18);
+fancy_limestone.register();
+var fancy_soapstone = VanillaFactory.createBlock("fancy_soapstone", <blockmaterial:Rock>);
+fancy_soapstone.setCreativeTab(<creativetab:rotn_blocks>);
+fancy_soapstone.setToolLevel(1);
+fancy_soapstone.setBlockHardness(16);
+fancy_soapstone.register();
 
 // Extra coade
 var coade_stone_polished = VanillaFactory.createBlock("coade_stone_polished", <blockmaterial:Rock>);

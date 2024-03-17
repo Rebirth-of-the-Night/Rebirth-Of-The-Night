@@ -71,6 +71,12 @@ recipes.addShaped("star_block", <contenttweaker:star_block>, [
 ]);
 recipes.addShapeless("star_block_to_star", <nyx:fallen_star>*9,
    	[<contenttweaker:star_block>]);
+	
+recipes.addShaped("emblem-stone_red", <contenttweaker:emblem_stone_red>*8, [ 
+    [<minecraft:concrete:14>, <minecraft:concrete:14>, <minecraft:concrete:14>],
+	[<minecraft:concrete:14>, <minecraft:gold_nugget>, <minecraft:concrete:14>],
+    [<minecraft:concrete:14>, <minecraft:concrete:14>, <minecraft:concrete:14>]
+]);
 
 // Well
 recipes.remove(<well:well>);
