@@ -78,6 +78,28 @@ recipes.addShaped("emblem-stone_red", <contenttweaker:emblem_stone_red>*8, [
     [<minecraft:concrete:14>, <minecraft:concrete:14>, <minecraft:concrete:14>]
 ]);
 
+recipes.addShaped("mystic_cincinnasite_lamp", <contenttweaker:mystic_cincinnasite_lamp>, [ 
+    [<ore:nuggetIron>, null, <ore:nuggetIron>],
+	[null, <betternether:cincinnasite_lantern>, null],
+    [<ore:nuggetIron>, null, <ore:nuggetIron>]
+]);
+/*recipes.addShaped("ferrought_cincinnasite_lamp", <contenttweaker:ferrought_cincinnasite_lamp>, [ 
+    [<ore:nuggetFerrought>, null, <ore:nuggetFerrought>],
+	[null, <betternether:cincinnasite_lantern>, null],
+    [<ore:nuggetFerrought>, null, <ore:nuggetFerrought>]
+]);*/
+
+recipes.addShaped("coba_star", <contenttweaker:coba_star>, [ 
+    [null, <iceandfire:frost_lily>, null],
+	[<iceandfire:frost_lily>, <nyx:fallen_star>, <iceandfire:frost_lily>],
+    [null, <iceandfire:frost_lily>, null]
+]);
+recipes.addShaped("coba_star2", <contenttweaker:coba_star>, [ 
+    [null, <netherex:frost_rod>, null],
+	[<netherex:frost_rod>, <nyx:fallen_star>, <netherex:frost_rod>],
+    [null, <netherex:frost_rod>, null]
+]);
+
 // Well
 recipes.remove(<well:well>);
 recipes.addShaped("water_well", <well:well>,[

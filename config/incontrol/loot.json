@@ -82,28 +82,28 @@
 
 	// Developer gear
 	{
-		"mob": ["mod_lavacow:sludgelord", "harvestersnight:harvester","betterslimes:quazar","minecraft:wither","minecraft:ender_dragon","rats:black_death","betteranimalsplus:hirschgeist","aether_legacy:sun_spirit","aether_legacy:slider","aether_legacy:valkyrie_queen","iceandfire:icedragon","iceandfire:firedragon","twilightforest:naga","twilightforest:lich","twilightforest:minoshroom","twilightforest:hydra","twilightforest:knight_phantom","twilightforest:ur_ghast","twilightforest:yeti_alpha","twilightforest:snow_queen","iceandfire:seaserpent","iceandfire:cyclops","iceandfire:if_hydra","mowziesmobs:ferrous_wroughtnaught","mowziesmobs:frostmaw","mowziesmobs:barako"],
+		"mob": ["mod_lavacow:sludgelord", "harvestersnight:harvester","betterslimes:quazar","minecraft:wither","minecraft:ender_dragon","rats:black_death","betteranimalsplus:hirschgeist","aether_legacy:sun_spirit","aether_legacy:slider","aether_legacy:valkyrie_queen","iceandfire:icedragon","iceandfire:firedragon","twilightforest:naga","twilightforest:lich","twilightforest:minoshroom","twilightforest:hydra","twilightforest:knight_phantom","twilightforest:ur_ghast","twilightforest:yeti_alpha","twilightforest:snow_queen","iceandfire:seaserpent","iceandfire:cyclops","iceandfire:if_hydra","mowziesmobs:ferrous_wroughtnaut","mowziesmobs:frostmaw","mowziesmobs:barako"],
 		"player": true,
 		"item": "betterwithmods:wool_helmet",
 		"itemcount": "1",
 		"random": "0.1"
 	},
 	{
-		"mob": ["mod_lavacow:sludgelord", "harvestersnight:harvester","betterslimes:quazar","minecraft:wither","minecraft:ender_dragon","rats:black_death","betteranimalsplus:hirschgeist","aether_legacy:sun_spirit","aether_legacy:slider","aether_legacy:valkyrie_queen","iceandfire:icedragon","iceandfire:firedragon","twilightforest:naga","twilightforest:lich","twilightforest:minoshroom","twilightforest:hydra","twilightforest:knight_phantom","twilightforest:ur_ghast","twilightforest:yeti_alpha","twilightforest:snow_queen","iceandfire:seaserpent","iceandfire:cyclops","iceandfire:if_hydra","mowziesmobs:ferrous_wroughtnaught","mowziesmobs:frostmaw","mowziesmobs:barako"],
+		"mob": ["mod_lavacow:sludgelord", "harvestersnight:harvester","betterslimes:quazar","minecraft:wither","minecraft:ender_dragon","rats:black_death","betteranimalsplus:hirschgeist","aether_legacy:sun_spirit","aether_legacy:slider","aether_legacy:valkyrie_queen","iceandfire:icedragon","iceandfire:firedragon","twilightforest:naga","twilightforest:lich","twilightforest:minoshroom","twilightforest:hydra","twilightforest:knight_phantom","twilightforest:ur_ghast","twilightforest:yeti_alpha","twilightforest:snow_queen","iceandfire:seaserpent","iceandfire:cyclops","iceandfire:if_hydra","mowziesmobs:ferrous_wroughtnaut","mowziesmobs:frostmaw","mowziesmobs:barako"],
 		"player": true,
 		"item": "betterwithmods:wool_chest",
 		"itemcount": "1",
 		"random": "0.1"
 	},
 	{
-		"mob": ["mod_lavacow:sludgelord", "harvestersnight:harvester","betterslimes:quazar","minecraft:wither","minecraft:ender_dragon","rats:black_death","betteranimalsplus:hirschgeist","aether_legacy:sun_spirit","aether_legacy:slider","aether_legacy:valkyrie_queen","iceandfire:icedragon","iceandfire:firedragon","twilightforest:naga","twilightforest:lich","twilightforest:minoshroom","twilightforest:hydra","twilightforest:knight_phantom","twilightforest:ur_ghast","twilightforest:yeti_alpha","twilightforest:snow_queen","iceandfire:seaserpent","iceandfire:cyclops","iceandfire:if_hydra","mowziesmobs:ferrous_wroughtnaught","mowziesmobs:frostmaw","mowziesmobs:barako"],
+		"mob": ["mod_lavacow:sludgelord", "harvestersnight:harvester","betterslimes:quazar","minecraft:wither","minecraft:ender_dragon","rats:black_death","betteranimalsplus:hirschgeist","aether_legacy:sun_spirit","aether_legacy:slider","aether_legacy:valkyrie_queen","iceandfire:icedragon","iceandfire:firedragon","twilightforest:naga","twilightforest:lich","twilightforest:minoshroom","twilightforest:hydra","twilightforest:knight_phantom","twilightforest:ur_ghast","twilightforest:yeti_alpha","twilightforest:snow_queen","iceandfire:seaserpent","iceandfire:cyclops","iceandfire:if_hydra","mowziesmobs:ferrous_wroughtnaut","mowziesmobs:frostmaw","mowziesmobs:barako"],
 		"player": true,
 		"item": "betterwithmods:wool_pants",
 		"itemcount": "1",
 		"random": "0.1"
 	},
 	{
-		"mob": ["mod_lavacow:sludgelord", "harvestersnight:harvester","betterslimes:quazar","minecraft:wither","minecraft:ender_dragon","rats:black_death","betteranimalsplus:hirschgeist","aether_legacy:sun_spirit","aether_legacy:slider","aether_legacy:valkyrie_queen","iceandfire:icedragon","iceandfire:firedragon","twilightforest:naga","twilightforest:lich","twilightforest:minoshroom","twilightforest:hydra","twilightforest:knight_phantom","twilightforest:ur_ghast","twilightforest:yeti_alpha","twilightforest:snow_queen","iceandfire:seaserpent","iceandfire:cyclops","iceandfire:if_hydra","mowziesmobs:ferrous_wroughtnaught","mowziesmobs:frostmaw","mowziesmobs:barako"],
+		"mob": ["mod_lavacow:sludgelord", "harvestersnight:harvester","betterslimes:quazar","minecraft:wither","minecraft:ender_dragon","rats:black_death","betteranimalsplus:hirschgeist","aether_legacy:sun_spirit","aether_legacy:slider","aether_legacy:valkyrie_queen","iceandfire:icedragon","iceandfire:firedragon","twilightforest:naga","twilightforest:lich","twilightforest:minoshroom","twilightforest:hydra","twilightforest:knight_phantom","twilightforest:ur_ghast","twilightforest:yeti_alpha","twilightforest:snow_queen","iceandfire:seaserpent","iceandfire:cyclops","iceandfire:if_hydra","mowziesmobs:ferrous_wroughtnaut","mowziesmobs:frostmaw","mowziesmobs:barako"],
 		"player": true,
 		"item": "betterwithmods:wool_boots",
 		"itemcount": "1",
@@ -519,7 +519,28 @@
 	{
 		"mob": "specialmobs:lemonslime",
 		"player": true,
+		"item": "cyclicmagic:ender_lightning",
+		"itemcount": "1",
+		"random": "0.001"
+	},
+	{
+		"mob": "specialmobs:lemonslime",
+		"player": true,
+		"item": "aether_legacy:lightning_sword",
+		"itemcount": "1",
+		"random": "0.001"
+	},
+	{
+		"mob": "specialmobs:lemonslime",
+		"player": true,
 		"item": "harvestcraft:slimegummiesitem",
+		"itemcount": "1",
+		"random": "0.02"
+	},
+	{
+		"mob": "specialmobs:lemonslime",
+		"player": true,
+		"item": "betterwithaddons:greatarrow_lightning",
 		"itemcount": "1",
 		"random": "0.02"
 	},
@@ -545,6 +566,13 @@
 		"item": "quark:rune@10",
 		"itemcount": "1",
 		"random": "0.005"
+	},
+	{
+		"mob": "specialmobs:grapeslime",
+		"player": true,
+		"item": "bountifulbaubles:potionrecall",
+		"itemcount": "1",
+		"random": "0.05"
 	},
 	{
 		"mob": "specialmobs:grapeslime",

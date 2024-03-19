@@ -27,8 +27,8 @@ gen: [
   {
     height: [ 0, 60 ]
     size: 10
-    count: 2
-	chance: 0.40
+    count: 3
+	chance: 0.45
 	dimensions: [10]
   }
 ]

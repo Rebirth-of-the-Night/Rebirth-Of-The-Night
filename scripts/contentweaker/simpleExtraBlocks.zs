@@ -495,7 +495,7 @@ bonfire.setBlockSoundType(<soundtype:sand>);
 bonfire.setFullBlock(false);
 bonfire.setBlockHardness(0);
 bonfire.setLightOpacity(0);
-bonfire.setLightValue(15);
+bonfire.setLightValue(1);
 bonfire.setBlockLayer("TRANSLUCENT");
 bonfire.setPassable(true);
 bonfire.setCreativeTab(<creativetab:rotn_blocks>);
@@ -515,7 +515,7 @@ soul_bonfire.setBlockSoundType(<soundtype:sand>);
 soul_bonfire.setFullBlock(false);
 soul_bonfire.setBlockHardness(0);
 soul_bonfire.setLightOpacity(0);
-soul_bonfire.setLightValue(15);
+soul_bonfire.setLightValue(1);
 soul_bonfire.setBlockLayer("TRANSLUCENT");
 soul_bonfire.setPassable(true);
 soul_bonfire.setCreativeTab(<creativetab:rotn_blocks>);
@@ -1097,7 +1097,7 @@ star_block.setLightValue(1.0);
 star_block.setBlockSoundType(<soundtype:stone>);
 star_block.setBlockHardness(10);
 star_block.setBlockMaterial(<blockmaterial:glass>);
-witheredblock.setToolLevel(1);
+star_block.setToolLevel(1);
 star_block.register();
 
 var unfiredrefractory = VanillaFactory.createBlock("unfiredrefractory", <blockmaterial:Ground>);
@@ -2051,6 +2051,27 @@ tapestry_white.setBlockHardness(0.8);
 tapestry_white.setBlockResistance(0.8);
 tapestry_white.register();
 
+var slime_nesting = VanillaFactory.createBlock("slime_nesting", <blockmaterial:Ground>);
+slime_nesting.setBlockSoundType(<soundtype:wood>);
+slime_nesting.setLightValue(0.1);
+slime_nesting.setBlockLayer("TRANSLUCENT");
+slime_nesting.setTranslucent(true);
+slime_nesting.setFullBlock(false);
+slime_nesting.setSlipperiness(0.89f);
+slime_nesting.setLightOpacity(0);
+slime_nesting.setCreativeTab(<creativetab:rotn_blocks>);
+slime_nesting.setToolClass("shovel");
+slime_nesting.setBlockHardness(22.0);
+slime_nesting.axisAlignedBB = AxisAlignedBB.create(
+     0.0 / 16.0,
+     0.0 / 16.0,
+     0.0 / 16.0,
+	16.0 / 16.0,
+    1.0 / 16.0,
+    16.0 / 16.0
+	);
+slime_nesting.register();
+
 var egg_block = VanillaFactory.createBlock("egg_block", <blockmaterial:Dragon_Egg>);
 egg_block.setCreativeTab(<creativetab:decorations>);
 egg_block.setBlockSoundType(<soundtype:stone>);
@@ -2070,9 +2091,36 @@ foundation_micomi.setBlockResistance(20.0);
 foundation_micomi.setToolLevel(0);
 foundation_micomi.register();
 
+var coba_star = VanillaFactory.createBlock("coba_star", <blockmaterial:Fire>);
+coba_star.setBlockSoundType(<soundtype:cloth>);
+coba_star.setLightValue(0.9);
+coba_star.setBlockLayer("CUTOUT");
+coba_star.setPassable(true);
+coba_star.setFullBlock(false);
+coba_star.setCreativeTab(<creativetab:rotn_blocks>);
+coba_star.register();
+
+var mystic_cincinnasite_lamp = VanillaFactory.createBlock("mystic_cincinnasite_lamp", <blockmaterial:Glass>);
+mystic_cincinnasite_lamp.setCreativeTab(<creativetab:rotn_blocks>);
+mystic_cincinnasite_lamp.setLightValue(1.0);
+mystic_cincinnasite_lamp.setBlockSoundType(<soundtype:stone>);
+mystic_cincinnasite_lamp.setBlockHardness(18);
+mystic_cincinnasite_lamp.setBlockMaterial(<blockmaterial:glass>);
+mystic_cincinnasite_lamp.setToolLevel(1);
+mystic_cincinnasite_lamp.register();
+
+var ferrought_cincinnasite_lamp = VanillaFactory.createBlock("ferrought_cincinnasite_lamp", <blockmaterial:Glass>);
+ferrought_cincinnasite_lamp.setCreativeTab(<creativetab:rotn_blocks>);
+ferrought_cincinnasite_lamp.setLightValue(1.0);
+ferrought_cincinnasite_lamp.setBlockSoundType(<soundtype:stone>);
+ferrought_cincinnasite_lamp.setBlockHardness(38);
+ferrought_cincinnasite_lamp.setBlockMaterial(<blockmaterial:glass>);
+ferrought_cincinnasite_lamp.setToolLevel(2);
+ferrought_cincinnasite_lamp.register();
+
 var fire_block = VanillaFactory.createBlock("fire_block", <blockmaterial:Fire>);
 fire_block.setBlockSoundType(<soundtype:cloth>);
-fire_block.setLightValue(15);
+fire_block.setLightValue(1.0);
 fire_block.setBlockLayer("CUTOUT");
 fire_block.setPassable(true);
 fire_block.setCreativeTab(<creativetab:decorations>);
