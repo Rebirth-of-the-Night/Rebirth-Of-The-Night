@@ -4,6 +4,10 @@ import mods.jei.JEI;
 import mods.rockytweaks.Anvil;
 import crafttweaker.data.IData;
 import crafttweaker.enchantments.IEnchantmentDefinition;
+import mods.ctutils.utils.Math;
+import mods.contenttweaker.Commands;
+
+
 
 
 // cutcat
@@ -21,24 +25,90 @@ mods.betterwithmods.Anvil.addShaped(<dungeontactics:steel_sword>,
 ]);
 
 // CalaMariGold
+<contenttweaker:calamarigold>.displayName = "§dCalaMariGold マリ";
+JEI.addDescription([<contenttweaker:calamarigold>],["Mari has a cheerful personality and makes many jokes. She always keeps her chin up when faced with hardship so as not to burden others, and is ready to try her hand at anything. Mari speaks with an accent, and she has a high, cheerful voice. Mari speaks Japanese but often inserts English words into her sentences. She is so excited to be with you <3"]);
 
-JEI.addDescription([<atop:amber_sword>],["Mari has a cheerful personality and makes many jokes. She always keeps her chin up when faced with hardship so as not to burden others, and is ready to try her hand at anything. Mari speaks with an accent, and she has a high, cheerful voice. Mari speaks Japanese but often inserts English words into her sentences. She is so excited to be with you <3"]);
+<contenttweaker:calamarigold>.addTooltip(format.aqua('"Right-click me! I have a surprise for you!"'));
+<contenttweaker:calamarigold>.addTooltip(format.darkBlue("Developer Relic 1/6"));
 
-<atop:amber_sword>.addTooltip(format.aqua('"Right-click me! I have a surprise for you!"'));
-<atop:amber_sword>.addTooltip(format.darkBlue("Developer Relic 1/7"));
-
-
-val enchantmentsMari as IEnchantmentDefinition[] = [<enchantment:livingenchantment:enchantment.living>];
-var enchantmentMapMari as IData = {};
-
-var enchTagMari = enchantmentsMari[0].makeEnchantment(1).makeTag().ench[0];
-enchTagMari += {personalityName: "Shiny", personality: 0.36782956 as float, kills: 0, effectiveness: 1.00 as float, xp: 1};
-
-enchantmentMapMari += {ench: [enchTagMari]};
-
-recipes.addHiddenShapeless("CalaMariGold", <atop:amber_sword>.withTag(({"Quark:RuneColor": 15, "Quark:RuneAttached": 1 as byte} as IData) + enchantmentMapMari),
+recipes.addHiddenShapeless("CalaMariGold", <contenttweaker:calamarigold>,
 	[<harvestcraft:calamarirawitem>,<minecraft:yellow_flower>]);
 
+static mari as IItemStack = <contenttweaker:calamarigold>;
+
+function pickRandomCatchPhase() as string {
+    var catchPhrases = [
+    "Ohh! Pretty bomber head!!",
+    "Let's cooking!",
+    "Unbelievable...",
+    "Tower? Tree? Hills?",
+    "SHUT UUUUUUUUP!",
+    "Of course!!",
+    "Sorry! I can't speak Japanese!",
+    "Oh! Yes!",
+    "YAY!!!!",
+    "Nice ball!",
+    "Great!",
+    "Ohhh! Good!!",
+    "Thank you!",
+    "So... bad...",
+    "It's joke...",
+    "Whoops.",
+    "Yes... Last chance.",
+    "A-alright.",
+    "Oh my gah. Oh my gah. OH MY GAAAAAAAAH!",
+    "Hello, everybody!",
+    "It's miracle!",
+    "Shiny... Complete!",
+    "Second season start desu!!",
+    "So happy!!",
+    "Smell poo-poo shit FIREEEEEEE!",
+    "Aqours breakthrough!",
+    "New Aqours wave!",
+    "Last time ON Love Live! Sunshine!!",
+    "Let's go!!!",
+    "Shiny... SHIIIIIIIIIIIIIINY!",
+    "Shining Premium desu!!!",
+    "Mari's Shining..... TORNAAAAADOOOO!!",
+    "Okay! Let's go together!",
+    "Ouch!",
+    "Ohh! Funny!",
+    "Ohh! Stong heart!",
+    "Happy!",
+    "Very hard-head.",
+    "One, two, three, four!"] as string[];
+    val index = Math.floor(Math.random() * catchPhrases.length);
+    return catchPhrases[index];
+}
+
+
+events.onPlayerRightClickItem(function(event as crafttweaker.event.PlayerRightClickItemEvent){
+    if(event.world.isRemote()){
+        return;
+    }
+    
+    val itemStack1 = event.item as IItemStack; 
+    if(!isNull(itemStack1)){
+        if (mari.matches(itemStack1)) {  
+            if(isNull(event.player.data.mariFirstTimeClick)){
+                Commands.call("playsound customdisc:itsjoke ambient @p ~ ~ ~", event.player, event.world, true, true);
+                server.commandManager.executeCommand(server, "tellraw @p [\"\",{\"text\":\"It's Joke!\",\"color\":\"light_purple\"}]");
+                Commands.call("summon zombie_players:zombie_player ~ ~ ~ {playerName:CalaMariGold}", event.player, event.world, true, true);
+                Commands.call("summon zombie_players:zombie_player ~ ~ ~ {playerName:CalaMariGold}", event.player, event.world, true, true);
+                Commands.call("summon zombie_players:zombie_player ~ ~ ~ {playerName:CalaMariGold}", event.player, event.world, true, true);
+                Commands.call("summon zombie_players:zombie_player ~ ~ ~ {playerName:CalaMariGold}", event.player, event.world, true, true);
+                Commands.call("summon zombie_players:zombie_player ~ ~ ~ {playerName:CalaMariGold}", event.player, event.world, true, true);
+                event.player.update({mariFirstTimeClick: true});
+            }
+            else{
+                Commands.call("playsound customdisc:squeak ambient @p ~ ~ ~ 0.1", event.player, event.world, true, true);
+                var catchPhase as string = pickRandomCatchPhase();
+                server.commandManager.executeCommand(server, "tellraw @p [\"\",{\"text\":\"" + catchPhase + "\",\"color\":\"light_purple\"}]");
+                
+            }
+        }
+    }
+});
 
 // Kompy
 

@@ -291,9 +291,9 @@ entity.animania:ram_jacob.name=Jacob Ram
 entity.animania:ewe_jacob.name=Jacob Ewe
 entity.animania:lamb_jacob.name=Jacob Lamb
 
-entity.animania:buck_cottontail.name=Cottontail Buck
-entity.animania:doe_cottontail.name=Cottontail Doe
-entity.animania:kit_cottontail.name=Cottontail Kit
+entity.animania:buck_cottontail.name=Snowtrail Buck
+entity.animania:doe_cottontail.name=Snowtrail Doe
+entity.animania:kit_cottontail.name=Snowtrail Kit
 entity.animania:buck_chinchilla.name=Chinchilla Buck
 entity.animania:doe_chinchilla.name=Chinchilla Doe
 entity.animania:kit_chinchilla.name=Chinchilla Kit
@@ -312,9 +312,9 @@ entity.animania:kit_lop.name=Lop Kit
 entity.animania:buck_new_zealand.name=New Zealand Buck
 entity.animania:doe_new_zealand.name=New Zealand Doe
 entity.animania:kit_new_zealand.name=New Zealand Kit
-entity.animania:buck_rex.name=Rex Buck
-entity.animania:doe_rex.name=Rex Doe
-entity.animania:kit_rex.name=Rex Kit
+entity.animania:buck_rex.name=Roi Buck
+entity.animania:doe_rex.name=Roi Doe
+entity.animania:kit_rex.name=Roi Kit
 
 death.attack.bull=%1$s was gored to death
 death.attack.pepe=%1$s was memed to death
@@ -511,8 +511,8 @@ advancements.animania.taupe.description=Feed a Taupe peacock
 
 advancements.animania.chinchilla.title=Chinchilla
 advancements.animania.chinchilla.description=Feed a Chinchilla rabbit
-advancements.animania.cottontail.title=Cottontail
-advancements.animania.cottontail.description=Feed a Cottontail rabbit
+advancements.animania.cottontail.title=Snowtrail
+advancements.animania.cottontail.description=Feed a Snowtrail rabbit
 advancements.animania.dutch.title=Dutch
 advancements.animania.dutch.description=Feed a Dutch rabbit
 advancements.animania.havana.title=Havana
@@ -523,8 +523,8 @@ advancements.animania.lop.title=Lop
 advancements.animania.lop.description=Feed a Lop rabbit
 advancements.animania.new_zealand.title=New Zealand
 advancements.animania.new_zealand.description=Feed a New Zealand rabbit
-advancements.animania.rex.title=Rex
-advancements.animania.rex.description=Feed a Rex rabbit
+advancements.animania.rex.title=Roi
+advancements.animania.rex.description=Feed a Roi rabbit
 
 advancements.animania.dorset.title=Dorset
 advancements.animania.dorset.description=Feed a Dorset sheep

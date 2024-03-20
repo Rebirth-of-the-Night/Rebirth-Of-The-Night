@@ -141,13 +141,14 @@ recipes.remove(<harvestcraft:potatosoupitem>);
 // accepts any veggie for crafting of food book
 recipes.remove(<solcarrot:food_book>);
 recipes.addShapeless("food_book",<solcarrot:food_book>,[<minecraft:book>,<ore:listAllveggie>]);
+recipes.addShapeless("dough-pdough",<exsartagine:pizza_dough>,[<harvestcraft:doughitem>]);
+recipes.addShapeless("pdough-dough",<harvestcraft:doughitem>,[<exsartagine:pizza_dough>]);
 
 ExSartagine.removeWokRecipe("test:recipe");
 
 JEI.removeAndHide(<exsartagine:fine_bread>);
 JEI.removeAndHide(<exsartagine:flour>);
 JEI.removeAndHide(<exsartagine:dough>);
-JEI.removeAndHide(<exsartagine:pizza_dough>);
 JEI.removeAndHide(<exsartagine:bread_dough>);
 JEI.removeAndHide(<exsartagine:salt>);
 JEI.removeAndHide(<exsartagine:smelter>);

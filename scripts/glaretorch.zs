@@ -40,9 +40,8 @@ var voidripper = <endreborn:ender_sword>;
 // del
 RecipeBuilder.get("mage")
   .setShaped([
-    [quartzlamp, ultimate, obsidian],
-    [shardnight, voidurn, shardnight],
-    [destrarrow, lightblock, voidripper]])
+    [null, shardnight, null],
+    [null, small, null]])
   .addTool(<contenttweaker:luna_rune>, 3)
   .addTool(<contenttweaker:disint_rune>, 3)
   .addOutput(<glaretorch:del>)

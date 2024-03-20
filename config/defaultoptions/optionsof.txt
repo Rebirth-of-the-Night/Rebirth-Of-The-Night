@@ -61,7 +61,7 @@ ofSmartAnimations:true
 ofDynamicFov:true
 ofAlternateBlocks:true
 ofDynamicLights:2
-ofScreenshotSize:Default
+ofScreenshotSize:1
 ofCustomEntityModels:true
 ofCustomGuis:true
 ofShowGlErrors:false

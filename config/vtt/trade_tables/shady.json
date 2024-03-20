@@ -115,7 +115,7 @@
 		},
 		{
 			action:"add", CareerLevel:4, maxUses:2, rewardExp:true,
-				buy:{id:"atop:amber_sword",
+				buy:{id:"contenttweaker:calamarigold",
 				Count:1},
 				sell:{id:"contenttweaker:nethercoin",
 				Count:{min:5,max:8}}

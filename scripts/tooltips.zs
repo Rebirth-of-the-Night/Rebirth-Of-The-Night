@@ -513,7 +513,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <exsartagine:kettle>.addShiftTooltip(format.white("Can be heated by:") + "" + format.yellow(" CAMPFIRE, FURNACE, SMOKER, BLAST FURNACE, STOVE, HEARTH, STOKED FLAME"), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <exsartagine:range:*>.addTooltip("Efficiently heats cooking appliances for fuel.");
 <exsartagine:range>.addShiftTooltip("Supports up to three Stove Extensions to on either side, offering four total surfaces on which to place woks, pots and kettles.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
-<exsartagine:hearth:*>.addTooltip("Handily heats cooking appliances for fuel.");
+<exsartagine:hearth:*>.addTooltip("Handily heats cooking appliances for fuel. Requires ignition");
 <exsartagine:hearth>.addShiftTooltip("Supports one Hearth Extension to its side, offering two total surfaces on which to place woks, pots and kettles.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 
 

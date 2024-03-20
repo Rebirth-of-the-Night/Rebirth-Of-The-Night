@@ -5,8 +5,8 @@ setDescription("Anchor your soul to your current location.")
 
 addParent("triumph:advancements/magick/incantation/incantation")
 
-criteria = addCriteria("Newlife Scroll", "triumph:right_click_item")
-criteria.setItem(<lifescroll:spawnscroll>)
+criteria = addCriteria("impossible", "minecraft:impossible")
+// advancement granted via scripts/events.zs
 
 hideLines()
 alwaysVisible()

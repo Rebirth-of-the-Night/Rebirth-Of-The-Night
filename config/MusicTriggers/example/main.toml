@@ -45,21 +45,10 @@
 
 
 
-	[[triggers.biome]]
-		biome_category = [ "mountain" ]
-		resource_name = [ "mountain" ]
-		identifier = "mountain"
-
-	[[triggers.biome]]
-		biome_category = [ "snowy" ]
-		resource_name = [ "snowy" ]
+	[triggers.biome]
 		identifier = "snowy"
-
-	[[triggers.biome]]
-		biome_id = [ "Glacier" ]
-		resource_name = [ "glacier" ]
-		identifier = "glacier"
-
+		biome_category = [ "snowy" ]
+		resource_name = [ "snowy" "ice" "glacier" "frozen" "cold" ]
 
 
 
@@ -70,10 +59,6 @@
 		identifier = "beneath"
 		priority = "100"
 		resource_name = [ "10" ]
-	[[triggers.dimension]]
-		identifier = "aether"
-		priority = "100"
-		resource_name = [ "4" ]
 	[[triggers.dimension]]
 		identifier = "twilightforest"
 		priority = "50"
@@ -230,7 +215,7 @@
 		triggers = [ "mob-horde" ]
 
 
-	##### OTHER DIMENIONS
+		##### OTHER DIMENIONS
 	[songs.Nether1]
 		triggers = [ "dimension-nether" ]
 	[songs.Nether2]
@@ -263,8 +248,6 @@
 	[songs.End6]
 		triggers = [ "dimension-end" ]
 
-	[songs.EmptySong]
-		triggers = [ "dimension-aether" ]
 
 	[songs.Beneath1]
 		triggers = [ "dimension-beneath" ]
@@ -304,7 +287,7 @@
 		triggers = [ "dimension-twilightforest" ]
 
 
-	##### UNDERGROUND (OVERWORLD)
+		##### UNDERGROUND (OVERWORLD)
 	[songs.Underground1]
 		triggers = [ "height-underground" "dimension-overworld" ]
 	[songs.Underground2]
@@ -337,65 +320,46 @@
 
 
 
-
-
-	##### BIOMES
+		##### BIOMES
 	[songs.GlacierDay1]
-		triggers = [ "biome-glacier" ]
+		triggers = [ "dimension-overworld" "biome-snowy" ]
 	[songs.GlacierDay2]
-		triggers = [ "biome-glacier" ]
-	[songs.GlacierNight1]
-		triggers = [ "biome-glacier" "time-night" ]
-	[songs.GlacierNight2]
-		triggers = [ "biome-glacier" "time-night" ]
-
-
-	[songs.ForTheKing]
-		triggers = [ "biome-mountain" ]
-	[songs.Freedom]
-		triggers = [ "biome-mountain" ]
-	[songs.BreathOfTheForest]
-		triggers = [ "biome-mountain" ]
-	[[songs.IntoTheUnknown]]
-		triggers = [ "biome-mountain" ]
-	[[songs.Mourning]]
-		triggers = [ "biome-mountain" ]
-	[songs.Myth]
-		triggers = [ "biome-mountain" ]
-	[songs.Eventide]
-		triggers = [ "biome-mountain" ]
-
+		triggers = [ "dimension-overworld" "biome-snowy" ]
 	[songs.IcyDay1]
-		triggers = [ "biome-snowy" ]
+		triggers = [ "dimension-overworld" "biome-snowy" ]
 	[songs.IcyDay2]
-		triggers = [ "biome-snowy" ]
+		triggers = [ "dimension-overworld" "biome-snowy" ]
 	[songs.IcyDay3]
-		triggers = [ "biome-snowy" ]
+		triggers = [ "dimension-overworld" "biome-snowy" ]
 	[songs.WintersSong]
-		triggers = [ "biome-snowy" ]
+		triggers = [ "dimension-overworld" "biome-snowy" ]
+	[songs.GlacierNight1]
+		triggers = [ "dimension-overworld" "biome-snowy" "time-night" ]
+	[songs.GlacierNight2]
+		triggers = [ "dimension-overworld" "biome-snowy" "time-night" ]
 	[[songs.WintersNight]]
-		triggers = [ "biome-snowy" ]
+		triggers = [ "dimension-overworld" "biome-snowy" "time-night" ]
 	[songs.IcyNight1]
-		triggers = [ "biome-snowy" "time-night" ]
+		triggers = [ "dimension-overworld" "biome-snowy" "time-night" ]
 	[songs.IcyNight2]
-		triggers = [ "biome-snowy" "time-night" ]
+		triggers = [ "dimension-overworld" "biome-snowy" "time-night" ]
 
-	
-	##### WEATHER
+
+		##### WEATHER
 	[[songs.Moonsong]]
-		triggers = [ "raining" ]
+		triggers = [ "dimension-overworld" "raining" ]
 	[[songs.IntoSilenceP1]]
-		triggers = [ "raining" ]
+		triggers = [ "dimension-overworld" "raining" ]
 	[[songs.CrystalForest]]
-		triggers = [ "raining" ]
+		triggers = [ "dimension-overworld" "raining" ]
 	[[songs.WorldUnbound]]
-		triggers = [ "raining" ]
+		triggers = [ "dimension-overworld" "raining" ]
 	[songs.FrozenInTime]
-		triggers = [ "raining" ]
+		triggers = [ "dimension-overworld" "raining" ]
 	[songs.QuestsEnd]
-		triggers = [ "raining" ]
+		triggers = [ "dimension-overworld" "raining" ]
 
-	##### OVERWORLD
+		##### OVERWORLD
 	[[songs.IntoSilenceP1]]
 		triggers = [ "time-night" "dimension-overworld" ]
 	[[songs.Moonsong]]
@@ -422,6 +386,8 @@
 		triggers = [ "time-night" "dimension-overworld" ]
 	[[songs.WorldUnbound]]
 		triggers = [ "time-night" "dimension-overworld" ]
+	[songs.Eventide]
+		triggers = [ "time-night" "dimension-overworld" ]
 
 
 	[songs.ACelticTale]
@@ -436,13 +402,11 @@
 		triggers = [ "dimension-overworld" ]
 	[songs.Deliverance]
 		triggers = [ "dimension-overworld" ]
-	[[songs.IntoTheUnknown]]
-		triggers = [ "dimension-overworld" ]
 	[songs.KeeperOfTheForest]
 		triggers = [ "dimension-overworld" ]
 	[songs.KingdomOfBards]
 		triggers = [ "dimension-overworld" ]
-	[[songs.Mourning]]
+	[songs.Mourning]
 		triggers = [ "dimension-overworld" ]
 	[songs.NeverToReturn]
 		triggers = [ "dimension-overworld" ]
@@ -475,6 +439,14 @@
 	[songs.NightoftheFae]
 		triggers = [ "dimension-overworld" ]
 	[songs.SiochainShuthain]
+		triggers = [ "dimension-overworld" ]
+	[songs.ForTheKing]
+		triggers = [ "dimension-overworld" ]
+	[songs.Freedom]
+		triggers = [ "dimension-overworld" ]
+	[songs.BreathOfTheForest]
+		triggers = [ "dimension-overworld" ]
+	[songs.Myth]
 		triggers = [ "dimension-overworld" ]
 
 	[songs.universal]

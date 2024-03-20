@@ -641,7 +641,7 @@ events.onPlayerRightClickItem(function(event as crafttweaker.event.PlayerRightCl
 // Spine bud light
 // Breaking the dark fruit on the bottom of the structure replaces the block above with a glaretorch illuminating the area
 events.onBlockBreak(function(event as crafttweaker.event.BlockBreakEvent){
-    if event.world.remote{
+    if(event.world.isRemote()){
         return;
     }
 	
@@ -835,5 +835,40 @@ events.onBlockBreak(function(event as crafttweaker.event.BlockBreakEvent){
 				event.world.setBlockState(<blockstate:glaretorch:blocklight>, blockToReplace_sww);
 			}
 		}
+    }
+});
+
+
+// Harvester is only summonable at night. This cancels the interact event during the day.
+events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteractBlockEvent){
+    if(!event.entity.world.isRemote()){
+        if(event.block.definition.id == "multiblockmobs:soul_chassis"){
+			if(event.player.world.isDayTime()){
+				event.player.sendChat("§4Only summonable at night!");
+				event.cancel();
+			}
+        }
+    }
+});
+
+// Warning for scroll of new life
+static lifescroll as IItemStack = <lifescroll:spawnscroll>;
+events.onPlayerRightClickItem(function(event as crafttweaker.event.PlayerRightClickItemEvent){
+    if(event.world.isRemote()){
+        return;
+    }
+    
+    val handItem = event.item as IItemStack; 
+    if(!isNull(handItem)){
+        if (lifescroll.matches(handItem)) {  
+            if(isNull(event.player.data.lifeScrollFirstTimeClick)){
+                server.commandManager.executeCommand(server, "tellraw @p [\"\",{\"text\":\"WARNING: Using this scroll is a one-time use and you can't get another one! It may be wise to use it once you've established a base. If you're sure you want to use it, right-click it again.\",\"color\":\"red\"}]");
+                event.player.update({lifeScrollFirstTimeClick: true});
+				event.cancel();
+            }
+			else{
+				server.commandManager.executeCommand(server, "advancement grant @p only triumph:advancements/magick/incantation/scroll_newlife");
+			}
+        }
     }
 });

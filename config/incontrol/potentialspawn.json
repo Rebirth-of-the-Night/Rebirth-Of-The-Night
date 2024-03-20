@@ -1026,7 +1026,7 @@
     "mobs": [
       {
         "mob": "minecraft:slime",
-        "weight": 5,
+        "weight": 100,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -1050,7 +1050,7 @@
     "mobs": [
       {
         "mob": "specialmobs:blackberryslime",
-        "weight": 5,
+        "weight": 4,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -1062,7 +1062,7 @@
     "mobs": [
       {
         "mob": "specialmobs:lemonslime",
-        "weight": 5,
+        "weight": 20,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -1070,7 +1070,7 @@
   },
 
   {
-    "dimension": 0,
+    "dimension": [0,4],
     "mobs": [
       {
         "mob": "specialmobs:grapeslime",
@@ -1082,13 +1082,13 @@
   },
 
   {
-    "dimension": 0,
+    "dimension": [0,10],
     "mobs": [
       {
         "mob": "specialmobs:blueberryslime",
-        "weight": 5,
+        "weight": 60,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       }
     ]
   },
@@ -1098,7 +1098,7 @@
     "mobs": [
       {
         "mob": "specialmobs:strawberryslime",
-        "weight": 5,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -1110,7 +1110,7 @@
     "mobs": [
       {
         "mob": "specialmobs:watermelonslime",
-        "weight": 5,
+        "weight": 60,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
