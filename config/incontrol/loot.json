@@ -14,7 +14,7 @@
 		"gamestage": "slayersjournal"
 	},
 	
-	// Rustic Almanac
+	// Dietary Guide
 	{
 		"mob": ["minecraft:zombie","minecraft:skeleton","minecraft:zombie_villager","primitivemobs:skeleton_warrior","primitivemobs:goblin","quark:ashen","minecraft:witch","quark:dweller","primitivemobs:lost_miner","toroquest:toroquest_sentry","zombie_players:zombie_player"],
 		"player": true,
@@ -64,7 +64,7 @@
 	},
 	{
 		"mob": ["minecraft:zombie","minecraft:skeleton","minecraft:zombie_villager","primitivemobs:skeleton_warrior","primitivemobs:goblin","quark:ashen","minecraft:witch","quark:dweller","primitivemobs:lost_miner","toroquest:toroquest_sentry","zombie_players:zombie_player"],
-		"remove": "rustic:book",
+		"remove": "clipboard:clipboard",
 		"nbt": {
 			"display":{
 				"Lore":	["An old clipboard I can use for myself."
