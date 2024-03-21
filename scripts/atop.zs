@@ -23,6 +23,7 @@ JEI.removeAndHide(<atop:amber_boots>);
 JEI.removeAndHide(<atop:amber_chestplate>);
 JEI.removeAndHide(<atop:amber_leggings>);
 JEI.removeAndHide(<atop:amber_helmet>);
+JEI.removeAndHide(<atop:amber_sword>);
 recipes.remove(<atop:amber_sword>);
 
 // used for new gravitite 
