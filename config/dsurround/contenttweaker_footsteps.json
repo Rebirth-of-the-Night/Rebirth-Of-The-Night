@@ -136,6 +136,7 @@
 		"contentcreator:greywacke_brick_slab_double": "brickstone",
 		"contentcreator:chert_brick_stairs": "brickstone",
 		"contentcreator:chert_brick_slab": "brickstone",
-		"contentcreator:chert_brick_slab_double": "brickstone"
+		"contentcreator:chert_brick_slab_double": "brickstone",
+		"contenttweaker:slime_nesting": "mud"
 	}
 }

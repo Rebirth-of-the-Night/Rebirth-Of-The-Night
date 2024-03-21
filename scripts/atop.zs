@@ -23,7 +23,7 @@ JEI.removeAndHide(<atop:amber_boots>);
 JEI.removeAndHide(<atop:amber_chestplate>);
 JEI.removeAndHide(<atop:amber_leggings>);
 JEI.removeAndHide(<atop:amber_helmet>);
-JEI.removeAndHide(<atop:amber_sword>);
+recipes.remove(<atop:amber_sword>);
 
 // used for new gravitite 
 //JEI.removeAndHide(<atop:amber_pickaxe>);
@@ -66,6 +66,8 @@ recipes.remove(<atop:tanzanite_helmet>);
 recipes.remove(<atop:tanzanite_chestplate>);
 recipes.remove(<atop:tanzanite_leggings>);
 recipes.remove(<atop:tanzanite_boots>);
+
+
 
 // flower armor
 recipes.addShaped("flower_crown", <atop:tanzanite_helmet>.withTag({ench: [{lvl: 1 as short, id: 7}]}), [

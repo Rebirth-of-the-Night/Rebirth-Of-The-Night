@@ -237,7 +237,7 @@ customization {
   line_spacing = 1
   orientation_element = 948d4938-08aa-497f-9a73-089262c9a7c11678298305337
   x = 19
-  width = 130
+  width = 138
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = ba731e5c-cae2-4cd0-850d-b7ad8be6899a1678292146087
   y = 93
@@ -272,13 +272,13 @@ customization {
   source_mode = web
   line_spacing = 1
   orientation_element = 618e52d0-2681-4c3c-b529-39b43e9f8ed31678248642198
-  x = 17
-  width = 131
+  x = 21
+  width = 135
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = c64c6e35-f4eb-410a-99b0-0f0d982b1bd81678319319383
-  y = 93
+  y = 92
   alignment = left
-  height = 126
+  height = 128
 }
 
 customization {

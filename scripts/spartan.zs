@@ -219,6 +219,9 @@ recipes.addShaped("stone_tower_shield", <spartanshields:shield_tower_stone>,
     [null, rock, null]
 ]);
 
+// Studded club uses nails instead of iron ingot
+recipes.remove(<spartanweaponry:club_studded>);
+recipes.addShapeless("studded_club",<spartanweaponry:club_studded>,[<spartanweaponry:club_wood>,<minetraps:nails>]);
 
 
 

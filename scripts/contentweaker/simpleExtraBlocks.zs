@@ -2052,7 +2052,7 @@ tapestry_white.setBlockResistance(0.8);
 tapestry_white.register();
 
 var slime_nesting = VanillaFactory.createBlock("slime_nesting", <blockmaterial:Ground>);
-slime_nesting.setBlockSoundType(<soundtype:wood>);
+slime_nesting.setBlockSoundType(<soundtype:stone>);
 slime_nesting.setLightValue(0.1);
 slime_nesting.setBlockLayer("TRANSLUCENT");
 slime_nesting.setTranslucent(true);
