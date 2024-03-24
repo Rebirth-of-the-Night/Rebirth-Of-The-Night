@@ -127,6 +127,8 @@ recipes.remove(<spartanweaponry:boomerang_stone>);
 recipes.remove(<spartanweaponry:mace_stone>);
 recipes.remove(<spartanweaponry:staff_stone>);
 
+recipes.removeByRecipeName("spartanshields:shield_vanilla_stone");
+recipes.removeByRecipeName("spartanshields:shield_tower_stone");
 recipes.remove(<spartanshields:shield_basic_lead>);
 recipes.remove(<spartanshields:shield_basic_diamond>);
 JEI.removeAndHide(<spartanshields:shield_tower_diamond>);
@@ -199,7 +201,27 @@ recipes.addShaped("gem_forged_shield", <spartanshields:shield_basic_diamond>,
 ]);
 mods.vanillaanvilrepair.addRepairEntry(<spartanshields:shield_basic_diamond>, qualityGem);
 
+//Stone Shield/Tower Shield
+val rock = <ore:rock>;
+val shieldWood = <spartanshields:shield_basic_wood>;
+val shieldTowerWood = <spartanshields:shield_tower_wood>;
+recipes.addShaped("stone_shield", <spartanshields:shield_basic_stone>,
+[
+    [null, rock, null],
+    [rock, shieldWood, rock],
+    [null, rock, null]
+]);
 
+recipes.addShaped("stone_tower_shield", <spartanshields:shield_tower_stone>,
+[
+    [null, rock, null],
+    [rock, shieldTowerWood, rock],
+    [null, rock, null]
+]);
+
+// Studded club uses nails instead of iron ingot
+recipes.remove(<spartanweaponry:club_studded>);
+recipes.addShapeless("studded_club",<spartanweaponry:club_studded>,[<spartanweaponry:club_wood>,<minetraps:nails>]);
 
 
 

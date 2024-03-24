@@ -151,3 +151,7 @@ item.pig_slayer.name=Silent Death
 item.valkyrie_lance.name=Winged Spear
 item.notch_hammer.name=§6Hammer of Miku
 item.cloud_staff.name=§bCloud Scepter
+
+item.blue_berry.name=Blue Berry
+tile.berry_bush_stem.name=Blue Berry Bush Stem
+tile.berry_bush.name=Blue Berry Bush
