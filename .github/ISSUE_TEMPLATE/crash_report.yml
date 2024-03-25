@@ -47,9 +47,8 @@ body:
     label: Modpack Version
     multiple: true
     options:
-      - 3.0.1a
-      - 3.1.0
       - 3.1.1a
+      - 3.2
       - Other
   validations:
     required: true
@@ -69,9 +68,8 @@ body:
     label: "Version the world was created on:"
     multiple: true
     options:
-      - 3.0.1a
-      - 3.1.0
       - 3.1.1a
+      - 3.2
       - Other
   validations:
     required: true
