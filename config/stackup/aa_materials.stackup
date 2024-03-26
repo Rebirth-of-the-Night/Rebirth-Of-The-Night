@@ -189,5 +189,9 @@ id="toroquest:recruitment_papers" -> 64
 id="extraalchemy:vial_break" -> 64
 id="aether_legacy:blue_berry" -> 64
 id="contenttweaker:cooking_kit" -> 1
+id="contenttweaker:cooking_kit_quality" -> 1
+id="contenttweaker:cooking_kit_elite" -> 1
+id="contenttweaker:cooking_kit_premium" -> 1
+id="contenttweaker:cooking_kit_master" -> 1
 id="dynamictrees:dirtbucket" -> 1
 

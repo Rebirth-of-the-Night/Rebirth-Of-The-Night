@@ -98,8 +98,8 @@ recipes.addShaped("exsar_hearth_extension", <exsartagine:hearth_extended>, [
 
 val basicWorktable = <artisanworktables:worktable:5> | <minecraft:crafting_table>;
 val chefToque = <rats:chef_toque>.anyDamage().transformDamage();
-val ckit_temp = <contenttweaker:cooking_kit>.anyDamage();
-var cookKitKettle = <contenttweaker:cooking_kit>.anyDamage().transformDamage();
+val ckit_temp = <contenttweaker:cooking_kit>.anyDamage()|<contenttweaker:cooking_kit_quality>.anyDamage()|<contenttweaker:cooking_kit_premium>.anyDamage()|<contenttweaker:cooking_kit_master>.anyDamage();
+var cookKitKettle = <contenttweaker:cooking_kit>.anyDamage().transformDamage()|<contenttweaker:cooking_kit_quality>.anyDamage().transformDamage()|<contenttweaker:cooking_kit_premium>.anyDamage().transformDamage()|<contenttweaker:cooking_kit_master>.anyDamage().transformDamage();
 var stone_slab = <ore:stoneSlab>;
 
 recipes.addShaped("chef_workstation", <artisanworktables:workstation:11>, [
