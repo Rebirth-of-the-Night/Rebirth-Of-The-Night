@@ -46,7 +46,7 @@ tile.dirt.coarse.name=Coarse Composite Dirt
 tile.grass.name=Composite Grass Block
 tile.grassPath.name=Composite Grass Path
 tile.mycel.name=Composite Mycelium
-tile.farmland.name=Composite Farmlan
+tile.farmland.name=Composite Farmland
 
 tile.sandStone.smooth.name=Smooth Sandstone
 tile.redSandStone.smooth.name=Smooth Red Sandstone
