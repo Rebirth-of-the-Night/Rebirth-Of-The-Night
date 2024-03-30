@@ -137,7 +137,7 @@ key_key.powerdrop:16
 key_key.quit:1
 key_key.hideHUD:59
 key_key.debugScreen:61
-key_key.narrator:0
+key_key.narrator:49:CONTROL
 key_Camera left:203
 key_Camera right:205
 key_Camera closer:200
