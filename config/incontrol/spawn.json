@@ -2701,11 +2701,11 @@
     "mob": "mod_lavacow:ptera",
 	"minheight": 60,
 	"block": ["minecraft:grass", "minecraft:sand", "minecraft:leaves", "minecraft:hardened_clay", "minecraft:sandstone", "biomesoplenty:grass", "biomesoplenty:white_sand", "biomesoplenty:white_sandstone", "biomesoplenty:dried_sand", "biomesoplenty:leaves_0", "biomesoplenty:leaves_1", "biomesoplenty:leaves_2", "biomesoplenty:leaves_3", "biomesoplenty:leaves_4", "biomesoplenty:leaves_5", "biomesoplenty:leaves_6", "dynamictrees:leaves0", "dynamictrees:leaves1", "dynamictreesbop:leaves0", "dynamictreesbop:leaves1", "dynamictreesbop:leaves2", "dynamictreesbop:leaves3", "dynamictreesbop:leaves4", "dynamictreesbop:leaves5", "dynamictreesbop:leaves6", "dynamictreesbop:leaves7", "aether_legacy:aether_grass", "aether_legacy:enchanted_aether_grass", "aether_legacy:holystone", "aether_legacy:mossy_holystone", "aether_legacy:aether_leaves"],
-	"random": 0.3,
+	"random": 0.2,
 	"seesky": true,
 
     "maxcount": {
-        "amount": 4,
+        "amount": 3,
         "perplayer": true
     },
     "result": "allow"
