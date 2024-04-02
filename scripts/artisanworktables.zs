@@ -9,6 +9,7 @@ JEI.removeAndHide(<artisanworkstumps:log_basin>);
 JEI.removeAndHide(<artisanworkstumps:stone_basin>);
 JEI.removeAndHide(<artisanworktables:artisans_lens_stone>);
 JEI.removeAndHide(<artisanworktables:artisans_quill_stone>);
+JEI.removeAndHide(<artisanworktables:worktable>);
 
 recipes.remove(<artisanworktables:artisans_lens_stone>);
 recipes.remove(<artisanworktables:artisans_lens_gold>);
@@ -47,7 +48,7 @@ var disabledStumps as string[] = [
 ] as string[];
 
 var enabledTableMetas as int[] = [
-    5
+    
 ] as int[];
 
 var enabledStationMetas as int[] = [
