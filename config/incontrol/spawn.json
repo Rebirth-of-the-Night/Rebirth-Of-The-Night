@@ -2419,7 +2419,7 @@
  {
     "dimension": 4,
     "mob": "mowziesmobs:naga",
-	"random": 0.05,
+	"random": 0.035,
     "gamestage": "killedHarvester",
 	"damagemultiply": 1.5,
     "healthmultiply": 1.5,
