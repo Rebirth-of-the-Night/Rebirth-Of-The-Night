@@ -1022,7 +1022,7 @@
 			}
 		}
 	},
-	[
+	
 		{
 		  "mob": "ancientbeasts:giant_zombie",
 		  "remove": "ancientbeasts:tough_glove"
@@ -1033,5 +1033,5 @@
 		  "item": "ancientbeasts:tough_glove",
 		  "random":"0.15"
 		}
-	  ]
+	  
 ]
