@@ -1028,7 +1028,7 @@
 		  "remove": "ancientbeasts:tough_glove"
 		},
 		{
-		  "mob": "minecraft:blaze",
+		  "mob": "ancientbeasts:giant_zombie",
 		  "player": true,
 		  "item": "ancientbeasts:tough_glove",
 		  "random":"0.15"
