@@ -1,3 +1,6 @@
+
+#loader crafttweaker reloadable
+
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemTransformer;
@@ -203,8 +206,8 @@ var cookKit = <contenttweaker:cooking_kit>.anyDamage()|<contenttweaker:cooking_k
 
 val redRose = <minecraft:dye:1>;
 
-var waterBottle = <liquid:water>*333;
-var waterBottle2 = <liquid:water>*666;
+var waterBottle = <liquid:water>*250;
+var waterBottle2 = <liquid:water>*500;
 var waterBucket = <liquid:water>*1000;
 var acid250 = <liquid:endacid>*250;
 var waterBottleItem = <minecraft:potion>.withTag({Potion: "minecraft:water"}).giveBack(<minecraft:glass_bottle>);
@@ -3753,3 +3756,8 @@ ExSartagine.addKettleRecipe([hops],<growthcraft_hops:hopale:4>,null,[<growthcraf
 // Lager Ale
 ExSartagine.addKettleRecipe([<growthcraft_cellar:yeast:1>],null,<liquid:fluid_booze_hopale_young>*1000,<liquid:fluid_booze_lager_young>*1000,[null],600);//liquid
 ExSartagine.addKettleRecipe([<growthcraft_cellar:yeast:1>],<growthcraft_hops:hopale:0>,null,[<growthcraft_hops:lager>],600);//item
+
+// magic powder
+ExSartagine.addKettleRecipe([<contenttweaker:magic_blend>], null, <liquid:lunar_water>*250, null, [<dungeontactics:magic_powder>], 1000);//liquid
+// methanol
+ExSartagine.addKettleRecipe([<pyrotech:rock:7>], waterBucket,<liquid:methanol>*1000, [null], 1000);//liquid

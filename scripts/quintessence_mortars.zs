@@ -389,7 +389,8 @@ transformationQuintessenceA.add(
     <dungeontactics:steel_sword>,
     <defiledlands:defilement_powder>,
     <nyx:unrefined_crystal>,
-    <defiledlands:scuronotte>
+    <defiledlands:scuronotte>,
+    <biomesoplenty:terrestrial_artifact>
 );
 
 // Transformation B - Things that transform themselves

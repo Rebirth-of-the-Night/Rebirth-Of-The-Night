@@ -5,6 +5,8 @@ item.jar_empty.name=Mason Jar
 tile.blue_fire.name=Cursed Fire
 item.jar_filled_blue_fire.name=Cursed Fire Mason Jar
 item.gem_peridot.name=Alexandrite
+item.terrestrial_artifact.name=Stillborn Crimson Petal
+
 tile.gem_block.peridot_block.name=Block of Alexandrite
 tile.gem_ore.peridot_ore.name=Alexandrite Ore
 

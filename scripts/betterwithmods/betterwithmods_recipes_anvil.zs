@@ -75,15 +75,17 @@ Anvil.addShaped(<quark:diamond_heart>,
 
 // Pipes
 val paneGlass = <ore:paneGlass>;
+val denseRedstone = <pyrotech:material:36>;
+val genericMetal = <ore:genericMetal>;
 paneGlass.addItems([<betternether:quartz_glass_pane>, <betternether:quartz_glass_framed_pane>,<netherex:soul_glass_pane>,<quark:framed_glass_pane>]);
 
 for item in paneGlass.items{
-   Anvil.addShaped(<quark:pipe> * 12, 
+   Anvil.addShaped(<quark:pipe> * 24, 
    [
-      [null, <ore:ingotIron>, <ore:ingotIron>, null],
-      [<ore:ingotCopper>, item, item, <ore:ingotCopper>],
-      [<ore:ingotCopper>, item, item, <ore:ingotCopper>],
-      [null, <ore:ingotIron>, <ore:ingotIron>, null]
+      [genericMetal, genericMetal, genericMetal, genericMetal],
+      [denseRedstone, item, item, genericMetal],
+      [denseRedstone, item, item, genericMetal],
+      [genericMetal, genericMetal, genericMetal, genericMetal]
    ]);
 }
 

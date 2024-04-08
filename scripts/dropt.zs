@@ -827,8 +827,15 @@ Dropt.list("lodestone")
   .add(Dropt.rule()
       .matchBlocks(["dungeontactics:mithril_block"])
   	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(1))
-       	   .items([<minecraft:stonebrick:3>])
+	    .force()
+       	.items([<minecraft:stonebrick:3>]) // always drop chiseled coade brick
+	  )
+      .addDrop(Dropt.drop()
+        .selector(Dropt.weight(1)) // drop nothing else 50% of time  
+      )
+      .addDrop(Dropt.drop()
+        .selector(Dropt.weight(1))
+        .items([<biomesoplenty:terrestrial_artifact>]) // drops terrestrial artifact 50%
       )
   ); 
 

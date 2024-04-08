@@ -1,0 +1,66 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "rising_isles_small_castle",
+  "items": [
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "toroquest:samurai_boots",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "toroquest:samurai_leggings",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "toroquest:samurai_helmet",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.9243392944335938,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "toroquest:samurai_chestplate",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "reccomplex:inventory_generation_component_tag",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "itemCollectionKey": {
+              "nbtType": "string",
+              "nbt": "AbandonedChest"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}

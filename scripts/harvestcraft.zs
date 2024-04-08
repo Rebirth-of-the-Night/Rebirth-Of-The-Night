@@ -305,9 +305,6 @@ recipes.addShaped("food_presser", <harvestcraft:presser>, [
 [<betterwithmods:material:24>, <betterwithmods:material:34>, <betterwithmods:material:24>]]);
 
 // Honey production
-// recipes.addShapeless("harvestcraft_grub_crowning", <harvestcraft:queenbeeitem>, [<harvestcraft:grubitem>,<bountifulbaubles:crowngold>.giveBack(),<dungeontactics:magic_powder>]);
-// Mill.addRecipe([<harvestcraft:honeycombitem>],[<harvestcraft:honeyitem>*6,<harvestcraft:beeswaxitem>]);
-// Mill.addRecipe([<harvestcraft:waxcombitem>],[<harvestcraft:beeswaxitem>*6]);
 recipes.remove(<harvestcraft:pressedwax>);
 recipes.addShaped("beeswax_block", <harvestcraft:pressedwax>, [
 	[<rustic:beeswax>, <rustic:beeswax>],

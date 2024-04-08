@@ -21,7 +21,7 @@ var removeDyeRecipes as string[] = [
 for r in removeDyeRecipes {
     recipes.removeByRecipeName("inspirations:recipes/dye/"~r);
 }
-
+// remove all cauldron recipes for 3.3, move to pot or kettle
 Cauldron.addFluidTransform(<liquid:tannin>, <ore:dung>, <liquid:water>, 4, true);
 Cauldron.addFluidTransform(<liquid:tannin>, <ore:barkWood>, <liquid:water>, 1, true);
 Cauldron.addFluidTransform(<liquid:tannin>, <biomesoplenty:persimmon>|<harvestcraft:persimmonitem>, <liquid:water>, 2, true);
@@ -30,7 +30,7 @@ Cauldron.addFluidTransform(<liquid:methanol>, <pyrotech:rock:7>, <liquid:water>,
 Cauldron.addFluidRecipe(<nyx:lunar_water_bottle>, <minecraft:glass_bottle>, <liquid:lunar_water>, 1);
 Cauldron.addFillRecipe(<nyx:lunar_water_bottle>, <liquid:lunar_water>, 1, <minecraft:glass_bottle>);
 
-// Magic powder 
+// Magic powder
 Cauldron.addFluidRecipe(<dungeontactics:magic_powder>, <contenttweaker:magic_blend>, <liquid:lunar_water>, 1, false);
 
 // Cauldron.addFluidRecipe(<dungeontactics:magic_powder>*2, <contenttweaker:magic_blend>, <liquid:mythril>, 1, true);
