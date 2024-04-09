@@ -91,15 +91,21 @@ Dropt.list("codex_junk")
           .items([<villagenames:codex>])
       )
   );
-  
-Dropt.list("halite")
 
-  .add(Dropt.rule()
+Dropt.list("halite")
+.add(Dropt.rule()
       .matchBlocks(["contenttweaker:halite"])
+      .replaceStrategy("REPLACE_ALL_IF_SELECTED")
       .addDrop(Dropt.drop()
-          .items([<animania:salt>], Dropt.range(1, 3))
+          .selector(Dropt.weight(1), "REQUIRED")
+          .items([<contenttweaker:halite>])
       )
-  );
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(30), "EXCLUDED", 0)
+          .items([<animania:salt>],Dropt.range(1,3))
+      )
+);
+
 
 Dropt.list("bop_honey_block")
 
@@ -1017,3 +1023,24 @@ Dropt.list("futuremc_to_quark_redsandstone")
        	   .items([<quark:sandstone_new:2>])
       )
   ); 
+
+
+Dropt.list("well")
+  .add(Dropt.rule()
+      .matchBlocks(["well:well:*", "well:white_well:*","well:orange_well:*","well:magenta_well:*","well:light_blue_well:*","well:yellow_well:*","well:lime_well:*","well:pink_well:*","well:gray_well:*","well:silver_well:*","well:cyan_well:*","well:purple_well:*","well:blue_well:*","well:brown_well:*","well:green_well:*","well:red_well:*","well:black_well:*"])
+      .addDrop(Dropt.drop()
+        .force()
+        .items([<minecraft:brick>], Dropt.range(2)) // always drop a couple bricks
+      )
+      .addDrop(Dropt.drop()
+        .selector(Dropt.weight(34)) // drop nothing else 33% of time  
+      )
+      .addDrop(Dropt.drop()
+        .selector(Dropt.weight(33))
+        .items([<contenttweaker:masonry_brick>], Dropt.range(2)) // drop 2 masonry brick 33% of the time
+      )
+      .addDrop(Dropt.drop()
+        .selector(Dropt.weight(33))
+        .items([<pyrotech:bucket_stone>]) // drop bucket 33% of the time
+      )
+  );

@@ -9,25 +9,8 @@ customization-meta {
 }
 
 customization {
-  name = options
-  action = setbackgroundslideshow
-}
-
-customization {
   keepaspectratio = false
   action = backgroundoptions
-}
-
-customization {
-  orientation = top-centered
-  shape = rectangle
-  color = #000000cc
-  x = -197
-  width = 401
-  actionid = 17b5bbb4-c3ae-4dba-98b4-3ecd956e66cd1678138565051
-  action = addshape
-  y = -27
-  height = 500
 }
 
 customization {

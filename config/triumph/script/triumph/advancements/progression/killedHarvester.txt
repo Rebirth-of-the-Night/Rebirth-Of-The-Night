@@ -5,7 +5,7 @@ setDescription("Kill The Harvester. Required for entering the Nether!")
 addRewardFunction("triumph:killedHarvester")
 
 
-addParent("triumph:advancements/progression/earlyArmor")
+addParent("triumph:advancements/progression")
 
 
 criteria = addCriteria("Harvester", "minecraft:player_killed_entity")

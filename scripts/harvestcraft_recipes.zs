@@ -30,6 +30,9 @@ HarvestCraftTweaker.addPressing(<rustic:fluid_bottle>.withTag({Fluid: {FluidName
 // HarvestCraftTweaker.removeMarketByOutput(IItemStack output);
 
 HarvestCraftTweaker.addMarket(<growthcraft_rice:rice>, <minecraft:emerald>, 2);
+HarvestCraftTweaker.removeMarketByOutput(<harvestcraft:chilipepperseeditem>);
+HarvestCraftTweaker.removeMarketByOutput(<harvestcraft:grapeseeditem>);
+HarvestCraftTweaker.removeMarketByOutput(<harvestcraft:greengrapeseeditem>);
 
 // HarvestCraftTweaker.addShipping(IItemStack toBuy, IItemStack input, int cost);
 // HarvestCraftTweaker.removeShippingByOutput(IItemStack output);

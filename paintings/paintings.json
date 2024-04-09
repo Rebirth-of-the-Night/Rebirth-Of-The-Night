@@ -114,6 +114,12 @@
 		"isCreative": true
     },
 	{
+        "motive": "Wracked",
+        "width": 4,
+        "height": 3,
+		"isCreative": true
+    },
+	{
         "motive": "The Holy Memory",
         "width": 4,
         "height": 4,
@@ -165,6 +171,12 @@
 		"isCreative": true
     },
 	{
+        "motive": "Artistic Depiction of Shadits",
+        "width": 5,
+        "height": 4,
+		"isCreative": true
+    },
+	{
         "motive": "The World",
         "width": 5,
         "height": 8,
@@ -177,7 +189,7 @@
 		"isCreative": true
     },
 	{
-        "motive": "Emberia's last stand",
+        "motive": "Emberia's Last Stand",
         "width": 6,
         "height": 4,
 		"isCreative": true
@@ -186,6 +198,24 @@
         "motive": "Wroughtclad",
         "width": 7,
         "height": 4,
+		"isCreative": true
+    },
+	{
+        "motive": "Time",
+        "width": 7,
+        "height": 4,
+		"isCreative": true
+    },
+	{
+        "motive": "Umberia - Capital of Magic",
+        "width": 7,
+        "height": 4,
+		"isCreative": true
+    },
+	{
+        "motive": "Crimson Crown",
+        "width": 7,
+        "height": 9,
 		"isCreative": true
     },
 	{
@@ -214,6 +244,12 @@
     },
 	{
         "motive": "Small blink",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Small box",
         "width": 1,
         "height": 1,
 		"isCreative": false
@@ -540,6 +576,12 @@
 		"isCreative": false
     },
 	{
+        "motive": "Blight Dreams",
+        "width": 3,
+        "height": 1,
+		"isCreative": false
+    },
+	{
         "motive": "Baby sea serpent trophy",
         "width": 3,
         "height": 1,
@@ -645,6 +687,12 @@
 		"isCreative": false
     },
 	{
+        "motive": "Green Surface",
+        "width": 2,
+        "height": 2,
+		"isCreative": false
+    },
+	{
         "motive": "Banner Drake",
         "width": 1,
         "height": 3,
@@ -681,6 +729,12 @@
 		"isCreative": false
     },
 	{
+        "motive": "Lily of the living soul",
+        "width": 3,
+        "height": 2,
+		"isCreative": false
+    },
+	{
         "motive": "It Who Sees",
         "width": 3,
         "height": 1,
@@ -700,6 +754,12 @@
     },
 	{
         "motive": "ornate tapestry - cyan",
+        "width": 3,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "ornate tapestry - green",
         "width": 3,
         "height": 2,
 		"isCreative": false
@@ -986,6 +1046,30 @@
 	{
         "motive": "The Scourge",
         "width": 3,
+        "height": 4,
+		"isCreative": false
+    },
+	{
+        "motive": "Dream Sequence - Home",
+        "width": 4,
+        "height": 4,
+		"isCreative": false
+    },
+	{
+        "motive": "Dream Sequence - Near the Bottom",
+        "width": 4,
+        "height": 4,
+		"isCreative": false
+    },
+	{
+        "motive": "Dream Sequence - Fog Pause",
+        "width": 4,
+        "height": 4,
+		"isCreative": false
+    },
+	{
+        "motive": "Dream Sequence - Between Realms",
+        "width": 4,
         "height": 4,
 		"isCreative": false
     },

@@ -1021,5 +1021,17 @@
 				"Lore":	["Why did I give that giant my pan? BECAUSE I'M CRAZZZZZZZZZZZZZZZZY!"]
 			}
 		}
-	}
+	},
+	
+		{
+		  "mob": "ancientbeasts:giant_zombie",
+		  "remove": "ancientbeasts:tough_glove"
+		},
+		{
+		  "mob": "ancientbeasts:giant_zombie",
+		  "player": true,
+		  "item": "ancientbeasts:tough_glove",
+		  "random":"0.15"
+		}
+	  
 ]

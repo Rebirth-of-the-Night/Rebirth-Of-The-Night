@@ -12,6 +12,7 @@ val camoGear = concatString([["primitivemobs:camouflage_"], armor, ["toggle"]]);
 val ws = [<primitivemobs:wonder_sap>] as IIngredient[];
 val ws8 = uniformArrayIS(<primitivemobs:wonder_sap>, 8) as IIngredient[];
 val ODGlu = <ore:glue>.firstItem;
+val slime = <ore:slimeball>;
 
 removeRecipeNameArray(camoGear);
 
@@ -20,9 +21,9 @@ recipes.addShapeless("sap_drool_2", ODGlu,ws + <doggytalents:throw_stick_wet>);
 recipes.addShapeless("sap_mysterious_stew", ODGlu*2,ws + <futuremc:suspicious_stew>.transformReplace(<minecraft:bowl>));
 recipes.addShapeless("sap_biochar", ODGlu*2,ws + <doggytalents:throw_bone_wet>);
 recipes.addShapeless("sap_honey_low", ODGlu*2,ws + <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "honey", Amount: 1000}}));
-recipes.addShapeless("sap_sludge_low", ODGlu*2,ws + <mod_lavacow:silky_sludge>);
 recipes.addShapeless("sap_honey", ODGlu*12,ws8 + <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "honey", Amount: 1000}}));
-recipes.addShapeless("sap_sludge", ODGlu*12,ws8 + <mod_lavacow:silky_sludge>);
+recipes.addShapeless("sap_slime_low", ODGlu*2,ws + slime);
+recipes.addShapeless("sap_slime", ODGlu*12,ws8 + slime);
 
 //
 recipes.remove(<rustic:fertile_soil>);

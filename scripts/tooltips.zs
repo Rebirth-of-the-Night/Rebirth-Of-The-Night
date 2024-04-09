@@ -688,13 +688,18 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <spartanfire:longbow_fire_dragonsteel:*>.addTooltip(format.darkAqua("Damage Multiplier: ") + format.gray("x1.4"));
 <spartanweaponry:longbow_electrum:*>.addTooltip(format.darkAqua("Damage Multiplier: ") + format.gray("x1.6"));
 <simpleores:mythril_bow:*>.addTooltip(format.darkAqua("Ammo Type: ") + format.gray("Arrows"));
-<simpleores:mythril_bow:*>.addTooltip(format.darkAqua("Draw Time: ") + format.gray("1s"));
+<simpleores:mythril_bow:*>.addTooltip(format.darkAqua("Draw Time: ") + format.gray("2s"));
 <simpleores:mythril_bow:*>.addTooltip(format.darkAqua("Arrow Speed: ") + format.gray("x1"));
-<simpleores:mythril_bow:*>.addTooltip(format.darkAqua("Damage Multiplier: ") + format.gray("x1.1"));
+<simpleores:mythril_bow:*>.addTooltip(format.darkAqua("Damage Multiplier: ") + format.gray("x1.7"));
 <nyx:meteor_bow:*>.addTooltip(format.darkAqua("Ammo Type: ") + format.gray("Arrows"));
-<nyx:meteor_bow:*>.addTooltip(format.darkAqua("Draw Time: ") + format.gray("1.5s"));
+<nyx:meteor_bow:*>.addTooltip(format.darkAqua("Draw Time: ") + format.gray("1s"));
 <nyx:meteor_bow:*>.addTooltip(format.darkAqua("Arrow Speed: ") + format.gray("x1.3"));
-<nyx:meteor_bow:*>.addTooltip(format.darkAqua("Damage Multiplier: ") + format.gray("x1.5"));
+<nyx:meteor_bow:*>.addTooltip(format.darkAqua("Damage Multiplier: ") + format.gray("x1.3"));
+<betterwithaddons:greatbow:*>.addTooltip(format.darkAqua("Ammo Type: ") + format.gray("Great Arrows"));
+<betterwithaddons:greatbow:*>.addTooltip(format.darkAqua("Draw Time: ") + format.gray("4s"));
+<betterwithaddons:greatbow:*>.addTooltip(format.darkAqua("Arrow Speed: ") + format.gray("x1.7"));
+<betterwithaddons:greatbow:*>.addTooltip(format.darkAqua("Damage Multiplier: ") + format.gray("x2.5"));
+
 
 // BUGS
 #<aether_legacy:enchanted_blueberry:*>.addTooltip(format.red("DO NOT FEED TO HYPPOGRYPHS; CURRENTLY BUGGED AND UNTAMABLE."));

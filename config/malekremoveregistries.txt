@@ -14,9 +14,3 @@ behgameon:shield7
 behgameon:shield8
 behgameon:shield9
 dungeontactics:alchemist_brew
-harvestcraft:chilipepperitem
-harvestcraft:chilipepperseeditem
-harvestcraft:grapeitem
-harvestcraft:grapeseeditem
-harvestcraft:greengrapeitem
-harvestcraft:greengrapeseeditem
