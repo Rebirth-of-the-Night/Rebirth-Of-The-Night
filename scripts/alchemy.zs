@@ -62,6 +62,9 @@ var soulurn = <betterwithmods:urn:8>;
 var earthruby = <contenttweaker:earthen_ruby>;
 var heart = <scalinghealth:heartcontainer>;
 var biotite = <quark:biotite>;
+var scab = <contenttweaker:scab>;
+var suntouched = <contenttweaker:suntouched_diamond>;
+var starblock = <contenttweaker:star_block>;
 
 //Define liquids
 var hotspring = <liquid:hot_spring_water>;
@@ -193,10 +196,11 @@ val featherElixirOverworld = <rustic:elixir>.withTag({display:{LocName:"Simple F
 val healthboostElixirOverworld = <rustic:elixir>.withTag({display:{LocName:"Simple Health Boost Elixir"},ElixirEffects:[{Effect: "minecraft:health_boost", Duration: 7200, Amplifier: 1}]});
 val strengthElixirOverworld = <rustic:elixir>.withTag({display:{LocName:"Simple Strength Elixir"},ElixirEffects:[{Effect: "minecraft:strength", Duration: 9600, Amplifier: 0}]});
 val forcefulElixirOverworld = <rustic:elixir>.withTag({display:{LocName:"Simple Forceful Elixir"},ElixirEffects:[{Effect: "elenaidodge2:forceful", Duration: 9600, Amplifier: 0}]});
+val fireresElixirOverworld = <rustic:elixir>.withTag({display:{LocName:"Simple Fire Resistance Elixir"},ElixirEffects:[{Effect: "minecraft:fire_resistance", Duration: 9600, Amplifier: 3}]});
+
 
 val healthElixirNether = <rustic:elixir>.withTag({display:{LocName:"Simple Healing Elixir"},ElixirEffects:[{Effect: "minecraft:instant_health", Amplifier: 2}]});
 val ironskinElixirNether = <rustic:elixir>.withTag({display:{LocName:"Simple Ironskin Elixir"},ElixirEffects:[{Effect: "rustic:ironskin", Duration: 4800, Amplifier: 1}]});
-val fireresElixirNether = <rustic:elixir>.withTag({display:{LocName:"Simple Fire Resistance Elixir"},ElixirEffects:[{Effect: "minecraft:fire_resistance", Duration: 9600, Amplifier: 3}]});
 val enduranceElixirNether = <rustic:elixir>.withTag({display:{LocName:"Simple Endurance Elixir"},ElixirEffects:[{Effect: "elenaidodge2:endurance", Duration: 14400, Amplifier: 0}]});
 val hasteElixirNether = <rustic:elixir>.withTag({display:{LocName:"Simple Haste Elixir"},ElixirEffects:[{Effect: "minecraft:haste", Duration: 6000, Amplifier: 1}]});
 
@@ -204,6 +208,8 @@ val poisonresElixirAether = <rustic:elixir>.withTag({display:{LocName:"Simple Po
 val jumpboostElixirAether = <rustic:elixir>.withTag({display:{LocName:"Simple Jump Boost Elixir"},ElixirEffects:[{Effect: "minecraft:jump_boost", Duration: 9600, Amplifier: 1}]});
 val featheryElixirAether = <rustic:elixir>.withTag({display:{LocName:"Simple Feathers Elixir"},ElixirEffects:[{Effect: "elenaidodge2:feathers", Duration: 1200, Amplifier: 5}]});
 val replenishmentElixirAether = <rustic:elixir>.withTag({display:{LocName:"Simple Replenishment Elixir"},ElixirEffects:[{Effect: "elenaidodge2:replenishment", Duration: 100, Amplifier: 0}]});
+val fireresElixirAether = <rustic:elixir>.withTag({display:{LocName:"Empowered Fire Resistance Elixir"},ElixirEffects:[{Effect: "minecraft:fire_resistance", Duration: 9600, Amplifier: 5}]});
+
 
 val speedElixirBeneath = <rustic:elixir>.withTag({display:{LocName:"Advanced Speed Elixir"},ElixirEffects:[{Effect: "minecraft:speed", Duration: 18000, Amplifier: 1},{Effect: "elenaidodge2:forceful", Duration: 9600, Amplifier: 1}]});
 val magnetismElixirBeneath = <rustic:elixir>.withTag({display:{LocName:"Geomancy Elixir"},ElixirEffects:[{Effect: "extraalchemy:effect.magnetism", Duration: 18000, Amplifier: 1},{Effect: "rustic:ironskin", Duration: 18000, Amplifier: 1},{Effect: "potioncore:solid_core", Duration: 18000, Amplifier: 0}]});
@@ -231,11 +237,11 @@ Condenser.addRecipe(featherElixirOverworld, [cloudsbluff, cloudgold], null, bott
 Condenser.addRecipe(healthboostElixirOverworld, [bloodorchid, fleshblockR], null, bottle, hotspring * 125);
 Condenser.addRecipe(strengthElixirOverworld, [core, spirits, voidflame], null, bottle, lunarwater * 125);
 Condenser.addRecipe(forcefulElixirOverworld, [core, jumphaw], null, bottle, lunarwater * 125);
+Condenser.addRecipe(fireresElixirOverworld, [aloe, scab], null, bottle, lunar_water * 125);
 
 /////CRAFTABLE POST-NETHER\\\\\
 Condenser.addRecipe(healthElixirNether, [tear, tarblock], null, bottle, lunarwater * 250);
 Condenser.addRecipe(ironskinElixirNether, [ironW, horsetail], null, bottle, blood * 125);
-Condenser.addRecipe(fireresElixirNether, [aloe, blazepowder], null, bottle, blood * 125);
 Condenser.addRecipe(enduranceElixirNether, [horsetail, thistle], null, bottle, spiritfire * 250);
 Condenser.addRecipe(hasteElixirNether, [cincinnasite, gearsteel], null, bottle, spiritfire * 125);
 
@@ -244,6 +250,8 @@ Condenser.addRecipe(poisonresElixirAether, [petal, deathstalk], null, bottle, po
 Condenser.addRecipe(jumpboostElixirAether, [thistle, cloudblue], null, bottle, hotspring * 125);
 Condenser.addRecipe(featheryElixirAether, [bronzefeather, cloudwhite], null, bottle, dreadcold * 125);
 Condenser.addRecipe(replenishmentElixirAether, [cloudgold, tear], null, bottle, dreadcold * 125);
+Condenser.addRecipe(fireresElixirAether, [aloe, blaze_powder], null, bottle, dreadcold * 125);
+
 
 /////CRAFTABLE POST-BENEATH\\\\\
 Condenser.addRecipe(speedElixirBeneath, [cocaine, fasthaw, virdust], null, bottle, lunarwater * 250);
@@ -257,7 +265,7 @@ Condenser.addRecipe(forcefulElixirBeneath, [core, jumphaw, cocaine], null, bottl
 /////CRAFTABLE POST-END\\\\\
 Condenser.addRecipe(geomancyElixirEnd, [earthruby, steeldust, mooncap], biotite, bottle, arcmythril * 1000);
 Condenser.addRecipe(demonicElixirEnd, [bloodeye, soulurn, core], biotite, bottle, slag * 500);
-Condenser.addRecipe(sunElixirEnd, [metdust, steeldust, mooncap], biotite, bottle, arcmythril * 1000);
+Condenser.addRecipe(sunElixirEnd, [suntouched, starblock, mooncap], biotite, bottle, arcmythril * 1000);
 Condenser.addRecipe(flightElixirEnd, [heart, angel, ampfeather], voidseen, bottle, gravitite * 1000);
 
 /////CRAFTABLE POST-TWILIGHT FOREST\\\\\
