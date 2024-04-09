@@ -237,7 +237,7 @@ Condenser.addRecipe(featherElixirOverworld, [cloudsbluff, cloudgold], null, bott
 Condenser.addRecipe(healthboostElixirOverworld, [bloodorchid, fleshblockR], null, bottle, hotspring * 125);
 Condenser.addRecipe(strengthElixirOverworld, [core, spirits, voidflame], null, bottle, lunarwater * 125);
 Condenser.addRecipe(forcefulElixirOverworld, [core, jumphaw], null, bottle, lunarwater * 125);
-Condenser.addRecipe(fireresElixirOverworld, [aloe, scab], null, bottle, lunar_water * 125);
+Condenser.addRecipe(fireresElixirOverworld, [aloe, scab], null, bottle, lunarwater * 125);
 
 /////CRAFTABLE POST-NETHER\\\\\
 Condenser.addRecipe(healthElixirNether, [tear, tarblock], null, bottle, lunarwater * 250);
@@ -250,7 +250,7 @@ Condenser.addRecipe(poisonresElixirAether, [petal, deathstalk], null, bottle, po
 Condenser.addRecipe(jumpboostElixirAether, [thistle, cloudblue], null, bottle, hotspring * 125);
 Condenser.addRecipe(featheryElixirAether, [bronzefeather, cloudwhite], null, bottle, dreadcold * 125);
 Condenser.addRecipe(replenishmentElixirAether, [cloudgold, tear], null, bottle, dreadcold * 125);
-Condenser.addRecipe(fireresElixirAether, [aloe, blaze_powder], null, bottle, dreadcold * 125);
+Condenser.addRecipe(fireresElixirAether, [aloe, blazepowder], null, bottle, dreadcold * 125);
 
 
 /////CRAFTABLE POST-BENEATH\\\\\
