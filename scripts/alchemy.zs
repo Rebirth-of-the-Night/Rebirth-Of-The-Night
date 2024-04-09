@@ -6,6 +6,7 @@ import mods.rustic.CrushingTub;
 import mods.rustic.Condenser;
 import mods.rustic.EvaporatingBasin;
 import mods.betterwithmods.MiniBlocks;
+import mods.artisanworktables.builder.RecipeBuilder;
 
 //Define ingredients
 var thistle = <rustic:wind_thistle>;
@@ -91,14 +92,26 @@ recipes.addShaped(<rustic:retort>, [
 recipes.remove(<rustic:condenser_advanced>);
 recipes.remove(<rustic:retort_advanced>);
 
-recipes.addShaped(<rustic:condenser_advanced>, 
-[[null, <ore:ingotBrickNether>, null],
-[<ore:ingotBrickNether>, <pyrotech:bucket_stone>.noReturn(), <ore:ingotBrickNether>],
-[<ore:ingotBrickNether>, <ore:blockSteel>, <ore:ingotBrickNether>]]);
-recipes.addShaped(<rustic:retort_advanced>, [
-[null, <ore:ingotBrickNether>, null],
-[<ore:ingotSteel>, <pyrotech:bucket_stone>.noReturn(), null],
-[null, <ore:ingotBrickNether>, null]]);
+//advanced condenser
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:brick_black_granite>, <simpleores:mythril_ingot>, <contenttweaker:brick_black_granite>],
+    [<nyx:fallen_star>, <arcanearchives:radiant_tank>, <nyx:fallen_star>],
+    [<contenttweaker:brick_black_granite>, <simpleores:mythril_block>, <contenttweaker:brick_black_granite>]])
+  .addTool(<contenttweaker:arcane_rune>, 1)
+  .addTool(<contenttweaker:trans_rune>, 1)
+  .addOutput(<rustic:condenser_advanced>)
+  .create();
+//advanced retort
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, <simpleores:mythril_ingot>, null],
+    [<nyx:fallen_star>, <simpleores:mythril_rod>, <nyx:fallen_star>],
+    [<contenttweaker:brick_black_granite>, <contenttweaker:brick_black_granite>, <contenttweaker:brick_black_granite>]])
+  .addTool(<contenttweaker:arcane_rune>, 1)
+  .addTool(<contenttweaker:trans_rune>, 1)
+  .addOutput(<rustic:retort_advanced>)
+  .create();
 
 
 //Define elixir vals for removal
