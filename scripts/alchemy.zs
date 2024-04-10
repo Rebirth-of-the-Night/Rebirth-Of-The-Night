@@ -216,7 +216,7 @@ val magnetismElixirBeneath = <rustic:elixir>.withTag({display:{LocName:"Geomancy
 val luckElixirBeneath = <rustic:elixir>.withTag({display:{LocName:"Advanced Lucky Elixir"},ElixirEffects:[{Effect: "minecraft:luck", Duration: 18000, Amplifier: 1},{Effect: "wards:effect_fortune", Duration: 6000, Amplifier: 4}]});
 val featherElixirBeneath = <rustic:elixir>.withTag({display:{LocName:"Advanced Featherlight Elixir"},ElixirEffects:[{Effect: "rustic:feather", Duration: 18000, Amplifier: 0}]});
 val healthboostElixirBeneath = <rustic:elixir>.withTag({display:{LocName:"Advanced Health Boost Elixir"},ElixirEffects:[{Effect: "minecraft:health_boost", Duration: 14400, Amplifier: 3}]});
-val strengthElixirBeneath = <rustic:elixir>.withTag({display:{LocName:"Advanced Strength Elixir"},ElixirEffects:[{Effect: "minecraft:strength", Duration: 12000, Amplifier: 1}]});
+val strengthElixirBeneath = <rustic:elixir>.withTag({display:{LocName:"Advanced Strength Elixir"},ElixirEffects:[{Effect: "minecraft:strength", Duration: 12000, Amplifier: 2}]});
 val forcefulElixirBeneath = <rustic:elixir>.withTag({display:{LocName:"Advanced Forceful Elixir"},ElixirEffects:[{Effect: "elenaidodge2:forceful", Duration: 12000, Amplifier: 2},{Effect: "elenaidodge2:feathers", Duration: 1200, Amplifier: 2}]});
 
 val demonicElixirEnd = <rustic:elixir>.withTag({display:{LocName:"Demonic Strength Elixir"},ElixirEffects:[{Effect: "minecraft:strength", Duration: 12000, Amplifier: 6},{Effect: "demonic_scythe:demonic_corruption", Duration: 12000, Amplifier: 8},{Effect: "potioncore:vulnerable", Duration: 12000, Amplifier: 1}]});
@@ -235,7 +235,7 @@ Condenser.addRecipe(bouncyElixirOverworld, [slime, mallow]);
 Condenser.addRecipe(luckElixirOverworld, [fourclover, goldNugg], null, bottle, hotspring * 125);
 Condenser.addRecipe(featherElixirOverworld, [cloudsbluff, cloudgold], null, bottle, lunarwater * 125);
 Condenser.addRecipe(healthboostElixirOverworld, [bloodorchid, fleshblockR], null, bottle, hotspring * 125);
-Condenser.addRecipe(strengthElixirOverworld, [core, spirits, voidflame], null, bottle, lunarwater * 125);
+Condenser.addRecipe(strengthElixirOverworld, [core, spirits], null, bottle, lunarwater * 125);
 Condenser.addRecipe(forcefulElixirOverworld, [core, jumphaw], null, bottle, lunarwater * 125);
 Condenser.addRecipe(fireresElixirOverworld, [aloe, scab], null, bottle, lunarwater * 125);
 
