@@ -12,7 +12,7 @@ setBackground("minecraft:textures/gui/advancements/backgrounds/adventure.png")
 setShowToast(false)
 setAnnounceToChat(false)
 
-addCriteria("location", "minecraft:location")
+criteria = addCriteria("location", "minecraft:location")
 
 alwaysHidden()
 setHidden(true)

@@ -4,7 +4,7 @@ setDescription("Magick barriers and effects to ward off trespassers or protect a
 
 addParent("triumph:advancements/magick/root")
 
-addCriteria("location", "minecraft:location")
+criteria = addCriteria("location", "minecraft:location")
 
 setShowToast(false)
 setAnnounceToChat(false)

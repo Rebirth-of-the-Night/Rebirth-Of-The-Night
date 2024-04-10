@@ -4,7 +4,7 @@ setDescription("Seek help from others.")
 
 addParent("triumph:advancements/basedefense/root")
 
-addCriteria("location", "minecraft:location")
+criteria = addCriteria("location", "minecraft:location")
 
 setShowToast(false)
 setAnnounceToChat(false)
