@@ -240,7 +240,7 @@ Condenser.addRecipe(forcefulElixirOverworld, [core, jumphaw], null, bottle, luna
 Condenser.addRecipe(fireresElixirOverworld, [aloe, scab], null, bottle, lunarwater * 125);
 
 /////CRAFTABLE POST-NETHER\\\\\
-Condenser.addRecipe(healthElixirNether, [tear, tarblock], null, bottle, lunarwater * 250);
+Condenser.addRecipe(healthElixirNether, [tear, tarblock], null, bottle, lunarwater * 1000);
 Condenser.addRecipe(ironskinElixirNether, [ironW, horsetail], null, bottle, blood * 125);
 Condenser.addRecipe(enduranceElixirNether, [horsetail, thistle], null, bottle, spiritfire * 250);
 Condenser.addRecipe(hasteElixirNether, [cincinnasite, gearsteel], null, bottle, spiritfire * 125);
