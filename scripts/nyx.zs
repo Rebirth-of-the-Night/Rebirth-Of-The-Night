@@ -48,8 +48,22 @@ var rock = <pyrotech:rock:0>;
 var ice = <minecraft:ice>;
 var meteorshard = <nyx:meteor_shard>;
 var exorite = <contenttweaker:voidseen_exorite>;
+var crimsonpetal = <biomesoplenty:terrestrial_artifact>;
+var compass = <minecraft:compass>;
 
 recipes.addShapeless("ooze_to_meteor", <nyx:meteor_shard> * 4, [<contenttweaker:mercurial_ooze>]);
+
+recipes.remove(<nyx:meteor_finder>);
+recipes.addShaped("<meteor_finder1", <nyx:meteor_finder>, [
+    [null, star, null],
+    [star, crimsonpetal, star],
+    [null, compass, null]
+]);
+recipes.addShaped("<meteor_finder2", <nyx:meteor_finder>, [
+    [null, star, null],
+    [star, meteorshard, star],
+    [null, compass, null]
+]);
 
 recipes.remove(<nyx:star_block>);
 recipes.addShaped("astral_block", <nyx:star_block> * 4, [

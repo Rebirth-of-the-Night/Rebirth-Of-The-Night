@@ -126,6 +126,7 @@ recipes.addShaped("iDidItImACTUALLYFiberNow", <quark:rope>*6,[
 ]);
 
 recipes.addShapeless("tome_to_enchanted_paper", <wards:enchanted_paper>*9,[<quark:ancient_tome:*>]);
+recipes.addShapeless("petal_soulcompass", <quark:soul_compass>,[<biomesoplenty:terrestrial_artifact> ,<minecraft:compass>]);
 
 recipes.remove(<quark:bark:*>);
 val logs as IItemStack[] = [<minecraft:log:0>, <minecraft:log:1>, <minecraft:log:2>, <minecraft:log:3>, <minecraft:log2:0>, <minecraft:log2:1>] as IItemStack[];

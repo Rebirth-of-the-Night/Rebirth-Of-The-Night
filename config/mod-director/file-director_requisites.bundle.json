@@ -1,23 +1,38 @@
 {
-	"url":
-	[
-		{
-			"url": "https://optifine.net/adloadx?f=preview_OptiFine_1.12.2_HD_U_G6_pre1.jar",
-			"follows": ["preview OptiFine 1.12.2 HD U G6 pre1"],
-			"fileName": "OptiFine_1.12.2_HD_U_G6_pre1.jar",
-			"options": { "launchwrapperTweakerForceNext": true },
-			"metadata": {
-				"side": "CLIENT"
-			}
-		},
-		{
-			"url": "https://github.com/djpadbit/Sound-Physics/releases/download/1.0.10-1/Sound-Physics-1.12.2-1.0.10-1.jar"
-		},
-		{
-			"url": "https://github.com/skmedix/NormalASM/releases/download/5.19/normalasm-5.19.jar"
-		},
-		{
-			"url": "https://cdn.modrinth.com/data/L55Wy0Fz/versions/QBprvpeM/JSON-Paintings-v1.3.0-mc1.12.2.jar"
-		}
-	]
+    "url":
+    [
+        {
+            "url": "https://optifine.net/adloadx?f=preview_OptiFine_1.12.2_HD_U_G6_pre1.jar",
+            "follows": ["preview OptiFine 1.12.2 HD U G6 pre1"],
+            "fileName": "OptiFine_1.12.2_HD_U_G6_pre1.jar",
+            "options": { "launchwrapperTweakerForceNext": true },
+            "metadata": {
+                "side": "CLIENT"
+            },
+            "installationPolicy": {
+                "description": "MANDATORY! Downloads OptiFine from the official site."
+            }
+        },
+        {
+            "url": "https://github.com/djpadbit/Sound-Physics/releases/download/1.0.10-1/Sound-Physics-1.12.2-1.0.10-1.jar",
+            "metadata": {
+                "side": "CLIENT"
+            },
+            "installationPolicy": {
+                "description": "MANDATORY! Downloads Sound Physics from GitHub."
+            }
+        },
+        {
+            "url": "https://github.com/skmedix/NormalASM/releases/download/5.19/normalasm-5.19.jar",
+            "installationPolicy": {
+                "description": "MANDATORY! Downloads NormalASM from GitHub."
+            }
+        },
+        {
+            "url": "https://cdn.modrinth.com/data/L55Wy0Fz/versions/QBprvpeM/JSON-Paintings-v1.3.0-mc1.12.2.jar",
+            "installationPolicy": {
+                "description": "MANDATORY! Downloads JSON Paintings from Modrinth."
+            }
+        }
+    ]
 }

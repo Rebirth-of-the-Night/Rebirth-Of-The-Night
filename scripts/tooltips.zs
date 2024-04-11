@@ -519,6 +519,9 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <exsartagine:range_extended>.addTooltip("An extension for the Stove. Up to three can be added to either side of a Stove. Can only be placed next to Stoves.");
 <exsartagine:hearth_extended>.addTooltip("An extension for the Hearth. Only one can be added to the side of a Hearth. Can only be placed next to Hearths.");
 
+<biomesoplenty:terrestrial_artifact>.addTooltip("Has a chance to be dropped from Ancient Lodestone.");
+<dungeontactics:mithril_block>.addTooltip("Found in frozen and artic biomes.");
+
 <advancedliftingmethods:blowing_elevator>.addShiftTooltip(format.gold("Pushes:") + "" + format.yellow(" Living entities."), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <advancedliftingmethods:blowing_elevator>.addShiftTooltip(format.gold("Chute Compat.:") + format.green(" YES."));
 <advancedliftingmethods:blowing_elevator>.addShiftTooltip(format.gold("Fueled:") + format.red(" NO"));

@@ -234,7 +234,7 @@
 {
     "mob": ["minecraft:zombie","primitivemobs:goblin"],
     "random": 0.1,
-    "helditem": ["3=atop:steel_pickaxe", "2=atop:mud_pickaxe"],
+    "helditem": ["3=dungeontactics:steel_pickaxe", "2=atop:mud_pickaxe"],
     "gamestage": "enteredNether"
 },
 {
@@ -2546,9 +2546,9 @@
     "mintime": 13000,
     "maxtime": 23000,
 	"minheight": 55,
-	"maxlight": 7,
+	"maxlight": 4,
 
-	"random": 0.5,
+	"random": 0.45,
 
     "maxcount": {
         "amount": 5,
@@ -3049,7 +3049,7 @@
  {
     "dimension": 0,
     "mob": "mod_lavacow:scarecrow",
-	"biome": ["Plains", "Roofed Forest", "Forest", "ForestHills", "Birch Forest", "Birch Forest Hills", "Roofed Forest", "Extreme Hills+", "Flower Forest", "Bayou", "Bog", "Brushland", "Chaparral", "Cherry Blossom Grove", "Dead Forest", "Grassland", "Grove", "Lavender Fields", "Maple Woods", "Ominous Woods", "Orchard", "Overgrown Cliffs", "Prairie", "Seasonal Forest", "Shrubland", "Temperate Rainforest", "Pasture", "Wasteland", "Woodland"],
+	"biome": ["Plains", "Roofed Forest", "Forest", "ForestHills", "Birch Forest", "Birch Forest Hills", "Extreme Hills+", "Flower Forest", "Bayou", "Bog", "Brushland", "Chaparral", "Cherry Blossom Grove", "Dead Forest", "Grassland", "Grove", "Lavender Fields", "Maple Woods", "Ominous Woods", "Orchard", "Overgrown Cliffs", "Prairie", "Seasonal Forest", "Shrubland", "Temperate Rainforest", "Pasture", "Wasteland", "Woodland"],
     "gamestage": "killedHarvester",
 	"maxlight": 7,
 

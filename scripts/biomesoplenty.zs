@@ -9,7 +9,6 @@ import mods.artisanworktables.builder.RecipeBuilder;
 JEI.removeAndHide(<biomesoplenty:plant_1:3>);
 JEI.removeAndHide(<biomesoplenty:ricebowl>);
 
-JEI.removeAndHide(<biomesoplenty:terrestrial_artifact>);
 JEI.removeAndHide(<biomesoplenty:biome_finder>);
 
 JEI.removeAndHide(<biomesoplenty:gem:7>);
@@ -48,6 +47,7 @@ JEI.removeAndHide(<biomesoplenty:grass:6>);
 
 <ore:foodFilledhoneycomb>.remove(<biomesoplenty:filled_honeycomb>);
 
+recipes.remove(<biomesoplenty:terrestrial_artifact>);
 recipes.remove(<biomesoplenty:hive:1>);
 recipes.remove(<biomesoplenty:hive:3>);
 
