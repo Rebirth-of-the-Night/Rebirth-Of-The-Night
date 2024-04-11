@@ -4,7 +4,7 @@ setDescription("The art of carving runes into materials for artificing.")
 
 addParent("triumph:advancements/magick/root")
 
-addCriteria("location", "minecraft:location")
+criteria = addCriteria("location", "minecraft:location")
 
 setShowToast(false)
 setAnnounceToChat(false)

@@ -51,10 +51,7 @@
       }
     },
     "idle": {
-      "renderer": {
-        "modelName": "pyroreactorv2",
-        "type": "geo"
-      },
+      
       "lightEmissive": 7,
       "parent": "unformed"
     },
