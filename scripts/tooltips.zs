@@ -255,8 +255,13 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <dungeontactics:bag_record:*>.addTooltip("Contains a music disc carefully wrapped for safe transport.");
 <dungeontactics:trickortreat_bag:*>.addTooltip("The boundary of the spirit world grows thin. Take this opportunity to gorge yourself on sweets.");
 <dungeontactics:solstice_gift:*>.addTooltip("Was this gift really meant for you? Well... finders' keepers!");
+
 <sereneseasons:greenhouse_glass:*>.addTooltip("Lets crops grow out of their normal growing seasons. If the glass is placed more than 7 blocks above a crop, the crop won't gain this benefit.");
 <netherex:ghast_meat_cooked:*>.addTooltip("Slimy, yet satisfying!");
+<betterwithmods:raw_egg>.addTooltip("An effective medicine and stomach filler. That is what you tell yourself in order to tolerate the taste.");
+<betterwithmods:raw_egg>.addShiftTooltip("Granny's remedy, directly from Causeperse (whose, you don't know). Heals for a few seconds but causes an upset stomach and leaves you vulnerable.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<harvestcraft:slimegummiesitem>.addTooltip("For years you have underestimated the power of slimes. With your intellect and these super cells, you are untouchable.");
+<rustic:elixir>.withTag({display:{LocName:"Metabolic Whey"},ElixirEffects:[{Effect: "minecraft:regeneration", Duration: 160, Amplifier: 2},{Effect: "minecraft:hunger", Duration: 160, Amplifier: 29},{Effect: "minecraft:nausea", Duration: 160, Amplifier: 0}]}).addTooltip("Tastes awful, but it will accelerate the natural healing of the body threefold and make you very hungry.");
 
 // Charm
 //<charm:totem_of_returning:*>.addTooltip("§5Right-click a block while holding the totem to bind yourself to that point. Right click again to return to that point.");
@@ -429,8 +434,6 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <malisisdoors:jail_door>.addShiftTooltip("slidin into ur DMs");
 
 // Particular Eatables (Wildly Eat)
-<contenttweaker:sprinkles:*>.addTooltip("Zero nutritional value, but it gets you going.");
-<contenttweaker:sprinkles>.addShiftTooltip("Can be consumed for a short speed boost", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <harvestcraft:teaitem:*>.addTooltip("Calming, but it gets you going.");
 <harvestcraft:teaitem>.addShiftTooltip("Can be consumed for a speed boost", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <harvestcraft:raspberryicedteaitem:*>.addTooltip("Sweet, refreshing, and it gets you going.");

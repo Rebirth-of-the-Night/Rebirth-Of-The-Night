@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "ExpMagic",
+  "items": [
+    {
+      "weight": 1.0,
+      "min": 4,
+      "max": 17,
+      "item": {
+        "id": "randomthings:ingredient",
+        "damage": 10,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.5889394283294678,
+      "min": 4,
+      "max": 9,
+      "item": {
+        "id": "contenttweaker:xp_tome_mundane",
+        "damage": 0,
+        "count": 1
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}

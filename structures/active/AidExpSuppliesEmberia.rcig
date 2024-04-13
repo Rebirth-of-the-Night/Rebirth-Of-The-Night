@@ -1,0 +1,107 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "AidExpSuppliesEmberia",
+  "items": [
+    {
+      "weight": 1.0950840711593628,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "contenttweaker:xp_tome_mundane",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.23224952816963196,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "growthcraft_apples:applecider",
+        "damage": 6,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.011213661171495914,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "growthcraft_apples:applecider",
+        "damage": 5,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.646636426448822,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "scalinghealth:healingitem",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.5354365706443787,
+      "min": 1,
+      "max": 5,
+      "item": {
+        "id": "rats:herb_bundle",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.016732392832636833,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "scalinghealth:healingitem",
+        "damage": 1,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.32298368215560913,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "rustic:blood_orchid",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.5889394283294678,
+      "min": 1,
+      "max": 3,
+      "item": {
+        "id": "growthcraft_milk:stomach",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.013752810657024384,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "minecraft:golden_apple",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.0034870589151978493,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "minecraft:golden_apple",
+        "damage": 1,
+        "count": 1
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}

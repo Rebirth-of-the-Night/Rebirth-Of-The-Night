@@ -211,9 +211,6 @@ recipes.removeByRecipeName("harvestcraft:minecraft_leather_chestplate");
 recipes.removeByRecipeName("harvestcraft:minecraft_leather_leggings");
 recipes.removeByRecipeName("harvestcraft:minecraft_leather_boots");
 
-recipes.remove(<harvestcraft:lavendershortbreaditem>);
-recipes.addShapeless("lavender_shortbread",<harvestcraft:lavendershortbreaditem>,[<ore:toolBakeware>,<ore:dyePurple>,<harvestcraft:doughitem>]);
-
 JEI.removeAndHide(<harvestcraft:rainbowcurryitem>);
 JEI.removeAndHide(<harvestcraft:venisonrawitem>);
 JEI.removeAndHide(<harvestcraft:venisoncookeditem>);
