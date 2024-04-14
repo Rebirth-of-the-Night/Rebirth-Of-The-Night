@@ -29,6 +29,7 @@ var bloodorchid = <rustic:blood_orchid>;
 var horsetail = <rustic:horsetail>;
 var fourclover = <contenttweaker:4leaf_clover>;
 var core = <rustic:core_root>;
+var ginseng = <rustic:ginseng>;
 var spirits = <betterwithaddons:ancestry_bottle>;
 var fleshblockR = <charm:rotten_flesh_block>;
 var tarblock = <pyrotech:living_tar>;
