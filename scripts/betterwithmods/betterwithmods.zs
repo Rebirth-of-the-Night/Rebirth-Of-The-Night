@@ -721,6 +721,7 @@ var pulleyBlocks as IBlockState[] = [
     <blockstate:betterwithaddons:lattice:down=false,east=false,north=false,south=false,up=false,west=true>,
     <blockstate:betterwithaddons:lattice:down=false,east=false,north=false,south=false,up=false,west=false>,
     <blockstate:quark:sturdy_stone>,
+    <blockstate:contenttweaker:emblem_stone_red>,
     <blockstate:minecraft:bookshelf>,
     <blockstate:aether_legacy:skyroot_bookshelf>,
     <blockstate:quark:custom_bookshelf:variant=bookshelf_spruce>,
