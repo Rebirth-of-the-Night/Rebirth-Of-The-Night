@@ -35,14 +35,14 @@ the [RotN Modpack on CurseForge](https://www.curseforge.com/minecraft/modpacks/r
 
 As of Version 3.0.0 and up, OptiFine and the Soundtrack are automatically included and **do not** need to be installed separately.
 
-Lastest: [v3.2.1b Hotfix](https://www.curseforge.com/minecraft/modpacks/rebirth-of-the-night/files/5255398)
+Latest: [v3.2.1b Hotfix](https://www.curseforge.com/minecraft/modpacks/rebirth-of-the-night/files/5255398)
 
 [v3.2.1b Server pack](https://www.curseforge.com/minecraft/modpacks/rebirth-of-the-night/files/5255415) 
 
 ### Version 2.77.5 (legacy)
 
 Rebirth of the Night is best with the atmosphere provided by **Optifine Shaders** and **Soundtrack.** These mods needs
-to be installed separately. Follow the [Installation guide here](https://wiki.rebirthofthenight.com/wiki/Installation).
+to be installed separately. Follow the [Installation guide here](https://rotn.wiki.gg/wiki/Installation).
 
 [v2.77.5 Client](https://www.curseforge.com/minecraft/modpacks/rebirth-of-the-night/files/2974800)
 
