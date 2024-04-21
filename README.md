@@ -47,3 +47,7 @@ to be installed separately. Follow the [Installation guide here](https://rotn.wi
 [v2.77.5 Client](https://www.curseforge.com/minecraft/modpacks/rebirth-of-the-night/files/2974800)
 
 [v2.77.5 Server pack](https://www.curseforge.com/minecraft/modpacks/rebirth-of-the-night/files/2974807)
+
+## Development Resources and Links
+
+[Development Board](https://trello.com/b/PZyYdW4A/rebirth-of-the-night)
