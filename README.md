@@ -20,7 +20,7 @@ Join the community on the [Official RotN Discord](https://discord.gg/rotn). Disc
 lore, and keep tabs on recent events and developments.
 
 If you wish to support Rebirth of the Night, consider donating to
-the Rebirth of the Night team at [Ko-Fi]([https://ko-fi.com/rebirthofthenight/tiers]).
+the Rebirth of the Night team at [Ko-Fi]([https://rebirth-of-the-night.webflow.io/]).
 
 ## Website
 
