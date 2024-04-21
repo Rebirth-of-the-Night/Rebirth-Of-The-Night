@@ -4,9 +4,9 @@
 	<a href="https://www.curseforge.com/minecraft/modpacks/rebirth-of-the-night"><img src="http://cf.way2muchnoise.eu/full_338901_downloads.svg" alt="CF"></a><br><br>
 </p>
 
-Inspired by Terraria, 7 Days to Die, and more, Rebirth of the Night is a Minecraft 1.12.2 modpack with its own
-progression system, lore, mechanics, and art. It's built with the idea of remembering the central themes of what made
-Minecraft enjoyable and expanding them in every way, increasing the overall risk and reward as you progress.
+ 
+
+Inspired by games like Terraria, 7 Days to Die, Vintage Story, Valheim, and more, Rebirth of the Night is an extensively customized modpack with its own progression system, mechanics, lore, and art. It's built with the idea of remembering the central themes of what made Minecraft enjoyable and expanding them in every way, increasing the overall risk and reward as you progress.
 
 Fear the dark. Defy the odds. Embrace the night. In an ever-changing world, bravery is vital... and arrogance is lethal.
 
@@ -20,11 +20,11 @@ Join the community on the [Official RotN Discord](https://discord.gg/rotn). Disc
 lore, and keep tabs on recent events and developments.
 
 If you wish to support Rebirth of the Night, consider donating to
-the Rebirth of the Night team at https://ko-fi.com/rebirthofthenight/tiers.
+the Rebirth of the Night team at [Ko-Fi]([https://ko-fi.com/rebirthofthenight/tiers]).
 
 ## Website
 
-[Official website for Rebirth of the Night](https://rebirthofthenight.com/).
+[Official website for Rebirth of the Night]([https://rebirth-of-the-night.webflow.io/]).
 
 ## Installation
 
