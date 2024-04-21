@@ -4,9 +4,9 @@
 	<a href="https://www.curseforge.com/minecraft/modpacks/rebirth-of-the-night"><img src="http://cf.way2muchnoise.eu/full_338901_downloads.svg" alt="CF"></a><br><br>
 </p>
 
-Inspired by Terraria, 7 Days to Die, and more, Rebirth of the Night is a Minecraft 1.12.2 modpack with its own
-progression system, lore, mechanics, and art. It's built with the idea of remembering the central themes of what made
-Minecraft enjoyable and expanding them in every way, increasing the overall risk and reward as you progress.
+ 
+
+Inspired by games like Terraria, 7 Days to Die, Vintage Story, Valheim, and more, Rebirth of the Night is an extensively customized modpack with its own progression system, mechanics, lore, and art. It's built with the idea of remembering the central themes of what made Minecraft enjoyable and expanding them in every way, increasing the overall risk and reward as you progress.
 
 Fear the dark. Defy the odds. Embrace the night. In an ever-changing world, bravery is vital... and arrogance is lethal.
 
@@ -20,30 +20,30 @@ Join the community on the [Official RotN Discord](https://discord.gg/rotn). Disc
 lore, and keep tabs on recent events and developments.
 
 If you wish to support Rebirth of the Night, consider donating to
-the Rebirth of the Night team at https://ko-fi.com/rebirthofthenight/tiers.
+the Rebirth of the Night team on [Ko-Fi](https://ko-fi.com/rebirthofthenight).
 
 ## Website
 
-[Official website for Rebirth of the Night](https://rebirthofthenight.com/).
+[Official website for Rebirth of the Night](https://rebirth-of-the-night.webflow.io/)
 
 ## Installation
 
 Client and server files are available through [CurseForge](https://www.curseforge.com/). See
 the [RotN Modpack on CurseForge](https://www.curseforge.com/minecraft/modpacks/rebirth-of-the-night) for all options.
 
-### Version 2.77.5 (legacy)
-
-Rebirth of the Night is best with the atmosphere provided by **Optifine Shaders** and **Soundtrack.** These mods needs
-to be installed separately. Follow the [Installation guide here](https://wiki.rebirthofthenight.com/wiki/Installation).
-
-[v2.77.5 Client](https://www.curseforge.com/minecraft/modpacks/rebirth-of-the-night/files/2974800)
-
-[v2.77.5 Server](https://www.curseforge.com/minecraft/modpacks/rebirth-of-the-night/files/2974807)
-
 ### Versions for 3.0.0 
 
 As of Version 3.0.0 and up, OptiFine and the Soundtrack are automatically included and **do not** need to be installed separately.
 
-[v3.0.1 Hotfix](https://www.curseforge.com/minecraft/modpacks/rebirth-of-the-night/files/3732110)
+Latest: [v3.2.1b Hotfix](https://www.curseforge.com/minecraft/modpacks/rebirth-of-the-night/files/5255398)
 
-[v3.0.1 Server pack](https://www.curseforge.com/minecraft/modpacks/rebirth-of-the-night/files/3732231) 
+[v3.2.1b Server pack](https://www.curseforge.com/minecraft/modpacks/rebirth-of-the-night/files/5255415) 
+
+### Version 2.77.5 (legacy)
+
+Rebirth of the Night is best with the atmosphere provided by **Optifine Shaders** and **Soundtrack.** These mods needs
+to be installed separately. Follow the [Installation guide here](https://rotn.wiki.gg/wiki/Installation).
+
+[v2.77.5 Client](https://www.curseforge.com/minecraft/modpacks/rebirth-of-the-night/files/2974800)
+
+[v2.77.5 Server pack](https://www.curseforge.com/minecraft/modpacks/rebirth-of-the-night/files/2974807)
