@@ -67,25 +67,31 @@
     },
 	{
         "motive": "Portraits of Madness - Red",
-        "width": 2,
+        "width": 3,
         "height": 3,
 		"isCreative": true
     },
 	{
         "motive": "Portraits of Madness - Blue",
-        "width": 2,
+        "width": 3,
         "height": 3,
 		"isCreative": true
     },
 	{
         "motive": "Portraits of Madness - Yellow",
-        "width": 2,
+        "width": 3,
         "height": 3,
 		"isCreative": true
     },
 	{
         "motive": "Blessed Passion",
         "width": 2,
+        "height": 4,
+		"isCreative": true
+    },
+	{
+        "motive": "Requisitioner",
+        "width": 3,
         "height": 4,
 		"isCreative": true
     },
@@ -327,6 +333,12 @@
 		"isCreative": false
     },
 	{
+        "motive": "Cold Hunger",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
         "motive": "Bob-omb",
         "width": 1,
         "height": 1,
@@ -513,10 +525,34 @@
 		"isCreative": false
     },
 	{
+        "motive": "Lake View",
+        "width": 2,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Cursed Forest",
+        "width": 5,
+        "height": 1,
+		"isCreative": false
+    },
+	{
         "motive": "ender letters",
 		"textures": {
             "back": "paintings:null"
         },
+        "width": 1,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "Purified",
+        "width": 1,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "Web",
         "width": 1,
         "height": 2,
 		"isCreative": false
