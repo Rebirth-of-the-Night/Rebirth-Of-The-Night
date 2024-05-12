@@ -8,9 +8,3 @@ advancedliftingmethods:double_birch_stairs
 advancedliftingmethods:double_jungle_stairs
 advancedliftingmethods:double_acacia_stairs
 advancedliftingmethods:double_dark_oak_stairs
-harvestcraft:chilipepperitem
-harvestcraft:chilipepperseeditem
-harvestcraft:greengrapeitem
-harvestcraft:greengrapeseeditem
-harvestcraft:grapeitem
-harvestcraft:grapeseeditem

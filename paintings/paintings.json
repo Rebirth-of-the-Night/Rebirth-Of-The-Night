@@ -41,7 +41,7 @@
         "height": 1,
 		"isCreative": true
     },
-    {
+	{
         "motive": "sigil Relata",
         "width": 1,
         "height": 1,
@@ -59,20 +59,68 @@
         "height": 2,
 		"isCreative": true
     },
-    {
+	{
         "motive": "In the Mouth of Knowledge",
         "width": 3,
         "height": 2,
 		"isCreative": true
     },
-    {
-        "motive": "Undefinable",
+	{
+        "motive": "Portraits of Madness - Red",
+        "width": 3,
+        "height": 3,
+		"isCreative": true
+    },
+	{
+        "motive": "Portraits of Madness - Blue",
+        "width": 3,
+        "height": 3,
+		"isCreative": true
+    },
+	{
+        "motive": "Portraits of Madness - Yellow",
+        "width": 3,
+        "height": 3,
+		"isCreative": true
+    },
+	{
+        "motive": "Blessed Passion",
         "width": 2,
         "height": 4,
 		"isCreative": true
     },
 	{
+        "motive": "Requisitioner",
+        "width": 3,
+        "height": 4,
+		"isCreative": true
+    },
+	{
         "motive": "Yearn",
+        "width": 4,
+        "height": 3,
+		"isCreative": true
+    },
+	{
+        "motive": "Leave",
+        "width": 4,
+        "height": 3,
+		"isCreative": true
+	},
+	{
+        "motive": "Arrive",
+        "width": 4,
+        "height": 3,
+		"isCreative": true
+    },
+	{
+        "motive": "Grow",
+        "width": 4,
+        "height": 3,
+		"isCreative": true
+    },
+	{
+        "motive": "Wracked",
         "width": 4,
         "height": 3,
 		"isCreative": true
@@ -89,7 +137,7 @@
         "height": 4,
 		"isCreative": true
     },
-    {
+	{
         "motive": "Cause for Strife",
         "width": 4,
         "height": 4,
@@ -116,7 +164,7 @@
         "height": 6,
 		"isCreative": true
     },
-    {
+	{
         "motive": "Disharmony",
         "width": 5,
         "height": 1,
@@ -126,6 +174,12 @@
         "motive": "Remnant",
         "width": 5,
         "height": 1,
+		"isCreative": true
+    },
+	{
+        "motive": "Artistic Depiction of Shadits",
+        "width": 5,
+        "height": 4,
 		"isCreative": true
     },
 	{
@@ -141,12 +195,36 @@
 		"isCreative": true
     },
 	{
+        "motive": "Emberia's Last Stand",
+        "width": 6,
+        "height": 4,
+		"isCreative": true
+    },
+	{
         "motive": "Wroughtclad",
         "width": 7,
         "height": 4,
 		"isCreative": true
     },
-    {
+	{
+        "motive": "Time",
+        "width": 7,
+        "height": 4,
+		"isCreative": true
+    },
+	{
+        "motive": "Umberia - Capital of Magic",
+        "width": 7,
+        "height": 4,
+		"isCreative": true
+    },
+	{
+        "motive": "Crimson Crown",
+        "width": 7,
+        "height": 9,
+		"isCreative": true
+    },
+	{
         "motive": "Stairs",
         "width": 1,
         "height": 1,
@@ -164,8 +242,98 @@
         "height": 1,
 		"isCreative": false
     },
-    {
+	{
         "motive": "Small nod",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Small blink",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Small box",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Silhouette",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Small moon",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Small red moon",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Small bronze moon",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Small star moon",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Small harvest moon",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Approximately One Apple",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Shiny",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Bliss 1",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "o-yoroi",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Hibiscus",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Is it a Window",
+        "width": 1,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Cold Hunger",
         "width": 1,
         "height": 1,
 		"isCreative": false
@@ -314,7 +482,7 @@
         "height": 1,
 		"isCreative": false
     },
-    {
+	{
         "motive": "Other Souls",
         "width": 2,
         "height": 1,
@@ -344,7 +512,7 @@
         "height": 1,
 		"isCreative": false
     },
-    {
+	{
         "motive": "Sunrise",
         "width": 2,
         "height": 1,
@@ -353,6 +521,18 @@
 	{
         "motive": "Sunset",
         "width": 2,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Lake View",
+        "width": 2,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Cursed Forest",
+        "width": 5,
         "height": 1,
 		"isCreative": false
     },
@@ -366,12 +546,24 @@
 		"isCreative": false
     },
 	{
+        "motive": "Purified",
+        "width": 1,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "Web",
+        "width": 1,
+        "height": 2,
+		"isCreative": false
+    },
+	{
         "motive": "ai",
         "width": 1,
         "height": 2,
 		"isCreative": false
     },
-    {
+	{
         "motive": "Cherry Tree",
         "width": 1,
         "height": 2,
@@ -395,7 +587,7 @@
         "height": 2,
 		"isCreative": false
     },
-    {
+	{
         "motive": "Skylands View",
         "width": 1,
         "height": 2,
@@ -419,7 +611,13 @@
         "height": 1,
 		"isCreative": false
     },
-    {
+	{
+        "motive": "Blight Dreams",
+        "width": 3,
+        "height": 1,
+		"isCreative": false
+    },
+	{
         "motive": "Baby sea serpent trophy",
         "width": 3,
         "height": 1,
@@ -464,7 +662,7 @@
         "height": 1,
 		"isCreative": false
     },
-    {
+	{
         "motive": "Lux Aeterna",
         "width": 2,
         "height": 2,
@@ -512,7 +710,7 @@
         "height": 2,
 		"isCreative": false
     },
-    {
+	{
         "motive": "Big nod",
         "width": 2,
         "height": 2,
@@ -520,6 +718,12 @@
     },
 	{
         "motive": "With Soul",
+        "width": 2,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "Green Surface",
         "width": 2,
         "height": 2,
 		"isCreative": false
@@ -549,12 +753,30 @@
 		"isCreative": false
     },
 	{
+        "motive": "It who remains",
+        "width": 2,
+        "height": 1,
+		"isCreative": false
+    },
+	{
+        "motive": "Instigation Is a Storm",
+        "width": 3,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "Lily of the living soul",
+        "width": 3,
+        "height": 2,
+		"isCreative": false
+    },
+	{
         "motive": "It Who Sees",
         "width": 3,
         "height": 1,
 		"isCreative": false
     },
-    {
+	{
         "motive": "It Who Smells",
         "width": 1,
         "height": 3,
@@ -573,7 +795,19 @@
 		"isCreative": false
     },
 	{
+        "motive": "ornate tapestry - green",
+        "width": 3,
+        "height": 2,
+		"isCreative": false
+    },
+	{
         "motive": "ornate tapestry - orange",
+        "width": 3,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "picture - idyllic 1",
         "width": 3,
         "height": 2,
 		"isCreative": false
@@ -641,8 +875,14 @@
         "height": 2,
 		"isCreative": false
     },
-    {
+	{
         "motive": "impending",
+        "width": 3,
+        "height": 2,
+		"isCreative": false
+    },
+	{
+        "motive": "Times of the Biboat",
         "width": 3,
         "height": 2,
 		"isCreative": false
@@ -707,7 +947,7 @@
         "height": 3,
 		"isCreative": false
     },
-    {
+	{
         "motive": "Two Legends",
         "width": 3,
         "height": 3,
@@ -792,7 +1032,7 @@
 		"isCreative": false
     },
 	{
-        "motive": "Sky map of Rim",
+        "motive": "Emberian peninsula",
         "width": 4,
         "height": 3,
 		"isCreative": false
@@ -845,7 +1085,31 @@
         "height": 4,
 		"isCreative": false
     },
-    {
+	{
+        "motive": "Dream Sequence - Home",
+        "width": 4,
+        "height": 4,
+		"isCreative": false
+    },
+	{
+        "motive": "Dream Sequence - Near the Bottom",
+        "width": 4,
+        "height": 4,
+		"isCreative": false
+    },
+	{
+        "motive": "Dream Sequence - Fog Pause",
+        "width": 4,
+        "height": 4,
+		"isCreative": false
+    },
+	{
+        "motive": "Dream Sequence - Between Realms",
+        "width": 4,
+        "height": 4,
+		"isCreative": false
+    },
+	{
         "motive": "Beneath",
         "width": 5,
         "height": 3,
@@ -853,12 +1117,6 @@
     },
 	{
         "motive": "Windmill",
-        "width": 6,
-        "height": 4,
-		"isCreative": false
-    },
-	{
-        "motive": "Crusaders",
         "width": 6,
         "height": 4,
 		"isCreative": false

@@ -22,7 +22,7 @@ setAnnounceToChat(false)
 
 //Adds a single location criteria. Since this has nothing specific set, it will be completed the instant the player is added to the world, thus unlocking the page instantly.
 addCriteria("impossible", "minecraft:impossible")
-//addCriteria("location", "minecraft:location")
+criteria = addCriteria("location", "minecraft:location")
 
 setPos(0,0)
 setHidden(true)

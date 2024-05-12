@@ -79,7 +79,6 @@
 		"contenttweaker:sub_block_holder_0[sub_block_number=2]": "metalbar",
 		"contenttweaker:raw_wrought_iron": "ore",
 
-
 		"contenttweaker:rammed_earth_silty_dirt": "sandstone",
 		"contenttweaker:rammed_earth_sandy_dirt": "sandstone",
 		"contenttweaker:rammed_earth_loamy_dirt": "sandstone",
@@ -137,8 +136,7 @@
 		"contentcreator:greywacke_brick_slab_double": "brickstone",
 		"contentcreator:chert_brick_stairs": "brickstone",
 		"contentcreator:chert_brick_slab": "brickstone",
-		"contentcreator:chert_brick_slab_double": "brickstone"
-
-
+		"contentcreator:chert_brick_slab_double": "brickstone",
+		"contenttweaker:slime_nesting": "mud"
 	}
 }

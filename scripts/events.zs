@@ -1,3 +1,4 @@
+
 #loader crafttweaker reloadable
 
 import crafttweaker.block.IBlock;
@@ -139,10 +140,29 @@ HungerEvents.onFoodEaten(function(event as mods.hungertweaker.events.FoodEatenEv
 		var blind = <potion:minecraft:blindness>.makePotionEffect(400, 0, false, true);
 		event.player.addPotionEffect(blind);
 	}
-
+	
+	// Trippy pixie dust
 	if (event.food.definition.id == <iceandfire:pixie_dust>.definition.id) {
 		var nausea = <potion:minecraft:nausea>.makePotionEffect(100, 0, false, true);
 		event.player.addPotionEffect(nausea);
+	}
+	
+	//  Gives an annoying cocktail of feels on eating a Tripe Musguette
+	if (event.food.definition.id == <betterwithmods:raw_egg>.definition.id) {
+		var nausea = <potion:minecraft:nausea>.makePotionEffect(200, 1, false, false);
+		event.player.addPotionEffect(nausea);
+		var regen = <potion:minecraft:regeneration>.makePotionEffect(200, 0, false, true);
+		event.player.addPotionEffect(regen);
+		var blind = <potion:minecraft:blindness>.makePotionEffect(50, 0, false, false);
+		event.player.addPotionEffect(blind);
+		var vulnerable = <potion:potioncore:vulnerable>.makePotionEffect(100, 0, false, false);
+		event.player.addPotionEffect(vulnerable);
+	}
+	
+	// Super gummies gah
+	if (event.food.definition.id == <harvestcraft:slimegummiesitem>.definition.id) {
+		var bounce = <potion:cyclicmagic:potion.bounce>.makePotionEffect(1200, 0, false, false);
+		event.player.addPotionEffect(bounce);
 	}
 });
 
@@ -640,7 +660,7 @@ events.onPlayerRightClickItem(function(event as crafttweaker.event.PlayerRightCl
 // Spine bud light
 // Breaking the dark fruit on the bottom of the structure replaces the block above with a glaretorch illuminating the area
 events.onBlockBreak(function(event as crafttweaker.event.BlockBreakEvent){
-    if event.world.remote{
+    if(event.world.isRemote()){
         return;
     }
 	
@@ -716,7 +736,7 @@ events.onBlockBreak(function(event as crafttweaker.event.BlockBreakEvent){
 			if (event.world.getBlock(blockToReplace_n).definition.id.matches("minecraft:air")){
 				event.world.setBlockState(<blockstate:glaretorch:blocklight>, blockToReplace_n);
 			}
-			
+
 			if (event.world.getBlock(blockToReplace_e1).definition.id.matches("minecraft:air")){
 				event.world.setBlockState(<blockstate:glaretorch:blocklight>, blockToReplace_e1);
 			}
@@ -834,5 +854,40 @@ events.onBlockBreak(function(event as crafttweaker.event.BlockBreakEvent){
 				event.world.setBlockState(<blockstate:glaretorch:blocklight>, blockToReplace_sww);
 			}
 		}
+    }
+});
+
+
+// Harvester is only summonable at night. This cancels the interact event during the day.
+events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteractBlockEvent){
+    if(!event.entity.world.isRemote()){
+        if(event.block.definition.id == "multiblockmobs:soul_chassis"){
+			if(event.player.world.isDayTime()){
+				event.player.sendChat("§4Only summonable at night!");
+				event.cancel();
+			}
+        }
+    }
+});
+
+// Warning for scroll of new life
+static lifescroll as IItemStack = <lifescroll:spawnscroll>;
+events.onPlayerRightClickItem(function(event as crafttweaker.event.PlayerRightClickItemEvent){
+    if(event.world.isRemote()){
+        return;
+    }
+    
+    val handItem = event.item as IItemStack; 
+    if(!isNull(handItem)){
+        if (lifescroll.matches(handItem)) {  
+            if(isNull(event.player.data.lifeScrollFirstTimeClick)){
+                server.commandManager.executeCommand(server, "tellraw @p [\"\",{\"text\":\"WARNING: Using this scroll is a one-time use and you can't get another one! It may be wise to use it once you've established a base. If you're sure you want to use it, right-click it again.\",\"color\":\"red\"}]");
+                event.player.update({lifeScrollFirstTimeClick: true});
+				event.cancel();
+            }
+			else{
+				server.commandManager.executeCommand(server, "advancement grant @p only triumph:advancements/magick/incantation/scroll_newlife");
+			}
+        }
     }
 });

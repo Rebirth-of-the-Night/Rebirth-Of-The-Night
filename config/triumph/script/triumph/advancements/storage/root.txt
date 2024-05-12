@@ -20,7 +20,7 @@ setShowToast(true)
 setAnnounceToChat(false)
 
 //Adds a single location criteria. Since this has nothing specific set, it will be completed the instant the player is added to the world, thus unlocking the page instantly.
-addCriteria("impossible", "minecraft:impossible")
+criteria = addCriteria("location", "minecraft:location")
 
 setHidden(true)
 setPos(-699,-115)

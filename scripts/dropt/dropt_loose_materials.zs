@@ -177,7 +177,7 @@ Dropt.list("pile_gravel")
 Dropt.list("rock_quartzite")
 
   .add(Dropt.rule()
-      .matchBlocks(["minecraft:stone", "minecraft:cobblestone"])
+      .matchBlocks(["minecraft:stone", "minecraft:cobblestone", "rotn_blocks:cave_moss"])
 	  .matchHarvester(Dropt.harvester()
           .type("PLAYER")
 		  .mainHand("BLACKLIST", [], "pickaxe;1;-1")

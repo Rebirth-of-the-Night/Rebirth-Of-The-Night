@@ -893,12 +893,18 @@ Dropt.list("fiery_sludge_block")
   );
 
 Dropt.list("lodestone")
-
   .add(Dropt.rule()
       .matchBlocks(["dungeontactics:mithril_block"])
   	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(1))
-       	   .items([<minecraft:stonebrick:3>])
+	    .force()
+       	.items([<minecraft:stonebrick:3>]) // always drop chiseled coade brick
+	  )
+      .addDrop(Dropt.drop()
+        .selector(Dropt.weight(1)) // drop nothing else 50% of time  
+      )
+      .addDrop(Dropt.drop()
+        .selector(Dropt.weight(1))
+        .items([<biomesoplenty:terrestrial_artifact>]) // drops terrestrial artifact 50%
       )
   ); 
 
@@ -1093,3 +1099,23 @@ Dropt.list("futuremc_to_quark_redsandstone")
        	   .items([<quark:sandstone_new:2>])
       )
   ); 
+
+Dropt.list("well")
+  .add(Dropt.rule()
+      .matchBlocks(["well:well:*", "well:white_well:*","well:orange_well:*","well:magenta_well:*","well:light_blue_well:*","well:yellow_well:*","well:lime_well:*","well:pink_well:*","well:gray_well:*","well:silver_well:*","well:cyan_well:*","well:purple_well:*","well:blue_well:*","well:brown_well:*","well:green_well:*","well:red_well:*","well:black_well:*"])
+      .addDrop(Dropt.drop()
+        .force()
+        .items([<minecraft:brick>], Dropt.range(2)) // always drop a couple bricks
+      )
+      .addDrop(Dropt.drop()
+        .selector(Dropt.weight(34)) // drop nothing else 33% of time  
+      )
+      .addDrop(Dropt.drop()
+        .selector(Dropt.weight(33))
+        .items([<contenttweaker:masonry_brick>], Dropt.range(2)) // drop 2 masonry brick 33% of the time
+      )
+      .addDrop(Dropt.drop()
+        .selector(Dropt.weight(33))
+        .items([<pyrotech:bucket_stone>]) // drop bucket 33% of the time
+      )
+  );

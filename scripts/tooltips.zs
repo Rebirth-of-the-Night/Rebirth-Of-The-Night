@@ -255,8 +255,13 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <dungeontactics:bag_record:*>.addTooltip("Contains a music disc carefully wrapped for safe transport.");
 <dungeontactics:trickortreat_bag:*>.addTooltip("The boundary of the spirit world grows thin. Take this opportunity to gorge yourself on sweets.");
 <dungeontactics:solstice_gift:*>.addTooltip("Was this gift really meant for you? Well... finders' keepers!");
+
 <sereneseasons:greenhouse_glass:*>.addTooltip("Lets crops grow out of their normal growing seasons. If the glass is placed more than 7 blocks above a crop, the crop won't gain this benefit.");
 <netherex:ghast_meat_cooked:*>.addTooltip("Slimy, yet satisfying!");
+<betterwithmods:raw_egg>.addTooltip("An effective medicine and stomach filler. That is what you tell yourself in order to tolerate the taste.");
+<betterwithmods:raw_egg>.addShiftTooltip("Granny's remedy, directly from Causeperse (whose, you don't know). Heals for a few seconds but causes an upset stomach and leaves you vulnerable.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<harvestcraft:slimegummiesitem>.addTooltip("For years you have underestimated the power of slimes. With your intellect and these super cells, you are untouchable.");
+<rustic:elixir>.withTag({display:{LocName:"Metabolic Whey"},ElixirEffects:[{Effect: "minecraft:regeneration", Duration: 160, Amplifier: 2},{Effect: "minecraft:hunger", Duration: 160, Amplifier: 29},{Effect: "minecraft:nausea", Duration: 160, Amplifier: 0}]}).addTooltip("Tastes awful, but it will accelerate the natural healing of the body threefold and make you very hungry.");
 
 // Charm
 //<charm:totem_of_returning:*>.addTooltip("§5Right-click a block while holding the totem to bind yourself to that point. Right click again to return to that point.");
@@ -427,13 +432,12 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <rustic:bee:*>.addTooltip("Place inside an apiary to produce honeycomb.");
 
 // Weapons
+<atop:amber_sword:*>.addTooltip("A fruit with an unstable relationship to reality. Its past existence is a mere memory... or is it?");
 
 // Doors
 <malisisdoors:jail_door>.addShiftTooltip("slidin into ur DMs");
 
 // Particular Eatables (Wildly Eat)
-<contenttweaker:sprinkles:*>.addTooltip("Zero nutritional value, but it gets you going.");
-<contenttweaker:sprinkles>.addShiftTooltip("Can be consumed for a short speed boost", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <harvestcraft:teaitem:*>.addTooltip("Calming, but it gets you going.");
 <harvestcraft:teaitem>.addShiftTooltip("Can be consumed for a speed boost", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <harvestcraft:raspberryicedteaitem:*>.addTooltip("Sweet, refreshing, and it gets you going.");
@@ -519,10 +523,14 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <exsartagine:pot>.addShiftTooltip(format.white("Can be heated by:") + "" + format.yellow(" CAMPFIRE, FURNACE, SMOKER, BLAST FURNACE, STOVE, HEARTH, STOKED FLAME"), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <exsartagine:kettle>.addShiftTooltip(format.white("Can be heated by:") + "" + format.yellow(" CAMPFIRE, FURNACE, SMOKER, BLAST FURNACE, STOVE, HEARTH, STOKED FLAME"), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <exsartagine:range:*>.addTooltip("Efficiently heats cooking appliances for fuel.");
-<exsartagine:range>.addShiftTooltip("Supports up to three Stove Extensions to on either side, offering four total surfaces on which to place woks, pots and kettles.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
-<exsartagine:hearth:*>.addTooltip("Handily heats cooking appliances for fuel. Requires ignition");
-<exsartagine:hearth>.addShiftTooltip("Supports one Hearth Extension to its side, offering two total surfaces on which to place woks, pots and kettles.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<exsartagine:range:*>.addShiftTooltip("Supports up to three total Stove Extensions on either side, offering four surfaces on which to place woks, pots and bake kettles.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<exsartagine:hearth:*>.addTooltip("Heats cooking appliances for fuel. Requires ignition");
+<exsartagine:hearth:*>.addShiftTooltip("Supports one Hearth Extension to its side, offering two total surfaces on which to place woks, pots and bake kettles.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<exsartagine:range_extended>.addTooltip("An extension for the Stove. Up to three can be added to either side of a Stove. Can only be placed next to Stoves.");
+<exsartagine:hearth_extended>.addTooltip("An extension for the Hearth. Only one can be added to the side of a Hearth. Can only be placed next to Hearths.");
 
+<biomesoplenty:terrestrial_artifact>.addTooltip("Has a chance to be dropped from Ancient Lodestone.");
+<dungeontactics:mithril_block>.addTooltip("Found in frozen and artic biomes.");
 
 <advancedliftingmethods:blowing_elevator>.addShiftTooltip(format.gold("Pushes:") + "" + format.yellow(" Living entities."), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <advancedliftingmethods:blowing_elevator>.addShiftTooltip(format.gold("Chute Compat.:") + format.green(" YES."));
@@ -692,13 +700,17 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <spartanfire:longbow_fire_dragonsteel:*>.addTooltip(format.darkAqua("Damage Multiplier: ") + format.gray("x1.4"));
 <spartanweaponry:longbow_electrum:*>.addTooltip(format.darkAqua("Damage Multiplier: ") + format.gray("x1.6"));
 <simpleores:mythril_bow:*>.addTooltip(format.darkAqua("Ammo Type: ") + format.gray("Arrows"));
-<simpleores:mythril_bow:*>.addTooltip(format.darkAqua("Draw Time: ") + format.gray("1s"));
+<simpleores:mythril_bow:*>.addTooltip(format.darkAqua("Draw Time: ") + format.gray("2s"));
 <simpleores:mythril_bow:*>.addTooltip(format.darkAqua("Arrow Speed: ") + format.gray("x1"));
-<simpleores:mythril_bow:*>.addTooltip(format.darkAqua("Damage Multiplier: ") + format.gray("x1.1"));
+<simpleores:mythril_bow:*>.addTooltip(format.darkAqua("Damage Multiplier: ") + format.gray("x1.7"));
 <nyx:meteor_bow:*>.addTooltip(format.darkAqua("Ammo Type: ") + format.gray("Arrows"));
-<nyx:meteor_bow:*>.addTooltip(format.darkAqua("Draw Time: ") + format.gray("1.5s"));
+<nyx:meteor_bow:*>.addTooltip(format.darkAqua("Draw Time: ") + format.gray("1s"));
 <nyx:meteor_bow:*>.addTooltip(format.darkAqua("Arrow Speed: ") + format.gray("x1.3"));
-<nyx:meteor_bow:*>.addTooltip(format.darkAqua("Damage Multiplier: ") + format.gray("x1.5"));
+<nyx:meteor_bow:*>.addTooltip(format.darkAqua("Damage Multiplier: ") + format.gray("x1.3"));
+<betterwithaddons:greatbow:*>.addTooltip(format.darkAqua("Ammo Type: ") + format.gray("Great Arrows"));
+<betterwithaddons:greatbow:*>.addTooltip(format.darkAqua("Draw Time: ") + format.gray("4s"));
+<betterwithaddons:greatbow:*>.addTooltip(format.darkAqua("Arrow Speed: ") + format.gray("x1.7"));
+<betterwithaddons:greatbow:*>.addTooltip(format.darkAqua("Damage Multiplier: ") + format.gray("x2.5"));
 
 // Liquids
 <liquid:concentrated_bioflow>.addTooltip("You can tell that in this form it is highly toxical.");

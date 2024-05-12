@@ -1,3 +1,5 @@
+#reloadable
+
 import crafttweaker.game.IGame;
 import crafttweaker.data.IData;
 import crafttweaker.item.IItemStack;
@@ -6,7 +8,7 @@ import mods.jei.JEI;
 // Progression and CoT
 <contenttweaker:slayers_tattered_journal:*>.addTooltip("A peculiar old journal... I've copied it into my guidebook.");
 
-<multiblockmobs:soul_chassis:*>.addTooltip("Used for summoning bosses");
+<multiblockmobs:soul_chassis:*>.addTooltip(format.red("The Harvester can only be summoned during the night!"));
 
 // Biomes o Plenty
 <biomesoplenty:hive>.displayName = "Giant Hive Block";
@@ -22,7 +24,6 @@ import mods.jei.JEI;
 <basketcase:basket_small_generic>.displayName = "Small Wicker Basket";
 <basketcase:basket_medium_generic>.displayName = "Medium Wicker Basket";
 <basketcase:basket_large_generic>.displayName = "Large Wicker Basket";
-<basketcase:twig_dark_oak>.displayName = "Lye";
 
 // Artisan Worktables
 
@@ -161,8 +162,9 @@ for potion in potionMap{
 <bountifulbaubles:amuletsinempty:*>.addTooltip(format.gray("Inert"));
 <artifacts:whoopie_cushion:*>.addTooltip(format.gray("Inert"));
 
-<bountifulbaubles:trinketballoon:*>.addTooltip(format.darkGreen("Mundane"));
+<artifacts:shiny_red_balloon:*>.addTooltip(format.darkGreen("Mundane"));
 <artifacts:drinking_hat:*>.addTooltip(format.darkGreen("Mundane"));
+<artifacts:obsidian_skull:*>.addTooltip(format.darkGreen("Mundane"));
 <iceandfire:lich_staff:*>.addTooltip(format.darkGreen("Mundane"));
 <aether_legacy:cloud_staff:*>.addTooltip(format.darkGreen("Mundane"));
 <defiledlands:tears_flame:*>.addTooltip(format.darkGreen("Mundane"));
@@ -171,6 +173,7 @@ for potion in potionMap{
 <bountifulbaubles:amuletsinpride:*>.addTooltip(format.aqua("Arcane"));
 <bountifulbaubles:amuletsinwrath:*>.addTooltip(format.aqua("Arcane"));
 <bountifulbaubles:amuletcross:*>.addTooltip(format.aqua("Arcane"));
+<artifacts:snorkel:*>.addTooltip(format.aqua("Arcane"));
 <artifacts:shock_pendant:*>.addTooltip(format.aqua("Arcane"));
 <artifacts:flame_pendant:*>.addTooltip(format.aqua("Arcane"));
 <artifacts:thorn_pendant:*>.addTooltip(format.aqua("Arcane"));
@@ -186,13 +189,13 @@ for potion in potionMap{
 <randomthings:obsidianskullring:*>.addTooltip(format.aqua("Arcane"));
 
 <bountifulbaubles:trinketobsidianskull:*>.addTooltip(format.darkPurple("Mystical"));
-<bountifulbaubles:shieldcobalt:*>.addTooltip(format.darkPurple("Mystical"));
+<artifacts:cobalt_shield:*>.addTooltip(format.darkPurple("Mystical"));
 <bountifulbaubles:trinketmagiclenses:*>.addTooltip(format.darkPurple("Mystical"));
 <bountifulbaubles:ringoverclocking:*>.addTooltip(format.darkPurple("Mystical"));
 <bountifulbaubles:trinketshulkerheart:*>.addTooltip(format.darkPurple("Mystical"));
 <bountifulbaubles:trinketbezoar:*>.addTooltip(format.darkPurple("Mystical"));
 <bountifulbaubles:trinketblackdragonscale:*>.addTooltip(format.darkPurple("Mystical"));
-<bountifulbaubles:trinketluckyhorseshoe:*>.addTooltip(format.darkPurple("Mystical"));
+<artifacts:lucky_horseshoe:*>.addTooltip(format.darkPurple("Mystical"));
 <bountifulbaubles:trinketbrokenheart:*>.addTooltip(format.darkPurple("Mystical"));
 <artifacts:ultimate_pendant:*>.addTooltip(format.darkPurple("Mystical"));
 <artifacts:fire_gauntlet:*>.addTooltip(format.darkPurple("Mystical"));
@@ -201,7 +204,7 @@ for potion in potionMap{
 <bountifulbaubles:trinketapple:*>.addTooltip(format.gold("Ascended"));
 <bountifulbaubles:trinketvitamins:*>.addTooltip(format.gold("Ascended"));
 <bountifulbaubles:ringfreeaction:*>.addTooltip(format.gold("Ascended"));
-//<artifacts:night_vision_goggles:*>.addTooltip(format.gold("Ascended"));
+<artifacts:night_vision_goggles:*>.addTooltip(format.gold("Ascended"));
 
 <bountifulbaubles:trinketobsidianskull>.displayName = "§bDraconic Skull";
 <randomthings:lavacharm>.displayName = "§bLava Ring";
@@ -275,6 +278,7 @@ for potion in potionMap{
 <spartancompat:javelin_mythril:*>.addTooltip(format.darkPurple("Epic Weapon"));
 <spartanshields:shield_basic_lead:*>.addTooltip(format.darkPurple("Epic Shield"));
 
+
 <mod_lavacow:war:*>.addTooltip(format.darkPurple("Epic Weapon"));
 <mod_lavacow:sludge_wand:*>.addTooltip(format.darkPurple("Epic Weapon"));
 <mod_lavacow:bonesword:*>.addTooltip(format.darkPurple("Epic Weapon"));
@@ -292,7 +296,6 @@ for potion in potionMap{
 
 <msmlegacy:relic_keyblade:*>.addTooltip(format.darkPurple("Epic Weapon"));
 <msmlegacy:relic_infinity:*>.addTooltip(format.darkPurple("Epic Weapon"));
-
 // Legendary
 
 <msmlegacy:wither_bane:*>.addTooltip(format.gold("Legendary Weapon"));

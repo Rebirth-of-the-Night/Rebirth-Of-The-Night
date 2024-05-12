@@ -45,9 +45,15 @@ potion.sunsBlessing.0.desc=With an empty main hand, right click the ground to su
 potion.geomancy.0.desc=With an empty main hand, right click the ground to summon earthen projectiles which can be punched to launch. Hold right click to summon larger projectiles. Projectiles can be ridden if large enough.
 effects.totemexpansion.spelunking.0.desc=Marks nearby ores through solid blocks.
 
-effect.feathers.4.desc=+4 temporary Extra Feathers per level.
-effect.replenishment.4.desc=Increases feather regeneration speed.
+effect.feathers.0.desc=+4 temporary Extra Feathers per level. Oh to be loved by Shusela.
+effect.replenishment.0.desc=Increases feather regeneration speed.
 effect.endurance.0.desc=Each level unlocks 2 steel feathers.
 effect.forceful.0.desc=Increases dodge distance.
-effect.weight.4.desc=Turns all feathers to steel and will remove Endurance effect.
-effect.feeble.4.desc=Decreases dodge distance.
+effect.weight.0.desc=Turns all feathers to steel and will remove Endurance effect.
+effect.feeble.0.desc=Decreases dodge distance.
+
+rats.plague.0.desc=This terrible strand of the plague will get worse each 10 minutes unless a valid cure item or a plague doctor cures it (or you die from its final stage).
+rats.plague.1.desc=Healing rate and effectiveness reduced by 50%
+rats.plague.2.desc=All forms of HP regen blocked.
+rats.plague.3.desc=Takes damage each minute. Was it this painful to them?
+rats.plague.4.desc=Consistent damage until death. After respawn, maximum HP is reduced by 2 hearts until a healing stone is consumed. What does it mean to respawn?

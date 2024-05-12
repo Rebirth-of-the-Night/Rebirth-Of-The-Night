@@ -1,3 +1,5 @@
+#reloadable
+
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import mods.jei.JEI;
@@ -232,9 +234,9 @@ JEI.addDescription(<pyrotech:refractory_door>, "A refractory burning structure w
 JEI.addDescription(<pyrotech:living_tar>, 'Burning slowly, this tarry meat substance is in the words of its inventor, "A strong candidate for the most loathsome of fuels."');
 JEI.addDescription(<pyrotech:tinder>, "Placing it on the ground and directly adding some logs, then lighting it up, will create a functional campfire for primitive cooking and outdoors camping.");
 
-JEI.addDescription(<exsartagine:range>, "The most efficient way to power up a kitchen. Adding fuel to it will power a Cooking Pot, Wok or Bake Kettle above it; additionally, it can fuel up to three Stove Extensions to its sides, powering appliances above them for the same fuel cost.");
-JEI.addDescription(<exsartagine:range_extended>, "An extension for the Stove. Place up to three of these on either side of a Stove block to capitalize on the Stove's efficiency and heating capabilities!");
-JEI.addDescription(<exsartagine:hearth>, "A rudimentary but effective way to set up a kitchen. Can power itself and one Hearth Extension to its side, fueling Cooking Pots, Wok or Bake Kettles above them.");
+JEI.addDescription(<exsartagine:range>, "The most efficient way to heat a kitchen. Adding fuel to it will heat a Cooking Pot, Wok or Bake Kettle above it; additionally, it can fuel up to three Stove Extensions to its sides, heating appliances above them for the same fuel cost.");
+JEI.addDescription(<exsartagine:range_extended>, "An extension for the Stove. Place up to three total of these on either side of a Stove block to capitalize on the Stove's efficiency and heating capabilities!");
+JEI.addDescription(<exsartagine:hearth>, "A rudimentary but effective way to set up a kitchen. Can heat itself and one Hearth Extension to its side, heating Cooking Pots, Wok or Bake Kettles above them.");
 JEI.addDescription(<exsartagine:hearth_extended>, "An extension for the Hearth. Place one to the side of the Hearth for an extra space to heat up your cooking appliances for no extra fuel cost! Look to the Stove for an upgrade, which supports three extensions at a time.");
 JEI.addDescription(<exsartagine:wok>, "Excellent for frying singular ingredients.");
 JEI.addDescription(<exsartagine:pot>, "Excellent for boiling singular ingredients.");
@@ -492,6 +494,7 @@ JEI.addDescription(<contenttweaker:ofuda>,"An old sheet of paper with indecipher
 JEI.addDescription(<betterwithaddons:ancestry_bottle>,"Spirits extracted from souls; little remains of the original entity. Keep a bottle in your inventory when killing paranormal undead to snatch the spirit before it returns to the spiritual realm.");
 JEI.addDescription(<iceandfire:fire_lily>,"An uncommon sight in the overworld, dragon lilies can be found at extremities corresponding to their name; ice lilies in freezing cold places, and fire lilies in scorching hot regions. These flowers were once a favored treat of the fearsome and mystical dragon; however, the beasts have not been seen in the overworld for eons...");
 JEI.addDescription(<iceandfire:frost_lily>,"An uncommon sight in the overworld, dragon lilies can be found at extremities corresponding to their name; ice lilies in freezing cold places, and fire lilies in scorching hot regions. These flowers were once a favored treat of the fearsome and mystical dragon; however, the beasts have not been seen in the overworld for eons...");
+JEI.addDescription(<biomesoplenty:terrestrial_artifact>, "A strange, glimmering petal-like crimson gem. Some seem to be preserved in good condition inside the Mysterious Lodestone in cold biomes.");
 
 /* Miscellaneous (and I mean TRUE miscellaneous) */
 val arcaneBarrier = <dimstack:bedrock:0>;
@@ -502,9 +505,11 @@ val lodestone = <dungeontactics:mithril_block>;
 JEI.addDescription(arcanePortal,"Getting past these will take you to places...");
 JEI.addDescription(arcaneBarrier,"Getting past these will take you to dark places...");
 JEI.addDescription(dummy_fire,"Fire! Once thought to be the case, there is now no certainty that humans were the first civilization to conquer this force of nature, but they are still just as good making the most out of it as ever. Ignite a flame using a hand drill, a flint and steel, a fire charge... or more obscure methods. More often than not, fire is best used in controlled environments, like torches, campfires and furnaces.");
-JEI.addDescription(lodestone, "Mysterious stones with magnetic properties buried in cold long ago. Mining it makes you feel funny...");
+JEI.addDescription(lodestone, "Ancient stones with strange properties buried in the coldest parts of the world. Mining them grants magnet for a while and they can contain Stillborn Crimson Petals");
 JEI.addDescription(<contenttweaker:scaffolding>, "A rickety building material thrown together by monsters who are smarter than they seem. Easily cleared away. Breaks down over time.");
 JEI.addDescription(<animania:raw_prime_bacon>, "Shut the fuck up. I mean this when I say it. Y'all might think it's weird until you feel the raw bacon slime down your throat and you experience bliss. It's not even dangerous, almost all 'raw bacon' that you can buy has already been smoked and sanitized. Shut the fuck up. Literally. Y'all will never know what it's like to feel good because you're always putting people down. Seriously. Shut the fuck up 'is this real' yes it's real. You guys just hate to see whenever someone else is winning. I bet that you guys like your bacon fucking crispy, no pleasurable texture to it at all when you bite into it. Y'know what, that can be your body if you keep on talking about this. I'll cook you up since you guys love cooked shit so much, and eat you, and complain that it's overcooked. I bet you guys haven't had a good slice of bacon in your life. Hell, I bet y'all haven't ever had good food in the first place. Fuck you all, I'm literally happier than any of you and you're all just pissed because you can't be like me. Fuck off, losers.");
+JEI.addDescription(<atop:amber_sword>, "Deep in the human unconscious is a pervasive need for a logical universe that makes sense, But the real universe is always one step beyond logic.");
+JEI.addDescription(<contenttweaker:slime_nesting>, "Lime slimes proliferate in droves in the Overworld's grasslands when left unchecked. A slime nesting is the only spot on which lime and watermelon slimes can appear; getting rid of it will get rid of them... or it could be used to redirect their population.");
 
 /* Runes and Magic */
 JEI.addDescription(<quark:rune:*>, "An aesthetic rune used to color items. Combine with an enchanted item in an iron anvil to change the item's glint color.");

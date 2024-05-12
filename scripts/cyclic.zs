@@ -265,10 +265,14 @@ Anvil.addShaped(<cyclicmagic:fluid_drain>,[
 ]);
 */
 
-recipes.addShaped("Codex anchor", gps,[
-	[<minecraft:ender_pearl>],
-    [codex],
-    [<contenttweaker:order_quintessence>]
+recipes.addShaped("codex_anchor", gps,[
+	[<minecraft:ender_pearl>, codex],
+    [<contenttweaker:order_quintessence>, null],
+    [null, <ore:stickWood>]
+]);
+recipes.addShaped("codex_anchor_ow_style", gps,[
+	[<biomesoplenty:terrestrial_artifact>, codex],
+    [null, <ore:stickWood>]
 ]);
 
 RecipeBuilder.get("mage")

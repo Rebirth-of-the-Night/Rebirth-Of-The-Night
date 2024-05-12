@@ -1,0 +1,72 @@
+{
+    "events": [
+        {
+            "conditions": [
+                {
+                    "type": "weather",
+                    "condition": "raining"
+                },
+                {
+                    "type": "chance",
+                    "chance": {
+                        "type": "random",
+                        "value": {
+                            "min": 0,
+                            "max": 42
+                        }
+                    }
+                }
+            ],
+            "actions": [
+                {
+                    "type": "chat",
+                    "message": {
+                        "type": "random",
+                        "value": [
+                            {
+                                "value": "Angry Whispers",
+                                "weight": 12
+                            },
+                            {
+                                "value": "Confused Whispers",
+                                "weight": 7
+                            },
+                            {
+                                "value": "Expectant Whispers",
+                                "weight": 17
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "command",
+                    "command": "playsound minecraft:entity.player.breath master @p ~ ~ ~ 1 1 1",
+                    "feedback": false
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "timesincesleep",
+                    "comparison": ">",
+                    "value": 62000
+                }
+            ],
+            "actions": [
+                {
+                    "type": "potioneffect",
+                    "effect": "wards:effect_berserking",
+                    "chance": {
+                        "type": "random",
+                        "value": {
+                            "min": 0,
+                            "max": 20
+                        }
+                    },
+                    "duration": 10
+                }
+            ]
+        }
+    ]
+}

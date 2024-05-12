@@ -1,0 +1,78 @@
+{
+	"populate": {
+		"slime_nesting_grasses": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "contenttweaker:slime_nesting"
+					}
+				],
+				"surface": [
+					"minecraft:grass",
+					"minecraft:dirt",
+					"biomesoplenty:grass",
+					"biomesoplenty:dirt"
+				],
+				"cluster-size": 3,
+				"see-sky": true
+			},
+			"material": [
+				"minecraft:grass",
+				"minecraft:dirt",
+				"biomesoplenty:grass",
+				"biomesoplenty:dirt",
+			],
+			"cluster-count": 4,
+			"chunk-chance": 5,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"minecraft:plains",
+					"biomesoplenty:shrubland",
+					"minecraft:mutated_plains",
+					"biomesoplenty:lavender_fields",
+					"biomesoplenty:flower_field",
+					"biomesoplenty:grassland",
+					"biomesoplenty:grove",
+					"minecraft:forest",
+					"minecraft:birch_forest",
+					"minecraft:birch_forest_hills",
+					"minecraft:roofed_forest",
+					"minecraft:mutated_forest",
+					"minecraft:mutated_birch_forest",
+					"minecraft:mutated_birch_forest_hills",
+					"minecraft:mutated_roofed_forest",
+					"biomesoplenty:bamboo_forest",
+					"biomesoplenty:cherry_blossom_grove",
+					"biomesoplenty:maple_woods",
+					"biomesoplenty:meadow",
+					"biomesoplenty:orchard",
+					"biomesoplenty:woodland",
+					"minecraft:jungle",
+					"minecraft:jungle_hills",
+					"minecraft:jungle_edge",
+					"minecraft:mutated_jungle",
+					"minecraft:mutated_jungle_edge",
+					"biomesoplenty:eucalyptus_forest",
+					"biomesoplenty:tropical_rainforest",
+					"minecraft:swampland",
+					"minecraft:mutated_swampland",
+					"minecraft:river",
+					"biomesoplenty:bayou",
+					"biomesoplenty:bog",
+					"biomesoplenty:lush_swamp",
+					"biomesoplenty:mangrove",
+					"biomesoplenty:wetland",
+					"biomesoplenty:fen",
+					"biomesoplenty:quagmire",
+					"biomesoplenty:land_of_lakes",
+					"biomesoplenty:marsh",
+					"biomesoplenty:moor"
+				]
+			}
+		}
+	}
+}

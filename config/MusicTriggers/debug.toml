@@ -1,0 +1,41 @@
+# Show the debug info
+SHOW_DEBUG = false
+
+# If SHOW_DEBUG is set to true, but you only want to see the song name
+CURRENT_SONG_ONLY = false
+
+# If SHOW_DEBUG and CURRENT_SONG_ONLY are both enabled, but you want to see the timestamps as well
+ALLOW_TIMESTAMPS = false
+
+# Turing this down will potentially help with audio stutters (Min:1/Max:10)
+ENCODING_QUALITY = 10
+
+# Turing this down will potentially help with audio stutters (HIGH/MEDIUM/LOW)
+RESAMPLING_QUALITY = "HIGH"
+
+# The lowest level of logging (DEBUG/INFO/WARN/ERROR/FATAL) to include in the GUI log visualizer
+LOG_LEVEL = "INFO"
+
+# The maximum number of elements that will be rendered in the GUI when hovering over something that lists things out
+MAX_HOVER_ELEMENTS = 15
+
+# Allows vanilla and blocked music to play when there is music from Music Triggers already playing
+PLAY_NORMAL_MUSIC = false
+
+# Reverses the priority checker in the case of multiple triggers being able to play at once so the lowest priority wins instead of the highest
+REVERSE_PRIORITY = false
+
+# Allows for the combination of song pools in the case of multiple triggers with the same priority value being able to play at once
+COMBINE_EQUAL_PRIORITY = false
+
+# If PAUSE_WHEN_TABBED is set to false, the music will no longer get paused when the game is not in focus
+PAUSE_WHEN_TABBED = true
+
+# A list of mod ids to block audio in the specified audio category from so there is no overlap in music playing during events from other mods
+BLOCKED_MOD_CATEGORIES = [ "minecraft;music" ]
+
+# If BLOCK_STREAMING_ONLY is disabled, BLOCKED_MOD_CATEGORIES will be able to stop non streaming audio sources like sound effects from playing
+BLOCK_STREAMING_ONLY = true
+
+# When Music Triggers starts playing audio, the audio from these categories will be stopped or paused dependeing on the channel settings. Only affects blocked audio
+INTERRUPTED_AUDIO_CATEGORIES = [ "music" ]

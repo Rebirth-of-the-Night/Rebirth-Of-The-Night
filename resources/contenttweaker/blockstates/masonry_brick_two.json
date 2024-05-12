@@ -1,5 +1,11 @@
 {
 "forge_marker": 1,
+  "defaults": {
+    "textures": {},
+    "model": "contenttweaker:two_masonry_brick",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
   "variants": {
 	"normal": [
       {
@@ -32,6 +38,7 @@
         "model": "contenttweaker:two_masonry_brick_1",
         "y": 270
       }
-    ]
+    ],
+    "inventory": [{}]
   }
 }

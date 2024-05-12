@@ -32,7 +32,7 @@
     {
       "type": "crafting",
       "recipe": "spartanshields:shield_vanilla_wood_2",
-      "recipe2": "spartanshields:shield_vanilla_stone"
+      "recipe2": "crafttweaker:stone_shield"
     },
     {
       "type": "text",

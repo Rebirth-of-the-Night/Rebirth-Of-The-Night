@@ -268,6 +268,13 @@ Stonecutter.addOutputs(<minecraft:quartz_block>,
 							<quark:quartz_wall>,
 							<netherex:quartz_wall>);
 
+// Fancy stone variants
+
+Stonecutter.addOutputs(<contenttweaker:big_limestone_bricks>, // Limestone
+							<contenttweaker:fancy_limestone>);
+Stonecutter.addOutputs(<undergroundbiomes:metamorphic_brick:6>, // Soapstone
+							<contenttweaker:fancy_soapstone>);
+							
 // Unifying vanilla recipes
 
 Stonecutter.addOutputs(<contenttweaker:brick_minecraft_clay>,

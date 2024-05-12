@@ -212,9 +212,6 @@ recipes.removeByRecipeName("harvestcraft:minecraft_leather_chestplate");
 recipes.removeByRecipeName("harvestcraft:minecraft_leather_leggings");
 recipes.removeByRecipeName("harvestcraft:minecraft_leather_boots");
 
-recipes.remove(<harvestcraft:lavendershortbreaditem>);
-recipes.addShapeless("lavender_shortbread",<harvestcraft:lavendershortbreaditem>,[<ore:toolBakeware>,<ore:dyePurple>,<harvestcraft:doughitem>]);
-
 JEI.removeAndHide(<harvestcraft:rainbowcurryitem>);
 JEI.removeAndHide(<harvestcraft:venisonrawitem>);
 JEI.removeAndHide(<harvestcraft:venisoncookeditem>);
@@ -306,9 +303,6 @@ recipes.addShaped("food_presser", <harvestcraft:presser>, [
 [<betterwithmods:material:24>, <betterwithmods:material:34>, <betterwithmods:material:24>]]);
 
 // Honey production
-// recipes.addShapeless("harvestcraft_grub_crowning", <harvestcraft:queenbeeitem>, [<harvestcraft:grubitem>,<bountifulbaubles:crowngold>.giveBack(),<dungeontactics:magic_powder>]);
-// Mill.addRecipe([<harvestcraft:honeycombitem>],[<harvestcraft:honeyitem>*6,<harvestcraft:beeswaxitem>]);
-// Mill.addRecipe([<harvestcraft:waxcombitem>],[<harvestcraft:beeswaxitem>*6]);
 recipes.remove(<harvestcraft:pressedwax>);
 recipes.addShaped("beeswax_block", <harvestcraft:pressedwax>, [
 	[<rustic:beeswax>, <rustic:beeswax>],

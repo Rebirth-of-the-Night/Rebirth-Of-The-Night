@@ -1,6 +1,6 @@
 setIcon(<aether_legacy:valkyrie_lance>)
 setTitle("Kill Valkyrie Queen")
-setDescription("#PLACEHOLDER#")
+setDescription("Kill the Valkyrie Queen")
 
 addParent("triumph:advancements/progression/aether/enterAether")
 

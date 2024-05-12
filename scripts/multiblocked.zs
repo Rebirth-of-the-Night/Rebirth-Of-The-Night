@@ -69,7 +69,7 @@ recipes.addShaped((<multiblocked:biotic_incubator>), [
 ]);
 recipes.addShaped((<multiblocked:crystalline_accelerator>), [
     [null, <forge:bucketfilled>.withTag({FluidName: "residual_mythril", Amount: 1000}).reuse(), null],
-    [<contenttweaker:magicked_stone>.reuse(), <aesthetics:mythril_bars>, <contenttweaker:magicked_stone>.reuse()], 
+    [<contenttweaker:magicked_stone>.reuse(), <ore:ingotMythril>, <contenttweaker:magicked_stone>.reuse()], 
     [null, <arcanearchives:raw_quartz_cluster>.reuse(), null]
 ]);
 recipes.addShaped((<multiblocked:mechanical_processor>), [

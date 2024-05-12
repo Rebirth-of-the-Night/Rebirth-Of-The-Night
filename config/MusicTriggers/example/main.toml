@@ -1,0 +1,452 @@
+# Please refer to the wiki page located at https://github.com/TheComputerizer/Music-Triggers/wiki
+# or the discord server located at https://discord.gg/FZHXFYp8fc
+# for any specific questions you might have regarding the main config file
+
+[triggers]
+	[triggers.menu]
+	[triggers.raining]
+
+
+
+	[triggers.time]
+		time_bundle = "night"
+		identifier = "night"
+
+
+
+	[[triggers.structure]]
+		resource_name = [ "Fortress" ]
+		persistence = "120"
+		priority = "100"
+		identifier = "nether_fortress"
+	[[triggers.structure]]
+		resource_name = [ "Stronghold" ]
+		persistence = "120"
+		priority = "100"
+		identifier = "stronghold"
+	[[triggers.structure]]
+		resource_name = [ "EndCity" ]
+		persistence = "120"
+		priority = "100"
+		identifier = "endcity"
+
+
+
+
+	[[triggers.height]]
+		level = "15"
+		priority = "10"
+		identifier = "deep_underground"
+	[[triggers.height]]
+		level = "50"
+		priority = "10"
+		identifier = "underground"
+
+
+
+
+	[triggers.biome]
+		identifier = "snowy"
+		biome_category = [ "snowy" ]
+		resource_name = [ "snowy" "ice" "glacier" "frozen" "cold" ]
+
+
+
+	[[triggers.dimension]]
+		identifier = "overworld"
+		resource_name = [ "0" ]
+	[[triggers.dimension]]
+		identifier = "beneath"
+		priority = "100"
+		resource_name = [ "10" ]
+	[[triggers.dimension]]
+		identifier = "twilightforest"
+		priority = "50"
+		resource_name = [ "7" ]
+	[[triggers.dimension]]
+		identifier = "nether"
+		resource_name = [ "-1" ]
+	[[triggers.dimension]]
+		identifier = "end"
+		priority = "100"
+		resource_name = [ "1" ]
+
+
+
+
+	[[triggers.mob]]
+		identifier = "horde"
+		horde_targeting_percentage = "100.0"
+		level = "8"
+		detection_range = "100"
+		resource_name = [ "MOB" ]
+		detection_y_ratio = "0.25"
+		persistence = "120"
+		priority = "50"
+	[[triggers.mob]]
+		identifier = "any_boss"
+		priority = "100"
+		detection_range = "50"
+		persistence = "80"
+		mob_targeting = false
+		resource_name = [ "BOSS" ]
+	[[triggers.mob]]
+		identifier = "harvester"
+		priority = "500"
+		detection_range = "100"
+		resource_name = [ "harvestersnight:harvester" ]
+	[[triggers.mob]]
+		identifier = "wither"
+		priority = "500"
+		detection_range = "100"
+		resource_name = [ "minecraft:wither" ]
+	[[triggers.mob]]
+		identifier = "enderdragon"
+		priority = "500"
+		detection_range = "300"
+		detection_y_ratio = "100.0"
+		mob_targeting = false
+		resource_name = [ "minecraft:ender_dragon" ]
+	[[triggers.mob]]
+		identifier = "hirschgeist"
+		priority = "500"
+		detection_range = "100"
+		resource_name = [ "betteranimalsplus:hirschgeist" ]
+	[[triggers.mob]]
+		identifier = "sunchief"
+		priority = "500"
+		detection_range = "50"
+		persistence = "100"
+		resource_name = [ "mowziesmobs:barako" ]
+	[[triggers.mob]]
+		identifier = "frostmaw"
+		priority = "500"
+		detection_range = "100"
+		resource_name = [ "mowziesmobs:frostmaw" ]
+	[[triggers.mob]]
+		identifier = "blackdeath"
+		priority = "500"
+		detection_range = "100"
+		resource_name = [ "rats:black_death" ]
+	[[triggers.mob]]
+		identifier = "snowqueen"
+		priority = "500"
+		detection_range = "100"
+		resource_name = [ "twilightforest:snow_queen" ]
+	[[triggers.mob]]
+		identifier = "quazar"
+		priority = "500"
+		detection_range = "100"
+		resource_name = [ "betterslimes:quazar" ]
+	[[triggers.mob]]
+		identifier = "wroughtnaut"
+		priority = "500"
+		detection_range = "10"
+		resource_name = [ "mowziesmobs:ferrous_wroughtnaut" ]
+
+	[triggers.universal]
+		fade_out = "40"
+		persistence = "0"
+		trigger_delay = "0"
+		song_delay = "0"
+		start_delay = "0"
+		fade_in = "20"
+[songs]
+	[songs.DuNock-Street]
+		triggers = [ "menu" ]
+
+
+	[songs.Ruthless]
+		triggers = [ "mob-any_boss" ]
+	[songs.Ruthless2]
+		triggers = [ "mob-any_boss" ]
+	[songs.Ruthless3]
+		triggers = [ "mob-any_boss" ]
+
+	[songs.TheHarvester]
+		triggers = [ "mob-harvester" ]
+
+	[songs.Wither]
+		triggers = [ "mob-wither" ]
+	[songs.Wither2]
+		triggers = [ "mob-wither" ]
+
+	[songs.LastStand]
+		triggers = [ "mob-enderdragon" ]
+	[songs.Hirschgeist1]
+		triggers = [ "mob-hirschgeist" ]
+	[songs.SunChief]
+		triggers = [ "mob-sunchief" ]
+	[songs.Frostmaw]
+		triggers = [ "mob-frostmaw" ]
+	[songs.BlackDeath1]
+		triggers = [ "mob-blackdeath" ]
+	[songs.SnowQueen1]
+		triggers = [ "mob-snowqueen" ]
+	[songs.Quazar]
+		triggers = [ "mob-quazar" ]
+	[songs.Wroughtnaut]
+		triggers = [ "mob-wroughtnaut" ]
+
+	[songs.NFortress1]
+		triggers = [ "structure-nether_fortress" ]
+	[songs.NFortress2]
+		triggers = [ "structure-nether_fortress" ]
+	[songs.NFortress3]
+		triggers = [ "structure-nether_fortress" ]
+
+	[songs.Fort1]
+		triggers = [ "structure-stronghold" ]
+	[songs.Fort2]
+		triggers = [ "structure-stronghold" ]
+	[songs.Fort3]
+		triggers = [ "structure-stronghold" ]
+	[songs.Fort4]
+		triggers = [ "structure-stronghold" ]
+	[songs.Fort5]
+		triggers = [ "structure-stronghold" ]
+
+	[songs.EndCity1]
+		triggers = [ "structure-endcity" ]
+	[songs.EndCity2]
+		triggers = [ "structure-endcity" ]
+
+	[songs.InvasionSong]
+		triggers = [ "mob-horde" ]
+
+
+		##### OTHER DIMENIONS
+	[songs.Nether1]
+		triggers = [ "dimension-nether" ]
+	[songs.Nether2]
+		triggers = [ "dimension-nether" ]
+	[songs.Nether3]
+		triggers = [ "dimension-nether" ]
+	[songs.Nether4]
+		triggers = [ "dimension-nether" ]
+	[songs.Nether5]
+		triggers = [ "dimension-nether" ]
+	[songs.Nether6]
+		triggers = [ "dimension-nether" ]
+	[songs.Nether7]
+		triggers = [ "dimension-nether" ]
+	[songs.Nether8]
+		triggers = [ "dimension-nether" ]
+	[songs.NetherDepths]
+		triggers = [ "dimension-nether" ]
+
+	[songs.End1]
+		triggers = [ "dimension-end" ]
+	[songs.End2]
+		triggers = [ "dimension-end" ]
+	[songs.End3]
+		triggers = [ "dimension-end" ]
+	[songs.End4]
+		triggers = [ "dimension-end" ]
+	[songs.End5]
+		triggers = [ "dimension-end" ]
+	[songs.End6]
+		triggers = [ "dimension-end" ]
+
+
+	[songs.Beneath1]
+		triggers = [ "dimension-beneath" ]
+	[songs.Beneath2]
+		triggers = [ "dimension-beneath" ]
+	[songs.Beneath3]
+		triggers = [ "dimension-beneath" ]
+	[songs.Beneath4]
+		triggers = [ "dimension-beneath" ]
+	[songs.Beneath5]
+		triggers = [ "dimension-beneath" ]
+	[songs.Beneath6]
+		triggers = [ "dimension-beneath" ]
+	[songs.Beneath7]
+		triggers = [ "dimension-beneath" ]
+	[songs.Beneath8]
+		triggers = [ "dimension-beneath" ]
+	[songs.Beneath9]
+		triggers = [ "dimension-beneath" ]
+	[songs.Beneath10]
+		triggers = [ "dimension-beneath" ]
+	[songs.demoniachorus]
+		triggers = [ "dimension-beneath" ]
+
+
+	[songs.TForest1]
+		triggers = [ "dimension-twilightforest" ]
+	[songs.TForest2]
+		triggers = [ "dimension-twilightforest" ]
+	[songs.TForest3]
+		triggers = [ "dimension-twilightforest" ]
+	[songs.TForest4]
+		triggers = [ "dimension-twilightforest" ]
+	[songs.TForest5]
+		triggers = [ "dimension-twilightforest" ]
+	[songs.TheShapersRealm]
+		triggers = [ "dimension-twilightforest" ]
+
+
+		##### UNDERGROUND (OVERWORLD)
+	[songs.Underground1]
+		triggers = [ "height-underground" "dimension-overworld" ]
+	[songs.Underground2]
+		triggers = [ "height-underground" "dimension-overworld" ]
+	[songs.Underground3]
+		triggers = [ "height-underground" "dimension-overworld" ]
+	[songs.Underground4]
+		triggers = [ "height-underground" "dimension-overworld" ]
+	[songs.Underground5]
+		triggers = [ "height-underground" "dimension-overworld" ]
+	[songs.Underground6]
+		triggers = [ "height-underground" "dimension-overworld" ]
+	[songs.Underground7]
+		triggers = [ "height-underground" "dimension-overworld" ]
+	[songs.Underground8]
+		triggers = [ "height-underground" "dimension-overworld" ]
+	[songs.Underground9]
+		triggers = [ "height-underground" "dimension-overworld" ]
+	[songs.Underground10]
+		triggers = [ "height-underground" "dimension-overworld" ]
+	[songs.Underground11]
+		triggers = [ "height-underground" "dimension-overworld" ]
+
+	[songs.DeepUnder1]
+		triggers = [ "height-deep_underground" "dimension-overworld" ]
+	[songs.DeepUnder2]
+		triggers = [ "height-deep_underground" "dimension-overworld" ]
+	[songs.DeepUnder3]
+		triggers = [ "height-deep_underground" "dimension-overworld" ]
+
+
+
+		##### BIOMES
+	[songs.GlacierDay1]
+		triggers = [ "dimension-overworld" "biome-snowy" ]
+	[songs.GlacierDay2]
+		triggers = [ "dimension-overworld" "biome-snowy" ]
+	[songs.IcyDay1]
+		triggers = [ "dimension-overworld" "biome-snowy" ]
+	[songs.IcyDay2]
+		triggers = [ "dimension-overworld" "biome-snowy" ]
+	[songs.IcyDay3]
+		triggers = [ "dimension-overworld" "biome-snowy" ]
+	[songs.WintersSong]
+		triggers = [ "dimension-overworld" "biome-snowy" ]
+	[songs.GlacierNight1]
+		triggers = [ "dimension-overworld" "biome-snowy" "time-night" ]
+	[songs.GlacierNight2]
+		triggers = [ "dimension-overworld" "biome-snowy" "time-night" ]
+	[[songs.WintersNight]]
+		triggers = [ "dimension-overworld" "biome-snowy" "time-night" ]
+	[songs.IcyNight1]
+		triggers = [ "dimension-overworld" "biome-snowy" "time-night" ]
+	[songs.IcyNight2]
+		triggers = [ "dimension-overworld" "biome-snowy" "time-night" ]
+
+
+		##### WEATHER
+	[[songs.Moonsong]]
+		triggers = [ "dimension-overworld" "raining" ]
+	[[songs.IntoSilenceP1]]
+		triggers = [ "dimension-overworld" "raining" ]
+	[[songs.CrystalForest]]
+		triggers = [ "dimension-overworld" "raining" ]
+	[[songs.WorldUnbound]]
+		triggers = [ "dimension-overworld" "raining" ]
+	[songs.FrozenInTime]
+		triggers = [ "dimension-overworld" "raining" ]
+	[songs.QuestsEnd]
+		triggers = [ "dimension-overworld" "raining" ]
+
+		##### OVERWORLD
+	[[songs.IntoSilenceP1]]
+		triggers = [ "time-night" "dimension-overworld" ]
+	[[songs.Moonsong]]
+		triggers = [ "time-night" "dimension-overworld" ]
+	[[songs.CrystalForest]]
+		triggers = [ "time-night" "dimension-overworld" ]
+	[songs.Alvae]
+		triggers = [ "time-night" "dimension-overworld" ]
+	[songs.Storm]
+		triggers = [ "time-night" "dimension-overworld" ]
+	[songs.Sleeper]
+		triggers = [ "time-night" "dimension-overworld" ]
+	[songs.Night1]
+		triggers = [ "time-night" "dimension-overworld" ]
+	[songs.Night2]
+		triggers = [ "time-night" "dimension-overworld" ]
+	[songs.FarBeyond]
+		triggers = [ "time-night" "dimension-overworld" ]
+	[[songs.WintersNight]]
+		triggers = [ "time-night" "dimension-overworld" ]
+	[songs.Clarity]
+		triggers = [ "time-night" "dimension-overworld" ]
+	[songs.ShimmeringInTheShallows]
+		triggers = [ "time-night" "dimension-overworld" ]
+	[[songs.WorldUnbound]]
+		triggers = [ "time-night" "dimension-overworld" ]
+	[songs.Eventide]
+		triggers = [ "time-night" "dimension-overworld" ]
+
+
+	[songs.ACelticTale]
+		triggers = [ "dimension-overworld" ]
+	[songs.Alpha]
+		triggers = [ "dimension-overworld" ]
+	[songs.ASongFromTheDeep]
+		triggers = [ "dimension-overworld" ]
+	[songs.BeautifulDreams]
+		triggers = [ "dimension-overworld" ]
+	[songs.CelticLore]
+		triggers = [ "dimension-overworld" ]
+	[songs.Deliverance]
+		triggers = [ "dimension-overworld" ]
+	[songs.KeeperOfTheForest]
+		triggers = [ "dimension-overworld" ]
+	[songs.KingdomOfBards]
+		triggers = [ "dimension-overworld" ]
+	[songs.Mourning]
+		triggers = [ "dimension-overworld" ]
+	[songs.NeverToReturn]
+		triggers = [ "dimension-overworld" ]
+	[songs.OdeToTheFallen]
+		triggers = [ "dimension-overworld" ]
+	[songs.Reverie]
+		triggers = [ "dimension-overworld" ]
+	[songs.SacredEarth]
+		triggers = [ "dimension-overworld" ]
+	[songs.WoodlandTales]
+		triggers = [ "dimension-overworld" ]
+	[songs.WhereIBelong]
+		triggers = [ "dimension-overworld" ]
+	[songs.WhatLiesBeyond]
+		triggers = [ "dimension-overworld" ]
+	[songs.Wanderer]
+		triggers = [ "dimension-overworld" ]
+	[songs.Mirrormere]
+		triggers = [ "dimension-overworld" ]
+	[songs.NightAtTheEolian]
+		triggers = [ "dimension-overworld" ]
+	[songs.WildfireP1]
+		triggers = [ "dimension-overworld" ]
+	[songs.WildfireP2]
+		triggers = [ "dimension-overworld" ]
+	[songs.CrannNaBeatha]
+		triggers = [ "dimension-overworld" ]
+	[songs.CastleInTheSky]
+		triggers = [ "dimension-overworld" ]
+	[songs.NightoftheFae]
+		triggers = [ "dimension-overworld" ]
+	[songs.SiochainShuthain]
+		triggers = [ "dimension-overworld" ]
+	[songs.ForTheKing]
+		triggers = [ "dimension-overworld" ]
+	[songs.Freedom]
+		triggers = [ "dimension-overworld" ]
+	[songs.BreathOfTheForest]
+		triggers = [ "dimension-overworld" ]
+	[songs.Myth]
+		triggers = [ "dimension-overworld" ]
+
+	[songs.universal]
