@@ -16,7 +16,7 @@ Kiln.removeAll();
 var kilnFood as IItemStack[][IIngredient] = {
 	<contenttweaker:salty_crust> : [<animania:salt>],		//Salt
 	<quark:biome_cobblestone> : [<betterwithmods:material:25>],			// Brimstone
-	<contenttweaker:plain_pizza_block> : [<contenttweaker:plain_pizza>],		 //Plain Pizza
+//	<contenttweaker:plain_pizza_block> : [<contenttweaker:plain_pizza>],		 //Plain Pizza
 	<contenttweaker:meat_pizza_block>	:	[<exsartagine:pizza_meat>],
 	<contenttweaker:chicken_pizza_block>:	[<exsartagine:pizza_chicken>],
 	<contenttweaker:fish_pizza_block>	:	[<exsartagine:pizza_fish>],
