@@ -66,7 +66,7 @@ var scab = <contenttweaker:scab>;
 var stomach = <ore:materialStomach>;
 var suntouched = <contenttweaker:suntouched_diamond>;
 var starblock = <contenttweaker:star_block>;
-var redstone = <minecraft:redstone>
+var redstone = <minecraft:redstone>;
 
 //Define liquids
 var hotspring = <liquid:hot_spring_water>;
