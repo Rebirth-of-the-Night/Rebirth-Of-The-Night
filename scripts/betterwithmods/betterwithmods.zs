@@ -38,6 +38,9 @@ recipes.removeByRecipeName("betterwithmods:items/material/material.padding");
 recipes.addShapeless("betterwithmods_items/material/material_padding_feather", <betterwithmods:material:41>, [<ore:feather>,<betterwithmods:material:4>]);
 recipes.addShapeless("betterwithmods_items/material/material_padding_wool", <betterwithmods:material:41>, [<ore:woolBlock>,<betterwithmods:material:4>]);
 
+JEI.removeAndHide(<betterwithmods:steel_gearbox>);
+JEI.removeAndHide(<betterwithmods:steel_broken_gearbox>);
+
 JEI.removeAndHide(<betterwithmods:bark:*>);
 JEI.removeAndHide(<betterwithmods:nether_growth>);
 JEI.removeAndHide(<betterwithmods:steel_saw>);
@@ -291,7 +294,6 @@ recipes.addShaped("gearbox_wood_siding", <betterwithmods:wooden_gearbox>, [
 	[siding_wood, gear_wood, siding_wood]
 ]);
 recipes.addShapeless("gearbox_wood_repair", <betterwithmods:wooden_gearbox>, [<betterwithmods:wooden_broken_gearbox>, gear_wood, gear_wood]);
-recipes.addShapeless("gearbox_steel_repair", <betterwithmods:steel_gearbox>, [<betterwithmods:steel_broken_gearbox>, gear_steel, gear_steel]);
 // mechanical booster rail
 recipes.remove(<betterwithmods:booster>);
 recipes.addShaped("mech_booster_rail_4", <betterwithmods:booster>*4, [
