@@ -113,7 +113,7 @@ CompactingBin.addRecipe("mud_compacting", <biomesoplenty:mud>, <biomesoplenty:mu
 CompactingBin.addRecipe("compactrottenflesh", <charm:rotten_flesh_block>, <minecraft:rotten_flesh>, 9, true);
 
 //Composting Recipes
-CompostBin.addRecipe(<pyrotech:mulch>, <betterwithmods:material:3>, 12);
+CompostBin.addRecipe(<pyrotech:mulch>, <betterwithmods:material:2>, 12);
 CompostBin.addRecipe(<pyrotech:mulch>, <betterwithmods:hemp>, 12);
 CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:blackberryseeditem>, 12);
 CompostBin.addRecipe(<pyrotech:mulch>, <harvestcraft:blueberryseeditem>, 12);
