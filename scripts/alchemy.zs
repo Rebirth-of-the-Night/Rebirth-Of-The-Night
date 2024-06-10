@@ -39,7 +39,6 @@ var ironW = <contenttweaker:material_part:49>;
 var aloe = <rustic:aloe_vera>;
 var blazepowder = <minecraft:blaze_powder>;
 var cincinnasite = <betternether:cincinnasite>;
-var gearsteel = <pyrotech:cog_bone>;
 var deathstalk = <rustic:deathstalk_mushroom>;
 var bronzefeather = <iceandfire:stymphalian_bird_feather>;
 var bottle = <minecraft:glass_bottle>;
@@ -67,6 +66,7 @@ var scab = <contenttweaker:scab>;
 var stomach = <ore:materialStomach>;
 var suntouched = <contenttweaker:suntouched_diamond>;
 var starblock = <contenttweaker:star_block>;
+var redstone = <minecraft:redstone>
 
 //Define liquids
 var hotspring = <liquid:hot_spring_water>;
@@ -199,7 +199,7 @@ val healthboostElixirOverworld = <rustic:elixir>.withTag({display:{LocName:"Simp
 val strengthElixirOverworld = <rustic:elixir>.withTag({display:{LocName:"Simple Strength Elixir"},ElixirEffects:[{Effect: "minecraft:strength", Duration: 9600, Amplifier: 0}]});
 val forcefulElixirOverworld = <rustic:elixir>.withTag({display:{LocName:"Simple Forceful Elixir"},ElixirEffects:[{Effect: "elenaidodge2:forceful", Duration: 9600, Amplifier: 0}]});
 val fireresElixirOverworld = <rustic:elixir>.withTag({display:{LocName:"Simple Fire Resistance Elixir"},ElixirEffects:[{Effect: "minecraft:fire_resistance", Duration: 9600, Amplifier: 3}]});
-val healingElixirOverworld = <rustic:elixir>.withTag({display:{LocName:"Metabolic Whey"},ElixirEffects:[{Effect: "minecraft:regeneration", Duration: 160, Amplifier: 2},{Effect: "minecraft:hunger", Duration: 160, Amplifier: 29},{Effect: "minecraft:nausea", Duration: 160, Amplifier: 0}]});
+val healthElixirOverworld = <rustic:elixir>.withTag({display:{LocName:"Metabolic Whey"},ElixirEffects:[{Effect: "minecraft:regeneration", Duration: 160, Amplifier: 2},{Effect: "minecraft:hunger", Duration: 160, Amplifier: 29},{Effect: "minecraft:nausea", Duration: 160, Amplifier: 0}]});
 
 val healthElixirNether = <rustic:elixir>.withTag({display:{LocName:"Simple Healing Elixir"},ElixirEffects:[{Effect: "minecraft:instant_health", Amplifier: 2}]});
 val ironskinElixirNether = <rustic:elixir>.withTag({display:{LocName:"Simple Ironskin Elixir"},ElixirEffects:[{Effect: "rustic:ironskin", Duration: 4800, Amplifier: 1}]});
@@ -234,7 +234,7 @@ val flightElixirEnd = <rustic:elixir>.withTag({display:{LocName:"Air Master's El
 Condenser.addRecipe(speedElixirOverworld, [thistle, fasthaw]);
 Condenser.addRecipe(magnetismElixirOverworld, [ironBerry, genericNugg]);
 Condenser.addRecipe(bouncyElixirOverworld, [slime, mallow]);
-Condenser.addRecipe(healingElixirOverworld, [ginseng, stomach]);
+Condenser.addRecipe(healthElixirOverworld, [ginseng, stomach]);
 Condenser.addRecipe(luckElixirOverworld, [fourclover, goldNugg], null, bottle, hotspring * 125);
 Condenser.addRecipe(featherElixirOverworld, [cloudsbluff, cloudgold], null, bottle, lunarwater * 125);
 Condenser.addRecipe(healthboostElixirOverworld, [bloodorchid, fleshblockR], null, bottle, hotspring * 125);
@@ -246,7 +246,7 @@ Condenser.addRecipe(fireresElixirOverworld, [aloe, scab], null, bottle, lunarwat
 Condenser.addRecipe(healthElixirNether, [tear, tarblock], null, bottle, lunarwater * 1000);
 Condenser.addRecipe(ironskinElixirNether, [ironW, horsetail], null, bottle, blood * 125);
 Condenser.addRecipe(enduranceElixirNether, [horsetail, thistle], null, bottle, spiritfire * 250);
-Condenser.addRecipe(hasteElixirNether, [cincinnasite, gearsteel], null, bottle, spiritfire * 125);
+Condenser.addRecipe(hasteElixirNether, [cincinnasite, redstone], null, bottle, spiritfire * 125);
 
 /////CRAFTABLE POST-AETHER\\\\\
 Condenser.addRecipe(poisonresElixirAether, [petal, deathstalk], null, bottle, poison * 125);
