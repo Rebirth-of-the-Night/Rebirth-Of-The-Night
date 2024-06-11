@@ -1,0 +1,43 @@
+{
+	"populate": {
+		"ow_scabs": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": "contenttweaker:scab",
+				"surface": [
+					"biomesoplenty:grass",
+					"defiledlands:stone_defiled",
+					"defiledlands:dirt_defiled",
+					"defiledlands:grass_defiled"
+				],
+				"cluster-size": 4
+			},
+			"material": [
+				"minecraft:grass",
+				"minecraft:dirt",
+				"minecraft:gravel",
+				"minecraft:sand",
+				"biomesoplenty:grass",
+				"biomesoplenty:dirt",
+				"undergroundbiomes:sedimentary_stone",
+				"undergroundbiomes:metamorphic_stone",
+				"undergroundbiomes:igneous_stone",
+				"minecraft:hardened_clay"
+			],
+			"cluster-count": 2,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"biomesoplenty:ominous_woods",
+					"defiledlands:forest_tenebra",
+					"defiledlands:forest_vilespine",
+					"defiledlands:hills_defiled",
+					"defiledlands:plains_defiled",
+					"defiledlands:swamp_defiled"
+				]
+			}
+		}
+	}
+}
