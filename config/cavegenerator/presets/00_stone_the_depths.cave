@@ -9,8 +9,12 @@
       height: [ 0, 20 ]
     }
     {
+      state: contenttweaker:greatbrick_gneiss
+      height: [ 21, 79 ]
+    }
+    {
       state: stone
-      height: [ 20, 256 ]
+      height: [ 80, 256 ]
     }
   ]
 }

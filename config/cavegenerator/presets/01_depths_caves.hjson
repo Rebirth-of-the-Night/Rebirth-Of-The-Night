@@ -1,0 +1,50 @@
+{
+  enabled: true
+  biomes: {
+    names: biometweaker:depths
+    types: []
+  }
+  dimensions: 27
+  replaceableBlocks: [ "stone", "dirt", "contenttweaker:greatbrick_gneiss" ]
+  replaceDecorators: false
+  rooms: {
+    scale: 7
+    stretch: 0.8
+  }
+  caverns: {
+    ceiling: {
+      frequency: 0.02
+      range: [ 0, 0 ]
+    }
+    floor: {
+      frequency: 0.02
+      range: [ 0, 0 ]
+    }
+    height: [ 25, 190 ]
+    generators: [ {
+        seed: 20
+        frequency: 0.02
+        offset: 90
+        lacunarity: 1
+        octaves: 1
+        gain: 0.1
+        perturb: false
+        perturbAmp: 8
+        perturbFreq: 0.07
+        type: Cellular
+        jitterY: 0.25
+        jitterX: 1.5
+        jitterZ: 1.5
+        returnType: Distance3Add
+        distFunc: Manhattan
+        invert: false
+        interp: Hermite
+        fractal: FBM
+        threshold: 0.86
+        stretch: 2.9
+      } ]
+  }
+  caveBlocks: [
+    { states: "railcraft:frostbound", height: [ 0, 32 ] }
+  ]
+}

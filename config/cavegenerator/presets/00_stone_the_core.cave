@@ -18,7 +18,7 @@
       }
     }
     {
-      state: primal:nether_stone
+      state: biomesoplenty:flesh
       height: [ 0, 255 ]
       ceiling: {
         frequency: 0.015

@@ -1,6 +1,6 @@
 #Credits to Bluefire's: blue_tunnelcavern_01
 {
-  enabled: true
+  enabled: false
   replaceableBlocks: [ "stone" ]
   replaceDecorators: false
   dimensions: [ 27 ]
