@@ -47,7 +47,7 @@ GraniteAnvil.addRecipe("prismarine_to_prismshard", <minecraft:prismarine_shard>*
 GraniteAnvil.addRecipe("prism_brick_to_prismshard_to", <minecraft:prismarine_shard>*8, <minecraft:prismarine:1>, 18, "pickaxe", true);
 GraniteAnvil.addRecipe("flintblock_to_flint", <minecraft:flint>*4, <betterwithmods:aesthetic:5>, 8, "hammer", true);
 GraniteAnvil.addRecipe("purpur_to_popped_chorus", <minecraft:chorus_fruit_popped>*3, <minecraft:purpur_block>, 8, "hammer", true);
-GraniteAnvil.addRecipe("halolite_to_salt", <animania:salt>*3, <primal:ore_salt:1>,6, "pickaxe", true);
+//REPLACEME-GraniteAnvil.addRecipe("halolite_to_salt", <animania:salt>*3, <primal:ore_salt:1>,6, "pickaxe", true);
 GraniteAnvil.addRecipe("dense_redstone", <minecraft:redstone>*2, <pyrotech:material:36>, 2, "hammer", true);
 GraniteAnvil.addRecipe("dense_quartz", <minecraft:quartz>*2, <pyrotech:material:37>, 2, "pickaxe", true);
 GraniteAnvil.addRecipe("ambrosium_to_magic_dust", <contenttweaker:magic_blend>*18, <aether_legacy:ambrosium_block>, 16, "hammer", true);

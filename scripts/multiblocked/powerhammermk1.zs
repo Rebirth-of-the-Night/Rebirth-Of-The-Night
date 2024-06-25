@@ -139,7 +139,6 @@ val PowerHammerItemInputs = [
     <minecraft:prismarine:1>,
     <betterwithmods:aesthetic:5>,
     <minecraft:purpur_block>,
-    <primal:ore_salt:1>,
     <pyrotech:material:36>,
     <pyrotech:material:37>, 
     <aether_legacy:ambrosium_block>,

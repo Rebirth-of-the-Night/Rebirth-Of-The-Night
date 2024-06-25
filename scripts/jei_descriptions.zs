@@ -336,7 +336,7 @@ JEI.addDescription(<chutes:chute_entry_wood>, "The benefit of 4 full blocks in 1
 
 JEI.addDescription(<quark:sugar_block>, "Thoughtless farmers will lose their precious sugar deposits if left near water – the blocks will dissolve outright.");
 JEI.addDescription(<charm:gunpowder_block>, "Inert storage for an explosive element. Falls like sand and gravel. Like its item counterpart, it will dissolve in lava.");
-JEI.addDescription(<primal:ore_salt:1>,"A huge chunk of halolite. It has lots of sodium chloride... salty!");
+//REPLACEME- JEI.addDescription(<primal:ore_salt:1>,"A huge chunk of halolite. It has lots of sodium chloride... salty!");
 JEI.addDescription(<charm:rotten_flesh_block>, "Similar to the flesh found in the Nether, yet different - it twitches once in a while. If buried long enough, the rotten essence will seep out of the block...");
 JEI.addDescription(<aether_legacy:aerogel>, "Formed by attempting to pour lava by hand in the Aether. Extremely blast resistant. Can only be mined with Masterwork tier pickaxes and up.");
 

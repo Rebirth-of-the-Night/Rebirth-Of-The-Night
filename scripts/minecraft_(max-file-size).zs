@@ -382,9 +382,6 @@ gbars.add(<aesthetics:copper_bars>);
 gbars.add(<aesthetics:tin_bars>);
 gbars.add(<betterwithaddons:wrought_bars:0>);
 
-val nuggetSteel = <ore:nuggetSteel>;
-nuggetSteel.remove(<primal:steel_nugget>);
-
 val gnugs = <ore:genericMetalNuggets>;
 gnugs.addAll(<ore:nuggetCopper>);
 gnugs.addAll(<ore:nuggetTin>);
@@ -392,7 +389,6 @@ gnugs.addAll(<ore:nuggetIron>);
 gnugs.addAll(<ore:nuggetBronze>);
 gnugs.addAll(<ore:nuggetSilver>);
 gnugs.addAll(<ore:nuggetSteel>);
-gnugs.remove(<primal:steel_nugget>);
 
 val bars = <ore:bars>;
 bars.addAll(<ore:genericMetalBars>);
@@ -1424,10 +1420,6 @@ genericMetal.addAll(<ore:ingotBronze>);
 genericMetal.addAll(<ore:ingotSilver>);
 genericMetal.addAll(<ore:ingotSteel>);
 genericMetal.addAll(<ore:ingotWroughtIron>);
-genericMetal.remove(<primal:steel_ingot>);
-
-val ingotSteel = <ore:ingotSteel>;
-ingotSteel.remove(<primal:steel_ingot>);
 
 val wolfCape = <ore:wolfCape>;
 wolfCape.addItems([<betteranimalsplus:wolf_cape_classic>,<betteranimalsplus:wolf_cape_timber>,<betteranimalsplus:wolf_cape_black>,<betteranimalsplus:wolf_cape_arctic>,<betteranimalsplus:wolf_cape_red>,<betteranimalsplus:wolf_cape_brown>]);
