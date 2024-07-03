@@ -1688,6 +1688,20 @@ loose_red_sandstone_bricks.setGravity(true);
 loose_red_sandstone_bricks.setToolLevel(1);
 loose_red_sandstone_bricks.setBlockLayer("CUTOUT_MIPPED");
 loose_red_sandstone_bricks.register();
+//White Sandstone
+var loose_white_sandstone_bricks = VanillaFactory.createBlock("loose_white_sandstone_bricks", <blockmaterial:Rock>);
+loose_white_sandstone_bricks.setCreativeTab(<creativetab:rotn_blocks>);
+loose_white_sandstone_bricks.setGravity(true);
+loose_white_sandstone_bricks.setToolLevel(1);
+loose_white_sandstone_bricks.setBlockLayer("CUTOUT_MIPPED");
+loose_white_sandstone_bricks.register();
+//Red Granite Sandstone
+var loose_red_granite_sandstone_bricks = VanillaFactory.createBlock("loose_red_granite_sandstone_bricks", <blockmaterial:Rock>);
+loose_red_granite_sandstone_bricks.setCreativeTab(<creativetab:rotn_blocks>);
+loose_red_granite_sandstone_bricks.setGravity(true);
+loose_red_granite_sandstone_bricks.setToolLevel(1);
+loose_red_granite_sandstone_bricks.setBlockLayer("CUTOUT_MIPPED");
+loose_red_granite_sandstone_bricks.register();
 // Soulsandstone
 var loose_soulsandstone_bricks = VanillaFactory.createBlock("loose_soulsandstone_bricks", <blockmaterial:Rock>);
 loose_soulsandstone_bricks.setCreativeTab(<creativetab:rotn_blocks>);

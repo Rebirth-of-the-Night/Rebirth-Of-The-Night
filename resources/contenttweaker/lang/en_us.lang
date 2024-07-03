@@ -388,6 +388,8 @@ tile.contenttweaker.loose_red_sandstone_bricks.name=Loose Red Sandstone Bricks
 tile.contenttweaker.loose_refractory_bricks.name=Loose Refractory Bricks
 tile.contenttweaker.loose_sandstone_bricks.name=Loose Sandstone Bricks
 tile.contenttweaker.loose_soulsandstone_bricks.name=Loose Soul Sandstone Bricks
+tile.contenttweaker.loose_red_granite_sandstone_bricks.name=Loose Red Granite Sandstone Bricks
+tile.contenttweaker.loose_white_sandstone_bricks.name=Loose White Sandstone Bricks
 tile.contenttweaker.loose_stone_bricks.name=Loose Masonry Bricks
 tile.contenttweaker.masonry_brick.name=Masonry Brick
 tile.contenttweaker.masonry_brick_two.name=Two Masonry Bricks!
@@ -401,6 +403,8 @@ tile.contenttweaker.big_chert_bricks.name=Chert Bricks
 tile.contenttweaker.big_dolomite_bricks.name=Dolomite Bricks
 tile.contenttweaker.big_lignite_bricks.name=Lignite Bricks
 tile.contenttweaker.big_serpentinite_bricks.name=Serpentinite Bricks
+tile.contenttweaker.brick_red_granite_sandstone.name=Red Granite Sandstone Bricks
+tile.contenttweaker.brick_white_sandstone.name=White Sandstone Bricks
 
 item.contenttweaker.brick_coade.name=Coade Brick   
 item.contenttweaker.brick_red_granite.name=Red Granite Brick   
