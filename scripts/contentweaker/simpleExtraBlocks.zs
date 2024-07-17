@@ -529,6 +529,58 @@ soul_bonfire.setPassable(true);
 soul_bonfire.setCreativeTab(<creativetab:rotn_blocks>);
 soul_bonfire.register();
 
+//celestial lotus
+var celestial_lotus = VanillaFactory.createBlock("celestial_lotus", <blockmaterial:Iron>);
+celestial_lotus.axisAlignedBB = AxisAlignedBB.create(
+     0.0 / 16.0,
+     0.0 / 16.0,
+     0.0 / 16.0,
+	16.0 / 16.0,
+    3.0 / 16.0,
+    16.0 / 16.0
+	);
+celestial_lotus.setFullBlock(false);
+celestial_lotus.setBlockHardness(8);
+celestial_lotus.setLightOpacity(0);
+celestial_lotus.setLightValue(1.0);
+celestial_lotus.setBlockLayer("TRANSLUCENT");
+celestial_lotus.setToolClass("pickaxe");
+celestial_lotus.setCreativeTab(<creativetab:rotn_blocks>);
+celestial_lotus.register();
+
+//crystal matrix core
+var crystal_matrix_core = VanillaFactory.createBlock("crystal_matrix_core", <blockmaterial:Iron>);
+crystal_matrix_core.setFullBlock(false);
+crystal_matrix_core.setBlockHardness(8);
+crystal_matrix_core.setLightOpacity(0);
+crystal_matrix_core.setLightValue(1.0);
+crystal_matrix_core.setBlockLayer("TRANSLUCENT");
+crystal_matrix_core.setToolClass("pickaxe");
+crystal_matrix_core.setCreativeTab(<creativetab:buildingBlocks>);
+crystal_matrix_core.register();
+
+//dominion crystal
+var dominion_crystal = VanillaFactory.createBlock("dominion_crystal", <blockmaterial:Iron>);
+dominion_crystal.setFullBlock(false);
+dominion_crystal.setBlockHardness(8);
+dominion_crystal.setLightOpacity(0);
+dominion_crystal.setLightValue(1.0);
+dominion_crystal.setBlockLayer("TRANSLUCENT");
+dominion_crystal.setToolClass("pickaxe");
+dominion_crystal.setCreativeTab(<creativetab:buildingBlocks>);
+dominion_crystal.register();
+
+//matrix_resevoir
+var matrix_resevoir = VanillaFactory.createBlock("matrix_resevoir", <blockmaterial:Iron>);
+matrix_resevoir.setFullBlock(false);
+matrix_resevoir.setBlockHardness(8);
+matrix_resevoir.setLightOpacity(0);
+matrix_resevoir.setLightValue(1.0);
+matrix_resevoir.setBlockLayer("TRANSLUCENT");
+matrix_resevoir.setToolClass("pickaxe");
+matrix_resevoir.setCreativeTab(<creativetab:buildingBlocks>);
+matrix_resevoir.register();
+
 // venerable_stump
 var venerable_stump = VanillaFactory.createBlock("venerable_stump", <blockmaterial:Wood>);
 venerable_stump.axisAlignedBB = AxisAlignedBB.create(

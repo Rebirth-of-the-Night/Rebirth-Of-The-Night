@@ -1,0 +1,46 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "textures": {
+            
+        },
+        "model": "arcanearchives:dominion_crystal.obj",
+        "custom": { "flip-v": true }
+     },
+    "variants": {
+        "normal": [{}],
+        "inventory": [{
+            
+            "transform": {
+                    "firstperson": {
+                        "translation": [0, 0, 0],
+                        "rotation": [ { "y": 45}, {"x": 0}, {"z": 0} ],
+                        "scale": 1.0
+                    },
+                    "thirdperson": {
+                        "translation": [0.02, 0.05, -0.05],
+                        "rotation": [ { "y": 0}, {"x": 90}, {"z": 0} ],
+                        "scale": 1.0
+                    },
+                    "gui": {
+                        "translation": [0.05, 0.05, 0],
+                        "rotation": [ { "y": 45}, {"x": 30}, {"z": 0} ],
+                        "scale": 0.9
+                    },
+                    "ground": {
+                        "translation": [0, 0, 0],
+                        "rotation": [ { "y": 0}, {"x": 0}, {"z": 0} ],
+                        "scale": 0.5
+                    }
+                }
+        }],
+        "facing": {
+            "down": {},
+            "up": {},
+            "north": {},
+            "south": {},
+            "west": {},
+            "east": {}
+        }
+    }
+}
