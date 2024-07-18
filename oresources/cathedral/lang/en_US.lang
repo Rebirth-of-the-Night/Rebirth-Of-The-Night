@@ -89,7 +89,7 @@ tile.cathedral_railing_various.redsandstone.name=Red Sandstone Railing
 tile.cathedral_railing_various.obsidian.name=Bleakseal Railing
 tile.cathedral_railing_various.netherbrick.name=Netherbrick Railing
 tile.cathedral_railing_various.quartz.name=Quartz Railing
-tile.cathedral_railing_various.endstone.name=Endstone Railing
+tile.cathedral_railing_various.endstone.name=Brass Railing
 tile.cathedral_railing_various.packedice.name=Packed Ice Railing
 tile.cathedral_railing_various.snow.name=Snow Railing
 tile.cathedral_railing_various.marble.name=Marble Railing
@@ -113,7 +113,7 @@ tile.cathedral_pillar_various.dwemer.name=Dwarven Pillar
 
 
 tile.cathedral_chain_various.iron.name=Iron Chain
-tile.cathedral_chain_various.gold.name=Gold Chain
+tile.cathedral_chain_various.gold.name=Brass Chain
 tile.cathedral_chain_various.dwemer.name=Dwarven Chain
 tile.cathedral_chain_various.copper.name=Copper Chain
 tile.cathedral_chain_various.bronze.name=Bronze Chain

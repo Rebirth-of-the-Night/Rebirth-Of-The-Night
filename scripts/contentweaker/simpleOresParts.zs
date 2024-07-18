@@ -31,6 +31,7 @@ addMaterial("Zinc", "E3EAE8", ["ore","ingot","block","nugget","molten","dust"], 
 addMaterial("Brass", "FCE285", ["ingot","nugget","molten","dust"], [1308, 1500, 9, 3920], ["ingot"]);
 addMaterial("Ambrosium", "FFE666", ["molten","dust"], [195, 1125, 12, 6050], [""]);
 addMaterial("Gravitite", "F468D6", ["ingot","nugget","molten","dust"], [20, 1000, 2, 20], ["ingot"]);
+addMaterial("Dulcet Brass", "C3A84E", ["ingot","nugget","molten","dust"], [1308, 1500, 9, 3920], ["ingot"]);
 
 // Add new materials using this function!
 // New materials are automatically oredicted.

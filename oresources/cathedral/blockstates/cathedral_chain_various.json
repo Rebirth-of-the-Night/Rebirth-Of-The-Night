@@ -1,0 +1,11 @@
+{
+    "variants": {
+		"variant=iron"		:{"model": "cathedral:cathedral/chain"},
+		"variant=gold"		:{"model": "cathedral:cathedral/chain_gold"},
+		"variant=dwemer"	:{"model": "cathedral:cathedral/chain"},
+		"variant=copper"	:{"model": "cathedral:cathedral/chain"},
+		"variant=bronze"	:{"model": "cathedral:cathedral/chain"},
+		"variant=silver"	:{"model": "cathedral:cathedral/chain"},
+		"variant=enderium"	:{"model": "cathedral:cathedral/chain"}
+    }
+}
