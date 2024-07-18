@@ -1,0 +1,27 @@
+{
+  variables: {
+    #$HANGING("structureName", placementOffset, solidCheckOffset, "block", minHeight, maxHeight, chance, count, airChecks, biomes, blacklistBiomes)
+    HANGING: {
+      biomes: @10
+      blacklistBiomes: @11
+      name: @1
+      offset: [ 0, "@2", 0 ]
+      matchers: @4
+      airChecks: @9
+      solidChecks: @3
+      directions: up
+      chance: @7
+      count: @8
+      height: [ "@5", "@6" ]
+      checkSurface: false
+      integrity: 1
+    }
+  }
+  structures: [
+    $HANGING("dwarven_soul_lamp_x32", 0 -32, [], ["contenttweaker:greatbrick_gneiss", "minecraft:stone"], 50, 150, 0.03, 1, [], { names: [ "biometweaker:depths" ], mods: [], types: [] }, false)
+    $HANGING("dwarven_soul_lamp_x28", 0 -28, [], ["contenttweaker:greatbrick_gneiss", "minecraft:stone"], 50, 150, 0.03, 1, [], { names: [ "biometweaker:depths" ], mods: [], types: [] }, false)
+    $HANGING("dwarven_soul_lamp_x24", 0 -24, [], ["contenttweaker:greatbrick_gneiss", "minecraft:stone"], 50, 150, 0.03, 1, [], { names: [ "biometweaker:depths" ], mods: [], types: [] }, false)
+    $HANGING("dwarven_soul_lamp_x20", 0 -20, [], ["contenttweaker:greatbrick_gneiss", "minecraft:stone"], 50, 150, 0.03, 1, [], { names: [ "biometweaker:depths" ], mods: [], types: [] }, false)
+  ]
+  enabled: true
+}
