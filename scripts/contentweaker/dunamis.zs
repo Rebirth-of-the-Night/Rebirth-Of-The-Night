@@ -114,8 +114,8 @@ waterRune.register();
 
 val artNature = VanillaFactory.createItem("artificial_nature");
 artNature.setCreativeTab(<creativetab:Dunamis>);
-artNature.maxStackSize = 16;
 artNature.glowing = true;
+artNature.maxStackSize = 16;
 artNature.register();
 
 // orbs
