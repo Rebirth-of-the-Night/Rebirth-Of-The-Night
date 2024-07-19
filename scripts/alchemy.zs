@@ -7,6 +7,8 @@ import mods.rustic.Condenser;
 import mods.rustic.EvaporatingBasin;
 import mods.betterwithmods.MiniBlocks;
 import mods.artisanworktables.builder.RecipeBuilder;
+import mods.contenttweaker.CreativeTab;
+import mods.contenttweaker.VanillaFactory;
 
 //Define ingredients
 var thistle = <rustic:wind_thistle>;
@@ -67,6 +69,9 @@ var stomach = <ore:materialStomach>;
 var suntouched = <contenttweaker:suntouched_diamond>;
 var starblock = <contenttweaker:star_block>;
 var redstone = <minecraft:redstone>;
+var vis = <contenttweaker:vis_shard>;
+var allium = <minecraft:red_flower:2>;
+
 
 //Define liquids
 var hotspring = <liquid:hot_spring_water>;
@@ -96,6 +101,9 @@ recipes.addShaped(<rustic:retort>, [
 
 recipes.remove(<rustic:condenser_advanced>);
 recipes.remove(<rustic:retort_advanced>);
+
+
+
 
 //advanced condenser
 RecipeBuilder.get("mage")
@@ -230,6 +238,11 @@ val flightElixirEnd = <rustic:elixir>.withTag({display:{LocName:"Air Master's El
 //Add recipes
 //Condenser.addRecipe(output, itemstack[] inputs, modifier, bottle, fluid, time);
 
+/////NON-ELIXIR RECIPES\\\\\
+val artificialNature = <contenttweaker:artificial_nature>;
+Condenser.addRecipe(artificialNature, [vis, allium], null, bottle, hotspring * 1000);
+Condenser.addRecipe(artificialNature*3, [vis, fourclover], null, bottle, hotspring * 2000);
+
 /////CRAFTABLE IN OVERWORLD\\\\\
 Condenser.addRecipe(speedElixirOverworld, [thistle, fasthaw]);
 Condenser.addRecipe(magnetismElixirOverworld, [ironBerry, genericNugg]);
@@ -270,5 +283,9 @@ Condenser.addRecipe(geomancyElixirEnd, [earthruby, steeldust, mooncap], biotite,
 Condenser.addRecipe(demonicElixirEnd, [bloodeye, soulurn, core], biotite, bottle, slag * 500);
 Condenser.addRecipe(sunElixirEnd, [suntouched, starblock, mooncap], biotite, bottle, arcmythril * 1000);
 Condenser.addRecipe(flightElixirEnd, [heart, angel, ampfeather], voidseen, bottle, gravitite * 1000);
+
+
+
+
 
 /////CRAFTABLE POST-TWILIGHT FOREST\\\\\

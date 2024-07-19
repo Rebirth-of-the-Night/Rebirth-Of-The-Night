@@ -8,6 +8,14 @@
     "particleCount": "20"
   },
   {
+    "targetBlock": "quark:framed_glass",
+    "heldItem": "contenttweaker:artificial_nature",
+    "replacementBlock": "sereneseasons:greenhouse_glass",
+    "damage": "1",
+    "particleType": "happyVillager",
+    "particleCount": "20"
+  },
+  {
     "targetBlock": "minecraft:sand",
     "heldItem": "contenttweaker:soul_rune",
     "replacementBlock": "minecraft:soul_sand",

@@ -112,6 +112,12 @@ waterRune.maxDamage = 4;
 waterRune.maxStackSize = 1;
 waterRune.register();
 
+val artNature = VanillaFactory.createItem("artificial_nature");
+artNature.setCreativeTab(<creativetab:Dunamis>);
+artNature.maxStackSize = 16;
+artNature.glowing = true;
+artNature.register();
+
 // orbs
 // val solOrb = VanillaFactory.createItem("sol_orb");
 // solOrb.setCreativeTab(<creativetab:Dunamis>);
