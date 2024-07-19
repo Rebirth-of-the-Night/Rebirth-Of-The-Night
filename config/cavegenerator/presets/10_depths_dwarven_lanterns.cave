@@ -18,10 +18,10 @@
     }
   }
   structures: [
-    $HANGING("dwarven_soul_lamp_x32", 0 -32, [], ["contenttweaker:greatbrick_gneiss", "minecraft:stone"], 50, 150, 0.03, 1, [], { names: [ "biometweaker:depths" ], mods: [], types: [] }, false)
-    $HANGING("dwarven_soul_lamp_x28", 0 -28, [], ["contenttweaker:greatbrick_gneiss", "minecraft:stone"], 50, 150, 0.03, 1, [], { names: [ "biometweaker:depths" ], mods: [], types: [] }, false)
-    $HANGING("dwarven_soul_lamp_x24", 0 -24, [], ["contenttweaker:greatbrick_gneiss", "minecraft:stone"], 50, 150, 0.03, 1, [], { names: [ "biometweaker:depths" ], mods: [], types: [] }, false)
-    $HANGING("dwarven_soul_lamp_x20", 0 -20, [], ["contenttweaker:greatbrick_gneiss", "minecraft:stone"], 50, 150, 0.03, 1, [], { names: [ "biometweaker:depths" ], mods: [], types: [] }, false)
+    $HANGING("dwarven_soul_lamp_x32", 0 -32, [], [], 50, 150, 0.005, 1.5, [[0,-32,0], [0,-28,0], [0,-24,0], [0,-20,0], [0,-16,0], [0,-12,0], [0,-8,0], [0,-4,0]], { names: [ "biometweaker:depths", "beneath:the_beneath" ], mods: [], types: [] }, false)
+    $HANGING("dwarven_soul_lamp_x28", 0 -28, [], [], 50, 150, 0.005, 1.5, [[0,-28,0], [0,-24,0], [0,-20,0], [0,-16,0], [0,-12,0], [0,-8,0], [0,-4,0]], { names: [ "biometweaker:depths", "beneath:the_beneath" ], mods: [], types: [] }, false)
+    $HANGING("dwarven_soul_lamp_x24", 0 -24, [], [], 50, 150, 0.005, 1.5, [[0,-24,0], [0,-20,0], [0,-16,0], [0,-12,0], [0,-8,0], [0,-4,0]], { names: [ "biometweaker:depths", "beneath:the_beneath" ], mods: [], types: [] }, false)
+    $HANGING("dwarven_soul_lamp_x20", 0 -20, [], [], 50, 150, 0.005, 1.5, [[0,-20,0], [0,-16,0], [0,-12,0], [0,-8,0], [0,-4,0]], { names: [ "biometweaker:depths", "beneath:the_beneath" ], mods: [], types: [] }, false)
   ]
   enabled: true
 }
