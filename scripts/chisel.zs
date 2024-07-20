@@ -8,4 +8,5 @@ import crafttweaker.oredict.IOreDictEntry;
 import mods.artisanworktables.builder.RecipeBuilder;
 import mods.futuremc.Stonecutter;
 
-recipes.removeByMod("cathedral");
+recipes.removeByMod("chisel");
+game.setLocalization("tile.chisel.ironpane.bars.name","Brass Bars")
