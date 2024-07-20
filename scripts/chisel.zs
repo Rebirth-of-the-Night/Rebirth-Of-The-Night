@@ -9,4 +9,4 @@ import mods.artisanworktables.builder.RecipeBuilder;
 import mods.futuremc.Stonecutter;
 
 recipes.removeByMod("chisel");
-game.setLocalization("tile.chisel.ironpane.bars.name","Brass Bars")
+game.setLocalization("tile.chisel.ironpane.bars.name","Brass Bars");
