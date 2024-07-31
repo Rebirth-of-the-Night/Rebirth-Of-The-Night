@@ -1,0 +1,5 @@
+{
+  "item.bundle.drop_contents": { "sounds": [ "bundles:drop_contents1", "bundles:drop_contents2", "bundles:drop_contents3" ] },
+  "item.bundle.insert": { "sounds": [ "bundles:insert1", "bundles:insert2", "bundles:insert3" ] },
+  "item.bundle.remove": { "sounds": [ "bundles:remove1", "bundles:remove2", "bundles:remove3" ] }
+}
