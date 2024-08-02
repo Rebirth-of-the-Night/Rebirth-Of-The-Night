@@ -1,19 +1,19 @@
 Check out the complete list of tips for a convenient FAQ!
-Press the Teams button on the top left of the inventory screen to team with your friends!
+Playing multiplayer? Press the Teams button on the top left of the inventory screen to team with your friends!
 Leaves will soften fall damage but break on impact.
 You can climb branches and thinner trees.
 Make sure your livestock are well-fed, happy, and sheltered.
 Don't have torches? Make a hand drill, or try candles!
 Trees will fall down based on the side you chop them from. Timberrrrr!
 Explosions from Fire Creepers cause much fire and may result in item loss.
-Breaking or placing blocks and making loud noises can attract monsters. Look out for blood stains too.
+Breaking or placing blocks and making loud noises can attract monsters. Look out for blood stains, too.
 Many monsters investigate or even break light sources if they are close enough.
 Take time to stash your food. Most crops won't grow during the winter!
 Blood moons are rare, but very dangerous!
-Monsters lead invasions every 15 nights!
+Monsters lead invasions every 17 nights!
 The Arcane Barrier separates the Beneath and the Overworld.
 Breaking the Arcane Barrier will unleash new monsters upon the Overworld.
-Onyx and Dragonsteel are some of the sturdiest materials for armor in the game.
+Onyx and Dragonsteel are some of the sturdiest materials for armor known.
 Mythril is known for its arcane properties.
 Viridium is known for its life-like and regenerative properties.
 Exorite is an alien-like crystal with characteristics that defy logic.
@@ -29,45 +29,44 @@ The further you progress, the more unique mobs will spawn.
 Your actions have consequences.
 Wither Bone armor makes skeletal creatures never attack you.
 Dragons are extremely dangerous and should only be challenged when you have some of the best equipment.
-The Onyx Slayer Greatbow is the strongest bow in the game.
-The crossbow's main strength lies in its projectiles.
+The Onyx Slayer Greatbow is the mightiest bow, with very expensive arrows.
+The crossbow's main strength lays in its projectiles.
 One full day and night is 40 minutes of real time - twice as long as in vanilla Minecraft.
-Many humanoid monsters can pillar up to you if you're above them.
+Many humanoid monsters can pillar up to you, if you're above them.
 Monsters with pickaxes will mine to get to you!
 You can carry a chest, barrel, or pot by shift right-clicking it with both hands empty.
 You can carry most small animals by shift right-clicking them.
 Pirate ships hold rare loot, but are occupied by dead pirates!
-Try dual-wielding swords!
-Tools made out of metal and above will drop entire blocks, while lower tier tools will drop loose parts.
-You can only till soil if it's near a water source. Seeds need immediate irrigation to survive!
+Try dual-wielding weapons!
+Tools made out of metal and above will drop entire blocks, while weaker tools like stone will drop loose parts of blocks.
+You can only till dirt if it's near a water source. Seeds need immediate irrigation to survive!
 Sleeping makes you significantly hungrier when you wake up.
 Every second you are not awake, invasions are getting closer.
 Silver is slightly better than iron, but it is softer and can't mine most ores.
 Join our Discord at discord.gg/rotn and discuss base defense strategies!
 You can change any bauble's modifier with a Reforging Station and a vis sliver.
-Getting a fluid cauldron is easier than getting a brewing stand for making early potions.
+Getting a fluid cauldron or alchemic condenser is easier than getting a brewing stand for making early potions.
 Only baubles can have modifiers.
 Bones can be turned into stock: a great base for soup... definitely not with bones from that skeleton you just killed.
 Craft or find a backpack to haul more junk along with you. It stays with you on death!
 Check the Traps tab in the Advancements section for special ways to defend your base.
-The darkness damages you while in the Beneath.
+The darkness of the Beneath has detrimental effects if dwelled in for too long...
 You can still punch trees!
-Berry bushes and fruit trees are great for early game food.
+Berry bushes and fruit trees are great for early food.
 You can hold a light source in your off-hand while you're exploring.
 Cabinets are a nice alternative to chests and can be stacked upwards.
 Craft a stash to hold several stacks of a single item.
-If you find a lost miner villager in a cave, lead them to the surface for a reward!
 Boat moving slowly? Place a banner on the boat!
-Female livestock need to give birth before they can be milked.
+Female livestock like cows need to give birth before they can be milked.
 Use the trashcan slot in your inventory to conveniently destroy unwanted items.
 Livestock will be stressed if too many of them are in a small pen.
 Ancient Tomes can be used to upgrade enchanted books beyond their normal enchantment limit.
-Each attack has a 5% chance to be a critical hit.
+Each attack has a chance to be a critical hit.
 Many mobs have unique variants; some are more common in certain biomes.
 Each season lasts 9 days.
-Tamed wolves will sometimes leave dung behind.
+Tamed wolves will sometimes leave dung behind; stinky, but potentially useful.
 Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...
-There is no coal in the Beneath; because of the immense pressure, it has all turned into diamonds!
+There is no coal in the Beneath.
 The Nether Chest multiplies stack sizes by 8.
 Killing the Ender Dragon will unleash new and dangerous threats in your world.
 Entering other dimensions weakens the boundaries between worlds.
@@ -77,7 +76,7 @@ You can grow summer crops year-round in tropical biomes.
 Far below the surface are the veins of the world's core...
 Your mainhand, armor, and baubles stay with you even after you die, but they lose durability on Normal and Hard difficulty.
 Shift & right click to throw a glaretorch.
-Craft a season clock to keep track of the seasons.
+Craft a Season Clock to keep track of the seasons.
 Use a Weather Sensor or a Wind Chime to prevent windmills from breaking during harsh weather.
 Prepare to spelunk! Ore is rare outside of caves.
 Monsters have a chance to drop parts of special totems with unique utilities.
@@ -85,13 +84,13 @@ Zombies have a chance to drop an item you can use for early flint & steel.
 Water is only infinitely renewable in rivers, oceans, and wetland biomes.
 Botanic glass can be used to grow crops out of their normal growing seasons.
 Botanic glass only works up to a max of 7 blocks above the crop.
-Turn unwanted enchanted books into Enchanted Paper, which is used to power magical wards.
+Turn unwanted enchanted books into Enchanted Paper.
 Pigs drop tallow, which can be used to make candles or slightly boost the durability of items.
 Respect the personal space of Zombie Pigmen... or else!
 Try giving a tamed wolf a Training Treat!
 Cartographer villagers sell maps to nearby structures.
 Nailer villagers sell crafting tools and are also experts in arrowheads.
-Right-click planks with nails to turn them to nailed boards.
+Right-click wood planks with nails to turn them to nailed boards.
 Stealing villagers' crops will lower your reputation!
 Some ores are much harder to see in certain types of stone. Look carefully!
 Some enchantments in the True Enchanting Table can only be applied at specific times of day.
@@ -99,7 +98,7 @@ Crabs love music.
 Many rare baubles grant partial or complete immunity to negative status effects.
 You can counteract certain item and weapon shortcomings with baubles.
 Use the advancements tab to guide your progression.
-Copper can be used to craft basic weapons, but it is most useful when creating bronze.
+Copper can be used to craft a few basic tools, but it is most useful when creating bronze.
 Combine a Totem of Returning with a Return Potion in an anvil to increase the totem's uses.
 Nether Chests and Radiant Chests are great ways to store lots of items.
 Plague can't be cured with milk, but there are several potential treatments to ward it off.
@@ -114,19 +113,19 @@ You can use Golem Heads to create a variety of golem types.
 Some factions of tribes or monsters require special items to gain their trust.
 Most monsters will never hunt mooshrooms - they find the taste of fungi disgusting.
 The Enchanting Table can only be used at night, when the Moon allows it.
-Hot Spring Water can be used to cure most common status effects.
+Hot Spring Water can be used to cure some common status effects.
 Aqueducts and wells are useful for permanent sources of water.
 On Easy difficulty, items you keep on death don't lose durability, unlike Normal and Hard.
 You can force yourself into 1x1 tunnels by closing a trapdoor on top of your head.
 Onyx deposits may rarely contain phosphophyllite.
 Eat different types of food to increase your max health!
-Plague Doctor villagers might look scary, but they can be very helpful when it comes to dealing with the plague!
+Plague Doctor villagers might look intimidating, but they can be very helpful!
 Dragons have been extinct in the Overworld for centuries, but they can still be found in a dimension shrouded by twilight...
 Runes of Disintegration are used to blow up magical items, leaving vis behind.
 Runes of Disintegration can turn stone into cobblestone.
 Runes of Creation can turn cobblestone into smooth stone.
 Runes of Soul can call souls to this world and create new soulsand via right-clicking sand.
-Nether and end stone bricks are some of the sturdiest in the game.
+Nether bricks and end stone bricks are some of the sturdiest mass-producible building blocks.
 It is never enough refractory material!
 Items in a backpack can't be stolen or dropped when you die.
 Many items have information tabs that display lore, extra details, or hints on how to use them.

@@ -40,6 +40,11 @@ var botanicGlass = AssemblyRecipe.create(function(container) {
 }).requireItem("input",<quark:framed_glass>).requireItem("catalyst1",<contenttweaker:nature_rune>);
 interaction.addJEIRecipe(botanicGlass);
 
+var botanicGlassEarly = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<sereneseasons:greenhouse_glass>);
+}).requireItem("input",<quark:framed_glass>).requireItem("catalyst1",<contenttweaker:artificial_nature>);
+interaction.addJEIRecipe(botanicGlass);
+
 var xpBlock = AssemblyRecipe.create(function(container) {
     container.addItemOutput("output",<globalxp:xp_block>);
 }).requireItem("input",<iceandfire:venerable_stump>).requireItem("catalyst1",<betterwithmods:cooking_pot:2>);

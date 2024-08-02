@@ -42,6 +42,8 @@ tile.contentcreator.blendrein_stairs.name=Blendrein Stairs
 tile.contentcreator.coade_stone_polished_stairs.name=Polished Coade Stone Stairs
 tile.contentcreator.ferrought_corrugated_stairs.name=Corrugated Ferrought Stairs
 tile.contentcreator.ferrought_plate_stairs.name=Plate Ferrought Stairs
+tile.contentcreator.white_sandstone_brick_stairs.name= White Sandstone Brick Stairs
+tile.contentcreator.red_granite_sandstone_brick_stairs.name= Red Granite Sandstone Brick Stairs
 
 // CoT Slabs
 
@@ -50,3 +52,5 @@ tile.contentcreator.coade_stone_polished_slab.name=Polished Coade Stone Slab
 tile.contentcreator.coade_stone_ornate_slab.name=Ornate Coade Stone Slab
 tile.contentcreator.ferrought_corrugated_slab.name=Corrugated Ferrought Slab
 tile.contentcreator.ferrought_plate_slab.name=Plate Ferrought Slab
+tile.contentcreator.white_sandstone_brick_slab.name= White Sandstone Brick Slab
+tile.contentcreator.red_granite_sandstone_brick_slab.name= Red Granite Sandstone Brick Slab

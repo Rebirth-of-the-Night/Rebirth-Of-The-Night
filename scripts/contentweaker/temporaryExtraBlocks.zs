@@ -146,6 +146,22 @@ brick_quark_red_sandstone.setBlockHardness(45);
 brick_quark_red_sandstone.setBlockResistance(33.0);
 brick_quark_red_sandstone.register();
 
+var brick_white_sandstone = VanillaFactory.createBlock("brick_white_sandstone", <blockmaterial:Rock>);
+brick_white_sandstone.setCreativeTab(<creativetab:rotn_blocks>);
+brick_white_sandstone.setBlockSoundType(<soundtype:stone>);
+brick_white_sandstone.setToolLevel(1);
+brick_white_sandstone.setBlockHardness(45);
+brick_white_sandstone.setBlockResistance(33.0);
+brick_white_sandstone.register();
+
+var brick_red_granite_sandstone = VanillaFactory.createBlock("brick_red_granite_sandstone", <blockmaterial:Rock>);
+brick_red_granite_sandstone.setCreativeTab(<creativetab:rotn_blocks>);
+brick_red_granite_sandstone.setBlockSoundType(<soundtype:stone>);
+brick_red_granite_sandstone.setToolLevel(1);
+brick_red_granite_sandstone.setBlockHardness(45);
+brick_red_granite_sandstone.setBlockResistance(33.0);
+brick_red_granite_sandstone.register();
+
 var brick_quark_soul_sandstone = VanillaFactory.createBlock("brick_quark_soul_sandstone", <blockmaterial:Rock>);
 brick_quark_soul_sandstone.setCreativeTab(<creativetab:rotn_blocks>);
 brick_quark_soul_sandstone.setBlockSoundType(<soundtype:stone>);

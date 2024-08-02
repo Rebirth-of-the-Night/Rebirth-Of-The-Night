@@ -1,0 +1,46 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "SmallCastleRisingIsles",
+  "items": [
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "growthcraft_rice:sakebottle",
+        "damage": 1,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "growthcraft_rice:sakebottle",
+        "damage": 2,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "reccomplex:inventory_generation_component_tag",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "itemCollectionKey": {
+              "nbtType": "string",
+              "nbt": "ExpMagic"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}

@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "half_slab",
+    "textures": {
+      "top": "contenttweaker:blocks/brick_red_granite_sandstone",
+      "bottom": "contenttweaker:blocks/brick_red_granite_sandstone",
+      "side": "contenttweaker:blocks/brick_red_granite_sandstone"
+    }
+  },
+  "variants": {
+    "half": {
+      "bottom": {},
+      "top": {
+        "model": "upper_slab"
+      }
+    },
+    "variant": {
+      "normal": {}
+    },
+    "inventory": [
+      {}
+    ]
+  }
+}

@@ -33,6 +33,9 @@ GenericBlock.createStairs("coade_stone_polished_stairs", <blockstate:minecraft:s
 GenericBlock.createStairs("ferrought_corrugated_stairs", <blockstate:minecraft:stone_stairs>).register();
 // Ferrought Plate
 GenericBlock.createStairs("ferrought_plate_stairs", <blockstate:minecraft:stone_stairs>).register();
+// Sandstone
+GenericBlock.createStairs("white_sandstone_brick_stairs", <blockstate:minecraft:stone_stairs>).register();
+GenericBlock.createStairs("red_granite_sandstone_brick_stairs", <blockstate:minecraft:stone_stairs>).register();
 
 ///////////////////////
 //////// Slabs ////////
@@ -70,3 +73,6 @@ GenericBlock.createSlab(rock, "coade_stone_ornate_slab").register();
 GenericBlock.createSlab(iron, "ferrought_corrugated_slab").register();
 // Ferrought Plate
 GenericBlock.createSlab(iron, "ferrought_plate_slab").register();
+// Sandstone
+GenericBlock.createSlab(rock, "white_sandstone_brick_slab").register();
+GenericBlock.createSlab(rock, "red_granite_sandstone_brick_slab").register();

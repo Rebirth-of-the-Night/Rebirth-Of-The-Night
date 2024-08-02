@@ -140,10 +140,29 @@ HungerEvents.onFoodEaten(function(event as mods.hungertweaker.events.FoodEatenEv
 		var blind = <potion:minecraft:blindness>.makePotionEffect(400, 0, false, true);
 		event.player.addPotionEffect(blind);
 	}
-
+	
+	// Trippy pixie dust
 	if (event.food.definition.id == <iceandfire:pixie_dust>.definition.id) {
 		var nausea = <potion:minecraft:nausea>.makePotionEffect(100, 0, false, true);
 		event.player.addPotionEffect(nausea);
+	}
+	
+	//  Gives an annoying cocktail of feels on eating a Tripe Musguette
+	if (event.food.definition.id == <betterwithmods:raw_egg>.definition.id) {
+		var nausea = <potion:minecraft:nausea>.makePotionEffect(200, 1, false, false);
+		event.player.addPotionEffect(nausea);
+		var regen = <potion:minecraft:regeneration>.makePotionEffect(200, 0, false, true);
+		event.player.addPotionEffect(regen);
+		var blind = <potion:minecraft:blindness>.makePotionEffect(50, 0, false, false);
+		event.player.addPotionEffect(blind);
+		var vulnerable = <potion:potioncore:vulnerable>.makePotionEffect(100, 0, false, false);
+		event.player.addPotionEffect(vulnerable);
+	}
+	
+	// Super gummies gah
+	if (event.food.definition.id == <harvestcraft:slimegummiesitem>.definition.id) {
+		var bounce = <potion:cyclicmagic:potion.bounce>.makePotionEffect(1200, 0, false, false);
+		event.player.addPotionEffect(bounce);
 	}
 });
 
