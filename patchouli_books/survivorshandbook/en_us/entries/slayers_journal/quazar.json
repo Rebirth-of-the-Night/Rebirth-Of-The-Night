@@ -19,7 +19,7 @@
 			"type": "spotlight",
 			"title": "Fire from the Skies",
 			"item": "minecraft:magma",
-			"text": "$(#734608)The Sigil is used to divert the course of passing meteors, hopefully bringing a Quazar down with them. Watch your head.$()"
+			"text": "$(#734608)The Totem is used to divert the course of passing meteors, hopefully bringing a Quazar down with them. Watch your head.$()"
 		},
 {
       "type": "text",
