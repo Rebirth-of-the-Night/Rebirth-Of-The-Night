@@ -849,6 +849,21 @@
     "mob": "mod_lavacow:undertaker",
     "result": "deny"
  }, 
+ {
+   "dimension": 0,
+   "mob": "mod_lavacow:sludgelord",
+   "maxlight": 7,
+  "random": 0.2,
+  "gamestage": "killedHarvester",
+  "biome": ["Marsh", "Bayou", "Bog", "Dead Swamp", "Quagmire", "Fen", "Ominous Woods", "Dead Forest", "Wetland"],
+   "seesky": true,
+   "result": "allow"
+},
+{
+   "dimension": 0,
+   "mob": "mod_lavacow:sludgelord",
+   "result": "deny"
+}, 
  
  /////////////// GAME STAGES ///////////////
   // Zotzpyre
