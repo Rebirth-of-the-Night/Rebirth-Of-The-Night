@@ -81,3 +81,6 @@ ArcaneWorld.createRitualCreateItem("black_heart", "Heart Defilement", <defiledla
 ArcaneWorld.createRitualCreateItem("demon_eye", "Eye Possesion", <netherex:wither_dust>, [<minecraft:ender_pearl>,<contenttweaker:shard_of_night>]).build();
 ArcaneWorld.createRitualCreateItem("arcane_focus", "Arcanic Intent", <contenttweaker:arcane_focus>.withDamage(16), [<contenttweaker:unattuned_focus>,<contenttweaker:arcane_rune>,<contenttweaker:vis_shard>]).build();
 ArcaneWorld.createRitualCreateItem("demonic_scythe_awakened", "Awakened Demonic Scythe", <demonic_scythe:awakened_demonic_scythe>, [<demonic_scythe:demonic_scythe>, <contenttweaker:nether_rune>, <contenttweaker:strength_rune>, <contenttweaker:death_rune>, <contenttweaker:disint_rune>]).build();
+//Command execution
+// ArcaneWorld.createRitualCommand(String name, String displayName, String[] commands, IIngredient... inputs);
+ArcaneWorld.createRitualCommand("meteor", "Meteoric Redirection", ["/summon nyx:falling_meteor ~ ~20 ~"], [<rustic:elixir>.withTag({display: {LocName: "Simple Magnetism Elixir"}, ElixirEffects: [{Effect: "extraalchemy:effect.magnetism", Duration: 7200, Amplifier: 1}]})*2,<contenttweaker:fire_rune>, <contenttweaker:creation_rune>, <biomesoplenty:terrestrial_artifact>, <minecraft:magma>*8]).build();
