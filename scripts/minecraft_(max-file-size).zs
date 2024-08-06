@@ -1772,6 +1772,9 @@ mortarCommon.addItems([<minecraft:clay_ball>,<minecraft:slime_ball>,<betterslime
 val mortarRefractory = <ore:mortarRefractory>;
 mortarRefractory.addItems([<ceramics:unfired_clay:4>,<pyrotech:material:8>,<pyrotech:material:4>,<contenttweaker:fiery_sludge>,<betterwithmods:material:35>]);
 
+val binder = <ore:materialBinding>;
+binder.addAll(<ore:treeLeaves>);
+
 // Brick Rework
 // Primitive Bricks
 val primitiveBrickBlockMap = {
