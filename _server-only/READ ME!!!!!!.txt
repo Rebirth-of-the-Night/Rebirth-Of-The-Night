@@ -12,7 +12,7 @@ http://www.portchecktool.com/
 
 If you get an error about invalid maximum heap size, it's likely because of your java version. Download "Java 64bit Offline" on the java website. 
 
-If you are having trouble, read https://wiki.rebirthofthenight.com/wiki/Installation
+If you are having trouble, read https://rotn.wiki.gg/wiki/Installation
 If you are still having trouble, ask in our Discord: https://discord.gg/rotn
 
 
