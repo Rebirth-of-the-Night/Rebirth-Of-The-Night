@@ -87,7 +87,7 @@
 
 ////////// BOSS BUFF YEAHHHHHHHHH ///////////
 {  
-    "mob": ["mod_lavacow:sludgelord", "harvestersnight:harvester","betterslimes:quazar","minecraft:wither","minecraft:ender_dragon","rats:black_death","betteranimalsplus:hirschgeist","aether_legacy:sun_spirit","aether_legacy:slider","iceandfire:icedragon","iceandfire:firedragon","twilightforest:naga","twilightforest:lich","twilightforest:minoshroom","twilightforest:hydra","twilightforest:knight_phantom","twilightforest:ur_ghast","twilightforest:yeti_alpha","twilightforest:snow_queen","iceandfire:seaserpent","iceandfire:cyclops","iceandfire:if_hydra","mowziesmobs:ferrous_wroughtnaut","mowziesmobs:frostmaw","mowziesmobs:barako"],
+    "mob": ["mod_lavacow:sludgelord", "harvestersnight:harvester","betterslimes:quazar","minecraft:ender_dragon","rats:black_death","betteranimalsplus:hirschgeist","aether_legacy:sun_spirit","aether_legacy:slider","iceandfire:icedragon","iceandfire:firedragon","twilightforest:naga","twilightforest:lich","twilightforest:minoshroom","twilightforest:hydra","twilightforest:knight_phantom","twilightforest:ur_ghast","twilightforest:yeti_alpha","twilightforest:snow_queen","iceandfire:seaserpent","iceandfire:cyclops","iceandfire:if_hydra","mowziesmobs:ferrous_wroughtnaut","mowziesmobs:frostmaw","mowziesmobs:barako"],
     "onjoin": true,
     "potion": ["potioncore:magic_shield,1000000,1"]
 
@@ -302,8 +302,8 @@
 // boss buff time!
 {
     "mob": "minecraft:wither",
-	"onjoin": true,
-    "potion": ["potioncore:teleport_surface,60,1"],
+	 "onjoin": true,
+    "nbt": {"ActiveEffects":[{"Id":133,"Duration":5,"Amplifier":1,"ShowParticles":"1b"},{"Id":158,"Duration":1000000,"Amplifier":1,"ShowParticles":"1b"}],"Invul":220},
     "damagemultiply": 2
   },
 
@@ -798,7 +798,11 @@
     "mob": "quark:ashen",
     "result": "deny"
  },
-
+ {
+   "dimension": 0,
+   "mob": "quark:ashen",
+   "result": "deny"
+ },
  {
     "dimension": 10,
     "mob": "quark:dweller",
@@ -845,6 +849,21 @@
     "mob": "mod_lavacow:undertaker",
     "result": "deny"
  }, 
+ {
+   "dimension": 0,
+   "mob": "mod_lavacow:sludgelord",
+   "maxlight": 7,
+  "random": 0.2,
+  "gamestage": "killedHarvester",
+  "biome": ["Marsh", "Bayou", "Bog", "Dead Swamp", "Quagmire", "Fen", "Ominous Woods", "Dead Forest", "Wetland"],
+   "seesky": true,
+   "result": "allow"
+},
+{
+   "dimension": 0,
+   "mob": "mod_lavacow:sludgelord",
+   "result": "deny"
+}, 
  
  /////////////// GAME STAGES ///////////////
   // Zotzpyre

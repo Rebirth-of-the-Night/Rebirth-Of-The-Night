@@ -43,7 +43,7 @@ interaction.addJEIRecipe(botanicGlass);
 var botanicGlassEarly = AssemblyRecipe.create(function(container) {
     container.addItemOutput("output",<sereneseasons:greenhouse_glass>);
 }).requireItem("input",<quark:framed_glass>).requireItem("catalyst1",<contenttweaker:artificial_nature>);
-interaction.addJEIRecipe(botanicGlass);
+interaction.addJEIRecipe(botanicGlassEarly);
 
 var xpBlock = AssemblyRecipe.create(function(container) {
     container.addItemOutput("output",<globalxp:xp_block>);
