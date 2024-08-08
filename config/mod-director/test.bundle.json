@@ -1,0 +1,17 @@
+{
+	"url":
+	[
+		{
+			"url": "",
+            "folder": "config/incontrol"
+		},
+        {
+			"url": "",
+            "folder": "config/incontrol"
+		},
+		{
+			"url": "",
+            "folder": "config"
+        }
+	]
+}
