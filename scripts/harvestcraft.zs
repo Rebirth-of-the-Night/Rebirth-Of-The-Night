@@ -21,6 +21,7 @@ JEI.removeAndHide(<harvestcraft:pamcinnamon>);
 JEI.removeAndHide(<harvestcraft:pampaperbark>);
 JEI.removeAndHide(<harvestcraft:mortarandpestleitem>);
 JEI.removeAndHide(<harvestcraft:well>);
+JEI.removeAndHide(<harvestcraft:riceitem>);
 
 <ore:foodHoneydrop>.remove(<harvestcraft:honeyitem>);
 <ore:dropHoney>.remove(<harvestcraft:honeyitem>);
