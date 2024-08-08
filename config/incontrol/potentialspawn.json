@@ -184,17 +184,6 @@
     ]
   },
   {
-    "dimension": 0,
-    "mobs": [
-      {
-        "mob": "mod_lavacow:sludgelord",
-        "weight": 1,
-        "groupcountmin": 1,
-        "groupcountmax": 1
-      }
-    ]
-  },
-  {
     "dimension": 10,
     "mobs": [
       {
