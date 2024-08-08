@@ -33,6 +33,36 @@
             "installationPolicy": {
                 "description": "MANDATORY! Downloads JSON Paintings from Modrinth."
             }
-        }
+        },
+        
+                {
+                    "url": "https://raw.githubusercontent.com/Rebirth-of-the-Night/Rebirth-Of-The-Night/stable/filedirector/spawn.json",
+                    "folder": "config/incontrol",
+                    "installationPolicy":
+                        {
+                            "downloadAlways": true,
+                            "description": "Hotfix for Sludge Lord spawning"
+                        }
+                },
+                {
+                    "url": "https://raw.githubusercontent.com/Rebirth-of-the-Night/Rebirth-Of-The-Night/stable/filedirector/potentialspawn.json",
+                    "folder": "config/incontrol",
+                    "installationPolicy":
+                        {
+                            "downloadAlways": true,
+                            "description": "Hotfix for Sludge Lord spawning"
+                        }
+                },
+                {
+                    "url": "https://raw.githubusercontent.com/Rebirth-of-the-Night/Rebirth-Of-The-Night/stable/filedirector/Fishs_Undead_Rising.cfg",
+                    "folder": "config",
+                    "installationPolicy":
+                        {
+                            "downloadAlways": true,
+                            "description": "Hotfix for Sludge Lord spawning"
+                        }
+                }
+            
+        
     ]
 }
