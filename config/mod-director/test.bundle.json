@@ -2,16 +2,28 @@
 	"url":
 	[
 		{
-			"url": "",
-            "folder": "config/incontrol"
+			"url": "https://raw.githubusercontent.com/Rebirth-of-the-Night/Rebirth-Of-The-Night/stable/filedirector/spawn.json",
+            "folder": "config/incontrol",
+            "installationPolicy":
+                {
+                    "downloadAlways": true
+                }
 		},
         {
-			"url": "",
-            "folder": "config/incontrol"
+			"url": "https://raw.githubusercontent.com/Rebirth-of-the-Night/Rebirth-Of-The-Night/stable/filedirector/potentialspawn.json",
+            "folder": "config/incontrol",
+            "installationPolicy":
+                {
+                    "downloadAlways": true
+                }
 		},
 		{
-			"url": "",
-            "folder": "config"
+			"url": "https://raw.githubusercontent.com/Rebirth-of-the-Night/Rebirth-Of-The-Night/stable/filedirector/Fishs_Undead_Rising.cfg",
+            "folder": "config",
+            "installationPolicy":
+                {
+                    "downloadAlways": true
+                }
         }
 	]
 }
