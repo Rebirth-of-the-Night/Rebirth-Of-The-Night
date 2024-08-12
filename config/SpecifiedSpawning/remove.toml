@@ -1,0 +1,65 @@
+# When adding a new gamestage, dimension, or spawning rule, add it to this comment and add another comment in the category itself
+# Dimensions: Overworld [0] Nether [-1] End [1] Aether [4] Twilight Forest [7] Beneath [10]
+# Gamestages:
+# Biomes:
+
+
+# Disabled Mobs
+# Creepers do not spawn in Nether, End or Aether
+[[remove]]
+    dimension = [1 -1 4]
+    entity = "minecraft:creeper"
+
+# Wraiths do not spawn in OW, End, or Aether - update for 3.4 
+[[remove]]
+    dimension = [0 1 4]
+    entity = "quark:wraith"
+
+# Fugitives only spawn in the Overworld - update for 3.4 
+[[remove]]
+    dimension = [1 4 7 10 -1]
+    entity = "toroquest:toroquest_fugitive"
+
+# Endermen do not spawn in the Twilight Forest or Nether
+[[remove]]
+    dimension = [7 -1]
+    entity = "minecraft:enderman"
+
+# Skeletons, zombies, pipers, lammergeiers, and zombie players do not spawn in the Aether
+[[remove]]
+    dimension = [4]
+    entity = "minecraft:skeleton"
+    entity = "minecraft:zombie"
+    entity = "rats:illager_piper"
+    entity = "betteranimalsplus:lammergeier"
+    entity = "zombie_players:zombie_player"
+
+# Baby zombies do not spawn in the Nether
+[[remove]]
+    dimension = -1
+    entity = "minecraft:zombie"
+
+# Vanilla passive mobs, lava cows, aether swets do not spawn
+[[remove]]
+    entity = "minecraft:pig"
+    entity = "minecraft:sheep"
+    entity = "minecraft:cow"
+    entity = "minecraft:chicken"
+    entity = "minecraft:mooshroom"
+    entity = "minecraft:rabbit"
+    entity = "mod_lavacow:lavacow"
+    entity = "aether_legacy:swet"
+
+# Ashen, skydrakes, snow villagers, and dread mobs (exception of the dread thrall) do not spawn in the Overworld
+[[remove]]
+    dimension = 0
+    entity = "quark:ashen"
+    entity = "mowziesmobs:naga"
+    entity = "iceandfire:dread_beast"
+    entity = "iceandfire:dread_scuttler"
+    entity = "iceandfire:dread_ghoul"
+    entity = "iceandfire:dread_lich"
+    entity = "iceandfire:dread_knight"
+    entity = "iceandfire:snowvillager"
+    
+

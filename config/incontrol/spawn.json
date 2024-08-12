@@ -1,28 +1,5 @@
 [
-/* {
-    "mob": "aether_legacy:sentry",
-    "onjoin": true,
-    "healthmultiply": 0.9
-}, */
 
-/////////////////// ANTI SKY BASE ///////////////////
-/*{
-    "dimension": 0,
-    "mob": "roughmobsrevamped:hostilebat",
-    "minheight": 100,
-	"random": 0.3,
-    
-    "result": "default"
- },*/
- 
- 
- {
-    "dimension": 4,
-    "block": ["aether_legacy:aercloud"],
-    "onjoin": true,
-    "result": "deny"
-
- },
 {
     "mob": ["betteranimalsplus:boar"],
     "onjoin": true,
@@ -242,15 +219,14 @@
     "random": 0.1,
     "helditem": "3=atop:amethyst_pickaxe",
     "gamestage": "enteredEnd"
-},/*
+},
+/*
 {
     "mob": ["minecraft:zombie","primitivemobs:goblin"],
     "helditem": ["1=minecraft:iron_pickaxe", "2=atop:mud_pickaxe"],
     "gamestage": "killedQuazar"
-},*/
-
-
-
+},
+*/
 
 {
     "mob": "biomesoplenty:wasp",
@@ -353,43 +329,6 @@
     "potion": ["minecraft:fire_resistance,1000000,1", "minecraft:regeneration,1000000,1", "wards:effect_projectile_protection,1000000,10"]
   },
 
-// no creeper, aww man
- {
-    "mob": "minecraft:creeper",
-    "dimension": [-1, 1, 4],
-    "onjoin": true,
-    "result": "deny"
- },
- 
-// no wraith in OW, aether, end
- {
-    "mob": "quark:wraith",
-    "dimension": [0, 1, 4],
-    "onjoin": true,
-    "result": "deny"
- },
-// no weird fugitives
- {
-    "mob": "toroquest:toroquest_fugitive",
-    "dimension": [1, 4, 7, 10, -1],
-    "onjoin": true,
-    "result": "deny"
- }, 
- 
-// no endermen here
- {
-    "mob": "minecraft:enderman",
-    "dimension": 7,
-    "onjoin": true,
-    "result": "deny"
- }, 
-
-  {
-    "mob": "aether_legacy:swet",
-    "onjoin": true,
-    "result": "deny"
-  },
-
 // aether spawns
  {
     "dimension": 4,
@@ -400,78 +339,6 @@
 	"seesky": true,
     
     "result": "default"
- },
- 
-// Disable unneeded fish's mobs
- {
-    "mob": "mod_lavacow:lavacow",
-    "onjoin": true,
-    "result": "deny"
- },
-
-// Remove enderman spawning in the Nether
- {
-    "mob": "minecraft:enderman",
-    "dimension": -1,
-    "onjoin": true,
-    "result": "deny"
- },
- 
-// Remove zomb spawning in Aether
- {
-    "mob": "minecraft:zombie",
-    "dimension": 4,
-    "onjoin": true,
-    "result": "deny"
- },
- 
-// Remove skele spawning in Aether
- {
-    "mob": "minecraft:skeleton",
-    "dimension": 4,
-    "onjoin": true,
-    "result": "deny"
- },
- 
- 
-// remove piper spawning in Aether
- {
-    "mob": "rats:illager_piper",
-    "dimension": 4,
-    "onjoin": true,
-    "result": "deny"
- },
-
-//Remove lammergeiers from spawning in the Aether
-{
-    "mob": "betteranimalsplus:lammergeier",
-    "dimension": 4,
-    "onjoin": true,
-    "result": "deny"
- },
-
-// Remove Zombie Players spawning in the Aether
- {
-    "mob": "zombie_players:zombie_player",
-    "dimension": 4,
-    "onjoin": true,
-    "result": "deny"
- },
-
-// Remove Zombie Players spawning in the Nether
- {
-    "mob": "zombie_players:zombie_player",
-    "dimension": -1,
-    "onjoin": true,
-    "result": "deny"
- },
-
-// Remove Baby Zombies spawning in the Nether
- {
-    "mob": "minecraft:zombie",
-    "dimension": -1,
-    "onjoin": true,
-    "result": "deny"
  },
 
 // Trumpet Skelly
@@ -556,46 +423,6 @@
   "mob": "mowziesmobs:grottol",
   "result": "deny"
 },
-
-
-// attempt to ensure black death only spawns one at a time
-
- 
-  {
-    "mob": "minecraft:pig",
-    "onjoin": true,
-    "result": "deny"
- },
- 
-  /*{
-    "mob": "minecraft:sheep",
-    "onjoin": true,
-    "result": "deny"
- },
- 
-  {
-    "mob": "minecraft:cow",
-    "onjoin": true,
-    "result": "deny"
- },*/
- 
-  {
-    "mob": "minecraft:chicken",
-    "onjoin": true,
-    "result": "deny"
- },
- 
-  {
-    "mob": "minecraft:mooshroom",
-    "onjoin": true,
-    "result": "deny"
- },
- 
-  {
-    "mob": "minecraft:rabbit",
-    "onjoin": true,
-    "result": "deny"
- },
 
 // Saltwater Eel
    {
@@ -797,11 +624,6 @@
     "dimension": 10,
     "mob": "quark:ashen",
     "result": "deny"
- },
- {
-   "dimension": 0,
-   "mob": "quark:ashen",
-   "result": "deny"
  },
  {
     "dimension": 10,
@@ -2437,11 +2259,6 @@
     "mob": "mowziesmobs:naga",
     "result": "deny"
  },
- {
-    "dimension": 0,
-    "mob": "mowziesmobs:naga",
-    "result": "deny"
- },
  
  
  // Direwolves
@@ -2829,11 +2646,6 @@
     },
     "result": "allow"
  }, */
- {
-    "dimension": 0,
-    "mob": "iceandfire:dread_beast",
-    "result": "deny"
- },
 
  /*{
     "dimension": 0,
@@ -2848,11 +2660,6 @@
     "result": "allow"
  },*/
 
- {
-    "dimension": 0,
-    "mob": "iceandfire:dread_scuttler",
-    "result": "deny"
- },
 
  /*{
     "dimension": 0,
@@ -2871,11 +2678,6 @@
     },
     "result": "allow"
  },*/
- {
-    "dimension": 0,
-    "mob": "iceandfire:dread_ghoul",
-    "result": "deny"
- },
 
  /*{
     "dimension": 0,
@@ -2927,11 +2729,6 @@
     "result": "allow",
 	"potion": "extraalchemy:effect.pacifism,1000000,1"
  },*/
- {
-    "dimension": 0,
-    "mob": "iceandfire:dread_lich",
-    "result": "deny"
- },
 
  /*{
     "dimension": 0,
@@ -2951,11 +2748,6 @@
     },
     "result": "allow"
  },*/
- {
-    "dimension": 0,
-    "mob": "iceandfire:dread_knight",
-    "result": "deny"
- },
 
  {
     "dimension": 4,
@@ -3068,12 +2860,7 @@
     "mob": "mod_lavacow:scarecrow",
     "result": "deny"
  },
-//Definitely remove ice villagers for the time being
- {
-    "dimension": 0,
-    "mob": "iceandfire:snowvillager",
-    "result": "deny"
- },
+
 /////// Attach loot tables for use with loot tweaker here
 	//only make onjoin true when testing /summon or spawn eggs 
 	
@@ -3085,8 +2872,5 @@
 	"result": "default",
 	"nbt": {"DeathLootTable": "rotn:bap_badger"}
 	}
-
-
-////// Seasonal Changes 
 
 ]

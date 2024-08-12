@@ -12,5 +12,5 @@ more_logging = false
 # Add the paths to those extra configs here in the order that you want them to be loaded. Do not include
 # 'config/SpecifiedSpawning' or '.toml' in your file paths as those are handles automatically
 # This file will always be loaded first
-other_configs = [  ]
+other_configs = [ "modify", "remove", "spawn" ]
 
