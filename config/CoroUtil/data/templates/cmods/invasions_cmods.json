@@ -1,0 +1,284 @@
+{
+  "format": "cmods",
+  "templates": [
+    {
+      "name": "invader_miner",
+      "cmods": [
+        {
+          "cmod": "ai_mining"
+        },
+        {
+          "cmod": "ai_omniscience"
+        }
+      ]
+    },
+    {
+      "name": "invader_soldier",
+      "cmods": [
+        {
+          "cmod": "ai_omniscience"
+        },
+        {
+          "cmod": "ai_counterattack"
+        },
+        {
+          "cmod": "ai_lunge"
+        },
+        {
+          "cmod": "ai_hoist"
+        }
+      ]
+    },
+    {
+      "name": "buffed_attributes",
+      "cmods": [
+        {
+          "cmod": "attribute_attackdamage",
+          "base_value": 3,
+          "max_value": 5,
+          "difficulty_multiplier": 0.5
+        },
+        {
+          "cmod": "attribute_health",
+          "base_value": 20,
+          "max_value": 50,
+          "difficulty_multiplier": 1.0
+        },
+        {
+          "cmod": "attribute_speed",
+          "base_value": 0.23,
+          "max_value": 0.3,
+          "difficulty_multiplier": 0.5
+        },
+        {
+          "cmod": "attribute_speed_flying",
+          "base_value": 4.0
+        },
+        {
+          "cmod": "xp",
+          "base_value": 5,
+          "difficulty_multiplier": 1.5
+        }
+      ]
+    },
+    {
+      "name": "inventory_iron_pickaxe",
+      "cmods": [
+        {
+          "cmod": "inventory",
+
+          "inv_hand_main": "minecraft:iron_pickaxe"
+        }
+      ]
+    },
+    {
+      "name": "inventory_diamond_pickaxe",
+      "cmods": [
+        {
+          "cmod": "inventory",
+
+          "inv_hand_main": "minecraft:diamond_pickaxe"
+        }
+      ]
+    },
+    {
+      "name": "inventory_mythril_pickaxe",
+      "cmods": [
+        {
+          "cmod": "inventory",
+
+          "inv_hand_main": "simpleores:mythril_pickaxe"
+        }
+      ]
+    },
+    {
+      "name": "inventory_leather",
+      "cmods": [
+        {
+          "cmod": "inventory",
+
+          "inv_head": "betterwithmods:leather_tanned_helmet",
+          "inv_chest": "minecraft:leather_chestplate"
+        }
+      ]
+    },
+    {
+      "name": "inventory_chainmail",
+      "cmods": [
+        {
+          "cmod": "inventory",
+
+          "inv_head": "minecraft:iron_helmet",
+          "inv_chest": "minecraft:chainmail_chestplate"
+        }
+      ]
+    },
+    {
+      "name": "inventory_iron",
+      "cmods": [
+        {
+          "cmod": "inventory",
+
+          "inv_head": "minecraft:iron_helmet",
+          "inv_chest": "minecraft:iron_chestplate"
+        }
+      ]
+    },
+    {
+      "name": "inventory_iron_with_shield",
+      "cmods": [
+        {
+          "cmod": "inventory",
+
+          "inv_hand_off": "spartanshields:shield_basic_iron",
+          "inv_head": "iceandfire:armor_silver_metal_helmet",
+          "inv_chest": "minecraft:iron_chestplate"
+        }
+      ]
+    },
+    {
+      "name": "inventory_bronze",
+      "cmods": [
+        {
+          "cmod": "inventory",
+
+          "inv_head": "atop:mud_helmet",
+          "inv_chest": "atop:mud_chestplate"
+        }
+      ]
+    },
+    {
+      "name": "inventory_bronze_with_shield",
+      "cmods": [
+        {
+          "cmod": "inventory",
+
+          "inv_hand_off": "spartanshields:shield_basic_bronze",
+          "inv_head": "atop:mud_helmet",
+          "inv_chest": "atop:mud_chestplate",
+          "inv_legs": "atop:mud_leggings",
+          "inv_feet": "atop:mud_boots"
+        }
+      ]
+    },
+    {
+      "name": "inventory_silver",
+      "cmods": [
+        {
+          "cmod": "inventory",
+
+          "inv_head": "minecraft:diamond_helmet",
+          "inv_chest": "iceandfire:armor_silver_metal_chestplate"
+        }
+      ]
+    },
+    {
+      "name": "inventory_silver_with_shield",
+      "cmods": [
+        {
+          "cmod": "inventory",
+
+          "inv_hand_off": "spartanshields:shield_basic_silver",
+          "inv_head": "minecraft:diamond_helmet",
+          "inv_chest": "iceandfire:armor_silver_metal_chestplate"
+        }
+      ]
+    },
+    {
+      "name": "inventory_diamond",
+      "cmods": [
+        {
+          "cmod": "inventory",
+
+
+          "inv_head": "endreborn:armour_helmet_helmet",
+          "inv_chest": "minecraft:diamond_chestplate"
+        }
+      ]
+    },
+    {
+      "name": "inventory_diamond_with_shield",
+      "cmods": [
+        {
+          "cmod": "inventory",
+
+          "inv_hand_off": "spartanshields:shield_basic_diamond",
+          "inv_head": "endreborn:armour_helmet_helmet",
+          "inv_chest": "minecraft:diamond_chestplate"
+        }
+      ]
+    },
+    {
+      "name": "inventory_mythril",
+      "cmods": [
+        {
+          "cmod": "inventory",
+
+
+          "inv_head": "simpleores:onyx_helmet",
+          "inv_chest": "simpleores:mythril_chestplate"
+        }
+      ]
+    },
+    {
+      "name": "inventory_mythril_with_shield",
+      "cmods": [
+        {
+          "cmod": "inventory",
+
+          "inv_hand_off": "spartanshields:shield_basic_lead",
+          "inv_head": "simpleores:onyx_helmet",
+          "inv_chest": "simpleores:mythril_chestplate"
+        }
+      ]
+    },
+    {
+      "name": "inventory_viridium",
+      "cmods": [
+        {
+          "cmod": "inventory",
+
+
+          "inv_head": "simpleores:mythril_helmet",
+          "inv_chest": "simpleores:adamantium_chestplate"
+        }
+      ]
+    },
+    {
+      "name": "inventory_viridium_with_shield",
+      "cmods": [
+        {
+          "cmod": "inventory",
+
+          "inv_hand_off": "spartanshields:shield_basic_lead",
+          "inv_head": "simpleores:mythril_helmet",
+          "inv_chest": "simpleores:adamantium_chestplate"
+        }
+      ]
+    },
+    {
+      "name": "inventory_onyx",
+      "cmods": [
+        {
+          "cmod": "inventory",
+
+
+          "inv_head": "iceandfire:dragonsteel_fire_helmet",
+          "inv_chest": "simpleores:onyx_chestplate"
+        }
+      ]
+    },
+    {
+      "name": "inventory_onyx_with_shield",
+      "cmods": [
+        {
+          "cmod": "inventory",
+
+          "inv_hand_off": "spartanshields:shield_basic_lead",
+          "inv_head": "iceandfire:dragonsteel_fire_helmet",
+          "inv_chest": "simpleores:onyx_chestplate",
+        }
+      ]
+    }
+  ]
+}
