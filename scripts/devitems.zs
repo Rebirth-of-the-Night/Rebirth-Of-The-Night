@@ -218,7 +218,7 @@ val clockworkHeart = <contenttweaker:clockwork_heart>;
 <contenttweaker:clockwork_heart>.addTooltip(format.darkRed("Still not enough... I must be PERFECT"));
 JEI.addDescription(<contenttweaker:clockwork_heart>,"Provides some enhancements, but at a cost...");
 
-mods.betterwithmods.Anvil.addShapedFixed(<contenttweaker:doll_heart>, 
+mods.betterwithmods.Anvil.addShapedFixed(<contenttweaker:clockwork_heart>, 
 [
    [<scalinghealth:crystalshard>, <contenttweaker:material_part:45>, <contenttweaker:material_part:45>, <scalinghealth:crystalshard>],
    [<contenttweaker:material_part:45>, <pyrotech:cog_bone>, <contenttweaker:wrought_animation_core>, <contenttweaker:material_part:45>],
