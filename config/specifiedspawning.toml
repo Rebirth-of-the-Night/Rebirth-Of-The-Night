@@ -6,11 +6,11 @@
 # General Config Options
 
 # Write more things to the log. Helpful for debugging purposes. Default value is false
-more_logging = false
+more_logging = true
 
 # For organizational purposes if you so choose, you can add extra config files to 'config/SpecifiedSpawning'.
 # Add the paths to those extra configs here in the order that you want them to be loaded. Do not include
 # 'config/SpecifiedSpawning' or '.toml' in your file paths as those are handles automatically
 # This file will always be loaded first
-other_configs = [  ]
+other_configs = ["remove", "modify", "spawn" ]
 

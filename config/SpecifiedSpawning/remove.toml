@@ -1,0 +1,121 @@
+# When adding a new gamestage, dimension, or spawning rule, add it to this comment and add another comment in the category itself
+# Dimensions: Overworld [0] Nether [-1] End [1] Aether [4] Twilight Forest [7] Beneath [10]
+# Gamestages: Harvester
+# Biomes:
+
+
+# Disabled Mobs
+# Creepers do not spawn in Nether, End or Aether
+[[remove]]
+    dimension = [1, -1, 4]
+    [remove.entity]
+        entity = "minecraft:creeper"
+
+# Wraiths do not spawn in OW, End, or Aether - update for 3.4 
+[[remove]]
+    dimension = [0, 1, 4]
+    [remove.entity]
+        entity = "quark:wraith"
+
+# Fugitives only spawn in the Overworld - update for 3.4 
+[[remove]]
+    dimension = [1, 4, 7, 10, -1]
+    
+    [remove.entity]
+        entity = "toroquest:toroquest_fugitive"
+
+# Endermen do not spawn in the Twilight Forest or Nether
+[[remove]]
+    dimension = [7, -1]
+    
+    [remove.entity]
+        entity = "minecraft:enderman"
+
+# Skeletons, pipers, lammergeiers, and zombie players do not spawn in the Aether
+[[remove]]
+    dimension = 4
+    
+    [remove.entity]
+        entity = "minecraft:skeleton"
+
+[[remove]]
+    dimension = 4
+    
+    [remove.entity]
+        entity = "rats:illager_piper"
+[[remove]]
+    dimension = 4
+    
+    [remove.entity]
+        entity = "betteranimalsplus:lammergeier"
+[[remove]]
+    dimension = 4
+    
+    [remove.entity]
+        entity = "zombie_players:zombie_player"
+
+# Baby zombies do not spawn in the Nether
+[[remove]]
+    dimension = [-1 , 4]
+    
+    [remove.entity]
+        entity = "minecraft:zombie"
+
+# Vanilla passive mobs, lava cows, aether swets do not spawn
+[[remove]]
+    entity = "minecraft:pig"
+[[remove]]
+    entity = "minecraft:sheep"
+[[remove]]
+    entity = "minecraft:cow"
+[[remove]]
+    entity = "minecraft:chicken"
+[[remove]]
+    entity = "minecraft:mooshroom"
+[[remove]]
+    entity = "minecraft:rabbit"
+[[remove]]
+    entity = "mod_lavacow:lavacow"
+[[remove]]
+    entity = "aether_legacy:swet"
+
+# Ashen, skydrakes, snow villagers, and dread mobs (exception of the dread thrall) do not spawn in the Overworld
+[[remove]]
+    dimension = 0
+    [remove.entity]
+        entity = "quark:ashen"
+[[remove]]
+    dimension = 0
+    [remove.entity]        
+        entity = "mowziesmobs:naga"
+[[remove]]
+    dimension = 0
+    [remove.entity]
+        entity = "iceandfire:dread_beast"
+[[remove]]
+    dimension = 0
+    [remove.entity]
+        entity = "iceandfire:dread_scuttler"
+[[remove]]
+    dimension = 0
+    [remove.entity]
+        entity = "iceandfire:dread_ghoul"
+[[remove]]
+    dimension = 0
+    [remove.entity]
+        entity = "iceandfire:dread_lich"
+[[remove]]
+    dimension = 0
+    [remove.entity]
+        entity = "iceandfire:dread_knight"
+[[remove]]
+    dimension = 0
+    [remove.entity]
+        entity = "iceandfire:snowvillager"
+
+# Harvester Stage
+
+# Ghast Queen Stage
+[[remove]]
+    [remove.entity]
+        entity = "primitivemobs:trollager"

@@ -1,0 +1,76 @@
+# When adding a new gamestage, dimension, or spawning rule, add it to this comment and add another comment in the category itself
+# Dimensions:
+# Gamestages:
+# Biomes:
+
+[[spawn]]
+    dimension = [0 , 10]
+    group = "hostile"
+    [spawn.entity]
+        entity = "minecraft:zombie"
+        min_group_size = 1
+        max_group_size = 1
+        weight = 100
+[[spawn]]
+    dimension = [0 , 10]
+    group = "hostile"
+    [spawn.entity]
+        entity = "minecraft:skeleton"
+        min_group_size = 1
+        max_group_size = 1
+        weight = 100
+[[spawn]]
+    dimension = [0 , 10]
+    group = "hostile"
+    [spawn.entity]
+        entity = "minecraft:spider"
+        min_group_size = 1
+        max_group_size = 1
+        weight = 100
+[[spawn]]
+    dimension = [0 , 10]
+    group = "hostile"
+    [spawn.entity]
+        entity = "minecraft:creeper"
+        min_group_size = 1
+        max_group_size = 1
+        weight = 100
+[[spawn]]
+    dimension = [0 , 10]
+    group = "hostile"
+    [spawn.entity]
+        entity = "minecraft:enderman"
+        min_group_size = 1
+        max_group_size = 1
+        weight = 25
+[[spawn]]
+    dimension = [0 , 10]
+    group = "hostile"
+    [spawn.entity]
+        entity = "primitivemobs:skeleton_warrior"
+        min_group_size = 1
+        max_group_size = 1
+        weight = 25
+[[spawn]]
+    dimension = [0 , 10]
+    group = "hostile"
+    [spawn.entity]
+        entity = "quark:dweller"
+        min_group_size = 1
+        max_group_size = 1
+        weight = 25
+    [spawn.height]
+        max = 50
+        check_sky = false
+
+
+[[spawn]]
+    dimension = [0 , 10]
+    group = "hostile"
+    [spawn.entity]
+        entity = "primitivemobs:trollager"
+        min_group_size = 1
+        max_group_size = 1
+        weight = 5
+    [spawn.gamestage]
+        gamestage = "killedGhastQueen"
