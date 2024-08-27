@@ -2,3 +2,24 @@
 # Dimensions:
 # Gamestages:
 # Biomes:
+
+[[modify]]
+    
+	new_group = "hostile"
+        [modify.entity]
+        entity = "primitivemobs:trollager"
+[[modify]]
+    
+	new_group = "hostile"
+        [modify.entity]
+        entity = "primitivemobs:skeleton_warrior"
+[[modify]]
+    
+	new_group = "hostile"
+        [modify.entity]
+        entity = "primitivemobs:goblin"
+[[modify]]
+    
+	new_group = "hostile"
+        [modify.entity]
+        entity = "primitivemobs:rocket_creeper"

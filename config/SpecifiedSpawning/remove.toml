@@ -1,89 +1,92 @@
 # When adding a new gamestage, dimension, or spawning rule, add it to this comment and add another comment in the category itself
 # Dimensions: Overworld [0] Nether [-1] End [1] Aether [4] Twilight Forest [7] Beneath [10]
-# Gamestages: Harvester
+# Gamestages:
 # Biomes:
-
 
 # Disabled Mobs
 # Creepers do not spawn in Nether, End or Aether
 [[remove]]
     dimension = [1, -1, 4]
     [remove.entity]
-        entity = "minecraft:creeper"
+        matcher = "minecraft:creeper"
 
 # Wraiths do not spawn in OW, End, or Aether - update for 3.4 
 [[remove]]
     dimension = [0, 1, 4]
     [remove.entity]
-        entity = "quark:wraith"
+        matcher = "quark:wraith"
 
 # Fugitives only spawn in the Overworld - update for 3.4 
 [[remove]]
     dimension = [1, 4, 7, 10, -1]
-    
     [remove.entity]
-        entity = "toroquest:toroquest_fugitive"
+        matcher = "toroquest:toroquest_fugitive"
 
 # Endermen do not spawn in the Twilight Forest or Nether
 [[remove]]
     dimension = [7, -1]
-    
     [remove.entity]
-        entity = "minecraft:enderman"
+        matcher = "minecraft:enderman"
 
-# Skeletons, pipers, lammergeiers, and zombie players do not spawn in the Aether
+# Skeletons, zombies, pipers, lammergeiers, and zombie players do not spawn in the Aether
 [[remove]]
     dimension = 4
-    
     [remove.entity]
-        entity = "minecraft:skeleton"
-
+        matcher = "minecraft:skeleton"
 [[remove]]
     dimension = 4
-    
     [remove.entity]
-        entity = "rats:illager_piper"
+        matcher = "minecraft:zombie"
 [[remove]]
     dimension = 4
-    
     [remove.entity]
-        entity = "betteranimalsplus:lammergeier"
+        matcher = "rats:illager_piper"
 [[remove]]
     dimension = 4
-    
     [remove.entity]
-        entity = "zombie_players:zombie_player"
+        matcher = "betteranimalsplus:lammergeier"
+[[remove]]
+    dimension = 4
+    [remove.entity]
+        matcher = "zombie_players:zombie_player"
 
 # Baby zombies do not spawn in the Nether
 [[remove]]
-    dimension = [-1 , 4]
-    
+    dimension = -1
     [remove.entity]
-        entity = "minecraft:zombie"
+        matcher = "minecraft:zombie"
 
 # Vanilla passive mobs, lava cows, aether swets do not spawn
 [[remove]]
-    entity = "minecraft:pig"
+    [remove.entity]
+        matcher = "minecraft:pig"
 [[remove]]
-    entity = "minecraft:sheep"
+    [remove.entity]
+        matcher = "minecraft:sheep"
 [[remove]]
-    entity = "minecraft:cow"
+    [remove.entity]
+        matcher = "minecraft:cow"
 [[remove]]
-    entity = "minecraft:chicken"
+    [remove.entity]
+        matcher = "minecraft:chicken"
 [[remove]]
-    entity = "minecraft:mooshroom"
+    [remove.entity]
+        matcher = "minecraft:mooshroom"
 [[remove]]
-    entity = "minecraft:rabbit"
+    [remove.entity]
+        matcher = "minecraft:rabbit"
 [[remove]]
-    entity = "mod_lavacow:lavacow"
+    [remove.entity]
+        matcher = "mod_lavacow:lavacow"
 [[remove]]
-    entity = "aether_legacy:swet"
+    [remove.entity]
+        matcher = "aether_legacy:swet"
 
 # Ashen, skydrakes, snow villagers, and dread mobs (exception of the dread thrall) do not spawn in the Overworld
 [[remove]]
     dimension = 0
     [remove.entity]
-        entity = "quark:ashen"
+        matcher = "quark:ashen"
 [[remove]]
     dimension = 0
     [remove.entity]        
@@ -91,31 +94,51 @@
 [[remove]]
     dimension = 0
     [remove.entity]
-        entity = "iceandfire:dread_beast"
+        matcher = "iceandfire:dread_beast"
 [[remove]]
     dimension = 0
     [remove.entity]
-        entity = "iceandfire:dread_scuttler"
+        matcher = "iceandfire:dread_scuttler"
 [[remove]]
     dimension = 0
     [remove.entity]
-        entity = "iceandfire:dread_ghoul"
+        matcher = "iceandfire:dread_ghoul"
 [[remove]]
     dimension = 0
     [remove.entity]
-        entity = "iceandfire:dread_lich"
+        matcher = "iceandfire:dread_lich"
 [[remove]]
     dimension = 0
     [remove.entity]
-        entity = "iceandfire:dread_knight"
+        matcher = "iceandfire:dread_knight"
 [[remove]]
     dimension = 0
     [remove.entity]
-        entity = "iceandfire:snowvillager"
+        matcher = "iceandfire:snowvillager"
 
-# Harvester Stage
-
-# Ghast Queen Stage
+# Aether
 [[remove]]
     [remove.entity]
-        entity = "primitivemobs:trollager"
+        matcher = "mowziesmobs:naga"
+
+# Beneath
+[[remove]]
+    [remove.entity]
+        matcher = "mod_lavacow:zombiemushroom"
+[[remove]]
+    [remove.entity]
+        matcher = "mod_lavacow:zombiefrozen"
+
+# Mythril
+[[remove]]
+    [remove.entity]
+        matcher = "trumpetskeleton:trumpet_skeleton"
+
+# Ghast Queen
+[[remove]]
+    [remove.entity]
+        matcher = "primitivemobs:goblin"
+
+[[remove]]
+    [remove.entity]
+        matcher = "primitivemobs:trollager"

@@ -2,7 +2,8 @@
 # Dimensions:
 # Gamestages:
 # Biomes:
-
+more_logging = true
+# Overworld Stage (stageless)
 [[spawn]]
     dimension = [0 , 10]
     group = "hostile"
@@ -34,7 +35,7 @@
         entity = "minecraft:creeper"
         min_group_size = 1
         max_group_size = 1
-        weight = 100
+        weight = 75
 [[spawn]]
     dimension = [0 , 10]
     group = "hostile"
@@ -45,7 +46,6 @@
         weight = 25
 [[spawn]]
     dimension = [0 , 10]
-    group = "hostile"
     [spawn.entity]
         entity = "primitivemobs:skeleton_warrior"
         min_group_size = 1
@@ -58,19 +58,171 @@
         entity = "quark:dweller"
         min_group_size = 1
         max_group_size = 1
-        weight = 25
+        weight = 50
     [spawn.height]
         max = 50
-        check_sky = false
+        check_sky = true
+[[spawn]]
+    dimension = [0 , 10]
+    group = "hostile"
+    [spawn.entity]
+        entity = "minecraft:witch"
+        min_group_size = 1
+        max_group_size = 1
+        weight = 5
 
+# Harvester Stage
+[[spawn]]
+    dimension = [0 , 10]
+    [spawn.entity]
+        entity = "primitivemobs:rocket_creeper"
+        min_group_size = 1
+        max_group_size = 1
+        weight = 75
+    [spawn.gamestage]
+        gamestage = "killedHarvester"
 
 [[spawn]]
     dimension = [0 , 10]
     group = "hostile"
     [spawn.entity]
-        entity = "primitivemobs:trollager"
+        entity = "specialmobs:windwitch"
         min_group_size = 1
         max_group_size = 1
         weight = 5
+    [spawn.gamestage]
+        gamestage = "killedHarvester"
+
+[[spawn]]
+    dimension = [0 , 10]
+    group = "hostile"
+    [spawn.entity]
+        entity = "minecraft:silverfish"
+        min_group_size = 1
+        max_group_size = 1
+        weight = 25
+    [spawn.gamestage]
+        gamestage = "killedHarvester"
+    [spawn.spawnblock]
+        block = ["minecraft:sandstone", "minecraft:gravel", "undergroundbiomes:metamorphic_gravel", "undergroundbiomes:sedimentary_gravel", "undergroundbiomes:igneous_sand", "undergroundbiomes:metamorphic_sand", "undergroundbiomes:sedimentary_sand", "undergroundbiomes:igneous_sandstone", "undergroundbiomes:metamorphic_sandstone", "undergroundbiomes:sedimentary_sandstone", "biomesoplenty:white_sandstone", "minecraft:stone", "undergroundbiomes:igneous_stone", "undergroundbiomes:metamorphic_stone", "undergroundbiomes:igneous_overgrown", "undergroundbiomes:metamorphic_overgrown", "undergroundbiomes:sedimentary_stone", "undergroundbiomes:sedimentary_overgrown"]
+    [spawn.height]
+        max = 120
+[[spawn]]
+    dimension = [0 , 10]
+    group = "hostile"
+    [spawn.entity]
+        entity = "specialmobs:hungryzombie"
+        min_group_size = 1
+        max_group_size = 1
+        weight = 100
+    [spawn.gamestage]
+        gamestage = "killedHarvester"
+
+[[spawn]]
+    dimension = [0 , 10]
+    group = "hostile"
+    [spawn.entity]
+        entity = "specialmobs:sniperskeleton"
+        min_group_size = 1
+        max_group_size = 1
+        weight = 100
+    [spawn.gamestage]
+        gamestage = "killedHarvester"
+
+[[spawn]]
+    dimension = [0 , 10]
+    group = "hostile"
+    [spawn.entity]
+        entity = "specialmobs:hungryspider"
+        min_group_size = 1
+        max_group_size = 1
+        weight = 100
+    [spawn.gamestage]
+        gamestage = "killedHarvester"
+
+[[spawn]]
+    dimension = [0 , 10]
+    group = "hostile"
+    [spawn.entity]
+        entity = "specialmobs:palespider"
+        min_group_size = 1
+        max_group_size = 1
+        weight = 100
+    [spawn.gamestage]
+        gamestage = "killedHarvester"
+    [spawn.height]
+        max = 80
+[[spawn]]
+    dimension = [0]
+    group = "hostile"
+    [spawn.entity]
+        entity = "primitivemobs:brain_slime"
+        min_group_size = 1
+        max_group_size = 1
+        weight = 100
+    [spawn.gamestage]
+        gamestage = "killedHarvester"
+    [spawn.spawnblock]
+        block = ["minecraft:sand", "undergroundbiomes:igneous_sand", "undergroundbiomes:metamorphic_sand", "undergroundbiomes:sedimentary_sand", "biomesoplenty:white_sand", "biomesoplenty:dried_sand"]
+    [spawn.biome]
+        biome = ["minecraft:beaches"]
+[[spawn]]
+    dimension = [0]
+    group = "hostile"
+    [spawn.entity]
+        entity = "specialmobs:blackberryslime"
+        min_group_size = 1
+        max_group_size = 1
+        weight = 100
+    [spawn.gamestage]
+        gamestage = "killedHarvester"
+    [spawn.biome]
+        mod = "defiledlands"
+        biome = "biomesoplenty:ominous_woods"
+    [spawn.light]
+        min = 14
+        max = 15
+[[spawn]]
+    dimension = [4]
+    group = "hostile"
+    [spawn.entity]
+        entity = "mowziesmobs:naga"
+        min_group_size = 1
+        max_group_size = 1
+        weight = 5
+    [spawn.biome]
+        biome = "biometweaker:aether_cliffs"
+    [spawn.gamestage]
+        gamestage = "killedHarvester"
+
+
+# Nether Stage
+[[spawn]]
+    dimension = [0 , 10]
+    group = "hostile"
+    [spawn.entity]
+        entity = "specialmobs:firezombie"
+        min_group_size = 1
+        max_group_size = 1
+        weight = 100
+    [spawn.gamestage]
+        gamestage = "enteredNether"
+
+# Quazar Stage
+
+# Beneath Stage
+
+# End Stage
+
+# Wither Stage
+
+# Ghast Queen Stage
+[[spawn]]
+    dimension = [0 , 10]
+    [spawn.entity]
+        entity = "primitivemobs:trollager"
+        min_group_size = 1
+        max_group_size = 1
+        weight = 100
     [spawn.gamestage]
         gamestage = "killedGhastQueen"
