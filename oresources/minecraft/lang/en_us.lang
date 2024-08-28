@@ -106,3 +106,5 @@ tile.monsterStoneEgg.mossybrick.name=Mossy Coade Stone Brick Monster Egg
 tile.monsterStoneEgg.crackedbrick.name=Cracked Coade Stone Brick Monster Egg
 tile.monsterStoneEgg.chiseledbrick.name=Chiseled Coade Stone Brick Monster Egg
 tile.stairsStoneBrickSmooth.name=Coade Stone Brick Stairs
+
+death.attack.BROKEN_HEART=%1$s died of a broken heart

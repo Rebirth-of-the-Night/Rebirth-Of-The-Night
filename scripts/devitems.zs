@@ -6,8 +6,7 @@ import crafttweaker.data.IData;
 import crafttweaker.enchantments.IEnchantmentDefinition;
 import mods.ctutils.utils.Math;
 import mods.contenttweaker.Commands;
-
-
+ import crafttweaker.damage.IDamageSource;
 
 
 // cutcat
@@ -212,7 +211,8 @@ recipes.addHiddenShaped("tickywicky", <dungeontactics:terrible_feather>.withTag(
 [<endreborn:item_angel_feather>, <contenttweaker:life_rune>, <endreborn:item_angel_feather>]
 ]);
 
-//Bellona
+//ProvidenceDaemon
+
 val clockworkHeart = <contenttweaker:clockwork_heart>;
 <contenttweaker:clockwork_heart>.addTooltip(format.darkPurple("tick, tick, tick..."));
 <contenttweaker:clockwork_heart>.addTooltip(format.darkRed("Still not enough... I must be PERFECT"));
