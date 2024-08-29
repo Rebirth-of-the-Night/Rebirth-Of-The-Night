@@ -66,6 +66,22 @@
                 "downloadAlways": true,
                 "description": "Hotfix for Sludge Lord spawning"
             }
+        },
+        {
+            "url": "https://raw.githubusercontent.com/Rebirth-of-the-Night/Rebirth-Of-The-Night/stable/filedirector/baubles.zs",
+            "folder": "scripts",
+            "installationPolicy": {
+                "downloadAlways": true,
+                "description": "Nerf OP Strategy"
+            }
+        },
+        {
+            "url": "https://raw.githubusercontent.com/Rebirth-of-the-Night/Rebirth-Of-The-Night/stable/filedirector/opItems.zs",
+            "folder": "scripts",
+            "installationPolicy": {
+                "downloadAlways": true,
+                "description": "Nerf OP Strategy"
+            }
         }
     ]
 }
