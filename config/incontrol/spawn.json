@@ -1,1 +1,582 @@
-[]
+[
+    //Default armor settings
+    {
+        "mob": [
+            "minecraft:zombie",
+            "minecraft:skeleton",
+            "primitivemobs:skeleton_warrior"
+        ],
+        "random": 0.1,
+        "armorhelmet": [
+            "minecraft:leather_helmet",
+            "minecraft:chainmail_helmet"
+        ]
+    },
+    {
+        "mob": [
+            "minecraft:zombie",
+            "minecraft:skeleton",
+            "primitivemobs:skeleton_warrior"
+        ],
+        "random": 0.1,
+        "armorchest": [
+            "minecraft:leather_chestplate",
+            "minecraft:chainmail_chestplate"
+        ]
+    },
+    {
+        "mob": [
+            "minecraft:zombie",
+            "minecraft:skeleton",
+            "primitivemobs:skeleton_warrior"
+        ],
+        "random": 0.1,
+        "armorlegs": [
+            "minecraft:leather_leggings",
+            "minecraft:chainmail_leggings"
+        ]
+    },
+    {
+        "mob": [
+            "minecraft:zombie",
+            "minecraft:skeleton",
+            "primitivemobs:skeleton_warrior"
+        ],
+        "random": 0.1,
+        "armorboots": [
+            "minecraft:leather_boots",
+            "minecraft:chainmail_boots"
+        ]
+    },
+    //killedHarvester
+    {
+        "mob": [
+            "minecraft:zombie",
+            "minecraft:skeleton",
+            "primitivemobs:skeleton_warrior"
+        ],
+        "random": 0.1,
+        "armorhelmet": "atop:mud_helmet",
+        "gamestage": "killedHarvester"
+    },
+    {
+        "mob": [
+            "minecraft:zombie",
+            "minecraft:skeleton",
+            "primitivemobs:skeleton_warrior"
+        ],
+        "random": 0.1,
+        "armorchest": "atop:mud_chestplate",
+        "gamestage": "killedHarvester"
+    },
+    {
+        "mob": [
+            "minecraft:zombie",
+            "minecraft:skeleton",
+            "primitivemobs:skeleton_warrior"
+        ],
+        "random": 0.1,
+        "armorlegs": "atop:mud_leggings",
+        "gamestage": "killedHarvester"
+    },
+    {
+        "mob": [
+            "minecraft:zombie",
+            "minecraft:skeleton",
+            "primitivemobs:skeleton_warrior"
+        ],
+        "random": 0.1,
+        "armorboots": "atop:mud_boots",
+        "gamestage": "killedHarvester"
+    },
+    //enteredNether
+    {
+        "mob": [
+            "minecraft:zombie",
+            "minecraft:skeleton",
+            "primitivemobs:skeleton_warrior"
+        ],
+        "random": 0.1,
+        "armorhelmet": "minecraft:golden_helmet",
+        "gamestage": "enteredNether"
+    },
+    {
+        "mob": [
+            "minecraft:zombie",
+            "minecraft:skeleton",
+            "primitivemobs:skeleton_warrior"
+        ],
+        "random": 0.1,
+        "armorchest": "minecraft:golden_chestplate",
+        "gamestage": "enteredNether"
+    },
+    {
+        "mob": [
+            "minecraft:zombie",
+            "minecraft:skeleton",
+            "primitivemobs:skeleton_warrior"
+        ],
+        "random": 0.1,
+        "armorlegs": "minecraft:golden_leggings",
+        "gamestage": "enteredNether"
+    },
+    {
+        "mob": [
+            "minecraft:zombie",
+            "minecraft:skeleton",
+            "primitivemobs:skeleton_warrior"
+        ],
+        "random": 0.1,
+        "armorboots": "minecraft:golden_boots",
+        "gamestage": "enteredNether"
+    },
+    //killedQuazar
+    {
+        "mob": [
+            "minecraft:zombie",
+            "minecraft:skeleton",
+            "primitivemobs:skeleton_warrior"
+        ],
+        "random": 0.1,
+        "armorhelmet": [
+            "iceandfire:armor_silver_metal_helmet",
+            "minecraft:iron_helmet"
+        ],
+        "gamestage": "killedQuazar"
+    },
+    {
+        "mob": [
+            "minecraft:zombie",
+            "minecraft:skeleton",
+            "primitivemobs:skeleton_warrior"
+        ],
+        "random": 0.1,
+        "armorchest": [
+            "iceandfire:armor_silver_metal_chestplate",
+            "minecraft:iron_chestplate"
+        ],
+        "gamestage": "killedQuazar"
+    },
+    {
+        "mob": [
+            "minecraft:zombie",
+            "minecraft:skeleton",
+            "primitivemobs:skeleton_warrior"
+        ],
+        "random": 0.1,
+        "armorlegs": [
+            "iceandfire:armor_silver_metal_leggings",
+            "minecraft:iron_leggings"
+        ],
+        "gamestage": "killedQuazar"
+    },
+    {
+        "mob": [
+            "minecraft:zombie",
+            "minecraft:skeleton",
+            "primitivemobs:skeleton_warrior"
+        ],
+        "random": 0.1,
+        "armorboots": [
+            "iceandfire:armor_silver_metal_boots",
+            "minecraft:iron_boots"
+        ],
+        "gamestage": "killedQuazar"
+    },
+    //minedMythril
+    {
+        "mob": [
+            "minecraft:zombie",
+            "minecraft:skeleton",
+            "primitivemobs:skeleton_warrior"
+        ],
+        "random": 0.1,
+        "armorhelmet": [
+            "minecraft:diamond_helmet",
+            "endreborn:armour_helmet_helmet"
+        ],
+        "gamestage": "minedMythril"
+    },
+    {
+        "mob": [
+            "minecraft:zombie",
+            "minecraft:skeleton",
+            "primitivemobs:skeleton_warrior"
+        ],
+        "random": 0.1,
+        "armorchest": [
+            "minecraft:diamond_chestplate",
+            "endreborn:armour_chestplate_obsidian"
+        ],
+        "gamestage": "minedMythril"
+    },
+    {
+        "mob": [
+            "minecraft:zombie",
+            "minecraft:skeleton",
+            "primitivemobs:skeleton_warrior"
+        ],
+        "random": 0.1,
+        "armorlegs": [
+            "minecraft:diamond_leggings",
+            "endreborn:armour_leggings_obsidian"
+        ],
+        "gamestage": "minedMythril"
+    },
+    {
+        "mob": [
+            "minecraft:zombie",
+            "minecraft:skeleton",
+            "primitivemobs:skeleton_warrior"
+        ],
+        "random": 0.1,
+        "armorboots": [
+            "minecraft:diamond_boots",
+            "endreborn:armour_boots_obsidian"
+        ],
+        "gamestage": "minedMythril"
+    },
+    //killedEnderDragon
+    {
+        "mob": [
+            "minecraft:zombie",
+            "minecraft:skeleton",
+            "primitivemobs:skeleton_warrior"
+        ],
+        "random": 0.1,
+        "armorhelmet": [
+            "simpleores:mythril_helmet",
+            "simpleores:adamantium_helmet"
+        ],
+        "gamestage": "killedEnderDragon"
+    },
+    {
+        "mob": [
+            "minecraft:zombie",
+            "minecraft:skeleton",
+            "primitivemobs:skeleton_warrior"
+        ],
+        "random": 0.1,
+        "armorchest": [
+            "simpleores:mythril_chestplate",
+            "simpleores:adamantium_chestplate"
+        ],
+        "gamestage": "killedEnderDragon"
+    },
+    {
+        "mob": [
+            "minecraft:zombie",
+            "minecraft:skeleton",
+            "primitivemobs:skeleton_warrior"
+        ],
+        "random": 0.1,
+        "armorlegs": [
+            "simpleores:mythril_leggings",
+            "simpleores:adamantium_leggings"
+        ],
+        "gamestage": "killedEnderDragon"
+    },
+    {
+        "mob": [
+            "minecraft:zombie",
+            "minecraft:skeleton",
+            "primitivemobs:skeleton_warrior"
+        ],
+        "random": 0.1,
+        "armorboots": [
+            "simpleores:mythril_boots",
+            "simpleores:adamantium_boots"
+        ],
+        "gamestage": "killedEnderDragon"
+    },
+    //Tool Gamestages
+    {
+        "mob": [
+            "minecraft:zombie",
+            "primitivemobs:goblin"
+        ],
+        "random": 0.1,
+        "helditem": [
+            "2=simpleores:mythril_pickaxe",
+            "2=primitivemobs:goblin_mace"
+        ],
+        "gamestage": "minedMythril"
+    },
+    {
+        "mob": [
+            "minecraft:zombie",
+            "primitivemobs:goblin"
+        ],
+        "random": 0.1,
+        "helditem": [
+            "3=simpleores:onyx_pickaxe"
+        ],
+        "gamestage": "killedWither"
+    },
+    {
+        "mob": [
+            "minecraft:zombie",
+            "primitivemobs:goblin"
+        ],
+        "random": 0.1,
+        "helditem": [
+            "3=minecraft:diamond_pickaxe",
+            "3=atop:ruby_pickaxe",
+            "3=atop:sapphire_pickaxe",
+            "3=atop:peridot_pickaxe",
+            "2=simpleores:adamantium_pickaxe"
+        ],
+        "gamestage": "enteredBeneath"
+    },
+    {
+        "mob": [
+            "minecraft:zombie",
+            "primitivemobs:goblin"
+        ],
+        "random": 0.1,
+        "helditem": [
+            "3=dungeontactics:steel_pickaxe",
+            "2=atop:mud_pickaxe"
+        ],
+        "gamestage": "enteredNether"
+    },
+    {
+        "mob": [
+            "minecraft:zombie",
+            "primitivemobs:goblin"
+        ],
+        "random": 0.1,
+        "helditem": "3=atop:amethyst_pickaxe",
+        "gamestage": "enteredEnd"
+    },
+    // goblin mace nerf
+    {
+        "dimension": [
+            0,
+            10
+        ],
+        "mob": "primitivemobs:goblin",
+        "onjoin": true,
+        "seesky": false,
+        "maxlight": 7,
+        "maxheight": 35,
+        "minheight": 10,
+        "random": 0.1,
+        "helditem": [
+            "4=spartanweaponry:club_wood",
+            "2=minecraft:iron_pickaxe",
+            "2=mod_lavacow:tooth_dagger",
+            "3=mod_lavacow:vespa_dagger",
+            "1=mod_lavacow:bonesword",
+            "1=spartanweaponry:dagger_bronze",
+            "2=spartanweaponry:dagger_iron",
+            "2=spartanweaponry:dagger_copper",
+            "4=dungeontactics:bone_knife",
+            "2=dungeontactics:sharp_stick",
+            "1=spartanweaponry:throwing_axe_stone",
+            "1=spartanweaponry:throwing_axe_iron"
+        ],
+        "maxcount": {
+            "amount": 6,
+            "perplayer": true
+        },
+        "result": "allow"
+    },
+    {
+        "dimension": [
+            0,
+            10
+        ],
+        "mob": "primitivemobs:goblin",
+        "onjoin": "true",
+        "result": "deny"
+    },
+    //Mob buffs
+    {
+        "mob": [
+            "mod_lavacow:sludgelord",
+            "harvestersnight:harvester",
+            "betterslimes:quazar",
+            "minecraft:ender_dragon",
+            "rats:black_death",
+            "betteranimalsplus:hirschgeist",
+            "aether_legacy:sun_spirit",
+            "aether_legacy:slider",
+            "iceandfire:icedragon",
+            "iceandfire:firedragon",
+            "twilightforest:naga",
+            "twilightforest:lich",
+            "twilightforest:minoshroom",
+            "twilightforest:hydra",
+            "twilightforest:knight_phantom",
+            "twilightforest:ur_ghast",
+            "twilightforest:yeti_alpha",
+            "twilightforest:snow_queen",
+            "iceandfire:seaserpent",
+            "iceandfire:cyclops",
+            "iceandfire:if_hydra",
+            "mowziesmobs:ferrous_wroughtnaut",
+            "mowziesmobs:frostmaw",
+            "mowziesmobs:barako"
+        ],
+        "onjoin": true,
+        "potion": [
+            "potioncore:magic_shield,1000000,1"
+        ]
+    },
+    {
+        "mob": "minecraft:wither",
+        "onjoin": true,
+        "nbt": {
+            "ActiveEffects": [
+                {
+                    "Id": 133,
+                    "Duration": 5,
+                    "Amplifier": 1,
+                    "ShowParticles": "1b"
+                },
+                {
+                    "Id": 158,
+                    "Duration": 1000000,
+                    "Amplifier": 1,
+                    "ShowParticles": "1b"
+                }
+            ],
+            "Invul": 220
+        },
+        "damagemultiply": 2
+    },
+    {
+        "mob": "minecraft:wither_skull",
+        "onjoin": true,
+        "damagemultiply": 2
+    },
+    {
+        "mob": [
+            "betteranimalsplus:boar"
+        ],
+        "onjoin": true,
+        "speedmultiply": 0.9
+    },
+    {
+        "mob": "biomesoplenty:wasp",
+        "onjoin": true,
+        "potion": [
+            "minecraft:fire_resistance,1000000,0"
+        ]
+    },
+    //Configure Primitive Mobs Spawning
+    {
+        "dimension": [
+            0,
+            10
+        ],
+        "mob": "primitivemobs:trollager",
+        "random": 0.1,
+        "gamestage": "killedGhastQueen",
+        "result": "default"
+    },
+    {
+        "dimension": [
+            0,
+            10
+        ],
+        "mob": "primitivemobs:trollager",
+        "result": "deny"
+    },
+    {
+        "mob": "primitivemobs:void_eye",
+        "result": "deny"
+    },
+    {
+        "dimension": [
+            0,
+            10
+        ],
+        "mob": "primitivemobs:festive_creeper",
+        "maxlight": 5,
+        "gamestage": "killedGhastQueen",
+        "random": 0.1,
+        "result": "allow"
+    },
+    {
+        "dimension": [
+            0,
+            10
+        ],
+        "mob": "primitivemobs:festive_creeper",
+        "result": "deny"
+    },
+    {
+        "dimension": [
+            0,
+            10
+        ],
+        "mob": "primitivemobs:rocket_creeper",
+        "gamestage": "killedHarvester",
+        "random": 0.1,
+        "maxcount": {
+            "amount": 5,
+            "perplayer": true
+        },
+        "result": "default"
+    },
+    {
+        "dimension": [
+            0,
+            10
+        ],
+        "mob": "primitivemobs:rocket_creeper",
+        "result": "deny"
+    },
+    {
+        "dimension": 0,
+        "mob": "primitivemobs:brain_slime",
+        "gamestage": "killedHarvester",
+        "mintime": 1000,
+        "maxtime": 12000,
+        "maxlight": 14,
+        "minlight": 10,
+        "random": 0.1,
+        "seesky": true,
+        "biometype": [
+            "OCEAN",
+            "BEACH"
+        ],
+        "block": [
+            "minecraft:sand",
+            "undergroundbiomes:igneous_sand",
+            "undergroundbiomes:metamorphic_sand",
+            "undergroundbiomes:sedimentary_sand",
+            "biomesoplenty:white_sand",
+            "biomesoplenty:dried_sand"
+        ],
+        "maxcount": {
+            "amount": 5,
+            "perplayer": true
+        },
+        "result": "allow"
+    },
+    {
+        "dimension": 0,
+        "mob": "primitivemobs:brain_slime",
+        "result": "deny"
+    },
+    {
+        "dimension": 4,
+        "mob": "primitivemobs:harpy",
+        "random": 0.5,
+        "maxlight": 15,
+        "minheight": 85,
+        "maxcount": {
+            "amount": 10,
+            "perplayer": true
+        },
+        "result": "allow"
+    },
+    {
+        "dimension": 4,
+        "mob": "primitivemobs:harpy",
+        "result": "deny"
+    }
+]
