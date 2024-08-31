@@ -135,10 +135,4 @@
         matcher = "trumpetskeleton:trumpet_skeleton"
 
 # Ghast Queen
-[[remove]]
-    [remove.entity]
-        matcher = "primitivemobs:goblin"
 
-[[remove]]
-    [remove.entity]
-        matcher = "primitivemobs:trollager"

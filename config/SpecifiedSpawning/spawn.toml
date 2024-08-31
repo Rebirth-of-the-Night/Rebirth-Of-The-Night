@@ -46,13 +46,6 @@ more_logging = true
         weight = 25
 [[spawn]]
     dimension = [0 , 10]
-    [spawn.entity]
-        entity = "primitivemobs:skeleton_warrior"
-        min_group_size = 1
-        max_group_size = 1
-        weight = 25
-[[spawn]]
-    dimension = [0 , 10]
     group = "hostile"
     [spawn.entity]
         entity = "quark:dweller"
@@ -72,16 +65,6 @@ more_logging = true
         weight = 5
 
 # Harvester Stage
-[[spawn]]
-    dimension = [0 , 10]
-    [spawn.entity]
-        entity = "primitivemobs:rocket_creeper"
-        min_group_size = 1
-        max_group_size = 1
-        weight = 75
-    [spawn.gamestage]
-        gamestage = "killedHarvester"
-
 [[spawn]]
     dimension = [0 , 10]
     group = "hostile"
@@ -156,20 +139,6 @@ more_logging = true
     dimension = [0]
     group = "hostile"
     [spawn.entity]
-        entity = "primitivemobs:brain_slime"
-        min_group_size = 1
-        max_group_size = 1
-        weight = 100
-    [spawn.gamestage]
-        gamestage = "killedHarvester"
-    [spawn.spawnblock]
-        block = ["minecraft:sand", "undergroundbiomes:igneous_sand", "undergroundbiomes:metamorphic_sand", "undergroundbiomes:sedimentary_sand", "biomesoplenty:white_sand", "biomesoplenty:dried_sand"]
-    [spawn.biome]
-        biome = ["minecraft:beaches"]
-[[spawn]]
-    dimension = [0]
-    group = "hostile"
-    [spawn.entity]
         entity = "specialmobs:blackberryslime"
         min_group_size = 1
         max_group_size = 1
@@ -217,12 +186,4 @@ more_logging = true
 # Wither Stage
 
 # Ghast Queen Stage
-[[spawn]]
-    dimension = [0 , 10]
-    [spawn.entity]
-        entity = "primitivemobs:trollager"
-        min_group_size = 1
-        max_group_size = 1
-        weight = 100
-    [spawn.gamestage]
-        gamestage = "killedGhastQueen"
+
