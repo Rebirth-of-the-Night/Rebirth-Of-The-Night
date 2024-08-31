@@ -535,7 +535,7 @@
         "gamestage": "killedHarvester",
         "mintime": 1000,
         "maxtime": 12000,
-        "maxlight": 14,
+        "maxlight": 15,
         "minlight": 10,
         "random": 0.1,
         "seesky": true,
