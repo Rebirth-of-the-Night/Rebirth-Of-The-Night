@@ -89,6 +89,7 @@
     ]
   },
   //Slimes do not work properly with Spec. Spawning for whatever reason (3.2.3)
+  //Important: do not adjust weighting in this config - if you need to increase/decrease a slime's spawn rate, change the random value in the spawn.json file
   {
     "dimension": 0,
     "mobs": [
