@@ -616,8 +616,8 @@
         "mintime": 1000,
         "maxtime": 12000,
         "maxlight": 15,
-        "minlight": 14,
-        "random": 0.03,
+        "minlight": 12,
+        "random": 0.1,
         "seesky": true,
         "result": "allow"
     },
