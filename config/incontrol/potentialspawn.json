@@ -1,4 +1,5 @@
 [
+  //Primitive Mobs hostiles should be placed here, not in specified spawning (3.2.3)
   {
     "dimension": [
       0
@@ -84,6 +85,90 @@
         "weight": 3,
         "groupcountmin": 1,
         "groupcountmax": 5
+      }
+    ]
+  },
+  //Slimes do not work properly with Spec. Spawning for whatever reason (3.2.3)
+  {
+    "dimension": 0,
+    "mobs": [
+      {
+        "mob": "minecraft:slime",
+        "weight": 100,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  {
+    "dimension": 0,
+    "mobs": [
+      {
+        "mob": "specialmobs:blackberryslime",
+        "weight": 4,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  {
+    "dimension": 4,
+    "mobs": [
+      {
+        "mob": "specialmobs:lemonslime",
+        "weight": 20,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  {
+    "dimension": [
+      0,
+      4
+    ],
+    "mobs": [
+      {
+        "mob": "specialmobs:grapeslime",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  {
+    "dimension": [
+      0,
+      10
+    ],
+    "mobs": [
+      {
+        "mob": "specialmobs:blueberryslime",
+        "weight": 60,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      }
+    ]
+  },
+  {
+    "dimension": 0,
+    "mobs": [
+      {
+        "mob": "specialmobs:strawberryslime",
+        "weight": 10,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  {
+    "dimension": 0,
+    "mobs": [
+      {
+        "mob": "specialmobs:watermelonslime",
+        "weight": 60,
+        "groupcountmin": 1,
+        "groupcountmax": 1
       }
     ]
   }

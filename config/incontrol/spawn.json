@@ -1,5 +1,5 @@
 [
-    //Default armor settings
+    //Default armor settings - chainmail and leather
     {
         "mob": [
             "minecraft:zombie",
@@ -48,7 +48,7 @@
             "minecraft:chainmail_boots"
         ]
     },
-    //killedHarvester
+    //killedHarvester - bronze armor
     {
         "mob": [
             "minecraft:zombie",
@@ -89,7 +89,7 @@
         "armorboots": "atop:mud_boots",
         "gamestage": "killedHarvester"
     },
-    //enteredNether
+    //enteredNether - golden armor
     {
         "mob": [
             "minecraft:zombie",
@@ -130,7 +130,7 @@
         "armorboots": "minecraft:golden_boots",
         "gamestage": "enteredNether"
     },
-    //killedQuazar
+    //killedQuazar - silver and iron armor
     {
         "mob": [
             "minecraft:zombie",
@@ -183,7 +183,7 @@
         ],
         "gamestage": "killedQuazar"
     },
-    //minedMythril
+    //minedMythril - diamond and obsidian armor
     {
         "mob": [
             "minecraft:zombie",
@@ -236,7 +236,7 @@
         ],
         "gamestage": "minedMythril"
     },
-    //killedEnderDragon
+    //killedEnderDragon - mythril and viridium armor
     {
         "mob": [
             "minecraft:zombie",
@@ -391,7 +391,7 @@
         "onjoin": "true",
         "result": "deny"
     },
-    //Mob buffs
+    //Mob buffs - ender dragon requires the same treatment as the wither (todo)
     {
         "mob": [
             "mod_lavacow:sludgelord",
@@ -577,6 +577,205 @@
     {
         "dimension": 4,
         "mob": "primitivemobs:harpy",
+        "result": "deny"
+    },
+    //Configure slime spawning
+    // limeslimes nest in grassy areas and create hotspots from where more are born
+    {
+        "dimension": 0,
+        "mob": "minecraft:slime",
+        "mintime": 1000,
+        "maxtime": 12000,
+        "maxlight": 15,
+        "minlight": 14,
+        "random": 0.9,
+        "block": [
+            "contenttweaker:slime_nesting"
+        ],
+        "seesky": true,
+        "result": "allow"
+    },
+    {
+        "dimension": 0,
+        "mob": "minecraft:slime",
+        "result": "deny"
+    },
+    // blackberryslimes are a volatile existence, and explode into being just as they explode apart
+    {
+        "dimension": 0,
+        "biome": [
+            "defiledlands:desert_defiled",
+            "defiledlands:plains_defiled",
+            "defiledlands:forest_tenebra",
+            "defiledlands:forest_vilespine",
+            "defiledlands:hills_defiled",
+            "biomesoplenty:ominous_woods"
+        ],
+        "mob": "specialmobs:blackberryslime",
+        "gamestage": "killedHarvester",
+        "mintime": 1000,
+        "maxtime": 12000,
+        "maxlight": 15,
+        "minlight": 14,
+        "random": 0.03,
+        "seesky": true,
+        "result": "allow"
+    },
+    {
+        "dimension": 0,
+        "mob": "specialmobs:blackberryslime",
+        "result": "deny"
+    },
+    // lemonslimes channel lightning and are zipped into existence from quicksoil
+    {
+        "dimension": 4,
+        "mob": "specialmobs:lemonslime",
+        "mintime": 1000,
+        "maxtime": 12000,
+        "maxlight": 15,
+        "minlight": 14,
+        "minheight": 30,
+        "random": 0.6,
+        "seesky": true,
+        "block": [
+            "aether_legacy:quicksoil"
+        ],
+        "gamestage": "enteredAether",
+        "result": "allow"
+    },
+    {
+        "dimension": 0,
+        "mob": "specialmobs:lemonslime",
+        "result": "deny"
+    },
+    // grapeslimes fall from the stratos during the night and are immune to fall damage
+    {
+        "dimension": [
+            0,
+            4
+        ],
+        "mob": "specialmobs:grapeslime",
+        "mintime": 12000,
+        "maxtime": 24000,
+        "maxlight": 11,
+        "minlight": 5,
+        "minheight": 155,
+        "random": 0.03,
+        "seesky": true,
+        "block": [
+            "minecraft:grass",
+            "biomesoplenty:grass:2",
+            "biomesoplenty:grass:3",
+            "biomesoplenty:grass:4"
+        ],
+        "gamestage": "killedQuazar",
+        "result": "allow"
+    },
+    {
+        "dimension": 1,
+        "mob": "specialmobs:grapeslime",
+        "seesky": true,
+        "block": [
+            "stygian:endobsidian"
+        ],
+        "result": "allow"
+    },
+    {
+        "dimension": 0,
+        "mob": "specialmobs:grapeslime",
+        "result": "deny"
+    },
+    // blueberryslimes emerge from raw magical stone and their high density makes then immune to drowning
+    {
+        "dimension": [
+            10,
+            0
+        ],
+        "mob": "specialmobs:blueberryslime",
+        "mintime": 1000,
+        "maxtime": 12000,
+        "maxheight": 100,
+        "block": [
+            "dimstack:bedrock",
+            "contenttweaker:residual_mythril",
+            "osv:simpleores_mythril_ore_undergroundbiomes_metamorphic_stone",
+            "osv:simpleores_mythril_ore_undergroundbiomes_metamorphic_stone_4",
+            "osv:simpleores_mythril_ore_undergroundbiomes_metamorphic_stone_2",
+            "osv:simpleores_mythril_ore_undergroundbiomes_metamorphic_stone_3",
+            "osv:simpleores_mythril_ore_undergroundbiomes_sedimentary_stone_2",
+            "osv:simpleores_mythril_ore_undergroundbiomes_sedimentary_stone_3",
+            "osv:simpleores_mythril_ore_undergroundbiomes_sedimentary_stone",
+            "osv:simpleores_mythril_ore_undergroundbiomes_igneous_stone",
+            "osv:simpleores_mythril_ore_undergroundbiomes_igneous_stone_6",
+            "osv:simpleores_mythril_ore_undergroundbiomes_igneous_stone_7",
+            "osv:simpleores_mythril_ore_pyrotech_limestone",
+            "osv:simpleores_mythril_ore_undergroundbiomes_metamorphic_stone_1",
+            "osv:simpleores_mythril_ore_undergroundbiomes_igneous_stone_4",
+            "osv:simpleores_mythril_ore_undergroundbiomes_igneous_stone_1",
+            "osv:simpleores_mythril_ore_undergroundbiomes_sedimentary_stone_6",
+            "osv:simpleores_mythril_ore_undergroundbiomes_igneous_stone_3",
+            "osv:simpleores_mythril_ore_undergroundbiomes_sedimentary_stone_5",
+            "osv:simpleores_mythril_ore_undergroundbiomes_metamorphic_stone_6",
+            "osv:simpleores_mythril_ore_undergroundbiomes_metamorphic_stone_5",
+            "osv:simpleores_mythril_ore_undergroundbiomes_sedimentary_stone_7",
+            "osv:simpleores_mythril_ore_undergroundbiomes_sedimentary_stone_1",
+            "osv:simpleores_mythril_ore_undergroundbiomes_igneous_stone_2",
+            "osv:simpleores_mythril_ore_undergroundbiomes_metamorphic_stone_7",
+            "osv:simpleores_mythril_ore_undergroundbiomes_igneous_stone_5",
+            "simpleores:mythril_ore"
+        ],
+        "gamestage": "minedMythril",
+        "result": "allow"
+    },
+    {
+        "dimension": 0,
+        "mob": "specialmobs:blueberryslime",
+        "result": "deny"
+    },
+    // strawberryslimes spawn from igni surfaces and their inner cinder makes them immune to fire
+    {
+        "dimension": 0,
+        "mob": "specialmobs:strawberryslime",
+        "mintime": 1000,
+        "maxtime": 12000,
+        "maxlight": 15,
+        "minlight": 14,
+        "random": 0.4,
+        "block": [
+            "undergroundbiomes:igneous_sand",
+            "iceandfire:ash",
+            "pyrotech:pile_ash",
+            "pyrotech:pit_ash_block",
+            "biomesoplenty:ash_block"
+        ],
+        "seesky": true,
+        "gamestage": "enteredNether",
+        "result": "allow"
+    },
+    {
+        "dimension": 0,
+        "mob": "specialmobs:strawberryslime",
+        "result": "deny"
+    },
+    // watermelonslimes are stronger variants of lime slimes
+    {
+        "dimension": 0,
+        "mob": "specialmobs:watermelonslime",
+        "mintime": 1000,
+        "maxtime": 12000,
+        "maxlight": 15,
+        "minlight": 14,
+        "random": 0.8,
+        "block": [
+            "contenttweaker:slime_nesting"
+        ],
+        "seesky": true,
+        "gamestage": "killedEnderDragon",
+        "result": "allow"
+    },
+    {
+        "dimension": 0,
+        "mob": "specialmobs:watermelonslime",
         "result": "deny"
     }
 ]
