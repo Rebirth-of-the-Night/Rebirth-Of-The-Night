@@ -349,48 +349,6 @@
         "helditem": "3=atop:amethyst_pickaxe",
         "gamestage": "enteredEnd"
     },
-    // goblin mace nerf
-    {
-        "dimension": [
-            0,
-            10
-        ],
-        "mob": "primitivemobs:goblin",
-        "onjoin": true,
-        "seesky": false,
-        "maxlight": 7,
-        "maxheight": 35,
-        "minheight": 10,
-        "random": 0.1,
-        "helditem": [
-            "4=spartanweaponry:club_wood",
-            "2=minecraft:iron_pickaxe",
-            "2=mod_lavacow:tooth_dagger",
-            "3=mod_lavacow:vespa_dagger",
-            "1=mod_lavacow:bonesword",
-            "1=spartanweaponry:dagger_bronze",
-            "2=spartanweaponry:dagger_iron",
-            "2=spartanweaponry:dagger_copper",
-            "4=dungeontactics:bone_knife",
-            "2=dungeontactics:sharp_stick",
-            "1=spartanweaponry:throwing_axe_stone",
-            "1=spartanweaponry:throwing_axe_iron"
-        ],
-        "maxcount": {
-            "amount": 6,
-            "perplayer": true
-        },
-        "result": "allow"
-    },
-    {
-        "dimension": [
-            0,
-            10
-        ],
-        "mob": "primitivemobs:goblin",
-        "onjoin": "true",
-        "result": "deny"
-    },
     //Mob buffs - ender dragon requires the same treatment as the wither (todo)
     {
         "mob": [
@@ -466,6 +424,48 @@
         ]
     },
     //Configure Primitive Mobs Spawning
+    // goblin mace nerf
+    {
+        "dimension": [
+            0,
+            10
+        ],
+        "mob": "primitivemobs:goblin",
+        "onjoin": true,
+        "seesky": false,
+        "maxlight": 7,
+        "maxheight": 35,
+        "minheight": 10,
+        "random": 0.1,
+        "helditem": [
+            "4=spartanweaponry:club_wood",
+            "2=minecraft:iron_pickaxe",
+            "2=mod_lavacow:tooth_dagger",
+            "3=mod_lavacow:vespa_dagger",
+            "1=mod_lavacow:bonesword",
+            "1=spartanweaponry:dagger_bronze",
+            "2=spartanweaponry:dagger_iron",
+            "2=spartanweaponry:dagger_copper",
+            "4=dungeontactics:bone_knife",
+            "2=dungeontactics:sharp_stick",
+            "1=spartanweaponry:throwing_axe_stone",
+            "1=spartanweaponry:throwing_axe_iron"
+        ],
+        "maxcount": {
+            "amount": 6,
+            "perplayer": true
+        },
+        "result": "allow"
+    },
+    {
+        "dimension": [
+            0,
+            10
+        ],
+        "mob": "primitivemobs:goblin",
+        "onjoin": "true",
+        "result": "deny"
+    },
     {
         "dimension": [
             0,
@@ -473,7 +473,7 @@
         ],
         "mob": "primitivemobs:trollager",
         "random": 0.1,
-        "gamestage": "killedGhastQueen",
+        "gamestage": "killedghastqueen",
         "result": "default"
     },
     {
@@ -495,7 +495,7 @@
         ],
         "mob": "primitivemobs:festive_creeper",
         "maxlight": 5,
-        "gamestage": "killedGhastQueen",
+        "gamestage": "killedghastqueen",
         "random": 0.1,
         "result": "allow"
     },
@@ -513,7 +513,7 @@
             10
         ],
         "mob": "primitivemobs:rocket_creeper",
-        "gamestage": "killedHarvester",
+        "gamestage": "killedharvester",
         "random": 0.1,
         "maxcount": {
             "amount": 5,
@@ -532,7 +532,7 @@
     {
         "dimension": 0,
         "mob": "primitivemobs:brain_slime",
-        "gamestage": "killedHarvester",
+        "gamestage": "killedharvester",
         "mintime": 1000,
         "maxtime": 12000,
         "maxlight": 15,
@@ -603,21 +603,21 @@
     // blackberryslimes are a volatile existence, and explode into being just as they explode apart
     {
         "dimension": 0,
-        "biome": [
-            "defiledlands:desert_defiled",
-            "defiledlands:plains_defiled",
-            "defiledlands:forest_tenebra",
-            "defiledlands:forest_vilespine",
-            "defiledlands:hills_defiled",
-            "biomesoplenty:ominous_woods"
+        "block": [
+            "defiledlands:sand_defiled",
+            "defiledlands:stone_defiled",
+            "defiledlands:grass_defiled",
+            "defiledlands:sandstone_defiled",
+            "defiledlands:dirt_defiled",
+            "defiledlands:gravel_defiled"
         ],
         "mob": "specialmobs:blackberryslime",
-        "gamestage": "killedHarvester",
+        "gamestage": "killedharvester",
         "mintime": 1000,
         "maxtime": 12000,
         "maxlight": 15,
         "minlight": 12,
-        "random": 0.1,
+        "random": 0.01,
         "seesky": true,
         "result": "allow"
     },
@@ -635,12 +635,12 @@
         "maxlight": 15,
         "minlight": 14,
         "minheight": 30,
-        "random": 0.6,
+        "random": 0.2,
         "seesky": true,
         "block": [
             "aether_legacy:quicksoil"
         ],
-        "gamestage": "enteredAether",
+        "gamestage": "enteredaether",
         "result": "allow"
     },
     {
@@ -658,9 +658,9 @@
         "mintime": 12000,
         "maxtime": 24000,
         "maxlight": 11,
-        "minlight": 5,
+        "minlight": 0,
         "minheight": 155,
-        "random": 0.03,
+        "random": 0.005,
         "seesky": true,
         "block": [
             "minecraft:grass",
@@ -668,7 +668,7 @@
             "biomesoplenty:grass:3",
             "biomesoplenty:grass:4"
         ],
-        "gamestage": "killedQuazar",
+        "gamestage": "killedquazar",
         "result": "allow"
     },
     {
@@ -724,7 +724,7 @@
             "osv:simpleores_mythril_ore_undergroundbiomes_igneous_stone_5",
             "simpleores:mythril_ore"
         ],
-        "gamestage": "minedMythril",
+        "gamestage": "minedmythril",
         "result": "allow"
     },
     {
@@ -749,7 +749,7 @@
             "biomesoplenty:ash_block"
         ],
         "seesky": true,
-        "gamestage": "enteredNether",
+        "gamestage": "enterednether",
         "result": "allow"
     },
     {
@@ -770,7 +770,7 @@
             "contenttweaker:slime_nesting"
         ],
         "seesky": true,
-        "gamestage": "killedEnderDragon",
+        "gamestage": "killedenderdragon",
         "result": "allow"
     },
     {

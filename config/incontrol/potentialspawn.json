@@ -94,7 +94,7 @@
     "mobs": [
       {
         "mob": "minecraft:slime",
-        "weight": 100,
+        "weight": 20,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -105,7 +105,7 @@
     "mobs": [
       {
         "mob": "specialmobs:blackberryslime",
-        "weight": 4,
+        "weight": 20,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -130,7 +130,7 @@
     "mobs": [
       {
         "mob": "specialmobs:grapeslime",
-        "weight": 5,
+        "weight": 20,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -144,7 +144,7 @@
     "mobs": [
       {
         "mob": "specialmobs:blueberryslime",
-        "weight": 60,
+        "weight": 20,
         "groupcountmin": 1,
         "groupcountmax": 2
       }
@@ -155,7 +155,7 @@
     "mobs": [
       {
         "mob": "specialmobs:strawberryslime",
-        "weight": 10,
+        "weight": 20,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -166,7 +166,7 @@
     "mobs": [
       {
         "mob": "specialmobs:watermelonslime",
-        "weight": 60,
+        "weight": 20,
         "groupcountmin": 1,
         "groupcountmax": 1
       }

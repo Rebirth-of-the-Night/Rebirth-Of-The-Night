@@ -144,6 +144,10 @@
 	// Sun Spirit
 	{
 		"mob": "aether_legacy:sun_spirit",
+		"remove": "aether_legacy:sun_altar"
+	},
+	{
+		"mob": "aether_legacy:sun_spirit",
 		"item": "contenttweaker:heart_of_fire",
 		"itemcount": "1"
 	},
@@ -193,6 +197,13 @@
 		"itemcount": "1",
 		"random": "0.25"
 	},
+	{
+		"mob": "aether_legacy:sun_spirit",
+		"player": true,
+		"item": "arcaneworld:molten_core",
+		"itemcount": "20-24"
+	},
+	
 	
 	// Slider
 	{
@@ -234,19 +245,7 @@
 		"item": "minecraft:fire_charge",
 		"itemcount": "1-5"
 	},
-	
-	// Sun Spirit
-	{
-		"mob": "aether_legacy:sun_spirit",
-		"remove": "aether_legacy:sun_altar"
-	},
-	{
-		"mob": "aether_legacy:sun_spirit",
-		"player": true,
-		"item": "arcaneworld:molten_core",
-		"itemcount": "20-24"
-	},
-	
+
 	// Valkyrie Queen
 	{
 		"mob": "aether_legacy:valkyrie_queen",
@@ -725,7 +724,7 @@
 		"itemcount": "45-59"
     },
     {
-		"mob": "minecraft:wither",
+		"mob": "netherex:ghast_queen",
 		"player": true,
 		"item": "dungeontactics:magic_powder",
 		"itemcount": "40-59"
