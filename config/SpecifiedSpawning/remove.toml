@@ -115,6 +115,15 @@
     dimension = 0
     [remove.entity]
         matcher = "iceandfire:snowvillager"
+[[remove]]
+    [remove.entity]
+        mod = "specialmobs"
+
+# Harvester
+[[remove]]
+    dimension = 0 
+    [remove.entity]
+        matcher = "mod_lavacow:weta"
 
 # Aether
 [[remove]]

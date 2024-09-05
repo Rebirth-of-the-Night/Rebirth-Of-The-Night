@@ -62,7 +62,7 @@ more_logging = true
         entity = "minecraft:witch"
         min_group_size = 1
         max_group_size = 1
-        weight = 5
+        weight = 3
 
 # Harvester Stage
 [[spawn]]
@@ -72,10 +72,9 @@ more_logging = true
         entity = "specialmobs:windwitch"
         min_group_size = 1
         max_group_size = 1
-        weight = 5
+        weight = 3
     [spawn.gamestage]
-        gamestage = "killedHarvester"
-
+        gamestage = "killedharvester"
 [[spawn]]
     dimension = [0 , 10]
     group = "hostile"
@@ -85,7 +84,7 @@ more_logging = true
         max_group_size = 1
         weight = 25
     [spawn.gamestage]
-        gamestage = "killedHarvester"
+        gamestage = "killedharvester"
     [spawn.spawnblock]
         block = ["minecraft:sandstone", "minecraft:gravel", "undergroundbiomes:metamorphic_gravel", "undergroundbiomes:sedimentary_gravel", "undergroundbiomes:igneous_sand", "undergroundbiomes:metamorphic_sand", "undergroundbiomes:sedimentary_sand", "undergroundbiomes:igneous_sandstone", "undergroundbiomes:metamorphic_sandstone", "undergroundbiomes:sedimentary_sandstone", "biomesoplenty:white_sandstone", "minecraft:stone", "undergroundbiomes:igneous_stone", "undergroundbiomes:metamorphic_stone", "undergroundbiomes:igneous_overgrown", "undergroundbiomes:metamorphic_overgrown", "undergroundbiomes:sedimentary_stone", "undergroundbiomes:sedimentary_overgrown"]
     [spawn.height]
@@ -99,7 +98,7 @@ more_logging = true
         max_group_size = 1
         weight = 100
     [spawn.gamestage]
-        gamestage = "killedHarvester"
+        gamestage = "killedharvester"
 
 [[spawn]]
     dimension = [0 , 10]
@@ -110,7 +109,7 @@ more_logging = true
         max_group_size = 1
         weight = 100
     [spawn.gamestage]
-        gamestage = "killedHarvester"
+        gamestage = "killedharvester"
 
 [[spawn]]
     dimension = [0 , 10]
@@ -121,7 +120,7 @@ more_logging = true
         max_group_size = 1
         weight = 100
     [spawn.gamestage]
-        gamestage = "killedHarvester"
+        gamestage = "killedharvester"
 
 [[spawn]]
     dimension = [0 , 10]
@@ -132,25 +131,10 @@ more_logging = true
         max_group_size = 1
         weight = 100
     [spawn.gamestage]
-        gamestage = "killedHarvester"
+        gamestage = "killedharvester"
     [spawn.height]
         max = 80
-[[spawn]]
-    dimension = [0]
-    group = "hostile"
-    [spawn.entity]
-        entity = "specialmobs:blackberryslime"
-        min_group_size = 1
-        max_group_size = 1
-        weight = 100
-    [spawn.gamestage]
-        gamestage = "killedHarvester"
-    [spawn.biome]
-        mod = "defiledlands"
-        biome = "biomesoplenty:ominous_woods"
-    [spawn.light]
-        min = 14
-        max = 15
+
 [[spawn]]
     dimension = [4]
     group = "hostile"
@@ -162,7 +146,89 @@ more_logging = true
     [spawn.biome]
         biome = "biometweaker:aether_cliffs"
     [spawn.gamestage]
-        gamestage = "killedHarvester"
+        gamestage = "killedharvester"
+[[spawn]]
+    dimension = [0]
+    group = "hostile"
+    [spawn.entity]
+        entity = "mod_lavacow:weta"
+        min_group_size = 1
+        max_group_size = 1
+        weight = 75
+    [spawn.biome]
+        biome = ["biomesoplenty:alps","biomesoplenty:alps_foothills","biomesoplenty:mountain","biomesoplenty:mountain_foothills","minecraft:jungle","minecraft:jungle_hills","minecraft:jungle_edge","minecraft:mutated_jungle","minecraft:mutated_jungle_edge","biomesoplenty:rainforest","biomesoplenty:tropical_rainforest","minecraft:mutated_extreme_hills","biomesoplenty:brushland","biomesoplenty:grove","biomesoplenty:overgrown_cliffs","biomesoplenty:shrubland","biomesoplenty:tropical_island"]
+    [spawn.gamestage]
+        gamestage = "killedharvester"
+    [spawn.light]
+        max = 4
+    [spawn.height]
+        min = 55
+[[spawn]]
+    dimension = [0]
+    group = "hostile"
+    [spawn.entity]
+        entity = "mod_lavacow:pingu"
+        min_group_size = 1
+        max_group_size = 1
+        weight = 75
+    [spawn.biome]
+        biome = ["minecraft:ice_flats","minecraft:mutated_ice_flats","minecraft:ice_mountains","biomesoplenty:cold_desert","biomesoplenty:tundra","iceandfire:glacier","biomesoplenty:snowy_tundra"]
+    [spawn.gamestage]
+        gamestage = "killedharvester"
+    [spawn.height]
+        min = 55
+[[spawn]]
+    dimension = [0]
+    group = "hostile"
+    [spawn.entity]
+        entity = "mod_lavacow:ptera"
+        min_group_size = 1
+        max_group_size = 1
+        weight = 50
+    [spawn.biome]
+        biome = ["minecraft:jungle","minecraft:jungle_hills","minecraft:jungle_edge","minecraft:mutated_jungle","minecraft:mutated_jungle_edge","biomesoplenty:rainforest","biomesoplenty:tropical_rainforest","biomesoplenty:overgrown_cliffs","biomesoplenty:tropical_island","biomesoplenty:lush_swamp","biomesoplenty:mangrove","biomesoplenty:oasis","minecraft:desert","minecraft:desert_hills","minecraft:mesa","minecraft:mesa_rock","minecraft:mesa_clear_rock","minecraft:mutated_mesa minecraft:mutated_mesa_rock", "minecraft:mutated_mesa_clear_rock",]
+    [spawn.block]
+        block = ["minecraft:grass", "minecraft:sand", "minecraft:hardened_clay", "minecraft:sandstone", "minecraft:gravel", "undergroundbiomes:metamorphic_gravel", "undergroundbiomes:sedimentary_gravel", "undergroundbiomes:igneous_sand", "undergroundbiomes:metamorphic_sand", "undergroundbiomes:sedimentary_sand", "undergroundbiomes:igneous_sandstone", "biomesoplenty:grass", "undergroundbiomes:metamorphic_sandstone", "undergroundbiomes:sedimentary_sandstone", "biomesoplenty:white_sand", "biomesoplenty:white_sandstone", "biomesoplenty:dried_sand", "biomesoplenty:leaves_0", "biomesoplenty:leaves_1", "biomesoplenty:leaves_2", "biomesoplenty:leaves_3", "biomesoplenty:leaves_4", "biomesoplenty:leaves_5", "biomesoplenty:leaves_6", "dynamictrees:leaves0", "dynamictrees:leaves1", "dynamictreesbop:leaves0", "dynamictreesbop:leaves1", "dynamictreesbop:leaves2", "dynamictreesbop:leaves3", "dynamictreesbop:leaves4", "dynamictreesbop:leaves5", "dynamictreesbop:leaves6", "dynamictreesbop:leaves7"]
+    [spawn.gamestage]
+        gamestage = "killedharvester"
+    [spawn.height]
+        min = 70
+    [spawn.light]
+        max = 11
+[[spawn]]
+    dimension = [0]
+    group = "hostile"
+    [spawn.entity]
+        entity = "betterwithmods:bwm_jungle_spider"
+        min_group_size = 1
+        max_group_size = 1
+        weight = 75
+    [spawn.biome]
+        biome = ["minecraft:jungle","minecraft:jungle_hills","minecraft:jungle_edge","minecraft:mutated_jungle","minecraft:mutated_jungle_edge","biomesoplenty:rainforest","biomesoplenty:tropical_rainforest","biomesoplenty:tropical_island"]
+    [spawn.height]
+        min = 60
+    [spawn.light]
+        max = 12
+    [spawn.gamestage]
+        gamestage = "killedharvester"
+[[spawn]]
+    dimension = [0]
+    group = "hostile"
+    [spawn.entity]
+        entity = "mod_lavacow:scarecrow"
+        min_group_size = 1
+        max_group_size = 1
+        weight = 5
+    [spawn.biome]
+        biome = ["minecraft:plains","minecraft:forest","minecraft:roofed_forest","minecraft:mutated_roofed_forest","minecraft:forest_hills","minecraft:birch_forest","minecraft:birch_forest_hills","minecraft:mutated_extreme_hills","minecraft:flower_forest","biomesoplenty:bayou","biomesoplenty:bog","biomesoplenty:chaparral","biomesoplenty:cherry_blossom_grove","biomesoplenty:dead_forest","biomesoplenty:grassland","biomesoplenty:grove","biomesoplenty:lavender_fields","biomesoplenty:maple_woods","biomesoplenty:ominous_woods","biomesoplenty:orchard","biomesoplenty:overgrown_cliffs","biomesoplenty:prairie","biomesoplenty:seasonal_forest","biomesoplenty:shrubland","biomesoplenty:temperate_rainforest","biomesoplenty:pasture","biomesoplenty:wasteland","biomesoplenty:woodland"]
+    [spawn.height]
+        min = 60
+    [spawn.light]
+        max = 12
+    [spawn.gamestage]
+        all_stages = true
+        gamestage = "killedharvester"
+        gamestage = "fall"
 
 
 # Nether Stage
@@ -175,7 +241,7 @@ more_logging = true
         max_group_size = 1
         weight = 100
     [spawn.gamestage]
-        gamestage = "enteredNether"
+        gamestage = "enterednether"
 
 # Quazar Stage
 
