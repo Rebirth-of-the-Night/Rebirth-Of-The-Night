@@ -392,7 +392,8 @@ more_logging = true
         max_group_size = 1
         weight = 25
     [spawn.biome]
-        biome = ["minecraft:jungle","minecraft:jungle_hills","minecraft:jungle_edge","minecraft:mutated_jungle","minecraft:mutated_jungle_edge","biomesoplenty:rainforest","biomesoplenty:tropical_rainforest","biomesoplenty:overgrown_cliffs","biomesoplenty:tropical_island","biomesoplenty:lush_swamp","biomesoplenty:mangrove","biomesoplenty:oasis"]    [spawn.gamestage]
+        biome = ["minecraft:jungle","minecraft:jungle_hills","minecraft:jungle_edge","minecraft:mutated_jungle","minecraft:mutated_jungle_edge","biomesoplenty:rainforest","biomesoplenty:tropical_rainforest","biomesoplenty:overgrown_cliffs","biomesoplenty:tropical_island","biomesoplenty:lush_swamp","biomesoplenty:mangrove","biomesoplenty:oasis"]
+    [spawn.gamestage]
         gamestage = "killedquazar"
     [spawn.height]
         min = 70
@@ -400,10 +401,154 @@ more_logging = true
         max = 13
 
 # Beneath Stage
-
+[[spawn]]
+    dimension = [0]
+    group = "hostile"
+    [spawn.entity]
+        entity = "mod_lavacow:undertaker"
+        min_group_size = 1
+        max_group_size = 1
+        weight = 5
+    [spawn.biome]
+        biome = ["biomesoplenty:ominous_woods","biomesoplenty:wasteland","biomesoplenty:dead_forest"]
+    [spawn.gamestage]
+        gamestage = "enteredbeneath"
+[[spawn]]
+    dimension = [0,10]
+    group = "hostile"
+    [spawn.entity]
+        entity = "betteranimalsplus:zotzpyre"
+        min_group_size = 1
+        max_group_size = 1
+        weight = 30
+    [spawn.height]
+        max = 100
+        check_sky = true
+    [spawn.gamestage]
+        gamestage = "enteredbeneath"
+[[spawn]]
+    dimension = [10]
+    group = "hostile"
+    [spawn.entity]
+        entity = "specialmobs:deathcreeper"
+        min_group_size = 1
+        max_group_size = 1
+        weight = 75
+[[spawn]]
+    dimension = [10]
+    group = "hostile"
+    [spawn.entity]
+        entity = "specialmobs:darkcreeper"
+        min_group_size = 1
+        max_group_size = 1
+        weight = 75
+[[spawn]]
+    dimension = [0,10]
+    group = "hostile"
+    [spawn.entity]
+        entity = "specialmobs:undeadwitch"
+        min_group_size = 1
+        max_group_size = 1
+        weight = 3
+[[spawn]]
+    dimension = [0 , 10]
+    group = "hostile"
+    [spawn.entity]
+        entity = "specialmobs:blindingsilverfish"
+        min_group_size = 1
+        max_group_size = 1
+        weight = 25
+    [spawn.gamestage]
+        gamestage = "enteredbeneath"
+    [spawn.spawnblock]
+        block = ["minecraft:sandstone", "minecraft:gravel", "undergroundbiomes:metamorphic_gravel", "undergroundbiomes:sedimentary_gravel", "undergroundbiomes:igneous_sand", "undergroundbiomes:metamorphic_sand", "undergroundbiomes:sedimentary_sand", "undergroundbiomes:igneous_sandstone", "undergroundbiomes:metamorphic_sandstone", "undergroundbiomes:sedimentary_sandstone", "biomesoplenty:white_sandstone", "minecraft:stone", "undergroundbiomes:igneous_stone", "undergroundbiomes:metamorphic_stone", "undergroundbiomes:igneous_overgrown", "undergroundbiomes:metamorphic_overgrown", "undergroundbiomes:sedimentary_stone", "undergroundbiomes:sedimentary_overgrown"]
+    [spawn.height]
+        max = 80
+        check_sky = true
+    [spawn.light]
+        max = 5
+[[spawn]]
+    dimension = [0 , 10]
+    group = "hostile"
+    [spawn.entity]
+        entity = "specialmobs:poisonsilverfish"
+        min_group_size = 1
+        max_group_size = 1
+        weight = 25
+    [spawn.gamestage]
+        gamestage = "enteredbeneath"
+    [spawn.spawnblock]
+        block = ["minecraft:sandstone", "minecraft:gravel", "undergroundbiomes:metamorphic_gravel", "undergroundbiomes:sedimentary_gravel", "undergroundbiomes:igneous_sand", "undergroundbiomes:metamorphic_sand", "undergroundbiomes:sedimentary_sand", "undergroundbiomes:igneous_sandstone", "undergroundbiomes:metamorphic_sandstone", "undergroundbiomes:sedimentary_sandstone", "biomesoplenty:white_sandstone", "minecraft:stone", "undergroundbiomes:igneous_stone", "undergroundbiomes:metamorphic_stone", "undergroundbiomes:igneous_overgrown", "undergroundbiomes:metamorphic_overgrown", "undergroundbiomes:sedimentary_stone", "undergroundbiomes:sedimentary_overgrown"]
+    [spawn.height]
+        max = 80
+        check_sky = true
+    [spawn.light]
+        max = 5
+[[spawn]]
+    dimension = [0 , 10]
+    group = "hostile"
+    [spawn.entity]
+        entity = "specialmobs:plaguezombie"
+        min_group_size = 1
+        max_group_size = 1
+        weight = 25
+    [spawn.gamestage]
+        gamestage = "enteredbeneath"
+[[spawn]]
+    dimension = [0 , 10]
+    group = "hostile"
+    [spawn.entity]
+        entity = "specialmobs:poisonskeleton"
+        min_group_size = 1
+        max_group_size = 1
+        weight = 75
+    [spawn.gamestage]
+        gamestage = "enteredbeneath"
+[[spawn]]
+    dimension = [0 , 10]
+    group = "hostile"
+    [spawn.entity]
+        entity = "specialmobs:knightskeleton"
+        min_group_size = 1
+        max_group_size = 1
+        weight = 60
+    [spawn.gamestage]
+        gamestage = "enteredbeneath"
+[[spawn]]
+    dimension = [0 , 10]
+    group = "hostile"
+    [spawn.entity]
+        entity = "specialmobs:poisonspider"
+        min_group_size = 1
+        max_group_size = 1
+        weight = 75
+    [spawn.gamestage]
+        gamestage = "enteredbeneath"
+[[spawn]]
+    dimension = [0]
+    group = "hostile"
+    [spawn.entity]
+        entity = "rats:rat"
+        min_group_size = 1
+        max_group_size = 1
+        weight = 20
+    [spawn.gamestage]
+        gamestage = "enteredbeneath"
+[[spawn]]
+    dimension = [10]
+    group = "hostile"
+    [spawn.entity]
+        entity = "rats:ratlantean_spirit"
+        min_group_size = 1
+        max_group_size = 1
+        weight = 20
+    [spawn.height]
+        max = 120
+    [spawn.gamestage]
+        gamestage = "enteredbeneath"
 # Mythril Stage
 
-# End Stage
+# Ender Dragon Stage
 
 # Wither Stage
 

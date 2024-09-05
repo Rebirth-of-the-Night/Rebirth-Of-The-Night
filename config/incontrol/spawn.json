@@ -349,6 +349,14 @@
         "helditem": "3=atop:amethyst_pickaxe",
         "gamestage": "enteredEnd"
     },
+    //Skeleton knight equipment
+    {
+        "mob": "specialmobs:knightskeleton",
+        "armorhelmet": "iceandfire:armor_silver_metal_helmet",
+        "armorchest": ["12=minecraft:iron_chestplate", "5=minecraft:chainmail_chestplate", "2=dungeontactics:steel_chestplate"],
+        "helditem": ["12=spartanweaponry:warhammer_iron", "5=spartanweaponry:longsword_iron", "8=spartanweaponry:mace_iron", "8=minecraft:iron_sword", "3=minecraft:iron_pickaxe"]
+
+    },
     //Mob buffs - ender dragon requires the same treatment as the wither (todo)
     {
         "mob": [
@@ -410,18 +418,25 @@
         "damagemultiply": 2
     },
     {
-        "mob": [
-            "betteranimalsplus:boar"
-        ],
+        "mob": "betteranimalsplus:boar",
         "onjoin": true,
         "speedmultiply": 0.9
     },
     {
         "mob": "biomesoplenty:wasp",
         "onjoin": true,
-        "potion": [
-            "minecraft:fire_resistance,1000000,0"
-        ]
+        "potion": "minecraft:fire_resistance,1000000,0"
+    },
+    {
+        "mob": "specialmobs:plaguezombie",
+        "onjoin": true,
+        "potion": "rats:plague,1000000,1"
+    },
+    {
+        "mob": "rats:ratlantean_spirit",
+        "damagemultiply": 0.7,
+        "healthmultiply": 0.5,
+        "potion": "minecraft:fire_resistance,1000000,1"
     },
     //Configure Primitive Mobs Spawning
     // goblin mace nerf
