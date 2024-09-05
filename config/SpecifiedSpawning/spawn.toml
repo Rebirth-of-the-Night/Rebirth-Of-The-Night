@@ -298,7 +298,24 @@ more_logging = true
     [spawn.height]
         max = 50
 
+# Aether Stage
+[[spawn]]
+    dimension = [0 , 10]
+    group = "hostile"
+    [spawn.entity]
+        entity = "aether_legacy:cockatrice"
+        min_group_size = 1
+        max_group_size = 1
+        weight = 50
+    [spawn.gamestage]
+        gamestage = "enteredaether"
+    [spawn.height]
+        min = 120
+    [spawn.light]
+        max = 10
+
 # Quazar Stage
+
 
 # Beneath Stage
 
