@@ -315,9 +315,93 @@ more_logging = true
         max = 10
 
 # Quazar Stage
-
+[[spawn]]
+    dimension = [0 , 10]
+    group = "hostile"
+    [spawn.entity]
+        entity = "specialmobs:jumpingcreeper"
+        min_group_size = 1
+        max_group_size = 1
+        weight = 100
+    [spawn.gamestage]
+        gamestage = "killedquazar"
+[[spawn]]
+    dimension = [0 , 10]
+    group = "hostile"
+    [spawn.entity]
+        entity = "specialmobs:wildswitch"
+        min_group_size = 1
+        max_group_size = 1
+        weight = 3
+    [spawn.gamestage]
+        gamestage = "killedquazar"
+[[spawn]]
+    dimension = [0 , 10]
+    group = "hostile"
+    [spawn.entity]
+        entity = "minecraft:flyingsilverfish"
+        min_group_size = 1
+        max_group_size = 1
+        weight = 25
+    [spawn.gamestage]
+        gamestage = "killedquazar"
+    [spawn.spawnblock]
+        block = ["minecraft:sandstone", "minecraft:gravel", "undergroundbiomes:metamorphic_gravel", "undergroundbiomes:sedimentary_gravel", "undergroundbiomes:igneous_sand", "undergroundbiomes:metamorphic_sand", "undergroundbiomes:sedimentary_sand", "undergroundbiomes:igneous_sandstone", "undergroundbiomes:metamorphic_sandstone", "undergroundbiomes:sedimentary_sandstone", "biomesoplenty:white_sandstone", "minecraft:stone", "undergroundbiomes:igneous_stone", "undergroundbiomes:metamorphic_stone", "undergroundbiomes:igneous_overgrown", "undergroundbiomes:metamorphic_overgrown", "undergroundbiomes:sedimentary_stone", "undergroundbiomes:sedimentary_overgrown"]
+    [spawn.height]
+        max = 120
+[[spawn]]
+    dimension = [0]
+    group = "hostile"
+    [spawn.entity]
+        entity = "specialmobs:desertspider"
+        min_group_size = 1
+        max_group_size = 1
+        weight = 100
+    [spawn.gamestage]
+        gamestage = "killedquazar"
+    [spawn.biome]
+        matcher = "desert"
+[[spawn]]
+    dimension = [0]
+    group = "hostile"
+    [spawn.entity]
+        entity = "specialmobs:witchspider"
+        min_group_size = 1
+        max_group_size = 1
+        weight = 100
+    [spawn.gamestage]
+        gamestage = "killedquazar"
+[[spawn]]
+    dimension = [0]
+    group = "hostile"
+    [spawn.entity]
+        entity = "betteranimalsplus:feralwolf"
+        min_group_size = 1
+        max_group_size = 1
+        weight = 100 
+    [spawn.biome]
+        biome = ["minecraft:taiga","minecraft:taiga_hills","minecraft:taiga_cold","minecraft:taiga_cold_hills","minecraft:redwood_taiga","minecraft:redwood_taiga_hills","minecraft:mutated_taiga","minecraft:mutated_taiga_cold","minecraft:mutated_redwood_taiga","minecraft:mutated_redwood_taiga_hills","minecraft:ice_flats","biomesoplenty:ice_mountains","minecraft:roofed_forest","minecraft:extreme_hills","minecraft:mutated_extreme_hills","minecraft:ice_spikes","minecraft:mutated_roofed_forest","biomesoplenty:alps","biomesoplenty:alps_foothills","biomesoplenty:boreal_forest","biomesoplenty:cold_desert","biomesoplenty:ominous_woods","biomesoplenty:snowy_coniferous_forest","biomesoplenty:snowy_forest","biomesoplenty:snowy_forest","biomesoplenty:tundra","biomesoplenty:snowy_tundra"]
+    [spawn.gamestage]
+            gamestage = "killedquazar"
+[[spawn]]
+    dimension = [0]
+    group = "hostile"
+    [spawn.entity]
+        entity = "mod_lavacow:vespa"
+        min_group_size = 1
+        max_group_size = 1
+        weight = 25
+    [spawn.biome]
+        biome = ["minecraft:jungle","minecraft:jungle_hills","minecraft:jungle_edge","minecraft:mutated_jungle","minecraft:mutated_jungle_edge","biomesoplenty:rainforest","biomesoplenty:tropical_rainforest","biomesoplenty:overgrown_cliffs","biomesoplenty:tropical_island","biomesoplenty:lush_swamp","biomesoplenty:mangrove","biomesoplenty:oasis"]    [spawn.gamestage]
+        gamestage = "killedquazar"
+    [spawn.height]
+        min = 70
+    [spawn.light]
+        max = 13
 
 # Beneath Stage
+
+# Mythril Stage
 
 # End Stage
 
