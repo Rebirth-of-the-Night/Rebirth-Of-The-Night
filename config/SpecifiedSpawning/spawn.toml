@@ -230,7 +230,6 @@ more_logging = true
         gamestage = "killedharvester"
         gamestage = "fall"
 
-
 # Nether Stage
 [[spawn]]
     dimension = [0 , 10]
@@ -242,6 +241,62 @@ more_logging = true
         weight = 100
     [spawn.gamestage]
         gamestage = "enterednether"
+[[spawn]]
+    dimension = [0 , 10]
+    group = "hostile"
+    [spawn.entity]
+        entity = "specialmobs:firecreeper"
+        min_group_size = 1
+        max_group_size = 1
+        weight = 100
+    [spawn.gamestage]
+        gamestage = "enterednether"
+[[spawn]]
+    dimension = [0 , 10]
+    group = "hostile"
+    [spawn.entity]
+        entity = "specialmobs:fireskeleton"
+        min_group_size = 1
+        max_group_size = 1
+        weight = 100
+    [spawn.gamestage]
+        gamestage = "enterednether"
+[[spawn]]
+    dimension = [0]
+    group = "hostile"
+    [spawn.entity]
+        entity = "netherex:salamander"
+        min_group_size = 1
+        max_group_size = 1
+        weight = 100
+    [spawn.gamestage]
+        gamestage = "enterednether"
+    [spawn.height]
+        max = 48
+[[spawn]]
+    dimension = [0 , 10]
+    group = "hostile"
+    [spawn.entity]
+        entity = "magma_monsters:magma_monster_grunt"
+        min_group_size = 1
+        max_group_size = 1
+        weight = 100
+    [spawn.gamestage]
+        gamestage = "enterednether"
+    [spawn.height]
+        max = 40
+[[spawn]]
+    dimension = [0 , 10]
+    group = "hostile"
+    [spawn.entity]
+        entity = "netherex:ember"
+        min_group_size = 1
+        max_group_size = 1
+        weight = 100
+    [spawn.gamestage]
+        gamestage = "enterednether"
+    [spawn.height]
+        max = 50
 
 # Quazar Stage
 
