@@ -578,10 +578,10 @@
         "result": "deny"
     },
     {
-        "dimension": 4,
+        "dimension": [0,4],
         "mob": "primitivemobs:harpy",
-        "random": 0.5,
-        "maxlight": 15,
+        "random": 0.04,
+        "maxlight": 7,
         "minheight": 85,
         "maxcount": {
             "amount": 10,
@@ -590,7 +590,7 @@
         "result": "allow"
     },
     {
-        "dimension": 4,
+        "dimension": [0,4],
         "mob": "primitivemobs:harpy",
         "result": "deny"
     },
