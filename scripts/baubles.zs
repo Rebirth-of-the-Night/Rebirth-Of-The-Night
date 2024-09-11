@@ -667,7 +667,7 @@ RecipeBuilder.get("mage")
    
 // Gluttony Pendant
 
-recipes.remove(<bountifulbaubles:amuletsingluttony>);
+/*recipes.remove(<bountifulbaubles:amuletsingluttony>);
 
 RecipeBuilder.get("mage")
   .setShaped([
@@ -679,6 +679,7 @@ RecipeBuilder.get("mage")
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
+*/
 
 // Ender Dragon Scale
 

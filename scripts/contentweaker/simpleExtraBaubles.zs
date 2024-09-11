@@ -55,22 +55,23 @@ import mods.hungertweaker.events.HungerEvents;
 
 import mods.ctintegration.baubles.IBaubleInventory;
 
+val brokenHeart = <damageSource:BROKEN_HEART>;
 
 var clockwork_heart = VanillaFactory.createBaubleItem("clockwork_heart");
 clockwork_heart.onWornTick = function(bauble, wearer) {
     if(wearer instanceof IPlayer) {
         var player as IPlayer = wearer;
         if (!player.world.isRemote() && player.world.getWorldTime() % 10 == 0 as long) {
-            // First parameter is time in ticks, second is strength, can duplicate this line for any number of potions
             player.removePotionEffect(<potion:minecraft:haste>);
             player.removePotionEffect(<potion:minecraft:speed>);
+            
         } 
     }
 };
 clockwork_heart.onUnequipped = function(bauble, wearer) {
     if(wearer instanceof IPlayer) {
         var player as IPlayer = wearer;
-        player.executeCommand("kill @p");
+        player.attackEntityFrom(brokenHeart, 9999);
     }
 };
 clockwork_heart.baubleType = "BODY";
@@ -81,7 +82,6 @@ doll_heart.onWornTick = function(bauble, wearer) {
     if(wearer instanceof IPlayer) {
         var player as IPlayer = wearer;
         if (!player.world.isRemote() && player.world.getWorldTime() % 10 == 0 as long) {
-            // First parameter is time in ticks, second is strength, can duplicate this line for any number of potions
             player.removePotionEffect(<potion:minecraft:haste>);
             player.removePotionEffect(<potion:minecraft:speed>);
             player.removePotionEffect(<potion:minecraft:mining_fatigue>);
@@ -92,7 +92,7 @@ doll_heart.onWornTick = function(bauble, wearer) {
 doll_heart.onUnequipped = function(bauble, wearer) {
     if(wearer instanceof IPlayer) {
         var player as IPlayer = wearer;
-        player.executeCommand("kill @p");
+        player.attackEntityFrom(brokenHeart, 9999);
     }
 };
 doll_heart.baubleType = "BODY";

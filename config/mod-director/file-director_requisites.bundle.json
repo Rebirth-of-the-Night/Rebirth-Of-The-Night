@@ -1,11 +1,20 @@
 {
-    "url":
-    [
+    "curse": [
+        {
+            "addonId": 485779,
+            "fileId": 4534908
+        }
+    ],
+    "url": [
         {
             "url": "https://optifine.net/adloadx?f=preview_OptiFine_1.12.2_HD_U_G6_pre1.jar",
-            "follows": ["preview OptiFine 1.12.2 HD U G6 pre1"],
+            "follows": [
+                "preview OptiFine 1.12.2 HD U G6 pre1"
+            ],
             "fileName": "OptiFine_1.12.2_HD_U_G6_pre1.jar",
-            "options": { "launchwrapperTweakerForceNext": true },
+            "options": {
+                "launchwrapperTweakerForceNext": true
+            },
             "metadata": {
                 "side": "CLIENT"
             },
@@ -34,35 +43,29 @@
                 "description": "MANDATORY! Downloads JSON Paintings from Modrinth."
             }
         },
-        
-                {
-                    "url": "https://raw.githubusercontent.com/Rebirth-of-the-Night/Rebirth-Of-The-Night/stable/filedirector/spawn.json",
-                    "folder": "config/incontrol",
-                    "installationPolicy":
-                        {
-                            "downloadAlways": true,
-                            "description": "Hotfix for Sludge Lord spawning"
-                        }
-                },
-                {
-                    "url": "https://raw.githubusercontent.com/Rebirth-of-the-Night/Rebirth-Of-The-Night/stable/filedirector/potentialspawn.json",
-                    "folder": "config/incontrol",
-                    "installationPolicy":
-                        {
-                            "downloadAlways": true,
-                            "description": "Hotfix for Sludge Lord spawning"
-                        }
-                },
-                {
-                    "url": "https://raw.githubusercontent.com/Rebirth-of-the-Night/Rebirth-Of-The-Night/stable/filedirector/Fishs_Undead_Rising.cfg",
-                    "folder": "config",
-                    "installationPolicy":
-                        {
-                            "downloadAlways": true,
-                            "description": "Hotfix for Sludge Lord spawning"
-                        }
-                }
-            
-        
+        {
+            "url": "https://raw.githubusercontent.com/Rebirth-of-the-Night/Rebirth-Of-The-Night/stable/filedirector/spawn.json",
+            "folder": "config/incontrol",
+            "installationPolicy": {
+                "downloadAlways": true,
+                "description": "Hotfix for Sludge Lord spawning"
+            }
+        },
+        {
+            "url": "https://raw.githubusercontent.com/Rebirth-of-the-Night/Rebirth-Of-The-Night/stable/filedirector/potentialspawn.json",
+            "folder": "config/incontrol",
+            "installationPolicy": {
+                "downloadAlways": true,
+                "description": "Hotfix for Sludge Lord spawning"
+            }
+        },
+        {
+            "url": "https://raw.githubusercontent.com/Rebirth-of-the-Night/Rebirth-Of-The-Night/stable/filedirector/Fishs_Undead_Rising.cfg",
+            "folder": "config",
+            "installationPolicy": {
+                "downloadAlways": true,
+                "description": "Hotfix for Sludge Lord spawning"
+            }
+        }
     ]
 }

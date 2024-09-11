@@ -6,8 +6,7 @@ import crafttweaker.data.IData;
 import crafttweaker.enchantments.IEnchantmentDefinition;
 import mods.ctutils.utils.Math;
 import mods.contenttweaker.Commands;
-
-
+ import crafttweaker.damage.IDamageSource;
 
 
 // cutcat
@@ -212,13 +211,14 @@ recipes.addHiddenShaped("tickywicky", <dungeontactics:terrible_feather>.withTag(
 [<endreborn:item_angel_feather>, <contenttweaker:life_rune>, <endreborn:item_angel_feather>]
 ]);
 
-//Bellona
+//ProvidenceDaemon
+
 val clockworkHeart = <contenttweaker:clockwork_heart>;
 <contenttweaker:clockwork_heart>.addTooltip(format.darkPurple("tick, tick, tick..."));
 <contenttweaker:clockwork_heart>.addTooltip(format.darkRed("Still not enough... I must be PERFECT"));
 JEI.addDescription(<contenttweaker:clockwork_heart>,"Provides some enhancements, but at a cost...");
 
-mods.betterwithmods.Anvil.addShapedFixed(<contenttweaker:doll_heart>, 
+mods.betterwithmods.Anvil.addShapedFixed(<contenttweaker:clockwork_heart>, 
 [
    [<scalinghealth:crystalshard>, <contenttweaker:material_part:45>, <contenttweaker:material_part:45>, <scalinghealth:crystalshard>],
    [<contenttweaker:material_part:45>, <pyrotech:cog_bone>, <contenttweaker:wrought_animation_core>, <contenttweaker:material_part:45>],

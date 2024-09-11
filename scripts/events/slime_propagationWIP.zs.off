@@ -1,0 +1,36 @@
+import crafttweaker.event.ILivingEvent;
+import crafttweaker.event.CommandEvent;
+import crafttweaker.player.IPlayer;
+import crafttweaker.entity.IEntityDropFunction;
+import crafttweaker.events.IEventManager;
+import loottweaker.vanilla.loot.LootTables;
+import loottweaker.vanilla.loot.LootTable;
+import loottweaker.vanilla.loot.LootPool;
+import loottweaker.vanilla.loot.Conditions;
+import loottweaker.vanilla.loot.Functions;
+import mods.contenttweaker.Commands;
+//worldObj.getBlock(int x, int y, int z);
+
+events.onEntityLivingDamage(function(event as crafttweaker.event.EntityLivingDamageEvent) {
+    if (event.entity.definition.id == <entity:minecraft:slime>.id) {
+        var world = event.entity.world;
+        var server = event.entity.server;
+        var random = event.entity.world.random;
+        var entity = event.entity;
+        
+        var manager = server.commandManager;
+        if (world.remote) {
+            // we are on the client thread, so we do nothing.
+            return;
+        }
+
+        var shouldSpawn = random.nextInt(0,49);
+        if (shouldSpawn == 1) {
+            val X = entity.getX() as string;
+            val Y = entity.getY() as string;
+            val Z = entity.getZ() as string;
+            val cmd = "setblock " + X + " " + Y + " " + Z + " contenttweaker:slime_nesting";
+            manager.executeCommand(server, cmd);
+        }
+    }
+});
