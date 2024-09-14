@@ -7,11 +7,11 @@
   "pages": [
     {
       "type": "text",
-      "text": "I've finally broken the $(thing)Arcane Barrier$() and dropped down into the Beneath.$(br2)But it is darker than the abyss down here, and I can feel that every monster in the Beneath has their eyes on me as I enter."
+      "text": "I've finally broken the $(thing)Arcane Barrier$() and dropped down into the Beneath.$(br2)It is darker than the abyss down here, and I can feel that every monster in this terrible place has its eyes on me as I enter."
     },
     {
       "type": "text",
-      "text": "I still need to gather valuable minerals like $(thing)mythril$() here but I can't be too greedy or else I'll be swamped by more monsters than I can handle."
+      "text": "I still need to gather valuable minerals like $(thing)mythril$(), in both its $(thing)arcane$() and $(thing)raw$() forms, and $(thing)viridium$(). I must be careful to not be too greedy or I'll be swamped by more monsters than I can handle."
     }
   ]
 }

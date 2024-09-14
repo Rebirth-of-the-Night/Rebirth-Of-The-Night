@@ -2,7 +2,7 @@
   "name": "Rebirth of the Night",
   "icon": "contenttweaker:shard_of_night",
   "category": "survival_worldstate",
-  "advancement": "triumph:advancements/progression/killedHarvester",
+  "advancement": "triumph:advancements/progression/killedharvester",
 
   "pages": [
  	{

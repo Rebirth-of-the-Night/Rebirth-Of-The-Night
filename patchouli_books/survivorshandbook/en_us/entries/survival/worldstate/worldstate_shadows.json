@@ -2,7 +2,7 @@
   "name": "Shadows Gather",
   "icon": "contenttweaker:adhesive_shadow",
   "category": "survival_worldstate",
-  "advancement": "triumph:advancements/progression/killedIdolofRadiance",
+  "advancement": "triumph:advancements/progression/beneath/killedidolofradiance",
 
   "pages": [
  	{

@@ -1,16 +1,16 @@
 {
-  "name": "Twilight Forest",
-  "icon": "twilightforest:firefly",
+  "name": "The Overworld",
+  "icon": "minecraft:grass_block",
   "category": "dimensions_overworld",
   "sortnum": 5,
   "pages": [
     {
       "type": "text",
-      "text": "Just when I thought I'd conquered everything this universe had to offer, it seems there is one more challenge:$(br)The Twilight Forest.$(br2)Though the outside is relatively safe, the true danger of the Twilight Forest lies within its unimaginably lethal dungeons and mythical beings."
+      "text": "A land of beauty, from vast rolling plains, to dense forests, to towering mountains and plunging valleys."
     },
     {
       "type": "text",
-      "text": "Attempting to challenge any of them without significant preparation is simply maddening."
+      "text": "I can't let my guard down here for even a second, however, as the actions of both myself and those long dead still haunt this place."
     }
   ]
 }
