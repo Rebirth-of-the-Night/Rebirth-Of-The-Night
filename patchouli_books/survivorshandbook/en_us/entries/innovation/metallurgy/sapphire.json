@@ -11,11 +11,11 @@
     },
     {
       "type": "text",
-      "text": "That may explain why it seems to be more concentrated in caves with close proximity to large bodies of water.$(br2)Armor forged from this material seems to give me almost amphibious qualities, as I was able to $(thing)hold my breath$() for extended periods of time underwater, and $(thing)extract materials without the weight of the ocean holding me back$()."
+      "text": "That may explain why it seems to be more concentrated in caves with close proximity to large bodies of water.$(br2)Armor forged from this material seems to bestow almost amphibious qualities, as I was able to $(thing)hold my breath$() for extended periods of time underwater, and $(thing)extract materials without the weight of the ocean holding me back$()."
     },
     {
       "type": "text",
-      "text": "Even merely traveling across water seems to be easier, with the gem $(thing)increasing my navigational skills$() while I sail through the seas. An infinite world is out there, and this gem gives infinite possibilities to explore it."
+      "text": "Wearing this armor also grants me a strange sense of fluidity, allowing me to $(thing)dodge as if wearing much lighter armor$(), as well as $(thing)move around terrain with ease()."
     },
     {
       "type": "relations",

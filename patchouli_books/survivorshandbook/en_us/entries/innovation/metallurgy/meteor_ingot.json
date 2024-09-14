@@ -7,7 +7,7 @@
         {
             "type": "spotlight",
             "item": "nyx:meteor_ingot",
-            "text": "A very unique alloy of iron, this meteorite-infused material seems to be much stronger than iron.$(br2)I can use this to create powerful tools and armor rivaling even $(thing)soulforged steel.$()"
+            "text": "A very unique alloy of iron, this meteorite-infused material seems to be much stronger than its earthly variant.$(br2)I can use this to create powerful tools and armor on a similar level as the $(thing)gemstone ingots$()"
         },
         {
             "type": "text",

@@ -7,7 +7,7 @@
     {
       "type": "spotlight",
       "item": "biomesoplenty:gem:1",
-      "text": "The effects of $(item)ruby$() immediately manifested themselves through my physical being.$(br2)The armor that I forged from it filled my veins with a seizing anger, and compels me to $(thing)kill$()."
+      "text": "The effects of $(item)ruby$() immediately manifested themselves through my physical being.$(br2)The armor that I forged from it fills my veins with a seizing anger, and compels me to $(thing)kill$()."
     },
     {
       "type": "text",
@@ -20,7 +20,6 @@
       "text": "Whereas $(l:innovation/metallurgy/diamond)diamond$() preserved itself by slowly mending its own wounds, $(item)ruby$() seemed to have a desire to preserve me above itself, slowly healing my own wounds."
     },
     {
-
       "type": "relations",
       "entries": [
         "equipment/gem_ingots",
