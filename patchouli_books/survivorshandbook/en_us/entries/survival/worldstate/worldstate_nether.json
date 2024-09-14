@@ -2,7 +2,7 @@
   "name": "Nether Unleashed",
   "icon": "minecraft:netherrack",
   "category": "survival_worldstate",
-  "advancement": "triumph:advancements/progression/nether/enterednether",
+  "advancement": "triumph:advancements/progression/nether/enternether",
 
   "pages": [
  	{
