@@ -17,11 +17,11 @@
         },
         {
             "type": "text",
-            "text": "$(#734608)Hippogryphs can be found all across the world in many different biomes typically atop hills$(br2)It is because of their prevalence across the world that they have a wide array of colors and patterns$(br2)However, these creatures are aggressive hunters and will hunt anything smaller than itself including livestock and humans$(br2)It will bite with its hooked"
+            "text": "$(#734608)Hippogryphs can be found all across the world in many different biomes typically among hills and mountain ranges.$(br2)Due to their prevalence across the world they have a wide array of colors and patterns.$(br2)These creatures are aggressive hunters and will hunt anything smaller than themselves, including livestock and humans$(br2)They will bite with their hooked"
         },
         {
             "type": "text",
-            "text": "$(#734608)beak and deliver kicks with incredible knockback$(br2)These beasts can be tamed with rabbits feet by dropping several of them near it. It will soon start feeding and will sit down once tamed$(br2)Hippogryphs can be saddled, carry chests, and wear $(item)hippogryph armor$()$(#734608)$(br2)Their current behavior can be altered by commanding it with a stick"
+            "text": "$(#734608)beaks and deliver kicks with incredible knockback$(br2)These beasts can be tamed with a gift of several $(thing)enchanted berries$(). They will sit down to signal that they have accepted your gift.$(br2)Hippogryphs can be saddled, carry chests, and wear $(item)hippogryph armor$()$(#734608)$(br2)Their current behavior can be altered by commanding them with a stick"
         },
         {
             "type": "text",
