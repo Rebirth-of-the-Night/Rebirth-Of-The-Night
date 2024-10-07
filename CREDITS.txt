@@ -149,6 +149,7 @@ Animated Brain - Ozymandias#6988 (Texture) & Japes#8538 (Animation)
 Inventory Food - SoulRacer65#3745
 Bonfire - lilypuree (Decorative Blocks)
 Soul Bonfire - lilypuree (Decorative Blocks)
+Bushier Grass + Flora - Oslypsis https://modrinth.com/resourcepack/os-colorful-grasses
 
 
 §r~ ~ ~ §nScreenshots§r ~ ~ ~

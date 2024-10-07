@@ -18,6 +18,9 @@ JEI.removeAndHide(<pyrotech:bucket_stone>.withTag({fluids: {FluidName: "animania
 JEI.removeAndHide(<ceramics:clay_bucket>.withTag({fluids: {FluidName: "animania_honey", Amount: 1000}}));
 JEI.removeAndHide(<animania:bee_hive>);
 JEI.removeAndHide(<animania:wild_hive>);
+JEI.removeAndHide(<animania:item_cart>);
+JEI.removeAndHide(<animania:wheel>);
+JEI.removeAndHide(<animania:item_tiller>);
 
 <ore:foodHoneydrop>.remove(<animania:honey_bottle>);
 <ore:dropHoney>.remove(<animania:honey_bottle>);

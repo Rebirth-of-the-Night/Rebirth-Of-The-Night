@@ -391,10 +391,7 @@
     "dropItem": "contenttweaker:brick_minecraft_nether",
     "heldItem": "contenttweaker:steel_crowbar",
     "replacementBlock": "minecraft:air",
-    "damage": "20",
-    "particleType": "fallingdust",
-    "particleArea": "out",
-    "particleCount": "100"
+    "damage": "20"
   },
   {
     "targetBlock": "contenttweaker:brick_netherex_fiery",
@@ -1088,10 +1085,7 @@
     "dropItem": "contenttweaker:brick_minecraft_nether",
     "heldItem": "contenttweaker:sfs_masonpick",
     "replacementBlock": "minecraft:air",
-    "damage": "20",
-    "particleType": "fallingdust",
-    "particleArea": "out",
-    "particleCount": "100"
+    "damage": "20"
   },
   {
     "targetBlock": "contenttweaker:brick_netherex_fiery",
@@ -1785,10 +1779,7 @@
     "dropItem": "contenttweaker:brick_minecraft_nether",
     "heldItem": "contenttweaker:mythril_masonpick",
     "replacementBlock": "minecraft:air",
-    "damage": "20",
-    "particleType": "fallingdust",
-    "particleArea": "out",
-    "particleCount": "100"
+    "damage": "20"
   },
   {
     "targetBlock": "contenttweaker:brick_netherex_fiery",
