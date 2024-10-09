@@ -537,11 +537,6 @@ Cauldron.addUnstoked([<betteranimalsplus:turkey_raw>],[<betteranimalsplus:turkey
 
 Cauldron.addStoked([<betterwithaddons:material:1>*8,<betterwithaddons:material:3>*2,<ore:dung>*8,<betterwithmods:urn:8>,<dynamictreesttf:darkwoodseed>],[<betterwithaddons:thorn_rose>,<betterwithmods:urn>]);
 
-// horse Upgrades
-Cauldron.addUnstoked([<biomesoplenty:berries>*32,<primitivemobs:camouflage_dye>],[<cyclicmagic:horse_upgrade_variant>]);
-Cauldron.addUnstoked([<biomesoplenty:berries>*6,<ore:slimeball>*4],[<cyclicmagic:horse_upgrade_jump>]);
-Cauldron.addUnstoked([<biomesoplenty:berries>*4,<ore:listAllsugar>*4],[<cyclicmagic:horse_upgrade_speed>]);
-
 JEI.removeAndHide(<betterwithmods:material:13>); // tallow
 Cauldron.remove([<betterwithmods:material:13>]);
 
