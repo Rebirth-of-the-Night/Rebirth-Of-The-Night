@@ -245,9 +245,9 @@ Condenser.addRecipe(artificialNature, [vis, allium], null, bottle, hotspring * 1
 Condenser.addRecipe(artificialNature*3, [vis, fourclover], null, bottle, hotspring * 2000);
 
 Condenser.addRecipe(fasthaw, [horsetail, thistle], null, <biomesoplenty:berries>*4, lunarwater * 100);
-Condenser.addRecipe(fasthaw*8, [horsetail, thistle], <biomesoplenty:gem:2>, <biomesoplenty:berries>*16, lunarwater * 500);
+Condenser.addRecipe(fasthaw*8, [horsetail, <biomesoplenty:gem:2>], null, <biomesoplenty:berries>*16, lunarwater * 500);
 Condenser.addRecipe(jumphaw, [horsetail, core], null, <biomesoplenty:berries>*4, lunarwater * 100);
-Condenser.addRecipe(jumphaw*4, [horsetail, core], <biomesoplenty:gem:6>, <biomesoplenty:berries>*16, lunarwater * 500);
+Condenser.addRecipe(jumphaw*4, [horsetail, <biomesoplenty:gem:6>], null, <biomesoplenty:berries>*16, lunarwater * 500);
 Condenser.addRecipe(<cyclicmagic:horse_upgrade_health>, [horsetail, <scalinghealth:crystalshard>], null, <biomesoplenty:berries>*4, lunarwater * 100);
 Condenser.addRecipe(<cyclicmagic:horse_upgrade_health>*16, [horsetail, heart, virdust], <biomesoplenty:gem:1>, <biomesoplenty:berries>*32, lunarwater * 1000);
 
