@@ -56,7 +56,7 @@
 			"center-height": 50,
 			"spread": 10,
 			"biome": "all",
-			"retrogen": true,
+			"retrogen": false,
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
