@@ -10,7 +10,7 @@
     },
     {
       "type": "text",
-      "text": "After acquiring the material block, I just have to sculpt it directly with my $(item)carver$() until I get the desired shape, the resulting product should be able to be $(thing)fired$() in a $(l:innovation/kiln)kiln$(). $(br2)What follows is a list of the different devices I believe I'm able to craft, most of which are made by continuing to work on the previous one."
+      "text": "After acquiring the material block, I just have to sculpt it directly with my $(item)carver$() until I get the desired shape, the resulting product should be able to be $(thing)fired$() in a $(l:innovation/innovation_burn/kiln)kiln$(). $(br2)What follows is a list of the different devices I believe I'm able to craft, most of which are made by continuing to work on the previous one."
     },
     {
       "type": "kiln_spotlight",

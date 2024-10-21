@@ -19,6 +19,10 @@ var cattail_root_cooked = VanillaFactory.createItemFood("cattail_root_cooked", 3
 cattail_root_cooked.setSaturation(3);
 cattail_root_cooked.register();
 
+var godrage_eye = VanillaFactory.createItemFood("godrage_eye", 4);
+godrage_eye.setSaturation(1);
+godrage_eye.register();
+
 val sprinkles = VanillaFactory.createItem("sprinkles");
 sprinkles.register();
 

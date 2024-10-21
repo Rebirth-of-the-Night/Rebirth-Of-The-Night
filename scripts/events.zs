@@ -164,6 +164,14 @@ HungerEvents.onFoodEaten(function(event as mods.hungertweaker.events.FoodEatenEv
 		var bounce = <potion:cyclicmagic:potion.bounce>.makePotionEffect(1200, 0, false, false);
 		event.player.addPotionEffect(bounce);
 	}
+
+	// godrage berserk
+	if (event.food.definition.id == <contenttweaker:godrage_eye>.definition.id) {
+		var curse = <potion:biomesoplenty:curse>.makePotionEffect(400, 0, false, false);
+		event.player.addPotionEffect(curse);
+		var strength = <potion:minecraft:strength>.makePotionEffect(600, 3, false, false);
+		event.player.addPotionEffect(strength);
+	}
 });
 
 events.onEntityLivingUseItemFinish(function(event as crafttweaker.event.EntityLivingUseItemEvent.Finish) {

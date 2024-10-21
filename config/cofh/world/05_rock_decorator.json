@@ -39,7 +39,7 @@
 					"undergroundbiomes:igneous_stone",
 					"minecraft:hardened_clay"
 				],
-				"cluster-size": 18
+				"cluster-size": 3
 			},
 			"material": [
 				"minecraft:grass",
@@ -53,7 +53,7 @@
 				"undergroundbiomes:igneous_stone",
 				"minecraft:hardened_clay"
 			],
-			"cluster-count": 3,
+			"cluster-count": 15,
 			"retrogen": "true",
 			"biome": {
 				"restriction": "whitelist",
@@ -132,7 +132,7 @@
 					"undergroundbiomes:igneous_stone",
 					"minecraft:hardened_clay"
 				],
-				"cluster-size": 18
+				"cluster-size": 3
 			},
 			"material": [
 				"minecraft:grass",
@@ -146,7 +146,7 @@
 				"undergroundbiomes:igneous_stone",
 				"minecraft:hardened_clay"
 			],
-			"cluster-count": 3,
+			"cluster-count": 15,
 			"retrogen": "true",
 			"biome": {
 				"restriction": "whitelist",
@@ -210,7 +210,7 @@
 					"undergroundbiomes:igneous_stone",
 					"minecraft:hardened_clay"
 				],
-				"cluster-size": 18
+				"cluster-size": 3
 			},
 			"material": [
 				"minecraft:grass",
@@ -224,7 +224,7 @@
 				"undergroundbiomes:igneous_stone",
 				"minecraft:hardened_clay"
 			],
-			"cluster-count": 3,
+			"cluster-count": 15,
 			"retrogen": "true",
 			"biome": {
 				"restriction": "whitelist",
@@ -275,27 +275,25 @@
 					"minecraft:grass",
 					"minecraft:dirt",
 					"minecraft:gravel",
-					"minecraft:sand",
 					"biomesoplenty:grass",
 					"biomesoplenty:dirt",
 					"undergroundbiomes:sedimentary_stone",
 					"undergroundbiomes:metamorphic_stone",
 					"undergroundbiomes:igneous_stone"
 				],
-				"cluster-size": 10
+				"cluster-size": 3
 			},
 			"material": [
 				"minecraft:grass",
 				"minecraft:dirt",
 				"minecraft:gravel",
-				"minecraft:sand",
 				"biomesoplenty:grass",
 				"biomesoplenty:dirt",
 				"undergroundbiomes:sedimentary_stone",
 				"undergroundbiomes:metamorphic_stone",
 				"undergroundbiomes:igneous_stone"
 			],
-			"cluster-count": 2,
+			"cluster-count": 15,
 			"retrogen": "true",
 			"biome": {
 				"restriction": "whitelist",
@@ -349,9 +347,9 @@
 					"undergroundbiomes:metamorphic_stone",
 					"undergroundbiomes:igneous_stone"
 				],
-				"cluster-size": 18
+				"cluster-size": 3
 			},
-			"cluster-count": 3,
+			"cluster-count": 15,
 			"chunk-chance": 1,
 			"retrogen": "true",
 			"biome": {
@@ -413,9 +411,9 @@
 					"undergroundbiomes:metamorphic_stone",
 					"undergroundbiomes:igneous_stone"
 				],
-				"cluster-size": 18
+				"cluster-size": 3
 			},
-			"cluster-count": 3,
+			"cluster-count": 15,
 			"chunk-chance": 1,
 			"retrogen": "true",
 			"biome": {
@@ -464,7 +462,7 @@
 					"undergroundbiomes:igneous_stone",
 					"minecraft:snow"
 				],
-				"cluster-size": 18
+				"cluster-size": 3
 			},
 			"material": [
 				"minecraft:grass",
@@ -478,8 +476,8 @@
 				"undergroundbiomes:igneous_stone",
 				"minecraft:snow"
 			],
-			"cluster-count": 3,
-			"chunk-chance": 1,
+			"cluster-count": 15,
+			"chunk-chance": 3,
 			"retrogen": "true",
 			"biome": {
 				"restriction": "whitelist",
@@ -525,7 +523,7 @@
 					"defiledlands:gravel_defiled",
 					"rotn_blocks:scuttling_block"
 				],
-				"cluster-size": 18
+				"cluster-size": 3
 			},
 			"material": [
 				"defiledlands:stone_defiled",
@@ -536,7 +534,7 @@
 				"defiledlands:gravel_defiled",
 				"rotn_blocks:scuttling_block"
 			],
-			"cluster-count": 3,
+			"cluster-count": 15,
 			"chunk-chance": 1,
 			"retrogen": "true",
 			"biome": {
@@ -579,7 +577,7 @@
 					"defiledlands:grass_defiled",
 					"defiledlands:gravel_defiled"
 				],
-				"cluster-size": 10
+				"cluster-size": 3
 			},
 			"material": [
 				"defiledlands:stone_defiled",
@@ -589,7 +587,7 @@
 				"defiledlands:grass_defiled",
 				"defiledlands:gravel_defiled"
 			],
-			"cluster-count": 2,
+			"cluster-count": 15,
 			"chunk-chance": 1,
 			"retrogen": "true",
 			"biome": {
@@ -620,7 +618,6 @@
 					}
 				],
 				"surface": [
-					"minecraft:sand",
 					"minecraft:dirt",
 					"minecraft:gravel",
 					"minecraft:sandstone",
@@ -629,9 +626,9 @@
 					"undergroundbiomes:metamorphic_stone",
 					"undergroundbiomes:igneous_stone"
 				],
-				"cluster-size": 10
+				"cluster-size": 3
 			},
-			"cluster-count": 2,
+			"cluster-count": 15,
 			"chunk-chance": 1,
 			"retrogen": "true",
 			"biome": {
@@ -685,7 +682,7 @@
 					"contenttweaker:weathered_dirt",
 					"biomesoplenty:dried_sand"
 				],
-				"cluster-size": 14
+				"cluster-size": 3
 			},
 			"material": [
 				"minecraft:sand",
@@ -701,7 +698,7 @@
 				"contenttweaker:weathered_dirt",
 				"biomesoplenty:dried_sand"
 			],
-			"cluster-count": 3,
+			"cluster-count": 15,
 			"chunk-chance": 1,
 			"retrogen": "true",
 			"biome": {
@@ -753,7 +750,7 @@
 					"undergroundbiomes:metamorphic_stone",
 					"undergroundbiomes:igneous_stone"
 				],
-				"cluster-size": 18
+				"cluster-size": 3
 			},
 			"material": [
 				"minecraft:grass",
@@ -770,7 +767,7 @@
 				"undergroundbiomes:metamorphic_stone",
 				"undergroundbiomes:igneous_stone"
 			],
-			"cluster-count": 3,
+			"cluster-count": 15,
 			"chunk-chance": 1,
 			"retrogen": "true",
 			"biome": {
@@ -827,9 +824,9 @@
 					"undergroundbiomes:metamorphic_stone",
 					"undergroundbiomes:igneous_stone"
 				],
-				"cluster-size": 18
+				"cluster-size": 3
 			},
-			"cluster-count": 3,
+			"cluster-count": 15,
 			"chunk-chance": 1,
 			"retrogen": "true",
 			"biome": {
@@ -887,9 +884,9 @@
 					"undergroundbiomes:metamorphic_stone",
 					"undergroundbiomes:igneous_stone"
 				],
-				"cluster-size": 18
+				"cluster-size": 3
 			},
-			"cluster-count": 3,
+			"cluster-count": 15,
 			"chunk-chance": 1,
 			"retrogen": "true",
 			"biome": {
@@ -959,7 +956,7 @@
 					"undergroundbiomes:sedimentary_overgrown",
 					"undergroundbiomes:igneous_stone"
 				],
-				"cluster-size": 25
+				"cluster-size": 3
 			},
 			"material": [
 				"minecraft:grass",
@@ -973,7 +970,7 @@
 				"undergroundbiomes:sedimentary_overgrown",
 				"undergroundbiomes:igneous_stone"
 			],
-			"cluster-count": 6,
+			"cluster-count": 15,
 			"chunk-chance": 1,
 			"retrogen": "true",
 			"biome": {
@@ -1043,7 +1040,7 @@
 					"undergroundbiomes:sedimentary_overgrown",
 					"undergroundbiomes:igneous_stone"
 				],
-				"cluster-size": 18
+				"cluster-size": 3
 			},
 			"material": [
 				"minecraft:grass",
@@ -1057,7 +1054,7 @@
 				"undergroundbiomes:sedimentary_overgrown",
 				"undergroundbiomes:igneous_stone"
 			],
-			"cluster-count": 3,
+			"cluster-count": 15,
 			"chunk-chance": 1,
 			"retrogen": "true",
 			"biome": {
@@ -1125,7 +1122,7 @@
 					"undergroundbiomes:metamorphic_stone",
 					"undergroundbiomes:igneous_stone"
 				],
-				"cluster-size": 18
+				"cluster-size": 3
 			},
 			"material": [
 				"minecraft:grass",
@@ -1138,7 +1135,7 @@
 				"undergroundbiomes:metamorphic_stone",
 				"undergroundbiomes:igneous_stone"
 			],
-			"cluster-count": 3,
+			"cluster-count": 15,
 			"chunk-chance": 1,
 			"retrogen": "true",
 			"biome": {
@@ -1188,7 +1185,7 @@
 					"undergroundbiomes:metamorphic_stone",
 					"undergroundbiomes:igneous_stone"
 				],
-				"cluster-size": 15
+				"cluster-size": 3
 			},
 			"material": [
 				"minecraft:grass",
@@ -1202,7 +1199,7 @@
 				"undergroundbiomes:metamorphic_stone",
 				"undergroundbiomes:igneous_stone"
 			],
-			"cluster-count": 2,
+			"cluster-count": 15,
 			"chunk-chance": 1,
 			"retrogen": "true",
 			"biome": {
@@ -1253,7 +1250,7 @@
 					"undergroundbiomes:metamorphic_stone",
 					"undergroundbiomes:igneous_stone"
 				],
-				"cluster-size": 18
+				"cluster-size": 3
 			},
 			"material": [
 				"minecraft:grass",
@@ -1267,7 +1264,7 @@
 				"undergroundbiomes:metamorphic_stone",
 				"undergroundbiomes:igneous_stone"
 			],
-			"cluster-count": 3,
+			"cluster-count": 15,
 			"chunk-chance": 1,
 			"retrogen": "true",
 			"biome": {
@@ -1335,9 +1332,9 @@
 					"undergroundbiomes:metamorphic_stone",
 					"undergroundbiomes:igneous_stone"
 				],
-				"cluster-size": 18
+				"cluster-size": 3
 			},
-			"cluster-count": 3,
+			"cluster-count": 15,
 			"chunk-chance": 1,
 			"retrogen": "true",
 			"biome": {
@@ -1376,7 +1373,7 @@
 					"undergroundbiomes:metamorphic_stone",
 					"undergroundbiomes:igneous_stone"
 				],
-				"cluster-size": 18
+				"cluster-size": 3
 			},
 			"material": [
 				"minecraft:gravel",
@@ -1387,7 +1384,7 @@
 				"undergroundbiomes:metamorphic_stone",
 				"undergroundbiomes:igneous_stone"
 			],
-			"cluster-count": 3,
+			"cluster-count": 15,
 			"chunk-chance": 1,
 			"retrogen": "true",
 			"biome": {
@@ -1426,7 +1423,7 @@
 					"undergroundbiomes:metamorphic_stone",
 					"undergroundbiomes:igneous_stone"
 				],
-				"cluster-size": 13
+				"cluster-size": 3
 			},
 			"material": [
 				"minecraft:gravel",
@@ -1436,7 +1433,7 @@
 				"undergroundbiomes:metamorphic_stone",
 				"undergroundbiomes:igneous_stone"
 			],
-			"cluster-count": 4,
+			"cluster-count": 15,
 			"chunk-chance": 1,
 			"retrogen": "true",
 			"biome": {
@@ -1493,7 +1490,7 @@
 					"undergroundbiomes:metamorphic_sandstone",
 					"contenttweaker:salty_crust"
 				],
-				"cluster-size": 18
+				"cluster-size": 3
 			},
 			"material": [
 				"minecraft:grass",
@@ -1508,7 +1505,7 @@
 				"undergroundbiomes:metamorphic_sandstone",
 				"contenttweaker:salty_crust"
 			],
-			"cluster-count": 3,
+			"cluster-count": 15,
 			"chunk-chance": 1,
 			"retrogen": "true",
 			"biome": {
@@ -1573,7 +1570,7 @@
 					"undergroundbiomes:metamorphic_sandstone",
 					"contenttweaker:n_copper_sandstone_red"
 				],
-				"cluster-size": 18
+				"cluster-size": 3
 			},
 			"material": [
 				"minecraft:grass",
@@ -1589,7 +1586,7 @@
 				"undergroundbiomes:metamorphic_sandstone",
 				"contenttweaker:n_copper_sandstone_red"
 			],
-			"cluster-count": 3,
+			"cluster-count": 15,
 			"chunk-chance": 1,
 			"retrogen": "true",
 			"biome": {
@@ -1637,7 +1634,7 @@
 					"undergroundbiomes:igneous_stone",
 					"iceandfire:chared_stone"
 				],
-				"cluster-size": 18
+				"cluster-size": 3
 			},
 			"material": [
 				"minecraft:grass",
@@ -1651,7 +1648,7 @@
 				"undergroundbiomes:igneous_stone",
 				"iceandfire:chared_stone"
 			],
-			"cluster-count": 3,
+			"cluster-count": 15,
 			"chunk-chance": 1,
 			"retrogen": "true",
 			"biome": {
@@ -1699,7 +1696,7 @@
 					"undergroundbiomes:metamorphic_stone",
 					"undergroundbiomes:igneous_stone"
 				],
-				"cluster-size": 30
+				"cluster-size": 15
 			},
 			"material": [
 				"minecraft:grass",
@@ -1712,7 +1709,7 @@
 				"undergroundbiomes:metamorphic_stone",
 				"undergroundbiomes:igneous_stone"
 			],
-			"cluster-count": 7,
+			"cluster-count": 3,
 			"chunk-chance": 1,
 			"retrogen": "true",
 			"biome": {
@@ -1754,7 +1751,7 @@
 					"undergroundbiomes:metamorphic_stone",
 					"undergroundbiomes:igneous_stone"
 				],
-				"cluster-size": 18
+				"cluster-size": 3
 			},
 			"material": [
 				"minecraft:grass",
@@ -1768,7 +1765,7 @@
 				"undergroundbiomes:metamorphic_stone",
 				"undergroundbiomes:igneous_stone"
 			],
-			"cluster-count": 3,
+			"cluster-count": 15,
 			"chunk-chance": 1,
 			"retrogen": "true",
 			"biome": {
@@ -1798,7 +1795,7 @@
 					"undergroundbiomes:metamorphic_stone",
 					"undergroundbiomes:igneous_stone"
 				],
-				"cluster-size": 12
+				"cluster-size": 3
 			},
 			"material": [
 				"minecraft:dirt",
@@ -1810,7 +1807,7 @@
 				"undergroundbiomes:metamorphic_stone",
 				"undergroundbiomes:igneous_stone"
 			],
-			"cluster-count": 5,
+			"cluster-count": 15,
 			"chunk-chance": 1,
 			"retrogen": "true",
 			"biome": {
@@ -1853,7 +1850,7 @@
 					"undergroundbiomes:metamorphic_stone",
 					"undergroundbiomes:igneous_stone"
 				],
-				"cluster-size": 18
+				"cluster-size": 3
 			},
 			"material": [
 				"minecraft:grass",
@@ -1867,7 +1864,7 @@
 				"undergroundbiomes:metamorphic_stone",
 				"undergroundbiomes:igneous_stone"
 			],
-			"cluster-count": 3,
+			"cluster-count": 15,
 			"chunk-chance": 1,
 			"retrogen": "true",
 			"biome": {
@@ -1925,7 +1922,7 @@
 					"undergroundbiomes:metamorphic_stone",
 					"undergroundbiomes:igneous_stone"
 				],
-				"cluster-size": 18
+				"cluster-size": 3
 			},
 			"material": [
 				"minecraft:grass",
@@ -1941,7 +1938,7 @@
 				"undergroundbiomes:metamorphic_stone",
 				"undergroundbiomes:igneous_stone"
 			],
-			"cluster-count": 3,
+			"cluster-count": 15,
 			"chunk-chance": 1,
 			"retrogen": "true",
 			"biome": {
@@ -1993,13 +1990,13 @@
 					"minecraft:stone",
 					"biomesoplenty:ash_block"
 				],
-				"cluster-size": 18
+				"cluster-size": 3
 			},
 			"material": [
 				"minecraft:stone",
 				"biomesoplenty:ash_block"
 			],
-			"cluster-count": 3,
+			"cluster-count": 15,
 			"chunk-chance": 1,
 			"retrogen": "true",
 			"biome": {
@@ -2050,7 +2047,7 @@
 					"undergroundbiomes:metamorphic_stone",
 					"undergroundbiomes:igneous_stone"
 				],
-				"cluster-size": 18
+				"cluster-size": 3
 			},
 			"material": [
 				"minecraft:grass",
@@ -2066,7 +2063,7 @@
 				"undergroundbiomes:metamorphic_stone",
 				"undergroundbiomes:igneous_stone"
 			],
-			"cluster-count": 3,
+			"cluster-count": 15,
 			"chunk-chance": 1,
 			"retrogen": "true",
 			"biome": {
@@ -2123,7 +2120,7 @@
 					"undergroundbiomes:metamorphic_stone",
 					"undergroundbiomes:igneous_stone"
 				],
-				"cluster-size": 18
+				"cluster-size": 3
 			},
 			"material": [
 				"minecraft:grass",
@@ -2137,7 +2134,7 @@
 				"undergroundbiomes:metamorphic_stone",
 				"undergroundbiomes:igneous_stone"
 			],
-			"cluster-count": 3,
+			"cluster-count": 15,
 			"chunk-chance": 1,
 			"retrogen": "true",
 			"biome": {
@@ -2195,7 +2192,7 @@
 					"undergroundbiomes:igneous_stone",
 					"contenttweaker:n_copper_sandstone"
 				],
-				"cluster-size": 18
+				"cluster-size": 3
 			},
 			"material": [
 				"minecraft:grass",
@@ -2211,7 +2208,7 @@
 				"undergroundbiomes:igneous_stone",
 				"contenttweaker:n_copper_sandstone"
 			],
-			"cluster-count": 3,
+			"cluster-count": 15,
 			"chunk-chance": 1,
 			"retrogen": "true",
 			"biome": {

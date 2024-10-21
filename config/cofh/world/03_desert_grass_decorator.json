@@ -76,7 +76,7 @@
 						}
 					},
 					{
-						"name": "biomesoplenty:plant_0",
+						"name": "biomesoplenty:flower_0",
 						"weight": 1,
 						"properties": {
 							"variant" : "bromeliad"
