@@ -2,7 +2,7 @@
   "name": "Rebirth of the World",
   "icon": "minecraft:skull:5",
   "category": "survival_worldstate",
-  "advancement": "triumph:advancements/progression/killedEnderDragon",
+  "advancement": "triumph:advancements/progression/end/killedenddragon",
 
   "pages": [
  	{

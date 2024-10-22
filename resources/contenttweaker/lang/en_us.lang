@@ -609,6 +609,8 @@ item.contenttweaker.scapula.name=Scapula
 item.contenttweaker.xp_tome_mundane.name=Experience Scroll
 item.contenttweaker.xp_tome_arcane.name=Experience Codex
 
+item.contenttweaker.artificial_nature.name=Vial of Artificial Nature
+
 #------------------------------------------------------------------------------
 # Food
 #------------------------------------------------------------------------------
@@ -743,6 +745,8 @@ tile.contenttweaker.viridea.name=Viridea
 #------------------------------------------------------------------------------
 
 item.contenttweaker.stream_crown.name=Soul of Blue Fire
+item.contenttweaker.clockwork_heart.name=Imperfect Brass Heart
+item.contenttweaker.doll_heart.name=Perfect Heart
 
 #------------------------------------------------------------------------------
 # Unfired Items

@@ -1,0 +1,14 @@
+{
+  "name": "---",
+  "icon": "contenttweaker:solid_ember",
+  "category": "slayers_journal",
+  "advancement": "triumph:advancements/progression/killedHarvester",
+
+  "sortnum": 10,
+  "pages": [
+	{
+		"type": "text",
+		"text": "On a separate and partially torn page, you can read some scribbles:$(br2) $(#734608)...as I finished writing those memoirs, I realize this is not the appropriate place for them. I will keep this journal separate, my story is my own. It is my responsability. To carry his weight...$()"
+	  }
+  ]
+}

@@ -74,41 +74,9 @@ death.attack.incineration_firo=%1$s was incinerated by %2$s's Fireball
 death.attack.icey_ball=%1$s was chilled by %2$s's Ice Ball
 death.attack.lightning_ball=%1$s was zapped by %2$s's Thunder Ball
 
-
-item.aether_legacy:cockatrice.name=Kelenk Meat
-item.aether_legacy:burnt_cockatrice.name=Burnt Kelenk Meat
-item.aether_legacy:enchanted_cockatrice.name=Enchanted Kelenk Meat
-item.aether_legacy:cooked_enchanted_cockatrice.name=Cooked Enchanted Kelenk Meat
-
 entity.aether_legacy.cockatrice.name=Kelenk
 entity.cockatrice.name=Kelenk
 
-item.aether_legacy:skyroot_slab.name=Skyroot Slab
-item.aether_legacy:carved_slab.name=Carved Slab
-item.aether_legacy:angelic_slab.name=Angelic Slab
-item.aether_legacy:hellfire_slab.name=Hellfire Slab
-item.aether_legacy:holystone_slab.name=Holystone Slab
-item.aether_legacy:mossy_holystone_slab.name=Mossy Holystone Slab
-item.aether_legacy:holystone_brick_slab.name=Holystone Brick Slab
-item.aether_legacy:aerogel_slab.name=Aerogel Slab
-item.skyroot_slab.name=Skyroot Slab
-item.angelic_slab.name=Angelic Slab
-item.carved_slab.name=Carved Slab
-item.hellfire_slab.name=Hellfire Slab
-item.holystone_slab.name=Holystone Slab
-item.mossy_holystone_slab.name=Mossy Holystone Slab
-item.holystone_brick_slab.name=Holystone Brick Slab
-item.aerogel_slab.name=Aerogel Slab
-item.dart_shooter.name=Dartgun
-
-tile.aether_legacy:skyroot_slab.name=Skyroot Slab
-tile.aether_legacy:carved_slab.name=Carved Slab
-tile.aether_legacy:angelic_slab.name=Angelic Slab
-tile.aether_legacy:hellfire_slab.name=Hellfire Slab
-tile.aether_legacy:holystone_slab.name=Holystone Slab
-tile.aether_legacy:mossy_holystone_slab.name=Mossy Holystone Slab
-tile.aether_legacy:holystone_brick_slab.name=Holystone Brick Slab
-tile.aether_legacy:aerogel_slab.name=Aerogel Slab
 tile.skyroot_slab.name=Skyroot Slab
 tile.angelic_slab.name=Angelic Slab
 tile.carved_slab.name=Carved Slab
@@ -118,8 +86,6 @@ tile.mossy_holystone_slab.name=Mossy Holystone Slab
 tile.holystone_brick_slab.name=Holystone Brick Slab
 tile.aerogel_slab.name=Aerogel Slab
 
-tile.aether_legacy:enchanter.name=Aetherium Capacitor
-tile.aether_legacy:altar.name=Aetherium Capacitor
 tile.enchanter.name=Aetherium Capacitor
 tile.altar.name=Aetherium Capacitor
 container.aether_legacy.enchanter=Aetherium Capacitor

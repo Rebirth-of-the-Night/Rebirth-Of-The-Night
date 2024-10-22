@@ -2,3 +2,4 @@ gamerule commandBlockOutput false
 gamerule sendCommandFeedback false
 gamestage silentadd @p start
 give @p minecraft:bread 1 0 
+give @p bundles:bundle 1 0

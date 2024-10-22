@@ -158,3 +158,46 @@ rabbit_foot.onUnequipped = function(bauble, wearer) {
 };
 rabbit_foot.baubleType = "TRINKET";
 rabbit_foot.register();
+
+val brokenHeart = <damageSource:BROKEN_HEART>;
+
+var clockwork_heart = VanillaFactory.createBaubleItem("clockwork_heart");
+clockwork_heart.onWornTick = function(bauble, wearer) {
+    if(wearer instanceof IPlayer) {
+        var player as IPlayer = wearer;
+        if (!player.world.isRemote() && player.world.getWorldTime() % 10 == 0 as long) {
+            player.removePotionEffect(<potion:minecraft:haste>);
+            player.removePotionEffect(<potion:minecraft:speed>);
+            
+        } 
+    }
+};
+clockwork_heart.onUnequipped = function(bauble, wearer) {
+    if(wearer instanceof IPlayer) {
+        var player as IPlayer = wearer;
+        player.attackEntityFrom(brokenHeart, 9999);
+    }
+};
+clockwork_heart.baubleType = "BODY";
+clockwork_heart.register();
+
+var doll_heart = VanillaFactory.createBaubleItem("doll_heart");
+doll_heart.onWornTick = function(bauble, wearer) {
+    if(wearer instanceof IPlayer) {
+        var player as IPlayer = wearer;
+        if (!player.world.isRemote() && player.world.getWorldTime() % 10 == 0 as long) {
+            player.removePotionEffect(<potion:minecraft:haste>);
+            player.removePotionEffect(<potion:minecraft:speed>);
+            player.removePotionEffect(<potion:minecraft:mining_fatigue>);
+            player.removePotionEffect(<potion:minecraft:slowness>);
+        } 
+    }
+};
+doll_heart.onUnequipped = function(bauble, wearer) {
+    if(wearer instanceof IPlayer) {
+        var player as IPlayer = wearer;
+        player.attackEntityFrom(brokenHeart, 9999);
+    }
+};
+doll_heart.baubleType = "BODY";
+doll_heart.register();

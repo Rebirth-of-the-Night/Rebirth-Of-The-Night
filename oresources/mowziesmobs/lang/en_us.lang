@@ -7,12 +7,20 @@ item.nagaFangDagger.name=Skydrake Shiv
 item.nagaFangDagger.text.0=Poisons targets
 item.nagaFangDagger.text.1=Deals +3 damage from behind
 
-entity.mowziesmobs.mowziesmobs.naga.name=Skydrake
-entity.mowziesmobs:naga.name=Skydrake
 entity.naga.name=Skydrake
-entity.mowziesmobs.mowziesmobs:naga.name=Skydrake
-
-entity.mowziesmobs.mowziesmobs.lantern.name=Puffbulb
-entity.mowziesmobs:lantern.name=Puffbulb
 entity.lantern.name=Puffbulb
-entity.mowziesmobs.mowziesmobs:lantern.name=Puffbulb
+
+advancements.mowziesmobs.kill_naga.title=Wingin' It
+advancements.mowziesmobs.kill_naga.description=Kill a Skydrake
+
+subtitles.mowziesmobs.lantern.pop=Puffbulb pops
+subtitles.mowziesmobs.lantern.puff=Puffbulb puffs
+subtitles.mowziesmobs.naga.acid.charge=Skydrake concentrates acid
+subtitles.mowziesmobs.naga.acid.hit=Acid splatters
+subtitles.mowziesmobs.naga.acid.spit=Skydrake spits
+subtitles.mowziesmobs.naga.acid.hiss=Acid hisses
+subtitles.mowziesmobs.naga.flap=Skydrake flaps
+subtitles.mowziesmobs.naga.growl=Skydrake growls
+subtitles.mowziesmobs.naga.grunt=Skydrake grunts
+subtitles.mowziesmobs.naga.roar=Skydrake roars
+subtitles.mowziesmobs.naga.swoop=Skydrake swoops

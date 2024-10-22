@@ -6,6 +6,7 @@ import crafttweaker.data.IData;
 import crafttweaker.enchantments.IEnchantmentDefinition;
 import mods.ctutils.utils.Math;
 import mods.contenttweaker.Commands;
+import crafttweaker.damage.IDamageSource;
 
 
 
@@ -14,7 +15,7 @@ import mods.contenttweaker.Commands;
 JEI.addDescription([<dungeontactics:steel_sword>],['A sword imbued with the power of cat girls, pastel colors, pickles, and head pats. Lovingly referred to by its creator as "Sword of Gay."']);
 
 <dungeontactics:steel_sword>.addTooltip(format.aqua("+9999 validity to wielder"));
-<dungeontactics:steel_sword>.addTooltip(format.darkBlue("Developer Relic 5/6"));
+<dungeontactics:steel_sword>.addTooltip(format.darkBlue("Developer Relic 5/7"));
 
 mods.betterwithmods.Anvil.addShaped(<dungeontactics:steel_sword>, 
 [
@@ -29,7 +30,7 @@ mods.betterwithmods.Anvil.addShaped(<dungeontactics:steel_sword>,
 JEI.addDescription([<contenttweaker:calamarigold>],["Mari has a cheerful personality and makes many jokes. She always keeps her chin up when faced with hardship so as not to burden others, and is ready to try her hand at anything. Mari speaks with an accent, and she has a high, cheerful voice. Mari speaks Japanese but often inserts English words into her sentences. She is so excited to be with you <3"]);
 
 <contenttweaker:calamarigold>.addTooltip(format.aqua('"Right-click me! I have a surprise for you!"'));
-<contenttweaker:calamarigold>.addTooltip(format.darkBlue("Developer Relic 1/6"));
+<contenttweaker:calamarigold>.addTooltip(format.darkBlue("Developer Relic 1/7"));
 
 recipes.addHiddenShapeless("CalaMariGold", <contenttweaker:calamarigold>,
 	[<harvestcraft:calamarirawitem>,<minecraft:yellow_flower>]);
@@ -110,10 +111,11 @@ events.onPlayerRightClickItem(function(event as crafttweaker.event.PlayerRightCl
     }
 });
 
+
 // Kompy
 
 <contenttweaker:kompy_kantrip>.addTooltip(format.aqua("Whimsicott's Playday =3"));
-<contenttweaker:kompy_kantrip>.addTooltip(format.darkBlue("Developer Relic 4/6"));
+<contenttweaker:kompy_kantrip>.addTooltip(format.darkBlue("Developer Relic 4/7"));
 
 JEI.addDescription([<contenttweaker:kompy_kantrip>],["Kompy's Kantrip can be used to kraft gardens full of her favorite flower!"]);
 JEI.addDescription([<contenttweaker:kompy_essence>],["Krafted with Kompy's favorite flower, favorite blue Gem, her wife's favorite green Gem, their favorite afternoon spiced tea, quintessence of nature, and Kompy's two favorite colors."]);
@@ -135,9 +137,6 @@ mods.betterwithaddons.Infuser.addShaped(<contenttweaker:kompy_kantrip>,[
 
 recipes.addShapeless("Kantrip Effect", <biomesoplenty:flower_0:13>,
     [<contenttweaker:kompy_kantrip>.transformDamage(0), <ore:flower>]);	
-
-
-
 
 
 //Sandwich Horror
@@ -167,16 +166,16 @@ JEI.addDescription(<mod_lavacow:canebeef>,"Ten percent greens,", "Twenty percent
 
 <mod_lavacow:canebeef>.clearTooltip();
 <mod_lavacow:canebeef>.addTooltip(format.darkRed("The Sandwich Horror"));
-<mod_lavacow:canebeef>.addTooltip(format.darkBlue("Developer Relic 3/6"));
-
+<mod_lavacow:canebeef>.addTooltip(format.darkBlue("Developer Relic 3/7"));
 
 
 //Foreck
+
 //My Stick
 <spartanweaponry:katana_wood:*>.addTooltip("An old stick wrapped ...with tape?");
 <spartanweaponry:katana_wood>.maxDamage = 24;
 //Is Better than Bacommm
-<spartancompat:katana_onyx:*>.addTooltip(format.darkBlue("Developer Relic 2/6"));
+<spartancompat:katana_onyx:*>.addTooltip(format.darkBlue("Developer Relic 2/7"));
 <spartancompat:katana_onyx>.maxDamage = 1838;
 
 //Register specific sticks;
@@ -196,11 +195,13 @@ JEI.addDescription(<spartancompat:katana_onyx>.withTag({"Quark:RuneColor": 0, en
 JEI.addDescription(<contenttweaker:nethercoin>,"Some sort of currency from an era long forgotten, before the disease had decimated the population of the Nether.","Only some high ranking individuals have them.");
 <contenttweaker:nethercoin>.addTooltip("Might be valuable to an archeologist or merchant from far away. Wasn't there some 'collector' in villages?");
 
+
 //Kilo
+
 //my tickler
 <dungeontactics:terrible_feather>.maxDamage = 75;
 <dungeontactics:terrible_feather:*>.addTooltip("We hold back the darkness with our clucking.");
-<dungeontactics:terrible_feather:*>.addTooltip(format.darkBlue("Developer Relic 6/6"));
+<dungeontactics:terrible_feather:*>.addTooltip(format.darkBlue("Developer Relic 6/7"));
 
 JEI.addDescription(<dungeontactics:terrible_feather>.withTag({ Quality: {}}),"Let the Attackens rise once more unto the earth. Created by combining angel feathers with runes of life and soul.");
 
@@ -211,6 +212,35 @@ recipes.addHiddenShaped("tickywicky", <dungeontactics:terrible_feather>.withTag(
 [<endreborn:item_angel_feather>, <contenttweaker:soul_rune>, <endreborn:item_angel_feather>],
 [<endreborn:item_angel_feather>, <contenttweaker:life_rune>, <endreborn:item_angel_feather>]
 ]);
+
+
+//ProvidenceDaemon
+
+val clockworkHeart = <contenttweaker:clockwork_heart>;
+<contenttweaker:clockwork_heart>.addTooltip(format.darkPurple("tick, tick, tick..."));
+<contenttweaker:clockwork_heart>.addTooltip(format.darkRed("Still not enough... I must be PERFECT"));
+JEI.addDescription(<contenttweaker:clockwork_heart>,"Provides some enhancements, but at a cost...");
+mods.betterwithmods.Anvil.addShapedFixed(<contenttweaker:clockwork_heart>, 
+[
+   [<scalinghealth:crystalshard>, <contenttweaker:material_part:45>, <contenttweaker:material_part:45>, <scalinghealth:crystalshard>],
+   [<contenttweaker:material_part:45>, <pyrotech:cog_bone>, <contenttweaker:wrought_animation_core>, <contenttweaker:material_part:45>],
+   [<contenttweaker:material_part:45>, <pyrotech:cog_bone>, <pyrotech:cog_bone>, <contenttweaker:material_part:45>],
+   [<contenttweaker:material_part:45>, <contenttweaker:material_part:45>, <scalinghealth:crystalshard>, <contenttweaker:material_part:45>]
+]);
+val dollHeart = <contenttweaker:doll_heart>;
+<contenttweaker:doll_heart>.addTooltip(format.darkPurple("tick, tick, tick..."));
+<contenttweaker:doll_heart>.addTooltip(format.white("Discarding my humanity... perfect"));
+<contenttweaker:doll_heart>.addTooltip(format.darkBlue("Dev Relic 7/7"));
+JEI.addDescription(<contenttweaker:clockwork_heart>,"Provides the perfection of a doll, but at a cost... Requires an imperfect heart encased in porcelain and infused with life giving metal");
+mods.betterwithmods.Anvil.addShapedFixed(<contenttweaker:doll_heart>.withTag({ench: [{lvl: 1, id: 10}]}),
+[
+   [<contenttweaker:viridea_biomatter>, <ceramics:unfired_clay:4>, <ceramics:unfired_clay:4>, <contenttweaker:viridea_biomatter>],
+   [<ceramics:unfired_clay:4>, <contenttweaker:viridea_biomatter>, <contenttweaker:clockwork_heart>, <ceramics:unfired_clay:4>],
+   [<ceramics:unfired_clay:4>, <contenttweaker:viridea_biomatter>, <contenttweaker:viridea_biomatter>, <ceramics:unfired_clay:4>],
+   [<contenttweaker:viridea_biomatter>, <ceramics:unfired_clay:4>, <ceramics:unfired_clay:4>, <contenttweaker:viridea_biomatter>]
+]);
+
+
 
 //Dev armor
 JEI.addDescription(<betterwithmods:wool_helmet>,"Has a 10% chance to drop from bosses and minibosses! Craft with tanned cut leather to get a blank developer helmet, or recycle it into cut leather.");

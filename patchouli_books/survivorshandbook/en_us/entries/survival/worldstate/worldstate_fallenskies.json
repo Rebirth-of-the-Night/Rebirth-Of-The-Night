@@ -1,8 +1,8 @@
 {
-  "name": "Fallen Skies",
+  "name": "Rebirth of the Galaxy",
   "icon": "nyx:meteor_shard",
   "category": "survival_worldstate",
-  "advancement": "triumph:advancements/progression/nether/killedQuazar",
+  "advancement": "triumph:advancements/progression/nether/killedquazar",
 
   "pages": [
  	{

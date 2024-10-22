@@ -2,12 +2,12 @@
   "name": "Shattered Mythril",
   "icon": "simpleores:mythril_ore",
   "category": "survival_worldstate",
-  "advancement": "triumph:advancements/progression/minedMythril",
+  "advancement": "triumph:advancements/progression/beneath/mythril",
 
   "pages": [
  	{
       "type": "text",
-      "text": "Destroying those deposits of mythril seemed to affect the protective magic of the arcane barrier. All sorts of things that were hiding before now roamw the world without fear."
+      "text": "Destroying those deposits of mythril seemed to affect the protective magic of the arcane barrier. All sorts of things that were hiding before now roam the world without fear."
     },
     {
       "type": "relations",

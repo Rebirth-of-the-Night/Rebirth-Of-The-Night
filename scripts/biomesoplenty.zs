@@ -6,7 +6,6 @@ import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.artisanworktables.builder.RecipeBuilder;
 
-JEI.removeAndHide(<biomesoplenty:plant_1:3>);
 JEI.removeAndHide(<biomesoplenty:ricebowl>);
 
 JEI.removeAndHide(<biomesoplenty:biome_finder>);

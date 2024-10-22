@@ -106,3 +106,5 @@ tile.monsterStoneEgg.mossybrick.name=Mossy Quartzite Brick Monster Egg
 tile.monsterStoneEgg.crackedbrick.name=Cracked Quartzite Brick Monster Egg
 tile.monsterStoneEgg.chiseledbrick.name=Chiseled Quartzite Brick Monster Egg
 tile.stairsStoneBrickSmooth.name=Quartzite Brick Stairs
+
+death.attack.BROKEN_HEART=%1$s died of a broken heart

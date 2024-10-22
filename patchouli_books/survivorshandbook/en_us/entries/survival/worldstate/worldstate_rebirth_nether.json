@@ -2,7 +2,7 @@
   "name": "Rebirth of the Nether",
   "icon": "minecraft:nether_star",
   "category": "survival_worldstate",
-  "advancement": "triumph:advancements/progression/killedWither",
+  "advancement": "triumph:advancements/progression/wither/killedwither",
 
   "pages": [
  	{

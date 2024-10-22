@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "bundles:items/bundle_full",
+    "layer1": "bundles:items/bundle_full_overlay"
+  }
+}

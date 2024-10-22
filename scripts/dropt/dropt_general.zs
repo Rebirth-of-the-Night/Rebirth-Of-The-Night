@@ -665,7 +665,7 @@ Dropt.list("plants_basic_dry")
 
   .add(Dropt.rule()
       .matchBiomes(["minecraft:desert","minecraft:desert_hills","minecraft:mutated_desert","minecraft:savanna","minecraft:savanna_rock","minecraft:mesa","minecraft:mesa_rock","minecraft:mesa_clear_rock"])
-      .matchBlocks(["biomesoplenty:plant_0:1","biomesoplenty:plant_0:2","biomesoplenty:plant_0:4","biomesoplenty:plant_0:5","biomesoplenty:plant_0:7","biomesoplenty:plant_0:8","biomesoplenty:plant_0:13","biomesoplenty:plant_0:14","biomesoplenty:plant_0:15","biomesoplenty:plant_1:0","biomesoplenty:plant_1:1","biomesoplenty:plant_1:7","biomesoplenty:plant_1:11","biomesoplenty:double_plant:0","biomesoplenty:double_plant:1","biomesoplenty:ivy","biomesoplenty:willow_vine"])
+      .matchBlocks(["biomesoplenty:plant_0:0","biomesoplenty:plant_0:1","biomesoplenty:plant_0:2","biomesoplenty:plant_0:3","biomesoplenty:plant_0:4","biomesoplenty:plant_0:5","biomesoplenty:plant_0:6","biomesoplenty:plant_0:7","biomesoplenty:plant_0:8","biomesoplenty:plant_0:9","biomesoplenty:plant_1:0","biomesoplenty:plant_1:1","biomesoplenty:plant_1:7","biomesoplenty:plant_1:11","biomesoplenty:double_plant:0","biomesoplenty:double_plant:1","biomesoplenty:ivy","biomesoplenty:willow_vine"])
       .replaceStrategy("ADD")
       .addDrop(Dropt.drop()
           .selector(Dropt.weight(180)) // drops nothing if selected
@@ -684,7 +684,7 @@ Dropt.list("plants_basic_dead")
 
   .add(Dropt.rule()
       .matchBiomes(["biomesoplenty:wasteland","biomesoplenty:xeric_shrubland"])
-      .matchBlocks(["biomesoplenty:plant_0:1","biomesoplenty:plant_0:2","biomesoplenty:plant_0:4","biomesoplenty:plant_0:5","biomesoplenty:plant_0:7","biomesoplenty:plant_0:8","biomesoplenty:plant_0:13","biomesoplenty:plant_0:14","biomesoplenty:plant_0:15","biomesoplenty:plant_1:0","biomesoplenty:plant_1:1","biomesoplenty:plant_1:2","biomesoplenty:plant_1:7","biomesoplenty:plant_1:11","biomesoplenty:double_plant:0","biomesoplenty:double_plant:1","biomesoplenty:ivy","biomesoplenty:willow_vine"])
+      .matchBlocks(["biomesoplenty:plant_0:0","biomesoplenty:plant_0:1","biomesoplenty:plant_0:2","biomesoplenty:plant_0:3","biomesoplenty:plant_0:4","biomesoplenty:plant_0:5","biomesoplenty:plant_0:6","biomesoplenty:plant_0:7","biomesoplenty:plant_0:8","biomesoplenty:plant_0:9","biomesoplenty:plant_1:0","biomesoplenty:plant_1:1","biomesoplenty:plant_1:2","biomesoplenty:plant_1:7","biomesoplenty:plant_1:11","biomesoplenty:double_plant:0","biomesoplenty:double_plant:1","biomesoplenty:ivy","biomesoplenty:willow_vine"]
       .replaceStrategy("ADD")
       .addDrop(Dropt.drop()
           .selector(Dropt.weight(180)) // drops nothing if selected
@@ -698,7 +698,7 @@ Dropt.list("plants_basic_dead")
 Dropt.list("tall_grass_base_drops")
 
   .add(Dropt.rule()
-      .matchBlocks(["biomesoplenty:plant_0:1","biomesoplenty:plant_0:2","biomesoplenty:plant_0:4","biomesoplenty:plant_0:5","biomesoplenty:plant_0:7","biomesoplenty:plant_0:8","biomesoplenty:plant_0:13","biomesoplenty:plant_0:14","biomesoplenty:plant_0:15","biomesoplenty:plant_1:0","biomesoplenty:plant_1:1","biomesoplenty:plant_1:2","biomesoplenty:plant_1:3","biomesoplenty:plant_1:7","biomesoplenty:plant_1:11","minecraft:tallgrass:1","minecraft:tallgrass:2","aether_legacy:aether_grass","aether_legacy:enchanted_aether_grass"])
+      .matchBlocks(["biomesoplenty:plant_0:0","biomesoplenty:plant_0:1","biomesoplenty:plant_0:2","biomesoplenty:plant_0:3","biomesoplenty:plant_0:4","biomesoplenty:plant_0:5","biomesoplenty:plant_0:6","biomesoplenty:plant_0:7","biomesoplenty:plant_0:8","biomesoplenty:plant_0:9","biomesoplenty:plant_1:0","biomesoplenty:plant_1:1","biomesoplenty:plant_1:2","biomesoplenty:plant_1:7","biomesoplenty:plant_1:11","minecraft:tallgrass:1","minecraft:tallgrass:2","aether_legacy:aether_grass","aether_legacy:enchanted_aether_grass"])
       .matchHarvester(Dropt.harvester()
           .type("PLAYER")
 	  )
@@ -736,6 +736,48 @@ Dropt.list("double_tall_grass_base_drops")
           .selector(Dropt.weight(8)) // Strange flower
           .items([<dungeontactics:flower_ailment>])
 	  )
+  );
+
+Dropt.list("wild_flax_base_drops")
+  .add(Dropt.rule()
+      .matchBlocks(["biomesoplenty:double_plant:0"])
+      .replaceStrategy("ADD")
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(500)) // drops nothing if selected
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(1000)) // plant fiber
+          .items([<pyrotech:material:12>])
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(2000)) // flax
+          .items([<harvestcraft:flaxitem>])
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(500))
+          .items([<pyrotech:tinder>]) // dried plant fiber
+      )
+  );
+
+Dropt.list("wild_rice_base_drops")
+  .add(Dropt.rule()
+      .matchBlocks(["biomesoplenty:plant_1:3"])
+      .replaceStrategy("ADD")
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(500)) // drops nothing if selected
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(1000)) // plant fiber
+          .items([<pyrotech:material:12>])
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(2000)) // rice
+          .items([<growthcraft_rice:rice>])
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(500))
+          .items([<pyrotech:tinder>]) // dried plant fiber
+      )
   );
 
 Dropt.list("slaked_lime")

@@ -264,6 +264,7 @@ JEI.addDescription(<harvestcraft:cottonitem>, "Cotton can be used in various tex
 JEI.addDescription(<betterwithmods:hemp>,"An extremely useful plant, hemp can make very high quality and durable fibers with a variety of uses. It's easily made into sails and different kinds of textiles. Grows two blocks high like Sugar Cane - be sure to only harvest the top one!");
 JEI.addDescription(<growthcraft_rice:rice>,"A unique kind of grass that grows on shallow water, ponds where it is planted are known as rice paddies. Raw rice grains are particularly full of harmful bacteria.");
 JEI.addDescription(<growthcraft_hops:hop_seeds>,"Hops used to make ale wort and alcohol; they need a Crop Rope acting as a guide to grow.");
+JEI.addDescription(<biomesoplenty:plant_1:3>,"Wild rice can be found growing abundantly in some wet areas. Harvesting it to obtain its grains to replant and farm them, or it can be used directly in cooking.");
 
 /* Food */
 JEI.addDescription(<animania:friesian_cheese_wheel>,"To form a cheese wheel, place milk from a goat, a sheep, or from certain breeds of cow in a cheese mold and wait several minutes for it to curdle.");
@@ -517,6 +518,8 @@ JEI.addDescription(<quark:rune:*>, "An aesthetic rune used to color items. Combi
 JEI.addDescription(<dungeontactics:magic_scroll>,"Wands contain potent magic, ready to be released on a mage's command. A magical powder is required to power the wand. Scholars can find more knowledge in the 'Magic' section of the guidebook.");
 
 JEI.addDescription(<dungeontactics:magic_powder>, "Powder containing magic obtained from various sources. This magical material is needed to cast powerful spells from wands.");
+
+JEI.addDescription(<arcaneworld:ritual_table>, "The ritual table is an arcane workstation that can perform magic traditional crafting cannot. Many possibilities exist when gathering the ingredients for a ritual; empowerment of an item with concentrated rune magic, summoning of certain creatures, and even wild changes to the environment...");
 
 #Runes
 //JEI.addDescription(<ore:runeItem>,"Runes are symbols carved into stones and imbued with aspects of nature that grant them a specific and strong magic affinity for an element. Their primary use is to act as a catalyst for other magical items or creating single-use orbs.");

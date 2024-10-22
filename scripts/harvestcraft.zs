@@ -55,10 +55,11 @@ JEI.removeAndHide(<harvestcraft:hardenedleatherhelmitem>);
 JEI.removeAndHide(<harvestcraft:hardenedleatherchestitem>);
 JEI.removeAndHide(<harvestcraft:hardenedleatherleggingsitem>);
 JEI.removeAndHide(<harvestcraft:hardenedleatherbootsitem>);
+JEI.removeAndHide(<harvestcraft:minerstewitem>);
+JEI.removeAndHide(<iceandfire:ambrosia>);
 
-
-recipes.remove(<harvestcraft:minerstewitem>);
-recipes.addShapeless("miners_stew",<harvestcraft:minerstewitem>,[<ore:toolPot>,<minecraft:iron_ingot>,<minecraft:gold_ingot>,<minecraft:redstone>,<minecraft:dye:4>,<ore:ingotableGem>,<minecraft:coal:0>,<minecraft:flint>,<minecraft:rotten_flesh>]);
+<harvestcraft:minerstewitem>.foodValues.hunger = 0;
+<harvestcraft:minerstewitem>.foodValues.saturationModifier = 0;
 
 recipes.remove(<harvestcraft:shippingbin>);
 recipes.addShaped("shipping_bin",<harvestcraft:shippingbin>,[

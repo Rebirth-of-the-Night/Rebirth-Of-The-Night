@@ -71,10 +71,10 @@ recipes.addShaped("liquid_barrel", <rustic:liquid_barrel>, [
 ]);
 
 recipes.remove(<rustic:crop_stake>);
-recipes.addShaped("crop_stake", <rustic:crop_stake>, [
-    [MiniBlocks.getMiniBlock("moulding", <ore:plankWood>)],
-    [MiniBlocks.getMiniBlock("moulding", <ore:plankWood>)],
-    [MiniBlocks.getMiniBlock("moulding", <ore:plankWood>)]
+recipes.addShaped("crop_stake", <rustic:crop_stake>*3, [
+	[<ore:fenceWood>],
+    [<ore:fenceWood>],
+    [<ore:fenceWood>]
 ]);
 
 // oredict herbs
@@ -226,7 +226,7 @@ var rusticCompatWood as IIngredient[string] = {
     "twilight_oak" : <twilightforest:twilight_oak_planks>,
     "canopy" : <twilightforest:canopy_planks>,
     "minewood" : <twilightforest:mine_planks>
-
+    
 } as IIngredient[string];
 
 var furnitureMap = { } as IIngredient[][IItemStack[]];

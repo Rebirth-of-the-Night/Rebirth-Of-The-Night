@@ -25,6 +25,7 @@ import mods.jei.JEI;
 JEI.removeAndHide(<bountifulbaubles:reforger>);
 JEI.removeAndHide(<bountifulbaubles:ringiron>);
 JEI.removeAndHide(<bountifulbaubles:phantomprism>);
+JEI.removeAndHide(<bountifulbaubles:amuletsingluttony>);
 LootTable.removeGlobalItem("bountifulbaubles:phantomprism");
 LootTable.removeGlobalItem("bountifulbaubles:reforger");
 LootTable.removeGlobalItem("bountifulbaubles:ringiron");
@@ -396,7 +397,6 @@ baubleAmulet.add(
   <behgameon:accessory_53>,
   <behgameon:accessory_54>,
   <bountifulbaubles:amuletsinempty>,
-  <bountifulbaubles:amuletsingluttony>,
   <bountifulbaubles:amuletsinpride>,
   <bountifulbaubles:amuletsinwrath>,
   <defiledlands:phytoprostasia_amulet>,
@@ -626,17 +626,6 @@ RecipeBuilder.get("mage")
 // Gluttony Pendant
 
 recipes.remove(<bountifulbaubles:amuletsingluttony>);
-
-RecipeBuilder.get("mage")
-  .setShaped([
-    [<contenttweaker:vis_sliver>, <contenttweaker:pristine_diamond>, <contenttweaker:vis_sliver>],
-    [<betternether:black_apple>, <bountifulbaubles:amuletsinempty>, <aether_legacy:white_apple>],
-    [<contenttweaker:vis_sliver>, <minecraft:golden_apple>, <contenttweaker:vis_sliver>]])
-  .addTool(<contenttweaker:energy_rune>, 1)
-  .addOutput(<bountifulbaubles:amuletsingluttony>)
-  .setMinimumTier(1)
-  .setMaximumTier(1)
-  .create();
 
 // Ender Dragon Scale
 

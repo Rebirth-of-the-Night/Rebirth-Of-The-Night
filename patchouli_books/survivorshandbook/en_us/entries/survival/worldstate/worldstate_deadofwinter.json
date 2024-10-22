@@ -2,7 +2,7 @@
   "name": "Dead of Winter",
   "icon": "iceandfire:dread_portal",
   "category": "survival_worldstate",
-  "advancement": "triumph:advancements/progression/killedSunSpirit",
+  "advancement": "triumph:advancements/progression/aether/killedsunspirit",
 
   "pages": [
  	{

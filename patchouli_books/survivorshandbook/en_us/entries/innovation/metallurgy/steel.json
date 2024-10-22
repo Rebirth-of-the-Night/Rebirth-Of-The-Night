@@ -6,7 +6,7 @@
         {
             "type": "spotlight",
             "item": "dungeontactics:steel_ingot",
-            "text": "There are many different variations of steel, but the variation I should use is a composition of 66% carbon from coal and 33% iron.$(br2)I can add this distribution into a $(l:innovation/burn/crucible)crucible$() over a fire to yield 1 crucible steel ingot."
+            "text": "There are many different variations of steel, but the variation I should use is a composition of 66% carbon from coal and 33% iron.$(br2)I can add this distribution into a $(l:innovation/burn/crucible)crucible$() over a fire to yield one crucible steel ingot."
         },
         {
             "type": "text",

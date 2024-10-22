@@ -30,7 +30,6 @@ JEI.removeAndHide(<cyclicmagic:plate_push_slow_corner>);
 JEI.removeAndHide(<cyclicmagic:plate_push_slow_angle>);
 JEI.removeAndHide(<cyclicmagic:target>);
 JEI.removeAndHide(<cyclicmagic:horse_upgrade_type>);
-JEI.removeAndHide(<cyclicmagic:horse_upgrade_health>);
 JEI.removeAndHide(<cyclicmagic:tool_mount>);
 JEI.removeAndHide(<cyclicmagic:plate_push>);//add back
 JEI.removeAndHide(<cyclicmagic:plate_push_corner>);//add back

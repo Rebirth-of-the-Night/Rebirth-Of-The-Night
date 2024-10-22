@@ -1635,9 +1635,6 @@ rawBeef.remove(<harvestcraft:groundbeefitem>);
 val tomato = <ore:cropTomato>;
 tomato.remove(<harvestcraft:tomatoitem>);
 
-val rice = <ore:listAllRice>;
-rice.remove(<harvestcraft:riceitem>);
-
 val animal_fat = <ore:burnable_fat>;
 animal_fat.addItems([<quark:tallow>, <betteranimalsplus:blubber>, <rustic:beeswax>]);
 
@@ -1776,6 +1773,11 @@ mortarCommon.addItems([<minecraft:clay_ball>,<minecraft:slime_ball>,<betterslime
 
 val mortarRefractory = <ore:mortarRefractory>;
 mortarRefractory.addItems([<ceramics:unfired_clay:4>,<pyrotech:material:8>,<pyrotech:material:4>,<contenttweaker:fiery_sludge>,<betterwithmods:material:35>]);
+
+val binder = <ore:materialBinding>;
+binder.addAll(<ore:treeLeaves>,<ore:flower>,<ore:vine>);
+binder.addItems([<biomesoplenty:plant_0:11>,<biomesoplenty:plant_0:12>,<quark:leaf_carpet:*>,<pyrotech:tinder>,<pyrotech:material:12>,<betterwithmods:material:3>,<minecraft:double_plant:3>,<minecraft:tallgrass:2>,<minecraft:double_plant:2>,<minecraft:tallgrass:1>,<biomesoplenty:plant_0:13>,<biomesoplenty:plant_0:14>,<biomesoplenty:plant_0:1>,<biomesoplenty:plant_0>,<biomesoplenty:plant_0:9>,<harvestcraft:barleyitem>,<harvestcraft:ryeitem>,<harvestcraft:oatsitem>,<betterwithmods:material:2>]);
+binder.removeItems([<minecraft:sapling>]);
 
 // Brick Rework
 // Primitive Bricks

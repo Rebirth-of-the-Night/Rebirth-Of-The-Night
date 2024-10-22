@@ -10,7 +10,7 @@
 			"type": "spotlight",
 			"title": "Lighting the Wickerman",
 			"item": "minecraft:lit_pumpkin",
-			"text": "$(#734608)The Harvester is less a monster and more a force of nature. Learned this dark ritual from a witch: building one of these scarecrows around a $(l:slayers_journal/soulfire_core)$(item)Soulfire Chassis$() $(#734608)will summon an echo of the Harvester's spirit. This must be killed to enable travel to the Nether!$()"
+			"text": "$(#734608)The Harvester is less a monster and more a force of nature. Learned this dark ritual from a witch: building one of these scarecrows around a $(l:slayers_journal/spiritfire_chassis)$(item)Spiritfire Chassis$() $(#734608)will summon an echo of the Harvester's spirit. This must be killed to enable travel to the Nether!$()"
 		},
 	{
 	"type": "multiblock",
