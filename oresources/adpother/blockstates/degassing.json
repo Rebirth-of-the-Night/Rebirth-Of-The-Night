@@ -1,7 +1,7 @@
 {
 	"forge_marker": 1,
 	"defaults": {
-		"model": "minecraft:cube_all",
+		"model": "minecraft:cross",
 		"transform": "forge:default-block"
 	},
 	"variants": {
@@ -18,17 +18,17 @@
 		"density": {
 			"light": {
 				"textures": {
-					"all": "adpother:blocks/degassing_light"
+					"cross": "adpother:blocks/degassing_light"
 				}
 			},
 			"medium": {
 				"textures": {
-					"all": "adpother:blocks/degassing_medium"
+					"cross": "adpother:blocks/degassing_medium"
 				}
 			},
 			"heavy": {
 				"textures": {
-					"all": "adpother:blocks/degassing_heavy"
+					"cross": "adpother:blocks/degassing_heavy"
 				}
 			}
 		}
