@@ -1,3 +1,5 @@
+#reloadable
+
 import crafttweaker.data.IData;
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
@@ -437,7 +439,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 // Doors
 <malisisdoors:jail_door>.addShiftTooltip("slidin into ur DMs");
 
-// Particular Eatables (Wildly Eat)
+// Eatables, Edibles
 <harvestcraft:teaitem:*>.addTooltip("Calming, but it gets you going.");
 <harvestcraft:teaitem>.addShiftTooltip("Can be consumed for a speed boost", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <harvestcraft:raspberryicedteaitem:*>.addTooltip("Sweet, refreshing, and it gets you going.");
@@ -450,6 +452,8 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <harvestcraft:coffeeconlecheitem>.addShiftTooltip("Can be consumed for a speed boost", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <growthcraft_rice:rice:*>.addTooltip("Staple of civilization; should be cooked first.");
 <growthcraft_rice:rice>.addShiftTooltip("Plant on a Rice Paddy.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<aether_legacy:healing_stone:*>.addTooltip("Restores max HP lost from dying to the Plague.");
+<betterwithmods:chicken_soup:*>.addTooltip("Has a 15 percent chance to remove plague effect.");
 
 <dungeontactics:toast:*>.addTooltip("Why did you make this?");
 <contenttweaker:baguettebrick>.addShiftTooltip("'this shit look like ancient debris with poop smeared on it' -elite meats");
@@ -463,7 +467,6 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <ore:plankWood>.addShiftTooltip("Can only be crafted in a crafting table, saw, or by chopping logs with an axe", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <wards:enchanted_paper:*>.addTooltip("Used to power Wards.");
 <aether_legacy:notch_hammer:*>.addTooltip("From the #1 princess in the world.");
-<aether_legacy:healing_stone:*>.addTooltip("Restores max HP lost from dying to the Plague.");
 <mowziesmobs:wrought_axe:*>.removeTooltip("Never breaks");
 <mowziesmobs:wrought_axe:*>.addTooltip("Only damaged by dying");
 <minecraft:enchanting_table:*>.addTooltip("Only usable at night.");

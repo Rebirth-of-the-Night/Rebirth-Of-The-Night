@@ -1,3 +1,5 @@
+#reloadable
+
 //Nyagi - The food items will be split by mod and by relatedness, i.e. Sandwiches, Burgers, Soups, ect...
 //Food values are determined by adding together input values. 
 //Saturation values are calculated by adding input values multiplied by 1.05^n, where n is number of input items with saturation values.
@@ -1684,6 +1686,10 @@ i.e "Bread Saturation 0.6 --> 3x = 0.6 --> saturationModifier = 0.2"
 <rustic:tomato>.foodValues.saturationModifier = 1;
 <rustic:chili_pepper>.foodValues.hunger = 1;
 <rustic:chili_pepper>.foodValues.saturationModifier = 1;
+
+// bwm
+<betterwithmods:chicken_soup>.foodValues.hunger = 2;
+<betterwithmods:chicken_soup>.foodValues.saturationModifier = 0.1;
 
 // Copy Paste
 /*

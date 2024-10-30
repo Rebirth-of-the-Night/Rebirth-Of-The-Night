@@ -419,14 +419,17 @@ val meatball = <mod_lavacow:meatball>;
 val misoPaste = <harvestcraft:misopasteitem>;
 val cakeBatter = <betterwithmods:raw_pastry>;
 
-//Stock Recipes
+// Stock Recipes
 recipes.remove(stock);
 //ExSartagine.addPotRecipe(<minecraft:bone>|<undergroundbiomes:fossil_piece:2>|<undergroundbiomes:fossil_piece:3>|<undergroundbiomes:fossil_piece:5>|<undergroundbiomes:fossil_piece:7>, stock);
 //ExSartagine.addPotRecipe(veggie, stock*2);
 //ExSartagine.addPotRecipe(<ore:listAllmeatraw>|<betterwithaddons:congealed>, stock*3);
 
-//Wormhole Potion
+// Wormhole Potion
 ExSartagine.addKettleRecipe([<quark:arrow_ender>,<minecraft:glass_bottle>],null,waterBottle,[<bountifulbaubles:potionwormhole>],300);
+
+// Lavender Porridge
+ExSartagine.addKettleRecipe([<rustic:ginseng>,<biomesoplenty:flower_1>], <minecraft:bowl>, waterBottle2, [<betterwithmods:chicken_soup>], 300);
 
 // Remove vanilla pastry recipes
 recipes.removeByRecipeName("harvestcraft:minecraft_pumpkinpie");

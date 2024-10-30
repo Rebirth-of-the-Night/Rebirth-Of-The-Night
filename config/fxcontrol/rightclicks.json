@@ -13,5 +13,30 @@
 		"block": "randomthings:voxelprojector",
 		"message": "I have no idea how to operate this thing...",
 		"result": "deny"
+	},
+	{
+		"playerhelditem": "minecraft:enchanted_book",
+		"nbt": [
+			{
+			  "tag": "ench",
+			  "contains": [
+				{
+				  "tag": "id",
+				  "value": 1
+				},
+				{
+				  "tag": "lvl",
+				  "value": 3
+				}
+			  ]
+			}
+		  ], 
+		"block": "da:change_block",
+		"result": "allow"
+	},
+	{
+		"block": "da:change_block",
+		"message": "A seal. I might be able to temporarily disable it.",
+		"result": "deny"
 	}
 ]
