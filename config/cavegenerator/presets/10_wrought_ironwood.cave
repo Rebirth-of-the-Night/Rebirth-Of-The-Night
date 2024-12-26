@@ -1,0 +1,117 @@
+{
+  enabled: true
+  structures: [
+    {
+      name: ironwoodsapling
+      matchers: [ "grass", "biomesoplenty:grass:2", "biomesoplenty:grass:3", "biomesoplenty:grass:4", "biomesoplenty:grass:7" ]
+      blockChecks: [ [ "contenttweaker:raw_wrought_iron", [ 0, -4, 0 ] ] ]
+      height: [ 50, 120 ]
+      checkSurface: false
+      directions: down
+      chance: 100
+      count: 1
+      offset: [ 0, 0, 0 ]
+      airChecks: []
+      solidChecks: []
+      debugSpawns: true
+    }
+    {
+      name: ironwoodsapling
+      matchers: [ "grass", "biomesoplenty:grass:2", "biomesoplenty:grass:3", "biomesoplenty:grass:4", "biomesoplenty:grass:7" ]
+      blockChecks: [ [ "contenttweaker:raw_wrought_iron", [ 0, -8, 0 ] ] ]
+      height: [ 50, 120 ]
+      checkSurface: false
+      directions: down
+      chance: 100
+      count: 1
+      offset: [ 0, 0, 0 ]
+      airChecks: []
+      solidChecks: []
+      debugSpawns: true
+    }
+    {
+      name: ironwoodsapling
+      matchers: [ "grass", "biomesoplenty:grass:2", "biomesoplenty:grass:3", "biomesoplenty:grass:4", "biomesoplenty:grass:7" ]
+      blockChecks: [ [ "contenttweaker:raw_wrought_iron", [ 0, -12, 0 ] ] ]
+      height: [ 50, 120 ]
+      checkSurface: false
+      directions: down
+      chance: 100
+      count: 1
+      offset: [ 0, 0, 0 ]
+      airChecks: []
+      solidChecks: []
+      debugSpawns: true
+    }
+    {
+      name: ironwoodsapling
+      matchers: [ "grass", "biomesoplenty:grass:2", "biomesoplenty:grass:3", "biomesoplenty:grass:4", "biomesoplenty:grass:7" ]
+      blockChecks: [ [ "contenttweaker:raw_wrought_iron", [ 0, -16, 0 ] ] ]
+      height: [ 50, 120 ]
+      checkSurface: false
+      directions: down
+      chance: 100
+      count: 1
+      offset: [ 0, 0, 0 ]
+      airChecks: []
+      solidChecks: []
+      debugSpawns: true
+    }
+    {
+      name: ironwoodsapling
+      matchers: [ "grass", "biomesoplenty:grass:2", "biomesoplenty:grass:3", "biomesoplenty:grass:4", "biomesoplenty:grass:7" ]
+      blockChecks: [ [ "contenttweaker:raw_wrought_iron", [ 0, -20, 0 ] ] ]
+      height: [ 50, 120 ]
+      checkSurface: false
+      directions: down
+      chance: 100
+      count: 1
+      offset: [ 0, 0, 0 ]
+      airChecks: []
+      solidChecks: []
+      debugSpawns: true
+    }
+    {
+      name: ironwoodsapling
+      matchers: [ "grass", "biomesoplenty:grass:2", "biomesoplenty:grass:3", "biomesoplenty:grass:4", "biomesoplenty:grass:7" ]
+      blockChecks: [ [ "contenttweaker:raw_wrought_iron", [ 0, -24, 0 ] ] ]
+      height: [ 50, 120 ]
+      checkSurface: false
+      directions: down
+      chance: 100
+      count: 1
+      offset: [ 0, 0, 0 ]
+      airChecks: []
+      solidChecks: []
+      debugSpawns: true
+    }
+    {
+      name: ironwoodsapling
+      matchers: [ "grass", "biomesoplenty:grass:2", "biomesoplenty:grass:3", "biomesoplenty:grass:4", "biomesoplenty:grass:7" ]
+      blockChecks: [ [ "contenttweaker:raw_wrought_iron", [ 0, -28, 0 ] ] ]
+      height: [ 50, 120 ]
+      checkSurface: false
+      directions: down
+      chance: 100
+      count: 1
+      offset: [ 0, 0, 0 ]
+      airChecks: []
+      solidChecks: []
+      debugSpawns: true
+    }
+    {
+      name: ironwoodsapling
+      matchers: [ "grass", "biomesoplenty:grass:2", "biomesoplenty:grass:3", "biomesoplenty:grass:4", "biomesoplenty:grass:7" ]
+      blockChecks: [ [ "contenttweaker:raw_wrought_iron", [ 0, -32, 0 ] ] ]
+      height: [ 50, 120 ]
+      checkSurface: false
+      directions: down
+      chance: 100
+      count: 1
+      offset: [ 0, 0, 0 ]
+      airChecks: []
+      solidChecks: []
+      debugSpawns: true
+    }
+  ]
+}
