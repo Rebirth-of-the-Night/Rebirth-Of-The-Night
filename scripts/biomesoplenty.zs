@@ -55,17 +55,6 @@ recipes.remove(<biomesoplenty:flesh>);
 furnace.setFuel(<biomesoplenty:ash>, 15);
 furnace.setFuel(<biomesoplenty:ash_block>, 150);
 
-RecipeBuilder.get("mage")
-  .setShaped([
-    [<biomesoplenty:fleshchunk>, <biomesoplenty:fleshchunk>],
-    [<biomesoplenty:fleshchunk>, <biomesoplenty:fleshchunk>]])
-  .addTool(<contenttweaker:life_rune>, 1)
-  .addTool(<contenttweaker:creation_rune>, 1)
-  .addOutput(<biomesoplenty:flesh>)
-  .setMinimumTier(1)
-  .setMaximumTier(1)
-  .create();
-
 recipes.remove(<biomesoplenty:mud>);
 recipes.addShaped("mudblock", <biomesoplenty:mud>, [
     [<biomesoplenty:mudball>,<biomesoplenty:mudball>],
