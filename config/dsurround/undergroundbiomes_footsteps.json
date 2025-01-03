@@ -181,6 +181,36 @@
 		"undergroundbiomes:igneous_monster_stone[type=basalt]": "obsidian",
 		"undergroundbiomes:metamorphic_monster_stone[type=marble]": "marble",
 		"undergroundbiomes:sedimentary_monster_stone[type=limestone]": "sandstone",
-		"undergroundbiomes:sedimentary_monster_stone[type=chalk]": "sandstone"
+		"undergroundbiomes:sedimentary_monster_stone[type=chalk]": "sandstone",
+
+
+		"contenttweaker:fancy_limestone": "sandstone",
+		"contentcreator:limestone_cobblestone_stairs": "sandstone",
+		"contentcreator:limestone_cobblestone_slab": "sandstone",
+		"contentcreator:limestone_cobblestone_slab_double": "sandstone",
+		"contentcreator:limestone_brick_stairs": "sandstone",
+		"contentcreator:limestone_brick_slab": "sandstone",
+		"contentcreator:limestone_brick_slab_double": "sandstone",
+		"contentcreator:chalk_cobblestone_stairs": "sandstone",
+		"contentcreator:chalk_cobblestone_slab": "sandstone",
+		"contentcreator:chalk_cobblestone_slab_double": "sandstone",
+		"contentcreator:chalk_brick_stairs": "sandstone",
+		"contentcreator:chalk_brick_slab": "sandstone",
+		"contentcreator:chalk_brick_slab_double": "sandstone",
+		"contentcreator:shale_brick_stairs": "brickstone",
+		"contentcreator:shale_brick_slab": "brickstone",
+		"contentcreator:shale_brick_slab_double": "brickstone",
+		"contentcreator:siltstone_brick_stairs": "brickstone",
+		"contentcreator:siltstone_brick_slab": "brickstone",
+		"contentcreator:siltstone_brick_slab_double": "brickstone",
+		"contentcreator:dolomite_brick_stairs": "brickstone",
+		"contentcreator:dolomite_brick_slab": "brickstone",
+		"contentcreator:dolomite_brick_slab_double": "brickstone",
+		"contentcreator:greywacke_brick_stairs": "brickstone",
+		"contentcreator:greywacke_brick_slab": "brickstone",
+		"contentcreator:greywacke_brick_slab_double": "brickstone",
+		"contentcreator:chert_brick_stairs": "brickstone",
+		"contentcreator:chert_brick_slab": "brickstone",
+		"contentcreator:chert_brick_slab_double": "brickstone"
 	}
 }

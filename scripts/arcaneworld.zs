@@ -85,4 +85,4 @@ ArcaneWorld.createRitualCreateItem("demonic_scythe_awakened", "Awakened Demonic 
 
 // Command execution
 // ArcaneWorld.createRitualCommand(String name, String displayName, String[] commands, IIngredient... inputs);
-ArcaneWorld.createRitualCommand("meteor", "Meteoric Magnet", ["/summon nyx:falling_meteor ~ ~20 ~"], [<rustic:elixir>.withTag({display: {LocName: "Simple Magnetism Elixir"}, ElixirEffects: [{Effect: "extraalchemy:effect.magnetism", Duration: 7200, Amplifier: 1}]})*2,<contenttweaker:fire_rune>, <contenttweaker:creation_rune>, <biomesoplenty:terrestrial_artifact>, <minecraft:magma>*8]).build();
+ArcaneWorld.createRitualCommand("meteor", "Meteoric Magnet", ["/summon nyx:falling_meteor ~ ~20 ~"], [<rustic:elixir>.withTag({display: {LocName: "Simple Magnetism Elixir"}, ElixirEffects: [{Effect: "extraalchemy:effect.magnetism", Duration: 7200, Amplifier: 1}]}),<contenttweaker:fire_rune>, <contenttweaker:earth_rune>, <biomesoplenty:terrestrial_artifact>, <minecraft:magma_cream>]).build();

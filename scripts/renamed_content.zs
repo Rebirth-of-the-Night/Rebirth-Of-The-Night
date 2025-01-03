@@ -16,6 +16,7 @@ import mods.jei.JEI;
 <biomesoplenty:hive:2>.displayName = "Giant Infested Honeycomb Block";
 <biomesoplenty:hive:3>.displayName = "Giant Filled Honeycomb Block";
 <biomesoplenty:bamboo:0>.displayName = "Bamboo Stick";
+<biomesoplenty:blue_fire>.displayName = "Cursed Fire";
 
 // Better With Mods
 <betterwithmods:axle_generator>.displayName = "Horizontal Windmill";

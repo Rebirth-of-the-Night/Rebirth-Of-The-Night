@@ -47,6 +47,13 @@ recipes.addShaped("tide_trident",<iceandfire:tide_trident>,[
 recipes.removeByRecipeName("iceandfire:summoning_crystal_fire");
 recipes.addShapeless("fire_dragon_summoning_crystal",<iceandfire:summoning_crystal_fire>,[<iceandfire:fire_dragon_blood>,<minecraft:ender_pearl>,<minecraft:diamond>,<biomesoplenty:gem:1>]);
 
+recipes.removeByRecipeName("iceandfire:dragon_ice_spikes");
+recipes.addShaped("icicles",<iceandfire:dragon_ice_spikes>,[
+    [null,null,null],
+    [<minecraft:ice>,null,<minecraft:ice>],
+    [<minecraft:ice>,null,<minecraft:ice>]
+]);
+
 // Pixie Wand
 recipes.remove(<iceandfire:pixie_wand>);
 

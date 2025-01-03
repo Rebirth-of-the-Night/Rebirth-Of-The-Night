@@ -48,6 +48,14 @@ import mods.jei.JEI;
  * Please follow it. - democat, the god
  */
 
+/* Display to JEI */
+JEI.addItem(<biomesoplenty:farmland_0:1>);
+JEI.addItem(<biomesoplenty:grass_path:1>);
+JEI.addItem(<biomesoplenty:grass_path:2>);
+JEI.addItem(<netherex:blue_fire>);
+JEI.addItem(<endreborn:end_fire>);
+JEI.addItem(<betterwithmods:stoked_flame>);
+
 /* Tools, Weapons, and Armor */
 val handle = <spartanweaponry:material>;
 val pole = <spartanweaponry:material:1>;
@@ -382,7 +390,7 @@ JEI.addDescription(<charset:logic_gate>.withTag({logic: "simplelogic:synchronize
 JEI.addDescription(<charset:logic_wire_n:0>, "A simple cable made out of some RedStuff™.");
 JEI.addDescription(<charset:logic_wire_n:1>, "A free-standing cable that does not require a wall to adhere to. It can be connected to normal wires by placing a flat cable in the same block as the free-standing cable.");
 
-JEI.addDescription(<sereneseasons:greenhouse_glass>, "Reinforced glass that has been blessed or enchanted to allow any crops to grow under its veil as long as there is light and water nearby.");
+JEI.addDescription(<sereneseasons:greenhouse_glass>, "Framed glass that has been enchanted to allow any crops under its veil to grow out of season, as long as there is light and water present. Crops more than 7 blocks below the glass will not receive its benefits.");
 
 JEI.addDescription([<advancedmortars:mortar:0>, <advancedmortars:mortar:2>, <advancedmortars:mortar:4>, <advancedmortars:mortar:6>], "Magic mortars... [description WIP]");
 JEI.addDescription(<advancedmortars:mortar:1>, "Made of durable metals and totally kitchen-safe.");
@@ -510,6 +518,13 @@ JEI.addDescription(<contenttweaker:scaffolding>, "A rickety building material th
 JEI.addDescription(<animania:raw_prime_bacon>, "Shut the fuck up. I mean this when I say it. Y'all might think it's weird until you feel the raw bacon slime down your throat and you experience bliss. It's not even dangerous, almost all 'raw bacon' that you can buy has already been smoked and sanitized. Shut the fuck up. Literally. Y'all will never know what it's like to feel good because you're always putting people down. Seriously. Shut the fuck up 'is this real' yes it's real. You guys just hate to see whenever someone else is winning. I bet that you guys like your bacon fucking crispy, no pleasurable texture to it at all when you bite into it. Y'know what, that can be your body if you keep on talking about this. I'll cook you up since you guys love cooked shit so much, and eat you, and complain that it's overcooked. I bet you guys haven't had a good slice of bacon in your life. Hell, I bet y'all haven't ever had good food in the first place. Fuck you all, I'm literally happier than any of you and you're all just pissed because you can't be like me. Fuck off, losers.");
 JEI.addDescription(<atop:amber_sword>, "Deep in the human unconscious is a pervasive need for a logical universe that makes sense; but the real universe is always one step beyond logic.");
 JEI.addDescription(<contenttweaker:slime_nesting>, "Lime slimes proliferate in droves in the Overworld's grasslands when left unchecked. A slime nesting is the only spot on which lime and watermelon slimes can appear; getting rid of it will get rid of them... or it could be used to redirect their population.");
+JEI.addDescription(<netherex:blue_fire>, "An unnatural blue flame emits a freezing cold sensation. Unlike regular fire, it cannot be put out by water. Most commonly found high in the Aether in its frozen regions.");
+JEI.addDescription(<endreborn:end_fire>, "A supernatural flame that defies logic. It does not even naturally occur, seeming to be some arcane invention of the Enderfolk; their secrets remain a mystery...");
+JEI.addDescription(<betterwithmods:stoked_flame>, "A superheated flame only producible by stoking the flame of a hibachi, powered by hellfire. When combined with certain containers such as a cooking cauldron or crucible, it allows you to reach extreme temperatures that are necessary for certain creations. Take care when using it; some recipes may not play with the superheated temperatures too nicely...");
+JEI.addDescription(<biomesoplenty:blue_fire>, "An unusual flame found within the Nether; rather than burning, it causes uncontrollable movements. Can be picked up with a Mason Jar.");
+JEI.addDescription(<biomesoplenty:jar_filled:1>, "Obtained by picking up Cursed Fire with a Mason Jar. Can be put elsewhere.");
+
+
 
 /* Runes and Magic */
 JEI.addDescription(<quark:rune:*>, "An aesthetic rune used to color items. Combine with an enchanted item in an iron anvil to change the item's glint color.");
@@ -571,8 +586,3 @@ JEI.addDescription(<growthcraft_cellar:yeast:1>, "A yeast which appears to be ca
 JEI.addDescription(<growthcraft_cellar:yeast:2>, "A yeast which appears to be capable of making a wonderful port wine. It can sometimes be obtained when harvesting grapes. Placing this in the output slot of a culture jar will ensure only bayanus yeast is produced, irrespective of the biome.");
 JEI.addDescription(<growthcraft_cellar:yeast:3>, "A yeast which appears to have mystical properties. It can be cultivated in culture jars with any fermentable liquid in magical biomes, like the Mystical Grove. Placing this in the output slot of a culture jar will ensure only ethereal yeast is produced, irrespective of the biome.");
 JEI.addDescription(<growthcraft_cellar:yeast:4>, "A yeast which appears to be quite mycelial. It can be cultivated in culture jars with any fermentable liquid in mushroom biomes, like the Mushroom Islands. Placing this in the output slot of a culture jar will ensure only origin yeast is produced, irrespective of the biome.");
-
-/* Misc */
-JEI.addItem(<biomesoplenty:farmland_0:1>);
-JEI.addItem(<biomesoplenty:grass_path:1>);
-JEI.addItem(<biomesoplenty:grass_path:2>);

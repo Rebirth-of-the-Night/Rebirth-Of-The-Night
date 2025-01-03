@@ -46,6 +46,9 @@ recipes.addShaped("healing_pad",<defiledlands:healing_pad>,[
 recipes.remove(<defiledlands:blastem_fruit_blazing>);
 recipes.addShapeless("blastem_fruit_blazing",<defiledlands:blastem_fruit_blazing>*4,
     [<defiledlands:blastem_fruit>,<defiledlands:blastem_fruit>,<defiledlands:blastem_fruit>,<defiledlands:blastem_fruit>,<minecraft:fire_charge>]);
+
+recipes.addShapeless("blastem_seed", <defiledlands:blastem_seed>, [<defiledlands:blastem_fruit>]);
+
 //Scarlite Razor
 recipes.remove(<defiledlands:scarlite_razor>);
 Infuser.addShaped(<defiledlands:scarlite_razor>,[

@@ -101,6 +101,9 @@ alcHerb.add(
 // Chili pepper to chili seed recipe
 recipes.addShapeless("chili_seed", <rustic:chili_pepper_seeds>, [<rustic:chili_pepper>]);
 
+// Tomato to tomato seed recipe
+recipes.addShapeless("tomato_seed", <rustic:tomato_seeds>, [<rustic:tomato>]);
+
 // Iron and Gold Lanterns
 recipes.remove(<rustic:golden_lantern>);
 recipes.remove(<rustic:iron_lantern>);
