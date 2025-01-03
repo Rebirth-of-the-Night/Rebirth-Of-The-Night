@@ -415,6 +415,7 @@ aether_legacy:phoenix_helmet
 aether_legacy:phoenix_chestplate
 aether_legacy:phoenix_leggings
 aether_legacy:phoenix_boots
+aether_legacy:phoenix_bow
 aether_legacy:obsidian_helmet
 aether_legacy:obsidian_chestplate
 aether_legacy:obsidian_leggings
@@ -464,8 +465,4 @@ contenttweaker:mercurial_ooze
 nyx:meteor_shard
 minecraft:fire_charge
 contenttweaker:heart_of_fire
-aether_legacy:phoenix_bow
-aether_legacy:pheonix_helmet
-aether_legacy:pheonix_chestplate
-aether_legacy:pheonix_leggings
-aether_legacy:pheonix_boots
+minecraft:blaze_rod
